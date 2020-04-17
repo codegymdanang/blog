@@ -22,8 +22,17 @@ Sau khi server tạo các giá trị session , server sẽ tạo ra một tệp 
 Cookie cũng được dùng để lưu những thông tin tạm thời. ệp tin cookie sẽ được truyền từ server tới browser và được lưu trữ trên máy tính của bạn khi bạn truy cập vào ứng dụng.
 Như vậy dù có tắt browser cũng không mất đi các giá trị vì chúng ta đã lưu nó trên máy tính của mình
 
+## So sánh session và cookie
 
-
+{:class="table table-bordered"}
+ |  	 Cookie                                             |   Session	                                        | 
+ |---	                                                    |---	     	                                    |
+ |   Cookie được lưu trữ trên trình duyệt của người dùng.   |   Session không được lưu trữ trên trình duyệt.                                                
+ |  Dữ liệu cookie được lưu trữ ở phía client.|Dữ liệu session được lưu trữ ở phía server. | 
+ |  Dữ liệu cookie dễ dàng sửa đổi hoặc đánh cắp khi chúng được lưu trữ ở phía client      |   Dữ liệu session không dễ dàng sửa đổi vì chúng được lưu trữ ở phía máy chủ.|
+ |  Dữ liệu cookie có sẵn trong trình duyệt đến khi expired.   | Sau khi đóng trình duyệt sẽ hết phiên làm việc (session)   |
+ 
+ 
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
 
 {% include youtubePlayer.html id=page.youtubeId %}
