@@ -2,7 +2,7 @@
 layout: blog
 title: Sử dụng Angular gọi webservice  
 category: blog
-tags: [angular]
+tags: [ui]
 summery: Sử dụng Angular gọi webservice  
 image: /images/blog/angular.png
 youtubeId: edYsCowgQq0
