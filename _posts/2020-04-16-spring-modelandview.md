@@ -2,7 +2,7 @@
 layout: blog
 title: Model And View Trong Spring 
 category: blog
-tags: [Spring]
+tags: [spring]
 summery: Model And View Trong Springg
 image: /images/blog/spring.png
 youtubeId: vaQxJlfmB6s

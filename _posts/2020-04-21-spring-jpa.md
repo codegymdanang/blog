@@ -2,7 +2,7 @@
 layout: blog
 title: JPA Thao Tác Database Trong Spring 
 category: blog
-tags: [Spring]
+tags: [spring]
 summery: JPA Thao Tác Database Trong Spring 
 image: /images/blog/spring.png
 youtubeId: 4dQlWJQ7ZQo

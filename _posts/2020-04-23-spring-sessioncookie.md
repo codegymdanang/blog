@@ -2,7 +2,7 @@
 layout: blog
 title: Phân Biệt Session và Cookie 
 category: blog
-tags: [Spring]
+tags: [spring]
 summery: Phân Biệt Session và Cookie 
 image: /images/blog/spring.png
 youtubeId: ym4-rU9R6fM
