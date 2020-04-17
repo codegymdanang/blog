@@ -4,7 +4,7 @@ title: Xu hướng nghành CNTT
 category: blog
 tags: [confidence]
 summery: Xu hướng nghành lập trình   
-image: /images/blog/softskills.jpg
+image: /images/blog/softskills.png
 youtubeId: r2w7in6xMB4
 ---
  

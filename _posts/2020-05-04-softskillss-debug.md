@@ -4,7 +4,7 @@ title: Cách tìm bug trong lập trình
 category: blog
 tags: [skills]
 summery: Cách tìm bug trập trình   
-image: /images/blog/softskills.jpg
+image: /images/blog/softskills.png
 youtubeId: xLFCVXGSlNA
 ---
  
