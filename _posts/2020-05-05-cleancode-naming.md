@@ -14,4 +14,4 @@ câu trả lời cho các lỗi mình gặp trong lập trình
 Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
 
 
-{% include youtubePlayer.hcleantml id=page.youtubeId %}
+{% include youtubePlayer.html id=page.youtubeId %}
