@@ -54,9 +54,13 @@ ngữ cảnh khác nhau
 3. Chúng ta muốn chú trọng vào hành động hơn lvaf về cấu trúc đối tượng
 4. Chúng ta muốn sử dụng đa thừa kế 
 
+### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
+
 <center>
 {% include youtubePlayer.html id=page.youtubeId1 %}
 </center>
+
+### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId2 %}

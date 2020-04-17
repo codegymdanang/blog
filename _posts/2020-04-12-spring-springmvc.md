@@ -33,7 +33,6 @@ và chuyển hoá dữ liệu trong database thành model và trả ngược l�
  đồng thời truyền model để trang view hiểu thị dữ liệu. Kết quả cuối cùng là ta có một trang website hoàn chỉnh có HTML và dữ liệu .
 7. Cuối cùng DispatchServlet gửi lại kết quả trang web cho client
 
-
-Read more: https://javarevisited.blogspot.com/2017/06/how-spring-mvc-framework-works-web-flow.html#ixzz6Jr3dvRfa
+### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
 
 {% include youtubePlayer.html id=page.youtubeId %}
