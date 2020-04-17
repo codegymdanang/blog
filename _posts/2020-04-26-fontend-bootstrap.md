@@ -7,6 +7,6 @@ summery: Bootstrap cơ bản phần 1
 image: /images/blog/ui.jpeg
 youtubeId: 2xSwAsdcwLo
 ---
- 
+
 
 {% include youtubePlayer.html id=page.youtubeId %}
