@@ -106,11 +106,11 @@
 
 						<!-- Related Posts-->
 						<div class="relatedPosts">
-							<hr>
-							<h2>Có thể bạn muốn xem </h2>
+							<hr style="border: 1px solid red">
+							<h2 style="background-color: #D23636">Có thể bạn muốn xem </h2>
 							{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
 							<div style="text-align: left; padding: 10px 10px 10px 10px" >
-								<ul>
+								<ul style="list-style-type:circle">
 									{% for post in posts %}
 
 											<li>
@@ -129,7 +129,7 @@
 
 						<!-- End Related Posts -->
 						<div>
-							<hr/>
+							<hr style="border: 1px solid red" />
 							<h4>Comments</h4>
 							<div class="fb-comments" data-href="https://levunguyen.com{{ page.url }}" data-colorscheme="dark" data-num-posts="4" data-width="706"></div>
 						</div>

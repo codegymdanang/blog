@@ -92,10 +92,14 @@
       <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85119045">
-              <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.375">
+              <caret line="130" column="29" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
               <folding>
+                <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -421,12 +425,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00295" summary="CICD">
-      <created>1587056472163</created>
-      <option name="number" value="00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1587056472163</updated>
-    </task>
     <task id="LOCAL-00296" summary="CICD">
       <created>1587092598583</created>
       <option name="number" value="00296" />
@@ -715,7 +713,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587183622696</updated>
     </task>
-    <option name="localTasksCounter" value="344" />
+    <task id="LOCAL-00344" summary="update">
+      <created>1587183845348</created>
+      <option name="number" value="00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1587183845349</updated>
+    </task>
+    <option name="localTasksCounter" value="345" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1305,10 +1309,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85119045">
-          <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.375">
+          <caret line="130" column="29" selection-start-line="130" selection-start-column="29" selection-end-line="130" selection-end-column="29" />
           <folding>
+            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
