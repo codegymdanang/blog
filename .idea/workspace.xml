@@ -92,8 +92,8 @@
       <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3916449">
-              <caret line="122" column="56" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.1775457">
+              <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -420,12 +420,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00290" summary="refactor class name">
-      <created>1587054333602</created>
-      <option name="number" value="00290" />
-      <option name="project" value="LOCAL" />
-      <updated>1587054333602</updated>
-    </task>
     <task id="LOCAL-00291" summary="refactor class name">
       <created>1587054792965</created>
       <option name="number" value="00291" />
@@ -714,7 +708,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587175237955</updated>
     </task>
-    <option name="localTasksCounter" value="339" />
+    <task id="LOCAL-00339" summary="update">
+      <created>1587175424924</created>
+      <option name="number" value="00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1587175424924</updated>
+    </task>
+    <option name="localTasksCounter" value="340" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1304,8 +1304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3916449">
-          <caret line="122" column="56" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.1775457">
+          <caret line="111" column="41" selection-start-line="111" selection-start-column="41" selection-end-line="111" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
