@@ -110,11 +110,6 @@
 							<h3>Related post</h3>
 							{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
 							{% for post in posts %}
-									<div class="single_post_img">
-										{% if post.image %}
-										<a href='{{post.url | relative_url }}'><img class='post-image' src="{{post.image | relative_url}}" /></a>
-										{% endif %}
-									</div>
 									<div class="single_post_text text-center">
 										<a href='{{post.url | relative_url }}'>
 											<h5 class='post-title'>{{post.title}}</h5>
