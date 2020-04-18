@@ -106,15 +106,20 @@
 
 						<!-- Related Posts-->
 						<div class="relatedPosts">
-
-							<h3>Related post</h3>
+							<hr>
+							<h2>Có thể bạn muốn xem </h2>
 							{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
 							{% for post in posts %}
-									<div class="single_post_text text-center">
-										<a href='{{post.url | relative_url }}'>
-											<h5 class='post-title'>{{post.title}}</h5>
-										</a>
-										<h6>Posted : {{ post.date | date: "%B %d, %Y"}}</h6>
+									<div style="text-align: left; padding: 10px 10px 10px 10px" >
+										<ul>
+											<li>
+												<a href='{{post.url | relative_url }}'>
+													<h5 class='post-title'>{{post.title}}</h5>
+												</a>
+											</li>
+										</ul>
+
+
 									</div>
 							{% endfor %}
 
