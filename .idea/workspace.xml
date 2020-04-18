@@ -92,11 +92,21 @@
       <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8237598">
-              <caret line="142" column="30" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.2545692">
+              <caret line="115" column="63" selection-start-line="115" selection-start-column="63" selection-end-line="115" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cleancode-home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/cleancode-home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.25">
+              <caret line="73" column="63" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -410,12 +420,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00288" summary="refactor class name">
-      <created>1587053001702</created>
-      <option name="number" value="00288" />
-      <option name="project" value="LOCAL" />
-      <updated>1587053001702</updated>
-    </task>
     <task id="LOCAL-00289" summary="refactor class name">
       <created>1587054197266</created>
       <option name="number" value="00289" />
@@ -704,7 +708,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587174728296</updated>
     </task>
-    <option name="localTasksCounter" value="337" />
+    <task id="LOCAL-00337" summary="update">
+      <created>1587175044129</created>
+      <option name="number" value="00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1587175044129</updated>
+    </task>
+    <option name="localTasksCounter" value="338" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -891,13 +901,6 @@
     <entry file="file://$PROJECT_DIR$/images/blog/angular.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/cleancode-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="74" column="67" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="67" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-04-effectivecode-sonar.md">
@@ -1269,6 +1272,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/cicd-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="74" column="62" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-01-java-oop.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1283,18 +1294,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/cicd-home.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/cleancode-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="74" column="62" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="62" />
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="73" column="63" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8237598">
-          <caret line="142" column="30" selection-start-line="142" selection-start-column="30" selection-end-line="142" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.2545692">
+          <caret line="115" column="63" selection-start-line="115" selection-start-column="63" selection-end-line="115" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
