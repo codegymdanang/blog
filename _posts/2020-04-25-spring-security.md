@@ -29,7 +29,7 @@ xát thực mình là user trong hệ thống . Tiếp đến tuỳ vào role c�
 ### Chúng ta bắt tay vào code ứng dụng thôi
 Luồng đi của ứng dụng mình như sau
 1. User nhập vào username và password sau đó bấm login 
-2. Server sẽ nhận được request từ người dùng và chuyển tới controller tương ứng
+2. Server sẽ nhận được request từ người dùng và chuyển tới controller tương ứng do ta cấu hình trong file configure của spring security 
 3. Controller sẽ gọi Service và Service sẽ gọi database để lấy thông tin authentication đúng không và role người dùng là gì?
 4. Sau khi có thông tin đúng thì trả kết quả lại cho người dùng
 Okie , vậy chúng ta sẽ đi từng bước sau để xây dụng ứng dụng nhé .

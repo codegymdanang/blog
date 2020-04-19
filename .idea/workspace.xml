@@ -25,14 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2020-04-23-spring-sessioncookie.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2020-04-23-spring-sessioncookie.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
+              <first_editor vertical-scroll-proportion="0.6692913">
                 <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
                 <folding />
               </first_editor>
@@ -58,15 +58,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-04-25-spring-security.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-04-25-spring-security.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-25-spring-security.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="6.968504">
-                <caret line="354" column="41" selection-start-line="354" selection-start-column="41" selection-end-line="354" selection-end-column="41" />
+              <first_editor vertical-scroll-proportion="0.5905512">
+                <caret line="31" column="136" selection-start-line="31" selection-start-column="136" selection-end-line="31" selection-end-column="136" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -432,12 +432,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00300" summary="dependency Injection">
-      <created>1587096062052</created>
-      <option name="number" value="00300" />
-      <option name="project" value="LOCAL" />
-      <updated>1587096062052</updated>
-    </task>
     <task id="LOCAL-00301" summary="dependency Injection">
       <created>1587096628745</created>
       <option name="number" value="00301" />
@@ -726,7 +720,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587309489553</updated>
     </task>
-    <option name="localTasksCounter" value="349" />
+    <task id="LOCAL-00349" summary="update">
+      <created>1587313033337</created>
+      <option name="number" value="00349" />
+      <option name="project" value="LOCAL" />
+      <updated>1587313033337</updated>
+    </task>
+    <option name="localTasksCounter" value="350" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1184,7 +1184,7 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
+          <first_editor vertical-scroll-proportion="0.6692913">
             <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
             <folding />
           </first_editor>
@@ -1302,8 +1302,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="6.968504">
-            <caret line="354" column="41" selection-start-line="354" selection-start-column="41" selection-end-line="354" selection-end-column="41" />
+          <first_editor vertical-scroll-proportion="0.5905512">
+            <caret line="31" column="136" selection-start-line="31" selection-start-column="136" selection-end-line="31" selection-end-column="136" />
             <folding />
           </first_editor>
           <second_editor />
