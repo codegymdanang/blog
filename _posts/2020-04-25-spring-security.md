@@ -34,7 +34,7 @@ Luồng đi của ứng dụng mình như sau
 4. Sau khi có thông tin đúng thì trả kết quả lại cho người dùng
 Okie , vậy chúng ta sẽ đi từng bước sau để xây dụng ứng dụng nhé .
 
-## Bước 1 . Chuẩn bị database 
+#### Bước 1 . Chuẩn bị database 
 Mình dùng database để lưu thông tin người dùng và role (vai trò,được phép làm gì). Phục vụ cho việc truy vấn username và role
 có hợp lệ hay không 
 
@@ -60,7 +60,7 @@ Nếu chạy script xong thì mình sẽ có 2 users sau :
 
 ![Cấu trúc dự án](/images/post/spring/springsecuritystructure.png){:class="img-responsive"}
 
-## Bước 2. Thêm dependencies cần thiết trong pom.xml
+#### Bước 2. Thêm dependencies cần thiết trong pom.xml
 Chúng ta thêm các dependencies spring security, thymeleaf, mysql connector và jpa  
 
 {% highlight java linenos %}
@@ -91,7 +91,7 @@ Chúng ta thêm các dependencies spring security, thymeleaf, mysql connector v�
 
 {% endhighlight %}
 
-#Bước 3. Tạo form login . 
+#### Bước 3. Tạo form login . 
 Khi người dùng click vào nút submit thì action mình dùng là /j_spring_security_check cái này là mặc định của spring
 
 {% highlight html  linenos %} 
@@ -117,7 +117,7 @@ Khi người dùng click vào nút submit thì action mình dùng là /j_spring_
 </form>
 {% endhighlight %}
 
-#Bước 4. Tạo file WebSecurityConfig để cấu hình  cho Spring security .  
+#### Bước 4. Tạo file WebSecurityConfig để cấu hình  cho Spring security .  
 Các bạn có thể tìm thấy file đó ở github ở trên trong thư mục configure/WebSecurityConfig. 
 File WebSecurityConfig sẽ kế thừa WebSecurityConfigurerAdapter để mình tuỳ chỉnh các cấu hình security cho ứng dụng của mình.
 Giờ a sẽ giải thích nhiệm vụ của các method
@@ -204,7 +204,7 @@ Username này là ai trong hệ thống , UserName này có quyền gì. Chúng 
     }
 {% endhighlight %}
 
-#Bước 5. Tạo UserDetailsServiceImpl 
+#### Bước 5. Tạo UserDetailsServiceImpl 
 File này sẽ implement UserDetailsService của Spring và định nghĩa cách kiểm tra username , password và quyền của user có hợp lệ hay không
 Khi user login vào hệ thống ta sẽ query xuống database để kiểm tra user có đúng trong database không và quyền là gì ?
 
@@ -245,7 +245,7 @@ Khi user login vào hệ thống ta sẽ query xuống database để kiểm tra
     }
 {% endhighlight %}
 
-#Bước 6. Tạo các điều hướng trong controller 
+##### Bước 6. Tạo các điều hướng trong controller 
 Khi người dùng đã đang nhập thành công , họ có thể điều hướng tới các trang khác .Thì mình sẽ tạo các mapping trong Controller 
 Để điều hướng người dùng tới các view tương ứng. Những điều hướng này nằm ở bước 4 method configure 
 
@@ -320,7 +320,7 @@ Khi người dùng đã đang nhập thành công , họ có thể điều hư�
     }
 {% endhighlight %}
 
-#Bước 7. Tạo Repository để query database 
+##### Bước 7. Tạo Repository để query database 
 
 Chúng ta tạo file  AppUserDAO sử dụng entity manager để tạo và thực thi câu lệnh SQL . 
 Mình hoàn toàn có thể sử dụng JPA để query . Cái này tuỳ các em . Mục đích cuối cùng là query được  User có trong table hay không mà thôi .
@@ -351,13 +351,13 @@ public class AppUserDAO {
 }
 {% endhighlight %}
 
-#Bước 8 . Tạo các trang view cần thiết để hiện thị
+##### Bước 8 . Tạo các trang view cần thiết để hiện thị
 Mọi ngừoi có thể lấy trực tiếp từ github của anh trong folder view.
 
-#Bước 9. Chạy ứng dụng
+##### Bước 9. Chạy ứng dụng
 Như vậy là mình đã xong cấu hình cho Spring security . Phần quan trong nhất  chính là bước 4. Nới mình cấu
 hình và phân quyền trong Spring Security 
 
 
-
+### Mọi người có thể xem thêm lý thuyết tại đây nhé 
 {% include youtubePlayer.html id=page.youtubeId %}
