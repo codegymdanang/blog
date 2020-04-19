@@ -34,7 +34,9 @@ Luồng đi của ứng dụng mình như sau
 4. Sau khi có thông tin đúng thì trả kết quả lại cho người dùng
 Okie , vậy chúng ta sẽ đi từng bước sau để xây dụng ứng dụng nhé .
 
-## Bước 1 . Chuẩn bị database để lưu thông tin người dùng và role (vai trò,được phép làm gì) 
+## Bước 1 . Chuẩn bị database 
+Mình dùng database để lưu thông tin người dùng và role (vai trò,được phép làm gì). Phục vụ cho việc truy vấn username và role
+có hợp lệ hay không 
 
 ![Database  ](/images/post/spring/security_db.png){:class="img-responsive"}
 
@@ -46,8 +48,10 @@ trong databaPPse xem là username và password có đúng như trong database kh
 user chỉ được phép vào 1 trang là user page
 3. Table USER_ROLE là table dùng để nối 2 bảng APP_USER và APP_ROLE , nó được dùng để cho phép 1 user có thể có nhiều quyền. Ví dụ như admin có thể vào cả 2 trang user và admin 
 
-4. Tạo database thôi nào. Anh có viết script tạo cấu trúc database và tạo dữ liệu user và admin tại đây. Mọi người copy về và chạy script này trong workbench để tạo dữ liệu nhé
-https://github.com/codegymdanang/CGDN-SpringBoot-SpringSecurity
+4. Tạo database thôi nào. Anh có viết script tạo cấu trúc database và tạo dữ liệu user và admin tại đây. 
+Mọi người copy về và chạy script này trong workbench để tạo dữ liệu nhé . 
+
+https://github.com/codegymdanang/CGDN-SpringBoot-SpringSecurity 
 Nếu chạy script xong thì mình sẽ có 2 users sau :
 + username : dbuser1  -  Password : 123
 + username : dbadmin1 -  Password : 123
@@ -113,7 +117,7 @@ Khi người dùng click vào nút submit thì action mình dùng là /j_spring_
 </form>
 {% endhighlight %}
 
-#Bước 4. Tạo file WebSecurityConfig để cấu hình  cho Spring security của chúng ta.  
+#Bước 4. Tạo file WebSecurityConfig để cấu hình  cho Spring security .  
 Các bạn có thể tìm thấy file đó ở github ở trên trong thư mục configure/WebSecurityConfig. 
 File WebSecurityConfig sẽ kế thừa WebSecurityConfigurerAdapter để mình tuỳ chỉnh các cấu hình security cho ứng dụng của mình.
 Giờ a sẽ giải thích nhiệm vụ của các method
