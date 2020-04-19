@@ -52,7 +52,63 @@ Nếu chạy script xong thì mình sẽ có 2 users sau :
 + username : dbuser1  -  Password : 123
 + username : dbadmin1 -  Password : 123
 
+5. Cấu trúc dự án
+![Cấu trúc dự án](/images/post/spring/springsecuritystructure.png){:class="img-responsive"}
 
+## Bước 2. Thêm dependency spring security, thymeleaf, mysql connector và jpa  trong pom.xml
+{% highlight java linenos %}
+
+<dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+{% endhighlight %}
+
+#Bước 3. Tạo form login . 
+Khi người dùng click vào nút submit thì action mình dùng là /j_spring_security_check cái này là mặc định của spring
+
+{% highlight html  linenos %} 
+<h3>Enter user name and password:</h3>
+<form name='f' th:action="@{/j_spring_security_check}" method='POST'>
+    <table>
+        <tr>
+            <td>User:</td>
+            <td><input type='text' name='username' value=''></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type='password' name='password' /></td>
+        </tr>
+        <tr>
+            <td>Remember Me?</td>
+            <td><input type="checkbox" name="remember-me" /></td>
+        </tr>
+        <tr>
+            <td><input name="submit" type="submit" value="submit" /></td>
+        </tr>
+    </table>
+</form>
+{% endhighlight %}
 
 
 
