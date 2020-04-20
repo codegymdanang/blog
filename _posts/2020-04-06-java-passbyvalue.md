@@ -47,8 +47,7 @@ Pass by reference (Truyền tham chiếu) : Ngược lại với Pass by value .
 Trong trường hợp này hàm process(int &value) trỏ thằng tới địa chỉ vùng nhớ nơi lưu giá trị 7. Như vậy khi ta thay đổi giá trị trong hàm nó thay 
 đổi luôn giá trị khác 
 
-# Trong Java là 100% truyền tham trị (passed by value) 
+# Các bạn nên nhớ trong  Java là 100% truyền tham trị (passed by value) nhé 
 
 
-{% include youtubePlayer.html id=page.youtubeId %}
 

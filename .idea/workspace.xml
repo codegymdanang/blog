@@ -29,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.2559055">
-                <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+              <first_editor vertical-scroll-proportion="0.8031496">
+                <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -125,8 +125,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1633" />
-    <option name="y" value="183" />
+    <option name="x" value="-1615" />
+    <option name="y" value="61" />
     <option name="width" value="1442" />
     <option name="height" value="965" />
   </component>
@@ -323,12 +323,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00328" summary="update">
-      <created>1587137804668</created>
-      <option name="number" value="00328" />
-      <option name="project" value="LOCAL" />
-      <updated>1587137804668</updated>
     </task>
     <task id="LOCAL-00329" summary="update">
       <created>1587138047476</created>
@@ -618,11 +612,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587393873292</updated>
     </task>
-    <option name="localTasksCounter" value="377" />
+    <task id="LOCAL-00377" summary="passbyvalue">
+      <created>1587393963558</created>
+      <option name="number" value="00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1587393963558</updated>
+    </task>
+    <option name="localTasksCounter" value="378" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1633" y="183" width="1442" height="965" extended-state="0" />
+    <frame x="-1615" y="61" width="1442" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26830986" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1128,8 +1128,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.2559055">
-            <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <first_editor vertical-scroll-proportion="0.8031496">
+            <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
             <folding />
           </first_editor>
           <second_editor />
