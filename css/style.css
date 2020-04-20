@@ -5197,8 +5197,8 @@ h6 {
 
 /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_footer.scss */
 .footer-area {
-  background-color: #fc4600;
   padding: 20px 0 25px;
+  background-image : url("../images/footer/bgfooter.png");
 }
 
 @media (max-width: 991px) {
