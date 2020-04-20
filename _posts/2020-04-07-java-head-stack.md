@@ -8,10 +8,8 @@ image: /images/blog/java.png
 youtubeId: werAdblsT1s
 ---
 Chào bạn, chắc hẳn bạn đang phân vân khi mình khai báo biến , object , phương thức , tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ?
-Ai sẽ quản lý bộ nhớ ? Bài viết sau đây anh sẽ tóm tắt lại các ý chính 
+Ai sẽ quản lý bộ nhớ ? Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ Heap và Stack lưu trữ dữ liệu gì và lưu như thế nào nhé .. 
 <br/><br/>
-
-
 ### Các thuật ngữ 
 ![Các thuật ngữ ](/images/post/javacore/cacthuatngu.png){:class="img-responsive"}
 
