@@ -21,5 +21,4 @@ paginate_path: /page:num/
 plugins:
  - jekyll-paginate
  - jekyll-seo-tag
- - jekyll-sitemap
 fbcomments: yes

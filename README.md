@@ -31,3 +31,6 @@ https://blog.webjeda.com/jekyll-subscribe-form/
 
 ## google adsense
 https://mycyberuniverse.com/add-google-adsense-to-a-jekyll-website.html
+
+## sitemap
+https://www.websiteplanet.com/vi/webtools/sitemap-validator/?page=https://levunguyen.com/sitemap.xml
