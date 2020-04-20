@@ -39,6 +39,19 @@ Java Heap và Stack Memory là một phần của bộ nhớ được JVM sử d
 ### Ví dụ về Heap và Stack 
 ![Ví dụ về Heap và Stack  ](/images/post/javacore/vdheapstack.png){:class="img-responsive"}
 
+1. Dòng 1 phương thức public static void main sẽ lưu bên Stack (vì stack sẽ cấp phát vùng nhớ cho phương thức)
+2. Dòng 2 khai báo biến i = 2 thì nằm bên stack vì stack lưu các biến
+3. Dòng 3 khai báo biến Object obj = new Object  thì biến obj  nằm bên stack vì stack lưu các biến còn đối tượng Object được lưu bên Heap và biến obj sẽ tham 
+chiếu đến đối tượng Object bên bộ nhớ Heap .
+4. Dòng 4 Memory mem = new Memory thì đối tượng Memory sẽ lưu bên bộ nhớ heap còn biến mem thì lưu bên bộ nhớ stack , và mem tham chiếu tới đối
+tượng Memory bên Heap 
+5. Dòng 5  mem.foo() thì phương thức foo() được tạo ra ở dòng 5. Phương thức foo này là nằm trong phương thức main . Như ta thấy bên bộ nhớ Stack
+Hình chữ nhật bự nhất bao ở ngoài là hàm main () . Bên trong hàm main là bộ nhớ phương thức foo. Khi chương trình chạy xong thì bộ nhớ foo() sẽ 
+được giải phóng trước sau đó mới đến main. 
+6. Dòng 6 private void foo() thì hàm foo()  được lưu trong bộ nhó Stack 
+7. Dòng 7 String str = param.toString() . Trong java String là kiểu đặc biệt . Nó là kiểu Object và được quản lý bởi String Pool riêng. Chính vì vậy nó 
+được lưu bên Heap 
+
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
 <p align="center">
 {% include youtubePlayer.html id=page.youtubeId %}
