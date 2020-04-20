@@ -11,7 +11,7 @@ youtubeId: 0F_8a5_fKno
 Chào các bạn, chắc chắn không ý bạn nhầm lẫn khái niệm tham trị và tham chiếu  ? Có rất nhiều bạn có nhận định chưa đúng về khái niệm 
 Ví dụ như các bạn nói các tham số trong hàm nếu ta truyền kiểu nguyên thuỷ thid đó là tham trị còn nếu truyền kiểu object là tham chiếu. 
 Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nhé . 
-
+<br><br>
 ### Gán giá trị 
 Trước hết chúng ta hiểu xem giá trị được gán như thế nào cho biến.
 ![Gán giá trị](/images/post/javacore/gangiatri.png){:class="img-responsive"}
