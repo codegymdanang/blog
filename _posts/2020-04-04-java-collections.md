@@ -94,17 +94,17 @@ Map<Integer, String> hashMap = new HashMap<>();
 
 ### Phân biệt Collection vs Collections
 
-+ Collections trong java là kiến trúc để lưu trữ và thao tác tới nhóm các đối tượng. Tất cả các hoạt động mà bạn thực hiện trên một dữ liệu như tìm kiếm, phân loại, chèn, xóa,... có thể được thực hiện bởi Java Collections.
+1. Collections trong java là kiến trúc để lưu trữ và thao tác tới nhóm các đối tượng. Tất cả các hoạt động mà bạn thực hiện trên một dữ liệu như tìm kiếm, phân loại, chèn, xóa,... có thể được thực hiện bởi Java Collections.
 
-+ Collection trong java là một root interface trong hệ thống cấp bậc Collection. Java Collection cung cấp nhiều interface (Set, List, Queue, Deque vv) và các lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet vv).
+2. Collection trong java là một root interface trong hệ thống cấp bậc Collection. Java Collection cung cấp nhiều interface (Set, List, Queue, Deque vv) và các lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet vv).
 
 ### Sự khác nhau  Array và ArrayList
-* Array 
+1. Array 
     * là fix size , cố định số lượng phần tử trong mảng
     * Có thể lưu trữ dữ liệu kiểu nguyên thủy và đối tượng.
     * Tốc độ lưu trữ và thao tác nhanh hơn.
     * Chỉ có thuộc tính length
-* ArrayList 
+2. ArrayList 
     * Số lượng phần tử co giản được 
     * Chỉ có thể lưu trữ dữ liệu kiểu đối tượng. Kể từ Java 5, kiểu nguyên thủy được tự động chuyển đổi trong các đối tượng được gọi là auto-boxing.
     * Tốc độ lưu trữ vào thao tác chậm hơn.
@@ -116,20 +116,20 @@ Map<Integer, String> hashMap = new HashMap<>();
 * Set các phần tử không trung lặp
 
 ### Sự khác nhau  ArrayList và Vector
-* ArrayList
+1. ArrayList
     * ArrayList là KHÔNG synchronized
     * ArrayList tăng kích thước của nó bằng 50% kích thước mảng.
 
-* Vector 
+2. Vector 
     * Vector là synchronized.
     * Vector tăng kích thước của nó bằng cách nhân đôi kích thước mảng.
     
 ### Sự khác nhau ArrayList và LinkedList 
-* ArrayList
+1. ArrayList
     * ArrayList sử dụng một mảng động
     * ArrayList là tốt hơn để lưu trữ và lấy dữ liệu
     
-* LinkedList 
+2. LinkedList 
     * LinkedList sử dụng danh sách liên kết doubly
     * LinkedList là tốt hơn để thao tác dữ liệu
     
@@ -143,10 +143,10 @@ HashSet chỉ chứa giá trị, trong khi HashMap chứa cặp key và value.
 HashMap duy trì không có thứ tự, trong khi TreeMap duy trì thứ tự tăng dần.
 
 ### Sự khác biệt giữa Sự khác nhau giữa HashMap và Hashtable là gì
-* HashMap
+1. HashMap
     * HashMap là KHÔNG synchronized
     * HashMap có thể chứa một khóa null và nhiều giá trị null.
-* Hashtable
+2. Hashtable
     * Hashtable là synchronized.
     * Hashtable không thể chứa bất kỳ khóa null hoặc giá trị null.
 
