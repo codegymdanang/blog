@@ -8,10 +8,13 @@ image: /images/blog/java.png
 youtubeId: 4nxuOBl5mFo
 ---
 
-Chào bạn, 
+Chào bạn, hẳn bạn đang phân vân trong java mình có những loại collection (tập hợp nào) ? Các tập hợp đó khi nào thì nên sử dụng và nó khác nhau như thế nào.
+Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng và phân biệt sự khác nhau giữa các tập hợp . 
+Trước hết mình xem có những collection nào trong Java trong hình sau đây . 
+
 
 ### Các collection trong java
-![Cấu trúc dự án](/images/post//collection.png){:class="img-responsive"}
+![Cấu trúc dự án](/images/post/collection/collection.png){:class="img-responsive"}
 
 ### List 
 Là một collection có thứ tự (đôi khi còn được gọi là một chuỗi). 
@@ -96,39 +99,39 @@ Map<Integer, String> hashMap = new HashMap<>();
 + Collection trong java là một root interface trong hệ thống cấp bậc Collection. Java Collection cung cấp nhiều interface (Set, List, Queue, Deque vv) và các lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet vv).
 
 ### Sự khác nhau  Array và ArrayList
-+ Array 
-    - là fix size , cố định số lượng phần tử trong mảng
-    - Có thể lưu trữ dữ liệu kiểu nguyên thủy và đối tượng.
-    - Tốc độ lưu trữ và thao tác nhanh hơn.
-    - Chỉ có thuộc tính length
-+ ArrayList 
-    - Số lượng phần tử co giản được 
-    - Chỉ có thể lưu trữ dữ liệu kiểu đối tượng. Kể từ Java 5, kiểu nguyên thủy được tự động chuyển đổi trong các đối tượng được gọi là auto-boxing.
-    - Tốc độ lưu trữ vào thao tác chậm hơn.
-    - Có nhiều phương thức để thao tác với dữ liệu.
+* Array 
+    * là fix size , cố định số lượng phần tử trong mảng
+    * Có thể lưu trữ dữ liệu kiểu nguyên thủy và đối tượng.
+    * Tốc độ lưu trữ và thao tác nhanh hơn.
+    * Chỉ có thuộc tính length
+* ArrayList 
+    * Số lượng phần tử co giản được 
+    * Chỉ có thể lưu trữ dữ liệu kiểu đối tượng. Kể từ Java 5, kiểu nguyên thủy được tự động chuyển đổi trong các đối tượng được gọi là auto-boxing.
+    * Tốc độ lưu trữ vào thao tác chậm hơn.
+    * Có nhiều phương thức để thao tác với dữ liệu.
 
 
 ### Sự khác nhau Set và List
-+ List các phần tử có thể trùng lặp
-+ Set các phần tử không trung lặp
+* List các phần tử có thể trùng lặp
+* Set các phần tử không trung lặp
 
 ### Sự khác nhau  ArrayList và Vector
-+ ArrayList
-    - ArrayList là KHÔNG synchronized
-    - ArrayList tăng kích thước của nó bằng 50% kích thước mảng.
+* ArrayList
+    * ArrayList là KHÔNG synchronized
+    * ArrayList tăng kích thước của nó bằng 50% kích thước mảng.
 
-+ Vector 
-    - Vector là synchronized.
-    - Vector tăng kích thước của nó bằng cách nhân đôi kích thước mảng.
+* Vector 
+    * Vector là synchronized.
+    * Vector tăng kích thước của nó bằng cách nhân đôi kích thước mảng.
     
 ### Sự khác nhau ArrayList và LinkedList 
-+ ArrayList
-    - ArrayList sử dụng một mảng động
-    - ArrayList là tốt hơn để lưu trữ và lấy dữ liệu
+* ArrayList
+    * ArrayList sử dụng một mảng động
+    * ArrayList là tốt hơn để lưu trữ và lấy dữ liệu
     
-+ LinkedList 
-    - LinkedList sử dụng danh sách liên kết doubly
-    - LinkedList là tốt hơn để thao tác dữ liệu
+* LinkedList 
+    * LinkedList sử dụng danh sách liên kết doubly
+    * LinkedList là tốt hơn để thao tác dữ liệu
     
 ### Sự khác nhau HashSet và TreeSet là gì
 HashSet không duy trì thứ tự nào, trong khi TreeSet duy trì thứ tự tăng dần
@@ -140,15 +143,15 @@ HashSet chỉ chứa giá trị, trong khi HashMap chứa cặp key và value.
 HashMap duy trì không có thứ tự, trong khi TreeMap duy trì thứ tự tăng dần.
 
 ### Sự khác biệt giữa Sự khác nhau giữa HashMap và Hashtable là gì
-+ HashMap
-    - HashMap là KHÔNG synchronized
-    - HashMap có thể chứa một khóa null và nhiều giá trị null.
-+ Hashtable
-    - Hashtable là synchronized.
-    - Hashtable không thể chứa bất kỳ khóa null hoặc giá trị null.
+* HashMap
+    * HashMap là KHÔNG synchronized
+    * HashMap có thể chứa một khóa null và nhiều giá trị null.
+* Hashtable
+    * Hashtable là synchronized.
+    * Hashtable không thể chứa bất kỳ khóa null hoặc giá trị null.
 
     
-## Sự khác nhau Set và Map  là gì
+### Sự khác nhau Set và Map  là gì
 Set chỉ chứa giá trị, trong khi Map chứa cặp key và value.
 
 <p align="center">
