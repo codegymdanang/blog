@@ -78,7 +78,7 @@
 						<div class="relatedPosts">
 							<hr/>
 							<h2 style="background-color: red"><span style="color: white"> Có thể bạn muốn xem </span></h2>
-							{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:4 %}
+							{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:8 %}
 							<div style="text-align: left; padding: 10px 10px 10px 10px" >
 								<ul style="list-style-type:circle">
 									{% for post in posts %}
