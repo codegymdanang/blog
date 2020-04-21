@@ -7,7 +7,7 @@ body {
   font-family: 'Inter', sans-serif;
   padding: 0;
   margin: 0;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 /* line 9, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_common.scss */
@@ -183,7 +183,7 @@ p {
   color: #888888;
   font-family: 'Inter', sans-serif;
   line-height: 1.929;
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 0px;
   color: #646464;
 }
