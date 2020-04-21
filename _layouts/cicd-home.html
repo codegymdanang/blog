@@ -8,50 +8,16 @@
 	<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
 	<title>{{site.blog_title}}</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-
 	<link rel="icon" href='{{ "/images/favicon.png" | prepend: site.baseurl }}' >
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href='{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}' >
-	<!-- animate CSS -->
-	<link rel="stylesheet" href='{{ "/css/animate.css" | prepend: site.baseurl }}'>
-	<!-- owl carousel CSS -->
-	<link rel="stylesheet" href='{{ "/css/owl.carousel.min.css" | prepend: site.baseurl }}' >
-	<!-- themify CSS -->
-	<link rel="stylesheet" href='{{ "/css/themify-icons.css" | prepend: site.baseurl }}' >
-	<!-- flaticon CSS -->
-	<link rel="stylesheet" href='{{ "/css/liner_icon.css" | prepend: site.baseurl }}' >
-	<link rel="stylesheet" href='{{ "/css/search.css" | prepend: site.baseurl }}' >
 	<!-- style CSS -->
 	<link rel="stylesheet" href='{{ "/css/style.css" | prepend: site.baseurl }}' >
 
-
 	<script src='{{"/js/jquery-1.12.1.min.js"  | prepend: site.baseurl }}'></script>
-	<!-- popper js -->
-	<script src='{{"/js/popper.min.js"  | prepend: site.baseurl }}' ></script>
 	<!-- bootstrap js -->
 	<script src='{{"/js/bootstrap.min.js"  | prepend: site.baseurl }}' ></script>
-	<!-- custom js -->
-	<script src='{{"/js/custom.js"  | prepend: site.baseurl }}'> </script>
 
-
-	<script type="text/javascript" src='{{"/js/jquery.masonry.min.js"  | prepend: site.baseurl }}'></script>
-	<script type="text/javascript" src='{{"/js/jquery.imagesloaded.min.js"  | prepend: site.baseurl }}'></script>
-	<script type="text/javascript" src='{{"/js/highlight.pack.js"  | prepend: site.baseurl }} '> </script>
-	<script type="text/javascript">
-		hljs.initHighlightingOnLoad();
-		function applyTiles() {
-			var posts = $('#posts ul');
-			posts.imagesLoaded(function() {
-				$('#posts ul').masonry({ itemSelector : '.post' });;
-			});
-		}
-		$(function() {
-			applyTiles();
-		});
-		$(window).resize(function() {
-			applyTiles();
-		});
-	</script>
 	{% seo %}
 </head>
 
