@@ -5,6 +5,7 @@ category: blog
 tags: [effectivecode]
 summery: Cách tìm bug trập trình   
 image: /images/blog/quality-code.png
+description : TDD 
 youtubeId: 4IYBDSdBPew
 ---
  

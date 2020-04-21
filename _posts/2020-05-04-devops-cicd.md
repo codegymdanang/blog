@@ -5,6 +5,7 @@ category: blog
 tags: [cicd]
 summery: Jenkins tự động CI-CD   
 image: /images/blog/cicd.png 
+description : CI CD
 youtubeId: Sd3GYvOQ6Ag
 ---
  

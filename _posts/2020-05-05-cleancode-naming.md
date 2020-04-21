@@ -5,6 +5,7 @@ category: blog
 tags: [cleancode]
 summery: Qui tắc đặt tên
 image: /images/blog/quality-code.png
+description : clean code naming convension 
 youtubeId: aSDKxAUqcTc
 ---
  

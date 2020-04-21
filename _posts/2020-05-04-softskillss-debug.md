@@ -5,6 +5,7 @@ category: blog
 tags: [skills]
 summery: Cách tìm bug trập trình   
 image: /images/blog/softskills.png
+description : Debug ứng dụng 
 youtubeId: xLFCVXGSlNA
 ---
  

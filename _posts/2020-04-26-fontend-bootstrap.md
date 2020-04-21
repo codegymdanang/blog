@@ -1,10 +1,11 @@
 ---
 layout: blog
-title: Bootstrap cơ bản phần 1  
+title: Bootstrap là gì phần 1  
 category: blog
 tags: [ui]
-summery: Bootstrap cơ bản phần 1   
+summery: Bootstrap là gì phần 1  
 image: /images/blog/ui.png
+description : Boostrap là gì 
 youtubeId: 2xSwAsdcwLo
 ---
 

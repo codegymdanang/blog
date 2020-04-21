@@ -5,8 +5,9 @@ category: blog
 tags: [spring]
 summery: JPA Thao Tác Database Trong Spring 
 image: /images/blog/spring.png
+description : JPA là gì ?
 youtubeId: 4dQlWJQ7ZQo
----
+----------------------
 
 Chào các e, chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
 Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong database 

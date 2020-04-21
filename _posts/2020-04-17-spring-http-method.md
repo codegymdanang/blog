@@ -3,8 +3,9 @@ layout: blog
 title: Các phương thức HTTP
 category: blog
 tags: [spring]
-summery: Mô hình MVC trong Spring
+summery:  Các phương thức HTTP
 image: /images/blog/spring.png
+description : Các loại Request HTTP 
 youtubeId: Awpe1PIC-M4
 ---
 

@@ -5,6 +5,7 @@ category: blog
 tags: [effectivecode]
 summery: Cải thiệnvới chất lượng code với Sonar
 image: /images/blog/quality-code.png
+description : Sử dụng Sonar 
 youtubeId: lQYHakgIP9A
 ---
  

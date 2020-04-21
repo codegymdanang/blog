@@ -5,6 +5,7 @@ category: blog
 tags: [java core]
 summery: Blog 5
 image: /images/blog/java.png
+description : Sử dụng các collection trong java 
 youtubeId: 4nxuOBl5mFo
 ---
 

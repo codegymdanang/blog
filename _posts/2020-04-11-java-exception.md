@@ -5,6 +5,7 @@ category: blog
 tags: [java core]
 summery: Ngoại Lệ Trong Java
 image: /images/blog/java.png
+description : Ngoại lệ trong Java 
 youtubeId: 2BBAVtiks1w
 ---
 

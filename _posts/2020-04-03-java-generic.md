@@ -5,6 +5,7 @@ category: blog
 tags: [java core]
 summery: Generic là gì 
 image: /images/blog/java.png
+description : Generic là gì trong lập trình .
 youtubeId: 2ADRQUlsRtI
 ---
 

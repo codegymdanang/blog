@@ -5,6 +5,7 @@ category: blog
 tags: [ui]
 summery: Sử dụng Angular gọi webservice  
 image: /images/blog/angular.png
+description : Sử dụng Angular gọi webservice
 youtubeId: edYsCowgQq0
 ---
  

@@ -5,6 +5,7 @@ category: blog
 tags: [angular]
 summery: Sử dụng Bootstrap trong Angular   
 image: /images/blog/angular.png
+description : Angular Boostrap 
 youtubeId: 977WIZTAUv8
 ---
  

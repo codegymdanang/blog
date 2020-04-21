@@ -5,6 +5,7 @@ category: blog
 tags: [confidence]
 summery: Xu hướng nghành lập trình   
 image: /images/blog/softskills.png
+description : Xu hướng nghành CNTT 
 youtubeId: r2w7in6xMB4
 ---
  

@@ -5,6 +5,7 @@ category: blog
 tags: [spring]
 summery: Model, ModelMap, and ModelView
 image: /images/blog/spring.png
+description : Các Model trong Spring 
 youtubeId: vaQxJlfmB6s
 ---
 

@@ -5,6 +5,7 @@ category: blog
 tags: [java core]
 summery: Blog 2
 image: /images/blog/java.png
+description : Tham trị và tham chiếu trong lập trình 
 youtubeId: 0F_8a5_fKno
 ---
 

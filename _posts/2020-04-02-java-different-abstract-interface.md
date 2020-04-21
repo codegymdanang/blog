@@ -5,6 +5,7 @@ category: blog
 tags: [java core]
 summery: Sự khác  giữa abstract và interface 
 image: /images/blog/java.png
+description : Sự khác  giữa abstract và interface 
 youtubeId1 : t9in5g6vsSg
 youtubeId2 : rUFUgrkMg4o
 ---

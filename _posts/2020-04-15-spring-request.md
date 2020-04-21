@@ -5,6 +5,7 @@ category: blog
 tags: [spring]
 summery: Phân biệt  Request Param và  PathVariable
 image: /images/blog/spring.png
+description : Phân biệt Request Param và Path Variable 
 youtubeId: luc3zTLri6M
 ---
 

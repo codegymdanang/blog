@@ -5,6 +5,7 @@ category: blog
 tags: [spring]
 summery: Sử dụng Validation Trong  Spring
 image: /images/blog/spring.png
+description : Validation trong Spring 
 youtubeId: ljyqbIo4jbk
 ---
 
