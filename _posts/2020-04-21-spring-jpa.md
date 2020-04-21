@@ -7,14 +7,19 @@ summery: JPA Thao Tác Database Trong Spring
 image: /images/blog/spring.png
 youtubeId: 4dQlWJQ7ZQo
 ---
+
 Chào các e, chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
 Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong database 
+<br><br>
 
 ### ORM là gì ?
 ORM là viết tắt của Object Relational Mapping, là một công nghệ/ khái niệm/ quá trình chuyển đổi dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại. Ví dụ, trong Java nó được thực hiện với sự trợ giúp của Reflection và JDBC.
 ORM có khả năng xử lý các thao tác của nhiều loại cơ sở dữ liệu khác nhau một cách dễ dàng mà không quan tâm đến loại database sử dụng (SQL Server, MySQL, PostgreSQL, …) hay loại thao tác sử dụng (INSERT, UPDATE, DELETE, SELECT, …).
+<br>
 
 ### JPA là gì ?
+
+<br>
 
 ### Bước 1 -  Chuẩn bị dependency trong file pom.xml 
 
@@ -31,6 +36,7 @@ ORM có khả năng xử lý các thao tác của nhiều loại cơ sở dữ l
          </dependency>
 
 {% endhighlight %}
+<br>
 
 ### Bước 2 - Cấu hình connection kết nối database trong file application.properties
 
@@ -38,7 +44,7 @@ spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost:3306/company
 spring.datasource.username=root
 spring.datasource.password=Nguy!n12345
-
+<br>
 
 ### Bước 3 - Chuẩn bị entiry . Mapping xuóng table Department trong dâtbas e
 
@@ -65,6 +71,7 @@ public class Department implements Serializable {
 }
 
 {% endhighlight %}
+<br>
 
 ### Bước 4 - Chuẩn bị Controller để mapping request từ client
 
@@ -86,6 +93,7 @@ public class CreationQueryController {
     }
 }
 {% endhighlight %}
+<br>
 
 ### Bước 5 - Tạo file DepartmentQueryCreationService
 
@@ -101,6 +109,7 @@ public class DepartmentQueryCreationService {
     }
 }
 {% endhighlight %}
+<br>
 
 ### Bước 6 - Tạo file DepartmentAnnotationRepository sử dụng JPA 
 
@@ -118,8 +127,11 @@ public interface DepartmentAnnotationRepository extends JpaRepository<Department
     Department findByName2(String departmentName);
 }
 {% endhighlight %}
+<br>
 
 ### Bước 7 - Test ứng dụng 
+
+<br>
 
 ### Tổng hợp các cachs query xuống database 
 1. Sử dụng Query Creation
@@ -128,8 +140,8 @@ public interface DepartmentAnnotationRepository extends JpaRepository<Department
 
 3. Sử dụng @NameQuery
 
-
-
 https://thoughts-on-java.org/what-is-spring-data-jpa-and-why-should-you-use-it/
+<br>
 
+### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 {% include youtubePlayer.html id=page.youtubeId %}

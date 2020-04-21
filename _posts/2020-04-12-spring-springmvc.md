@@ -11,7 +11,7 @@ youtubeId: 7Wpi_jC8CqA
 Chào bạn, bạn đang học Spring MVC nhưng chưa hiểu luồng đi của ứng dụng nó chạy  như thế nào. Ví dụ như khi người dùng gõ một url như sau vào trình duyệt
 http://localhost8080 thì ứng dụng mình sẽ chạy qua các tầng nào của springmvc  để trả kết quả là trang home cho người dùng thấy được ?
 Trong bài này anh sẽ hướng dẫn mọi người các bước mà SpringMVC xử lý một request (yêu cầu) từ người dùng. 
-
+<br><br>
  
 ## Luồng đi của ứng dụng MVC qua các tầng
 Trước hết mình đi qua hình ảnh về luồng đi của ứng dụng spring gồm có các thành phần nào
@@ -32,6 +32,7 @@ và chuyển hoá dữ liệu trong database thành model và trả ngược l�
 6. DispatcherServlet sẽ dự vào tên view mà controler trả về . Nó sẽ đi tìm trang view (thymeleaf,jsp) tương ứng dựa vào việc ta cấu hình View Reolver mà Dispatcher biết phải tìm thấy trang view ở đâu
  đồng thời truyền model để trang view hiểu thị dữ liệu. Kết quả cuối cùng là ta có một trang website hoàn chỉnh có HTML và dữ liệu .
 7. Cuối cùng DispatchServlet gửi lại kết quả trang web cho client
+<br>
 
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
 

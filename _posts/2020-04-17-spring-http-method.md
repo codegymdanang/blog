@@ -8,6 +8,9 @@ image: /images/blog/spring.png
 youtubeId: Awpe1PIC-M4
 ---
 
+
+<br><br>
+
 ### Tổng hợp các loại request 
 
 Có tất cả 9 loại request
@@ -21,6 +24,7 @@ Có tất cả 9 loại request
 7. CONNECT: thiết lập một kết nối tới server theo URI.
 8. OPTIONS: mô tả các tùy chọn giao tiếp cho resource.
 9. TRACE: thực hiện một bài test loop - back theo đường dẫn đến resource.
+<br>
 
 ### Một số khái niệm khác 
 SAFE
@@ -35,21 +39,21 @@ vì điều này nên các method safe thì đều idempotent. Nhưng unsafe ch�
 1 số lưu ý: header dài tối đa 8kb và cũng phụ thuộc cả vào trình duyệt
 body thì limit của nó tùy trình duyệt.
 url không dài quá 2 nghìn kí tự (ror)
+<br>
 
 ### GET VS POST
 ột ứng dụng web được thiết kế theo restful thì get chỉ dùng để lấy dữ liệu và post chỉ dùng để đẩy dữ liệu lên. 
 Một chút khác biệt dễ nhận thấy giữa get và post là get thì không có body. Khi dùng get để truyền dữ liệu lên sever chúng ta thấy rằng tất cả các paramater đều bị hiển thị trên url của request, xét về khía cạnh bảo mật thì điều này thật là tệ.
 Post thì khác, nó giấu parameters trong body và mã hóa chúng đi, ngăn cản các phần tử trung gian ăn cắp nội dung. Nhưng post chỉ có tính an toàn đối với client, còn với sever thì lại khác. Các method như post, put, delete bị coi là unsafe và not idempotent cho server.
+<br>
 
 ### POST/PUT/PATCH
 Điểm khác biệt giữ post và put đơn giản là put là idempotent còn post thì không, bạn sẽ nhận được thông báo lỗi khi gửi một request post với cùng 1 nội dung 2 lần nhưng put thì không, nó luôn trả về kết quả như nhau.
 post: tạo mới
 put: ghi đè(toàn bộ) hoặc tạo mới 1 resource
 patch: cập một 1 phần của resource
+<br>
 
-
-
-
-
+### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
 {% include youtubePlayer.html id=page.youtubeId %}

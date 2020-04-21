@@ -9,7 +9,7 @@ youtubeId: vaQxJlfmB6s
 ---
 
 Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn phân biệt Model , ModelMap , Map và ModeAndView
-
+<br><br>
 
 ### Model là gì ?
 Chúng ta sử dụng Interface Model để truyền dữ liệu  từ Controller sang View để hiển thị . 
@@ -41,6 +41,7 @@ public class GreetingController {
     </body>
 </html>
 {% endhighlight %}
+<br>
 
 ### ModelMap là gì ?
 ModelMap cũng tương tư như Model. Chúng ta có thể sử dụng ModelMap như một tham số trong method của Controller
@@ -54,6 +55,7 @@ public String getWithModelMap(@RequestParam("name") String name, ModelMap modelM
 }
 
 {% endhighlight %}
+<br>
 
 ### Map
 Map cũng tương tự như Model . Chúng ta có thể sử dụng Map như một tham số trong method của Controller
@@ -67,6 +69,7 @@ public String getWithMap(@RequestParam("name") String name, Map<String, Object> 
 
 } 
 {% endhighlight %}
+<br>
 
 ### ModelAndView
 Là sự kết hợp của 2 khía cạnh truyền dữ liệu và view. Như ta thấy ở ví dụ trên ta dùng 2 dòng code
@@ -83,15 +86,16 @@ public ModelAndView get(@RequestParam("name") String name) {
     
     return new ModelAndView("greet", modelMap);
 {% endhighlight %}
+<br>
 
-### Sự khác nhau giữa các module 
+### Sự khác nhau giữa các model 
 
 1. Model là một interface trong khi đó ModelMap là một Class 
 2. Model là một  interface nó chứa đựng 4 phương thức addAttribute và một phương thức  merAttribute .
 3. ModelMap cài đặt lớp  Map interface. Nên nó thêm các phương thức của Map. 
 4. ModelAndView là sự kết hợp của 2 mục đích  ModelMap and View . Nó cho phép controller trả về 1 giá trị bao gồm Model và View   
+<br>
 
-
-http://www.javabyexamples.com/using-model-modelmap-and-modelview-in-spring-mvc/
+### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
 {% include youtubePlayer.html id=page.youtubeId %}

@@ -9,14 +9,16 @@ youtubeId: 2BBAVtiks1w
 ---
 
 
+<br><br>
 
 ### Ngoại lệ là gì ?
 Exception là một tình trạng bất thường. Trong Java, Exception là một sự kiện mà phá vỡ luồng chuẩn của chương trình. 
 Nó là một đối tượng mà được ném tại Runtime. Một exception (ngoại lệ) trong Java là một vấn đề xảy ra trong quá trình thực hiện của chương trình. 
-
+<br>
 
 ### Exception 
 ![Exception ](/images/post/javacore/exception.png){:class="img-responsive"}
+<br>
 
 ### Check Exception
 1. Những lỗi và developer có thể đoán trước được
@@ -27,6 +29,7 @@ Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán đư
 2. InterruptException
 3. Database Exception
 4. IO Exception
+<br>
 
 ### Uncheck Exception
 1. Những lỗi xảy ra khi chương trình đang chạy và chúng ta không biết chắc nó có xảy ra hay không
@@ -34,6 +37,7 @@ Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán đư
 
 Ví dụ
 Khi mình viết một chương trình cho nhà bank với chức năng rút tiền. Sẽ có những trường hợp lỗi xảy ra khi chương trình đang chạy đó là việc khách hàng có thể rút tiền nhiều hơn tiền họ hiện có trong tài khoản. Lúc này mình phải viết Uncheck Exception để xử lý việc này 
+<br>
 
 ### Ném ngoại lệ bằng Throws hoặc throw
 
@@ -52,8 +56,7 @@ public void deposit(int depositAmount) throws Exception {
    System.out.println("Deposit is valid " + depositAmount);
 }
 {% endhighlight %}
-
-### 
+<br>
 
 ### Bắt ngoại lệ bằng try catch
 
@@ -67,6 +70,7 @@ public int getPlayerScore(String playerFile) {
     }
 }
 {% endhighlight %}
+<br>
 
 ### Bắt ngoại lệ bằng nhiều catch
 
@@ -83,14 +87,16 @@ public int getPlayerScore(String playerFile) {
     }
 }
 {% endhighlight %}
+<br>
 
 ### Khối lệnh Finally
 Khối lệnh Finally luôn luôn chạy . Nó thường dùng để
 1. Đóng kết nối xuống file 
 2. Đóng kết nối xuống database
 3. Giải phóng bộ nhớ
+<br>
 
-
+### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
