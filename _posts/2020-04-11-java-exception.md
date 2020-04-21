@@ -19,7 +19,6 @@ Nó là một đối tượng mà được ném tại Runtime. Một exception (
 ### Exception 
 ![Exception ](/images/post/javacore/exception.png){:class="img-responsive"}
 <br>
-
 ### Check Exception
 1. Những lỗi và developer có thể đoán trước được
 2. Bắt buộc developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code)
