@@ -14,18 +14,18 @@ Chào các e, chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thí
 <br><br>
 
 ### ORM là gì ?
-ORM là viết tắt của Object Relational Mapping, là một công nghệ/ khái niệm/ quá trình chuyển đổi dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại. 
+ORM là viết tắt của Object Relational Mapping, là một quá trình ánh xạ (chuyển đổi) dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại. 
 ORM giúp mình ánh xạ các tables,column,kiểu dữ liệu và mối quan hệ (1-1,1-n,n-n) trong database thành các Class và thuộc tính trong Java.
 Anh lấy ví dụ 
 Trong database mình có table (person)  và các trường (id kiểu Integer , name kiểu varchar ) như sau
-{% highlight xml linenos %}
+{% highlight  linenos %}
 CREATE TABLE persons (
     id integer NOT NULL,
     name varchar(50) NOT NULL, salary float, PRIMARY KEY(id)
 );
 {% endhighlight %}
 
-Như vậy ORM nghĩa là tương ứng với table person trong database mình ánh xạ nó trong Class Java như sau cho tương ứng
+Như vậy ORM nghĩa là tương ứng với table person trong database mình ánh xạ nó trong Class Java (POJO) như sau cho tương ứng
 
 {% highlight xml linenos %}
 public class Person {
@@ -49,16 +49,20 @@ Như vậy trong database có gì, thì Class Java sẽ mô tả lại y chang v
 ### JPA là gì ?
 JPA viết tắc của từ Java Persitent API . Tầng Persistent có nhiệm vụ thao  tác với database như query lấy dữ liệu , lưu dữ liệu
 xuống database . JPA cung cấp cho mình cơ chế ORM mapping các bảng, column , mối quan hệ trong database thành các lớp java và đồng
-thời cung cấp cho mình các method cần thiết để query dữ liệu trong database . 
+thời cung cấp cho mình các method cần thiết để thao tác  dữ liệu trong database . 
 
-https://gpcoder.com/6282-tong-quan-ve-jpa-java-persistence-api/
+### Vai trò của tầng Persistent 
+![Tầng Persis](/images/post/spring/persistentlayer.jpg){:class="img-responsive"}
 
-## Luồng đi của ứng dụng MVC
-
-
-
-
+1. Như ta thấy ở hình trên, đó chính là luồng đi của một ứng dụng . Bắt đầu khi người dùng gửi request lên server.
+2. Khi request vào Dispatcher nó sẽ đưa đến Controller tương ứng để xử lý request
+3. Từ Controller nó sẽ gọi xuống Service để thực hiện các nghiệp vụ cần thiết 
+4. Từ tầng Service nó gọi tầng Persisten (Trong các dự án mình sử dụng JPA) để thực hiện các thao tác xuống database và trả kết quả về
 <br>
+
+### Sau đây mình sẽ làm một ứng dụng đơng giản để lấy dữ liệu từ database và trả kết quả về cho người dùng .
+Mọi người có thể tham khảo source code tại đây 
+https://github.com/codegymdanang/CGDN-SpringBoot-JPA
 
 ### Bước 1 -  Chuẩn bị dependency trong file pom.xml 
 
@@ -82,10 +86,10 @@ https://gpcoder.com/6282-tong-quan-ve-jpa-java-persistence-api/
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost:3306/company
 spring.datasource.username=root
-spring.datasource.password=Nguy!n12345
+spring.datasource.password=abc  
 <br>
 
-### Bước 3 - Chuẩn bị entiry . Mapping xuóng table Department trong dâtbas e
+### Bước 3 - Chuẩn bị entiry . Mapping  table Department trong database thành các class Java 
 
 {% highlight xml linenos %}
 @Data
@@ -134,7 +138,8 @@ public class CreationQueryController {
 {% endhighlight %}
 <br>
 
-### Bước 5 - Tạo file DepartmentQueryCreationService
+### Bước 5 - Tạo file DepartmentQueryCreationService Service
+Service có nhiệm vụ thực hiện các nghiệp vụ của ứng dụng . Đồng thời nhúng bean Repository để gọi tầng Persistence 
 
 {% highlight xml linenos %}
 @Service
@@ -151,6 +156,7 @@ public class DepartmentQueryCreationService {
 <br>
 
 ### Bước 6 - Tạo file DepartmentAnnotationRepository sử dụng JPA 
+Tầng này có nhiệm vụ thao tác lấy dữ liệu. Các cách lấy dữ liệu sẽ được giới thiệu riêng ở bài khác 
 
 {% highlight xml linenos %} 
 @Transactional
@@ -172,9 +178,9 @@ public interface DepartmentAnnotationRepository extends JpaRepository<Department
 
 <br>
 
-### Tổng hợp các cachs query xuống database 
+### Tổng hợp các các cách  query xuống database 
 1. Sử dụng Query Creation
-2. Sử dụng @Query
+2. Sử dụng @Query (ở ví dụ trên khi ta dùng @Query) 
 3. Sử dụng @NameQuery
 4. Sử dụng EntityManager  
 
@@ -182,6 +188,9 @@ public interface DepartmentAnnotationRepository extends JpaRepository<Department
 
 ### Tại sao mình cần JPA 
 https://thoughts-on-java.org/what-is-spring-data-jpa-and-why-should-you-use-it/
+1. Chúng ta chỉ tập trung vào viết chức năng của chương trình còn các việc như quản lý connection , cách query thì JPA sẽ lo
+2. Khả năng thay đổi database không bị ảnh hưởng . Ví du hôm nay ta dùng Mysql ngày mai ta dùng Postgres thì không ảnh hưởng tới 
+chương trình của mình.
 <br>
 
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
