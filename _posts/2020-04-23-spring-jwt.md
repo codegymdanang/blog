@@ -26,5 +26,5 @@ JWT bao gồm 3 phần và ngăn cách nhau bởi dấu chấm
 
 
 
-### Và bây giờ, chúng ta sẽ đi kỷ hơn các tạo và mã hoá của JWT nhé . 
+### Và bây giờ, chúng ta sẽ đi kỷ hơn cách tạo và mã hoá của JWT  . 
 {% include youtubePlayer.html id=page.youtubeId %}
