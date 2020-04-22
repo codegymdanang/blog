@@ -62,7 +62,7 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 4. Từ tầng Service nó gọi tầng Persisten (Trong các dự án mình sử dụng JPA) để thực hiện các thao tác xuống database và trả kết quả về
 <br>
 
-### Sau đây mình sẽ làm một ứng dụng đơng giản để lấy dữ liệu từ database và trả kết quả về cho người dùng .
+### Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ database và trả kết quả về cho người dùng .
 Mọi người có thể tham khảo source code tại đây 
 https://github.com/codegymdanang/CGDN-SpringBoot-JPA
 
