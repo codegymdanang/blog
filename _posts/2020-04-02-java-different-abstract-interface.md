@@ -42,6 +42,7 @@ viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào m�
  |   Defaul (mặc định) 	| Có thể định nghĩa thuộc tính , và thân phương thức có thể chứa code 	    | chỉ chứa hằng số , không có code trong phần thân method | 
  |   Access Modifier	                |   có thể đặt tất cả modifier	    |   Mọi phương thức và thuộc tính là  public	        |  
  |   Mục đích sử dụng                   |     IS  A    |    HAS A (Can do)    |
+
 <br>
  
 ### Khi nào dùng abstract
