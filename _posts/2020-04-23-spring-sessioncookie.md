@@ -36,9 +36,8 @@ Như vậy dù có tắt browser cũng không mất đi các giá trị vì chú
  |  Dữ liệu cookie được lưu trữ ở phía client.| Dữ liệu session được lưu trữ ở phía server. | 
  |  Dữ liệu cookie dễ dàng sửa đổi hoặc đánh cắp khi chúng được lưu trữ ở phía client      |   Dữ liệu session không dễ dàng sửa đổi vì chúng được lưu trữ ở phía máy chủ.|
  |  Dữ liệu cookie có sẵn trong trình duyệt đến khi expired.   | Sau khi đóng trình duyệt sẽ hết phiên làm việc (session)   |
+
 <br> 
-
-
 
 
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
