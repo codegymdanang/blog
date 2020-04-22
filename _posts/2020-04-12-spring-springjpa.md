@@ -1,11 +1,11 @@
 ---
 layout: blog
-title: Luồng đi của ứng dụng Spring MVC 
+title: Spring JPA  
 category: blog
 tags: [spring]
-summery: Luồng đi của ứng dụng Spring MVC 
+summery: Spring JPA 
 image: /images/blog/spring.png
-description : Luồng đi ứng dụng Spring MVC 
+description : Spring JPA 
 youtubeId: 7Wpi_jC8CqA
 ---
 
