@@ -30,7 +30,7 @@ thiết kế hệ thống của các developer
 ### Các loại design pattern hiện nay
 Design Pattern được chia làm 3 mục chính là : Creational Pattern ( nhóm khởi tạo), Structural (nhóm cấu trúc) và Behavioral patterns (nhóm hành vi ) . 
 
-Creational Pattern ( nhóm khởi tạo): Nhóm này sẽ giúp bạn rất nhiều trong việc khởi tạo đối tượng, mà bạn khó có thể nhận ra (nó sẽ không dùng từ khóa new như bình thường). Nhóm này gồm 9 mẫu design là:
+Creational Pattern ( nhóm khởi tạo): Nhóm này sẽ giúp bạn rất nhiều trong việc khởi tạo đối tượng
 
 1. Abstract Factory.
 2. Builder.
@@ -42,7 +42,7 @@ Creational Pattern ( nhóm khởi tạo): Nhóm này sẽ giúp bạn rất nhi�
 8. Singleton.
 10. Static Factory.
 
-Structural (nhóm cấu trúc): Nhóm này sẽ giúp chúng ta thiết lập, định nghĩa quan hệ giữa các đối tượng. Nhóm này gồm có 11 mẫu design là.
+Structural (nhóm cấu trúc): Nhóm này sẽ giúp chúng ta thiết lập, định nghĩa quan hệ giữa các đối tượng. Cấu trúc để tạo đối tượng 
 
 1. Adapter/ Wrapper.
 2.    Bridge.
