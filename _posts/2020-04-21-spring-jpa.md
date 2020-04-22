@@ -47,6 +47,14 @@ Như vậy trong database có gì, thì Class Java sẽ mô tả lại y chang v
 5. Apache Cayenne
 
 ### JPA là gì ?
+JPA viết tắc của từ Java Persitent API . Tầng Persistent có nhiệm vụ thao  tác với database như query lấy dữ liệu , lưu dữ liệu
+xuống database . JPA cung cấp cho mình cơ chế ORM mapping các bảng, column , mối quan hệ trong database thành các lớp java và đồng
+thời cung cấp cho mình các method cần thiết để query dữ liệu trong database . 
+
+https://gpcoder.com/6282-tong-quan-ve-jpa-java-persistence-api/
+
+## Luồng đi của ứng dụng MVC
+
 
 
 
@@ -166,11 +174,13 @@ public interface DepartmentAnnotationRepository extends JpaRepository<Department
 
 ### Tổng hợp các cachs query xuống database 
 1. Sử dụng Query Creation
-
 2. Sử dụng @Query
-
 3. Sử dụng @NameQuery
+4. Sử dụng EntityManager  
 
+<br>
+
+### Tại sao mình cần JPA 
 https://thoughts-on-java.org/what-is-spring-data-jpa-and-why-should-you-use-it/
 <br>
 
