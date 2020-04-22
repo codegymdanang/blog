@@ -44,9 +44,14 @@
       <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74281985">
-              <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
-              <folding />
+            <state vertical-scroll-proportion="0.8015666">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h6#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h6#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -419,12 +424,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00370" summary="delete unuse images">
-      <created>1587371532447</created>
-      <option name="number" value="00370" />
-      <option name="project" value="LOCAL" />
-      <updated>1587371532447</updated>
-    </task>
     <task id="LOCAL-00371" summary="site map">
       <created>1587374006879</created>
       <option name="number" value="00371" />
@@ -713,7 +712,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587544558754</updated>
     </task>
-    <option name="localTasksCounter" value="419" />
+    <task id="LOCAL-00419" summary="JPA">
+      <created>1587545597520</created>
+      <option name="number" value="00419" />
+      <option name="project" value="LOCAL" />
+      <updated>1587545597520</updated>
+    </task>
+    <option name="localTasksCounter" value="420" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1294,9 +1299,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74281985">
-          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
-          <folding />
+        <state vertical-scroll-proportion="0.8015666">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h6#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h6#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
