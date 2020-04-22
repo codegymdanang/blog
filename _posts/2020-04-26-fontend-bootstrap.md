@@ -7,6 +7,7 @@ summery: Bootstrap là gì phần 1
 image: /images/blog/ui.png
 description : Giới thiệu về Boostrap 
 youtubeId: 2xSwAsdcwLo
+youtubeId1: 9G2UAIWILa4
 ---
 
 Chào các bạn , bạn đang có ý định làm một website cho mình nhưng không biết nên sử dụng framework nào
@@ -62,3 +63,7 @@ https://getbootstrap.com/
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
 
 {% include youtubePlayer.html id=page.youtubeId %}
+
+
+### Các bạn có thể làm  một trang website giống 100% Zing.vn tại đây nhé 
+{% include youtubePlayer.html id=page.youtubeId1 %}
