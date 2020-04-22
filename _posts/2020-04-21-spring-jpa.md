@@ -187,7 +187,6 @@ public interface DepartmentAnnotationRepository extends JpaRepository<Department
 <br>
 
 ### Tại sao mình cần JPA 
-https://thoughts-on-java.org/what-is-spring-data-jpa-and-why-should-you-use-it/
 1. Chúng ta chỉ tập trung vào viết chức năng của chương trình còn các việc như quản lý connection , cách query thì JPA sẽ lo
 2. Khả năng thay đổi database không bị ảnh hưởng . Ví du hôm nay ta dùng Mysql ngày mai ta dùng Postgres thì không ảnh hưởng tới 
 chương trình của mình.
