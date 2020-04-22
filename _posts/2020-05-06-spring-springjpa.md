@@ -66,7 +66,7 @@ https://github.com/codegymdanang/CGDN-SpringBoot-JPA
 
 ### Bước 1 -  Chuẩn bị dependency trong file pom.xml 
 
-{% highlight xml linenos %}
+{% highlight java linenos %}
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
