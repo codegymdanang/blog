@@ -63,8 +63,7 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 <br>
 
 ### Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ database và trả kết quả về cho người dùng .
-Mọi người có thể tham khảo source code tại đây 
-![here](https://github.com/codegymdanang/CGDN-SpringBoot-JPA")
+Mọi người có thể tham khảo source code <a href="https://github.com/codegymdanang/CGDN-SpringBoot-JPA"> tại đây </a>
 
 
 ### Bước 1 -  Chuẩn bị dependency trong file pom.xml 
