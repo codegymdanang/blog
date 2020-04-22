@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/angular-home.html" afterPath="$PROJECT_DIR$/_layouts/angular-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/blog.html" afterPath="$PROJECT_DIR$/_layouts/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/cicd-home.html" afterPath="$PROJECT_DIR$/_layouts/cicd-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/cleancode-home.html" afterPath="$PROJECT_DIR$/_layouts/cleancode-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/confidence-home.html" afterPath="$PROJECT_DIR$/_layouts/confidence-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/database-none-relational-home.html" afterPath="$PROJECT_DIR$/_layouts/database-none-relational-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/database-relational-home.html" afterPath="$PROJECT_DIR$/_layouts/database-relational-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/designpattern-home.html" afterPath="$PROJECT_DIR$/_layouts/designpattern-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/docker-home.html" afterPath="$PROJECT_DIR$/_layouts/docker-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/effectivecode-home.html" afterPath="$PROJECT_DIR$/_layouts/effectivecode-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/java-home.html" afterPath="$PROJECT_DIR$/_layouts/java-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/monitor-home.html" afterPath="$PROJECT_DIR$/_layouts/monitor-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/refactoring-home.html" afterPath="$PROJECT_DIR$/_layouts/refactoring-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/softskill-home.html" afterPath="$PROJECT_DIR$/_layouts/softskill-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/spring-home.html" afterPath="$PROJECT_DIR$/_layouts/spring-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/ui-home.html" afterPath="$PROJECT_DIR$/_layouts/ui-home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/spring/jwt.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -40,36 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="designpattern-home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/designpattern-home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6153846">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docker-home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/docker-home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4615386">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="effectivecode-home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/effectivecode-home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1730769">
-              <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spring-home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/spring-home.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,12 +36,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui-home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ui-home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/ui-home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40250447">
+            <state vertical-scroll-proportion="-4.326923">
               <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020-04-23-spring-jwt.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.6486486">
+                <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020-04-07-java-head-stack.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.43243244">
+                <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="81" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -169,7 +157,6 @@
         <option value="$PROJECT_DIR$/_posts/2020-04-16-spring-modelandview.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-17-spring-http-method.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-22-spring-validation.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" />
         <option value="$PROJECT_DIR$/_posts/2020-05-04-confidence-xuhuonglaptrinh.md" />
@@ -208,6 +195,7 @@
         <option value="$PROJECT_DIR$/_layouts/softskill-home.html" />
         <option value="$PROJECT_DIR$/_layouts/spring-home.html" />
         <option value="$PROJECT_DIR$/_layouts/ui-home.html" />
+        <option value="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
       </list>
     </option>
   </component>
@@ -219,8 +207,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1850" />
-    <option name="y" value="118" />
+    <option name="x" value="-1457" />
+    <option name="y" value="23" />
     <option name="width" value="1472" />
     <option name="height" value="758" />
   </component>
@@ -289,6 +277,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -304,20 +346,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,9 +389,9 @@
       <recent name="$PROJECT_DIR$/_site/font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/post/spring" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/images/post/spring" />
       <recent name="$PROJECT_DIR$/images/banner" />
       <recent name="$PROJECT_DIR$/images/post/javacore" />
     </key>
@@ -419,12 +447,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00387" summary="passbyvalue">
-      <created>1587405348290</created>
-      <option name="number" value="00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1587405348290</updated>
     </task>
     <task id="LOCAL-00388" summary="passbyvalue">
       <created>1587459871048</created>
@@ -714,11 +736,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587569088664</updated>
     </task>
-    <option name="localTasksCounter" value="436" />
+    <task id="LOCAL-00436" summary="header">
+      <created>1587569279049</created>
+      <option name="number" value="00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1587569279049</updated>
+    </task>
+    <option name="localTasksCounter" value="437" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1850" y="118" width="1472" height="758" extended-state="0" />
+    <frame x="-1457" y="23" width="1472" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32827586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1269,9 +1297,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/ui-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40250447">
+        <state vertical-scroll-proportion="-4.326923">
           <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.43243244">
+            <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="81" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/spring/jwt.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.6486486">
+            <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
