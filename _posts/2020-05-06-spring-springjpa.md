@@ -18,7 +18,8 @@ ORM là viết tắt của Object Relational Mapping, là một quá trình ánh
 ORM giúp mình ánh xạ các tables,column,kiểu dữ liệu và mối quan hệ (1-1,1-n,n-n) trong database thành các Class và thuộc tính trong Java.
 Anh lấy ví dụ 
 Trong database mình có table (person)  và các trường (id kiểu Integer , name kiểu varchar ) như sau
-{% highlight  linenos %}
+
+{% highlight mysql linenos %}
 CREATE TABLE persons (
     id integer NOT NULL,
     name varchar(50) NOT NULL, salary float, PRIMARY KEY(id)
@@ -27,12 +28,13 @@ CREATE TABLE persons (
 
 Như vậy ORM nghĩa là tương ứng với table person trong database mình ánh xạ nó trong Class Java (POJO) như sau cho tương ứng
 
-{% highlight xml linenos %}
+{% highlight java linenos %}
 public class Person {
     public String name;
     public float salary;
     public Person(String name) { ... }
 }
+{% endhighlight %}
 
 Như vậy trong database có gì, thì Class Java sẽ mô tả lại y chang vậy. Sau đây là bản mapping các kiểu dữ liệu trong mysql tương
 ứng với kiểu Java 
@@ -91,7 +93,7 @@ spring.datasource.password=abc
 
 ### Bước 3 - Chuẩn bị entiry . Mapping  table Department trong database thành các class Java 
 
-{% highlight xml linenos %}
+{% highlight java linenos %}
 @Data
 @Entity
 @Table(name = "department")
@@ -112,13 +114,13 @@ public class Department implements Serializable {
 
 
 }
-
 {% endhighlight %}
+
 <br>
 
 ### Bước 4 - Chuẩn bị Controller để mapping request từ client
 
-{% highlight xml linenos %}
+{% highlight java linenos %}
 @Controller
 public class CreationQueryController {
 
@@ -141,7 +143,7 @@ public class CreationQueryController {
 ### Bước 5 - Tạo file DepartmentQueryCreationService Service
 Service có nhiệm vụ thực hiện các nghiệp vụ của ứng dụng . Đồng thời nhúng bean Repository để gọi tầng Persistence 
 
-{% highlight xml linenos %}
+{% highlight java linenos %}
 @Service
 public class DepartmentQueryCreationService {
 
@@ -158,7 +160,7 @@ public class DepartmentQueryCreationService {
 ### Bước 6 - Tạo file DepartmentAnnotationRepository sử dụng JPA 
 Tầng này có nhiệm vụ thao tác lấy dữ liệu. Các cách lấy dữ liệu sẽ được giới thiệu riêng ở bài khác 
 
-{% highlight xml linenos %} 
+{% highlight java linenos %} 
 @Transactional
 public interface DepartmentAnnotationRepository extends JpaRepository<Department,Integer> {
 
