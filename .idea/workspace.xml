@@ -29,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.39370078">
-                <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.48818898">
+                <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -524,12 +524,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00362" summary="delete unuse images">
-      <created>1587366678483</created>
-      <option name="number" value="00362" />
-      <option name="project" value="LOCAL" />
-      <updated>1587366678483</updated>
-    </task>
     <task id="LOCAL-00363" summary="delete unuse images">
       <created>1587367950798</created>
       <option name="number" value="00363" />
@@ -818,7 +812,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587541997545</updated>
     </task>
-    <option name="localTasksCounter" value="411" />
+    <task id="LOCAL-00411" summary="JPA">
+      <created>1587542253776</created>
+      <option name="number" value="00411" />
+      <option name="project" value="LOCAL" />
+      <updated>1587542253776</updated>
+    </task>
+    <option name="localTasksCounter" value="412" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1393,8 +1393,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.39370078">
-            <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.48818898">
+            <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
