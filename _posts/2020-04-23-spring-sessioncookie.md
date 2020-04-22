@@ -27,7 +27,7 @@ Cookie cũng được dùng để lưu những thông tin tạm thời. ệp tin
 Như vậy dù có tắt browser cũng không mất đi các giá trị vì chúng ta đã lưu nó trên máy tính của mình
 <br>
 
-## So sánh session và cookie
+### So sánh session và cookie
 
 {:class="table table-bordered"}
  |  	 Cookie                                             |   Session	                                        | 
@@ -38,6 +38,31 @@ Như vậy dù có tắt browser cũng không mất đi các giá trị vì chú
  |  Dữ liệu cookie có sẵn trong trình duyệt đến khi expired.   | Sau khi đóng trình duyệt sẽ hết phiên làm việc (session)   |
 <br> 
  
+
+<table>
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">First column **fields**</td>
+<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
+</tr>
+<tr>
+<td markdown="span">Second column **fields**</td>
+<td markdown="span">Some more descriptive text.
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
 
 {% include youtubePlayer.html id=page.youtubeId %}
