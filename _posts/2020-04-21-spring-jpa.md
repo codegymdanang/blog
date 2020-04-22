@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: JPA Thao Tác Database Trong Spring 
+title: Spring JPA 
 category: blog
 tags: [spring]
-summery: JPA Thao Tác Database Trong Spring 
+summery: Spring JPA 
 image: /images/blog/spring.png
-description : JPA là gì ?
-youtubeId: 4dQlWJQ7ZQo
+description : Validation trong Spring 
+youtubeId: ljyqbIo4jbk
 ---
 
 Chào các e, chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
