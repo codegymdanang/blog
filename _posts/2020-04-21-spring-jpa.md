@@ -7,18 +7,48 @@ summery: JPA Thao Tác Database Trong Spring
 image: /images/blog/spring.png
 description : JPA là gì ?
 youtubeId: 4dQlWJQ7ZQo
-----------------------
+---
 
 Chào các e, chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
 Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong database 
 <br><br>
 
 ### ORM là gì ?
-ORM là viết tắt của Object Relational Mapping, là một công nghệ/ khái niệm/ quá trình chuyển đổi dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại. Ví dụ, trong Java nó được thực hiện với sự trợ giúp của Reflection và JDBC.
-ORM có khả năng xử lý các thao tác của nhiều loại cơ sở dữ liệu khác nhau một cách dễ dàng mà không quan tâm đến loại database sử dụng (SQL Server, MySQL, PostgreSQL, …) hay loại thao tác sử dụng (INSERT, UPDATE, DELETE, SELECT, …).
+ORM là viết tắt của Object Relational Mapping, là một công nghệ/ khái niệm/ quá trình chuyển đổi dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại. 
+ORM giúp mình ánh xạ các tables,column,kiểu dữ liệu và mối quan hệ (1-1,1-n,n-n) trong database thành các Class và thuộc tính trong Java.
+Anh lấy ví dụ 
+Trong database mình có table (person)  và các trường (id kiểu Integer , name kiểu varchar ) như sau
+{% highlight xml linenos %}
+CREATE TABLE persons (
+    id integer NOT NULL,
+    name varchar(50) NOT NULL, salary float, PRIMARY KEY(id)
+);
+{% endhighlight %}
+
+Như vậy ORM nghĩa là tương ứng với table person trong database mình ánh xạ nó trong Class Java như sau cho tương ứng
+
+{% highlight xml linenos %}
+public class Person {
+    public String name;
+    public float salary;
+    public Person(String name) { ... }
+}
+
+Như vậy trong database có gì, thì Class Java sẽ mô tả lại y chang vậy. Sau đây là bản mapping các kiểu dữ liệu trong mysql tương
+ứng với kiểu Java 
+
 <br>
 
+### Một số ORM Framework  thường hay sử trong các dự án Java 
+1. JPA
+2. Hibernate
+3. OpenJPA
+4. EclipseLink
+5. Apache Cayenne
+
 ### JPA là gì ?
+
+
 
 <br>
 
