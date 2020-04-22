@@ -29,28 +29,9 @@
 	<script src='{{"/js/popper.min.js"  | prepend: site.baseurl }}' ></script>
 	<!-- bootstrap js -->
 	<script src='{{"/js/bootstrap.min.js"  | prepend: site.baseurl }}' ></script>
-	<!-- custom js -->
-	<script src='{{"/js/custom.js"  | prepend: site.baseurl }}'> </script>
 
 
-	<script type="text/javascript" src='{{"/js/jquery.masonry.min.js"  | prepend: site.baseurl }}'></script>
-	<script type="text/javascript" src='{{"/js/jquery.imagesloaded.min.js"  | prepend: site.baseurl }}'></script>
-	<script type="text/javascript" src='{{"/js/highlight.pack.js"  | prepend: site.baseurl }} '> </script>
-	<script type="text/javascript">
-		hljs.initHighlightingOnLoad();
-		function applyTiles() {
-			var posts = $('#posts ul');
-			posts.imagesLoaded(function() {
-				$('#posts ul').masonry({ itemSelector : '.post' });;
-			});
-		}
-		$(function() {
-			applyTiles();
-		});
-		$(window).resize(function() {
-			applyTiles();
-		});
-	</script>
+
 	{% seo %}
 </head>
 
