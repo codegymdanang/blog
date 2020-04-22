@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Spring JPA 
+title: Luồng đi của ứng dụng Spring MVC 
 category: blog
 tags: [spring]
-summery: Spring JPA 
+summery: Luồng đi của ứng dụng Spring MVC 
 image: /images/blog/spring.png
-description : Validation trong Spring 
-youtubeId: ljyqbIo4jbk
+description : Luồng đi ứng dụng Spring MVC 
+youtubeId: 7Wpi_jC8CqA
 ---
 
 Chào các e, chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
