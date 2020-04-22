@@ -36,8 +36,8 @@ public class Person {
 }
 {% endhighlight %}
 
-Như vậy trong database có gì, thì Class Java sẽ mô tả lại y chang vậy. Sau đây là bản mapping các kiểu dữ liệu trong mysql tương
-ứng với kiểu Java 
+Như vậy trong database có gì, thì Class Java sẽ mô tả lại y chang vậy. 
+Sau đây là bản mapping các kiểu dữ liệu trong mysql tương ứng với kiểu Java 
 ![Cấu trúc dự án](/images/post/spring/mysql-java.jpg){:class="img-responsive"}
 <br>
 
