@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md" afterPath="$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -35,12 +35,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-05-06-designpattern-abstractfactory.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-05-06-designpattern-abstractfactory.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.3243243">
-                <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.4054054">
+                <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020-05-07-designpattern-designpatternlagi.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.1891892">
+                <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -66,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-05-java-access-modifier.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md" />
@@ -117,6 +132,7 @@
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_layouts/spring-home.html" />
         <option value="$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md" />
       </list>
     </option>
   </component>
@@ -128,7 +144,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1665" />
+    <option name="x" value="-1629" />
     <option name="y" value="23" />
     <option name="width" value="1472" />
     <option name="height" value="758" />
@@ -258,20 +274,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -368,12 +370,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00393" summary="formating">
-      <created>1587462611757</created>
-      <option name="number" value="00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1587462611757</updated>
     </task>
     <task id="LOCAL-00394" summary="formating">
       <created>1587462896510</created>
@@ -663,11 +659,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587573553466</updated>
     </task>
-    <option name="localTasksCounter" value="442" />
+    <task id="LOCAL-00442" summary="header">
+      <created>1587573790396</created>
+      <option name="number" value="00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1587573790397</updated>
+    </task>
+    <option name="localTasksCounter" value="443" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1665" y="23" width="1472" height="758" extended-state="0" />
+    <frame x="-1629" y="23" width="1472" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32827586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -735,19 +737,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-04-effectivecode-sonar.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-04-effectivecode-tdd.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1225,8 +1214,22 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.3243243">
-            <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.4054054">
+            <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.1891892">
+            <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
             <folding />
           </first_editor>
           <second_editor />
