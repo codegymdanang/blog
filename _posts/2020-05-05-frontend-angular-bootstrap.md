@@ -1,17 +1,15 @@
 ---
 layout: blog
-title: Sử dụng Angular gọi webservice  
+title: Sử dụng Bootstrap trong Angular  
 category: blog
-tags: [ui]
-summery: Sử dụng Angular gọi webservice  
+tags: [angular]
+summery: Sử dụng Bootstrap trong Angular   
 image: /images/blog/angular.png
-description : Sử dụng Angular gọi webservice
-youtubeId: edYsCowgQq0
+description : Angular Boostrap 
+youtubeId: 977WIZTAUv8
 ---
  
-Chào các bạn, chắc hẳn bạn sẽ gặp rất nhiều bugs trong quá trình viết code của mình và tốn rất nhiều thời gian để tìm hiểu
-nguyên nhân gây ra bug? Hôm nay anh sẽ hướng dẫn mọi người các phát hiện bugs nhanh khi code frontend, backend và nơi tìm 
-câu trả lời cho các lỗi mình gặp trong lập trình
+Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách nhúng Bootstrap vào dự án Angualr là như thế nào nhé .
 Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
 <br><br>
 
