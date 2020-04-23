@@ -71,6 +71,41 @@
 
 
 						<!-- End Related Posts -->
+						<hr>
+
+						<div class="relatedPosts">
+
+							<div class="ml-rcm" rc-type="job" rc-layout="bjobs" rc-li="5" rc-for="user" rc-title="Những việc làm hấp dẫn"  animate="off">
+								<div class="box-rcm">
+									<div class="j-orange tagged x-rcm rcm-jobs-multi" id="rcm-hireme" style="height: auto !important">
+										<a class="header-top" href="https://topdev.vn" target="_blank"><span>Những việc làm hấp dẫn</span></a>
+										<div class="ljobs-rcm">
+											<ul class="jobs">
+												{% for post in posts %}
+
+												<li>
+													<a href='{{post.url | relative_url }}'>
+														<h5 class='post-title'>{{post.title}}</h5>
+													</a>
+												</li>
+
+												{% endfor %}
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+
+
+
+
+
+
+
 						<div>
 							<hr style="border: 1px solid red" />
 							<h4>Comments</h4>
@@ -95,6 +130,11 @@
 						</div>
 					</div>
 				</div>
+
+
+
+
+
 			</div>
 
 		</div>
