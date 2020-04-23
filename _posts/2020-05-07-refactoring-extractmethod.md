@@ -14,7 +14,8 @@ Chào các e, chủ đề hôm nay của anh sẽ bàn về chủ đề  Design 
 
 ### Vấn đề đang gặp  ?
 
-Trong hàm printOwing ta thấy có 2 nhiệm vụ . Thứ nhất 
+
+
 ```
 void printOwing() {
   printBanner();
@@ -29,6 +30,10 @@ void printOwing() {
 
 ### Giải quyết vấn đề bằng kỷ thuật Extract Method
 
+
+
+
+### Kết quả 
 
 ```
 void printOwing() {
@@ -46,8 +51,6 @@ void printDetails(double outstanding) {
 
 
 ### Tổng kết
-Như các em thấy hầu hết các framework mà chúng ta đang dùng đều xây dựng dựa trên các design pattern . Vì nó có 
-khả năng mở rộng cao . Ứng với từng mục đích , từng bài toán mà ta sẽ sử dụng pattern tương ứng để giải quyết vấn đề .
 
 
 

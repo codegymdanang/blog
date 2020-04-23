@@ -1,9 +1,4 @@
-#Jekyll Masonry Theme
-
-This using masonry griding to give a nice design
-
-Was orignial authored by arunoda
-THam khảo
+# THam khảo
 https://kipalog.com/posts/Kinh-nghiem-tao-website-ca-nhan-voi-Jekyll---Github-pages
 https://jekyllrb.com/docs/
 
@@ -34,3 +29,6 @@ https://mycyberuniverse.com/add-google-adsense-to-a-jekyll-website.html
 
 ## sitemap
 https://seositecheckup.com/
+
+### highlight
+https://github.com/StylishThemes/Syntax-Themes/tree/master/pygments/css-github
