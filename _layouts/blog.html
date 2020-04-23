@@ -50,7 +50,7 @@
 						<hr>
 						<div class='relatedposts'>
 							<h4>Related Posts</h4>
-							{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:8 %}
+							{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:9 %}
 							<ul id='relatedposts'>
 								{% for post in posts %}
 								<li>

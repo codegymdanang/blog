@@ -5409,6 +5409,6 @@ h6 {
 .relatedposts li:nth-child(3n+0) {margin-right:0;}
 .relatedposts li a {transition:all 0.2s;text-decoration:none;}
 .relatedposts li a:hover {opacity:0.8;}
-.relatedposts .thumbnail img {width:100%;height:auto;}
+.relatedposts .thumbnail img {width:70%;height:auto;}
 .relatedposts .title a {margin-top:5px;font-size:14px;line-height:1.4em;font-weight:500;overflow:hidden;text-overflow:ellipsis;
   -webkit-box-orient:vertical;-webkit-line-clamp:3;display:-webkit-box;max-height:58px;}
