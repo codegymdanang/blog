@@ -10,12 +10,12 @@ description : Design Pattern Là Gì ?
 ---
 
 Chào các e, chủ đề hôm nay của anh sẽ bàn về kỷ thuật Extract Method ? Kỷ thuật nằm nhằm làm cho một method dài khó đọc
-trở thành một phương thức nhỏ hơn , dể đọc hơn 
+trở thành một phương thức nhỏ hơn , dể đọc hơn. 
 <br><br>
 
 ### Vấn đề đang gặp  ?
 Như ví dụ mình có đoạn code sau đây. 
-
+<br>
 {% highlight java linenos %}
 void printOwing() {
   printBanner();
