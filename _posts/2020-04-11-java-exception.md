@@ -21,22 +21,22 @@ Nó là một đối tượng mà được ném tại Runtime. Một exception (
 ![Exception ](/images/post/javacore/exception.png){:class="img-responsive"}
 <br>
 ### Check Exception
-1. Những lỗi và developer có thể đoán trước được
-2. Bắt buộc developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code)
+1. Những lỗi và developer có thể đoán trước được.
+2. Bắt buộc developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code).
 
-Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán được 
-1. FileNotFoundException
-2. InterruptException
-3. Database Exception
-4. IO Exception
+Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán được. 
+1. FileNotFoundException.
+2. InterruptException.
+3. Database Exception.
+4. IO Exception.
 <br>
 
 ### Uncheck Exception
-1. Những lỗi xảy ra khi chương trình đang chạy và chúng ta không biết chắc nó có xảy ra hay không
-2. Không yêu cầu developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code)
+1. Những lỗi xảy ra khi chương trình đang chạy và chúng ta không biết chắc nó có xảy ra hay không.
+2. Không yêu cầu developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code).
 
-Ví dụ
-Khi mình viết một chương trình cho nhà bank với chức năng rút tiền. Sẽ có những trường hợp lỗi xảy ra khi chương trình đang chạy đó là việc khách hàng có thể rút tiền nhiều hơn tiền họ hiện có trong tài khoản. Lúc này mình phải viết Uncheck Exception để xử lý việc này 
+Ví dụ.
+Khi mình viết một chương trình cho nhà bank với chức năng rút tiền. Sẽ có những trường hợp lỗi xảy ra khi chương trình đang chạy đó là việc khách hàng có thể rút tiền nhiều hơn tiền họ hiện có trong tài khoản. Lúc này mình phải viết Uncheck Exception để xử lý việc này. 
 <br>
 
 ### Ném ngoại lệ bằng Throws hoặc throw
@@ -90,10 +90,10 @@ public int getPlayerScore(String playerFile) {
 <br>
 
 ### Khối lệnh Finally
-Khối lệnh Finally luôn luôn chạy . Nó thường dùng để
-1. Đóng kết nối xuống file 
-2. Đóng kết nối xuống database
-3. Giải phóng bộ nhớ
+Khối lệnh Finally luôn luôn chạy . Nó thường dùng để.
+1. Đóng kết nối xuống file .
+2. Đóng kết nối xuống database.
+3. Giải phóng bộ nhớ.
 <br>
 
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 

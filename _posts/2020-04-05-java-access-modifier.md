@@ -15,7 +15,7 @@ lớp .
 <br><br>
 
 ### Từ khoá public dùng làm gì
-Khi một phương thức hoặc biến được khai báo là public, có nghĩa là tất cả các class khác, kể cả các class không thuộc cùng package đều có thể truy cập
+Khi một phương thức hoặc biến được khai báo là public, có nghĩa là tất cả các class khác, kể cả các class không thuộc cùng package đều có thể truy cập.
 <br>
 
 ### Từ khoá private  dùng làm gì
@@ -27,17 +27,19 @@ Khi một phương thức hoặc biến được khai báo là default thì ch�
 <br>
 
 ### Từ khoá protected   dùng làm gì
-Protected modifier khá giống với default modifier, nó hạn chế khả năng truy cập trong cùng 1 package, tuy nhiên với protected modifier thì nó còn cho phép truy cập từ các class con kể cả khi class con không nằm cùng package với class cha. (truy cập theo trường hợp thừa kế)
+Protected modifier khá giống với default modifier, nó hạn chế khả năng truy cập trong cùng 1 package, tuy nhiên với protected modifier thì nó còn cho phép truy cập từ các class con kể cả khi class con không nằm cùng package với class cha. (truy cập theo trường hợp thừa kế).
 <br>
 
 ### Từ khoá static dùng làm gì
-Static : khi mình muốn chia sẽ (dùng chung, và là duy nhất tron cả hệ thống) cái biến đó cho các object khác có thể sử dụng được
+Static : khi mình muốn chia sẽ (dùng chung, và là duy nhất tron cả hệ thống) cái biến đó cho các object khác có thể sử dụng được.
 <br>
 
 ### Từ khoá final  dùng làm gì
-Final : Khi mình muốn giá trị là hằng số và không thể thay đổi được (Ví dụ final double PI = 3.14)
+Final : Khi mình muốn giá trị là hằng số và không thể thay đổi được (Ví dụ final double PI = 3.14).
+<br> 
 
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
+
 <p align="center">
 {% include youtubePlayer.html id=page.youtubeId %}
 <p>

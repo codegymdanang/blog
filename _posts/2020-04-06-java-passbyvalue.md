@@ -37,7 +37,7 @@ gốc vẫn không thay đổi .
 ![Tham trị](/images/post/javacore/passbyvalue2.png){:class="img-responsive"}
 
 Sau khi hàm process(int value) thực hiện xong nhiệm vụ của mình , thì sẽ bị giải phóng đi , trả lại bộ nhớ cho chương trình , giá trị clone 
-(copy) cũng được giải phóng trả lại bộ nhớ
+(copy) cũng được giải phóng trả lại bộ nhớ.
 <br>
 
 ### Truyền tham  chiếu
@@ -46,7 +46,7 @@ Pass by reference (Truyền tham chiếu) : Ngược lại với Pass by value .
 ![Tham trị](/images/post/javacore/passbyreference.png){:class="img-responsive"}
 
 Trong trường hợp này hàm process(int &value) trỏ thằng tới địa chỉ vùng nhớ nơi lưu giá trị 7. Như vậy khi ta thay đổi giá trị trong hàm nó thay 
-đổi luôn giá trị khác 
+đổi luôn giá trị khác .
 <br>
 
 # Các bạn nên nhớ trong  Java là 100% truyền tham trị (passed by value) nhé 
