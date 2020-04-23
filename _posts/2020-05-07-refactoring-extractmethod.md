@@ -14,7 +14,7 @@ trở thành một phương thức nhỏ hơn , dể đọc hơn
 <br><br>
 
 ### Vấn đề đang gặp  ?
-Như ví dụ mình có đoạn code sau đây 
+Như ví dụ mình có đoạn code sau đây. 
 
 {% highlight java linenos %}
 void printOwing() {
@@ -28,7 +28,7 @@ void printOwing() {
 
 Như vậy , các em sẽ thấy đoạn code ở trên có vấn đề ở chổ . Trong hàm printOwing đầu tiên là mình in printBanner(),
 sau đó mình lại tiếp tục viết các dòng code để in chi tiết (Print details) . Như vậy không hợp lý lắm mà thay vào đó mình
-nên nhóm các dòng code in chi tiết (Print details) thành một method để mình gọi thôi 
+nên nhóm các dòng code in chi tiết (Print details) thành một method để mình gọi thôi.  
 <br>
 
 ### Giải quyết vấn đề bằng kỷ thuật Extract Method
@@ -47,7 +47,7 @@ void printDetails(double outstanding) {
 
 Như các em có thể thấy cách giải quyết ở trên , mình tạo một method mới tên là printDetails() sau đó mình dời hết tất
 cả các dòng code liên quan đến print detail lại với nhau và để nó trong method printDetails(). Tiếp đến ta chỉ cần gọi nó
-trong method printOwing() là xong 
+trong method printOwing() là xong.  
 <br>
 
 ### Tổng kết
