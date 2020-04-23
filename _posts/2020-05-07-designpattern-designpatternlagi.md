@@ -67,9 +67,9 @@ Behavioral patterns (nhóm hành vi): Nhóm này sẽ tập trung thực hiện 
 7.    Observer.
 8.    Specification.
 9.    State.
-10.    Strategy.
-11.    Template Method.
-12.    Visitor.
+10.   Strategy.
+11.   Template Method.
+12.   Visitor.
 
 ### Tổng kết
 Như các em thấy hầu hết các framework mà chúng ta đang dùng đều xây dựng dựa trên các design pattern . Vì nó có 
