@@ -35,11 +35,11 @@ public class User {
 }
 {% endhighlight %}
 
-Như ta thấy mình sử dụng các annotaion có sẳng như @NotBlank để ràng buộc không được phép rỗng cho giá trị name
+Như ta thấy mình sử dụng các annotaion có sẳng như @NotBlank để ràng buộc không được phép rỗng cho giá trị name.
 <br>
 
 ### Bước 2 sử dụng trong controller
-Trong ví dụ sau a sẽ sử dụng Restful Webservice 
+Trong ví dụ sau a sẽ sử dụng Restful Webservice .
 
 {% highlight java linenos %}
 @RestController
@@ -58,12 +58,12 @@ public class UserController {
 
 Như ta thấy trong đoạn code trên ta sử dụng @Valid để kiểm tra dữ liệu ngừoi dùng truyền lên có thảo mảng điều kiện ta thiết lập trong Entiry User không ?
 Khi tham số trong controller có annotation @Valid nó sẽ tự động bật chế độ kiểm tra dữ liệu theo chuẩn JSR 380 cái mà cài đặt chứa năng kiểm tra 
-trong thư viện Hibernate Validator để kiểm tra giá trị
+trong thư viện Hibernate Validator để kiểm tra giá trị.
 <br>
 
 ### Ngoài ra chúng ta có thể sử dụng annotation @ExceptionHandler 
 
-@ExceptionHandler cho phép chúng ta bắt lỗi dữ liệu cho từng method 
+@ExceptionHandler cho phép chúng ta bắt lỗi dữ liệu cho từng method. 
 
 {% highlight java linenos %} 
 @ResponseStatus(HttpStatus.BAD_REQUEST)

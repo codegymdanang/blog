@@ -10,12 +10,12 @@ youtubeId: luc3zTLri6M
 ---
 
 Chào bạn , chắc bạn đang phân vân Request Param và PathVariable có khác gì nhau không ? Khi nào dùng thì bài viết hôm nay 
-anh sẽ trình bày sự khác nhau đó 
+anh sẽ trình bày sự khác nhau đó .
 <br><br>
 
 ### Request Param
-Sử dụng Request Param ở server  để lấy giá trị người dùng nhập trên trình duyệt 
-Ví dụ khi người dùng gõ vào đường link như sau để gửi 2 giá trị 10 và 20 lên server 
+Sử dụng Request Param ở server  để lấy giá trị người dùng nhập trên trình duyệt .
+Ví dụ khi người dùng gõ vào đường link như sau để gửi 2 giá trị 10 và 20 lên server .
 http://localhost:8080/springmvc/hello/101?param1=10&param2=20
 
 Phía Controller ta bắt lại 2 giá trị 10 và 20 như sau :
@@ -28,9 +28,9 @@ public String getDetails(@RequestParam(value="param1", required=true) String par
 <br>
 
 ### Path Variable
-Sử dụng Path Variable ở server  để lấy giá trị người dùng nhập trên trình duyệt 
+Sử dụng Path Variable ở server  để lấy giá trị người dùng nhập trên trình duyệt. 
 
-Ví dụ khi người dùng nhập vào url sau và muốn truyền 1234 lên server thì bên server ta sử lý như sau 
+Ví dụ khi người dùng nhập vào url sau và muốn truyền 1234 lên server thì bên server ta sử lý như sau .
 http://localhost:8080/MyApp/user/1234
 
 {% highlight java linenos %} 
@@ -59,7 +59,7 @@ public List<Invoice> listUsersInvoices(
 Cả 2 cách trên đều thực hiện chung một nhiệm vụ là lấy các tham số từ người dùng truyền lên. Bạn sử dụng cái nào cũng làm được 
 mục đích của mình . Tuy nhiên tuỳ vào thiết kế của một hệ thống mà lựa chọn Request Param hoặc  Path Variable để sử dụng mới đem lại
 hiệu quả cao được . Lấy ví dụ mình viết Restfull Web Service thì chắc chắn mình phải dùng Path Variable . Còn thường Request Param khi ta chỉ muống
-query data trên URL 
+query data trên URL. 
 <br>
 
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .

@@ -12,7 +12,7 @@ youtubeId1: 9G2UAIWILa4
 
 Chào các bạn , bạn đang có ý định làm một website cho mình nhưng không biết nên sử dụng framework nào
 để hỗ trợ việc làm website một cách đơn giản và đẹp .Hôm nay anh sẽ giới thiệu với các bạn Boostrap framework. 
-Cái mà team anh hay dùng không làm website
+Cái mà team anh hay dùng không làm website.
 <br><br>
 
 ### Trước tiên ta hãy xem Bootstrap là gì ?
@@ -23,14 +23,14 @@ các animation (hiệu ứng) đã được tích hợp trong Boostrap.
 
 ### Lợi ích của Boostrap
 1. Dễ dàng thao tác . Boostrap có nguyên một bộ tài liệu hướng dẫn
-2. Tuỳ chỉnh dể dàng
-3. Sản phẩm webstie có độ tương thích cao đối với các thiết bị hiển thị website
-4. Giao diện các thành phần web đẹp , dù ta có mắt thẩm mỹ xấu vẫn làm được website đẹp
-5. Tái sử dụng 
+2. Tuỳ chỉnh dể dàng.
+3. Sản phẩm webstie có độ tương thích cao đối với các thiết bị hiển thị website.
+4. Giao diện các thành phần web đẹp , dù ta có mắt thẩm mỹ xấu vẫn làm được website đẹp.
+5. Tái sử dụng .
 
 ### Cài đặt Boostrap cho dự án
-1. Chúng ta có thể cài boostrap từ CDN 
-Chúng ta thêm dòng sau vào trang HTML
+1. Chúng ta có thể cài boostrap từ CDN .
+Chúng ta thêm dòng sau vào trang HTML.
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 {% highlight java linenos %}

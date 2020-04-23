@@ -14,12 +14,12 @@ youtubeId: Awpe1PIC-M4
 
 ### Tổng hợp các loại request 
 
-Có tất cả 9 loại request
+Có tất cả 9 loại request.
 
 1. GET: được sử dụng để lấy thông tin từ sever theo URI đã cung cấp.
-2. HEAD: giống với GET nhưng response trả về không có body, chỉ có header
-3. POST: gửi thông tin tới sever thông qua các biểu mẫu http( đăng kí chả hạn..)
-4. PUT: ghi đè tất cả thông tin của đối tượng với những gì được gửi lên
+2. HEAD: giống với GET nhưng response trả về không có body, chỉ có header.
+3. POST: gửi thông tin tới sever thông qua các biểu mẫu http( đăng kí chả hạn..).
+4. PUT: ghi đè tất cả thông tin của đối tượng với những gì được gửi lên.
 5. PATCH: ghi đè các thông tin được thay đổi của đối tượng.
 6. DELETE: xóa tài nguyên trên server.
 7. CONNECT: thiết lập một kết nối tới server theo URI.
@@ -37,9 +37,8 @@ các method được coi là idempotent khi nó có thể thực hiên n + 1 l�
 
 vì điều này nên các method safe thì đều idempotent. Nhưng unsafe chưa chắc đã idempotent.
 
-1 số lưu ý: header dài tối đa 8kb và cũng phụ thuộc cả vào trình duyệt
-body thì limit của nó tùy trình duyệt.
-url không dài quá 2 nghìn kí tự (ror)
+1 số lưu ý: header dài tối đa 8kb và cũng phụ thuộc cả vào trình duyệt.
+body thì limit của nó tùy trình duyệt. Url không dài quá 2 nghìn kí tự (ror).
 <br>
 
 ### GET VS POST
@@ -50,9 +49,9 @@ Post thì khác, nó giấu parameters trong body và mã hóa chúng đi, ngăn
 
 ### POST/PUT/PATCH
 Điểm khác biệt giữ post và put đơn giản là put là idempotent còn post thì không, bạn sẽ nhận được thông báo lỗi khi gửi một request post với cùng 1 nội dung 2 lần nhưng put thì không, nó luôn trả về kết quả như nhau.
-post: tạo mới
-put: ghi đè(toàn bộ) hoặc tạo mới 1 resource
-patch: cập một 1 phần của resource
+post: tạo mới.
+put: ghi đè(toàn bộ) hoặc tạo mới 1 resource.
+patch: cập một 1 phần của resource.
 <br>
 
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
