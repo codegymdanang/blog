@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Kỷ thuật Extract Method 
+slug: this-is-a-test
 category: blog
 tags: [refactoring]
 summery: Kỷ thuật Extract Method 
