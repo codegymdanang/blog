@@ -66,6 +66,37 @@
 
 <!-- banner post end-->
 
+
+<!-- Related Posts-->
+<hr>
+<div class='relatedposts'>
+	<h4>Related Posts</h4>
+	{% assign posts = site.categories.blog | where_exp:"post", "post.url != page.url" | sample:3 %}
+	{% for post in posts  %}
+	{% if post.tags contains 'java core' %}
+	<div class="col-lg-3 col-sm-3">
+		<div class="single_post post_1">
+			<div class="single_post_img">
+				{% if post.image %}
+				<a href='{{post.url | relative_url }}'><img class='post-image' src="{{post.image | relative_url}}" /></a>
+				{% endif %}
+			</div>
+			<div class="single_post_text text-center">
+				<a href='{{post.url | relative_url }}'>
+					<h5 class='post-title'>{{post.title}}</h5>
+				</a>
+				<h6>Posted : {{ post.date | date: "%B %d, %Y"}}</h6>
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	{% endfor %}
+	</ul>
+</div>
+
+<!-- End Related Posts -->
+
+
 <!-- feature_post start-->
 <section class="all_post section_padding">
 	<div class="container">
