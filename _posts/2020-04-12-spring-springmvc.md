@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Luồng đi của ứng dụng Spring MVC 
+slug : spring-mvc-la-gi
 category: blog
 tags: [spring]
 summery: Luồng đi của ứng dụng Spring MVC 

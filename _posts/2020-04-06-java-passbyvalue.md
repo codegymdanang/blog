@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Tham trị và tham chiếu
+slug : tham-tri-va-tham-chieu-trong-lap-trinh-java
 category: blog
 tags: [java core]
 summery: Blog 2

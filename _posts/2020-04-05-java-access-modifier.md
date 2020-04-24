@@ -1,6 +1,7 @@
 ---
 layout: blog
 title:  Access Modifier Trong Java
+slug : phan-biet-access-modifier-trong-java
 category: blog
 tags: [java core]
 summery: Blog 1

@@ -1,6 +1,7 @@
 ---
 layout: blog
 title:  Các bước chuẩn hoá dữ liệu 
+slug : cac-buoc-chuan-hoa-du-lieu
 category: blog
 tags: [database]
 summery: Bootstrap cơ bản phần 1   

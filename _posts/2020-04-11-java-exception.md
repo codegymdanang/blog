@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Ngoại Lệ Trong Java 
+slug : ngoai-le-trong-lap-trinh-java
 category: blog
 tags: [java core]
 summery: Ngoại Lệ Trong Java

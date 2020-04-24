@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Sự khác  giữa abstract và interface
+slug : su-khac-nhau-giua-abstract-interface
 category: blog
 tags: [java core]
 summery: Sự khác  giữa abstract và interface 

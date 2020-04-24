@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Sử dụng Angular gọi webservice  
+slug :su-dung-angular-goi-webservice
 category: blog
 tags: [angular]
 summery: Sử dụng Angular gọi webservice  

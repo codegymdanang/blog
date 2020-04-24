@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Sử dụng Bootstrap trong Angular  
+slug : su-dung-bootstrap-trong-angular
 category: blog
 tags: [angular]
 summery: Sử dụng Bootstrap trong Angular   

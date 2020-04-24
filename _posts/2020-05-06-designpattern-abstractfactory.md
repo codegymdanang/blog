@@ -1,6 +1,7 @@
 ---
 layout: blog
-title: Abstract Factory   
+title: Abstract Factory
+slug : su-dung-abstract-factory-design-pattern
 category: blog
 tags: [designpattern]
 summery: Spring JPA 

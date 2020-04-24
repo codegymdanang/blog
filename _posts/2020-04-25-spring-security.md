@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Spring Security Và Database  
+slug : spring-security
 category: blog
 tags: [spring]
 summery: Spring Security Và Database 

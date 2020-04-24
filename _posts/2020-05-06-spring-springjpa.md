@@ -1,6 +1,7 @@
 ---
 layout: blog
-title: Spring JPA  
+title: Spring JPA
+slug : spring-jpa-la-gi
 category: blog
 tags: [spring]
 summery: Spring JPA 

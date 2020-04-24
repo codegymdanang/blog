@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Bộ  Heap va Stack
+slug : phan-biet-bo-nho-heap-va-stack
 category: blog
 tags: [java core]
 summery: Phân Biệt Bộ Nhớ  Heap va Stack

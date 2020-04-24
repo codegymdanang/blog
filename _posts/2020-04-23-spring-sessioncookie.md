@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Phân Biệt Session và Cookie 
+slug : phan-biet-session-cookie
 category: blog
 tags: [spring]
 summery: Phân Biệt Session và Cookie 

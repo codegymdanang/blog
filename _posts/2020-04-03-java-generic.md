@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Tìm hiểu Generic trong Java 
+slug : generic-la-gi
 category: blog
 tags: [java core]
 summery: Generic là gì 

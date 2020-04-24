@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Giới thiệu về Boostrap  
+slug : su-dung-boostrap
 category: blog
 tags: [ui]
 summery: Bootstrap là gì phần 1  

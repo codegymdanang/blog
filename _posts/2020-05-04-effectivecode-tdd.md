@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Các viết TDD trong lập  
+slug : lap-trinh-tdd-la-gi
 category: blog
 tags: [effectivecode]
 summery: Cách tìm bug trập trình   

@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Cải thiệnvới chất lượng code với Sonar
+slug : su-dung-sonarqube
 category: blog
 tags: [effectivecode]
 summery: Cải thiệnvới chất lượng code với Sonar

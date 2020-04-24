@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Jenkins tự động CI-CD 
+slug : jenkins-ci-cd
 category: blog
 tags: [cicd]
 summery: Jenkins tự động CI-CD   

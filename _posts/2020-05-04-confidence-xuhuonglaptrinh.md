@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Xu hướng nghành CNTT 
+slug : xu-huong-nghanh-lap-trinh
 category: blog
 tags: [confidence]
 summery: Xu hướng nghành lập trình   

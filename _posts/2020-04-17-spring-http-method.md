@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Các phương thức HTTP
+slug : cac-phuong-thuc-http
 category: blog
 tags: [spring]
 summery:  Các phương thức HTTP

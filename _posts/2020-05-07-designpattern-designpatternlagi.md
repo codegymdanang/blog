@@ -1,6 +1,7 @@
 ---
 layout: blog
-title: Design Pattern Là Gì ?   
+title: Design Pattern Là Gì ? 
+slug: design-pattern-la-gi
 category: blog
 tags: [designpattern]
 summery: Design Pattern Là Gì ?

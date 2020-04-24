@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Các collection trong Java 
+slug : cac-tap-hop-trong-lap-trinh-java
 category: blog
 tags: [java core]
 summery: Blog 5

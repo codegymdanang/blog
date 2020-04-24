@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Json Web Token là gì  
+slug : json-web-token-la-gi
 category: blog
 tags: [spring]
 summery: Json Web Token là gì  
