@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" afterPath="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-02-java-different-abstract-interface.md" afterPath="$PROJECT_DIR$/_posts/2020-04-02-java-different-abstract-interface.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" afterPath="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-04-java-collections.md" afterPath="$PROJECT_DIR$/_posts/2020-04-04-java-collections.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-05-java-access-modifier.md" afterPath="$PROJECT_DIR$/_posts/2020-04-05-java-access-modifier.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md" afterPath="$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md" afterPath="$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" afterPath="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md" afterPath="$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-13-spring-di.md" afterPath="$PROJECT_DIR$/_posts/2020-04-13-spring-di.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-15-spring-request.md" afterPath="$PROJECT_DIR$/_posts/2020-04-15-spring-request.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-16-spring-modelandview.md" afterPath="$PROJECT_DIR$/_posts/2020-04-16-spring-modelandview.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-17-spring-http-method.md" afterPath="$PROJECT_DIR$/_posts/2020-04-17-spring-http-method.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-22-spring-validation.md" afterPath="$PROJECT_DIR$/_posts/2020-04-22-spring-validation.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" afterPath="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md" afterPath="$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md" afterPath="$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-confidence-xuhuonglaptrinh.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-confidence-xuhuonglaptrinh.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-devops-cicd.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-devops-cicd.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-sonar.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-sonar.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-tdd.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-tdd.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-softskillss-debug.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-softskillss-debug.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-05-cleancode-naming.md" afterPath="$PROJECT_DIR$/_posts/2020-05-05-cleancode-naming.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-bootstrap.md" afterPath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-bootstrap.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-call-webservice.md" afterPath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-call-webservice.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md" afterPath="$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md" afterPath="$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md" afterPath="$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-07-refactoring-extractmethod.md" afterPath="$PROJECT_DIR$/_posts/2020-05-07-refactoring-extractmethod.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -56,38 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2020-04-12-spring-springmvc.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.05350773">
-                <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2020-04-11-java-exception.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-04-11-java-exception.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.05178366">
-                <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2020-04-08-java-different-class-object.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-08-java-different-class-object.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
@@ -200,7 +137,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-04-01-java-oop.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-04-01-java-oop.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-01-java-oop.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
@@ -212,6 +149,26 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -249,7 +206,6 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md" />
         <option value="$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md" />
         <option value="$PROJECT_DIR$/_posts/2020-05-07-refactoring-extractmethod.md" />
@@ -282,6 +238,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-02-java-different-abstract-interface.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -394,6 +351,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -491,12 +462,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00418" summary="JPA">
-      <created>1587544558754</created>
-      <option name="number" value="00418" />
-      <option name="project" value="LOCAL" />
-      <updated>1587544558754</updated>
     </task>
     <task id="LOCAL-00419" summary="JPA">
       <created>1587545597520</created>
@@ -786,7 +751,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587697483629</updated>
     </task>
-    <option name="localTasksCounter" value="467" />
+    <task id="LOCAL-00467" summary="slug">
+      <created>1587698285300</created>
+      <option name="number" value="00467" />
+      <option name="project" value="LOCAL" />
+      <updated>1587698285300</updated>
+    </task>
+    <option name="localTasksCounter" value="468" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -826,7 +797,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="adding seo" />
     <MESSAGE value="chình lại title của blogs" />
     <MESSAGE value="content oop" />
     <MESSAGE value="abstract class va interface" />
@@ -851,20 +821,14 @@
     <MESSAGE value="SEO description" />
     <MESSAGE value="JPA" />
     <MESSAGE value="header" />
-    <option name="LAST_COMMIT_MESSAGE" value="header" />
+    <MESSAGE value="slug" />
+    <option name="LAST_COMMIT_MESSAGE" value="slug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/docker-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/database-relational-home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
@@ -980,14 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1451,6 +1407,22 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
