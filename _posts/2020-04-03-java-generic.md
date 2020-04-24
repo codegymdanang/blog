@@ -4,6 +4,7 @@ title: Tìm hiểu Generic trong Java
 slug : generic-la-gi
 category: blog
 tags: [java core]
+tag : news
 summery: Generic là gì 
 image: /images/blog/java.png
 description : Generic là gì trong lập trình .
