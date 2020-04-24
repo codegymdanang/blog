@@ -5413,3 +5413,26 @@ h6 {
 .relatedposts .title a {margin-top:5px;font-size:14px;line-height:1.4em;font-weight:500;overflow:hidden;text-overflow:ellipsis;
   -webkit-box-orient:vertical;-webkit-line-clamp:3;display:-webkit-box;max-height:58px;}
 
+.bold_line {
+  bottom: 0;
+  display: block;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.bold_line span {
+  background-color: #ffa500;
+}
+
+.solid_line {
+  background-color: #fff;
+  bottom: 5px;
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
