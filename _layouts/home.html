@@ -76,42 +76,12 @@
 <section class="all_post section_padding">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12">
 
 				<div class="row">
 					<div class="col-lg-12">
-						<div class='relatedposts'>
-							<h4>Related Posts</h4>
-							{% assign posts = site.tags | where_exp:"post", "post.url != page.url"  %}
-							{% for post in posts limit:3 %}
-							{% if post.tags contains 'java core' %}
-							<div class="col-lg-3 col-sm-3">
-								<div class="single_post post_1">
-									<div class="single_post_img">
-										{% if post.image %}
-										<a href='{{post.url | relative_url }}'><img class='post-image' src="{{post.image | relative_url}}" /></a>
-										{% endif %}
-									</div>
-									<div class="single_post_text text-center">
-										<a href='{{post.url | relative_url }}'>
-											<h5 class='post-title'>{{post.title}}</h5>
-										</a>
-										<h6>Posted : {{ post.date | date: "%B %d, %Y"}}</h6>
-									</div>
-								</div>
-							</div>
-							{% endif %}
-							{% endfor %}
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="row">
+						<div class="row relatedposts"  >
+							<h4>Bài Viết Mới Nhất </h4>
 							{% for post in paginator.posts  %}
-
 							<div class="col-lg-3 col-sm-3">
 								<div class="single_post post_1">
 									<div class="single_post_img">
