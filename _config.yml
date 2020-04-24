@@ -1,4 +1,4 @@
-permalink: /:categories/:title:output_ext
+permalink: pretty
 baseurl: /
 url: "https://levunguyen.com"
 full_name: "Lê Vũ Nguyên"
