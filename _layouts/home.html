@@ -73,6 +73,40 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
+				<!-- Java Post -->
+				<div class="row">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="col-lg-12">
+								<div class='relatedposts'>
+									<h4> Bài Viết Mới Java </h4>
+								</div>
+							</div>
+
+							<div class="row">
+								{% for post in site.tags.news limit:3  %}
+								<div class="col-lg-3 col-sm-3">
+									<div class="single_post post_1">
+										<div class="single_post_img">
+											{% if post.image %}
+											<a href='{{post.url | relative_url }}'><img class='post-image' src="{{post.image | relative_url}}" /></a>
+											{% endif %}
+										</div>
+										<div class="single_post_text text-center">
+											<a href='{{post.url | relative_url }}'>
+												<h5 class='post-title'>{{post.title}}</h5>
+											</a>
+											<h6>Posted : {{ post.date | date: "%B %d, %Y"}}</h6>
+										</div>
+									</div>
+								</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- End Java Post -->
 				<!-- New Post -->
 				<div class="row">
 					<div class="col-lg-12">
@@ -131,39 +165,7 @@
 						</div>
 					</div>
 				</div>
-				<!-- Java Post -->
-				<div class="row">
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="col-lg-12">
-								<div class='relatedposts'>
-									<h4> Bài Viết Mới Java </h4>
-								</div>
-							</div>
-
-							<div class="row">
-								{% for post in site.tags.news limit:3  %}
-								<div class="col-lg-3 col-sm-3">
-									<div class="single_post post_1">
-										<div class="single_post_img">
-											{% if post.image %}
-											<a href='{{post.url | relative_url }}'><img class='post-image' src="{{post.image | relative_url}}" /></a>
-											{% endif %}
-										</div>
-										<div class="single_post_text text-center">
-											<a href='{{post.url | relative_url }}'>
-												<h5 class='post-title'>{{post.title}}</h5>
-											</a>
-											<h6>Posted : {{ post.date | date: "%B %d, %Y"}}</h6>
-										</div>
-									</div>
-								</div>
-								{% endfor %}
-							</div>
-						</div>
-					</div>
-
-				</div>
+				<!-- End New Post -->
 			</div>
 			<div class="col-lg-4">
 				<div class="sidebar_widget">
