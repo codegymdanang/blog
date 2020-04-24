@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/angular_home_layout.html" afterPath="$PROJECT_DIR$/hoc-lap-trinh-angular.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cicd_home_layout.html" afterPath="$PROJECT_DIR$/ky-thuat-lap-trinh-ci-cd.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cleancode_home_layout.html" afterPath="$PROJECT_DIR$/ky-thuat-lap-trinh-java-cleancode.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/confidence_home_layout.html" afterPath="$PROJECT_DIR$/tam-su-nghe-lap-trinh-vien.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database_none_relational_home_layout.html" afterPath="$PROJECT_DIR$/co-so-du-lieu-none-relational-database.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database_relational_home_layout.html" afterPath="$PROJECT_DIR$/co-so-du-lieu-mysql.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/designpattern_home_layout.html" afterPath="$PROJECT_DIR$/hoc-lap-trinh-design-pattern.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docker_home_layout.html" afterPath="$PROJECT_DIR$/hoc-lap-trinh-docker.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/effectivecode_home_layout.html" afterPath="$PROJECT_DIR$/hoc-lap-trinh-java-chuyen-sau.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/java_home_layout.html" afterPath="$PROJECT_DIR$/hoc-lap-trinh-java.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/monitor_home_layout.html" afterPath="$PROJECT_DIR$/ky-thuat-deploy.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/refactoring_home_layout.html" afterPath="$PROJECT_DIR$/ky-thuat-lap-trinh-java-refactoring.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/softskill_home_layout.html" afterPath="$PROJECT_DIR$/ky-nang-hoc-lap-trinh.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spring_home_layout.html" afterPath="$PROJECT_DIR$/hoc-lap-trinh-spring.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ui_home_layout.html" afterPath="$PROJECT_DIR$/hoc-lap-trinh-web.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -25,22 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2020-04-08-java-different-class-object.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-04-08-java-different-class-object.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2020-04-07-java-head-stack.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
@@ -166,8 +165,8 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.0987791">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -188,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_layouts/confidence-home.html" />
         <option value="$PROJECT_DIR$/_layouts/database-none-relational-home.html" />
         <option value="$PROJECT_DIR$/_layouts/database-relational-home.html" />
         <option value="$PROJECT_DIR$/_layouts/designpattern-home.html" />
@@ -239,6 +237,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-04-02-java-different-abstract-interface.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
       </list>
     </option>
   </component>
@@ -462,12 +461,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00419" summary="JPA">
-      <created>1587545597520</created>
-      <option name="number" value="00419" />
-      <option name="project" value="LOCAL" />
-      <updated>1587545597520</updated>
     </task>
     <task id="LOCAL-00420" summary="JPA">
       <created>1587545822935</created>
@@ -757,7 +750,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587698285300</updated>
     </task>
-    <option name="localTasksCounter" value="468" />
+    <task id="LOCAL-00468" summary="slug">
+      <created>1587698910161</created>
+      <option name="number" value="00468" />
+      <option name="project" value="LOCAL" />
+      <updated>1587698910161</updated>
+    </task>
+    <option name="localTasksCounter" value="469" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -829,13 +828,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/database-relational-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/database-none-relational-home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
@@ -903,6 +895,7 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="78" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1418,10 +1411,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-java-chuyen-sau.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0987791">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
           <folding />
         </state>
       </provider>
