@@ -1,4 +1,4 @@
-permalink: /:categories/:year/:month/:day/:title/
+permalink: /:categories/:title
 baseurl: /
 url: "https://levunguyen.com"
 full_name: "Lê Vũ Nguyên"
