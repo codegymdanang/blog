@@ -62,32 +62,45 @@
 	</div>
 </section>
 
-
-<!-- Content Top -->
-<section class="all_post section_padding">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm6">
-				<img src='{{ "/images/blog/database.png" | prepend: site.baseurl }}' alt="">
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm6">
-				<div class="content_top_right">
-					<img src='{{ "/images/blog/angular.png" | prepend: site.baseurl }}' alt="">
-					<div class="title_caption"><a href="pages/single.html">Sed luctus semper odio aliquam rhoncus</a></div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-
-</section>
-<!-- End Content Top -->
-
 <!-- feature_post start-->
 <section class="all_post section_padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
+				<!-- Spring Post -->
+				<div class="row">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="col-lg-12">
+								<div class='relatedposts'>
+									<h4> Bài Viết Mới Spring </h4>
+								</div>
+							</div>
+
+							<div class="row">
+								{% for post in site.tags.spring limit:3  %}
+								<div class="col-lg-3 col-sm-3">
+									<div class="single_post post_1">
+										<div class="single_post_img">
+											{% if post.image %}
+											<a href='{{post.url | relative_url }}'><img class='post-image' src="{{post.image | relative_url}}" /></a>
+											{% endif %}
+										</div>
+										<div class="single_post_text text-center">
+											<a href='{{post.url | relative_url }}'>
+												<h5 class='post-title'>{{post.title}}</h5>
+											</a>
+											<h6>Posted : {{ post.date | date: "%B %d, %Y"}}</h6>
+										</div>
+									</div>
+								</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- End Java Post -->
 				<!-- Java Post -->
 				<div class="row">
 					<div class="row">

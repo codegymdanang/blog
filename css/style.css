@@ -5413,28 +5413,3 @@ h6 {
 .relatedposts .title a {margin-top:5px;font-size:14px;line-height:1.4em;font-weight:500;overflow:hidden;text-overflow:ellipsis;
   -webkit-box-orient:vertical;-webkit-line-clamp:3;display:-webkit-box;max-height:58px;}
 
-.content_top {
-  float: left;
-  display: inline;
-  width: 100%;
-}
-
-.content_top_right {
-  float: left;
-  display: inline;
-  width: 100%;
-}
-.title_caption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 10px;
-  text-align: center;
-  background-color: rgba(0,0,0,0.75);
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
