@@ -5412,3 +5412,38 @@ h6 {
 .relatedposts .thumbnail img {width:70%;height:auto;}
 .relatedposts .title a {margin-top:5px;font-size:14px;line-height:1.4em;font-weight:500;overflow:hidden;text-overflow:ellipsis;
   -webkit-box-orient:vertical;-webkit-line-clamp:3;display:-webkit-box;max-height:58px;}
+
+.content_top{float:left; display:inline; width:100%}
+.latest_slider {
+  float: left;
+  display: inline;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.slick-slider {
+  margin-bottom: 20px;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+.content_top_right {
+  float: left;
+  display: inline;
+  width: 100%;
+}
