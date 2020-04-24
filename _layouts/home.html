@@ -54,11 +54,28 @@
 </div>
 <!-- Header part end-->
 
-<!-- banner post start-->
 <section class="banner_post">
 	<div class="container-fluid">
 		<div class="row justify-content-between">
 			<img src='{{"/images/banner/banner.png"  | prepend: site.baseurl }}'>
+		</div>
+	</div>
+</section>
+
+<!-- banner post start-->
+<section class="banner_post">
+	<div class="container-fluid">
+		{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:3 %}
+		<div class="row justify-content-between">
+				{% for post in posts %}
+					<div class="banner_post_1" >
+						<div class="banner_post_iner text-center">
+							<a href="category.html"><h5> {{post.category}}</h5></a>
+							<a href="single-blog.html"><h2>{{post.title}}</h2></a>
+							<p>Posted on April 15, 2019</p>
+						</div>
+					</div>
+				{% endfor %}
 		</div>
 	</div>
 </section>
