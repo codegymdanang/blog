@@ -2,7 +2,7 @@
 layout: blog
 title: Các collection trong Java 
 slug : cac-tap-hop-trong-lap-trinh-java
-category: blog
+category: laptrinhjava
 tags: [java core]
 tag : news
 summery: Blog 5

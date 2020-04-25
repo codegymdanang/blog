@@ -2,7 +2,7 @@
 layout: blog
 title: Sự khác  giữa abstract và interface
 slug : su-khac-nhau-giua-abstract-interface
-category: blog
+category: laptrinhjava
 tags: [java core]
 tag : news
 summery: Sự khác  giữa abstract và interface 

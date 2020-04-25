@@ -2,7 +2,7 @@
 layout: blog
 title: Tìm hiểu Generic trong Java 
 slug : generic-la-gi
-category: blog
+category: laptrinhjava
 tags: [java core]
 tag : news
 summery: Generic là gì 
