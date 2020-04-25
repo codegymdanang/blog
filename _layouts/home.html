@@ -97,7 +97,10 @@
 								{% endfor %}
 							</div>
 							<div class="row">
-								<a href='{{post.url | relative_url }}'><img  src='{{ "/images/readmore.png" | prepend: site.baseurl }}' /></a>
+								<div class="col-lg-8 col-sm-8"> </div>
+								<div class="col-lg-4 col-sm-4">
+									<a href='{{post.url | relative_url }}'><img  src='{{ "/images/blog/readmore.png" | prepend: site.baseurl }}' /></a>
+								</div>
 							</div>
 						</div>
 					</div>
