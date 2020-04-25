@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/java-home.html" afterPath="$PROJECT_DIR$/_layouts/java-home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,8 +28,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6375">
-              <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+            <state vertical-scroll-proportion="-1.7">
+              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="73" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -90,8 +89,8 @@
       <file leaf-file-name="java-home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/java-home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18115942">
-              <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.2173913">
+              <caret line="48" column="30" selection-start-line="46" selection-start-column="24" selection-end-line="48" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -425,12 +424,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00491" summary="related post">
-      <created>1587717696715</created>
-      <option name="number" value="00491" />
-      <option name="project" value="LOCAL" />
-      <updated>1587717696715</updated>
-    </task>
     <task id="LOCAL-00492" summary="related post">
       <created>1587719370344</created>
       <option name="number" value="00492" />
@@ -719,7 +712,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587785500014</updated>
     </task>
-    <option name="localTasksCounter" value="540" />
+    <task id="LOCAL-00540" summary="related post">
+      <created>1587785949283</created>
+      <option name="number" value="00540" />
+      <option name="project" value="LOCAL" />
+      <updated>1587785949283</updated>
+    </task>
+    <option name="localTasksCounter" value="541" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1363,10 +1362,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7916667">
+          <caret line="70" column="50" selection-start-line="69" selection-start-column="24" selection-end-line="70" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6375">
-          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+        <state vertical-scroll-proportion="-1.7">
+          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="73" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1380,18 +1387,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7916667">
-          <caret line="70" column="50" selection-start-line="69" selection-start-column="24" selection-end-line="70" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/java-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18115942">
-          <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.2173913">
+          <caret line="48" column="30" selection-start-line="46" selection-start-column="24" selection-end-line="48" selection-end-column="30" />
           <folding />
         </state>
       </provider>
