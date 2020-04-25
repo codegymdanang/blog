@@ -5421,7 +5421,7 @@ h6 {
   -webkit-box-orient:vertical;-webkit-line-clamp:3;display:-webkit-box;max-height:58px;}
 /* formating post home page */
 .post-container {
-  margin: 0 15px;
+  margin: 20px 20px 20px 20px;
   position: relative;
 }
 
