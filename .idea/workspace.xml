@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-02-java-different-abstract-interface.md" afterPath="$PROJECT_DIR$/_posts/2020-04-02-java-different-abstract-interface.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" afterPath="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-04-java-collections.md" afterPath="$PROJECT_DIR$/_posts/2020-04-04-java-collections.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-05-java-access-modifier.md" afterPath="$PROJECT_DIR$/_posts/2020-04-05-java-access-modifier.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md" afterPath="$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md" afterPath="$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" afterPath="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md" afterPath="$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-13-spring-di.md" afterPath="$PROJECT_DIR$/_posts/2020-04-13-spring-di.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-15-spring-request.md" afterPath="$PROJECT_DIR$/_posts/2020-04-15-spring-request.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-16-spring-modelandview.md" afterPath="$PROJECT_DIR$/_posts/2020-04-16-spring-modelandview.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-17-spring-http-method.md" afterPath="$PROJECT_DIR$/_posts/2020-04-17-spring-http-method.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-22-spring-validation.md" afterPath="$PROJECT_DIR$/_posts/2020-04-22-spring-validation.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" afterPath="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md" afterPath="$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md" afterPath="$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-confidence-xuhuonglaptrinh.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-confidence-xuhuonglaptrinh.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-devops-cicd.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-devops-cicd.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-sonar.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-sonar.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-tdd.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-tdd.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-softskillss-debug.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-softskillss-debug.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-05-cleancode-naming.md" afterPath="$PROJECT_DIR$/_posts/2020-05-05-cleancode-naming.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-bootstrap.md" afterPath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-bootstrap.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-call-webservice.md" afterPath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-call-webservice.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md" afterPath="$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md" afterPath="$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md" afterPath="$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-07-refactoring-extractmethod.md" afterPath="$PROJECT_DIR$/_posts/2020-05-07-refactoring-extractmethod.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/angular-home.html" afterPath="$PROJECT_DIR$/_layouts/angular-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/cicd-home.html" afterPath="$PROJECT_DIR$/_layouts/cicd-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/cleancode-home.html" afterPath="$PROJECT_DIR$/_layouts/cleancode-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/confidence-home.html" afterPath="$PROJECT_DIR$/_layouts/confidence-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/database-none-relational-home.html" afterPath="$PROJECT_DIR$/_layouts/database-none-relational-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/database-relational-home.html" afterPath="$PROJECT_DIR$/_layouts/database-relational-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/designpattern-home.html" afterPath="$PROJECT_DIR$/_layouts/designpattern-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/docker-home.html" afterPath="$PROJECT_DIR$/_layouts/docker-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/effectivecode-home.html" afterPath="$PROJECT_DIR$/_layouts/effectivecode-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/monitor-home.html" afterPath="$PROJECT_DIR$/_layouts/monitor-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/refactoring-home.html" afterPath="$PROJECT_DIR$/_layouts/refactoring-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/softskill-home.html" afterPath="$PROJECT_DIR$/_layouts/softskill-home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/spring-home.html" afterPath="$PROJECT_DIR$/_layouts/spring-home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/ui-home.html" afterPath="$PROJECT_DIR$/_layouts/ui-home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -80,16 +37,6 @@
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database-none-relational-home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/database-none-relational-home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-26.25">
-              <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -140,12 +87,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angular-home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/angular-home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6483645">
+            <state vertical-scroll-proportion="-23.125">
               <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui-home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/ui-home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4906542">
+              <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020-04-26-fontend-bootstrap.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.07281554">
+                <caret line="4" column="21" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -182,22 +155,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-05-04-softskillss-debug.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-05-04-softskillss-debug.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.07281554">
-                <caret line="4" column="16" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="16" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -213,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/blog.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
@@ -264,6 +220,7 @@
         <option value="$PROJECT_DIR$/_layouts/cleancode-home.html" />
         <option value="$PROJECT_DIR$/_layouts/cicd-home.html" />
         <option value="$PROJECT_DIR$/_layouts/angular-home.html" />
+        <option value="$PROJECT_DIR$/_layouts/ui-home.html" />
       </list>
     </option>
   </component>
@@ -547,12 +504,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00477" summary="related post">
-      <created>1587714442714</created>
-      <option name="number" value="00477" />
-      <option name="project" value="LOCAL" />
-      <updated>1587714442714</updated>
     </task>
     <task id="LOCAL-00478" summary="related post">
       <created>1587714850994</created>
@@ -842,7 +793,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587779731856</updated>
     </task>
-    <option name="localTasksCounter" value="526" />
+    <task id="LOCAL-00526" summary="related post">
+      <created>1587780901038</created>
+      <option name="number" value="00526" />
+      <option name="project" value="LOCAL" />
+      <updated>1587780901038</updated>
+    </task>
+    <option name="localTasksCounter" value="527" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -914,14 +871,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1225,20 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.07281554">
-            <caret line="4" column="21" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="21" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-bootstrap.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1528,8 +1463,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/angular-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6483645">
+        <state vertical-scroll-proportion="-23.125">
           <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.07281554">
+            <caret line="4" column="21" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/ui-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4906542">
+          <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
           <folding />
         </state>
       </provider>
