@@ -5425,6 +5425,11 @@ h6 {
   position: relative;
 }
 
+.blog-style-grid .post-container, .blog-style-masonry .post-container {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
 .post-thumbnail {
   position: relative;
   display: block;
@@ -5605,4 +5610,11 @@ div {
 .post-title {
   display: block;
   word-break: break-word;
+}
+
+.sh-footer-widgets .sh-widget-posts-slider-style1 .sh-widget-posts-slider-content {
+  margin-left: 100px;
+}
+.sh-widget-posts-slider-style1 .sh-widget-posts-slider-content {
+  margin-left: 90px;
 }
