@@ -97,23 +97,24 @@
 										<div class="post-content-container">
 											<div class="post-categories-container">
 												<div class="post-categories">
-													<a href="https://gillion.shufflehound.com/gizmo-news/category/business/">Business</a>,
-													<a href="https://gillion.shufflehound.com/gizmo-news/category/lifestyle/">Lifestyle</a>
+													<span> {{post.category}}</span>
 												</div>
 											</div>
 											<a href="https://gillion.shufflehound.com/gizmo-news/2017/01/31/creativity-boost-working-from-interesting-locations/" class="post-title">
-												<h4> Creativity Boost! Working From Interesting Locations&nbsp;<span class="post-read-later post-read-later-guest tooltipstered" href="#login-register" data-type="add" data-id="500">
-													<i class="fa fa-bookmark-o"></i></span></h4> </a><div class="post-meta">
-											<div class="post-meta-content">
-												<span class="post-auhor-date">
-													<span>
-														<a href="https://gillion.shufflehound.com/gizmo-news/author/gillionshufflehound/" class="post-author">Gillion</a>
-													</span>, <a href="https://gillion.shufflehound.com/gizmo-news/2017/01/31/creativity-boost-working-from-interesting-locations/" class="post-date">
-													3 years ago
-												</a>
+												<h4> {{post.title}} </h4>
+											</a>
+											<div class="post-meta">
+												<div class="post-meta-content">
+													<span class="post-auhor-date">
+														<span>
+															<a class="post-author">nguyen.le</a>
+														</span>,
+														<a  class="post-date">
+															{{ post.date | date: "%B %d, %Y"}}
+														</a>
 												</span>
 												<span class="post-readtime">
-													<i class="icon icon-clock"></i> 1 min <span>read</span> </span>
+													<i class="icon icon-clock"></i> 15 min <span>read</span> </span>
 												<span class="desktop-post-read-later"> &nbsp;<span class="post-read-later post-read-later-guest tooltipstered" href="#login-register" data-type="add" data-id="500">
 													<i class="fa fa-bookmark-o"></i>
 												</span>
@@ -375,7 +376,7 @@
 									<a href='{{post.url | relative_url }}'>
 										<h5>{{post.title}}</h5>
 									</a>
-									<p><span> Le Vu Nguyen </span> {{ post.date | date: "%B %d, %Y"}}</p>
+									<p><span>Posted By nguyen.le </span> {{ post.date | date: "%B %d, %Y"}}</p>
 								</div>
 							</div>
 							{% endfor %}
