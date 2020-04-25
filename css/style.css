@@ -5419,7 +5419,7 @@ h6 {
 .relatedposts .thumbnail img {width:70%;height:auto;}
 .relatedposts .title a {margin-top:5px;font-size:14px;line-height:1.4em;font-weight:500;overflow:hidden;text-overflow:ellipsis;
   -webkit-box-orient:vertical;-webkit-line-clamp:3;display:-webkit-box;max-height:58px;}
-
+/* formating post home page */
 .post-container {
   margin: 0 15px;
   position: relative;
@@ -5529,4 +5529,22 @@ h6 {
   transition: .8s opacity ease-in-out;
   cursor: pointer;
   font-size: 80%;
+}
+/* end formating post home page */
+
+/* Popular feeds */
+.sh-recent-posts-widgets .sh-recent-posts-widgets-item, .sh-footer .sh-widget-posts-slider-style1:not(:last-child), .sh-footer-widgets .widget_tag_cloud a, .sh-title-style2 .sh-footer-widgets .sh-widget-title-styling, .sh-carousel-style2 .sh-footer-widgets .sh-carousel-buttons-styling {
+  border-color: rgba(252,252,252,0.05);
+}
+.sh-widget-posts-slider-style1:not(:last-child):not(.sh-widget-posts-categories-item) {
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.sh-footer-widgets .sh-widget-posts-slider-style1 {
+  min-height: 100px;
+}
+.sh-widget-posts-slider-style1 {
+  position: relative;
+  min-height: 70px;
 }
