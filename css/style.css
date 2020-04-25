@@ -5548,3 +5548,13 @@ h6 {
   position: relative;
   min-height: 70px;
 }
+.sh-widget-posts-slider-style1 .sh-widget-posts-slider-thumbnail {
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+}
