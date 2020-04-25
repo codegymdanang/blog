@@ -2,7 +2,7 @@
 layout: blog
 title: Model, ModelMap, and ModelView  
 slug : su-dung-model-modelmap-modelview-trong-spring
-category: blog
+category: laptrinhspring
 tags: [spring]
 summery: Model, ModelMap, and ModelView
 image: /images/blog/spring.png

@@ -2,7 +2,7 @@
 layout: blog
 title: Design Pattern Là Gì ? 
 slug: design-pattern-la-gi
-category: blog
+category: craftmanship
 tags: [designpattern]
 summery: Design Pattern Là Gì ?
 image: /images/blog/design-patterns.png

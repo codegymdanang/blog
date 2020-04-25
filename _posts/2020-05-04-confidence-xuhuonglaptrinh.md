@@ -2,7 +2,7 @@
 layout: blog
 title: Xu hướng nghành CNTT 
 slug : xu-huong-nghanh-lap-trinh
-category: blog
+category: career
 tags: [confidence]
 summery: Xu hướng nghành lập trình   
 image: /images/blog/softskills.png

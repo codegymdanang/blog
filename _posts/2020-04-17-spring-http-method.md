@@ -2,7 +2,7 @@
 layout: blog
 title: Các phương thức HTTP
 slug : cac-phuong-thuc-http
-category: blog
+category: laptrinhspring
 tags: [spring]
 summery:  Các phương thức HTTP
 image: /images/blog/spring.png

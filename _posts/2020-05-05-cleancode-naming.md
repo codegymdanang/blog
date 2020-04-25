@@ -2,7 +2,7 @@
 layout: blog
 title: Qui tắc đặt tên 
 slug : clean-code-dat-ten
-category: blog
+category: craftmanship
 tags: [cleancode]
 summery: Qui tắc đặt tên
 image: /images/blog/quality-code.png

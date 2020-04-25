@@ -2,7 +2,7 @@
 layout: blog
 title:  Access Modifier Trong Java
 slug : phan-biet-access-modifier-trong-java
-category: blog
+category: laptrinhjava
 tags: [java core]
 summery: Blog 1
 image: /images/blog/java.png

@@ -2,7 +2,7 @@
 layout: blog
 title: Jenkins tự động CI-CD 
 slug : jenkins-ci-cd
-category: blog
+category: devops
 tags: [cicd]
 summery: Jenkins tự động CI-CD   
 image: /images/blog/cicd.png 

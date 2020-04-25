@@ -2,7 +2,7 @@
 layout: blog
 title: Ngoại Lệ Trong Java 
 slug : ngoai-le-trong-lap-trinh-java
-category: blog
+category: laptrinhjava
 tags: [java core]
 summery: Ngoại Lệ Trong Java
 image: /images/blog/java.png

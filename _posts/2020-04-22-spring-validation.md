@@ -2,7 +2,7 @@
 layout: blog
 title: Sử dụng Validation Trong  Spring
 slug : su-dung-spring-validation
-category: blog
+category: laptrinhspring
 tags: [spring]
 summery: Sử dụng Validation Trong  Spring
 image: /images/blog/spring.png

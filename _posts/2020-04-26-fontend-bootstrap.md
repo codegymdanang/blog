@@ -2,7 +2,7 @@
 layout: blog
 title: Giới thiệu về Boostrap  
 slug : su-dung-boostrap
-category: blog
+category: laptrinhweb
 tags: [ui]
 summery: Bootstrap là gì phần 1  
 image: /images/blog/ui.png

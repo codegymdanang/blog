@@ -2,7 +2,7 @@
 layout: blog
 title: Sử dụng Angular gọi webservice  
 slug :su-dung-angular-goi-webservice
-category: blog
+category: laptrinhweb
 tags: [angular]
 summery: Sử dụng Angular gọi webservice  
 image: /images/blog/angular.png

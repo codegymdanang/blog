@@ -2,7 +2,7 @@
 layout: blog
 title: Phân biệt  Request Param và  PathVariable
 slug : phan-biet-request-param-va-path-variable
-category: blog
+category: laptrinhspring
 tags: [spring]
 summery: Phân biệt  Request Param và  PathVariable
 image: /images/blog/spring.png

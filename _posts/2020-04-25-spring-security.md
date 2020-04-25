@@ -2,7 +2,7 @@
 layout: blog
 title: Spring Security Và Database  
 slug : spring-security
-category: blog
+category: laptrinhspring
 tags: [spring]
 summery: Spring Security Và Database 
 image: /images/blog/spring.png

@@ -2,7 +2,7 @@
 layout: blog
 title: Bộ  Heap va Stack
 slug : phan-biet-bo-nho-heap-va-stack
-category: blog
+category: laptrinhjava
 tags: [java core]
 summery: Phân Biệt Bộ Nhớ  Heap va Stack
 image: /images/blog/java.png

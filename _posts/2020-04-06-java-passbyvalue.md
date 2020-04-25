@@ -2,7 +2,7 @@
 layout: blog
 title: Tham trị và tham chiếu
 slug : tham-tri-va-tham-chieu-trong-lap-trinh-java
-category: blog
+category: laptrinhjava
 tags: [java core]
 summery: Blog 2
 image: /images/blog/java.png

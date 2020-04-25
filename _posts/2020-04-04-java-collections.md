@@ -4,7 +4,6 @@ title: Các collection trong Java
 slug : cac-tap-hop-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
-tag : news
 summery: Blog 5
 image: /images/blog/java.png
 description : Sử dụng các collection trong java 

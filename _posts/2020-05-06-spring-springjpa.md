@@ -2,7 +2,7 @@
 layout: blog
 title: Spring JPA
 slug : spring-jpa-la-gi
-category: blog
+category: laptrinhspring
 tags: [spring]
 summery: Spring JPA 
 image: /images/blog/spring.png

@@ -2,7 +2,7 @@
 layout: blog
 title: Cách tìm bug trong lập trình 
 slug : ky-thuat-tim-bug
-category: blog
+category: career
 tags: [skills]
 summery: Cách tìm bug trập trình   
 image: /images/blog/softskills.png

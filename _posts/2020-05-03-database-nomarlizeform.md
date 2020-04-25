@@ -2,7 +2,7 @@
 layout: blog
 title:  Các bước chuẩn hoá dữ liệu 
 slug : cac-buoc-chuan-hoa-du-lieu
-category: blog
+category: database
 tags: [database]
 summery: Bootstrap cơ bản phần 1   
 image: /images/blog/database.png

@@ -2,12 +2,11 @@
 layout: blog
 title: Kỷ thuật Extract Method 
 slug: ky-thuat-lap-trinh-extract-method
-category: blog
+category: craftmanship
 tags: [refactoring]
 summery: Kỷ thuật Extract Method 
 image: /images/blog/design-patterns.png
 description : Design Pattern Là Gì ?
-
 ---
 
 Chào các e, chủ đề hôm nay của anh sẽ bàn về kỷ thuật Extract Method ? Kỷ thuật nằm nhằm làm cho một method dài khó đọc

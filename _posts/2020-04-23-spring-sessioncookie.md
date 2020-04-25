@@ -2,7 +2,7 @@
 layout: blog
 title: Phân Biệt Session và Cookie 
 slug : phan-biet-session-cookie
-category: blog
+category: laptrinhspring
 tags: [spring]
 summery: Phân Biệt Session và Cookie 
 image: /images/blog/spring.png

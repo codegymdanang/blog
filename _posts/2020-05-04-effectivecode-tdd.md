@@ -2,7 +2,7 @@
 layout: blog
 title: Các viết TDD trong lập  
 slug : lap-trinh-tdd-la-gi
-category: blog
+category: craftmanship
 tags: [effectivecode]
 summery: Cách tìm bug trập trình   
 image: /images/blog/quality-code.png

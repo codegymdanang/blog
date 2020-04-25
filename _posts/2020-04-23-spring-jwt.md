@@ -2,7 +2,7 @@
 layout: blog
 title: Json Web Token là gì  
 slug : json-web-token-la-gi
-category: blog
+category: laptrinhspring
 tags: [spring]
 summery: Json Web Token là gì  
 image: /images/blog/spring.png

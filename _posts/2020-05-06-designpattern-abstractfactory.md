@@ -2,7 +2,7 @@
 layout: blog
 title: Abstract Factory
 slug : su-dung-abstract-factory-design-pattern
-category: blog
+category: craftmanship
 tags: [designpattern]
 summery: Spring JPA 
 image: /images/blog/design-patterns.png
