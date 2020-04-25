@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/ui-home.html" afterPath="$PROJECT_DIR$/_layouts/ui-home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/angular-home.html" afterPath="$PROJECT_DIR$/_layouts/angular-home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -25,22 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2020-05-07-designpattern-designpatternlagi.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.067961164">
-                <caret line="4" column="22" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="confidence-home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/confidence-home.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,20 +71,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angular-home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="angular-home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/angular-home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.125">
-              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.42056075">
+              <caret line="42" column="70" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui-home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-05-05-frontend-angular-call-webservice.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-call-webservice.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.07281554">
+                <caret line="4" column="21" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui-home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/ui-home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4906542">
+            <state vertical-scroll-proportion="-17.5">
               <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
               <folding />
             </state>
@@ -219,8 +219,8 @@
         <option value="$PROJECT_DIR$/_layouts/confidence-home.html" />
         <option value="$PROJECT_DIR$/_layouts/cleancode-home.html" />
         <option value="$PROJECT_DIR$/_layouts/cicd-home.html" />
-        <option value="$PROJECT_DIR$/_layouts/angular-home.html" />
         <option value="$PROJECT_DIR$/_layouts/ui-home.html" />
+        <option value="$PROJECT_DIR$/_layouts/angular-home.html" />
       </list>
     </option>
   </component>
@@ -504,12 +504,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00478" summary="related post">
-      <created>1587714850994</created>
-      <option name="number" value="00478" />
-      <option name="project" value="LOCAL" />
-      <updated>1587714850994</updated>
     </task>
     <task id="LOCAL-00479" summary="related post">
       <created>1587714892929</created>
@@ -799,7 +793,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587780901038</updated>
     </task>
-    <option name="localTasksCounter" value="527" />
+    <task id="LOCAL-00527" summary="related post">
+      <created>1587780939871</created>
+      <option name="number" value="00527" />
+      <option name="project" value="LOCAL" />
+      <updated>1587780939871</updated>
+    </task>
+    <option name="localTasksCounter" value="528" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1188,20 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-call-webservice.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.07281554">
-            <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-04-effectivecode-tdd.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1461,14 +1447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/angular-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.125">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1485,8 +1463,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/ui-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4906542">
+        <state vertical-scroll-proportion="-17.5">
           <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-call-webservice.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.07281554">
+            <caret line="4" column="21" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/angular-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42056075">
+          <caret line="42" column="70" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
           <folding />
         </state>
       </provider>
