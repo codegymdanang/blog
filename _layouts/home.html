@@ -76,19 +76,7 @@
 							<div class="row">
 								{% for post in site.categories.laptrinhspring limit:4  %}
 								<div class="col-lg-3 col-sm-3">
-									<div class="single_post post_1">
-										<div class="single_post_img">
-											{% if post.image %}
-											<a href='{{post.url | relative_url }}'><img class='post-image' style="border-radius: 50%;" src="{{post.image | relative_url}}" /></a>
-											{% endif %}
-										</div>
-										<div class="single_post_text text-center">
-											<a href='{{post.url | relative_url }}'>
-												<h5 class='post-title'>{{post.title}}</h5>
-											</a>
-											<h6>Posted : {{ post.date | date: "%B %d, %Y"}}</h6>
-										</div>
-									</div>
+									<div class="post-container"><div class="post-thumbnail"><div class="sh-ratio"><div class="sh-ratio-container"><div class="sh-ratio-content" style="background-image: url( https://cdn.gillion.shufflehound.com/wp-content/uploads/sites/11/2017/05/17-420x265.jpg);"></div></div></div> <a href="https://gillion.shufflehound.com/gizmo-news/2017/01/31/creativity-boost-working-from-interesting-locations/" class="post-overlay"><div class="post-overlay-content"><span></span> <span></span> <span></span></div></a></div><div class="post-content-container"><div class="post-categories-container"><div class="post-categories"><a href="https://gillion.shufflehound.com/gizmo-news/category/business/">Business</a>, <a href="https://gillion.shufflehound.com/gizmo-news/category/lifestyle/">Lifestyle</a></div></div> <a href="https://gillion.shufflehound.com/gizmo-news/2017/01/31/creativity-boost-working-from-interesting-locations/" class="post-title"><h4> Creativity Boost! Working From Interesting Locations&nbsp;<span class="post-read-later post-read-later-guest tooltipstered" href="#login-register" data-type="add" data-id="500"><i class="fa fa-bookmark-o"></i></span></h4> </a><div class="post-meta"><div class="post-meta-content"> <span class="post-auhor-date"> <span> <a href="https://gillion.shufflehound.com/gizmo-news/author/gillionshufflehound/" class="post-author">Gillion</a></span>, <a href="https://gillion.shufflehound.com/gizmo-news/2017/01/31/creativity-boost-working-from-interesting-locations/" class="post-date"> 3 years ago </a> </span> <span class="post-readtime"> <i class="icon icon-clock"></i> 1 min <span>read</span> </span> <span class="desktop-post-read-later"> &nbsp;<span class="post-read-later post-read-later-guest tooltipstered" href="#login-register" data-type="add" data-id="500"><i class="fa fa-bookmark-o"></i></span> </span></div></div></div></div>
 								</div>
 								{% endfor %}
 							</div>
@@ -113,8 +101,8 @@
 					<div class="row">
 						<div class="col-lg-12">
 							<div class="col-lg-12">
-								<div class="sh-blog-fancy-title-container">
-									<h2 class="sh-blog-fancy-title"> TODAYS HIGHLIGHTS</h2>
+								<div class='relatedposts'>
+									<h4> Bài Viết Mới Spring </h4>
 								</div>
 							</div>
 
