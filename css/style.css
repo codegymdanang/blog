@@ -5420,4 +5420,12 @@ h6 {
 .relatedposts .title a {margin-top:5px;font-size:14px;line-height:1.4em;font-weight:500;overflow:hidden;text-overflow:ellipsis;
   -webkit-box-orient:vertical;-webkit-line-clamp:3;display:-webkit-box;max-height:58px;}
 
-#more {display: none;}
+
+.sh-blog-fancy-title-container:not(.sh-blog-fancy-title-container-sides) {
+  padding-right: 80px;
+}
+
+.sh-blog-fancy-title {
+  margin-bottom: 33px;
+  font-size: 24px;
+}
