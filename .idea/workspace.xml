@@ -51,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.96478873">
-              <caret line="5559" column="1" selection-start-line="5559" selection-start-column="1" selection-end-line="5559" selection-end-column="1" />
+              <caret line="5572" column="1" selection-start-line="5572" selection-start-column="1" selection-end-line="5572" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -385,12 +385,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00510" summary="related post">
-      <created>1587743410007</created>
-      <option name="number" value="00510" />
-      <option name="project" value="LOCAL" />
-      <updated>1587743410007</updated>
-    </task>
     <task id="LOCAL-00511" summary="related post">
       <created>1587743533176</created>
       <option name="number" value="00511" />
@@ -679,7 +673,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587830618680</updated>
     </task>
-    <option name="localTasksCounter" value="559" />
+    <task id="LOCAL-00559" summary="related post">
+      <created>1587830718784</created>
+      <option name="number" value="00559" />
+      <option name="project" value="LOCAL" />
+      <updated>1587830718784</updated>
+    </task>
+    <option name="localTasksCounter" value="560" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1311,7 +1311,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.96478873">
-          <caret line="5559" column="1" selection-start-line="5559" selection-start-column="1" selection-end-line="5559" selection-end-column="1" />
+          <caret line="5572" column="1" selection-start-line="5572" selection-start-column="1" selection-end-line="5572" selection-end-column="1" />
           <folding />
         </state>
       </provider>

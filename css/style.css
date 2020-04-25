@@ -5558,3 +5558,16 @@ h6 {
   background-size: cover;
   background-position: 50% 50%;
 }
+
+.sh-widget-posts-slider-style1 h5, .sh-widget-posts-slider-style1 h5 span {
+  margin-bottom: 10px;
+  padding-top: 0;
+  line-height: 135%!important;
+}
+.sh-widget-posts-slider-style1 h5 {
+  font-size: 13px;
+}
+.post-title {
+  display: block;
+  word-break: break-word;
+}
