@@ -101,6 +101,35 @@
 
 				</div>
 				<!-- End Java Post -->
+
+				<!-- Lap Trinh Web Post -->
+				<div class="row">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="col-lg-12">
+								<div class='relatedposts'>
+									<h4> Bài Viết Mới Spring</h4>
+								</div>
+							</div>
+
+							<div class="row">
+								<div id="columns">
+									{% for post in site.tags.laptrinhweb limit:3  %}
+										<figure>
+											<img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/cinderella.jpg">
+											<figcaption>Cinderella wearing European fashion of the mid-1860’s</figcaption>
+										</figure>
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!-- End Web Post -->
+
+
+
 				<!-- Java Post -->
 				<div class="row">
 					<div class="row">
