@@ -279,6 +279,7 @@
 							</ul>
 						</div>
 					</div>
+					<!-- Popular Post -->
 					<div class="single_sidebar_wiget">
 						<div class="sidebar_tittle">
 							<h3>Popular Feeds</h3>
@@ -288,11 +289,11 @@
 							{% for post in posts %}
 							<div class="single_catagory_post post_2 ">
 								<div class="category_post_img">
-									<img src="{{post.image | relative_url}}" alt="">
+									<img class='post-image' style="border-radius: 50%;" src="{{post.image | relative_url}}" alt="">
 								</div>
 								<div class="post_text_1 pr_30">
 									<a href='{{post.url | relative_url }}'>
-										<h3>{{post.title}}}</h3>
+										<h3>{{post.title}}</h3>
 									</a>
 									<p><span> By Michal</span> {{post.date}}</p>
 								</div>
@@ -304,6 +305,7 @@
 						</ul>
 
 					</div>
+					<!-- Popular Post -->
 
 					<div class="single_sidebar_wiget">
 						<div class="sidebar_tittle">
