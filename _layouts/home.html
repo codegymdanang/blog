@@ -334,8 +334,8 @@
 				<div class="sidebar_widget">
 					<!-- Stay Connect -->
 					<div class="single_sidebar_wiget">
-						<div class="class='relatedposts'">
-							<h4>Stay Connect</h4>
+						<div class="class='sidebar_tittle'">
+							<h3>Stay Connect</h3>
 						</div>
 						<div class="social_share_icon tags">
 							<ul class="list-unstyled">
@@ -374,7 +374,7 @@
 									<a href='{{post.url | relative_url }}'>
 										<h5>{{post.title}}</h5>
 									</a>
-									<p><span> By Michal</span> {{post.date}}</p>
+									<p><span> Le Vu Nguyen </span> {{ post.date | date: "%B %d, %Y"}}</p>
 								</div>
 							</div>
 							{% endfor %}
