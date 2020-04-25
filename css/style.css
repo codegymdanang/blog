@@ -5535,4 +5535,19 @@ h6 {
   cursor: pointer;
   font-size: 80%;
 }
+
+.icon-clock:before {
+  content: "\e081";
+}
+
+.bookmarks-style_meta .post-meta-content>*:not(:last-child):after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #d6d6d6;
+  width: 1px;
+  top: 5px;
+  bottom: 5px;
+  right: -1px;
+}
 /* end formating post home page */
