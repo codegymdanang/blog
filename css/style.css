@@ -5428,7 +5428,7 @@ h6 {
   margin: 50px auto;
 }
 
-div#columns figure {
+figure {
   background: #fefefe;
   border: 2px solid #fcfcfc;
   box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
@@ -5440,14 +5440,14 @@ div#columns figure {
   column-break-inside: avoid;
 }
 
-div#columns figure img {
+figure img {
   width: 100%; height: auto;
   border-bottom: 1px solid #ccc;
   padding-bottom: 15px;
   margin-bottom: 5px;
 }
 
-div#columns figure figcaption {
+figure figcaption {
   font-size: .9rem;
   color: #444;
   line-height: 1.5;
