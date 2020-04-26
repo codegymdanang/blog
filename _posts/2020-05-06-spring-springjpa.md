@@ -72,11 +72,12 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 4. Từ tầng Service nó gọi tầng Persisten (Trong các dự án mình sử dụng JPA) để thực hiện các thao tác xuống database và trả kết quả về
 <br>
 
-### 6. Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ database và trả kết quả về cho người dùng .
+### 6. Hướng dẫn sử dụng JPA thông qua ví dụ. 
+Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ database và trả kết quả về cho người dùng .
 Mọi người có thể tham khảo source code <a href="https://github.com/codegymdanang/CGDN-SpringBoot-JPA"> tại đây </a>
 
 
-### Bước 1 -  Chuẩn bị dependency trong file pom.xml 
+#### Bước 1 -  Chuẩn bị dependency trong file pom.xml 
 
 {% highlight java linenos %}
         <dependency>
@@ -93,7 +94,7 @@ Mọi người có thể tham khảo source code <a href="https://github.com/cod
 {% endhighlight %}
 <br>
 
-### Bước 2 - Cấu hình connection kết nối database trong file application.properties
+#### Bước 2 - Cấu hình connection kết nối database trong file application.properties
 
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver <br>
 spring.datasource.url=jdbc:mysql://localhost:3306/company <br>
@@ -101,7 +102,7 @@ spring.datasource.username=root <br>
 spring.datasource.password=abc  <br> 
 <br>
 
-### Bước 3 - Chuẩn bị entiry . Mapping  table Department trong database thành các class Java 
+#### Bước 3 - Chuẩn bị entiry . Mapping  table Department trong database thành các class Java 
 
 {% highlight java linenos %}
 @Data
@@ -128,7 +129,7 @@ public class Department implements Serializable {
 
 <br>
 
-### Bước 4 - Chuẩn bị Controller để mapping request từ client
+#### Bước 4 - Chuẩn bị Controller để mapping request từ client
 
 {% highlight java linenos %}
 @Controller
@@ -150,7 +151,7 @@ public class CreationQueryController {
 {% endhighlight %}
 <br>
 
-### Bước 5 - Tạo file DepartmentQueryCreationService Service
+#### Bước 5 - Tạo file DepartmentQueryCreationService Service
 Service có nhiệm vụ thực hiện các nghiệp vụ của ứng dụng . Đồng thời nhúng bean Repository để gọi tầng Persistence 
 
 {% highlight java linenos %}
@@ -167,7 +168,7 @@ public class DepartmentQueryCreationService {
 {% endhighlight %}
 <br>
 
-### Bước 6 - Tạo file DepartmentAnnotationRepository sử dụng JPA 
+#### Bước 6 - Tạo file DepartmentAnnotationRepository sử dụng JPA 
 Tầng này có nhiệm vụ thao tác lấy dữ liệu. Các cách lấy dữ liệu sẽ được giới thiệu riêng ở bài khác 
 
 {% highlight java linenos %} 
@@ -186,7 +187,7 @@ public interface DepartmentAnnotationRepository extends JpaRepository<Department
 {% endhighlight %}
 <br>
 
-### Bước 7 - Luồng đi của ứng dụng trên như sau 
+#### Bước 7 - Luồng đi của ứng dụng trên như sau 
 1. Người dùng gõ vào link là http://localhost8080/creationFindbyDepartmentName/java
 2. Request trên sẽ được Controller CreationQueryController xử lý nhờ cơ chế mapping 
 3. Trong CreationQueryController ta nhúng DepartmentQueryCreationService để gọi hàm từ service này
@@ -204,6 +205,8 @@ Database -> JPA -> Service -> Controller -> Client .
 
 ### 7. Kết luận 
 Tổng hợp các các cách  query xuống database .
+
+
 1. Sử dụng Query Creation
 2. Sử dụng @Query (ở ví dụ trên khi ta dùng @Query) 
 3. Sử dụng @NameQuery
@@ -217,5 +220,5 @@ Tổng hợp các các cách  query xuống database .
 chương trình của mình.
 <br>
 
-### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
+### Video demo cách sử dụng JPA
 {% include youtubePlayer.html id=page.youtubeId %}
