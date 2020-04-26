@@ -24,9 +24,6 @@ paginate_path: /page:num/
 # facebook comment
 fbcomments: yes
 
-# configure jekyll themes
-theme: jekyll-text-theme
-# end configure jekyll themes
 
 # Enable plugin in site
 plugins:
