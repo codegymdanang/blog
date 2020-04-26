@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/post/javacore/gangiatri.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md" afterPath="$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md" afterPath="$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -62,8 +62,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.50879395">
-                <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="10" />
+              <first_editor vertical-scroll-proportion="0.830402">
+                <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -78,8 +78,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="1.4199029">
-                <caret line="78" column="123" selection-start-line="78" selection-start-column="123" selection-end-line="78" selection-end-column="123" />
+              <first_editor vertical-scroll-proportion="0.7451456">
+                <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -424,12 +424,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00578" summary="related post">
-      <created>1587864803312</created>
-      <option name="number" value="00578" />
-      <option name="project" value="LOCAL" />
-      <updated>1587864803312</updated>
-    </task>
     <task id="LOCAL-00579" summary="related post">
       <created>1587864930302</created>
       <option name="number" value="00579" />
@@ -718,7 +712,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587915983960</updated>
     </task>
-    <option name="localTasksCounter" value="627" />
+    <task id="LOCAL-00627" summary="change font">
+      <created>1587917455898</created>
+      <option name="number" value="00627" />
+      <option name="project" value="LOCAL" />
+      <updated>1587917455898</updated>
+    </task>
+    <option name="localTasksCounter" value="628" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1251,8 +1251,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.50879395">
-            <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="10" />
+          <first_editor vertical-scroll-proportion="0.830402">
+            <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1265,8 +1265,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="1.4199029">
-            <caret line="78" column="123" selection-start-line="78" selection-start-column="123" selection-end-line="78" selection-end-column="123" />
+          <first_editor vertical-scroll-proportion="0.7451456">
+            <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

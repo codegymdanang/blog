@@ -33,7 +33,6 @@ Trước hết mình xem lại  bộ nhớ máy tính lưu trữ các biến và
  |   xx1 	            |     test                          |
  |   xx2 	            |         3                      |
  
-
 ### **3.Tham trị là gì  (pass by value)**
 
 Tham trị Pass by value : nghĩa là mình sẽ clone (tạo ra một giá trị mới bằng cách copy giá trị gốc), và mình chỉ thao táo giá trị với bản copy. 
@@ -58,8 +57,6 @@ gốc vẫn không thay đổi .
 Sau khi hàm process(int value) thực hiện xong nhiệm vụ của mình , thì sẽ bị giải phóng đi , trả lại bộ nhớ cho chương trình , giá trị clone 
 (copy) cũng được giải phóng trả lại bộ nhớ.
 
-<br>
-
 ### **4. Truyền tham  chiếu**
 
 Pass by reference (Truyền tham chiếu) : Ngược lại với Pass by value . Giá trị gốc sẽ bị thay đổi Pass-by-reference là khi bạn thay đổi biến trong hàm cũng làm ngoài hàm bị ảnh hưởng.
@@ -71,7 +68,6 @@ Nó giống như bạn truyền đúng địa chỉ của biến đó vào hàm.
 
 Trong trường hợp này hàm process(int &value) trỏ thằng tới địa chỉ vùng nhớ nơi lưu giá trị 7. Như vậy khi ta thay đổi giá trị trong hàm nó thay 
 đổi luôn giá trị khác .
-<br>
 
 ### **5. Tổng kết **
  

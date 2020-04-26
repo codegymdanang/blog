@@ -63,7 +63,7 @@ JVM sẽ chia bộ nhớ được cấp phát này thành 2 phần: Heap và Sta
 - Bất cứ khi nào gọi 1 hàm, một khối bộ nhớ mới sẽ được tạo trong Stack cho hàm đó để lưu các biến local. Khi hàm thực hiện xong, khối bộ nhớ cho hàm sẽ bị xoá, và giải phóng bộ nhớ trong stack.
 <br>
 
-### Ví dụ về Heap và Stack 
+- Ví dụ về Heap và Stack 
 
 {:refdef: style="text-align: center;"}
 ![Ví dụ về Heap và Stack  ](/images/post/javacore/vdheapstack.png){:class="img-responsive"}
@@ -103,7 +103,7 @@ Hình chữ nhật bự nhất bao ở ngoài là hàm main () . Bên trong hàm
 
 <br>
 
-###  **6. Video demo Heap và Stack ** . 
+###  **6. Video demo Heap và Stack**
 
 <p align="center">
 {% include youtubePlayer.html id=page.youtubeId %}
