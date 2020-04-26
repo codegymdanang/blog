@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-04-java-collections.md" afterPath="$PROJECT_DIR$/_posts/2020-04-04-java-collections.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" afterPath="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -25,12 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2020-04-04-java-collections.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-04-04-java-collections.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-04-java-collections.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="3.3131068">
-                <caret line="182" column="10" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
+              <first_editor vertical-scroll-proportion="0.8907767">
+                <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -41,28 +41,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-04-07-java-head-stack.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md">
+      <file leaf-file-name="2020-04-03-java-generic.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-04-03-java-generic.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.8361651">
-                <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="38" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2020-04-11-java-exception.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-04-11-java-exception.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.36407766">
-                <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="10" />
+              <first_editor vertical-scroll-proportion="3.9761307">
+                <caret line="211" column="10" selection-start-line="211" selection-start-column="10" selection-end-line="211" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -88,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-04-17-spring-http-method.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-22-spring-validation.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" />
@@ -139,6 +122,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-04-05-java-access-modifier.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-04-java-collections.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" />
       </list>
     </option>
   </component>
@@ -390,12 +374,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00581" summary="related post">
-      <created>1587865934823</created>
-      <option name="number" value="00581" />
-      <option name="project" value="LOCAL" />
-      <updated>1587865934823</updated>
     </task>
     <task id="LOCAL-00582" summary="related post">
       <created>1587867715926</created>
@@ -685,7 +663,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587918985195</updated>
     </task>
-    <option name="localTasksCounter" value="630" />
+    <task id="LOCAL-00630" summary="fomarting post">
+      <created>1587919776685</created>
+      <option name="number" value="00630" />
+      <option name="project" value="LOCAL" />
+      <updated>1587919776685</updated>
+    </task>
+    <option name="localTasksCounter" value="631" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -757,19 +741,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-05-cleancode-naming.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.07281554">
-            <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-04-effectivecode-tdd.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1234,8 +1205,22 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-04-java-collections.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="3.3131068">
-            <caret line="182" column="10" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
+          <first_editor vertical-scroll-proportion="0.8907767">
+            <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-03-java-generic.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="3.9761307">
+            <caret line="211" column="10" selection-start-line="211" selection-start-column="10" selection-end-line="211" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
