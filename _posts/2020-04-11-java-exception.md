@@ -21,8 +21,6 @@ qua các nội dung.
 - Cú pháp và cách ném, bắt ngoại lệ.
 - Video demo cách code Exception 
 
-<br><br>
-
 ### **2. Ngoại lệ (Exception) là gì ?**
 
 Exception (ngoại lệ) trong Java là một vấn đề xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.

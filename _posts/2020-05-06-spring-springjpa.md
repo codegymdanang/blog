@@ -22,8 +22,6 @@ Chào các em ,chủ đề hôm nay của anh là về JPA ? Anh sẽ giải th�
 - Hướng dẫn sử dụng JPA thông qua ví dụ.
 - Video demo cách sử dụng JPA.
 
-<br><br>
-
 ### **2. ORM là gì ?** 
 
 ORM là viết tắt của Object Relational Mapping, là một quá trình ánh xạ (chuyển đổi) dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại. 
