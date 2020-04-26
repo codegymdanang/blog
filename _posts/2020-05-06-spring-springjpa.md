@@ -50,7 +50,7 @@ Sau đây là bản mapping các kiểu dữ liệu trong mysql tương ứng v�
 
 {:refdef: style="text-align: center;"}
 ![Cấu trúc dự án](/images/post/spring/mysql-java.jpg){:class="img-responsive"}
-{:refdef: style="text-align: center;"}
+{: refdef}
 
 <br>
 
@@ -241,4 +241,7 @@ chương trình của mình.
 <br>
 
 ### Video demo cách sử dụng JPA
+
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
