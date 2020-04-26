@@ -57,11 +57,13 @@ Sau đây là bản mapping các kiểu dữ liệu trong mysql tương ứng v�
 3. OpenJPA
 4. EclipseLink
 5. Apache Cayenne
+<br>
 
 ### 4. JPA là gì ?
 JPA viết tắc của từ Java Persitent API . Tầng Persistent có nhiệm vụ thao  tác với database như query lấy dữ liệu , lưu dữ liệu
 xuống database . JPA cung cấp cho mình cơ chế ORM mapping các bảng, column , mối quan hệ trong database thành các lớp java và đồng
 thời cung cấp cho mình các method cần thiết để thao tác  dữ liệu trong database . 
+<br>
 
 ### 5. Vai trò của tầng Persistent 
 ![Tầng Persis](/images/post/spring/persistentlayer.jpg){:class="img-responsive"}
@@ -126,7 +128,6 @@ public class Department implements Serializable {
 
 }
 {% endhighlight %}
-
 <br>
 
 #### Bước 4 - Chuẩn bị Controller để mapping request từ client
@@ -211,7 +212,6 @@ Tổng hợp các các cách  query xuống database .
 2. Sử dụng @Query (ở ví dụ trên khi ta dùng @Query) 
 3. Sử dụng @NameQuery
 4. Sử dụng EntityManager  
-
 <br>
 
 ### Tại sao mình cần JPA 
