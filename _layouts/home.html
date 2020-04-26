@@ -82,7 +82,7 @@
 											<div class="sh-ratio">
 												<div class="sh-ratio-container">
 													<div class="sh-ratio-content">
-														<img class='post-image'  src="{{post.image | relative_url}}" />
+														<img class='post-image' href='{{post.url | relative_url }}'  src="{{post.image | relative_url}}" />
 													</div>
 												</div>
 											</div>
@@ -94,7 +94,9 @@
 												</div>
 											</div>
 											<a  class="post-title">
-												<h4> {{post.title}} </h4>
+												<a href='{{post.url | relative_url }}'>
+													<h4>{{post.title}}</h4>
+												</a>
 											</a>
 											<div class="post-meta">
 												<div class="post-meta-content">
@@ -129,8 +131,6 @@
 
 				</div>
 				<!-- End Spring Post -->
-
-
 
 				<!-- Spring Post -->
 				<div class="row">
@@ -197,6 +197,7 @@
 
 				</div>
 				<!-- End Spring Post -->
+
 				<!-- Java Post -->
 				<div class="row">
 					<div class="row">
@@ -262,6 +263,7 @@
 
 				</div>
 				<!-- End Java Post -->
+
 				<!-- Lap Trinh Web Post -->
 				<div class="row">
 					<div class="row">
