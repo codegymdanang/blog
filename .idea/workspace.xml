@@ -29,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.39927185">
-                <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.23543689">
+                <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -365,12 +365,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00569" summary="related post">
-      <created>1587833487025</created>
-      <option name="number" value="00569" />
-      <option name="project" value="LOCAL" />
-      <updated>1587833487025</updated>
-    </task>
     <task id="LOCAL-00570" summary="related post">
       <created>1587833866114</created>
       <option name="number" value="00570" />
@@ -659,7 +653,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587893689639</updated>
     </task>
-    <option name="localTasksCounter" value="618" />
+    <task id="LOCAL-00618" summary="change font">
+      <created>1587893803981</created>
+      <option name="number" value="00618" />
+      <option name="project" value="LOCAL" />
+      <updated>1587893803981</updated>
+    </task>
+    <option name="localTasksCounter" value="619" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1226,8 +1226,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.39927185">
-            <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.23543689">
+            <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
             <folding />
           </first_editor>
           <second_editor />

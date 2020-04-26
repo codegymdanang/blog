@@ -48,11 +48,10 @@ public class Person {
 Như vậy trong database có gì, thì Class Java sẽ mô tả lại y chang vậy. 
 Sau đây là bản mapping các kiểu dữ liệu trong mysql tương ứng với kiểu Java <br>.
 
-<center>
-
+{:refdef: style="text-align: center;"}
 ![Cấu trúc dự án](/images/post/spring/mysql-java.jpg){:class="img-responsive"}
+{:refdef: style="text-align: center;"}
 
-</center>
 <br>
 
 ### 3. Một số ORM Framework thường hay sử trong các dự án Java được cung cấp bởi nhà cung cấp sau 
@@ -73,7 +72,9 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 
 ### 5. Vai trò của tầng Persistent 
 
+{:refdef: style="text-align: center;"}
 ![Tầng Persis](/images/post/spring/persistentlayer.jpg){:class="img-responsive"}
+{: refdef}
 
 1. Như ta thấy ở hình trên, đó chính là luồng đi của một ứng dụng . Bắt đầu khi người dùng gửi request lên server.
 2. Khi request vào Dispatcher nó sẽ đưa đến Controller tương ứng để xử lý request
