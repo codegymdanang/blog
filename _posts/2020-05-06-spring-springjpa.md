@@ -12,7 +12,9 @@ youtubeId: 4dQlWJQ7ZQo
 ### 1. Giới thiệu nội dung bài viết
 Chào các em , chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
 Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong database.
-Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây : 
+Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây :
+ 
+ 
 * ORM là gì ?
 * Các nhà cung cấp ORM trong java.
 - JPA là gì ?
