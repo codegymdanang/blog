@@ -198,10 +198,10 @@ public interface DepartmentAnnotationRepository extends JpaRepository<Department
 5. DepartmentQueryCreationRepository có nhiệm vụ truy vấn dữ liệu trong database và trả kết quả lại cho Service. Service trả kết quả cho 
 Controller . Cuối cùng từ Controller trả kết quả cho client. 
 
-Như vậy ta có thể phân ra thành 2 luồng chính . 
-Luồng 1 : Lấy dữ liệu mình bắt đầu từ Client . 
-Client -> Controller -> Service -> JPA -> Query database .
-Luống 2 : Trả dữ liệu từ Database .
+##### Như vậy ta có thể phân ra thành 2 luồng chính 
+Luồng 1 : Lấy dữ liệu mình bắt đầu từ Client . <br>
+Client -> Controller -> Service -> JPA -> Query database .<br>
+Luống 2 : Trả dữ liệu từ Database .<br>
 Database -> JPA -> Service -> Controller -> Client .
 <br>
 
