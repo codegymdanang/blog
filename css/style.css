@@ -1,10 +1,10 @@
 /**************** extend css start ****************/
 /**************** extend css start ****************/
 /**************** common css start ****************/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");
 /* line 3, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_common.scss */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
   padding: 0;
   margin: 0;
   font-size: 17px;
@@ -175,13 +175,13 @@ a:hover {
 /* line 89, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_common.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #2a2a2a;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
 }
 
 /* line 93, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_common.scss */
 p {
   color: #888888;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
   line-height: 1.929;
   font-size: 17px;
   margin-bottom: 0px;
@@ -2117,7 +2117,7 @@ ul {
 .main_menu .main-menu-item ul li a {
   color: #2a2a2a;
   font-size: 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
   text-transform: capitalize;
   font-weight: 400;
 }
@@ -2478,7 +2478,7 @@ ul {
 .banner_post .h2 {
   color: #2a2a2a;
   line-height: 1.333;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
   font-weight: 600;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2501,7 +2501,7 @@ ul {
   font-size: 15px;
   color: #fc4600;
   text-transform: capitalize;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
   font-weight: 500;
   margin-bottom: 12px;
 }
@@ -2722,7 +2722,7 @@ ul {
 .post_2 .post_text_1 h3 {
   color: #2a2a2a;
   line-height: 1.333;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
   font-weight: 600;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2745,7 +2745,7 @@ ul {
   font-size: 11px;
   color: #fc4600;
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
   font-weight: 600;
   margin-bottom: 14px;
   -webkit-transition: 0.5s;
@@ -3344,7 +3344,7 @@ ul {
 /* line 86, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_all_post.scss */
 .all_post .category ul li a, .all_post .category ul li span {
   color: #888888;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
 }
 
 /* line 89, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_all_post.scss */
@@ -3379,7 +3379,7 @@ ul {
   transition: all 0.3s ease 0s;
   color: #888888;
   font-size: 13px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
   font-weight: 600;
   text-transform: uppercase;
   color: #2a2a2a;
@@ -3719,7 +3719,7 @@ ul {
   border: 0;
   font-size: 12px;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
   position: absolute;
   top: 5px;
   right: 5px;
@@ -5296,7 +5296,7 @@ h6 {
   border: 0;
   font-size: 12px;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Zilla Slab', serif;
   position: absolute;
   top: 5px;
   right: 5px;
