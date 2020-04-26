@@ -143,13 +143,17 @@
 							</div>
 
 							<div class="row">
-								{% for post in site.categories.laptrinhspring limit:4  %}
+								{% for post in site.categories.laptrinhspring limit:8  %}
 								<div class="col-lg-3 col-sm-3">
-									<div class="single_post post_1">
-										<div class="single_post_img">
-											{% if post.image %}
-											<a href='{{post.url | relative_url }}'><img class='post-image' style="border-radius: 50%;" src="{{post.image | relative_url}}" /></a>
-											{% endif %}
+									<div class="post-container">
+										<div class="post-thumbnail">
+											<div class="sh-ratio">
+												<div class="sh-ratio-container">
+													<div class="sh-ratio-content">
+														<img class='post-image'  src="{{post.image | relative_url}}" />
+													</div>
+												</div>
+											</div>
 										</div>
 										<div class="post-content-container">
 											<div class="post-categories-container">
