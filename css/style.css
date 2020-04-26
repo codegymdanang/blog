@@ -7,7 +7,7 @@ body {
   font-family: 'Be Vietnam', sans-serif;
   padding: 0;
   margin: 0;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 /* line 9, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_common.scss */
@@ -5554,9 +5554,12 @@ h6 {
   text-align: justify;
 }
 
-#contentPost p li {
+#contentPost p {
   font-size: 20px;
 }
 
+#contentPost ul {
+  font-size: 20px;
+}
 
 

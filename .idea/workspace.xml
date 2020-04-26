@@ -60,8 +60,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9119718">
-              <caret line="5559" column="0" selection-start-line="5559" selection-start-column="0" selection-end-line="5559" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.17605634">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -365,12 +365,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00574" summary="related post">
-      <created>1587835708882</created>
-      <option name="number" value="00574" />
-      <option name="project" value="LOCAL" />
-      <updated>1587835708882</updated>
-    </task>
     <task id="LOCAL-00575" summary="related post">
       <created>1587864094878</created>
       <option name="number" value="00575" />
@@ -659,7 +653,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587894574155</updated>
     </task>
-    <option name="localTasksCounter" value="623" />
+    <task id="LOCAL-00623" summary="change font">
+      <created>1587894860882</created>
+      <option name="number" value="00623" />
+      <option name="project" value="LOCAL" />
+      <updated>1587894860882</updated>
+    </task>
+    <option name="localTasksCounter" value="624" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1207,14 +1207,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1229,10 +1221,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9119718">
-          <caret line="5559" column="0" selection-start-line="5559" selection-start-column="0" selection-end-line="5559" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.17605634">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
