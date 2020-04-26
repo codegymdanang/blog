@@ -9,7 +9,8 @@ image: /images/blog/spring.png
 description : Spring JPA 
 youtubeId: 4dQlWJQ7ZQo
 ---
-#### **1. Giới thiệu nội dung bài viết**
+
+### **1. Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
 Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong database.Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
@@ -22,7 +23,7 @@ Chào các em ,chủ đề hôm nay của anh là về JPA ? Anh sẽ giải th�
 * Video demo cách sử dụng JPA.
 <br><br>
 
-#### **2. ORM là gì ?** 
+### **2. ORM là gì ?** 
 
 ORM là viết tắt của Object Relational Mapping, là một quá trình ánh xạ (chuyển đổi) dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại. 
 ORM giúp mình ánh xạ các tables,column,kiểu dữ liệu và mối quan hệ (1-1,1-n,n-n) trong database thành các Class và thuộc tính trong Java.
@@ -54,7 +55,10 @@ Sau đây là bản mapping các kiểu dữ liệu trong mysql tương ứng v�
 
 <br>
 
-### 3. Một số ORM Framework thường hay sử trong các dự án Java được cung cấp bởi nhà cung cấp sau 
+### **3. Một số ORM Framework** 
+
+Trong Spring thì thường mình  hay sử trong các dự án Java được cung cấp bởi nhà cung cấp sau.
+ 
 1. JPA
 2. Hibernate
 3. OpenJPA
@@ -62,7 +66,7 @@ Sau đây là bản mapping các kiểu dữ liệu trong mysql tương ứng v�
 5. Apache Cayenne
 <br>
 
-### 4. JPA là gì ?
+### **4. JPA là gì ?**
 
 JPA viết tắc của từ Java Persitent API . Tầng Persistent có nhiệm vụ thao  tác với database như query lấy dữ liệu , lưu dữ liệu
 xuống database . JPA cung cấp cho mình cơ chế ORM mapping các bảng, column , mối quan hệ trong database thành các lớp java và đồng
@@ -70,7 +74,7 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 
 <br>
 
-### 5. Vai trò của tầng Persistent 
+### **5. Vai trò của tầng Persistent** 
 
 {:refdef: style="text-align: center;"}
 ![Tầng Persis](/images/post/spring/persistentlayer.jpg){:class="img-responsive"}
@@ -83,7 +87,7 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 
 <br>
 
-### 6. Hướng dẫn sử dụng JPA thông qua ví dụ. 
+### **6. Hướng dẫn sử dụng JPA thông qua ví dụ** 
 
 Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ database và trả kết quả về cho người dùng .
 Mọi người có thể tham khảo source code <a href="https://github.com/codegymdanang/CGDN-SpringBoot-JPA"> tại đây </a>. 
@@ -221,7 +225,7 @@ Database -> JPA -> Service -> Controller -> Client .
 
 <br>
 
-### 7. Kết luận 
+### **7. Kết luận** 
 
 Tổng hợp các các cách  query xuống database .
 1. Sử dụng Query Creation
@@ -238,7 +242,7 @@ chương trình của mình.
 
 <br>
 
-### Video demo cách sử dụng JPA
+### **8. Video demo cách sử dụng JPA**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
