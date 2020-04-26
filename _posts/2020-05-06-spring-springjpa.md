@@ -72,11 +72,8 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 <br>
 
 ### 5. Vai trò của tầng Persistent 
-<center>
 
 ![Tầng Persis](/images/post/spring/persistentlayer.jpg){:class="img-responsive"}
-
-</center>
 
 1. Như ta thấy ở hình trên, đó chính là luồng đi của một ứng dụng . Bắt đầu khi người dùng gửi request lên server.
 2. Khi request vào Dispatcher nó sẽ đưa đến Controller tương ứng để xử lý request
