@@ -337,9 +337,9 @@ a:focus, .button:focus, button:focus, .btn:focus {
 
 /* line 193, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_common.scss */
 ul {
-  list-style: none;
+  list-style: circle;
   margin: 0;
-  padding: 0;
+  padding: 15px;
 }
 
 /* line 198, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_common.scss */
