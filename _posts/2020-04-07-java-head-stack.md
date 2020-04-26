@@ -105,6 +105,6 @@ Hình chữ nhật bự nhất bao ở ngoài là hàm main () . Bên trong hàm
 
 ###  **6. Video demo Heap và Stack**
 
-<p align="center">
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
-<p>
+{: refdef}

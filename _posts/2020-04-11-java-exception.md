@@ -136,5 +136,6 @@ Khối lệnh Finally luôn luôn chạy cho dù có xảy ra lỗi ở trong kh
 
 ### **8. Video demo tạo Exception trong Java ** 
 
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
-
+{: refdef}
