@@ -5550,3 +5550,10 @@ h6 {
   right: -1px;
 }
 /* end formating post home page */
+#contentPost {
+  text-align: justify;
+}
+
+#contentPost p {
+  font-size:medium;
+}
