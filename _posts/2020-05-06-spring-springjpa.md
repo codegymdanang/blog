@@ -9,7 +9,7 @@ image: /images/blog/spring.png
 description : Spring JPA 
 youtubeId: 4dQlWJQ7ZQo
 ---
-### 1. Giới thiệu nội dung bài viết
+#### **1. Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
 Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong database.Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
@@ -22,7 +22,7 @@ Chào các em ,chủ đề hôm nay của anh là về JPA ? Anh sẽ giải th�
 * Video demo cách sử dụng JPA.
 <br><br>
 
-### 2. ORM là gì ?
+#### **2. ORM là gì ?** 
 
 ORM là viết tắt của Object Relational Mapping, là một quá trình ánh xạ (chuyển đổi) dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại. 
 ORM giúp mình ánh xạ các tables,column,kiểu dữ liệu và mối quan hệ (1-1,1-n,n-n) trong database thành các Class và thuộc tính trong Java.
@@ -108,7 +108,7 @@ Mọi người có thể tham khảo source code <a href="https://github.com/cod
 
 #### Bước 2 - Cấu hình connection kết nối database trong file application.properties
 
-{% highlight java linenos %}
+{% highlight java  %}
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost:3306/company
 spring.datasource.username=root 
@@ -224,8 +224,6 @@ Database -> JPA -> Service -> Controller -> Client .
 ### 7. Kết luận 
 
 Tổng hợp các các cách  query xuống database .
-
-
 1. Sử dụng Query Creation
 2. Sử dụng @Query (ở ví dụ trên khi ta dùng @Query) 
 3. Sử dụng @NameQuery
