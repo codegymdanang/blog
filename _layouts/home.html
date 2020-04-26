@@ -199,28 +199,51 @@
 				<!-- End Spring Post -->
 				<!-- Java Post -->
 				<div class="row">
-				<div class="row">
+					<div class="row">
 						<div class="col-lg-12">
 							<div class="col-lg-12">
 								<div class='relatedposts'>
-									<h4> Bài Viết Mới Java </h4>
+									<h4> Bài Viết Mới Spring </h4>
 								</div>
 							</div>
 
 							<div class="row">
-								{% for post in site.categories.laptrinhjava limit:4  %}
-								<div class="col-lg-3 col-sm-3">
-									<div class="single_post post_1">
-										<div class="single_post_img">
-											{% if post.image %}
-											<a href='{{post.url | relative_url }}'><img class='post-image' style="border-radius: 50%" src="{{post.image | relative_url}}" /></a>
-											{% endif %}
+								{% for post in site.categories.laptrinhjava limit:6  %}
+								<div class="col-lg-4 col-sm-4">
+									<div class="post-container">
+										<div class="post-thumbnail">
+											<div class="sh-ratio">
+												<div class="sh-ratio-container">
+													<div class="sh-ratio-content">
+														<img class='post-image'  src="{{post.image | relative_url}}" />
+													</div>
+												</div>
+											</div>
 										</div>
-										<div class="single_post_text text-center">
-											<a href='{{post.url | relative_url }}'>
-												<h5 class='post-title'>{{post.title}}</h5>
+										<div class="post-content-container">
+											<div class="post-categories-container">
+												<div class="post-categories">
+													<span> {{post.category}}</span>
+												</div>
+											</div>
+											<a  class="post-title">
+												<h4> {{post.title}} </h4>
 											</a>
-											<h6>Posted : {{ post.date | date: "%B %d, %Y"}}</h6>
+											<div class="post-meta">
+												<div class="post-meta-content">
+													<span class="post-auhor-date">
+														<span>
+															<a class="post-author">nguyen.le</a>
+														</span>,
+														<a  class="post-date">
+															{{ post.date | date: "%B %d, %Y"}}
+														</a>
+													</span>
+													<span class="post-readtime">
+														<i class="icon icon-clock"></i> 15 min <span>read</span> </span>
+													</span>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -245,24 +268,47 @@
 						<div class="col-lg-12">
 							<div class="col-lg-12">
 								<div class='relatedposts'>
-									<h4> Bài Viết Mới Lập Trình Web</h4>
+									<h4> Bài Viết Mới Spring </h4>
 								</div>
 							</div>
 
 							<div class="row">
-								{% for post in site.categories.laptrinhweb limit:4  %}
-								<div class="col-lg-3 col-sm-3">
-									<div class="single_post post_1">
-										<div class="single_post_img">
-											{% if post.image %}
-											<a href='{{post.url | relative_url }}'><img class='post-image' style="border-radius: 50%;" src="{{post.image | relative_url}}" /></a>
-											{% endif %}
+								{% for post in site.categories.laptrinhweb limit:6  %}
+								<div class="col-lg-4 col-sm-4">
+									<div class="post-container">
+										<div class="post-thumbnail">
+											<div class="sh-ratio">
+												<div class="sh-ratio-container">
+													<div class="sh-ratio-content">
+														<img class='post-image'  src="{{post.image | relative_url}}" />
+													</div>
+												</div>
+											</div>
 										</div>
-										<div class="single_post_text text-center">
-											<a href='{{post.url | relative_url }}'>
-												<h5 class='post-title'>{{post.title}}</h5>
+										<div class="post-content-container">
+											<div class="post-categories-container">
+												<div class="post-categories">
+													<span> {{post.category}}</span>
+												</div>
+											</div>
+											<a  class="post-title">
+												<h4> {{post.title}} </h4>
 											</a>
-											<h6>Posted : {{ post.date | date: "%B %d, %Y"}}</h6>
+											<div class="post-meta">
+												<div class="post-meta-content">
+													<span class="post-auhor-date">
+														<span>
+															<a class="post-author">nguyen.le</a>
+														</span>,
+														<a  class="post-date">
+															{{ post.date | date: "%B %d, %Y"}}
+														</a>
+													</span>
+													<span class="post-readtime">
+														<i class="icon icon-clock"></i> 15 min <span>read</span> </span>
+													</span>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
