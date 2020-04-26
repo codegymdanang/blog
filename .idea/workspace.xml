@@ -33,7 +33,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor vertical-scroll-proportion="0.740038">
-                <caret line="49" column="81" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
+                <caret line="49" column="77" selection-start-line="49" selection-start-column="77" selection-end-line="49" selection-end-column="77" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -339,12 +339,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00559" summary="related post">
-      <created>1587830718784</created>
-      <option name="number" value="00559" />
-      <option name="project" value="LOCAL" />
-      <updated>1587830718784</updated>
-    </task>
     <task id="LOCAL-00560" summary="related post">
       <created>1587830818907</created>
       <option name="number" value="00560" />
@@ -633,7 +627,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587875854889</updated>
     </task>
-    <option name="localTasksCounter" value="608" />
+    <task id="LOCAL-00608" summary="formating noi dung bai post">
+      <created>1587876132766</created>
+      <option name="number" value="00608" />
+      <option name="project" value="LOCAL" />
+      <updated>1587876132766</updated>
+    </task>
+    <option name="localTasksCounter" value="609" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1235,7 +1235,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.740038">
-            <caret line="49" column="81" selection-start-line="49" selection-start-column="81" selection-end-line="49" selection-end-column="81" />
+            <caret line="49" column="77" selection-start-line="49" selection-start-column="77" selection-end-line="49" selection-end-column="77" />
             <folding />
           </first_editor>
           <second_editor />
