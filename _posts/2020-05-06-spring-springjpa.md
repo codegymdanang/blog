@@ -20,7 +20,8 @@ Chào các em ,chủ đề hôm nay của anh là về JPA ? Anh sẽ giải th�
 - JPA là gì ?
 - Thảo luận tầng Persistence trong mô hình MVC. 
 - Hướng dẫn sử dụng JPA thông qua ví dụ.
-* Video demo cách sử dụng JPA.
+- Video demo cách sử dụng JPA.
+
 <br><br>
 
 ### **2. ORM là gì ?** 
@@ -59,11 +60,11 @@ Sau đây là bản mapping các kiểu dữ liệu trong mysql tương ứng v�
 
 Trong Spring thì thường mình  hay sử trong các dự án Java được cung cấp bởi nhà cung cấp sau.
  
-1. JPA
-2. Hibernate
-3. OpenJPA
-4. EclipseLink
-5. Apache Cayenne
+- JPA
+- Hibernate
+- OpenJPA
+- EclipseLink
+- Apache Cayenne
 <br>
 
 ### **4. JPA là gì ?**
