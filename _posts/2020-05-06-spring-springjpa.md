@@ -9,9 +9,16 @@ image: /images/blog/spring.png
 description : Spring JPA 
 youtubeId: 4dQlWJQ7ZQo
 ---
-
-Chào các e, chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
-Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong database 
+### Giới thiệu nội dung bài viết
+Chào các em , chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
+Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong database.
+Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây : 
+* ORM là gì ?
+* Các nhà cung cấp ORM trong java.
+- JPA là gì ?
+- Thảo luận tầng Persistence trong mô hình MVC. 
+- Hướng dẫn sử dụng JPA thông qua ví dụ.
+* Video demo cách sử dụng JPA.
 <br><br>
 
 ### ORM là gì ?
