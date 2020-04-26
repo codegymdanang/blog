@@ -32,5 +32,5 @@ https://seositecheckup.com/
 
 ### highlight
 https://github.com/StylishThemes/Syntax-Themes/tree/master/pygments/css-github
-###
-https://preview.themeforest.net/item/gillion-multiconcept-blogmagazine-theme/full_screen_preview/19470306?clickid=QAdVTUVq4xyJWd-wUx0Mo3Q2Uki2rw2AXSl2W40&iradid=275988&iradtype=ONLINE_TRACKING_LINK&irgwc=1&irmptype=mediapartner&irpid=369282&mp_value1=&utm_campaign=af_impact_radius_369282&utm_medium=affiliate&utm_source=impact_radius
+### text theme
+https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start

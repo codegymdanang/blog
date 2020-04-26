@@ -13,19 +13,22 @@ aboutme: "Something about the author here"
 twitter: "Ghosteyes1"
 github: "codegymdanang"
 facebook: "levunguyen"
-# Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
-markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
-# End Output options (more information on Jekyll's site)
+
 linkined_url: ""
 theme: jekyll-theme-minimal
-
+# Paginate post in page
 paginate: 16
 paginate_path: /page:num/
+# Paginate post in page
+
+# facebook comment
+fbcomments: yes
+
+# configure jekyll themes
+theme: jekyll-text-theme
+# end configure jekyll themes
+
+# Enable plugin in site
 plugins:
  - jekyll-paginate
  - jekyll-seo-tag
-fbcomments: yes
