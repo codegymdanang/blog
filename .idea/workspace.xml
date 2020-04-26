@@ -67,8 +67,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.16383494">
-                <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <first_editor vertical-scroll-proportion="1.256068">
+                <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -404,12 +404,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00545" summary="related post">
-      <created>1587788634270</created>
-      <option name="number" value="00545" />
-      <option name="project" value="LOCAL" />
-      <updated>1587788634270</updated>
-    </task>
     <task id="LOCAL-00546" summary="related post">
       <created>1587788776899</created>
       <option name="number" value="00546" />
@@ -698,7 +692,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587871856291</updated>
     </task>
-    <option name="localTasksCounter" value="594" />
+    <task id="LOCAL-00594" summary="formating noi dung bai post">
+      <created>1587872372076</created>
+      <option name="number" value="00594" />
+      <option name="project" value="LOCAL" />
+      <updated>1587872372076</updated>
+    </task>
+    <option name="localTasksCounter" value="595" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -738,7 +738,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="abstract class va interface" />
     <MESSAGE value="database anh" />
     <MESSAGE value="Lập trình hướng đối tượng" />
     <MESSAGE value="change font" />
@@ -763,7 +762,8 @@
     <MESSAGE value="slug" />
     <MESSAGE value="related post" />
     <MESSAGE value="formating home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="formating home page" />
+    <MESSAGE value="formating noi dung bai post" />
+    <option name="LAST_COMMIT_MESSAGE" value="formating noi dung bai post" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1296,8 +1296,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.16383494">
-            <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <first_editor vertical-scroll-proportion="1.256068">
+            <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

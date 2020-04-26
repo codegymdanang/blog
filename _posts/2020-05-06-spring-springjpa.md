@@ -9,7 +9,7 @@ image: /images/blog/spring.png
 description : Spring JPA 
 youtubeId: 4dQlWJQ7ZQo
 ---
-### Giới thiệu nội dung bài viết
+### 1. Giới thiệu nội dung bài viết
 Chào các em , chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
 Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong database.
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây : 
@@ -21,7 +21,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 * Video demo cách sử dụng JPA.
 <br><br>
 
-### ORM là gì ?
+### 2. ORM là gì ?
 ORM là viết tắt của Object Relational Mapping, là một quá trình ánh xạ (chuyển đổi) dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại. 
 ORM giúp mình ánh xạ các tables,column,kiểu dữ liệu và mối quan hệ (1-1,1-n,n-n) trong database thành các Class và thuộc tính trong Java.
 Anh lấy ví dụ 
@@ -49,19 +49,19 @@ Sau đây là bản mapping các kiểu dữ liệu trong mysql tương ứng v�
 ![Cấu trúc dự án](/images/post/spring/mysql-java.jpg){:class="img-responsive"}
 <br>
 
-### Một số ORM Framework thường hay sử trong các dự án Java được cung cấp bởi nhà cung cấp sau 
+### 3. Một số ORM Framework thường hay sử trong các dự án Java được cung cấp bởi nhà cung cấp sau 
 1. JPA
 2. Hibernate
 3. OpenJPA
 4. EclipseLink
 5. Apache Cayenne
 
-### JPA là gì ?
+### 4. JPA là gì ?
 JPA viết tắc của từ Java Persitent API . Tầng Persistent có nhiệm vụ thao  tác với database như query lấy dữ liệu , lưu dữ liệu
 xuống database . JPA cung cấp cho mình cơ chế ORM mapping các bảng, column , mối quan hệ trong database thành các lớp java và đồng
 thời cung cấp cho mình các method cần thiết để thao tác  dữ liệu trong database . 
 
-### Vai trò của tầng Persistent 
+### 5. Vai trò của tầng Persistent 
 ![Tầng Persis](/images/post/spring/persistentlayer.jpg){:class="img-responsive"}
 
 1. Như ta thấy ở hình trên, đó chính là luồng đi của một ứng dụng . Bắt đầu khi người dùng gửi request lên server.
@@ -70,7 +70,7 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 4. Từ tầng Service nó gọi tầng Persisten (Trong các dự án mình sử dụng JPA) để thực hiện các thao tác xuống database và trả kết quả về
 <br>
 
-### Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ database và trả kết quả về cho người dùng .
+### 6. Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ database và trả kết quả về cho người dùng .
 Mọi người có thể tham khảo source code <a href="https://github.com/codegymdanang/CGDN-SpringBoot-JPA"> tại đây </a>
 
 
