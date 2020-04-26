@@ -5554,6 +5554,9 @@ h6 {
   text-align: justify;
 }
 
-#contentPost p {
-  font-size:medium;
+#contentPost p li {
+  font-size: 20px;
 }
+
+
+
