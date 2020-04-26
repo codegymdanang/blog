@@ -28,17 +28,15 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41875">
-              <caret line="361" column="71" selection-start-line="361" selection-start-column="71" selection-end-line="361" selection-end-column="71" />
+            <state vertical-scroll-proportion="-2.90125">
+              <caret line="165" column="67" selection-start-line="165" selection-start-column="67" selection-end-line="165" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -358,12 +356,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00536" summary="related post">
-      <created>1587784498978</created>
-      <option name="number" value="00536" />
-      <option name="project" value="LOCAL" />
-      <updated>1587784498978</updated>
-    </task>
     <task id="LOCAL-00537" summary="related post">
       <created>1587785049707</created>
       <option name="number" value="00537" />
@@ -652,7 +644,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587868428778</updated>
     </task>
-    <option name="localTasksCounter" value="585" />
+    <task id="LOCAL-00585" summary="related post">
+      <created>1587868702871</created>
+      <option name="number" value="00585" />
+      <option name="project" value="LOCAL" />
+      <updated>1587868702871</updated>
+    </task>
+    <option name="localTasksCounter" value="586" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1257,17 +1255,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41875">
-          <caret line="361" column="71" selection-start-line="361" selection-start-column="71" selection-end-line="361" selection-end-column="71" />
+        <state vertical-scroll-proportion="-2.90125">
+          <caret line="165" column="67" selection-start-line="165" selection-start-column="67" selection-end-line="165" selection-end-column="67" />
           <folding>
             <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
