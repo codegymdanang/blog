@@ -67,8 +67,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="1.256068">
-                <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.61771846">
+                <caret line="202" column="16" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -404,12 +404,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00546" summary="related post">
-      <created>1587788776899</created>
-      <option name="number" value="00546" />
-      <option name="project" value="LOCAL" />
-      <updated>1587788776899</updated>
-    </task>
     <task id="LOCAL-00547" summary="related post">
       <created>1587789027767</created>
       <option name="number" value="00547" />
@@ -698,7 +692,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587872372076</updated>
     </task>
-    <option name="localTasksCounter" value="595" />
+    <task id="LOCAL-00595" summary="formating noi dung bai post">
+      <created>1587872461020</created>
+      <option name="number" value="00595" />
+      <option name="project" value="LOCAL" />
+      <updated>1587872461020</updated>
+    </task>
+    <option name="localTasksCounter" value="596" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1296,8 +1296,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="1.256068">
-            <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.61771846">
+            <caret line="202" column="16" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />

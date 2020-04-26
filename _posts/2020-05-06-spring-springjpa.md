@@ -200,7 +200,8 @@ Luống 2 : Trả dữ liệu từ Database .
 Database -> JPA -> Service -> Controller -> Client .
 <br>
 
-### Tổng hợp các các cách  query xuống database 
+### 7. Kết luận 
+Tổng hợp các các cách  query xuống database .
 1. Sử dụng Query Creation
 2. Sử dụng @Query (ở ví dụ trên khi ta dùng @Query) 
 3. Sử dụng @NameQuery
