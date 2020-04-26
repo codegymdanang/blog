@@ -15,8 +15,8 @@ Chào các em , chủ đề hôm nay của anh là về JPA ? Anh sẽ giải th
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây :
  
  
-* ORM là gì ?
-* Các nhà cung cấp ORM trong java.
+- ORM là gì ?
+- Các nhà cung cấp ORM trong java.
 - JPA là gì ?
 - Thảo luận tầng Persistence trong mô hình MVC. 
 - Hướng dẫn sử dụng JPA thông qua ví dụ.
