@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -32,8 +32,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.8907767">
-                <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="10" />
+              <first_editor vertical-scroll-proportion="0.61893207">
+                <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -41,15 +41,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-04-23-spring-sessioncookie.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md">
+      <file leaf-file-name="2020-04-23-spring-jwt.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.94221103">
-                <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.7281553">
+                <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -72,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md" />
         <option value="$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md" />
         <option value="$PROJECT_DIR$/_posts/2020-05-04-confidence-xuhuonglaptrinh.md" />
@@ -123,6 +122,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
       </list>
     </option>
   </component>
@@ -359,12 +359,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00589" summary="formating home page">
-      <created>1587869548154</created>
-      <option name="number" value="00589" />
-      <option name="project" value="LOCAL" />
-      <updated>1587869548154</updated>
     </task>
     <task id="LOCAL-00590" summary="formating home page">
       <created>1587869715185</created>
@@ -654,7 +648,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587972707388</updated>
     </task>
-    <option name="localTasksCounter" value="638" />
+    <task id="LOCAL-00638" summary="fomarting post">
+      <created>1587972927917</created>
+      <option name="number" value="00638" />
+      <option name="project" value="LOCAL" />
+      <updated>1587972927917</updated>
+    </task>
+    <option name="localTasksCounter" value="639" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -726,19 +726,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-07-refactoring-extractmethod.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.06917476">
-            <caret line="4" column="22" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1184,20 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-04-25-spring-security.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.8907767">
-            <caret line="401" column="0" selection-start-line="401" selection-start-column="0" selection-end-line="401" selection-end-column="10" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1206,6 +1179,34 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.94221103">
             <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-25-spring-security.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.61893207">
+            <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.7281553">
+            <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor />
