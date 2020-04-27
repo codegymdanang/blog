@@ -11,30 +11,88 @@ youtubeId1 : t9in5g6vsSg
 youtubeId2 : rUFUgrkMg4o
 ---
 
+### **1. Giới thiệu nội dung bài viết**
+
 Chào bạn, nếu bạn là người mới tìm hiểu về lập trình, hẳn bạn đã từng nghe tới khái niệm về Abstract và Interface.
 Nhưng bạn có biết khi nào mình sẽ dùng abstract và khi nào mình dùng interface không? Khi mới bước chân vào 
 nghề lập trình a cũng rất hoang mang về công dụng và lợi ý của Abstract và Interface. Chính vì vậy anh
-viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào mình dùng abstract và Interface.
-Đầu tiên mình xem quan khái niệm và sự khác nhau giữa abstract và interface trước nhé.
-<br><br>
+viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào mình dùng abstract và Interface. Bài viết hôm nay sẽ xoay quanh các chủ đề sau. 
 
-### Interface là gì ?
+- Interface là gì ?
+- Abstract là gì ?
+- Sự khác nhau giữa Abstract và Interface
+- Khi nào chúng ta nên dùng Abstract hoặc Interface
+- Video demo 
 
-1. Không phải là class.
-2. Chỉ chứa method trống không có phần thân.
-3. Nó định nghĩa một mẫu chung các hành động mà các lớp implements nó follow theo.
-4. Các lớp có thể cài đặt (implements) một hoặc nhiều Interface.
-<br>
+### **1. Interface là gì**
 
-### Abstract là gì
+Interface chính là cách mình áp dụng tính trừa tượng trong lập trình. Interface chính là 100% abstract class để nhóm các phương thức liên quan với nhau và không có
+phần thân. Phần thân của method sẽ được implement (cài đặt) ở trong lớp implement Interface.
 
-1. Trong một class abstract có thể có 2 loại methods : abstract method và method bình thường.
-2. Abstract method là method trống không có code thực thi trong đó.
-3. Method thường là method có code thực thi. 
-4. Các lớp chỉ có thể kế thừa được 1 abstract class.
-<br>
+{% highlight java linenos %}
+// Interface
+interface Animal {
+  public void animalSound(); // method của Interface không có phần thân 
+  public void sleep(); //method của Interface không có phần thân 
+}
 
-### Sự khác nhau giữa abstract và interface
+// Pig "implements"  Interface  Animal 
+class Pig implements Animal {
+  public void animalSound() {
+    // phần thân của interface sẽ được code  trong class PI
+    System.out.println("The pig says: wee wee");
+  }
+  public void sleep() {
+    // phần thân của interface sẽ được code trong class PIG
+    System.out.println("Zzz");
+  }
+}
+
+{% endhighlight %}
+
+Một số chú ý khi sử dụng Interface.
+
+- Cũng giống như Abstract Class. Chúng ta không thể tạo đối tượng từ Interface bằng toán tử new
+- Interface hỉ chứa method trống không có phần thân. Phần thân sẽ được code bởi những class implement (cài đặt) interface đó 
+- Lớp cài đặt Interface phải implement hết tất cả các method có trong interface. Nó định nghĩa một mẫu chung các hành động mà các lớp implements nó follow theo.
+- Các method trong Interface mặc định là abstract  public và
+- Các biến (thuộc tính) trong Interface mặc định là public,static và final  
+- Các lớp có thể cài đặt (implements) một hoặc nhiều Interface.
+- Interface thì không có constructor chính vì vậy mà ta không thể tạo object của một Interface được 
+
+
+### **2. Abstract là gì**
+
+Data Abstraction là quá trình che giấu đi những dữ liệu quan trọng mình chỉ đưa ra những thông tin cần thiết cho người dùng. Để làm được abstraction trong lập  ta
+có thể sử dụng abstract và interface . Ta có thể sử dụng abstract cho class hoặc method .Chúng ta sử dụng từ khoá abstract để khai báo abstract class và method.
+
+- Abstract class : cũng giống như Interface chúng ta không thể tạo đối tượng từ Abstract Class
+- Abstract method : cũng giống như Interface chúng không có phần thân . Phần thân sẽ được cài đặt trong lớp kế thừa nó 
+
+{% highlight java linenos %}
+
+// Abstract class
+abstract class Animal {
+  // abstract class không có phần 
+  public abstract void animalSound();
+  
+  // abstract class không có phần thân
+  public void sleep() {
+    System.out.println("Zzz");
+  }
+}
+
+
+class Pig extends Animal {
+  public void animalSound() {
+    // phần code thực thi của abstract method được viết bới lớp con kế thừa nó 
+    System.out.println("The pig says: wee wee");
+  }
+}
+
+{% endhighlight %}
+
+### **3. Sự khác nhau giữa abstract và interface**
 
  {:class="table table-bordered"}
  |  Các điểm so sánh  	|  Abstract	                    |   Interface	                                  | 
@@ -44,32 +102,29 @@ viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào m�
  |   Access Modifier	                |   có thể đặt tất cả modifier	    |   Mọi phương thức và thuộc tính là  public	        |  
  |   Mục đích sử dụng                   |     IS  A    |    HAS A (Can do)    |
 
-<br>
- 
-### Khi nào dùng abstract
 
-1. Khả năng mở rộng không cần xoá hết code làm lại.
-2. Loại những trường hợp giá trị không cần thiết trong lớp (ví dụ store id , thì không cần thiết trong online order)
-Phương thức validate và process phải check kiểu order mỗi khi thực hiện busniess logic. 
-Thay vì đó ta để cho lớp con kế thừa lớp abstract và tự cài đặt riêng cho mình mà ko cần phải valide và process các kiểu.
-<br>
+### **4. Khi nào dùng abstract**
 
-### Khi nào dùng interface
+- Khả năng mở rộng không cần xoá hết code làm lại.
+- Tăng tính bảo mật e dấu các dữ liệu quan trong ch
+- Khi các lớp có mối liên hệ cha  với nhau ví dụ như con gà , chó , mèo  chúng đều là động vật (Animal) 
 
-1. Mục đích chính của interface là dùng cho tính đa hình. Khả năng thực hiện các hành động khác nhau trên các ngữ cảnh khác nhau.
-2. Chúng ta muốn các lớp không liên quan với nhau liên kết lại với nhau.
-3. Chúng ta muốn chú trọng vào hành động hơn lvaf về cấu trúc đối tượng.
-4. Chúng ta muốn sử dụng đa thừa kế. 
-<br>
+### **5. Khi nào dùng interface**
 
-### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
+- Mục đích chính của interface là dùng cho tính đa hình. Khả năng thực hiện các hành động khác nhau trên các ngữ cảnh khác nhau.
+- Chúng ta muốn các lớp không liên quan với nhau liên kết lại với nhau.
+- Chúng ta muốn chú trọng vào hành động hơn  về cấu trúc đối tượng.
+- Chúng ta muốn sử dụng đa thừa kế.
+- Tăng cường tính bảo mật . Người dùng chỉ có thể thấy được method nhưng không thấy được nội dung code bên trong
+
+### **6. Demo tạo abstract**  
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId1 %}
 </center>
 <br>
 
-### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
+### **6. Demo tạo interface**  
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId2 %}
