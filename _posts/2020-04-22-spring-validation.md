@@ -73,7 +73,7 @@ public class UserController {
 }
 {% endhighlight %}
 
-Như ta thấy trong đoạn code trên ta sử dụng @Valid để kiểm tra dữ liệu ngừoi dùng truyền lên có thảo mảng điều kiện ta thiết lập trong Entiry User không ?
+Như ta thấy trong đoạn code trên ta sử dụng @Valid để kiểm tra dữ liệu người dùng truyền lên có thảo mảng điều kiện ta thiết lập trong Entiry User không ?
 Khi tham số trong controller có annotation @Valid nó sẽ tự động bật chế độ kiểm tra dữ liệu theo chuẩn JSR 380 cái mà cài đặt chứa năng kiểm tra 
 trong thư viện Hibernate Validator để kiểm tra giá trị.
 
