@@ -10,10 +10,18 @@ description : Các Model trong Spring
 youtubeId: vaQxJlfmB6s
 ---
 
-Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn phân biệt Model , ModelMap , Map và ModeAndView.
-<br><br>
+### **1. Giới thiệu nội dung bài viết**
+Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn phân biệt Model , ModelMap , Map và ModeAndView. Bài hôm nay sẽ nói về các nội dụng sau
 
-### Model là gì ?
+- Model là gì ?
+- ModelMap là gì ?
+- Map là gì ?
+- ModelAndView là gì ?
+- Sự khác nhau giữa các model
+- Video hướng dẫn cách thực hiện 
+
+### **2. Model là gì**
+
 Chúng ta sử dụng Interface Model để truyền dữ liệu  từ Controller sang View để hiển thị . 
 Spring cho phép chúng ta sử dụng Model như là một tham số trong method của Controller nên chúng ta dể dàng lấy , chỉnh sử data 
 để truyền qua cho View.
@@ -45,7 +53,8 @@ public class GreetingController {
 {% endhighlight %}
 <br>
 
-### ModelMap là gì ?
+### **3. ModelMap là gì**
+
 ModelMap cũng tương tư như Model. Chúng ta có thể sử dụng ModelMap như một tham số trong method của Controller.
 
 {% highlight java  linenos %}
@@ -57,9 +66,10 @@ public String getWithModelMap(@RequestParam("name") String name, ModelMap modelM
 }
 
 {% endhighlight %}
-<br>
 
-### Map
+
+### **4. Map**
+
 Map cũng tương tự như Model . Chúng ta có thể sử dụng Map như một tham số trong method của Controller.
 
 {% highlight java  linenos %} 
@@ -71,11 +81,14 @@ public String getWithMap(@RequestParam("name") String name, Map<String, Object> 
 
 } 
 {% endhighlight %}
-<br>
 
-### ModelAndView
+
+### **5. ModelAndView**
+
 Là sự kết hợp của 2 khía cạnh truyền dữ liệu và view. Như ta thấy ở ví dụ trên ta dùng 2 dòng code.
+
 1. model.put("greeting", greeting); gán dữ liệu greeting cho biến greeting.
+
 2. return "greet" ; trả về trang view là greet.html.
 Chúng ta sử  ModelAndView("greet", modelMap) để thực hiện việc , trả về trang greet.html và mode 1 lần . 
 
@@ -90,14 +103,16 @@ public ModelAndView get(@RequestParam("name") String name) {
 {% endhighlight %}
 <br>
 
-### Sự khác nhau giữa các model 
+### **6. Sự khác nhau giữa các model** 
 
 1. Model là một interface trong khi đó ModelMap là một Class. 
 2. Model là một  interface nó chứa đựng 4 phương thức addAttribute và một phương thức  merAttribute .
 3. ModelMap cài đặt lớp  Map interface. Nên nó thêm các phương thức của Map. 
 4. ModelAndView là sự kết hợp của 2 mục đích  ModelMap and View . Nó cho phép controller trả về 1 giá trị bao gồm Model và View .  
-<br>
 
-### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
+### **7. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
