@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" afterPath="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -25,15 +26,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2020-04-25-spring-security.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-04-25-spring-security.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-25-spring-security.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.8543689">
-                <caret line="399" column="21" selection-start-line="399" selection-start-column="21" selection-end-line="399" selection-end-column="21" />
+              <first_editor vertical-scroll-proportion="-6.2633495">
+                <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -41,15 +42,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-04-03-java-generic.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-04-03-java-generic.md">
+      <file leaf-file-name="2020-04-24-spring-i18n.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.8907767">
-                <caret line="211" column="0" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="10" />
+              <first_editor vertical-scroll-proportion="0.8543689">
+                <caret line="160" column="3" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -74,7 +75,6 @@
       <list>
         <option value="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md" />
         <option value="$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md" />
         <option value="$PROJECT_DIR$/_posts/2020-05-04-confidence-xuhuonglaptrinh.md" />
@@ -122,6 +122,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-04-02-java-different-abstract-interface.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" />
       </list>
     </option>
@@ -359,12 +360,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00587" summary="related post">
-      <created>1587869030858</created>
-      <option name="number" value="00587" />
-      <option name="project" value="LOCAL" />
-      <updated>1587869030858</updated>
     </task>
     <task id="LOCAL-00588" summary="formating home page">
       <created>1587869350688</created>
@@ -654,7 +649,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587962664731</updated>
     </task>
-    <option name="localTasksCounter" value="636" />
+    <task id="LOCAL-00636" summary="fomarting post">
+      <created>1587972101257</created>
+      <option name="number" value="00636" />
+      <option name="project" value="LOCAL" />
+      <updated>1587972101257</updated>
+    </task>
+    <option name="localTasksCounter" value="637" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -726,19 +727,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.07038835">
-            <caret line="4" column="22" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1202,8 +1190,22 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="-6.2633495">
+            <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.8543689">
-            <caret line="399" column="21" selection-start-line="399" selection-start-column="21" selection-end-line="399" selection-end-column="21" />
+            <caret line="160" column="3" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
