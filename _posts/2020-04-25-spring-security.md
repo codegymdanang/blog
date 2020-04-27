@@ -9,52 +9,74 @@ image: /images/blog/spring.png
 description : Spring Security 
 youtubeId: WNfuVJptPnQ
 ---
- 
+
+### **1. Giới thiệu nội dung bài viết**
+
 Chào bạn, bạn đang gặp rắc rối với Spring Security? bạn không hiểu luồng đi của ứng dụng ? 
 bạn đang quan tâm trong thực tế mình sẽ áp dụng như thế nào ? Hôm nay anh sẽ hướng dẫn mọi người cách sử dung Spring security.
-<br><br>
+Bài viết sẽ đi qua các nội dụng sau đây
 
-### Demo mục đích bài hướng dẫn hôm nay
+- Các khái niệm về Spring Security
+- Mục tiêu của bài thực hành
+- Xây dựng một ứng dụng Spring Security với mysql database hoàn chỉnh 
+
+
+### **2. Demo mục đích bài hướng dẫn hôm nay**
+
 Kết thúc bài giảng hôm nay các em sẽ làm được ứng dụng phân quyền tuỳ thuộc vào user đăng nhập vào hệ thống là user hay admin mà ta cho phép họ 
 vào trang web tương ứng. Ví dụ.  
-1. Trang Home thì ai vào cũng được .
-2. Trang Admin thì chỉ có admin được vào và thấy được trang . Nếu là role user và vào trang Admin thì mình hiện thông báo lỗi bạn không có quyền.
-3. Trang User Info thì user và admin được phép vào. Cái này do mình hoàn toàn có thể thay đổi quyền trong database để phân quyền ai được phép vào trang nào.
 
+- Trang Home thì ai vào cũng được .
+- Trang Admin thì chỉ có admin được vào và thấy được trang . Nếu là role user và vào trang Admin thì mình hiện thông báo lỗi bạn không có quyền.
+- Trang User Info thì user và admin được phép vào. Cái này do mình hoàn toàn có thể thay đổi quyền trong database để phân quyền ai được phép vào trang nào.
+
+{:refdef: style="text-align: center;"}
 ![Demo Spring Secu ](/images/post/spring/springsecurity.gif){:class="img-responsive"}
-<br>
+{: refdef}
 
-### Các khái niệm về Spring Security
-1. Authentication : Khi nói về authentication là ta nói về chức năng đăng nhập vào hệ thống. Authentication nghĩa là bạn có phải là người dùng của hệ thống hay không.
-2. Authorization  : Khi nói về authorization ta nói về quyền hạn được phép làm gì ? Trong ví dụ trên mình có user và admin . Bước đầu tiên họ phải authentication .
+### **2. Các khái niệm về Spring Security**
+
+- Authentication : Khi nói về authentication là ta nói về chức năng đăng nhập vào hệ thống. Authentication nghĩa là bạn có phải là người dùng của hệ thống hay không.
+
+- Authorization  : Khi nói về authorization ta nói về quyền hạn được phép làm gì ? Trong ví dụ trên mình có user và admin . Bước đầu tiên họ phải authentication .
 xát thực mình là user trong hệ thống . Tiếp đến tuỳ vào role của mình là admin hay user mà mình chỉ có quyền truy cập một số trang nhất định thuộc thẩm quyền của mình.
-<br>
 
-### Chúng ta bắt tay vào code ứng dụng thôi
+
+### **3. Hướng dẫn xây dựng ứng dụng Spring Security**
+
 Luồng đi của ứng dụng mình như sau.
+
 1. User nhập vào username và password sau đó bấm login .
+
 2. Server sẽ nhận được request từ người dùng và chuyển tới controller tương ứng do ta cấu hình trong file configure của spring security .
+
 3. Controller sẽ gọi Service và Service sẽ gọi database để lấy thông tin authentication đúng không và role người dùng là gì?.
 4. Sau khi có thông tin đúng thì trả kết quả lại cho người dùng.
-Okie , vậy chúng ta sẽ đi từng bước sau để xây dụng ứng dụng nhé .
-<br>
 
-#### Bước 1 . Chuẩn bị database 
+
+
+#### Bước 1 . Chuẩn bị database để lưu thông tin user và quyền 
+
 Mình dùng database để lưu thông tin người dùng và role (vai trò,được phép làm gì). Phục vụ cho việc truy vấn username và role có hợp lệ hay không .
 
+{:refdef: style="text-align: center;"}
 ![Database  ](/images/post/spring/security_db.png){:class="img-responsive"}
+{: refdef}
 
 Như vậy để làm ứng dụng spring security mình sẽ lưu user name và quyền vào trong database. Anh sẽ giải thích ý nghĩa của từng bảng.
 
 1. Table APP_USER  dùng để lưu thông tin username và passwor . Khi người dùng đăng nhập họ truyền user name và password vào form sau đó code của mình sẽ query
 trong databaPPse xem là username và password có đúng như trong database không ?d Bước này chính là authentication.
+
 2. Table APP_ROLE dùng để xát định xem user sau khi login thành công thì được phép vào những trang nào . Ví dụ admin vào được 2 trang user và admin page . Nhưng
 user chỉ được phép vào 1 trang là user page.
+
 3. Table USER_ROLE là table dùng để nối 2 bảng APP_USER và APP_ROLE , nó được dùng để cho phép 1 user có thể có nhiều quyền. Ví dụ như admin có thể vào cả 2 trang user và admin .
+
 4. Tạo database thôi nào. Anh có viết script tạo cấu trúc database và tạo dữ liệu user và admin tại đây. 
 Mọi người copy về và chạy script này trong workbench để tạo dữ liệu nhé . 
-
 https://github.com/codegymdanang/CGDN-SpringBoot-SpringSecurity .
+
 Nếu chạy script xong thì mình sẽ có 2 users sau :
 + username : dbuser1  -  Password : 123
 + username : dbadmin1 -  Password : 123
@@ -62,9 +84,10 @@ Nếu chạy script xong thì mình sẽ có 2 users sau :
 5. Cấu trúc dự án
 
 ![Cấu trúc dự án](/images/post/spring/springsecuritystructure.png){:class="img-responsive"}
-<br>
+
 
 #### Bước 2. Thêm dependencies cần thiết trong pom.xml
+
 Chúng ta thêm các dependencies spring security, thymeleaf, mysql connector và jpa.  
 
 {% highlight java linenos %}
@@ -94,9 +117,9 @@ Chúng ta thêm các dependencies spring security, thymeleaf, mysql connector v�
         </dependency>
 
 {% endhighlight %}
-<br>
 
 #### Bước 3. Tạo form login . 
+
 Khi người dùng click vào nút submit thì action mình dùng là /j_spring_security_check cái này là mặc định của spring.
 
 {% highlight html  linenos %} 
@@ -121,9 +144,10 @@ Khi người dùng click vào nút submit thì action mình dùng là /j_spring_
     </table>
 </form>
 {% endhighlight %}
-<br>
 
-#### Bước 4. Tạo file WebSecurityConfig để cấu hình  cho Spring security .  
+
+#### Bước 4. Tạo file WebSecurityConfig để cấu hình  cho Spring security .
+  
 Các bạn có thể tìm thấy file đó ở github ở trên trong thư mục configure/WebSecurityConfig. 
 File WebSecurityConfig sẽ kế thừa WebSecurityConfigurerAdapter để mình tuỳ chỉnh các cấu hình security cho ứng dụng của mình.
 Giờ a sẽ giải thích nhiệm vụ của các method.
@@ -209,9 +233,10 @@ Username này là ai trong hệ thống , UserName này có quyền gì. Chúng 
 
     }
 {% endhighlight %}
-<br>
+
 
 #### Bước 5. Tạo UserDetailsServiceImpl 
+
 File này sẽ implement UserDetailsService của Spring và định nghĩa cách kiểm tra username , password và quyền của user có hợp lệ hay không
 Khi user login vào hệ thống ta sẽ query xuống database để kiểm tra user có đúng trong database không và quyền là gì ?
 
@@ -251,9 +276,9 @@ Khi user login vào hệ thống ta sẽ query xuống database để kiểm tra
         return userDetails;
     }
 {% endhighlight %}
-<br>
 
 ##### Bước 6. Tạo các điều hướng trong controller 
+
 Khi người dùng đã đang nhập thành công , họ có thể điều hướng tới các trang khác .Thì mình sẽ tạo các mapping trong Controller 
 Để điều hướng người dùng tới các view tương ứng. Những điều hướng này nằm ở bước 4 method configure .
 
@@ -327,7 +352,6 @@ Khi người dùng đã đang nhập thành công , họ có thể điều hư�
         return "403Page";
     }
 {% endhighlight %}
-<br>
 
 ##### Bước 7. Tạo Repository để query database 
 
@@ -359,16 +383,20 @@ public class AppUserDAO {
 
 }
 {% endhighlight %}
-<br>
+
 
 ##### Bước 8 . Tạo các trang view cần thiết để hiện thị
 Mọi ngừoi có thể lấy trực tiếp từ github của anh trong folder view.
-<br>
+
 
 ##### Bước 9. Chạy ứng dụng
+
 Như vậy là mình đã xong cấu hình cho Spring security . Phần quan trong nhất  chính là bước 4. Nới mình cấu
 hình và phân quyền trong Spring Security .
-<br>
+
 
 ### Mọi người có thể xem thêm lý thuyết tại đây nhé 
+
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
