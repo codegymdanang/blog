@@ -10,14 +10,23 @@ description : Luồng đi ứng dụng Spring MVC
 youtubeId: 7Wpi_jC8CqA
 ---
 
+### **1. Giới thiệu nội dung bài viết**
+
 Chào bạn, bạn đang học Spring MVC nhưng chưa hiểu luồng đi của ứng dụng nó chạy  như thế nào. Ví dụ như khi người dùng gõ một url như sau vào trình duyệt
 http://localhost8080 thì ứng dụng mình sẽ chạy qua các tầng nào của springmvc  để trả kết quả là trang home cho người dùng thấy được ?
-Trong bài này anh sẽ hướng dẫn mọi người các bước mà SpringMVC xử lý một request (yêu cầu) từ người dùng. 
-<br><br>
+Trong bài này anh sẽ hướng dẫn mọi người các bước mà SpringMVC xử lý một request (yêu cầu) từ người dùng. Anh sẽ đi qua các chủ đề sau
+
+- Luồng đi của ứng dụng Spring MVC
+- Video tạo một dự án bằng Spring MVC
+
  
-## Luồng đi của ứng dụng MVC qua các tầng
+### **2. Luồng đi của ứng dụng MVC qua các tầng**
+
 Trước hết mình đi qua hình ảnh về luồng đi của ứng dụng spring gồm có các thành phần nào.
+
+{:refdef: style="text-align: center;"}
 ![Luồn đi của ứng dụng MVC  ](/images/post/spring/springmvcflow.jpg){:class="img-responsive"}
+{: refdef}
 
 1. Người dùng điền vào tên website mình cần truy cập trên browser sau đó bấm enter. Lúc này mình gửi 1 request lên server nơi mà mình triển khai sourcecode. 
 
@@ -36,6 +45,8 @@ và chuyển hoá dữ liệu trong database thành model và trả ngược l�
 7. Cuối cùng DispatchServlet gửi lại kết quả trang web cho client.
 <br>
 
-### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
+### **3. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
