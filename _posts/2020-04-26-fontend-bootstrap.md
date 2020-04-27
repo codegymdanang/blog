@@ -17,6 +17,7 @@ Chào các bạn , bạn đang có ý định làm một website cho mình nhưn
 để hỗ trợ việc làm website một cách đơn giản và đẹp .Hôm nay anh sẽ giới thiệu với các bạn Boostrap framework. Chúng ta sẽ đi qua các nội 
 dung sau
 
+
 - Bootstrap là gì ?
 - Lợi ích của Bootstrap
 - Cài đặt Bootstrap
@@ -32,15 +33,15 @@ các animation (hiệu ứng) đã được tích hợp trong Boostrap.
 
 ### **3. Lợi ích của Boostrap**
 
-1. Dễ dàng thao tác . Boostrap có nguyên một bộ tài liệu hướng dẫn
-2. Tuỳ chỉnh dể dàng.
-3. Sản phẩm webstie có độ tương thích cao đối với các thiết bị hiển thị website.
-4. Giao diện các thành phần web đẹp , dù ta có mắt thẩm mỹ xấu vẫn làm được website đẹp.
-5. Tái sử dụng .
+- Dễ dàng thao tác . Boostrap có nguyên một bộ tài liệu hướng dẫn
+- Tuỳ chỉnh dể dàng.
+- Sản phẩm webstie có độ tương thích cao đối với các thiết bị hiển thị website.
+- Giao diện các thành phần web đẹp , dù ta có mắt thẩm mỹ xấu vẫn làm được website đẹp.
+- Tái sử dụng .
 
 ### **4. Cài đặt Boostrap cho dự án**
 
-1. Chúng ta có thể cài boostrap từ CDN bằng cách thêm  dòng sau vào trang HTML.
+- Chúng ta có thể cài boostrap từ CDN bằng cách thêm  dòng sau vào trang HTML.
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -72,11 +73,10 @@ Ví dụ <div class="container"> thì class container là của Bootstap . Như 
 
 
 
-2. Chúng ta có thể download trực tiếp từ trang chủ của Boostrap
-https://getbootstrap.com/
+- Chúng ta có thể download trực tiếp từ trang chủ của Boostrap (https://getbootstrap.com) 
 
 
-### **5 Một số tính năng quan trọng của Bootstrap.  
+### **5 Một số tính năng quan trọng của Bootstrap**  
 
 ####  Meta là gì ? Viewport ? content ? initial-scale ?
 
@@ -109,7 +109,7 @@ https://getbootstrap.com/
 </div>
 {% endhighlight %}
 
-+ Loại container-fluid sẽ hiện thị full chiều rộng màn hình
+- Loại container-fluid sẽ hiện thị full chiều rộng màn hình
 
 {% highlight html linenos %}
 <div class = "container-fluid">
@@ -119,10 +119,14 @@ https://getbootstrap.com/
 
 #### Responsive breakpoints
 
-+ Tuỳ vào kích thướt màn hình mà màu H3 sẽ thay đổi là đỏ , vàng , xanh , tím.
-+ Nếu màn hình điện thoại sẽ là đỏ
-+ Nếu tablets là vàng
-+ Nếu là desktop là xanh
+Responsive là cách mình lập trình trang web có thể hiển thị trên nhiều thiết bị khác nhau ví dụ trên điện thoại , IPad , Tivi. Nhờ có Bootstrap
+mà ta không còn phải lo lắng khi làm responsive vì Boostrap đã hỗ trợ cho mình. Bằng cách sử dụng thẻ @media ta có thể dể dành hiển thị trang web
+ở những thiết bị có kích thướt khác nhau .
+
+- Tuỳ vào kích thướt màn hình mà màu H3 sẽ thay đổi là đỏ , vàng , xanh , tím.
+- Nếu màn hình điện thoại sẽ là đỏ
+- Nếu tablets là vàng
+- Nếu là desktop là xanh
 
 {% highlight css linenos %}
 /* Small devices (landscape phones, 576px and up) */
@@ -156,6 +160,12 @@ https://getbootstrap.com/
 {% endhighlight %}
 
 #### Hệ thống lưới 
+
+Bootstrap sử dụng hệ thống lưới 12 cột đại để là layout cho trang web .
+
+{:refdef: style="text-align: center;"}
+![Grid   ](/images/post/frontend/grid.png){:class="img-responsive"}
+{: refdef}
 
 + .col- (extra small devices - screen width less than 576px)
 + .col-sm- (small devices - screen width equal to or greater than 576px)
