@@ -10,8 +10,9 @@ description : Angular Boostrap
 youtubeId: edYsCowgQq0
 ---
  
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách nhúng Bootstrap vào dự án Angualr là như thế nào nhé .
-Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
+Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách gọi Web Service bên ngoài   dự án Angualr là như thế nào nhé .
+Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.từ
+
 <br><br>
 
 ### Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
