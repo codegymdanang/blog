@@ -26,13 +26,11 @@ qua các nội dung.
 Exception (ngoại lệ) trong Java là một vấn đề xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.
 Exception là một sự kiện mà phá vỡ luồng chuẩn của chương trình. Anh lấy ví dụ về rút tiền ATM ở máy rút tiền. Trong tài khoản
 mình chỉ có 1.000.000 nhưng nếu mình bấm trong máy ATM rút 2.000.000 thì lúc đó chương trình trong máy ATM sẽ báo lỗi vì 
-số tiền mình yêu cầu rút lớn hơn số hiện tại. Đó chính là một Exception (ngoại lệ) xảy ra lúc chương trình đang chạy
+số tiền mình yêu cầu rút lớn hơn số hiện tại. Đó chính là một Exception (ngoại lệ) xảy ra lúc chương trình đang chạy. 
 
 Đối với lập trình viên mình phải bắt và xử lý các ngoại lệ trong chương trình. Nếu không chương trình sẽ bị dừng. Thường các
 lập trình viên có thể bắt lại Expection trong lúc viết code hoặc dự đoán được Exception trong lúc chương trình đang chạy
 để từ đó lập trình viên có thể xử lý các ngoại lệ đó mà chương trình vẫn tiếp tục chạy.
-
-<br>
 
 ### **3. Check Exception**
 
@@ -45,7 +43,6 @@ Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán đư
 - InterruptException.
 - Database Exception.
 - IO Exception.
-<br>
 
 ### **4. Uncheck Exception**
 
@@ -68,12 +65,10 @@ Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền 
 - Excepton : là cha của tất cả class Check Exception
 - Exception Runtime : là cha của tất cả các class Uncheck 
 
-<br>
-
 ### **5. Ném ngoại lệ bằng Throws hoặc throw**
 
-- Trong Java mình có thể dùng từ khoá throws bên cạnh  tên method để ném ngoại lệ. Ví dụ như public void deposit(int depositAmount) throws Exception . Phương thức nào
-mà gọi method deposit phải bắt lại ngoại lệ và xử lý . Để bắt ngoại lệ thì mình dùng khối  try, catch , finally lệnh để  ngoại lệ bắt từ hàm deposit ném ra
+- Trong Java mình có thể dùng từ khoá throws bên cạnh tên method để ném ngoại lệ. Ví dụ như public void deposit(int depositAmount) throws Exception . Phương thức nào
+mà gọi method deposit phải bắt lại ngoại lệ và xử lý . Để bắt ngoại lệ thì mình dùng khối  try, catch , finally lệnh để bắt ngoại lệ bắt từ hàm deposit ném ra
 
 - Ngoài cách dùng Throws ta có thể dùng throw new Exception  bên trong method như ví dụ dưới  đây .
 
@@ -92,7 +87,7 @@ public void deposit(int depositAmount) throws Exception {
    System.out.println("Deposit is valid " + depositAmount);
 }
 {% endhighlight %}
-<br>
+
 
 ### **6. Bắt ngoại lệ bằng try catch**
 
@@ -106,7 +101,7 @@ public int getPlayerScore(String playerFile) {
     }
 }
 {% endhighlight %}
-<br>
+
 
 ### Bắt ngoại lệ bằng nhiều catch
 
@@ -123,7 +118,7 @@ public int getPlayerScore(String playerFile) {
     }
 }
 {% endhighlight %}
-<br>
+
 
 ### **7. Khối lệnh Finally
 
@@ -132,7 +127,7 @@ Khối lệnh Finally luôn luôn chạy cho dù có xảy ra lỗi ở trong kh
 - Đóng kết nối xuống file .
 - Đóng kết nối xuống database.
 - Giải phóng bộ nhớ.
-<br>
+
 
 ### **8. Video demo tạo Exception trong Java ** 
 

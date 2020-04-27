@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" afterPath="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" afterPath="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -57,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-04-01-java-oop.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-04-01-java-oop.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-01-java-oop.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
@@ -66,6 +66,22 @@
             <state split_layout="FIRST">
               <first_editor vertical-scroll-proportion="1.4563106">
                 <caret line="80" column="10" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020-04-11-java-exception.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-04-11-java-exception.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.5643204">
+                <caret line="31" column="109" selection-start-line="31" selection-start-column="109" selection-end-line="31" selection-end-column="109" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -147,7 +163,6 @@
         <option value="$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-05-java-access-modifier.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-04-java-collections.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" />
         <option value="$PROJECT_DIR$/css/style.css" />
@@ -155,6 +170,7 @@
         <option value="$PROJECT_DIR$/_layouts/blog.html" />
         <option value="$PROJECT_DIR$/_posts/2020-04-02-java-different-abstract-interface.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" />
       </list>
     </option>
   </component>
@@ -391,12 +407,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00585" summary="related post">
-      <created>1587868702871</created>
-      <option name="number" value="00585" />
-      <option name="project" value="LOCAL" />
-      <updated>1587868702871</updated>
     </task>
     <task id="LOCAL-00586" summary="related post">
       <created>1587868885036</created>
@@ -686,7 +696,13 @@
       <option name="project" value="LOCAL" />
       <updated>1587961133176</updated>
     </task>
-    <option name="localTasksCounter" value="634" />
+    <task id="LOCAL-00634" summary="fomarting post">
+      <created>1587961485691</created>
+      <option name="number" value="00634" />
+      <option name="project" value="LOCAL" />
+      <updated>1587961485691</updated>
+    </task>
+    <option name="localTasksCounter" value="635" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1129,19 +1145,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-04-11-java-exception.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.36407766">
-            <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1234,6 +1237,20 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="1.4563106">
             <caret line="80" column="10" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-11-java-exception.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.5643204">
+            <caret line="31" column="109" selection-start-line="31" selection-start-column="109" selection-end-line="31" selection-end-column="109" />
             <folding />
           </first_editor>
           <second_editor />
