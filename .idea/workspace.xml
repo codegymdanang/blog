@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/post/spring/onetomany.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-08-spring-mapping.md" afterPath="$PROJECT_DIR$/_posts/2020-05-08-spring-mapping.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -405,12 +403,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00607" summary="formating noi dung bai post">
-      <created>1587875854889</created>
-      <option name="number" value="00607" />
-      <option name="project" value="LOCAL" />
-      <updated>1587875854889</updated>
-    </task>
     <task id="LOCAL-00608" summary="formating noi dung bai post">
       <created>1587876132766</created>
       <option name="number" value="00608" />
@@ -699,7 +691,13 @@
       <option name="project" value="LOCAL" />
       <updated>1588084789852</updated>
     </task>
-    <option name="localTasksCounter" value="656" />
+    <task id="LOCAL-00656" summary="OneToMany">
+      <created>1588085155882</created>
+      <option name="number" value="00656" />
+      <option name="project" value="LOCAL" />
+      <updated>1588085155882</updated>
+    </task>
+    <option name="localTasksCounter" value="657" />
     <servers />
   </component>
   <component name="ToolWindowManager">
