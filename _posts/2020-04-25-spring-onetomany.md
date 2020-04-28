@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: OneToOne Relationship
-slug : one-to-one
+title: OneToMany Relationship
+slug : one-to-many
 category: laptrinhspring
 tags: [spring]
 summery: Lập Trình Spring Security 
