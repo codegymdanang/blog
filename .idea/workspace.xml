@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-onetomany.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-onetomany.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2020-05-08-spring-mapping-onetomany.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2020-05-09-spring-mapping-onetoone.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -51,44 +52,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-05-08-spring-mapping-onetomany.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-05-08-spring-mapping-onetomany.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.81796116">
-                <caret line="171" column="91" selection-start-line="11" selection-start-column="0" selection-end-line="171" selection-end-column="91" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spring-home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/spring-home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-26.25">
               <caret line="52" column="73" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="73" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2020-05-09-spring-mapping-onetoone.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-05-09-spring-mapping-onetoone.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.81796116">
-                <caret line="115" column="91" selection-start-line="11" selection-start-column="0" selection-end-line="115" selection-end-column="91" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -477,12 +446,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00613" summary="change font">
-      <created>1587877270396</created>
-      <option name="number" value="00613" />
-      <option name="project" value="LOCAL" />
-      <updated>1587877270396</updated>
-    </task>
     <task id="LOCAL-00614" summary="change font">
       <created>1587877538033</created>
       <option name="number" value="00614" />
@@ -771,7 +734,13 @@
       <option name="project" value="LOCAL" />
       <updated>1588088044936</updated>
     </task>
-    <option name="localTasksCounter" value="662" />
+    <task id="LOCAL-00662" summary="OneToMany">
+      <created>1588088069593</created>
+      <option name="number" value="00662" />
+      <option name="project" value="LOCAL" />
+      <updated>1588088069593</updated>
+    </task>
+    <option name="localTasksCounter" value="663" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1308,20 +1277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-09-spring-mapping-onetoone.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.81796116">
-            <caret line="115" column="91" selection-start-line="11" selection-start-column="0" selection-end-line="115" selection-end-column="91" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-25-spring-onetoone.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1330,20 +1285,6 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.05461165">
             <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-08-spring-mapping-onetomany.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.81796116">
-            <caret line="171" column="91" selection-start-line="11" selection-start-column="0" selection-end-line="171" selection-end-column="91" />
             <folding />
           </first_editor>
           <second_editor />
