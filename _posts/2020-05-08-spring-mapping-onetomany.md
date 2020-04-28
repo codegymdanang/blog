@@ -11,10 +11,10 @@ description : sử dụng OneToMany và ManyToOne
 --
 ### **1. Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ đề hôm nay húng ta sẽ nói OeOnvề các annotation @OneToMany và @ManyToOne .
+Chào các em ,chủ đề hôm nay chúng ta sẽ nói về các annotation @OneToMany và @ManyToOne trong Spring  .
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
  
-- OneToMany là   ?
+- OneToMany là gì  ?
 - ManyToOne là gì ? 
 - Cấu hình và triển khai một dự án dùng các annotation 
 
@@ -56,7 +56,7 @@ public class Cart {
 {% endhighlight %}
 
 
-### **3. Triển khai dư án
+### **3. Triển khai trong Java code
 
 Bây giờ anh sẽ hướng dẫn các bạn xây dựng ứng dụng shopping cart . Sử dụng @OneToMany và @ManyToOne để thiết lập mối quan hệ giữa
 Cart (gio hang) và Item (san phẩm).
