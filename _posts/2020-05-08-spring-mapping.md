@@ -22,7 +22,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 ### **2. One To Many annotation**
  
 Anh lấy ví dụ như mình làm ứng dụng về bán hàng. Mình có chức năng lưu sản phẩm (Item)  vào  giỏ hàng (cart) . 
-Trong giỏ hàng (cart) sẽ chứa nhiều sản phẩm (Items). hư vậy quan hệ giữa giỏ hàng và đơn là là One To Many nghĩa là 1 giỏ hàng chứa nhiều sản  .
+Trong giỏ hàng (cart) sẽ chứa nhiều sản phẩm (Items). Như vậy quan hệ giữa giỏ hàng và sản phẩm  là One To Many nghĩa là 1 giỏ hàng chứa nhiều sản  .
 
 Nếu ta thiết kết database thì ta có 2 bảng là cart và item như sau .
 
@@ -42,7 +42,7 @@ CREATE TABLE `Items` (
 {% endhighlight %}
 
 
-Như vậy mối quan hệ trong database giữa Cart và Item là một nhiều . Column card_id là khoá chính trong bảng Cart và là khoá phụ trong bảng Items.
+Như vậy mối quan hệ trong database giữa Cart và Item là một nhiều . Column cart_id là khoá chính trong bảng Cart và là khoá phụ trong bảng Items.
 
 Trong Java mình thể hiện mối quan hệ 1 - nhiều qua annotation @OneToMany như sau
 
@@ -58,7 +58,9 @@ public class Cart {
 
 ### **3. Triển khai dư án
 
-Bây giờ anh sẽ hướng dẫn các bạn xây dựng ứng dụng shopping cart . Sử dụng @OneToMany và @ManyToOne 
+Bây giờ anh sẽ hướng dẫn các bạn xây dựng ứng dụng shopping cart . Sử dụng @OneToMany và @ManyToOne để thiết lập mối quan hệ giữa
+Cart (gio hang) và Item (san phẩm).
+
 
 #### Bước 1. Tạo các tables : Cart và Item 
 
@@ -77,14 +79,27 @@ CREATE TABLE `Items` (
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 {% endhighlight %} 
 
-#### Bước 2. Thêm dependency  trong maven
+#### Bước 2. Thêm dependency trong maven
  
+{% highlight java linenos %}
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        
+         <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+         </dependency>
+
+{% endhighlight %}
 
 #### Bước 3. Tạo Entity Cart
 
 {% highlight java   linenos %}
 @Entity
-@Table(name="CART")
+@Table(name="CART") // tên này trùng với tên Table trong database .
 public class Cart {
  
     //...
@@ -127,8 +142,7 @@ Chúng ta thấy trong lớp Cart chúng ta định nghĩa @OneToMany và mapped
 đó hoạt động thì ta cũng phải cấu hình biến "cart" trong Class Item. 
 
 Đầu tiên chúng ta sử dụng  @ManyToOne và @JoinColumn để định nghĩa cho biến cart để tạo sự liên kết ngược lại  giữa Class Items và Cart  . 
-.Trong @JoinColumn ta định nghĩa name = "car_id" . Cái 'cart_id ' chính là  column khoá phụ trong 
-table Items mà ta định nghĩa trong database . nullable = false là ta ràng buộc dữ liệu không được phép null 
+.Trong @JoinColumn ta định nghĩa name = "car_id" . Cái 'cart_id ' chính là  column khoá phụ trong table Items mà ta định nghĩa trong database . nullable = false là ta ràng buộc dữ liệu không được phép null 
 
 #### Bước 5. Test ứng dụng
 
@@ -152,7 +166,9 @@ Chúng ta sẽ lưu giỏ hàng và các sản phẩm xuống database theo các
 
 ### **5. Kết luận**
 
-Như vậy chúng ta sử dụng annotaion @OneToMany và @ManyToOne để thực hiện việc liên kết giữa hai entity với nhau. 
+Như vậy chúng ta sử dụng annotaion @OneToMany và @ManyToOne để thực hiện việc liên kết giữa hai entity với nhau. Từ Cart ta có thể lấy các kết quả 
+của Items.
+
 Để hiểu thêm về mappedBy còn có chức năng nào mới không thì các bạn có thể đọc bài viết sau
 
 
