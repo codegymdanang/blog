@@ -4,7 +4,7 @@ title: sử dụng One To One
 slug : one-to-one 
 category: laptrinhspring
 tags: [spring]
-summery: Spring JPA 
+summery: Spring JPA
 image: /images/blog/spring.png
 description : sử dụng OneToMany và ManyToOne 
 
