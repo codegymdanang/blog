@@ -130,7 +130,7 @@ StudentCouse và nhúng CourseRatingKey vào
 {% highlight java  linenos %}
 @Entity
 @Table(name = "student_course")
-public class CourseRating {
+public class StudentCouse {
 
     @EmbeddedId
     private CourseRatingKey id;
@@ -146,3 +146,11 @@ public class CourseRating {
     private Course course;
 }
 {% endhighlight %}
+
+Như ta thấy ở trên mình không dùng @ManyToMany nữa mà thay vào đó là @ManyToOne. Entity StudentCouse sẽ link tới Entity  Student và Entity Course. Nó như là một bảng đóng vai trò trung gian
+
+Chúng ta sử dụng @EmbeddedId để dánh dấu cặp key trở thành khoá chính (PRIMARY KEY ) trong entity
+
+## **4 . Tổng kết**
+
+Các em có thể dùng một trong 2 cách trên khi gặp mối quan hệ nhiều nhiều đều giải quyết được vấn đề. Thông thường anh hay dùng cách thứ 2 (CompositeKey) vì code dể quản lý và thay đổi . Ví dụ như a muốn thêm vô vài trường trong table trung gian thì  quản lý.
