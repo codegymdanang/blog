@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: OneToOne Relationship
-slug : one-to-one
+slug : many-to-many
 category: laptrinhspring
 tags: [spring]
 summery: Lập Trình Spring Security
@@ -153,4 +153,4 @@ Chúng ta sử dụng @EmbeddedId để dánh dấu cặp key trở thành khoá
 
 ## **4 . Tổng kết**
 
-Các em có thể dùng một trong 2 cách trên khi gặp mối quan hệ nhiều nhiều đều giải quyết được vấn đề. Thông thường anh hay dùng cách thứ 2 (CompositeKey) vì code dể quản lý và thay đổi . Ví dụ như a muốn thêm vô vài trường trong table trung gian thì  quản lý.
+Các em có thể dùng một trong 2 cách trên khi gặp mối quan hệ nhiều nhiều đều giải quyết được vấn đề. Thông thường anh hay dùng cách thứ 2 (CompositeKey) vì code dể quản lý và thay đổi . Ví dụ như a muốn thêm vô vài trường trong table trung gian thì  quản lý rất dể.
