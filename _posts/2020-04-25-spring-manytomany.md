@@ -40,7 +40,7 @@ CREATE TABLE `course` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`),
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
-{% endhighlight %}
+
 
 CREATE TABLE `student_course` (
   `student_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
@@ -61,7 +61,7 @@ thành 2 mối quan hệ một nhiều .
 Trong Java chúng ta sử dụng annotation @ManyToMany để thể hiện mối quan hệ nhiều nhiều.
 Đầu tiên chúng ta sẽ tạo Entity Student
 
-{% highlight mysql  linenos %}
+{% highlight java  linenos %}
 
 @Entity
 @Table(name = "student")
