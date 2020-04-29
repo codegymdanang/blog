@@ -14,7 +14,7 @@ youtubeId: WNfuVJptPnQ
 
 Chào các em ,chủ đề hôm nay chúng ta sẽ nói về các annotation @OneToOne  .
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
- 
+
 - OneToOne là   ?
 - Cấu hình và triển khai một dự án dùng các annotation
 
@@ -69,8 +69,7 @@ public class User {
 {% endhighlight %}
 
 Như các em thấy ở trên ta sử dụng annotation @OneToOne để nói rằng một user chỉ có 1 đối tượng Address .
-Tiếp đến cascade = CascadeType.ALL nghĩa là khi xoá một dòng địa chỉ bên table  Address thì xoá luôn bên table User để toàn vẹn dữ liệu tránh
-thừa dữ liệu không cần thiết.
+Tiếp đến cascade = CascadeType.ALL nghĩa là khi xoá một dòng địa chỉ bên table Address thì xoá luôn bên table User để toàn vẹn dữ liệu tránh thừa dữ liệu không cần thiết.
 
 Chúng ta sử dụng @JoinColumn để cấu hình cho biến address là tìm kiếm trong column nào trong database mà map vào (nó chính là foregin key)
 .Biến address này được khai báo trong Class Address dưới đây.
