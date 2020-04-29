@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: OneToOne Relationship
+title: ManyToMany Relationship
 slug : many-to-many
 category: laptrinhspring
 tags: [spring]
