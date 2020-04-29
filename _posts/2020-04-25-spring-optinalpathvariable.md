@@ -16,7 +16,7 @@ Chào các em ,chủ đề hôm nay chúng ta sẽ nói về Spring Optional Pat
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - PathVariable dùng để làm gì ?
-- Sử dụng Opti ?
+- Sử dụng Optional PathVariable ?
 - Cấu hình và triển khai một dự án dùng các annotation
 
 
