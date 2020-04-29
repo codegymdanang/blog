@@ -69,7 +69,8 @@ public class User {
 {% endhighlight %}
 
 Như các em thấy ở trên ta sử dụng annotation @OneToOne để nói rằng một user chỉ có 1 đối tượng Address .
-Tiếp đến cascade = CascadeType.ALL nghĩa là khi xoá một dòng địa chỉ bên table Address thì xoá luôn bên table User để toàn vẹn dữ liệu tránh thừa dữ liệu không cần thiết.
+
+Tiếp đến cascade = CascadeType.ALL nghĩa là khi xoá một dòng dữ liệu trong table Address. Thì bên bản User cũng sẽ bị xoá 1 đòng tương ứng với dòng bị xoá bên table User . Như vậy dữ liệu ở 2 table User và Address dữ liệu sẽ giống nhau. Mục đích của Casecade là để toàn vẹn dữ liệu, dữ liệu sẽ thống nhất ở 2 bảng,tránh thừa dữ liệu không cần thiết.
 
 Chúng ta sử dụng @JoinColumn để cấu hình cho biến address là tìm kiếm trong column nào trong database mà map vào (nó chính là foregin key)
 .Biến address này được khai báo trong Class Address dưới đây.
