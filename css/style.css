@@ -5555,8 +5555,9 @@ h6 {
   text-align: justify;
 }
 
-#contentPost p {
+#contentPost p h3 ul li {
   font-size: 20px;
+  font-weight: bolder;
 }
 
 #contentPost ul {
