@@ -5557,7 +5557,7 @@ h6 {
   text-align: justify;
 }
 
-#contentPost p,h3,ul,ol {
+#contentPost p,h3,ul,ol,h4 {
   font-size: 17px;
   font-weight: bold;
 }
