@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2020-05-9-spring-many2many.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-manytomany.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-manytomany.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/spring.png" afterPath="$PROJECT_DIR$/images/blog/spring.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -26,19 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2020-04-25-spring-manytomany.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2020-04-25-spring-manytomany.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-04-25-spring-manytomany.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="-0.6747573">
+              <first_editor vertical-scroll-proportion="0.0">
                 <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/images/blog/spring.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -135,8 +141,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1851" />
     <option name="y" value="23" />
-    <option name="width" value="1513" />
+    <option name="width" value="1142" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -209,43 +216,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,11 +273,11 @@
       <recent name="$PROJECT_DIR$/_site/font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/blog" />
       <recent name="$PROJECT_DIR$/images/post/spring" />
       <recent name="$PROJECT_DIR$/images/post/frontend" />
       <recent name="$PROJECT_DIR$/images/post/javacore" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/images/blog" />
     </key>
   </component>
   <component name="RunManager">
@@ -360,12 +331,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00618" summary="change font">
-      <created>1587893803981</created>
-      <option name="number" value="00618" />
-      <option name="project" value="LOCAL" />
-      <updated>1587893803981</updated>
     </task>
     <task id="LOCAL-00619" summary="change font">
       <created>1587893913379</created>
@@ -655,16 +620,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588150800863</updated>
     </task>
-    <option name="localTasksCounter" value="667" />
+    <task id="LOCAL-00667" summary="many to many">
+      <created>1588150986857</created>
+      <option name="number" value="00667" />
+      <option name="project" value="LOCAL" />
+      <updated>1588150986857</updated>
+    </task>
+    <option name="localTasksCounter" value="668" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1513" height="1027" extended-state="0" />
+    <frame x="-1851" y="23" width="1142" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3360161" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44732141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37631026" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -672,6 +642,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30896226" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -695,7 +666,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="banner blog" />
     <MESSAGE value="footer" />
     <MESSAGE value="sua blog template" />
     <MESSAGE value="Generic" />
@@ -720,18 +690,14 @@
     <MESSAGE value="fomarting post" />
     <MESSAGE value="OneToMany" />
     <MESSAGE value="Optional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optional" />
+    <MESSAGE value="many to many" />
+    <option name="LAST_COMMIT_MESSAGE" value="many to many" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/post/javacore/exception.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/post/javacore/cacthuatngu.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1219,18 +1185,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/spring/springmvcflow.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-25-spring-manytomany.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="-0.6747573">
+          <first_editor vertical-scroll-proportion="0.0">
             <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/blog/spring.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
