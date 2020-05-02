@@ -6,7 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Ngoại Lệ Trong Java
 image: /images/blog/java.png
-description : Ngoại lệ trong Java 
+description : Ngoại lệ trong Java .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: 2BBAVtiks1w
 ---
 

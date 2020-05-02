@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Phân biệt  Request Param và  PathVariable
 image: /images/blog/spring.png
-description : Phân biệt Request Param và Path Variable 
+description : Phân biệt Request Param và Path Variable .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: luc3zTLri6M
 ---
 

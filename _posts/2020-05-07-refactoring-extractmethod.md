@@ -6,7 +6,7 @@ category: craftmanship
 tags: [refactoring]
 summery: Kỷ thuật Extract Method 
 image: /images/blog/design-patterns.png
-description : Design Pattern Là Gì ?
+description : Kỷ thuật Extract Method Là Gì ?học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 ---
 
 Chào các e, chủ đề hôm nay của anh sẽ bàn về kỷ thuật Extract Method ? Kỷ thuật nằm nhằm làm cho một method dài khó đọc

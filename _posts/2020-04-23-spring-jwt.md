@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Json Web Token là gì  
 image: /images/blog/spring.png
-description : Spring Json WebToken là gì 
+description : Spring Json WebToken là gì .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: 6VCjvbbR_SI
 ---
 

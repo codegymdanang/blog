@@ -6,7 +6,7 @@ category: career
 tags: [skills]
 summery: Cách tìm bug trập trình   
 image: /images/blog/softskills.png
-description : Debug ứng dụng 
+description : Debug ứng dụng . học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 youtubeId: xLFCVXGSlNA
 ---
  

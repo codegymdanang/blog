@@ -6,7 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Phân Biệt Bộ Nhớ  Heap va Stack
 image: /images/blog/java.png
-description : Phân biệt bộ nhớ heap và stack 
+description : Phân biệt bộ nhớ heap và stack .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: werAdblsT1s
 ---
 

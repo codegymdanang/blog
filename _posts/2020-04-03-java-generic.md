@@ -6,7 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Generic là gì 
 image: /images/blog/java.png
-description : Generic là gì trong lập trình .
+description : Generic là gì trong lập trình. học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: 2ADRQUlsRtI
 ---
 

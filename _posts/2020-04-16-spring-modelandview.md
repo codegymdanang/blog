@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Model, ModelMap, and ModelView
 image: /images/blog/spring.png
-description : Các Model trong Spring 
+description : Các Model trong Spring .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: vaQxJlfmB6s
 ---
 

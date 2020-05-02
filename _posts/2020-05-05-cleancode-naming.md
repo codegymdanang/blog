@@ -6,7 +6,7 @@ category: craftmanship
 tags: [cleancode]
 summery: Qui tắc đặt tên
 image: /images/blog/quality-code.png
-description : clean code naming convension 
+description : clean code naming convension . học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web 
 youtubeId: aSDKxAUqcTc
 ---
  

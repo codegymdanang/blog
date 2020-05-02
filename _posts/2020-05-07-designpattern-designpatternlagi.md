@@ -6,7 +6,7 @@ category: craftmanship
 tags: [designpattern]
 summery: Design Pattern Là Gì ?
 image: /images/blog/design-patterns.png
-description : Design Pattern Là Gì ?
+description : Design Pattern Là Gì ? học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 
 ---
 

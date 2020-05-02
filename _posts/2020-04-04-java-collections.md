@@ -6,7 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Blog 5
 image: /images/blog/java.png
-description : Sử dụng các collection trong java 
+description : Sử dụng các collection trong java. học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: 4nxuOBl5mFo
 ---
 

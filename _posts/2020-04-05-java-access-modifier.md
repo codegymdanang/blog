@@ -6,7 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Blog 1
 image: /images/blog/java.png
-description : Các access modifier trong java 
+description : Các access modifier trong java . học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: qzfMZigVMDc
 ---
 

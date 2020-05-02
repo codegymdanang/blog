@@ -6,7 +6,7 @@ category: craftmanship
 tags: [effectivecode]
 summery: Cách tìm bug trập trình   
 image: /images/blog/quality-code.png
-description : TDD 
+description : TDD là gì ? học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 youtubeId: 4IYBDSdBPew
 ---
  

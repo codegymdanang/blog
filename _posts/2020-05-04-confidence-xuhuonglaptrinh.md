@@ -6,7 +6,7 @@ category: career
 tags: [confidence]
 summery: Xu hướng nghành lập trình   
 image: /images/blog/softskills.png
-description : Xu hướng nghành CNTT 
+description : Xu hướng nghành CNTT . học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 youtubeId: r2w7in6xMB4
 ---
  

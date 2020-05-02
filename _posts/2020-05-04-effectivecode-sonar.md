@@ -6,7 +6,7 @@ category: craftmanship
 tags: [effectivecode]
 summery: Cải thiệnvới chất lượng code với Sonar
 image: /images/blog/quality-code.png
-description : Sử dụng Sonar 
+description : Sử dụng Sonar .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 youtubeId: lQYHakgIP9A
 ---
  

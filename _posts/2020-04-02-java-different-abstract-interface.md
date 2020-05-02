@@ -6,7 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Sự khác  giữa abstract và interface 
 image: /images/blog/java.png
-description : Sự khác  giữa abstract và interface 
+description : Sự khác  giữa abstract và interface .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId1 : t9in5g6vsSg
 youtubeId2 : rUFUgrkMg4o
 ---

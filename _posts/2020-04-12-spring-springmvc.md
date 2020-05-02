@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Luồng đi của ứng dụng Spring MVC 
 image: /images/blog/spring.png
-description : Luồng đi ứng dụng Spring MVC 
+description : Luồng đi ứng dụng Spring MVC .học lập trình  ngôn ngữ lập trình lập trình java spring cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: 7Wpi_jC8CqA
 ---
 

@@ -6,7 +6,7 @@ category: craftmanship
 tags: [designpattern]
 summery: Spring JPA 
 image: /images/blog/design-patterns.png
-description : Abstract Factory  
+description : Abstract Factory. học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web  
 
 ---
 

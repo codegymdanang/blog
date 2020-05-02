@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [angular]
 summery: Sử dụng Bootstrap trong Angular   
 image: /images/blog/angular.png
-description : Angular Boostrap 
+description : Cài boostrap trong angualar . học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 youtubeId: 977WIZTAUv8
 ---
  

@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Spring JPA 
 image: /images/blog/spring.png
-description : Spring JPA 
+description : Spring JPA là gì ? học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 youtubeId: 4dQlWJQ7ZQo
 ---
 

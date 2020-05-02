@@ -6,7 +6,7 @@ category: devops
 tags: [cicd]
 summery: Jenkins tự động CI-CD   
 image: /images/blog/cicd.png 
-description : CI CD
+description : CI CD . học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 youtubeId: Sd3GYvOQ6Ag
 ---
  

@@ -6,7 +6,7 @@ category: database
 tags: [database]
 summery: Bootstrap cơ bản phần 1   
 image: /images/blog/database.png
-description : Chuẩn hoá dữ liệu
+description : Chuẩn hoá dữ liệu . học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 youtubeId: rMJu2gTawz0
 ---
 

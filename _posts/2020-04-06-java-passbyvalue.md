@@ -6,7 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Blog 2
 image: /images/blog/java.png
-description : Tham trị và tham chiếu trong lập trình 
+description : Tham trị và tham chiếu trong lập trình .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: 0F_8a5_fKno
 ---
 

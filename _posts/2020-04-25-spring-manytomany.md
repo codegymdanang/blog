@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Lập Trình Spring Security
 image: /images/blog/spring.png
-description : Hướng dẫn sử dụng quan hệ @ManyToMany trong jpa/hibernate
+description : Hướng dẫn sử dụng quan hệ @ManyToMany trong jpa/hibernate.học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: WNfuVJptPnQ
 ---
 

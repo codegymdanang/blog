@@ -4,9 +4,9 @@ title: OneToOne Relationship
 slug : one-to-one
 category: laptrinhspring
 tags: [spring]
-summery: Lập Trình Spring Security
+summery: OneToOne Relationship
 image: /images/blog/spring.png
-description : Spring Security
+description : OneToOne Mapping .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: WNfuVJptPnQ
 ---
 

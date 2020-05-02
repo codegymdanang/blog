@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [ui]
 summery: Bootstrap là gì phần 1  
 image: /images/blog/ui.png
-description : Giới thiệu về Boostrap 
+description : Boostrap là gì ? học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
 youtubeId: 2xSwAsdcwLo
 youtubeId1: 9G2UAIWILa4
 ---

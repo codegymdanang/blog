@@ -4,9 +4,9 @@ title: OneToMany Relationship
 slug : one-to-many
 category: laptrinhspring
 tags: [spring]
-summery: Lập Trình Spring Security 
+summery: OneToMany Relationship 
 image: /images/blog/spring.png
-description : Spring Security 
+description : OneToOne mapping trong Spring .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: WNfuVJptPnQ
 ---
 
