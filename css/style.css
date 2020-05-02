@@ -340,6 +340,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
 ul {
   list-style: circle;
   margin: 0;
+  font-weight: bold;
 }
 
 /* line 198, /Applications/MAMP/htdocs/palash/cl/july 2019/191 Lifeleck Blog/191 Lifeleck Blog html/sass/_common.scss */
@@ -5556,7 +5557,7 @@ h6 {
   text-align: justify;
 }
 
-#contentPost p h3 ul li {
+#contentPost p,h3,ul,ol {
   font-size: 17px;
   font-weight: bold;
 }
