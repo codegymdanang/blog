@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -35,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5957944">
+            <state vertical-scroll-proportion="-21.25">
               <caret line="267" column="100" selection-start-line="267" selection-start-column="100" selection-end-line="267" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.857143">
-              <caret line="5556" column="0" selection-start-line="5556" selection-start-column="0" selection-end-line="5556" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.806338">
+              <caret line="5559" column="22" selection-start-line="5559" selection-start-column="22" selection-end-line="5559" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -119,8 +119,8 @@
         <option value="$PROJECT_DIR$/_posts/2020-04-25-spring-onetoone.md" />
         <option value="$PROJECT_DIR$/_posts/2020-05-9-spring-many2many.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-25-spring-manytomany.md" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -350,12 +350,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00622" summary="change font">
-      <created>1587894574155</created>
-      <option name="number" value="00622" />
-      <option name="project" value="LOCAL" />
-      <updated>1587894574155</updated>
     </task>
     <task id="LOCAL-00623" summary="change font">
       <created>1587894860882</created>
@@ -645,7 +639,13 @@
       <option name="project" value="LOCAL" />
       <updated>1588431118141</updated>
     </task>
-    <option name="localTasksCounter" value="671" />
+    <task id="LOCAL-00671" summary="improve ui">
+      <created>1588431365044</created>
+      <option name="number" value="00671" />
+      <option name="project" value="LOCAL" />
+      <updated>1588431365044</updated>
+    </task>
+    <option name="localTasksCounter" value="672" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1211,18 +1211,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.857143">
-          <caret line="5556" column="0" selection-start-line="5556" selection-start-column="0" selection-end-line="5556" selection-end-column="0" />
+        <state vertical-scroll-proportion="-21.25">
+          <caret line="267" column="100" selection-start-line="267" selection-start-column="100" selection-end-line="267" selection-end-column="100" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5957944">
-          <caret line="267" column="100" selection-start-line="267" selection-start-column="100" selection-end-line="267" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.806338">
+          <caret line="5559" column="22" selection-start-line="5559" selection-start-column="22" selection-end-line="5559" selection-end-column="22" />
           <folding />
         </state>
       </provider>
