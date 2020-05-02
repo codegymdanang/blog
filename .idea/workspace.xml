@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blog/softskills.png" afterPath="$PROJECT_DIR$/images/blog/softskills.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -36,20 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.5">
-              <caret line="192" column="34" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.5957944">
+              <caret line="267" column="100" selection-start-line="267" selection-start-column="100" selection-end-line="267" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75117373">
+            <state vertical-scroll-proportion="-22.857143">
               <caret line="5556" column="0" selection-start-line="5556" selection-start-column="0" selection-end-line="5556" selection-end-column="0" />
               <folding />
             </state>
@@ -120,8 +119,8 @@
         <option value="$PROJECT_DIR$/_posts/2020-04-25-spring-onetoone.md" />
         <option value="$PROJECT_DIR$/_posts/2020-05-9-spring-many2many.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-25-spring-manytomany.md" />
-        <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/_layouts/home.html" />
       </list>
     </option>
   </component>
@@ -351,12 +350,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00621" summary="change font">
-      <created>1587894332405</created>
-      <option name="number" value="00621" />
-      <option name="project" value="LOCAL" />
-      <updated>1587894332405</updated>
     </task>
     <task id="LOCAL-00622" summary="change font">
       <created>1587894574155</created>
@@ -646,7 +639,13 @@
       <option name="project" value="LOCAL" />
       <updated>1588430084140</updated>
     </task>
-    <option name="localTasksCounter" value="670" />
+    <task id="LOCAL-00670" summary="improve ui">
+      <created>1588431118141</created>
+      <option name="number" value="00670" />
+      <option name="project" value="LOCAL" />
+      <updated>1588431118141</updated>
+    </task>
+    <option name="localTasksCounter" value="671" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -686,7 +685,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="footer" />
     <MESSAGE value="sua blog template" />
     <MESSAGE value="Generic" />
     <MESSAGE value="refactor class name" />
@@ -711,7 +709,8 @@
     <MESSAGE value="OneToMany" />
     <MESSAGE value="Optional" />
     <MESSAGE value="many to many" />
-    <option name="LAST_COMMIT_MESSAGE" value="many to many" />
+    <MESSAGE value="improve ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve ui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1201,14 +1200,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5">
-          <caret line="192" column="34" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.map">
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
@@ -1222,8 +1213,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75117373">
+        <state vertical-scroll-proportion="-22.857143">
           <caret line="5556" column="0" selection-start-line="5556" selection-start-column="0" selection-end-line="5556" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5957944">
+          <caret line="267" column="100" selection-start-line="267" selection-start-column="100" selection-end-line="267" selection-end-column="100" />
           <folding />
         </state>
       </provider>
