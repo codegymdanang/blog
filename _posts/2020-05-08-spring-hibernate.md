@@ -12,7 +12,7 @@ youtubeId: WNfuVJptPnQ
 
 ### **1. Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về Hibernate là -  .
+Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về Hibernate .
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - Hibernate là gì ?
@@ -22,7 +22,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 
 ### **2. Giới thiệu Hibernate**
 
-Như các em biết để hiển thị được dữ liệu lưu trữ trong cơ sở dữ liệu (database) ra cho người dùng thì mình phải thao tác xuống database như kết nối vào database .Sau đó thực hiện các câu lệnh truy vấn như select , insert, update , join các. Cuối cùng là lấy dữ liệu từ database về và xử lý. Trong lập trình java mình may mắn có một framework giúp mình làm được tất cả các việc đó. Nó chính là  Hibernate.
+Như các em biết để hiển thị được dữ liệu lưu trữ trong cơ sở dữ liệu (database) ra cho người dùng thì mình phải thao tác xuống database như kết nối vào database .Sau đó thực hiện các câu lệnh truy vấn như select , insert, update , join các bảng .Cuối cùng là lấy dữ liệu từ database về và xử lý. Trong lập trình java mình may mắn có một framework giúp mình làm được tất cả các việc đó. Nó chính là  Hibernate.
 
 Vì sao ta nên sử dụng framework , bởi vì nó đã có sẳn các thư viện như kết nối xuống database, thực hiện các câu truy vấn chúng ta chỉ sử dụng các thư việc có sẳn mà framework cung cấp và nhiệm vụ của chúng ta chỉ tập trung vào xử lý các nghiệp vụ của phần mềm.
 
@@ -30,18 +30,17 @@ Hibernate là một framework được sử dụng ở tầng Persistence. Tần
 
 Các chức năng được hỗ trợ khi ta sử dụng Hibernate
 
-- Auto DDL : DDL có nghĩa là các câu lệnh định nghĩa cấu trúc để lưu trữ dữ liệu như create table , columns , kiểu dữ liệu. Hiberate có thể tự động tạo table, columns, kiểu dữ liệu thông qua các annotaion mà ta thêm trong Entity mà ta không cần phải vào database tạo các table , column bằng tay
+- Auto DDL : DDL có nghĩa là các câu lệnh định nghĩa cấu trúc để lưu trữ dữ liệu như create table , columns , kiểu dữ liệu trong database. Hiberate có thể tự động tạo table, columns, kiểu dữ liệu thông qua các annotaion mà ta thêm trong Entity mà ta không cần phải vào database tạo các table , column bằng tay
 
 - Auto Primary Key : Trong database để đánh dấu một trường là khoá chính thì ta phải làm bằng tay hoặc viết câu lệnh SQL để đánh dấu một trường là khoá chính của table. Hibernate có thể làm việc này một cách tự động
 
 - HQL query : Để thực hiện các câu lệnh truy vấn và thao tác dữ liệu thì ta dùng cú pháp HQL (Hibernate Query Language) để lấy dữ liệu ra thay vì viết câu lệnh SQL như select * from table . Mà chúng ta có thể viết bằng ngôn ngữ HQL như select customer from customer customer . Khi sử dụng HQL thì ta không phụ thuộc vào database đang sử dụng là gì vì câu lệnh HQL nó tương thích với các database quan hệ khác nhau như mysql , postgress .Giúp chúng ta không phụ thuộc vào database.
 
-- Hibernate Cache : giúp chúng ta có thể cache lại câu truy vấn mà không phải thực hiện thao tác, truy xuất xuống database nhiều lần. A ví dụ như câu select * from customer trả về 1000 kết quả. những kết quả này sẽ được lưu lại trong bộ nhớ. Khi có câu lại có câu lệnh select * from customer lần nữa. Vì nó đã lưu kết quả trong bộ nhớ nên nó sẽ trả về 1000 kết quả giống lần đầu tiên vì
-câu query giống nhau. Như vậy các em thấy dù có 1000 câu truy vấn thì Hibernate chỉ kết nối xuống database lần đầu tiên thôi. Điều này giúp cho ứng dụng nhanh hơn vì không phải mất thời gian kết nối xuống database và thực hiện truy vấn thêm nữa.
+- Hibernate Cache : giúp chúng ta có thể cache lại câu truy vấn mà không phải thực hiện thao tác, truy xuất xuống database nhiều lần. A ví dụ như câu select * from customer trả về 1000 kết quả. những kết quả này sẽ được lưu lại trong bộ nhớ. Khi có câu lại có câu lệnh select * from customer lần nữa. Vì nó đã lưu kết quả trong bộ nhớ nên nó sẽ trả về 1000 kết quả giống lần đầu tiên vì câu query giống nhau. Như vậy các em thấy dù có 1000 câu truy vấn thì Hibernate chỉ kết nối xuống database lần đầu tiên thôi. Điều này giúp cho ứng dụng nhanh hơn vì không phải mất thời gian kết nối xuống database và thực hiện truy vấn thêm nữa.
 
 - Hibernate hỗ trợ ORM mapping . Các em có thể xem lại bài blog về ORM anh đã viết để nắm rõ thêm ORM là gì ?
 
-- Hầu hết các dự án Java ngày nay đều sử dụng Hibernate như một công cụ để thao tác giữa ứng dụng của mình và database
+- Hầu hết các dự án Java ngày nay đều sử dụng Spring Data JPA kết hợp với Hibernate như một công cụ để thao tác giữa ứng dụng của mình và database
 
 ### **3. Cấu hình Hibernate với Spring**
 
@@ -289,8 +288,8 @@ Vậy Hibernate và Spring Data JPA thì khác biệt gì nhau. Trước tiên c
 
 JPA : Java Persistence API , cung cấp các chuẩn để kết nối database , truy vấn dữ liệu, lưu trữ dữ liệu.
 
-Hibernate là một trong số provider (nhà cung cấp dịch vụ trong việc thao tác với database) implements các chuẩn JPA để thao tác , lưu trữ và truy xuất dữ liệu
+Hibernate là một trong số provider (nhà cung cấp dịch vụ trong việc thao tác với database) cài đặt và tuân thủ các chuẩn JPA để thao tác , lưu trữ và truy xuất dữ liệu
 
 Spring JPA : là một tầng được xây dựng ở trên JPA. Nó abstract (trừa tượng hoá các thư viện). Chúng ta chỉ cần dùng và tập trung và nghiệp vụ giúp chúng ta dể dàng quản lý, maintain code.
 
-Thông thường ở dự án Spring mình kết hợp cả 2. Mình sử dụng Hibernate là provider cho ORM , các validation và kết hợp với Spring Data JPA để thao tác với database 
+Thông thường ở dự án Spring mình kết hợp cả 2. Mình sử dụng Hibernate là provider cho ORM , các validation và kết hợp với Spring Data JPA để thao tác với database.
