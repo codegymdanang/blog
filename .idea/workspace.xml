@@ -2,43 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" afterPath="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-02-java-different-abstract-interface.md" afterPath="$PROJECT_DIR$/_posts/2020-04-02-java-different-abstract-interface.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" afterPath="$PROJECT_DIR$/_posts/2020-04-03-java-generic.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-04-java-collections.md" afterPath="$PROJECT_DIR$/_posts/2020-04-04-java-collections.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-05-java-access-modifier.md" afterPath="$PROJECT_DIR$/_posts/2020-04-05-java-access-modifier.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md" afterPath="$PROJECT_DIR$/_posts/2020-04-06-java-passbyvalue.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md" afterPath="$PROJECT_DIR$/_posts/2020-04-07-java-head-stack.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" afterPath="$PROJECT_DIR$/_posts/2020-04-11-java-exception.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md" afterPath="$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-13-spring-di.md" afterPath="$PROJECT_DIR$/_posts/2020-04-13-spring-di.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-15-spring-request.md" afterPath="$PROJECT_DIR$/_posts/2020-04-15-spring-request.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-16-spring-modelandview.md" afterPath="$PROJECT_DIR$/_posts/2020-04-16-spring-modelandview.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-17-spring-http-method.md" afterPath="$PROJECT_DIR$/_posts/2020-04-17-spring-http-method.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-22-spring-validation.md" afterPath="$PROJECT_DIR$/_posts/2020-04-22-spring-validation.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" afterPath="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-identifierhibernate.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-identifierhibernate.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-manytomany.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-manytomany.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-onetomany.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-onetomany.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-onetoone.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-onetoone.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-optinalpathvariable.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-optinalpathvariable.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md" afterPath="$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md" afterPath="$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-confidence-xuhuonglaptrinh.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-confidence-xuhuonglaptrinh.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-devops-cicd.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-devops-cicd.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-sonar.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-sonar.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-tdd.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-effectivecode-tdd.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-04-softskillss-debug.md" afterPath="$PROJECT_DIR$/_posts/2020-05-04-softskillss-debug.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-05-cleancode-naming.md" afterPath="$PROJECT_DIR$/_posts/2020-05-05-cleancode-naming.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-bootstrap.md" afterPath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-bootstrap.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-webservice.md" afterPath="$PROJECT_DIR$/_posts/2020-05-05-frontend-angular-webservice.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md" afterPath="$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md" afterPath="$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md" afterPath="$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-07-refactoring-extractmethod.md" afterPath="$PROJECT_DIR$/_posts/2020-05-07-refactoring-extractmethod.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="" />
@@ -457,12 +420,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-00629" summary="fomarting post">
-      <created>1587918985195</created>
-      <option name="number" value="00629" />
-      <option name="project" value="LOCAL" />
-      <updated>1587918985195</updated>
-    </task>
     <task id="LOCAL-00630" summary="fomarting post">
       <created>1587919776685</created>
       <option name="number" value="00630" />
@@ -751,7 +708,13 @@
       <option name="project" value="LOCAL" />
       <updated>1588434412114</updated>
     </task>
-    <option name="localTasksCounter" value="678" />
+    <task id="LOCAL-00678" summary="add keywords for seo">
+      <created>1588435115786</created>
+      <option name="number" value="00678" />
+      <option name="project" value="LOCAL" />
+      <updated>1588435115786</updated>
+    </task>
+    <option name="localTasksCounter" value="679" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -791,7 +754,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="sua blog template" />
     <MESSAGE value="Generic" />
     <MESSAGE value="refactor class name" />
     <MESSAGE value="CICD" />
@@ -816,7 +778,8 @@
     <MESSAGE value="Optional" />
     <MESSAGE value="many to many" />
     <MESSAGE value="improve ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve ui" />
+    <MESSAGE value="add keywords for seo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add keywords for seo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
