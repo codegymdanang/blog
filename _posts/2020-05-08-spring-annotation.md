@@ -1,0 +1,316 @@
+---
+layout: blog
+title: Các Anotation trong Spring
+slug : spring-annotation
+category: laptrinhspring
+tags: [spring]
+summery: Các Anotation trong Spring
+image: /images/blog/spring.png
+description : các annotation trong spring  .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
+youtubeId: WNfuVJptPnQ
+---
+
+### **1. Giới thiệu nội dung bài viết**
+
+Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về các annotation trong Spring có ý nghĩa là gì nhé .
+Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
+
+- Danh sách các annotation trong Spring là gì ?
+- Kết luận
+
+### **2. Spring Annotation**
+
+@Congiguration
+
+Được sử dụng để chỉ ra rằng class khai báo sử dụng annotation @Configuration sẽ khai báo một hoặc nhiều @Bean method trong class đó. Những class khai báo với @Configuration sẽ được Spring container quản lý và tạo bean trong lúc chương trình đang chạy. Thông thường các bean cấu hình cho dự án ta để trong này. Ví dụ cấu hình themeleaf, đa ngôn ngữ , và nhiều cấu hình khác cho ứng dụng.   
+
+{% highlight java linenos %}
+@Configuration
+public class WebConfig implements WebMvcConfigurer {
+
+    @Bean
+    @Description("Thymeleaf template resolver serving HTML 5")
+    public ClassLoaderTemplateResolver templateResolver() {
+
+        var templateResolver = new ClassLoaderTemplateResolver();
+
+        templateResolver.setPrefix("mytemplates/");
+        templateResolver.setCacheable(false);
+        templateResolver.setSuffix(".html");
+        templateResolver.setTemplateMode("HTML5");
+        templateResolver.setCharacterEncoding("UTF-8");
+
+        return templateResolver;
+    }
+{% endhighlight %}
+
+@Bean
+
+Method (phương thức) sử dụng @Bean ở phía trên mình để chỉ ra rằng . Method đó sẽ sản xuất ra đối tượng bean và được quản lý bởi spring container . Bean annotation có thể sử dụng với các tham số như name, initMethod hoặc destroyMethod
+
+Ví dụ dưới đây mình sử dụng @Bean để tạo ra object Spring Template .
+
+{% highlight java linenos %}
+
+    @Bean
+    @Description("Thymeleaf template engine with Spring integration")
+    public SpringTemplateEngine templateEngine() {
+
+        var templateEngine = new SpringTemplateEngine();
+        templateEngine.setTemplateResolver(templateResolver());
+
+        return templateEngine;
+    }
+
+
+{% endhighlight %}
+
+@PreDetroy và @PostConstruct
+
+Đây là cách dùng khác để quản lý vòng đời của Bean. Ngoài cách sử dụng initMethod và destroyMethod. Ta có thể sử dụng @PreDetroy và @PostConstruct với cùng một mục đích
+
+{% highlight java linenos %}
+public class Computer {
+
+    @PostConstruct
+    public void turnOn(){
+        System.out.println("Load operating system");
+    }
+
+    @PreDestroy
+    public void turnOff(){
+        System.out.println("Close all programs");
+    }
+}
+{% endhighlight %}
+
+
+@ComponentScan
+
+Chúng ta sử dụng @ComponentScan để thông báo có Spring Container biết phải vào package nào trong dự án để quyét các Annotation và tạo Bean. Như ví dụ bên dưới. Spring sẽ quyét tất cả các file trong pakage levunguyen.spring. Tìm các Class có annotation để tạo bean và các @autowire để nhúng bean ở trong container vào các Class sử dụng autowire
+
+{% highlight java linenos %}
+@ComponentScan(basePackages = "levunguyen.spring ")
+@Configuration
+public class SpringComponentScanApp {
+   // ...
+}
+{% endhighlight %}
+
+@Component
+
+Khi một class được đánh dấu là component thì sẽ được tạo thành 1 bean. Khi Spring start thì nó quyét qua các annotation có dánh dấu là @Component thì nó sẽ tạo bean cho class đó.
+Ví dụ ta có class Contact và ta đánh dấu nó là @Component thì Spring khi đọc qua class này nó sẽ tạo 1 bean có tên là contact trong container của nó. Nếu có class nào dùng thì nó sẽ nhúng bean này vào. Dùng @component là để tạo ra một bean
+
+{% highlight java linenos %}
+@Component
+@Scope("request")
+public class Contact {
+
+}
+{% endhighlight %}
+
+@PropertySource và @Value
+
+Trong Spring chúng ta sử dụng @PropertySource để cho Spring biết tìm các file properties cấu hình cho hệ thống ở đâu đồng thời sử dụng @Value để lấy các giá trị trong file properties
+
+Ví dụ bên dưới ta sử dụng classpath để khai báo file properties ta đặt ở đâu trong dự án. Tiếp đến ta sử dụng @Value để lấy các giá trị trong file properties với key tương ứng và gán vào biến mà ta sẽ sử dụng.
+
+{% highlight java linenos %}
+@Configuration
+@ComponentScan(basePackages = { "levunguyen.*" })
+@PropertySource("classpath:config.properties")
+public class AppConfigMongoDB {
+
+	//1.2.3.4
+	@Value("${mongodb.url}")
+	private String mongodbUrl;
+
+	//hello
+	@Value("${mongodb.db}")
+	private String defaultDb;
+{% endhighlight %}
+
+Sử dụng để khai báo với Spring đọc các cấu hình trong file resource vào ứng dụng
+
+@Service
+
+Nếu một class được đánh dấu là @Service thì nó là kiểu đặt biệt cuả @Component. Nó được dùng để xử lý các nghiệp vụ của ứng dụng. Ví dụ như kế toán thì có nghiệp vụ là kiểm tra chi, quản lý thu. Lớp BookServiceImpl dưới đây được đánh dấu là @Service thì nó sẽ phụ trách xử lý các vấn đề liên quan đến nghiệp vụ.
+
+{% highlight java linenos %}
+@Service
+public class BookServiceImpl implements BookService {
+
+}
+{% endhighlight %}
+
+@Repository
+
+Nếu một class được đánh dấu là @Repository thì nó là kiểu đặt biệt của @Component . Nó được sử dụng để nói bean này dùng để truy cập và thao tác xuống cơ sở dữ liệu. Class BookDaoImpl được đánh dấu với @Repository nghĩa là lớp này có nhiệm vụ thực hiện các câu lệnh truy vấn xuống database.
+
+{% highlight java linenos %}
+@Repository
+public class BookDaoImpl implements BookDao {
+
+}
+{% endhighlight %}
+
+@Autowire
+
+Tự động nhúng các  bean được Spring Container sinh ra vào Class có khai báo @Autowire. Khi Spring nó sẽ tìm kiếm bean có tên là BookDao trong container của nó ,sau đó nhúng (hoặc tiêm) vào lớp BookServiceImple. Đây chính là cơ chế DI (depedency injection) . Khi Spring bắt đầu chạy nó sẽ quyét qua các lớp có sử dụng annotation để tạo bean đồng thời nó cũng quyét bên trong các bean xem có khai báo @Autowire không nếu có nó sẽ tìm kiếm bean tương ứng mà nó quản lý và nhúng vào.
+
+{% highlight java linenos %}
+@Service
+public class BookServiceImpl implements BookService {
+
+  @Autowired
+  private BookDao bookDao;
+
+  @Autowired
+  private CustomerDao customerDao;
+
+  ...
+}
+{% endhighlight %}
+
+@Scope
+
+Khi bean được tạo ra thì nó có nhiều scope khác nhau. Scope ở đây là phạm vi bean được sinh và và bị phá huỷ dưới sự quản lý của Spring Container. Khi bean được sinh ra nó có 5 scope (phạm vi được sử dụng)
+
+- singleton : đây là scope mặc định của 1 bean khi được sinh ra. Nếu ta không khai báo scope cụ thể thì bean sẽ lấy singleton scope. Singleton bean có nghĩ là bean chỉ tạo ra 1 lần và được sử dụng trong container . Chỉ duy nhất 1 bean tồn tại trong container
+- prototype : ngược lại với singleton ta muốn có nhiều bean (đối tượng) thì ta sử dụng scope prototype
+- Request : Bean được sinh ra thông qua các request http (yêu cầu) từ người dùng. Chỉ được dùng trong các ứng dụng web
+- Session : Bean được sinh ra thông qua các  http session
+- Global-session : Bean được sinh ra thông qua các request http (yêu cầu) từ người dùng. Chỉ được dùng trong các ứng dụng web
+
+Ví du sử dụng @Scope với phạm vi là request
+
+{% highlight java linenos %}
+@Component
+@Scope("request")
+public class Contact {
+
+}
+{% endhighlight %}
+
+@Valid
+
+Dùng để kiểm tra dữ liệu có đúng như mình mong muốn hay không. Ví dụ dưới đây mình mong muốn name là không được rỗng , author không được rỗng. Nếu dữ liệu bị rỗng thì @Validate sẽ bắt lỗi.
+
+{% highlight java linenos %}
+@Entity
+public class Book {
+
+    @Id
+    @GeneratedValue
+    private Long id;
+
+    @NotEmpty(message = "Please provide a name")
+    private String name;
+
+    @NotEmpty(message = "Please provide a author")
+    private String author;
+
+    @NotNull(message = "Please provide a price")
+    @DecimalMin("1.00")
+    private BigDecimal price;
+
+    //...
+}
+
+@RestController
+public class BookController {
+
+    @PostMapping("/books")
+    Book newBook(@Valid @RequestBody Book newBook) {
+        return repository.save(newBook);
+    }
+	//...
+}
+{% endhighlight %}
+
+### **3. Spring MVC Annotation**
+
+@Controller
+
+Một class được đánh dấu là controller thì để khai báo Class đó là một controller và có nhiệm vụ mapping request trên url vào các method tương ứng trong controller. Ví dụ dưới đây mình khai báo Class HomeController là một Controller . Khi người dùng gõ vào http://localhost:8080/ thì sẽ được xử lý bởi Class HomeController. Như vậy nhiệm vụ của Controller là điều hướng các request (yêu cầu) người dùng vào method xử lý tương  
+
+{% highlight java linenos %}
+@Controller
+public class HomeController {
+
+    @RequestMapping("/")
+    public String homePage() {
+        return "home";
+    }
+
+}
+{% endhighlight %}
+
+@RequestMapping
+
+Có nhiệm vụ ánh xạ các request (yêu cầu) người dùng vào method tương ứng trong controller.
+Ví dụ : Khi ta nhập vào url là http://localhost:8080/method2 thì nó sẽ được xử lý bởi phương thức là public String method2().
+
+Ví dụ : Khi ta nhập vào url là http://localhost:8080/method3 thì nó sẽ được xử lý bởi phương thức là public String method3().
+
+{% highlight java linenos %}
+//Xử lý cho request có phương thức http là post và url hoặc action method là "/home/method2
+@RequestMapping(value = "/method2", method = RequestMethod.POST)
+    public String method2() {
+        return "method2";
+    }
+
+//Xử lý cho request có phương thức http là post hoặc get có url hoặc
+// form action method là "/home/method3
+@RequestMapping(value = "/method3", method = {RequestMethod.POST, RequestMethod.GET})
+    public String method3() {
+        return "method3";
+}
+{% endhighlight %}
+
+@PathVariable
+
+PathVariable được sử dụng để xử lý những URI động, có một hoặc nhiều paramter trên URI.
+
+Ví dụ bên dưới khi người dùng gõ vào là http://localhost:8080/test2/10/nguyen.
+
+test2 : sẽ ứng với method test2 trong controller thông qua @Request
+
+10 : số 10 sẽ được gán vào biên id nhờ PathVariable  (@PathVariable("id") int id)
+
+nguyen : chữ nguyên sẽ gán vào biến name nhờ PathVariable (@PathVariable("name") String name)
+
+{% highlight java linenos %}
+@RequestMapping("/test2/{id}/{name}")
+public String test2(@PathVariable("id") int id, @PathVariable("name") String name, Model model) {
+  model.addAttribute("id", id);
+  model.addAttribute("name", name);
+  return "test2";
+}
+{% endhighlight %}
+
+@RequestParam
+
+@ModelAttribute
+
+
+@RequestBody và @ResponseBody
+
+@RequestHeader và @ResponseHeader
+
+@SessionAttribute
+
+### **4. Spring Security Annotation**
+
+@EnableWebSecurity
+
+@PreAuthorize
+
+
+
+### **5. Spring Boot Annotation**
+
+@SpringBootApplication
+
+@EnableAutoConfiguration
