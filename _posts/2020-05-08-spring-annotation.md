@@ -292,10 +292,105 @@ public String test2(@PathVariable("id") int id, @PathVariable("name") String nam
 
 @RequestParam
 
+Chúng ta sử dụng @RequestParame để bắt các giá trị các tham số mà người dùng truyền vào trên url theo định dạng key và value.
+
+Ví dụ mình có cái link sau http://localhost:8080/api/foos?id=abc . Bây giờ mình muốn lấy giá trị abc của tham số id trên url thì mình sẽ dùng @RequestParam . Ở đây mình khai báo giá trị tham số trên URL theo định dạng key = value (id=abc).
+
+Chúng ta khai báo @RequestParame trong method getFoos(@RequestParam String id) . Như vậy biến id sẽ có giá trị là abc nhờ cơ chế mapping.
+
+{% highlight java linenos %}
+@GetMapping("/api/foos")
+@ResponseBody
+public String getFoos(@RequestParam String id) {
+    return "ID: " + id;
+}
+{% endhighlight %}
+
+
 @ModelAttribute
 
+Một trong những annotaion quan trọng trong Spring đó là @ModelAttribute. Chúng ta sử dụng ModelAttribute như một cầu nối giữa Controller và View. Từ Controller chúng ta truyền các dữ liệu qua cho View thông qua ModelAttribute. Từ View chúng ta sẽ sử dụng Themeleaf để đọc các dữ liệu từ model và hiển thị ra cho người dùng.
+
+Tầng View chúng ta sử dụng model để lấy các giá trị từ người dùng và gắn vào thuộc tính modelAttribute.
+
+{% highlight html  linenos %}
+<form:form method="POST" action="/spring-mvc-basics/addEmployee"
+  modelAttribute="employee">
+    <form:label path="name">Name</form:label>
+    <form:input path="name" />
+
+    <form:label path="id">Id</form:label>
+    <form:input path="id" />
+
+    <input type="submit" value="Submit" />
+</form:form>
+{% endhighlight %}
+
+Ở tằng Controller ta sử dụng @ModelAttribute là tham số trong phương thức để lấy các giá trị từ view truyền vào.
+
+
+{% highlight java linenos %}
+@RequestMapping(value = "/addEmployee", method = RequestMethod.POST)
+    public String submit( @ModelAttribute("employee") Employee employee) {
+        model.addAttribute("name", employee.getName());
+        model.addAttribute("id", employee.getId());
+        employeeMap.put(employee.getId(), employee);
+        return "employeeView";
+    }
+{% endhighlight %}
 
 @RequestBody và @ResponseBody
+
+@RequestBody được sử dụng để lấy các giá trị mà người dùng gửi lên server mà các giá trị đó được chứa trong phần thân (body) của request
+
+Ví dụ như mình request sau gửi lên server dữ liệu (sendInfo) là một json gồm có tên,địa bằng method post và dữ liệu được gửi trong phần thân của request . Để nhận được dữ liệu json này từ clien thì chúng ta dùng @RequestBody trong method để lấy kết quả.  
+
+{% highlight java linenos %}
+
+      var name = $("#id-manuf-name").val();
+       var address = $("#id-manuf-address").val();
+       var phone = $("#id-manuf-phone").val();
+
+       var sendInfo = {
+           Name: name,
+           Address: address,
+           Phone: phone
+        $.ajax({
+           type: "POST",
+           url: "/Home/Add",
+           dataType: "json",
+           success: function (msg) {
+               if (msg) {
+                   alert("Somebody" + name + " was added in list !");
+                   location.reload(true);
+               } else {
+                   alert("Cannot add to list !");
+               }
+           },
+
+           data: sendInfo
+       });
+{% endhighlight %}
+
+Trong method handle ta sử dụng @RequestBody để lấy dữ liệu json (sendInfo) từ client gửi lên và gán giá trị đó cho biến body 
+
+{% highlight java linenos %}
+@RequestMapping(path = "/something", method = RequestMethod.PUT)
+public void handle(@RequestBody String body, Writer writer) throws IOException {
+    writer.write(body);
+}
+{% endhighlight %}
+
+@ResponseBody annotation can be put on a method and indicates that the return type should be written straight to the HTTP response body (and not placed in a Model, or interpreted as a view name).
+
+For example:
+{% highlight java linenos %}
+@RequestMapping(path = "/something", method = RequestMethod.PUT)
+public  @ResponseBody String helloWorld() {
+    return "Hello World";
+}  
+{% endhighlight %}
+Alternatively, we can use @RestController annotation in place of @Controller annotation. This will remove the need to using @ResponseBody.
 
 @RequestHeader và @ResponseHeader
 
