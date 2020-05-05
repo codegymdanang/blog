@@ -6,8 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Các Anotation trong Spring
 image: /images/blog/spring.png
-description : các annotation trong spring @Congiguration @Bean @PreDetroy @PostConstruct @ComponentScan @Component @PropertySource  @Value @Autowire @Service @Repository @Scope @Valid @Controller @RequestMapping @PathVariable @RequestParam @ModelAttribute @RequestBody  @ResponseBody @RequestHeader  @ResponseHeader  @SessionAttribute
-@Autowire.
+description : các annotation trong spring 
 youtubeId: WNfuVJptPnQ
 ---
 
