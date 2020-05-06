@@ -31,14 +31,14 @@ Trong đó HSBC được viết bằng ngôn ngữ PHP chạy trên Server Windo
 
 Trong thực tế khi anh làm ứng dụng payment thì dự án của anh cũng gọi các webservice của các ngân hàng khác. Anh không quan tâm webservice của ngân hàng đó viết bằng ngôn ngữ gì , chạy trên nền tảng gì. Ngân hàng mà hợp tác với anh sẽ cung cấp cho anh một webservice dựa vào đặt tả webservice thì mình sẽ gọi lên ngân hàng đó và lấy kết quả về cho ứng dụng của mình. Sau đó mình làm gì tiếp với dữ liệu là phụ thuộc vô nghiệp vụ của ứng dụng mình.
 
-### **3. Các loại webservice **
+### **3. Các loại webservice**
 
 Có 2 loại webservice chính đó là
 
 - SOAP Webservice
 - Restful Webservice
 
-### **4. SOAP webservice là gì **
+### **4. SOAP webservice là gì**
 
 Anh sẽ lấy ví dụ ở ứng dụng Le-ebaking. Bây giờ người dùng của ứng dụng Le-ebanking có 3 tài khoản của 3 ngân hàng là Techcombank , HSBC và Vietcombank trong ví điện tử của mình. Người dùng muốn xem số dư tài khoản của ứng dụng Techcombank còn bao nhiêu tiền. Lúc đó ứng dụng Le-ebanking sẽ kết nối với ngân hàng Techcombank và thực hiện hành động lấy kết  số dư của khách hàng ở ngân hàng Techcombank.
 
