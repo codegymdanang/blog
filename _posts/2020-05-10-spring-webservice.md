@@ -21,9 +21,6 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 - Restful webservice là gì ?
 - Kết luận
 
-https://tech.bizflycloud.vn/web-service-la-gi-loi-ich-va-vi-du-20180908095107017.htm
-https://gpcoder.com/5572-tim-hieu-ve-web-service/
-
 ### **2. Webservice là gì ?**
 
 Webservice là tập hợp các tiêu chuẩn và giao thức được sử dụng để trao đổi dữ liệu giữa các ứng dụng hoặc các hệ thống khác nhau.
