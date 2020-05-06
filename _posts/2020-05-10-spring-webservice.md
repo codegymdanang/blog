@@ -95,3 +95,34 @@ Như các em thấy mình có thẻ xml  <ns2:balance>1000</ns2:balance> với g
 Anh sẽ lấy ví dụ ở ứng dụng Le-ebaking. Bây giờ người dùng của ứng dụng Le-ebanking có 3 tài khoản của 3 ngân hàng là Techcombank , HSBC và Vietcombank trong ví điện tử của mình. Người dùng muốn xem số dư tài khoản của ứng dụng HSBC còn bao nhiêu tiền. Lúc đó ứng dụng Le-ebanking sẽ kết nối với ngân hàng HSBC và thực hiện hành động lấy kết  số dư của khách hàng ở ngân hàng HSBC.
 
 Để thực hiện được chức năng ở trên. Việc đầu tiên ngân hàng HSBC sẽ cung cấp cho anh đường link của webservice ví dụ là http://www.hsbc.com/getBalance. Dựa vào đường link này anh sẽ gọi webservice của HSBC và anh sẽ nhận được kết quả là một file JSON  . Tiếp đến anh sẽ tìm trong file JSON đó có trường nào có tên là balance không ? Nếu có anh sẽ lấy được giá trị của nó. Sau đó anh sẽ xử lý giá trị đó và trả về kết quả cho người dùng.
+
+Như vậy trong java code mình gọi webservice của HSBC như sau
+
+{% highlight java  linenos %}
+@RestController
+public class EmployeeController {
+
+    @GetMapping("/balance")
+    public List<Employee> balance(id) {
+      final String uri = "http://www.hsbc.com/getBalance";
+      RestTemplate restTemplate = new RestTemplate();
+      Employee employeeResponse = restTemplate.getForObject(uri, Employee.class);
+      return employeeResponse ;
+    }
+  }
+{% endhighlight %}
+
+Kết quả mình nhận được sẽ là một file json . Trong đó có giá trị balance là 1000. Sau đó ta sử lý và gửi giá trị balance về cho người dùng app.
+
+{% highlight json  linenos %}
+{
+  "id": 1,
+  "balance": 1000,
+}
+{% endhighlight %}
+
+### **6. Kết luận **
+
+Ngày nay thì mình sử dung Restful webservice nhiều hơn SOAP webservice . Vì ưu điểm của Restful là truyền dữ liệu đi nhanh hơn, ít tốn băng thông.
+
+Trong các bài tiếp theo anh sẽ hướng dẫn mọi người chi tiết về Restful là gì ? Cách tạo Restful trong Spring .
