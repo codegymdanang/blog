@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: maven là gì ? 
+title: Maven là gì ? 
 slug : maven 
 category: laptrinhspring
 tags: [spring]
 summery: maven là gì ? 
 image: /images/blog/spring.png
-description : maven là gì  .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
+description : maven là gì? Học lập trình ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: WNfuVJptPnQ
 ---
 
