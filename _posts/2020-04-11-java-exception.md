@@ -6,7 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Ngoại Lệ Trong Java
 image: /images/blog/java.png
-description : Ngoại lệ trong Java .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
+description : Ngoại lệ là gì trong java . Check Exception là gì ? Uncheck Exception là gì ? try catch finally trong exception
 youtubeId: 2BBAVtiks1w
 ---
 
