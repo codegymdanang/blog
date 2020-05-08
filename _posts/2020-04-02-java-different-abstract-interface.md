@@ -4,9 +4,9 @@ title: Sự khác  giữa abstract và interface
 slug : su-khac-nhau-giua-abstract-interface
 category: laptrinhjava
 tags: [java core]
-summery: Sự khác  giữa abstract và interface 
+summery: Sự khác  giữa abstract và interface
 image: /images/blog/java.png
-description : Sự khác  giữa abstract và interface .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
+description : Sự khác  giữa abstract và interface trong java. Interface là gì ? Abstract là gì? Khi nào dùng abstract, khi nào dùng interface
 youtubeId1 : t9in5g6vsSg
 youtubeId2 : rUFUgrkMg4o
 ---
@@ -14,15 +14,15 @@ youtubeId2 : rUFUgrkMg4o
 ### **1. Giới thiệu nội dung bài viết**
 
 Chào bạn, nếu bạn là người mới tìm hiểu về lập trình, hẳn bạn đã từng nghe tới khái niệm về Abstract và Interface.
-Nhưng bạn có biết khi nào mình sẽ dùng abstract và khi nào mình dùng interface không? Khi mới bước chân vào 
+Nhưng bạn có biết khi nào mình sẽ dùng abstract và khi nào mình dùng interface không? Khi mới bước chân vào
 nghề lập trình a cũng rất hoang mang về công dụng và lợi ý của Abstract và Interface. Chính vì vậy anh
-viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào mình dùng abstract và Interface. Bài viết hôm nay sẽ xoay quanh các chủ đề sau. 
+viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào mình dùng abstract và Interface. Bài viết hôm nay sẽ xoay quanh các chủ đề sau.
 
 - Interface là gì ?
 - Abstract là gì ?
 - Sự khác nhau giữa Abstract và Interface
 - Khi nào chúng ta nên dùng Abstract hoặc Interface
-- Video demo 
+- Video demo
 
 ### **1. Interface là gì**
 
@@ -32,11 +32,11 @@ phần thân. Phần thân của method sẽ được implement (cài đặt) �
 {% highlight java linenos %}
 // Interface
 interface Animal {
-  public void animalSound(); // method của Interface không có phần thân 
-  public void sleep(); //method của Interface không có phần thân 
+  public void animalSound(); // method của Interface không có phần thân
+  public void sleep(); //method của Interface không có phần thân
 }
 
-// Pig "implements"  Interface  Animal 
+// Pig "implements"  Interface  Animal
 class Pig implements Animal {
   public void animalSound() {
     // phần thân của interface sẽ được code  trong class PI
@@ -53,12 +53,12 @@ class Pig implements Animal {
 Một số chú ý khi sử dụng Interface.
 
 - Cũng giống như Abstract Class. Chúng ta không thể tạo đối tượng từ Interface bằng toán tử new
-- Interface hỉ chứa method trống không có phần thân. Phần thân sẽ được code bởi những class implement (cài đặt) interface đó 
+- Interface hỉ chứa method trống không có phần thân. Phần thân sẽ được code bởi những class implement (cài đặt) interface đó
 - Lớp cài đặt Interface phải implement hết tất cả các method có trong interface. Nó định nghĩa một mẫu chung các hành động mà các lớp implements nó follow theo.
 - Các method trong Interface mặc định là abstract  public và
 - Các biến (thuộc tính) trong Interface mặc định là public,static và final  
 - Các lớp có thể cài đặt (implements) một hoặc nhiều Interface.
-- Interface thì không có constructor chính vì vậy mà ta không thể tạo object của một Interface được 
+- Interface thì không có constructor chính vì vậy mà ta không thể tạo object của một Interface được
 
 
 ### **2. Abstract là gì**
@@ -67,15 +67,15 @@ Data Abstraction là quá trình che giấu đi những dữ liệu quan trọng
 có thể sử dụng abstract và interface . Ta có thể sử dụng abstract cho class hoặc method .Chúng ta sử dụng từ khoá abstract để khai báo abstract class và method.
 
 - Abstract class : cũng giống như Interface chúng ta không thể tạo đối tượng từ Abstract Class
-- Abstract method : cũng giống như Interface chúng không có phần thân . Phần thân sẽ được cài đặt trong lớp kế thừa nó 
+- Abstract method : cũng giống như Interface chúng không có phần thân . Phần thân sẽ được cài đặt trong lớp kế thừa nó
 
 {% highlight java linenos %}
 
 // Abstract class
 abstract class Animal {
-  // abstract class không có phần 
+  // abstract class không có phần
   public abstract void animalSound();
-  
+
   // abstract class không có phần thân
   public void sleep() {
     System.out.println("Zzz");
@@ -85,7 +85,7 @@ abstract class Animal {
 
 class Pig extends Animal {
   public void animalSound() {
-    // phần code thực thi của abstract method được viết bới lớp con kế thừa nó 
+    // phần code thực thi của abstract method được viết bới lớp con kế thừa nó
     System.out.println("The pig says: wee wee");
   }
 }
@@ -95,10 +95,10 @@ class Pig extends Animal {
 ### **3. Sự khác nhau giữa abstract và interface**
 
  {:class="table table-bordered"}
- |  Các điểm so sánh  	|  Abstract	                    |   Interface	                                  | 
+ |  Các điểm so sánh  	|  Abstract	                    |   Interface	                                  |
  |---	                |---	                        |---	     	                                  |
  |   Đa kế thừa 	    | Không hỗ trợ đa kế thừa	    | Một class có thể kế thừa nhiều Interface        |
- |   Defaul (mặc định) 	| Có thể định nghĩa thuộc tính , và thân phương thức có thể chứa code 	    | chỉ chứa hằng số , không có code trong phần thân method | 
+ |   Defaul (mặc định) 	| Có thể định nghĩa thuộc tính , và thân phương thức có thể chứa code 	    | chỉ chứa hằng số , không có code trong phần thân method |
  |   Access Modifier	                |   có thể đặt tất cả modifier	    |   Mọi phương thức và thuộc tính là  public	        |  
  |   Mục đích sử dụng                   |     IS  A    |    HAS A (Can do)    |
 
@@ -107,7 +107,7 @@ class Pig extends Animal {
 
 - Khả năng mở rộng không cần xoá hết code làm lại.
 - Tăng tính bảo mật e dấu các dữ liệu quan trong ch
-- Khi các lớp có mối liên hệ cha  với nhau ví dụ như con gà , chó , mèo  chúng đều là động vật (Animal) 
+- Khi các lớp có mối liên hệ cha  với nhau ví dụ như con gà , chó , mèo  chúng đều là động vật (Animal)
 
 ### **5. Khi nào dùng interface**
 
