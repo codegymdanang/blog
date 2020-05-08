@@ -1,18 +1,18 @@
 ---
 layout: blog
-title: maven là gì ? 
+title: Maven là gì ? 
 slug : maven 
 category: laptrinhspring
 tags: [spring]
 summery: maven là gì ? 
 image: /images/blog/spring.png
-description : maven là gì  .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
+description : maven là gì? Học lập trình ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
 youtubeId: WNfuVJptPnQ
 ---
 
 ### **1. Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về Maven là gì ?
+Chào các em, chủ để hôm nay chúng ta sẽ tìm hiểu về Maven là gì ?
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - Maven là gì
@@ -30,7 +30,7 @@ Ngoài việc quản lý thư viện và version của thư viện. Thì mình d
 
 ### **3. Khai báo dependency trong POM**
 
-Để nhúng một thư viện vào dự án Trong file pom.xml ta sử dụng đoạn mã sau
+Để nhúng một thư viện vào dự án Trong file pom.xml ta sử dụng đoạn mã sau:
 
 {% highlight xml  linenos %}
 <dependency>
