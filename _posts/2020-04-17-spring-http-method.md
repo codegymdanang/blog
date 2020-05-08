@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery:  Các phương thức HTTP
 image: /images/blog/spring.png
-description : Các loại Request HTTP .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
+description : Các loại Request HTTP , get là gì , post là gì , put là gì , head là gì . Phân biệt get và post
 youtubeId: Awpe1PIC-M4
 ---
 
@@ -14,12 +14,12 @@ youtubeId: Awpe1PIC-M4
 
 Chào các em , hôm nay anh sẽ giới thiệu với các bạn các loại HTTP method trong lập trình .Nội dung hôm nay sẽ nói về
 
-- Tổng hợp các loại request 
+- Tổng hợp các loại request
 - Các khái niệm quan trọng
-- So sách sự khác nhau của các phương thức request 
+- So sách sự khác nhau của các phương thức request
 
 
-### **2. Tổng hợp các loại request** 
+### **2. Tổng hợp các loại request**
 
 Có tất cả 9 loại request.
 
@@ -35,7 +35,7 @@ Có tất cả 9 loại request.
 
 
 ### **3. Một số khái niệm khác**
- 
+
 - SAFE : một method được coi là safe khi nó không làm thay đổi trạng thái "sate" của server. Nói cách khác, an toàn là chỉ đọc mà không làm thay đổi bất kì điều gì. Các method được coi là safe chỉ có: GET, HEAD và OPTIONS.
 - Unsafe: PUT, DELETE, POST và PATCH.
 -IDEMPOTENT : các method được coi là idempotent khi nó có thể thực hiên n + 1 lần mà vẫn trả lại 1 kết quả như ban đầu.
@@ -45,7 +45,7 @@ vì điều này nên các method safe thì đều idempotent. Nhưng unsafe ch�
 
 ### **4. GET VS POST**
 
-Một ứng dụng web được thiết kế theo restful thì get chỉ dùng để lấy dữ liệu và post chỉ dùng để đẩy dữ liệu lên. 
+Một ứng dụng web được thiết kế theo restful thì get chỉ dùng để lấy dữ liệu và post chỉ dùng để đẩy dữ liệu lên.
 Một chút khác biệt dễ nhận thấy giữa get và post là get thì không có body. Khi dùng get để truyền dữ liệu lên sever chúng ta thấy rằng tất cả các paramater đều bị hiển thị trên url của request, xét về khía cạnh bảo mật thì điều này thật là tệ.
 Post thì khác, nó giấu parameters trong body và mã hóa chúng đi, ngăn cản các phần tử trung gian ăn cắp nội dung. Nhưng post chỉ có tính an toàn đối với client, còn với sever thì lại khác. Các method như post, put, delete bị coi là unsafe và not idempotent cho server.
 
