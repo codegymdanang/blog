@@ -6,10 +6,10 @@ category: craftmanship
 tags: [effectivecode]
 summery: Cách tìm bug trập trình   
 image: /images/blog/quality-code.png
-description : TDD là gì ? học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
+description : tdd là gì , ví dụ về tdd , hướng dẫn tdd trong java
 youtubeId: 4IYBDSdBPew
 ---
- 
+
 Chào các bạn, chắc hẳn bạn sẽ muốn biết TDD là lập trình như thế nào phải không nào ? Trong bài viết hôm nay a sẽ giới thiệu từng bước
 giúp chúng ta có thể lập trình TDD một cách hiệu quả nhất.
 <br><br>
