@@ -12,7 +12,7 @@ youtubeId: WNfuVJptPnQ
 
 ### **1. Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về Maven là gì ?
+Chào các em, chủ để hôm nay chúng ta sẽ tìm hiểu về Maven là gì ?
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - Maven là gì
@@ -30,7 +30,7 @@ Ngoài việc quản lý thư viện và version của thư viện. Thì mình d
 
 ### **3. Khai báo dependency trong POM**
 
-Để nhúng một thư viện vào dự án Trong file pom.xml ta sử dụng đoạn mã sau
+Để nhúng một thư viện vào dự án Trong file pom.xml ta sử dụng đoạn mã sau:
 
 {% highlight xml  linenos %}
 <dependency>
