@@ -1,29 +1,29 @@
 ---
 layout: blog
-title: Lập Trình Spring Security 
+title: Lập Trình Spring Security
 slug : spring-security
 category: laptrinhspring
 tags: [spring]
-summery: Lập Trình Spring Security 
+summery: Lập Trình Spring Security
 image: /images/blog/spring.png
-description : Spring Security .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java 
+description : Spring Security là gì ? hướng dẫn spring security , ví dụ spring security
 youtubeId: WNfuVJptPnQ
 ---
 
 ### **1. Giới thiệu nội dung bài viết**
 
-Chào bạn, bạn đang gặp rắc rối với Spring Security? bạn không hiểu luồng đi của ứng dụng ? 
+Chào bạn, bạn đang gặp rắc rối với Spring Security? bạn không hiểu luồng đi của ứng dụng ?
 bạn đang quan tâm trong thực tế mình sẽ áp dụng như thế nào ? Hôm nay anh sẽ hướng dẫn mọi người cách sử dung Spring security.
 Bài viết sẽ đi qua các nội dụng sau đây
 
 - Các khái niệm về Spring Security
 - Mục tiêu của bài thực hành
-- Xây dựng một ứng dụng Spring Security với mysql database hoàn chỉnh 
+- Xây dựng một ứng dụng Spring Security với mysql database hoàn chỉnh
 
 
 ### **2. Demo mục đích bài hướng dẫn hôm nay**
 
-Kết thúc bài giảng hôm nay các em sẽ làm được ứng dụng phân quyền tuỳ thuộc vào user đăng nhập vào hệ thống là user hay admin mà ta cho phép họ 
+Kết thúc bài giảng hôm nay các em sẽ làm được ứng dụng phân quyền tuỳ thuộc vào user đăng nhập vào hệ thống là user hay admin mà ta cho phép họ
 vào trang web tương ứng. Ví dụ.  
 
 - Trang Home thì ai vào cũng được .
@@ -55,7 +55,7 @@ Luồng đi của ứng dụng mình như sau.
 
 
 
-#### Bước 1 . Chuẩn bị database để lưu thông tin user và quyền 
+#### Bước 1 . Chuẩn bị database để lưu thông tin user và quyền
 
 Mình dùng database để lưu thông tin người dùng và role (vai trò,được phép làm gì). Phục vụ cho việc truy vấn username và role có hợp lệ hay không .
 
@@ -73,8 +73,8 @@ user chỉ được phép vào 1 trang là user page.
 
 3. Table USER_ROLE là table dùng để nối 2 bảng APP_USER và APP_ROLE , nó được dùng để cho phép 1 user có thể có nhiều quyền. Ví dụ như admin có thể vào cả 2 trang user và admin .
 
-4. Tạo database thôi nào. Anh có viết script tạo cấu trúc database và tạo dữ liệu user và admin tại đây. 
-Mọi người copy về và chạy script này trong workbench để tạo dữ liệu nhé . 
+4. Tạo database thôi nào. Anh có viết script tạo cấu trúc database và tạo dữ liệu user và admin tại đây.
+Mọi người copy về và chạy script này trong workbench để tạo dữ liệu nhé .
 https://github.com/codegymdanang/CGDN-SpringBoot-SpringSecurity .
 
 Nếu chạy script xong thì mình sẽ có 2 users sau :
@@ -118,11 +118,11 @@ Chúng ta thêm các dependencies spring security, thymeleaf, mysql connector v�
 
 {% endhighlight %}
 
-#### Bước 3. Tạo form login . 
+#### Bước 3. Tạo form login .
 
 Khi người dùng click vào nút submit thì action mình dùng là /j_spring_security_check cái này là mặc định của spring.
 
-{% highlight html  linenos %} 
+{% highlight html  linenos %}
 <h3>Enter user name and password:</h3>
 <form name='f' th:action="@{/j_spring_security_check}" method='POST'>
     <table>
@@ -147,8 +147,8 @@ Khi người dùng click vào nút submit thì action mình dùng là /j_spring_
 
 
 #### Bước 4. Tạo file WebSecurityConfig để cấu hình  cho Spring security .
-  
-Các bạn có thể tìm thấy file đó ở github ở trên trong thư mục configure/WebSecurityConfig. 
+
+Các bạn có thể tìm thấy file đó ở github ở trên trong thư mục configure/WebSecurityConfig.
 File WebSecurityConfig sẽ kế thừa WebSecurityConfigurerAdapter để mình tuỳ chỉnh các cấu hình security cho ứng dụng của mình.
 Giờ a sẽ giải thích nhiệm vụ của các method.
 
@@ -160,7 +160,7 @@ Giờ a sẽ giải thích nhiệm vụ của các method.
 
         http.csrf().disable(); //CSRF ( Cross Site Request Forgery) là kĩ thuật tấn công bằng cách sử dụng quyền chứng thực của người sử dụng đối với 1 website khác
 
-        // Các trang không yêu cầu login như vậy ai cũng có thể vào được admin hay user hoặc guest có thể vào các trang 
+        // Các trang không yêu cầu login như vậy ai cũng có thể vào được admin hay user hoặc guest có thể vào các trang
         http.authorizeRequests().antMatchers("/", "/login", "/logout").permitAll();
 
         // Trang /userInfo yêu cầu phải login với vai trò ROLE_USER hoặc ROLE_ADMIN.
@@ -180,17 +180,17 @@ Giờ a sẽ giải thích nhiệm vụ của các method.
         // Cấu hình cho Login Form.
         http.authorizeRequests().and().formLogin()//
                 // Submit URL của trang login
-                .loginProcessingUrl("/j_spring_security_check") // Bạn còn nhớ bước 3 khi tạo form login thì action của nó là j_spring_security_check giống ở 
+                .loginProcessingUrl("/j_spring_security_check") // Bạn còn nhớ bước 3 khi tạo form login thì action của nó là j_spring_security_check giống ở
                 .loginPage("/login")//
                 .defaultSuccessUrl("/userAccountInfo")//đây Khi đăng nhập thành công thì vào trang này. userAccountInfo sẽ được khai báo trong controller để hiển thị trang view tương ứng  
-                .failureUrl("/login?error=true")// Khi đăng nhật sai username và password thì nhập lại 
+                .failureUrl("/login?error=true")// Khi đăng nhật sai username và password thì nhập lại
                 .usernameParameter("username")// tham số này nhận từ form login ở bước 3 có input  name='username'
                 .passwordParameter("password")// tham số này nhận từ form login ở bước 3 có input  name='password'
-                // Cấu hình cho Logout Page. Khi logout mình trả về trang 
+                // Cấu hình cho Logout Page. Khi logout mình trả về trang
                 .and().logout().logoutUrl("/logout").logoutSuccessUrl("/logoutSuccessful");
 
         // Cấu hình Remember Me . Ở form login bước 3, ta có 1 nút remember me. Nếu người dùng tick vào đó ta sẽ dung cookie lưu lại trong 24h
-         
+
         http.authorizeRequests().and() //
                 .rememberMe().tokenRepository(this.persistentTokenRepository()) //
                 .tokenValiditySeconds(1 * 24 * 60 * 60); // 24h
@@ -198,13 +198,13 @@ Giờ a sẽ giải thích nhiệm vụ của các method.
     }
     @Bean
     public PersistentTokenRepository persistentTokenRepository() {
-        InMemoryTokenRepositoryImpl memory = new InMemoryTokenRepositoryImpl(); // Ta lưu tạm remember me trong memory (RAM). Nếu cần mình có thể lưu trong database 
+        InMemoryTokenRepositoryImpl memory = new InMemoryTokenRepositoryImpl(); // Ta lưu tạm remember me trong memory (RAM). Nếu cần mình có thể lưu trong database
         return memory;
     }
 {% endhighlight %}
 
 2. Method thứ 2 là public BCryptPasswordEncoder passwordEncoder()
-Method này dùng để mã hoá password của người dùng Ví dụ người dùng nhập password là abc@123 thì nó sẽ mã hoá là 
+Method này dùng để mã hoá password của người dùng Ví dụ người dùng nhập password là abc@123 thì nó sẽ mã hoá là
 $2a$10$PrI5Gk9L.tSZiW9FXhTS8O8Mz9E97k2FZbFvGFFaSsiTUIl.TCrFu.
 Mọi người có thể đọc cách encode và thư viện encode ở file EncrytedPasswordUtils trong github .
 
@@ -218,7 +218,7 @@ Mọi người có thể đọc cách encode và thư viện encode ở file Enc
 
 3. Method thứ 3 là configureGlobal(AuthenticationManagerBuilder auth) throws Exception
 Trong Spring Security có một object quan trọng đó là UserDetailsService. Đây là object của Spring, nó nắm giữ thông tin quan trọng như
-Username này là ai trong hệ thống , UserName này có quyền gì. Chúng ta sẽ đi chi tiết trong bước 5 tiếp theo để hiểu nó làm được . 
+Username này là ai trong hệ thống , UserName này có quyền gì. Chúng ta sẽ đi chi tiết trong bước 5 tiếp theo để hiểu nó làm được .
 
 {% highlight java linenos %}
  @Autowired
@@ -228,14 +228,14 @@ Username này là ai trong hệ thống , UserName này có quyền gì. Chúng 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
 
-        //gọi userDetailsService trong bước 5 tiếp theo 
+        //gọi userDetailsService trong bước 5 tiếp theo
         auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
 
     }
 {% endhighlight %}
 
 
-#### Bước 5. Tạo UserDetailsServiceImpl 
+#### Bước 5. Tạo UserDetailsServiceImpl
 
 File này sẽ implement UserDetailsService của Spring và định nghĩa cách kiểm tra username , password và quyền của user có hợp lệ hay không
 Khi user login vào hệ thống ta sẽ query xuống database để kiểm tra user có đúng trong database không và quyền là gì ?
@@ -245,19 +245,19 @@ Khi user login vào hệ thống ta sẽ query xuống database để kiểm tra
     public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {
         // đầu tiên mình query xuống database xem có user  đó không  
         AppUser appUser = this.appUserDAO.findUserAccount(userName);
-        
-        //Nếu khong tìm thấy User thì mình thông báo lỗi 
+
+        //Nếu khong tìm thấy User thì mình thông báo lỗi
         if (appUser == null) {
             System.out.println("User not found! " + userName);
             throw new UsernameNotFoundException("User " + userName + " was not found in the database");
         }
 
-      
-        // Khi đã có user rồi thì mình query xem user đó có những quyền gì (Admin hay User) 
+
+        // Khi đã có user rồi thì mình query xem user đó có những quyền gì (Admin hay User)
         // [ROLE_USER, ROLE_ADMIN,..]
         List<String> roleNames = this.appRoleDAO.getRoleNames(appUser.getUserId());
 
-        // Dựa vào list quyền trả về mình tạo đối tượng GrantedAuthority  của spring cho quyền đó 
+        // Dựa vào list quyền trả về mình tạo đối tượng GrantedAuthority  của spring cho quyền đó
         List<GrantedAuthority> grantList = new ArrayList<GrantedAuthority>();
         if (roleNames != null) {
             for (String role : roleNames) {
@@ -266,20 +266,20 @@ Khi user login vào hệ thống ta sẽ query xuống database để kiểm tra
                 grantList.add(authority);
             }
         }
-        
+
         //Cuối cùng mình tạo đối tượng UserDetails của Spring và mình cung cấp cá thông số như tên , password và quyền
         // Đối tượng userDetails sẽ chứa đựng các thông tin cần thiết về user từ đó giúp Spring Security quản lý được phân quyền như ta đã
         // cấu hình trong bước 4 method configure
-        UserDetails userDetails = (UserDetails) new User(appUser.getUserName(), 
+        UserDetails userDetails = (UserDetails) new User(appUser.getUserName(),
                 appUser.getEncrytedPassword(), grantList);
 
         return userDetails;
     }
 {% endhighlight %}
 
-##### Bước 6. Tạo các điều hướng trong controller 
+##### Bước 6. Tạo các điều hướng trong controller
 
-Khi người dùng đã đang nhập thành công , họ có thể điều hướng tới các trang khác .Thì mình sẽ tạo các mapping trong Controller 
+Khi người dùng đã đang nhập thành công , họ có thể điều hướng tới các trang khác .Thì mình sẽ tạo các mapping trong Controller
 Để điều hướng người dùng tới các view tương ứng. Những điều hướng này nằm ở bước 4 method configure .
 
 {% highlight java linenos %}
@@ -315,7 +315,7 @@ Khi người dùng đã đang nhập thành công , họ có thể điều hư�
         return "logoutSuccessfulPage";
     }
 
-    // khi người dùng đăng nhập thành công 
+    // khi người dùng đăng nhập thành công
     @RequestMapping(value = "/userInfo", method = RequestMethod.GET)
     public String userInfo(Model model, Principal principal) {
 
@@ -331,11 +331,11 @@ Khi người dùng đã đang nhập thành công , họ có thể điều hư�
 
         return "userInfoPage";
     }
-    
-    // khi người dùng là user mà thâm nhập trang admin thì mình vào đây 
+
+    // khi người dùng là user mà thâm nhập trang admin thì mình vào đây
     @RequestMapping(value = "/403", method = RequestMethod.GET)
     public String accessDenied(Model model, Principal principal) {
-        
+
         if (principal != null) {
             User loginedUser = (User) ((Authentication) principal).getPrincipal();
 
@@ -353,9 +353,9 @@ Khi người dùng đã đang nhập thành công , họ có thể điều hư�
     }
 {% endhighlight %}
 
-##### Bước 7. Tạo Repository để query database 
+##### Bước 7. Tạo Repository để query database
 
-Chúng ta tạo file  AppUserDAO sử dụng entity manager để tạo và thực thi câu lệnh SQL . 
+Chúng ta tạo file  AppUserDAO sử dụng entity manager để tạo và thực thi câu lệnh SQL .
 Mình hoàn toàn có thể sử dụng JPA để query . Cái này tuỳ các em . Mục đích cuối cùng là query được  User có trong table hay không mà thôi .
 Lớp UserDetailsServiceImpl sẽ nhúng AppUserDAO vào trong nó để thực hiện nhiệm vụ kiểm tra xem user có trong database không ?
 
@@ -395,7 +395,7 @@ Như vậy là mình đã xong cấu hình cho Spring security . Phần quan tro
 hình và phân quyền trong Spring Security .
 
 
-### Mọi người có thể xem thêm lý thuyết tại đây nhé 
+### Mọi người có thể xem thêm lý thuyết tại đây nhé
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}

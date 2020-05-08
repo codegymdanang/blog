@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [ui]
 summery: Bootstrap là gì phần 1  
 image: /images/blog/ui.png
-description : Boostrap là gì ? học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
+description : Boostrap là gì ? lập trình web , hướng dẫn sử dụng bootstrap , ví dụ về bootstrap
 youtubeId: 2xSwAsdcwLo
 youtubeId1: 9G2UAIWILa4
 ---
@@ -14,7 +14,7 @@ youtubeId1: 9G2UAIWILa4
 ### **1. Giới thiệu nội dung bài viết**
 
 Chào các bạn , bạn đang có ý định làm một website cho mình nhưng không biết nên sử dụng framework nào
-để hỗ trợ việc làm website một cách đơn giản và đẹp .Hôm nay anh sẽ giới thiệu với các bạn Boostrap framework. Chúng ta sẽ đi qua các nội 
+để hỗ trợ việc làm website một cách đơn giản và đẹp .Hôm nay anh sẽ giới thiệu với các bạn Boostrap framework. Chúng ta sẽ đi qua các nội
 dung sau
 
 
@@ -22,7 +22,7 @@ dung sau
 - Lợi ích của Bootstrap
 - Cài đặt Bootstrap
 - Một số tính năng quan trong của Boostrap
-- Video trình bày cách làm một trang web đẹp bằng Bootstrap 
+- Video trình bày cách làm một trang web đẹp bằng Bootstrap
 
 ### **2. Trước tiên ta hãy xem Bootstrap là gì**
 
@@ -73,7 +73,7 @@ Ví dụ <div class="container"> thì class container là của Bootstap . Như 
 
 
 
-- Chúng ta có thể download trực tiếp từ trang chủ của Boostrap (https://getbootstrap.com) 
+- Chúng ta có thể download trực tiếp từ trang chủ của Boostrap (https://getbootstrap.com)
 
 
 ### **5 Một số tính năng quan trọng của Bootstrap**  
@@ -84,7 +84,7 @@ Ví dụ <div class="container"> thì class container là của Bootstap . Như 
 <meta name = "viewport" content = "width=device-width, initial-scale = 1, shrink-to-fit = no">
 {% endhighlight %}
 
-+ Viewport tạm dịch là khung nhìn, là khu vực có thể nhìn thấy của người dùng về nội dung trong một trang web. Viewport sẽ khác nhau với các thiết bị khác nhau, và sẽ nhỏ hơn trên điện thoại di động so với trên màn hình máy tính. Trước khi thiết kế cho máy tính bảng và điện thoại di động, các trang web chỉ được thiết kế cho màn hình máy tính và thông thường các trang web có thiết kế tĩnh và có kích thước cố định. Sau đó, khi chúng ta bắt đầu lướt web bằng cách sử dụng máy tính bảng và điện thoại di động, các trang web có kích thước cố định đã quá lớn để phù hợp với người dùng. Để khắc phục điều này, các trình duyệt trên các thiết bị này tự động thu nhỏ toàn bộ trang web để vừa với màn hình. Khi chiều ngang của thiết bị quá nhỏ, người dùng phải vuốt ngang để xem hết nội dung của trang web hoặc xem trang web với nội dung quá nhỏ và cần phải zoom để đọc được nội dung 
++ Viewport tạm dịch là khung nhìn, là khu vực có thể nhìn thấy của người dùng về nội dung trong một trang web. Viewport sẽ khác nhau với các thiết bị khác nhau, và sẽ nhỏ hơn trên điện thoại di động so với trên màn hình máy tính. Trước khi thiết kế cho máy tính bảng và điện thoại di động, các trang web chỉ được thiết kế cho màn hình máy tính và thông thường các trang web có thiết kế tĩnh và có kích thước cố định. Sau đó, khi chúng ta bắt đầu lướt web bằng cách sử dụng máy tính bảng và điện thoại di động, các trang web có kích thước cố định đã quá lớn để phù hợp với người dùng. Để khắc phục điều này, các trình duyệt trên các thiết bị này tự động thu nhỏ toàn bộ trang web để vừa với màn hình. Khi chiều ngang của thiết bị quá nhỏ, người dùng phải vuốt ngang để xem hết nội dung của trang web hoặc xem trang web với nội dung quá nhỏ và cần phải zoom để đọc được nội dung
 + Thẻ <meta> viewport thiết lập cho trang web hiển thị tương ứng với kích thước của từng thiết bị khác nhau.
 + Thuộc tính width=device-width đặt chiều rộng của trang web theo chiều rộng màn hình của thiết bị.
 + Thuộc tính initial-scale=1.0 thiết lập mức độ phóng ban đầu khi trang được trình duyệt tải lần đầu tiên, người dùng sẽ không thể zoom khi thuộc tính này có giá trị bằng 1
@@ -159,7 +159,7 @@ mà ta không còn phải lo lắng khi làm responsive vì Boostrap đã hỗ t
 }
 {% endhighlight %}
 
-#### Hệ thống lưới 
+#### Hệ thống lưới
 
 Bootstrap sử dụng hệ thống lưới 12 cột đại để là layout cho trang web .
 
@@ -209,13 +209,13 @@ Bootstrap sử dụng hệ thống lưới 12 cột đại để là layout cho 
 
 
 
-### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé . 
+### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
-### Các bạn có thể làm  một trang website giống 100% Zing.vn tại đây nhé 
+### Các bạn có thể làm  một trang website giống 100% Zing.vn tại đây nhé
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId1 %}

@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: OneToOne Relationship
 image: /images/blog/spring.png
-description : OneToOne Mapping .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
+description : OneToOne Mapping . hướng dẫn onetoone trong spring data jpa , ví dụ onetoone spring data jpa  
 youtubeId: WNfuVJptPnQ
 ---
 
