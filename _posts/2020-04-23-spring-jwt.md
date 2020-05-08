@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Json Web Token là gì  
 image: /images/blog/spring.png
-description : Spring Json WebToken là gì .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
+description : Spring Json WebToken là gì . Cách . Json Web Token  . Ví dụ JWT , ví dụ Json web token
 youtubeId: 6VCjvbbR_SI
 ---
 
@@ -17,12 +17,12 @@ Bài viết hôm nay chúng ta sẽ nói về .
 
 - JSON WEB TOKEN là gì ?
 - Cấu tạo của 1 JWT
-- Video demo 
+- Video demo
 
 
 #### **2. JSON Web Token là gì**
 
-JSON Web Token (JWT) là 1 tiêu chuẩn mở (RFC 7519) định nghĩa cách thức truyền tin an toàn giữa client và server bằng đối tượng JSON. Thông tin này có thể được xác thực và đánh dấu tin cậy nhờ vào "chữ ký" của nó. 
+JSON Web Token (JWT) là 1 tiêu chuẩn mở (RFC 7519) định nghĩa cách thức truyền tin an toàn giữa client và server bằng đối tượng JSON. Thông tin này có thể được xác thực và đánh dấu tin cậy nhờ vào "chữ ký" của nó.
 Phần chữ ký của JWT sẽ được mã hóa lại bằng HMAC hoặc RSA.
 
 ### **3. Cấu tạo của 1 JWT**
@@ -38,7 +38,7 @@ JWT bao gồm 3 phần và ngăn cách nhau bởi dấu chấm
 - Signature (chữ ký số )
 
 ### **4. Cách tạo và sử dụng JWT**
- 
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
