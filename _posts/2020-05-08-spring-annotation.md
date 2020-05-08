@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Các Anotation trong Spring
 image: /images/blog/spring.png
-description : các annotation trong spring 
+description : các annotation trong spring, ví dụ annotation trong spring , sử dụng annotation trong spring  
 youtubeId: WNfuVJptPnQ
 ---
 

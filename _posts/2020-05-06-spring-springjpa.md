@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Spring JPA
+title: Spring Data JPA
 slug : spring-jpa-la-gi
 category: laptrinhspring
 tags: [spring]
-summery: Spring JPA
+summery: Spring Data JPA
 image: /images/blog/spring.png
-description : Spring JPA là gì ? học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
+description : Spring jpa là gì ? hướng dẫn spring data jpa , ví dụ spring data jpa
 youtubeId: 4dQlWJQ7ZQo
 ---
 
@@ -89,7 +89,7 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 ### **6. Hướng dẫn sử dụng JPA thông qua ví dụ**
 
 Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ database và trả kết quả về cho người dùng . Và mình sẽ sử dụng thư viện spring-data-jpa để kết nối và thao tác với database.
-Ngoài ra mọi người có thể xem qua bài viết Hibernate mà anh đã viết để thao tác với database nhé. Source code <a href="https://github.com/codegymdanang/CGDN-SpringBoot-JPA"> tại đây </a>. 
+Ngoài ra mọi người có thể xem qua bài viết Hibernate mà anh đã viết để thao tác với database nhé. Source code <a href="https://github.com/codegymdanang/CGDN-SpringBoot-JPA"> tại đây </a>.
 
 
 #### Bước 1 -  Chuẩn bị dependency trong file pom.xml

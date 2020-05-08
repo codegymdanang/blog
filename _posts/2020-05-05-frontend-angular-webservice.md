@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Sử dụng Angular gọi  Webservice 
+title: Sử dụng Angular gọi  Webservice
 slug : su-dung-bootstrap-trong-angular
 category: laptrinhweb
 tags: [angular]
-summery: Sử dụng Angular gọi  Webservice 
+summery: Sử dụng Angular gọi  Webservice
 image: /images/blog/angular.png
-description : Angular gọi webservice . học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web 
+description : hướng dẫn angular gọi webservice . ví dụ angular gọi  webservice
 youtubeId: edYsCowgQq0
 ---
  

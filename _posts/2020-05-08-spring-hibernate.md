@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: OneToOne Relationship
 image: /images/blog/spring.png
-description : hibernate là gì .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
+description : hibernate là gì . hướng dẫn sử dụng hibernate , ví dụ hibernate 
 youtubeId: WNfuVJptPnQ
 ---
 

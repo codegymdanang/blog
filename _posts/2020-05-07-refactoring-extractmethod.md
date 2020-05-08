@@ -1,20 +1,20 @@
 ---
 layout: blog
-title: Kỷ thuật Extract Method 
+title: Kỷ thuật Extract Method
 slug: ky-thuat-lap-trinh-extract-method
 category: craftmanship
 tags: [refactoring]
-summery: Kỷ thuật Extract Method 
+summery: Kỷ thuật Extract Method
 image: /images/blog/design-patterns.png
-description : Kỷ thuật Extract Method Là Gì ?học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java hoc thiet ke web
+description : kỷ thuật Extract Method là gì, hướng dẫn extract method , ví dụ extract method 
 ---
 
 Chào các e, chủ đề hôm nay của anh sẽ bàn về kỷ thuật Extract Method ? Kỷ thuật nằm nhằm làm cho một method dài khó đọc
-trở thành một phương thức nhỏ hơn , dể đọc hơn. 
+trở thành một phương thức nhỏ hơn , dể đọc hơn.
 <br><br>
 
 ### Vấn đề đang gặp  ?
-Như ví dụ mình có đoạn code sau đây. 
+Như ví dụ mình có đoạn code sau đây.
 <br>
 {% highlight java linenos %}
 void printOwing() {
@@ -55,6 +55,4 @@ trong method printOwing() là xong.
 Như các em có thể thấy phương pháp Extract Method giúp mình nhóm các dòng code liên qua lại với nhau thành một method, Các method dài quá 30 dòng
 thì các em nên tách thành những method nhỏ hơn. Trong lập trình mỗi method tối đa 15 -> 20 dòng là chuẩn.
 Mỗi method chỉ nên làm duy nhất một nhiệm vụ . Anh ví dụ như printDetails thì nhiệm vụ của nó chỉ in chi tiết thôi chứ không làm các công việc khác
-trong method printDetails 
-
-
+trong method printDetails

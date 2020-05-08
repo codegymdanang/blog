@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: webservice là gì ?
 image: /images/blog/spring.png
-description : webservice là gì  .học lập trình  ngôn ngữ lập trình lập trình java java cơ bản khóa học lập trình java học ngôn ngữ lập trình java
+description : webservice là gì , hướng dẫn webservice , ví dụ webservice , soap là gì , restful webservice là gì 
 youtubeId: WNfuVJptPnQ
 ---
 
