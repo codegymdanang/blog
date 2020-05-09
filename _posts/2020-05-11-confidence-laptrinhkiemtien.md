@@ -6,7 +6,7 @@ category: career
 tags: [confidence]
 summery: Lập trình viên kiếm tiền như thế nào   
 image: /images/blog/softskills.png
-description : Lập trình viên kiếm tiền như thế nào, kiếm tiền bằng nghành lập trình, .ại sao nghành lập trình lại rất hot hiện nay
+description : Lập trình viên kiếm tiền như thế nào, kiếm tiền bằng nghành lập trình, tại sao nghành lập trình lại rất hot hiện nay
 youtubeId: r2w7in6xMB4
 ---
 
