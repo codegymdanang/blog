@@ -13,7 +13,6 @@ youtubeId: r2w7in6xMB4
 ### **1. Giới thiệu nội dung bài viết**
 
 Chào các bạn, chắc hẳn bạn sẽ thắc mắc học lập trình nên bắt đầu như thế nào? Cần có những yếu tố gì để giúp mình trở thành một lập trình viên. Hôm nay anh sẽ chia sẽ cho các bạn chuẩn bị học lập trình nên trang bị những gì?
-https://www.youtube.com/watch?v=NWIkWv66yAU
 
 - Định nghĩa đam mê về lập trình
 - Lập trình là gì
@@ -56,12 +55,29 @@ Bước 4 : Đạt các còn level của lập trình
 
 Khi đã được level 1 lúc đó mình đó có nền tảng về lập trình. Thông thường sẽ mất 2 năm để đạt tiếp level 2 (Medium) , 5->10 năm để đạt level 3 (advantage) và trên 10 năm có thể đạt level 4 (expert). Khi mọi người vào công ty thì tuỳ vào dự án mà mọi người sẽ được học các công nghệ khác nhau . Tuy nhiên khi đã có level1 rồi thì mình được các công ty tạo cơ hội làm trong các dự án để đạt các level tiếp theo.
 
+### **4.Các phương pháp học lập trình**
 
+Thông thường khi học một ngôn ngữ mới hay một công nghệ mới các việc sau đây anh cần phải làm
 
+- Chuẩn bị 2 cuốn sách nói về công nghệ đó. Mục đích khi đọc sách mình sẽ được giải thích sâu hơn về ngôn ngữ đó
+- Tìm kiếm các khoá học online trả tiền hoặc miễn phí trên udemy, coursera hay pluralsight
+- Tìm kiếm các khoá học video trên youtube . Mục đích giúp mình có cái nhìn tổng quan về cái mình sắp học
+- Chuẩn bị cho mình một memtor (người hướng dẫn), trong lúc đọc sách và xem video chắc chắn sẽ có
+nhiều thứ không hiểu vì mình là người mới bắt đầu học lập trình. Nên chọn cho mình một người hướng dẫn để trả lời các thắc mắc của mình
+- Sau khi đã chuẩn bị xong mọi thứ thì bắt tay vào việc học. Học lập trình quan trọng là code nhiều để quen cú pháp và từ vựng của ngôn ngữ. Chính vì vậy cứ mỗi bài học mình xát định là đã hiều nội dung , làm được bài thực hành của bài học, và tự mình đặt ra câu hỏi  xem mình đã hiểu chưa, thực hiện các câu trắc nghiệm về bài học mình vừa hoàn thành. Sau khi kết thúc việc học thì mình sẽ làm 1 một phần mềm mang tính thực tế và áp dụng các kiến thức mình học trong môn đó vào lập trình. Cuối cùng mình phải xây dựng hay lập trình được một cái gì đó. Vì học lập trình mà không viết code thì mình sẽ quên kiến thức ngay. Chính vì vậy mà mình phải làm ra một phần mềm ở cuối chương trình để nắm lại những thức mà mình học. Thông thường thì mất tầm 1 tháng để học một công nghệ mới và làm được một ứng dụng mang tính hiểu các nguyên lý của ngôn ngữ đó.
 
+### **5.Các ngành nghề và chức danh trong lập trình
 
+Để làm ra được một phần mềm thì có rất nhiều vai trò cùng làm việc với nhau để cho ra sản phẩm. Nếu mình không giỏi về lập trình thì mình có thể tham gia dự án với các vai trò sau
 
+- Tester (kiểm thử dự án) Mình không giỏi code thì mình có thể trở thành tester. Yêu cầu tính tỉ mỉ, có kiến thức lập trình , tuy nhiên chỉ cần level 1 là được
+- Designer (thiết kế giao diện cho sản phẩm) Mình không giỏi code nhưng mình lại có kiếu thẩm mình thì mình có thể làm designer cho dự án. yêu cầu có thẩm mỹ , hiểu được khách hàng (UX) , biết sử dụng các công cụ của design như photoshop, sketch . Nếu có thêm kiến thức lập trình thì sẽ tốt , chỉ yêu cầu lập trình level 1
+- Comtor/BA  nếu bạn không giỏi lập trình nhưng giỏi tiếng Anh hoặc tiếng Nhật có thể tham gia dự án trao đổi với khách hàng sau đó truyền đạt lại với team của mình. Nếu có thêm kiến thức lập trình là một lợi thế . Không cần phải chuyên sâu về lập trình , nếu được level 1 cũng đã là tốt rồi
+- PM (quản lý dự án) thông thường thì bạn phải làm việc một thời gian dài mới có kinh nghiệm  về dự án . Bạn cần biết cách quản lý con người, biết tiếng ngoại ngữ để có thể trao đổi với khách hàng. Không cần phải biết quá sâu về kỷ thuật . Công việc của bạn là quản lý team và dự án
+- Developer (lập trình viên) bạn phải biết lập trình , trong công ty sẽ tạo điều kiện cho bạn để bạn có thể trở thành level 2,3,4 . Bạn phải có kiến thức sâu về lập trình, chịu trách nhiệm với chất lượng sản phẩm do chính mình viết ra
 
-
+- Ngoài ra ở các công ty khác thì sẽ có thêm các vai trò khác nữa để giúp dự án chạy tốt hơn, nhưng cơ bản 1 dự án thì cần các vai trò như tester, designer , developer, quản lý dự án cùng phối hợp với nhau để tạo ra sản phẩm
 
 ## **Kết luận**
+
+Học lập trình không quá khó. Cái quan trọng mình phải xát định mục tiêu mình là gì? Từ đó chuyển mục tiêu đó thành đam mê để giúp mình có nhiều thời gian cải thiện bản thân và vươn xa trong sự nghiệp. Đam mê sẽ mang lại thành công
