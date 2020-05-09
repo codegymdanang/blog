@@ -27,7 +27,7 @@ Sau khi kết thúc công việc ở công ty. Họ về nhà nghỉ ngơi tới
 
 ### **3. Nguồn thu nhập 3-Xây dựng ứng dụng và đặt quảng cáo**
 
-Các developer hiện này có thể xây dựng các ứng dụng trên android , ios , web về các chủ đề như ca nhạc , tin tức , hài, etc , những chủ đề mà mọi người vào nhiều . Sau đó đăng ký quảng cáo với google lúc đó google sẽ cấp phát một đoạn code và mình nhúng đoạn code đó vào sản phẩm của mình. Dựa vào tầng suất số lượng quảng cáo đó được click hoặc hiển thị thì google sẽ trả cho mình một số tiền nhất định hàng tháng. Mình có thể đăng ký với google adsense để lấy mã quảng cáo. Ngoài google adsense thì còn rất nhiều loại khác nữa cũng trả tiền cho mình dựa vào tần suát quảng cáo được click và hiển thị
+Các developer hiện này có thể xây dựng các ứng dụng trên android , ios , web về các chủ đề như ca nhạc , tin tức , hài, etc , những chủ đề mà mọi người vào nhiều . Sau đó đăng ký quảng cáo với google lúc đó google sẽ cấp phát một đoạn code và mình nhúng đoạn code đó vào sản phẩm của mình. Dựa vào tầng suất số lượng quảng cáo đó được click hoặc hiển thị thì google sẽ trả cho mình một số tiền nhất định hàng tháng. Mình có thể đăng ký với google adsense để lấy mã quảng cáo. Ngoài google adsense thì còn rất nhiều loại khác nữa cũng trả tiền cho mình dựa vào tần suất quảng cáo được click và hiển thị
 <br>
 
 ### **4. Nguồn thu nhập 4-Xây dựng blog và đặt quảng cáo**
