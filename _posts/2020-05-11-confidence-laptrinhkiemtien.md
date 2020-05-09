@@ -37,7 +37,7 @@ Cũng tương tự như cách kiếm tiền ở trên, thay vì làm các ứng 
 
 ### **5. Nguồn thu nhập 5-Viết sách**
 
-Sau khi mình đi làm có nhiều kinh nghiệm thường thì phải trải qua tầm 10 năm khi mà mình đã cứng cáp về kỷ thuật thì mình có thể hoàn toàn viết sách dạy học lập trình và bán trên mạng hoặc liên hệ với một nhà xuất bản nào đó
+Sau khi mình đi làm có nhiều kinh nghiệm thường thì phải trải qua tầm 10 năm khi mà mình đã cứng cáp về kỷ thuật thì mình có thể hoàn toàn viết sách dạy học lập trình và bán trên mạng hoặc liên hệ với một nhà xuất bản nào đó để xuất bản cuốn sách của mình
 <br>
 
 ### **6. Nguồn thu nhập 6- Tạo kênh youtube channel và đặt quảng cáo**
