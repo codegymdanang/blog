@@ -67,4 +67,4 @@ Cái này thì kiếm tiền khá lâu , không phải ngày một ngày hai là
 
 ## **Kết luận**
 
-Qua 10 cách kiếm tiền trên anh hy vọng mọi người sẽ thấy được làm lập trình viên thì mình có rất nhiều cơ hội để kiếm tiền. Nhưng để làm được điều đó mọi người phải giỏi về nghề lập trình của mình. Phải chao chút từng dòng code , học hỏi không ngừng các kỷ thuật các công nghệ. Đó là lý do vì sao anh nói trong cách kiếm tiền số một là hãy chọn công ty mà mình phát triển được bản thân hơn là công ty trả lương cao mà mình càng ngày càng tụlùi.
+Qua 10 cách kiếm tiền trên anh hy vọng mọi người sẽ thấy được làm lập trình viên thì mình có rất nhiều cơ hội để kiếm tiền. Nhưng để làm được điều đó mọi người phải giỏi về nghề lập trình của mình. Phải chao chút từng dòng code , học hỏi không ngừng các kỷ thuật các công nghệ. Đó là lý do vì sao anh nói trong cách kiếm tiền số một là hãy chọn công ty mà mình phát triển được bản thân hơn là công ty trả lương cao mà mình càng ngày càng tụt lùi.
