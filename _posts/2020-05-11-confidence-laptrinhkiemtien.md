@@ -52,7 +52,7 @@ Khi mình đã có kinh nghiệm mình có thể xây dựng một khoá học v
 
 ### **8. Nguồn thu nhập 8-Code cho những dự án opensource**
 
-Có rất nhiều dự án opensource , chúng ta có thể tham gia code cùng các bạn lập trình ở các quốc gia khác nhau. Các lập trình viên khác nếu sử dụng opensource của chúng ta họ có thể donate (quyên góp tiền cho dự ) hoặc sponser cho dự án của mình .
+Có rất nhiều dự án opensource , chúng ta có thể tham gia code cùng các bạn lập trình ở các quốc gia khác nhau. Các lập trình viên khác nếu sử dụng opensource của chúng ta họ có thể donate (quyên góp tiền cho dự án) hoặc sponser cho dự án của mình .
 <br>
 
 ### **9. Nguồn thu nhập 9- Đi dạy kèm**
