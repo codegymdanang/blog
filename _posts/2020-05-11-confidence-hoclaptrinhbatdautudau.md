@@ -35,13 +35,13 @@ Một số bạn bắt đầu học lập trình  vì mình thích làm các ứ
 
 Theo như anh thấy học lập trình cũng giống như học anh văn vậy. Mình học anh văn để giao tiếp với các bạn nước ngoài. Để giao tiếp được thì mình phải học từ vựng và ngữ pháp của ngôn ngữ đó ,từ đó mình sử dụng nó để nói chuyện và trao đổi các mong muốn của mình với các bạn nước ngoài.
 
-Học lập trình cũng vậy mình sẽ học các từ vựng (các từ khoá về ngôn ngữ lập trình) các mệnh để, cấu trúc câu của ngôn ngữ lập trình từ đó mình có thể ra lệnh cho máy tính, hoặc phần mềm làm gì mà mình mong muốn dự theo những dòng lệnh mà mình viết ra.
+Học lập trình cũng vậy mình sẽ học các từ vựng (các từ khoá về ngôn ngữ lập trình) các mệnh để, cấu trúc câu của ngôn ngữ lập trình từ đó mình có thể ra lệnh cho máy tính, hoặc phần mềm làm gì mà mình mong muốn dựa theo những dòng lệnh mà mình viết ra.
 
 Như các em thấy ngày nay có rất nhiều ứng dụng như ngân hàng, thương mại điện tử được lập trình ra bời vì mình hiểu được cách giao tiếp , ra chỉ thị cho máy tính, ứng dụng thông qua dòng lệnh . Từ đó mình xây dựng các chỉ dẫn dựa trên nghiệp vụ mà mình biết để ra lệnh cho phần mềm phải làm những điều mình muốn.
 
 ### **3. Học lập trình bắt đầu từ đâu**
 
-Bước 1 : Học lập trình xong thì mình có thể làm các ứng dụng trên web, điện thoại động , desktop. Đầu tiên chúng ta xát định là sẽ học phần cơ bản nhất đó là bắt đầu với việc tạo ra được trang web của mình hay còn gọi là học lập trình frontend (frontend có nghĩa là những thứ mình có thể thấy được, vì dụ như website bán điện thoại di động, khi vào trang web thì mình thấy danh sách các loại điện thoại . Vậy frontend là những cái mình thấy được bằng mắt). Để làm được frontend mọi người phải học công nghệ HTML , CSS , và Javascript . Trong giai đoạn này mình sẽ học cú pháp , cấu trúc cơ bản của HTML,CSS,Javascript và tự xây dựng được trang web cho mình.
+Bước 1 : Đầu tiên chúng ta xát định là sẽ học phần cơ bản nhất đó là bắt đầu với việc tạo ra được trang web của mình hay còn gọi là học lập trình frontend (frontend có nghĩa là những thứ mình có thể thấy được, vì dụ như website bán điện thoại di động, khi vào trang web thì mình thấy danh sách các loại điện thoại . Vậy frontend là những cái mình thấy được bằng mắt). Để làm được frontend mọi người phải học công nghệ HTML , CSS , và Javascript . Trong giai đoạn này mình sẽ học cú pháp , cấu trúc cơ bản của HTML,CSS,Javascript và tự xây dựng được trang web cho mình.
 
 Bước 2 : Chọn công nghệ để làm phần backend (backend là những thứ mình không thấy được, như ví dụ điện thoại ở trên thì ta thấy những chiếc điện thoại mà mắt mình thấy được là do ở đâu mà có). Thông thường thì mình nên chọn Java làm ngôn ngữ để học phần backend. Nhưng ở giai đoạn này mình đã có kiến thức (từ vựng, cầu trúc ở phần frontend) nên khi học Java mình chỉ thay đổi từ vựng (từ khoá về ngôn ngữ đó) khác đi một chút xí, còn về nguyên lý các ngôn ngữ lập trình na ná nhau. Chính vì vậy nếu mình học tốt Javascript thì các ngôn ngữ khác như : Java , Ruby , Python , PHP, .Net (đây chính là các ngôn ngữ lập trình) đều rất đơn giản
 
