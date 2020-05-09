@@ -49,7 +49,7 @@ Bước 3 : Học về cơ sở dữ liệu
 
 Ở ví dụ điện thoại thì mình phải hình dung ra là những thông tin về điện thoại như tên, giá , nhà sản xuất phải được lưu trữ ở đâu để mình có thể lấy được dữ liệu lên. Chính vì vậy mà mình cần học thêm phần cơ sở dữ liệu. Thường mình sẽ bắt đầu với Mysql
 
-Sau khi trải qua 3 bước ở trên khi mình đã hiểu nguyên lý Front-end , Backend , Database như từ khoá phải sử dụng , các mệnh lênh (dòng code) để phần mềm có thể làm những điều mình muốn thì mình đã có thể làm được một ứng dụng hoàn chỉnh bắt đầu làm được phần mềm ở mức độ level 1 (beginer)
+Sau khi trải qua 3 bước ở trên khi mình đã hiểu nguyên lý Front-end , Backend , Database những từ khoá phải sử dụng , các mệnh lênh (dòng code) để phần mềm có thể làm những điều mình muốn thì mình đã có thể làm được một ứng dụng hoàn chỉnh bắt đầu làm được phần mềm ở mức độ level 1 (beginer)
 
 Bước 4 : Đạt các còn level của lập trình
 
