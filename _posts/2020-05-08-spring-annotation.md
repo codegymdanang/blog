@@ -459,3 +459,6 @@ public class AddToCartController {
  }
 }
 {% endhighlight %}
+
+Các annotation cho hibernate
+https://dzone.com/articles/all-hibernate-annotations-mapping-annotations
