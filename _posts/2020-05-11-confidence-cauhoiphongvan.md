@@ -22,11 +22,11 @@ Chào các em, hôm nay sẽ chia sẽ những kinh nghiệm của anh đứng t
 
 Ở công ty của anh hay ở các công ty phần mềm mà anh từng làm việc. Thông thường các bạn fresher , junior , dev sẽ trải qua 3 vòng thi.
 
-- Vòng 1 : Thi bài test đầu vào
+## Vòng 1 : Thi bài test đầu vào
 
 Trong vòng này các bạn sẽ được công ty đưa cho bài test để kiểm tra kiến thức về lập trình , tư duy logic , và tiếng anh . Trong đó bài thi kiến thức về lập trình là những câu trắc nghiệm tổng kết lại các kiến thức xoay quanh về nền tảng lập trình (java core), web (html,css,js) , database. Nói tóm lại kiến thức sẽ được kiểm tra từ front end đến backend và database .
 
-- Vòng 2 : Phỏng vấn kỷ thuật trực tiếp với đội ngũ team lead tại công ty.
+## Vòng 2 : Phỏng vấn kỷ thuật trực tiếp với đội ngũ team lead tại công ty.
 
 Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị là team lead của dự án. Thông thường các anh/chị sẽ hỏi các kiến thức từ cơ bản đến nâng cao. Sau đây anh sẽ ghi ra danh sách các câu hỏi mà anh và các nhà tuyển dụng hay hỏi
 
@@ -88,16 +88,16 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
 
 5. Các câu hỏi đánh giá khả năng học
 
-Ở câu hỏi này anh thường hỏi ngoài các công nghệ mà các em học ở trường, các em có biết thêm những công nghệ mới không. Ví dụ như các em trả lời là có học thêm các công nghệ mới như Angular , ReactJS, hoăc VuejS hay nói đang nghiên cứu các công nghệ 4.0 (Blockchain, AL , Big data). Dù các em chưa làm nhưng sẽ được các anh/chị đánh giá rất cao mình khả năng học hỏi của mình. Đó chính là điểm cộng mà mình hơn các ứng viên khác
+Ở câu hỏi này anh thường hỏi ngoài các công nghệ mà các em học ở trường, các em có biết thêm những công nghệ mới không. Ví dụ như các em trả lời là có học thêm các công nghệ mới như Angular , ReactJS, hoăc VuejS hay nói đang nghiên cứu các công nghệ 4.0 (Blockchain, AL , Big data). Dù các em chưa làm nhưng sẽ được các anh/chị đánh giá rất cao mình khả năng học hỏi của mình. Đó chính là điểm cộng mà mình hơn các ứng viên khác.
 
 6. Các câu hỏi về tư duy logic
 
 Ở đây thông thường các anh/chị đưa ra một vấn đề sau đó hỏi các em cách giải quyết như thế nào. Có thể câu trả lời không đúng 100% nhưng có ý gần đúng cũng như là đã okie.
 
-- Vòng 3 : Phỏng vấn với bộ phận nhân sự tại công ty
+## Vòng 3 : Phỏng vấn với bộ phận nhân sự tại công ty
 
 Vòng này các em sẽ phỏng vấn với bộ phận nhân sự tại công ty. Mình sẽ không hỏi các vấn đề về kỷ thuật nữa mà xoay quanh các vấn đề về thái độ. Trong ngành công nghệ thông tin. Các anh đều coi trọng thái độ hơn là trình độ. Có thể các bạn yếu về kỷ thuật nhưng có thái độ tốt . Các anh/chị hoàn toàn có thể giúp đở các em về mặt kỷ thuật để nâng cao tay nghề. Còn những ai mà bộ phận nhân sự cảm thấy không có thái độ tốt thì sẽ có nguy cơ bị loại.
 
 ## **Kết luận**
 
-Thông thường khi phỏng vấn fresher , junior hoặc dev thì các câu hỏi xoáy quanh về kiến thức nền tảng (core). Vì khi các bạn có nền tảng tốt lúc đó các anh/chị sẽ hướng dẫn nhanh hơn vào dự án tốt hơn. Cái quan trọng nữa là mình phải có thái độ đúng đắn trong nghề lập trình 
+Thông thường khi phỏng vấn fresher , junior hoặc dev thì các câu hỏi xoáy quanh về kiến thức nền tảng (core). Vì khi các bạn có nền tảng tốt lúc đó các anh/chị sẽ hướng dẫn nhanh hơn vào dự án tốt hơn. Cái quan trọng nữa là mình phải có thái độ đúng đắn trong nghề lập trình
