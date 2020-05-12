@@ -17,13 +17,13 @@ Chào các bạn , bạn đang có ý định làm một website cho mình nhưn
 để hỗ trợ việc làm website một cách đơn giản và đẹp .Hôm nay anh sẽ giới thiệu với các bạn Boostrap framework. Chúng ta sẽ đi qua các nội
 dung sau
 
-
 - Bootstrap là gì ?
 - Lợi ích của Bootstrap
 - Cài đặt Bootstrap
 - Một số tính năng quan trong của Boostrap
 - Video trình bày cách làm một trang web đẹp bằng Bootstrap
 
+<br>
 ### **2. Trước tiên ta hãy xem Bootstrap là gì**
 
 Boostrap là một framework gồm HTML , CSS , JS giúp chúng ta thiết kế website theo một chuẩn nhất định. Bootstrap định nghĩa
@@ -31,6 +31,7 @@ các thư viện có sẳn và ta chỉ việc dùng nó . Sử dụng Bootstrap
 sẳn các chức năng như Responsive (hiển thị được trên mobile , desktop , laptop , Ipad ) , các thành phần như button , text , form
 các animation (hiệu ứng) đã được tích hợp trong Boostrap.
 
+<br>
 ### **3. Lợi ích của Boostrap**
 
 - Dễ dàng thao tác . Boostrap có nguyên một bộ tài liệu hướng dẫn
@@ -39,6 +40,7 @@ các animation (hiệu ứng) đã được tích hợp trong Boostrap.
 - Giao diện các thành phần web đẹp , dù ta có mắt thẩm mỹ xấu vẫn làm được website đẹp.
 - Tái sử dụng .
 
+<br>
 ### **4. Cài đặt Boostrap cho dự án**
 
 - Chúng ta có thể cài boostrap từ CDN bằng cách thêm  dòng sau vào trang HTML.
@@ -75,7 +77,7 @@ Ví dụ <div class="container"> thì class container là của Bootstap . Như 
 
 - Chúng ta có thể download trực tiếp từ trang chủ của Boostrap (https://getbootstrap.com)
 
-
+<br>
 ### **5 Một số tính năng quan trọng của Bootstrap**  
 
 ####  Meta là gì ? Viewport ? content ? initial-scale ?
@@ -207,14 +209,14 @@ Bootstrap sử dụng hệ thống lưới 12 cột đại để là layout cho 
 
 3. Sử dụng icon SVG thay cho icon hỉnh ảnh thông thường (JPG, PNG,...) Các icon, hình ảnh dạng SVG sẽ không bị mờ khi thu phóng ở bất kỳ kích thước nào, điều này sẽ giúp nội dung của trang web hiển thị tốt nhất trên các thiết bị Retina như iPhone, iPad, Macbook
 
-
-
+<br>
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+<br>
 ### Các bạn có thể làm  một trang website giống 100% Zing.vn tại đây nhé
 
 {:refdef: style="text-align: center;"}

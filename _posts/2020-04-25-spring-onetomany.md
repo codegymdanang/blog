@@ -19,7 +19,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 - ManyToOne là gì ?
 - Cấu hình và triển khai một dự án dùng các annotation
 
-
+<br>
 ### **2. One To Many annotation**
 
 Anh lấy ví dụ như mình làm ứng dụng về bán hàng. Mình có chức năng lưu sản phẩm (Item)  vào  giỏ hàng (cart) .
@@ -56,13 +56,13 @@ public class Cart {
 }
 {% endhighlight %}
 
-
+<br>
 ### **3. Triển khai trong Java code
 
 Bây giờ anh sẽ hướng dẫn các bạn xây dựng ứng dụng shopping cart . Sử dụng @OneToMany và @ManyToOne để thiết lập mối quan hệ giữa
 Cart (gio hang) và Item (san phẩm).
 
-
+<br>
 #### Bước 1. Tạo các tables : Cart và Item
 
 {% highlight mysql  linenos %}
@@ -80,6 +80,7 @@ CREATE TABLE `Items` (
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 {% endhighlight %}
 
+<br>
 #### Bước 2. Thêm dependency trong maven
 
 {% highlight java linenos %}
@@ -96,6 +97,7 @@ CREATE TABLE `Items` (
 
 {% endhighlight %}
 
+<br>
 #### Bước 3. Tạo Entity Cart
 
 {% highlight java   linenos %}
@@ -121,6 +123,7 @@ Tiếp đến ta sẽ thấy từ mappedBy = "cart" . MappedBy dùng để đinh
 Và bắt buộc tên "cart" phải được định nghĩa trong Class Item. MappedBy giống như là 1 cầu nối để ta có thể từ Class Cart mình gọi hàm getItems mình
 sẽ nhận được một danh sách Items
 
+<br>
 #### Bước 4. Tạo Entity Items
 
 {% highlight java   linenos %}
@@ -145,6 +148,7 @@ Chúng ta thấy trong lớp Cart chúng ta định nghĩa @OneToMany và mapped
 Đầu tiên chúng ta sử dụng  @ManyToOne và @JoinColumn để định nghĩa cho biến cart để tạo sự liên kết ngược lại  giữa Class Items và Cart  .
 .Trong @JoinColumn ta định nghĩa name = "car_id" . Cái 'cart_id ' chính là  column khoá phụ trong table Items mà ta định nghĩa trong database . nullable = false là ta ràng buộc dữ liệu không được phép null
 
+<br>
 #### Bước 5. Test ứng dụng
 
 Chúng ta sẽ lưu giỏ hàng và các sản phẩm xuống database theo cách sau.
@@ -165,6 +169,7 @@ Chúng ta sẽ lưu giỏ hàng và các sản phẩm xuống database theo các
 
 {% endhighlight %}
 
+<br>
 ### **5. Kết luận**
 
 Như vậy chúng ta sử dụng annotaion @OneToMany và @ManyToOne để thực hiện việc liên kết giữa hai entity với nhau. Từ Cart ta có thể lấy các kết quả

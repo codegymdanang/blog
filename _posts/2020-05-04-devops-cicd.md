@@ -14,6 +14,6 @@ Chào các bạn, bạn đang thắc mắc CI/CD là cái gì trong lập trình
 hiệu quả cao không? Và tại sao các công ty đều sử dụng nó. Hôm nay anh sẽ giới thiệu cho mọi người một tool tên là Jenkins mà các doanh
 nghiệp hay dùng để làm CICD
 Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
-<br><br>
 
+<br>
 {% include youtubePlayer.html id=page.youtubeId %}

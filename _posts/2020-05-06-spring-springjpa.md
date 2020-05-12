@@ -22,6 +22,7 @@ Chào các em ,chủ đề hôm nay của anh là về JPA ? Anh sẽ giải th�
 - Hướng dẫn sử dụng JPA thông qua ví dụ.
 - Video demo cách sử dụng JPA.
 
+<br>
 ### **2. ORM là gì ?**
 
 ORM là viết tắt của Object Relational Mapping, là một quá trình ánh xạ (chuyển đổi) dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại.
@@ -53,7 +54,6 @@ Sau đây là bản mapping các kiểu dữ liệu trong mysql tương ứng v�
 {: refdef}
 
 <br>
-
 ### **3. Một số ORM Framework**
 
 Trong Spring thì thường mình  hay sử trong các dự án Java được cung cấp bởi nhà cung cấp sau.
@@ -63,8 +63,8 @@ Trong Spring thì thường mình  hay sử trong các dự án Java được cu
 - OpenJPA
 - EclipseLink
 - Apache Cayenne
-<br>
 
+<br>
 ### **4. JPA là gì ?**
 
 JPA viết tắc của từ Java Persitent API . Tầng Persistent có nhiệm vụ thao  tác với database như query lấy dữ liệu , lưu dữ liệu
@@ -72,7 +72,6 @@ xuống database . JPA cung cấp cho mình cơ chế ORM mapping các bảng, c
 thời cung cấp cho mình các method cần thiết để thao tác  dữ liệu trong database.
 
 <br>
-
 ### **5. Vai trò của tầng Persistent**
 
 {:refdef: style="text-align: center;"}
@@ -85,7 +84,6 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 4. Từ tầng Service nó gọi tầng Persisten (Trong các dự án mình sử dụng JPA) để thực hiện các thao tác xuống database và trả kết quả về
 
 <br>
-
 ### **6. Hướng dẫn sử dụng JPA thông qua ví dụ**
 
 Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ database và trả kết quả về cho người dùng . Và mình sẽ sử dụng thư viện spring-data-jpa để kết nối và thao tác với database.
@@ -223,7 +221,6 @@ Luống 2 : Trả dữ liệu từ Database .<br>
 Database -> JPA -> Service -> Controller -> Client .
 
 <br>
-
 ### **7. Kết luận**
 
 Tổng hợp các các cách  query xuống database .
@@ -231,8 +228,8 @@ Tổng hợp các các cách  query xuống database .
 2. Sử dụng @Query (ở ví dụ trên khi ta dùng @Query)
 3. Sử dụng @NameQuery
 4. Sử dụng EntityManager  
-<br>
 
+<br>
 ### Tại sao mình cần JPA
 
 1. Chúng ta chỉ tập trung vào viết chức năng của chương trình còn các việc như quản lý connection , cách query thì JPA sẽ lo
@@ -240,7 +237,6 @@ Tổng hợp các các cách  query xuống database .
 chương trình của mình.
 
 <br>
-
 ### **8. Video demo cách sử dụng JPA**
 
 {:refdef: style="text-align: center;"}

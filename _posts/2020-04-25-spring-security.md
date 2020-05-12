@@ -20,7 +20,7 @@ Bài viết sẽ đi qua các nội dụng sau đây
 - Mục tiêu của bài thực hành
 - Xây dựng một ứng dụng Spring Security với mysql database hoàn chỉnh
 
-
+<br>
 ### **2. Demo mục đích bài hướng dẫn hôm nay**
 
 Kết thúc bài giảng hôm nay các em sẽ làm được ứng dụng phân quyền tuỳ thuộc vào user đăng nhập vào hệ thống là user hay admin mà ta cho phép họ
@@ -34,6 +34,7 @@ vào trang web tương ứng. Ví dụ.
 ![Demo Spring Secu ](/images/post/spring/springsecurity.gif){:class="img-responsive"}
 {: refdef}
 
+<br>
 ### **2. Các khái niệm về Spring Security**
 
 - Authentication : Khi nói về authentication là ta nói về chức năng đăng nhập vào hệ thống. Authentication nghĩa là bạn có phải là người dùng của hệ thống hay không.
@@ -41,7 +42,7 @@ vào trang web tương ứng. Ví dụ.
 - Authorization  : Khi nói về authorization ta nói về quyền hạn được phép làm gì ? Trong ví dụ trên mình có user và admin . Bước đầu tiên họ phải authentication .
 xát thực mình là user trong hệ thống . Tiếp đến tuỳ vào role của mình là admin hay user mà mình chỉ có quyền truy cập một số trang nhất định thuộc thẩm quyền của mình.
 
-
+<br>
 ### **3. Hướng dẫn xây dựng ứng dụng Spring Security**
 
 Luồng đi của ứng dụng mình như sau.
@@ -53,8 +54,7 @@ Luồng đi của ứng dụng mình như sau.
 3. Controller sẽ gọi Service và Service sẽ gọi database để lấy thông tin authentication đúng không và role người dùng là gì?.
 4. Sau khi có thông tin đúng thì trả kết quả lại cho người dùng.
 
-
-
+<br>
 #### Bước 1 . Chuẩn bị database để lưu thông tin user và quyền
 
 Mình dùng database để lưu thông tin người dùng và role (vai trò,được phép làm gì). Phục vụ cho việc truy vấn username và role có hợp lệ hay không .
@@ -85,7 +85,7 @@ Nếu chạy script xong thì mình sẽ có 2 users sau :
 
 ![Cấu trúc dự án](/images/post/spring/springsecuritystructure.png){:class="img-responsive"}
 
-
+<br>
 #### Bước 2. Thêm dependencies cần thiết trong pom.xml
 
 Chúng ta thêm các dependencies spring security, thymeleaf, mysql connector và jpa.  
@@ -118,6 +118,7 @@ Chúng ta thêm các dependencies spring security, thymeleaf, mysql connector v�
 
 {% endhighlight %}
 
+<br>
 #### Bước 3. Tạo form login .
 
 Khi người dùng click vào nút submit thì action mình dùng là /j_spring_security_check cái này là mặc định của spring.
@@ -145,7 +146,7 @@ Khi người dùng click vào nút submit thì action mình dùng là /j_spring_
 </form>
 {% endhighlight %}
 
-
+<br>
 #### Bước 4. Tạo file WebSecurityConfig để cấu hình  cho Spring security .
 
 Các bạn có thể tìm thấy file đó ở github ở trên trong thư mục configure/WebSecurityConfig.
@@ -234,7 +235,7 @@ Username này là ai trong hệ thống , UserName này có quyền gì. Chúng 
     }
 {% endhighlight %}
 
-
+<br>
 #### Bước 5. Tạo UserDetailsServiceImpl
 
 File này sẽ implement UserDetailsService của Spring và định nghĩa cách kiểm tra username , password và quyền của user có hợp lệ hay không
@@ -277,6 +278,7 @@ Khi user login vào hệ thống ta sẽ query xuống database để kiểm tra
     }
 {% endhighlight %}
 
+<br>
 ##### Bước 6. Tạo các điều hướng trong controller
 
 Khi người dùng đã đang nhập thành công , họ có thể điều hướng tới các trang khác .Thì mình sẽ tạo các mapping trong Controller
@@ -353,6 +355,7 @@ Khi người dùng đã đang nhập thành công , họ có thể điều hư�
     }
 {% endhighlight %}
 
+<br>
 ##### Bước 7. Tạo Repository để query database
 
 Chúng ta tạo file  AppUserDAO sử dụng entity manager để tạo và thực thi câu lệnh SQL .
@@ -384,17 +387,17 @@ public class AppUserDAO {
 }
 {% endhighlight %}
 
-
+<br>
 ##### Bước 8 . Tạo các trang view cần thiết để hiện thị
 Mọi ngừoi có thể lấy trực tiếp từ github của anh trong folder view.
 
-
+<br>
 ##### Bước 9. Chạy ứng dụng
 
 Như vậy là mình đã xong cấu hình cho Spring security . Phần quan trong nhất  chính là bước 4. Nới mình cấu
 hình và phân quyền trong Spring Security .
 
-
+<br>
 ### Mọi người có thể xem thêm lý thuyết tại đây nhé
 
 {:refdef: style="text-align: center;"}

@@ -18,7 +18,7 @@ Chào các em , hôm nay anh sẽ giới thiệu với các bạn các loại HT
 - Các khái niệm quan trọng
 - So sách sự khác nhau của các phương thức request
 
-
+<br>
 ### **2. Tổng hợp các loại request**
 
 Có tất cả 9 loại request.
@@ -33,7 +33,7 @@ Có tất cả 9 loại request.
 8. OPTIONS: mô tả các tùy chọn giao tiếp cho resource.
 9. TRACE: thực hiện một bài test loop - back theo đường dẫn đến resource.
 
-
+<br>
 ### **3. Một số khái niệm khác**
 
 - SAFE : một method được coi là safe khi nó không làm thay đổi trạng thái "sate" của server. Nói cách khác, an toàn là chỉ đọc mà không làm thay đổi bất kì điều gì. Các method được coi là safe chỉ có: GET, HEAD và OPTIONS.
@@ -43,13 +43,14 @@ vì điều này nên các method safe thì đều idempotent. Nhưng unsafe ch�
 
 - Một số lưu ý: header dài tối đa 8kb và cũng phụ thuộc cả vào trình duyệt, body thì limit của nó tùy trình duyệt. Url không dài quá 2 nghìn kí tự (ror).
 
+<br>
 ### **4. GET VS POST**
 
 Một ứng dụng web được thiết kế theo restful thì get chỉ dùng để lấy dữ liệu và post chỉ dùng để đẩy dữ liệu lên.
 Một chút khác biệt dễ nhận thấy giữa get và post là get thì không có body. Khi dùng get để truyền dữ liệu lên sever chúng ta thấy rằng tất cả các paramater đều bị hiển thị trên url của request, xét về khía cạnh bảo mật thì điều này thật là tệ.
 Post thì khác, nó giấu parameters trong body và mã hóa chúng đi, ngăn cản các phần tử trung gian ăn cắp nội dung. Nhưng post chỉ có tính an toàn đối với client, còn với sever thì lại khác. Các method như post, put, delete bị coi là unsafe và not idempotent cho server.
 
-
+<br>
 ### **5. POST/PUT/PATCH**
 
 - Điểm khác biệt giữ post và put đơn giản là put là idempotent còn post thì không, bạn sẽ nhận được thông báo lỗi khi gửi một request post với cùng 1 nội dung 2 lần nhưng put thì không, nó luôn trả về kết quả như nhau.
@@ -57,7 +58,7 @@ Post thì khác, nó giấu parameters trong body và mã hóa chúng đi, ngăn
 - Put: ghi đè(toàn bộ) hoặc tạo mới 1 resource.
 - Patch: cập một 1 phần của resource.
 
-
+<br>
 ### **6. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
 {% include youtubePlayer.html id=page.youtubeId %}

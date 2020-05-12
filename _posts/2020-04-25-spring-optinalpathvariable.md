@@ -19,7 +19,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 - Sử dụng Optional PathVariable ?
 - Cấu hình và triển khai một dự án dùng các annotation
 
-
+<br>
 ### **2. PathVariable dùng để làm gì**
 
 Như các em đã thấy trong bài RequestMaping anh viết lần trước. Chúng ta sử dụng
@@ -52,6 +52,7 @@ org.springframework.web.bind.MissingPathVariableException:
 
 Như vậy để làm sao mình không bị lỗi như trên . Giải pháp sẽ là dùng optional
 
+<br>
 ### **3. Sử dụng Optional Parameter**
 
 Cũng ví dụ code về controller trên. Bây giờ ta thêm Optional vào
@@ -74,6 +75,7 @@ Nếu ta có request là /article/123 thì mình gán giá trị 123 vô tham s�
 
 Nếu ta có request là /article thì optiontalArticleId sẽ là null. Khi sử dụng Optional ta sẽ cos được các method của Optional như isPresent(), get(), or orElse() để ta có thể truy cập và thao tác và xử lý theo ý ta mong
 
+<br>
 ### **4. Kết luận**
 
 Mình không nên sử dụng @RequestMapping(value = {"/article", "/article/{id}"}") cho cùng môt method vì nó dể gây ra nhầm lẫn. Tốt nhất 1 request nên được xử lý bởi môt method.

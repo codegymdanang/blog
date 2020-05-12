@@ -18,5 +18,5 @@ Chào các bạn, chắc hẳn bạn rất thích lập trình và mong muốn b
 - Xu hướng công nghệ trong tương lai
 - Các tools và ngôn ngữ lập trình các doanh nghiệp đang sử dụng
 
-
+<br>
 {% include youtubePlayer.html id=page.youtubeId %}

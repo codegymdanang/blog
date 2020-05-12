@@ -20,6 +20,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 - Cài đặt Maven
 - Kết luận
 
+<br>
 ### **2. Maven là gì ?**
 
 Maven là một tool ta sử dụng chung với các dự án java . Mục đích chính của Maven dùng để quản lý các thư viện được dùng chung với dự án java.
@@ -28,6 +29,7 @@ Trong trường hợp này mình sử dụng Maven để lấy thư viện faceb
 Ngoài việc quản lý thư viện và version của thư viện. Thì mình dùng Maven để tự động build dự án của mình , đồng thời mình có thể thực hiện các lệnh maven
 để deploy sản phẩm của mình lên các con server khác nhau
 
+<br>
 ### **3. Khai báo dependency trong POM**
 
 Để nhúng một thư viện vào dự án Trong file pom.xml ta sử dụng đoạn mã sau:
@@ -99,6 +101,7 @@ Ngoài việc quản lý thư viện và version của thư viện. Thì mình d
 
 {% endhighlight %}
 
+<br>
 ### **3. Maven Repository**
 
 Bạn có thắc mắc vì sao ta chỉ khai báo cách dưới đây mà dự án của ta lấy được file slf4j-api và nhúng vào dự án mình không ?

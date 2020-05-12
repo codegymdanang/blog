@@ -19,6 +19,7 @@ Hôm nay anh sẽ trình bày nguyên lý và sự khác nhau của session và 
 - So sánh Sesion và Cookie
 - Video demo
 
+<br>
 ### **2. Session là gì**
 
 Một session hay còn gọi là một phiên làm việc. Nó  là cách giao tiếp giữa client (trình duyệt web) với server.
@@ -28,13 +29,13 @@ Với mỗi session sẽ được cấp phát một định danh duy nhất Sess
 Sau khi server tạo các giá trị session , server sẽ tạo ra một tệp tin cookie lưu trên trình duyệt của người  dùng  ứng với session đó. Như vậy chỉ cần so sánh tệp tin cookie bên phía client được gửi lên sever và tệp session được lưu trên server
 để xem làm trình duyệt đó là mới hay cũ.
 
-
+<br>
 ### **3. Cookie là gì**
 
 Cookie cũng được dùng để lưu những thông tin tạm thời. ệp tin cookie sẽ được truyền từ server tới browser và được lưu trữ trên máy tính của bạn khi bạn truy cập vào ứng dụng.
 Như vậy dù có tắt browser cũng không mất đi các giá trị vì chúng ta đã lưu nó trên máy tính của mình.
 
-
+<br>
 ### **4. So sánh session và cookie**
 
 {:class="table table-bordered"}
@@ -45,8 +46,7 @@ Như vậy dù có tắt browser cũng không mất đi các giá trị vì chú
  |  Dữ liệu cookie dễ dàng sửa đổi hoặc đánh cắp khi chúng được lưu trữ ở phía client      |   Dữ liệu session không dễ dàng sửa đổi vì chúng được lưu trữ ở phía máy chủ.|
  |  Dữ liệu cookie có sẵn trong trình duyệt đến khi expired.   | Sau khi đóng trình duyệt sẽ hết phiên làm việc (session)   |
 
-
-
+<br>
 ### **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
 {:refdef: style="text-align: center;"}

@@ -20,7 +20,7 @@ anh sẽ trình bày sự khác nhau đó .Chúng ta sẽ thảo luận các v�
 - Kết hợp cả hai trong lập trình ?
 - Video hướng dẫn cách làm
 
-
+<br>
 ### **2. Request Param**
 
 Sử dụng Request Param ở server  để lấy giá trị người dùng nhập trên trình duyệt .
@@ -35,7 +35,7 @@ public String getDetails(@RequestParam(value="param1", required=true) String par
 }
 {% endhighlight %}
 
-
+<br>
 ### **3. Path Variable
 
 Sử dụng Path Variable ở server  để lấy giá trị người dùng nhập trên trình duyệt.
@@ -51,7 +51,7 @@ public List<Invoice> listUsersInvoices(
 }
 {% endhighlight %}
 
-
+<br>
 ### **4. Kết hợp cả 2 trong 1 request
 http://localhost:8080/MyApp/user/1234/invoices?date=12-05-2013
 
@@ -64,7 +64,7 @@ public List<Invoice> listUsersInvoices(
 }
 {% endhighlight %}
 
-
+<br>
 ### **5. Kết luận
 
 Cả 2 cách trên đều thực hiện chung một nhiệm vụ là lấy các tham số từ người dùng truyền lên. Bạn sử dụng cái nào cũng làm được
@@ -72,7 +72,7 @@ mục đích của mình . Tuy nhiên tuỳ vào thiết kế của một hệ t
 hiệu quả cao được . Lấy ví dụ mình viết Restfull Web Service thì chắc chắn mình phải dùng Path Variable . Còn thường Request Param khi ta chỉ muống
 query data trên URL.
 
-
+<br>
 ### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
 {:refdef: style="text-align: center;"}

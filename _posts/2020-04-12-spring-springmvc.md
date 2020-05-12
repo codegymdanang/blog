@@ -19,7 +19,7 @@ Trong bài này anh sẽ hướng dẫn mọi người các bước mà SpringMV
 - Luồng đi của ứng dụng Spring MVC
 - Video tạo một dự án bằng Spring MVC
 
-
+<br>
 ### **2. Luồng đi của ứng dụng MVC qua các tầng**
 
 Trước hết mình đi qua hình ảnh về luồng đi của ứng dụng spring gồm có các thành phần nào.
@@ -43,8 +43,8 @@ và chuyển hoá dữ liệu trong database thành model và trả ngược l�
 6. DispatcherServlet sẽ dự vào tên view mà controler trả về . Nó sẽ đi tìm trang view (thymeleaf,jsp) tương ứng dựa vào việc ta cấu hình View Reolver mà Dispatcher biết phải tìm thấy trang view ở đâu
  đồng thời truyền model để trang view hiểu thị dữ liệu. Kết quả cuối cùng là ta có một trang website hoàn chỉnh có HTML và dữ liệu .
 7. Cuối cùng DispatchServlet gửi lại kết quả trang web cho client.
-<br>
 
+<br>
 ### **3. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
 {:refdef: style="text-align: center;"}

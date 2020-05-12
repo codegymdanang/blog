@@ -20,7 +20,7 @@ Chào các em ,như các em thấy trong các Entity mình annotation @Generated
 - Table  Generation ?
 - Cấu hình và triển khai một dự án dùng các annotation
 
-
+<br>
 ### **2. Auto Generation**
 
 Nếu ta không khai báo strategy thì mình sẽ sử dụng default generation để sinh ra giá trị cho khoá chính. Thì trường khoá chính sẽ có giá trị là số hoặc UUID
@@ -59,6 +59,7 @@ public class Course {
 }
 {% endhighlight %}
 
+<br>
 ### **3. IDENTITY Generation**
 
 Khi sử dụng strategy Identity có nghĩa khoá chính sẽ tự động tăng lên
@@ -77,6 +78,7 @@ public class Student {
 
 Lúc này giá trị cửa studentId sẽ là 1,2,3,4,5 ...
 
+<br>
 ### **4. SEQUENCE Generation**
 
 Chúng ta sử dụng sequen-generator để có cấu hình cách tạo ra các giá trị cho khoá chính.
@@ -105,8 +107,10 @@ public class User {
 }
 {% endhighlight %}
 
+<br>
 ### **4. Table Generation**
 
+<br>
 ### **5. Tự tạo Generation cho chúng ta**
 
 Chúng ta có thể hoàn toàn tự tạo một Generator theo ý của mình bằng cách implements IdentifierGenerator. Ví dụ như
@@ -163,6 +167,7 @@ public class Product {
 }
 {% endhighlight %}
 
+<br>
 ### **6. Kết luận**
 
 Chúng ta có 4 loại generator chúng trả về kết quả gần như nhau nhưng khác nhau ở cơ chế thực hiện  của database  
