@@ -24,6 +24,7 @@ viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào m�
 - Khi nào chúng ta nên dùng Abstract hoặc Interface
 - Video demo
 
+<br>
 ### **1. Interface là gì**
 
 Interface chính là cách mình áp dụng tính trừa tượng trong lập trình. Interface chính là 100% abstract class để nhóm các phương thức liên quan với nhau và không có
@@ -60,7 +61,7 @@ Một số chú ý khi sử dụng Interface.
 - Các lớp có thể cài đặt (implements) một hoặc nhiều Interface.
 - Interface thì không có constructor chính vì vậy mà ta không thể tạo object của một Interface được
 
-
+<br>
 ### **2. Abstract là gì**
 
 Data Abstraction là quá trình che giấu đi những dữ liệu quan trọng mình chỉ đưa ra những thông tin cần thiết cho người dùng. Để làm được abstraction trong lập  ta
@@ -92,6 +93,7 @@ class Pig extends Animal {
 
 {% endhighlight %}
 
+<br>
 ### **3. Sự khác nhau giữa abstract và interface**
 
  {:class="table table-bordered"}
@@ -102,13 +104,14 @@ class Pig extends Animal {
  |   Access Modifier	                |   có thể đặt tất cả modifier	    |   Mọi phương thức và thuộc tính là  public	        |  
  |   Mục đích sử dụng                   |     IS  A    |    HAS A (Can do)    |
 
-
+<br>
 ### **4. Khi nào dùng abstract**
 
 - Khả năng mở rộng không cần xoá hết code làm lại.
 - Tăng tính bảo mật e dấu các dữ liệu quan trong ch
 - Khi các lớp có mối liên hệ cha  với nhau ví dụ như con gà , chó , mèo  chúng đều là động vật (Animal)
 
+<br>
 ### **5. Khi nào dùng interface**
 
 - Mục đích chính của interface là dùng cho tính đa hình. Khả năng thực hiện các hành động khác nhau trên các ngữ cảnh khác nhau.
@@ -117,13 +120,14 @@ class Pig extends Animal {
 - Chúng ta muốn sử dụng đa thừa kế.
 - Tăng cường tính bảo mật . Người dùng chỉ có thể thấy được method nhưng không thấy được nội dung code bên trong
 
+<br>
 ### **6. Demo tạo abstract**  
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId1 %}
 </center>
-<br>
 
+<br>
 ### **6. Demo tạo interface**  
 
 <center>
