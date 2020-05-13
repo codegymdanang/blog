@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Spring JPA Query
 image: /images/blog/spring.png
-description : jpa query , @query
+description : jpa query , @query, creation query , name query, truy vấn dữ liệu trong spring data jpa
 youtubeId: WNfuVJptPnQ
 ---
 
@@ -15,7 +15,10 @@ youtubeId: WNfuVJptPnQ
 Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về các cách để query dữ liệu từ database thông qua Spring Data JPA. Nội
 dung sẽ xoay quanh các vấn đề  
 
-- @Query
+- Annotation @Query
+- Creation Query
+- NameQuery
+- Các annotation bổ trợ khác
 
 Giả sử ta có entity như sau
 
