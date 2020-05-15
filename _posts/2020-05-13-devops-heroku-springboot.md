@@ -19,6 +19,7 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn cách triển khai một ứn
 - Các bước chuẩn bị để triển khai ứng dụng heroku
 - Video hướng dẫn cách triển khai
 
+<br>
 ### **2. Hosting là gì**
 
 Khi mình phát triển ứng dụng và chạy ứng dụng trên máy của mình thì mình hay nhập url là http://localhost:8080. Lúc này chỉ có một mình có thể xem được trang web ứng dụng của mình. Người dùng không thể truy cập được trang web của mình. Nghĩa là mình đang hosting cái web trên cái máy localhost của mình. Trong cái máy localhost của mình sẽ có RAM, CPU , SDK , Mysql và các thư viện khác để ứng dụng có thể chạy được.
@@ -27,11 +28,13 @@ Câu hỏi đặt ra nếu mình muốn triển khai ứng dụng cho tất cả
 
 Sau khi triển khai xong thì mình hoàn toàn có thể xem trang web bất cứ đâu với link http://192.168.1.2:8080 (địa chỉ IP do nhà cung cấp phát cho mình khi mình mua server).
 
-### **2. Domain là gì**
+<br>
+### **3. Domain là gì**
 
 Như các em thấy ở trên để vào được ứng dụng thì người dùng phải gõ số IP (192.168.1.2) cái này rất bất tiện vì không phải ai cũng nhớ IP mà vô trang web mình . Thay vào đó mình có thể đặt cho nó một cái tên như http://levunguyen.com lúc đó nó sẽ hiển thị trang web mình lên. Như vậy đọc levunguyen.com là dể nhớ hơn IP 192.168.1.2. Để làm được việc này chúng ta có thể mua domain trên mạng. Thông thường anh hay mua trên godaddy hoặc PA Việt Nam. Một domain nếu chưa có thì mua thì giá tầm 198.000/năm đến 1.000.000 /năm . Sau khi mua domain xong mình vào trang sản phẩm của mình và cấu hình lại DNS trỏ tới server 192.168.1.2. Như vậy khi người dùng gõ vào http://levunguyen.com thì nó sẽ trỏ tới server (192.168.1.2)
 
-### **3. Các bước chuẩn bị để triển khai ứng dụng heroku**
+<br>
+### **4. Các bước chuẩn bị để triển khai ứng dụng heroku**
 
 Heroku là một nền tảng điện toán đám mây (cloud) cho phép mình triển khai ứng dụng lên server đó mà không mất phí. Tuy nhiên vẫn có phiên bản trả phí từ 7 USD tới 250 USD . Khi dùng bản trả phí thì mình có nhiều chức năng hơn. Trong bài này thì mình dùng bản miễn phí
 
