@@ -35,34 +35,35 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
 
 1. Kiến thức Java nền tảng
   + Lập trình hướng đối tượng là gì? [Trả lời](https://levunguyen.com/laptrinhjava/2020/04/01/lap-trinh-huong-doi-tuong-trong-java/)
-  + Các tính chất của lập trình hướng đối tượng ?
+  + Các tính chất của lập trình hướng đối tượng ? [Trả lời](https://levunguyen.com/laptrinhjava/2020/04/01/lap-trinh-huong-doi-tuong-trong-java/)
   + While và doWhile khác nhau như thế nào ?
-  + Hỏi về cách hoạt động của các collection Framework như list , map , set , queue , stack.
-  + Phân biệt ArrayList , Linkedlist và Vector.
-  + Sự khác nhau giữa ArrayList và Array.
-  + Sự khác nhau giữa Linkedlist với Arraylist.
-  + Sự khác nhau của Set và List.
+  + Hỏi về cách hoạt động của các collection Framework như list , map , set , queue , stack.[Trả lời](https://levunguyen.com/laptrinhjava/2020/04/04/cac-tap-hop-trong-lap-trinh-java/)
+  + Phân biệt ArrayList , Linkedlist và Vector. [Trả lời](https://levunguyen.com/laptrinhjava/2020/04/04/cac-tap-hop-trong-lap-trinh-java/)
+  + Sự khác nhau giữa ArrayList và Array.[Trả lời](https://levunguyen.com/laptrinhjava/2020/04/04/cac-tap-hop-trong-lap-trinh-java/)
+  + Sự khác nhau giữa Linkedlist với Arraylist.[Trả lời](https://levunguyen.com/laptrinhjava/2020/04/04/cac-tap-hop-trong-lap-trinh-java/)
+  + Sự khác nhau của Set và List.[Trả lời](https://levunguyen.com/laptrinhjava/2020/04/04/cac-tap-hop-trong-lap-trinh-java/)
   + Sự khác nhau giữa override và overload.
   + Phân biệt các kiểu dữ liệu trong java. Khác nhau thế nào ?
-  + Phân biệt sự khác nhau của các access modifier
-  + Generic là gì? Cho ví dụ minh hoạ? Tại sao dùng Generic.
-  + Sự khác nhau giữa abstract class và Interface.
+  + Phân biệt sự khác nhau của các access modifier [Trả lời](https://levunguyen.com/laptrinhjava/2020/04/05/phan-biet-access-modifier-trong-java/)
+  + Generic là gì? Cho ví dụ minh hoạ? Tại sao dùng Generic. [Trả lời](https://levunguyen.com/laptrinhjava/2020/04/03/generic-la-gi/)
+  + Sự khác nhau giữa abstract class và Interface. [Trả lời](https://levunguyen.com/laptrinhjava/2020/04/02/su-khac-nhau-giua-abstract-interface/)
   + Ngoại lệ (Exception là gì) ? Phân biệt check và uncheck exception.
-  + Tham trị và tham chiếu là gì?
-  + Bộ nhớ Heap và Stack.
+  [Trả lời](https://levunguyen.com/laptrinhjava/2020/04/11/ngoai-le-trong-lap-trinh-java/)
+  + Tham trị và tham chiếu là gì? [Trả lời](https://levunguyen.com/laptrinhjava/2020/04/06/tham-tri-va-tham-chieu-trong-lap-trinh-java/)
+  + Bộ nhớ Heap và Stack.[Trả lời](https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/)
   + Sư khác nhau giữa Object và Class là gì ?
   + Thuật toán tìm kiếm nhị phân.
   + Thuật toán săp xếp.
 
 2. Kiến thức về framework (ví dụ như học Spring Framework của Java)
-  + Mô tả luồng đi của một ứng dụng MVC
-  + Dependency Injection là gì ?
-  + Giải thích các annotation @Controller , @Service , @Repository , @Autowire
-  + JPA là gì ?
+  + Mô tả luồng đi của một ứng dụng MVC [Trả lời](https://levunguyen.com/laptrinhspring/2020/04/12/spring-mvc-la-gi/)
+  + Dependency Injection là gì ? [Trả lời](https://levunguyen.com/laptrinhspring/2020/04/13/dependency-injection-la-gi/)
+  + Giải thích các annotation @Controller , @Service , @Repository , @Autowire.  [Trả lời](https://levunguyen.com/laptrinhspring/2020/05/08/spring-annotation/)
+  + JPA là gì ? [Trả lời](https://levunguyen.com/laptrinhspring/2020/05/06/spring-jpa-la-gi/)
   + Webservice là gì?
   + Maven dùng để làm gì?
-  + ORM mapping là gì?
-  + Sự khác nhau của session và cookie
+  + ORM mapping là gì? [Trả lời](https://levunguyen.com/laptrinhspring/2020/05/06/spring-jpa-la-gi/)
+  + Sự khác nhau của session và cookie. [Trả lời](https://levunguyen.com/laptrinhspring/2020/04/23/phan-biet-session-cookie/)
   + Mô hình MVC là gì?
   + Làm sao để bảo mật trong lập trình.
 
@@ -75,7 +76,7 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
   + Khoá ngoại là gì?
   + Composite key là gì?
   + Unique là gì ?
-  + Giải thích các rule chuẩn hoá dữ liệu
+  + Giải thích các rule chuẩn hoá dữ liệu.[Trả lời](https://levunguyen.com/database/2020/05/03/cac-buoc-chuan-hoa-du-lieu/)
   + Sự khác nhau truncate , delete , drop
   + Sự khác nhau having và where
   + Transaction là gì?
