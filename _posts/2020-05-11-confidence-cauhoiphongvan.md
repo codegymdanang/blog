@@ -35,6 +35,7 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
 
 1. Kiến thức Java nền tảng
   + Lập trình hướng đối tượng là gì?
+    + Trả lời {{ site.baseurl }}{% link _posts/2020-04-01-java-oop.md %}
   + Các tính chất của lập trình hướng đối tượng ?
   + While và doWhile khác nhau như thế nào ?
   + Hỏi về cách hoạt động của các collection Framework như list , map , set , queue , stack.
