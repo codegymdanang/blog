@@ -34,8 +34,7 @@ Trong vòng này các bạn sẽ được công ty đưa cho bài test để ki�
 Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị là team lead của dự án. Thông thường các anh/chị sẽ hỏi các kiến thức từ cơ bản đến nâng cao. Sau đây anh sẽ ghi ra danh sách các câu hỏi mà anh và các nhà tuyển dụng hay hỏi
 
 1. Kiến thức Java nền tảng
-  + Lập trình hướng đối tượng là gì?
-    + Trả lời {{ site.baseurl }}{% link _posts/2020-04-01-java-oop.md %}
+  + Lập trình hướng đối tượng là gì? [Trả lời](https://levunguyen.com/laptrinhjava/2020/04/01/lap-trinh-huong-doi-tuong-trong-java/)
   + Các tính chất của lập trình hướng đối tượng ?
   + While và doWhile khác nhau như thế nào ?
   + Hỏi về cách hoạt động của các collection Framework như list , map , set , queue , stack.
