@@ -37,7 +37,8 @@ Trước tiên chúng ta sẽ tìm hiểu webstie là gì? Anh ví dụ khi mọ
 
 - Đây chính là luồng đi của ứng dụng website . Client yêu cầu (request) server trả về một resouce mà mình mong muốn. Resource ở đây có thể là html , một cái ảnh hay một cái file.
 
-### **2. Webservice là gì ?**
+<br>
+### **3. Webservice là gì ?**
 
 Cũng là ví dụ trên nhưng giờ người dùng (client) không dùng website nữa mà thay vào đó là ứng dụng trên điện thoại di động. Người dùng mở điện thoại và bật ứng dụng lazada lên. Như các em thấy trên ứng dụng di động chúng ta không thể trả về html,css được. Mà ta chỉ muốn server trả về dữ liệu (data) sau đó mình sẽ dùng ngôn ngữ lập trình của mobile để hiển thị dữ liệu.
 
@@ -63,7 +64,7 @@ Thông thường server sẽ trả dữ liệu dựa trên 2 dạng là XML và 
 {% endhighlight %}
 
 <br>
-### **3. Restfull webservice là gì?
+### **4. Restfull webservice là gì?**
 
 REST là viết tắt của từ (REpresentational State Transfer ). Anh lấy ví dụ về lazada . Khi mình vào click vô xem chi tiết của một sản phẩm thì mình sẽ thấy thông tin của nó gồm mô tả , giá , số lượng. Như vậy khi client gửi request (yêu cầu) lên server để lấy thông tin về sản phẩm. Ví dụ backend là mình viết bằng Spring (java) thì lúc đó Controller sẽ gọi các services để lấy dữ liệu và kết quả của các service trả về là một đối tượng Product (có thuộc tính mô tả, giá , số lượng). Tuy nhiên ta sẽ không trả về đối tượng Product cho client ngay mà đối tượng Product đó sẽ được chuyển đổi thành dạng Json hoặc XML rồi gửi về cho client.
 
@@ -141,6 +142,6 @@ public class BookController {
 Ở ví dụ trên nếu phương thức request là Post sẽ gọi hàm create. Nếu phương thức request là Delete sẽ gọi hàm delete. Như vậy Rest quy định rất rõ ràng  từng phương thức tương ứng với hành động CRUD
 
 <br>
-### **4. Kết luận?
+### **5. Kết luận?**
 
 Ngày nay thì đa số các ứng dụng webservice đều là Restfull cả . Vì nó có nhiều ưu điểm hơn các loại khác như Web Service dựa trên SOAP và WSDL. Đồng thời REST để bảo trì và mở rộng.
