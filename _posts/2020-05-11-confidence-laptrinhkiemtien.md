@@ -17,6 +17,10 @@ Chào các bạn, chắc hẳn bạn sẽ thắc mắc lập trình viên có gi
 <br>
 ### **1. Nguồn thu nhập 1- Có một công việc ổn định tại một công ty lập trình**
 
+{:refdef: style="text-align: center;"}
+![smartdev](/images/post/softskills/smartdev.jpg){:class="img-responsive"}
+{: refdef}
+
 Sau khi ra trường hầu hết các em phải kiếm được một công ty phù hợp với năng lực của mình. Đồng thời năm đầu tiên chúng ta lựa chọn môi trường có thể phát triển bản thân, môi trường mà ta học hỏi được nhiều kinh nghiệm lập trình. Chứ đừng vì chỗ này trả lương cao hơn chỗ kia , đừng để tiền bạc chi phối khả năng phát triển bản thân. Trường hợp có công ty trả lương cao và ở đó mình học được nhiều kỷ thuật thì mình nên chọn. Còn như công ty mà trả lương cao nhưng môi trường phát triển không có thì mình không nên vào đấy, mà có thể chọn công ty trả lương thấp nhưng cho mình lại nhiều kiến thức , nhiều kinh nghiệm trực chiến dự án. Như vậy là mình đã có một nguồn thu nhập ổn định hàng.
 
 <br>
@@ -24,16 +28,26 @@ Sau khi ra trường hầu hết các em phải kiếm được một công ty p
 
 Hiện nay các developer từ 2 -> 5 năm kinh nghiệm thường sẽ lấy thêm dự án bên ngoài về làm thêm.
 Sau khi kết thúc công việc ở công ty. Họ về nhà nghỉ ngơi tới tầm 8,9 h tối. Sau đó họ sẽ code thêm các dự án mà họ kiếm được trên mạng . Thường thì các dự án freelancer các nhà đầu tư thường trả từ 8 USD -> 20 USD trên 1 giờ tuỳ vào năng lực của mình mà số tiền khác hàng sẽ trả khác nhau. Các trang freelancer mà anh biết là Upwork vs Freelancer.com . Đây là 2 trang khá nỗi tiếng mà mình có thể xây dựng profile của mình trên đó và kiếm các dự án. Ngoài các trang trên thì mình còn rất nhiều trang freelancer quốc tế và Việt Nam.
+{:refdef: style="text-align: center;"}
+![freelancer](/images/post/softskills/freelancer.jpg){:class="img-responsive"}
+{: refdef}
 
 <br>
 ### **3. Nguồn thu nhập 3-Xây dựng ứng dụng và đặt quảng cáo**
 
 Các developer hiện này có thể xây dựng các ứng dụng trên android , ios , web về các chủ đề như ca nhạc , tin tức , hài, etc , những chủ đề mà mọi người vào nhiều . Sau đó đăng ký quảng cáo với google lúc đó google sẽ cấp phát một đoạn code và mình nhúng đoạn code đó vào sản phẩm của mình. Dựa vào tầng suất số lượng quảng cáo đó được click hoặc hiển thị thì google sẽ trả cho mình một số tiền nhất định hàng tháng. Mình có thể đăng ký với google adsense để lấy mã quảng cáo. Ngoài google adsense thì còn rất nhiều loại khác nữa cũng trả tiền cho mình dựa vào tần suất quảng cáo được click và hiển thị
+{:refdef: style="text-align: center;"}
+![ad](/images/post/softskills/mobileadv.jpeg){:class="img-responsive"}
+{: refdef}
 
 <br>
 ### **4. Nguồn thu nhập 4-Xây dựng blog và đặt quảng cáo**
 
 Cũng tương tự như cách kiếm tiền ở trên, thay vì làm các ứng dụng. Các lập trình viên có thể làm các blog về lập trình . Chia sẽ các kiến thức của mình học đồng thời đặt quảng cáo để có thể kiếm tiền.
+
+{:refdef: style="text-align: center;"}
+![blog](/images/post/softskills/blogadv.png){:class="img-responsive"}
+{: refdef}
 
 <br>
 ### **5. Nguồn thu nhập 5-Viết sách**
