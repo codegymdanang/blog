@@ -127,4 +127,5 @@ Kết quả mình nhận được sẽ là một file json . Trong đó có giá
 
 Ngày nay thì mình sử dung Restful webservice nhiều hơn SOAP webservice . Vì ưu điểm của Restful là truyền dữ liệu đi nhanh hơn, ít tốn băng thông.
 
-Trong các bài tiếp theo anh sẽ hướng dẫn mọi người chi tiết về Restful là gì ? Cách tạo Restful trong Spring .
+Các em muốn biết Restful là gì thì đọc bài này nhé
+[Restfull là gì](https://levunguyen.com/laptrinhspring/2020/05/10/restful/)
