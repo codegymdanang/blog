@@ -56,3 +56,6 @@ Trong lập trình thì quan trong nhất là khả năng đọc  tiếng anh đ
 ### **Kết luận**
 
 Tiếng Anh thật sự rất quan trọng trong sự nghiệp của một lập trình viên. Nó giúp chúng ta nâng cao tay nghề , đồng thời mở ra cho chúng ta vô số con đường thành công khác. Hy vọng các em đầu tư thêm thời gian cho việc học tiếng Anh của mình
+
+Các em muốn biết học lập trình bắt đầu từ đâu thì đọc bài này nhé
+[click bài này](https://levunguyen.com/career/2020/05/11/hoc-lap-trinh-bat-dau-tu-dau/)
