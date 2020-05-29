@@ -77,6 +77,6 @@ Một lập trình viên chuyên nghiệp, tay nghề cao thì việc đầu ti�
 Trong Java thì anh hay sử dụng Junit và Mockito để làm Unit Test cho các chức năng của sản phẩm.
 
 <br>
-## **10.Kết luận**
+## **Kết luận**
 
 Để trở thành một lập trình viên Java chuyên nghiệp thì còn phải học rất nhiều cái  khác nữa. Nhưng chỉ cần các em biết được 10 chủ đề ở trên thì là quá tuyệt rồi. Ở các công ty Java họ mong muốn tìm được một người có kỷ năng đạt được 10 điều trên. Đó cũng chính là các kỷ thuật bắt buộc mà một Dev Java mong muốn trở thành Senior Java.
