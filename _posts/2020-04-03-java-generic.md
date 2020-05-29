@@ -28,7 +28,7 @@ Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạ
 Generic có nghĩa là ta viết các phương thức và lớp để tái sử dụng cho các đối tượng thuộc các kiểu dữ liệu khác nhau (Kiểu dữ liệu như Person , Car , Student, Hotel vv).
 Nghe có vẻ khó hiểu nên anh sẽ trình bày ví dụ sau đây.
 
-Ví dụ a muốn viết một chương trình quản lý danh sách  học sinh và giáo viên tại trường đào tạo
+Ví dụ anh muốn viết một chương trình quản lý danh sách  học sinh và giáo viên tại trường đào tạo
 công nghệ thông tin Ada. Anh sẽ sử dụng List để a lưu lại danh sách của học sinh và giáo viên như sau.
 
 - Danh sách học sinh
