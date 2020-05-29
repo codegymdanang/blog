@@ -35,7 +35,7 @@ Trước hết mình đi qua hình ảnh về luồng đi của ứng dụng spr
 3. Sau khi nhận được request(yêu cầu) DispatcherServlet sẽ chuyển yêu cầu đó tới Controller bằng các cơ chế mapping mà ta khai báo trong Handler Mapping (có nhiều cách để cấu hình mapping từ yêu cầu
  người dùng vào Controller).
 
-4. Sau khi vào controller tư ứng thì từ controller ta gọi services, service gọi repository, repository sẽ sử dung tầng persisten để thao tác với database lấy dữ liệu .
+4. Sau khi vào controller tương ứng thì từ controller ta gọi services, service gọi repository, repository sẽ sử dung tầng persisten để thao tác với database lấy dữ liệu .
 và chuyển hoá dữ liệu trong database thành model và trả ngược lại cho controller.
 
 5. Controller sẽ trả về tên view (tên trang web  ) và model cho Dispatchervleter.
