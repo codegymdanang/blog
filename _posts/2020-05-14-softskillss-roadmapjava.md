@@ -23,8 +23,8 @@ Trong roadmap hình bên dưới có những hình chữ nhật với các ô m�
 - Những kỷ thuật trong ô màu vàng là rất tốt nếu mình biết được các công nghệ này. Nó sẽ giúp mình nâng cao khả năng lập trình.
 - Những kỷ thuật trong ô màu xám thì không quan trọng lắm. Nếu có thời gian thì mình trang bị.
 
-{:refdef: style="text-align: center;"}
-![javaroadmap](/images/post/softskills/JavaDeveloperRoadMap.jpg =600x600){:class="img-responsive"}
+{:refdef: style="text-align:center ;height:600px ;width: 600px"}
+![javaroadmap](/images/post/softskills/JavaDeveloperRoadMap.jpg){:class="img-responsive"}
 {: refdef}
 
 <br>
