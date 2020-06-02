@@ -24,7 +24,7 @@ Trong roadmap hình bên dưới có những hình chữ nhật với các ô m�
 - Những kỷ thuật trong ô màu xám thì không quan trọng lắm. Nếu có thời gian thì mình trang bị.
 
 {:refdef: style="text-align: center;"}
-![javaroadmap](/images/post/softskills/JavaDeveloperRoadMap.jpg){:class="img-responsive"}
+![javaroadmap](/images/post/softskills/JavaDeveloperRoadMap.jpg =600x600){:class="img-responsive"}
 {: refdef}
 
 <br>
