@@ -32,26 +32,28 @@ Trong roadmap hình bên dưới có những hình chữ nhật với các ô m�
 
 Ở phần này mình học các vấn đề cơ bản để sẳn sàng cho học lập trình backend. Trong giai đoạn này mình tập trung học về git , github, hệ điều hành linux. Tuy nhiên ở phần này mình chỉ học cơ bản thôi chứ không cần phải chuyên sâu. Học để nắm các tools (công cụ) sau này mình sẽ dùng cho dự án. Tiếp đến mình sẽ học cấu trúc dữ liệu và thuật toán và những kiến thức cơ bản về lập trình là gì?
 
+<br>
 ### **Level 2- Học Java**
 
 Ở giai đoạn này chúng ta học về ngôn ngữ lập trình java. Các tool lập trình cho ngôn ngữ java. Hiểu được cách làm việc của ngôn ngữ Java.
 
+<br>
 ### **Level 3- Học Spring Framework**
 
 Sau khi đã có kiến thức về Java chúng ta sẽ học cách sử dụng Framework (cái mà người đã build sẳn). Sử dụng Spring Framework để build các dự án về Web và Webservice. Ngoài ra trong phần này chúng ta cũng nên tập trung tìm hiều và xây dựng các ứng dụng microservice sử dụng spring boot và spring cloud.
 
+<br>
 ### **Level 4- Học Testing Framework**
 
 Để viết code trở nên tốt hơn mình sẽ phải học các cách viết Unit test để test lại các chức năng của ứng dụng. Đảm bảo code mình viết ra có chất lượng.
 
+<br>
 ### **Level 5- Nâng cấp bản thân**
 
 Hiện nay để trở thành một Java developer thì cần phải trang bị thêm nhiều kiến thức về : Devops , Design Pattern, Refactoring, Testing (ở đây là viết unitest và integration test cho code của mình để đảm bảo code ít bị bugs).
 Các em có thể đọc thêm [tại đây ](https://levunguyen.com/career/2020/05/14/tro-thanh-senior-java/)
 
-
-
-
+<br>
 ## **Kết luận**
 
-Nếu các em muốn trở thành một lập trình viên Java chuyên nghiệp thì ít nhất mất tầm 5 năm. 3 năm đầu là thời gian mình giành cho việc sử dụng thành thạo và hiểu được các chức năng của framework cung cấp , đồng thời đào sâu vào các thư viện của Framework để mình nắm rõ hơn. 2 năm tiếp theo là mình học những xu hướng công nghệ mới dùng chung với Java. Nhờ đó mình học được các công nghệ mới tích hợp với Java. 
+Nếu các em muốn trở thành một lập trình viên Java chuyên nghiệp thì ít nhất mất tầm 5 năm. 3 năm đầu là thời gian mình giành cho việc sử dụng thành thạo và hiểu được các chức năng của framework cung cấp , đồng thời đào sâu vào các thư viện của Framework để mình nắm rõ hơn. 2 năm tiếp theo là mình học những xu hướng công nghệ mới dùng chung với Java. Nhờ đó mình học được các công nghệ mới tích hợp với Java.
