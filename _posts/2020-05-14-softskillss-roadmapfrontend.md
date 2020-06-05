@@ -27,7 +27,7 @@ Trong roadmap hình bên dưới có những hình tròn có dấu tích là tí
 
 - Những kỷ thuật trong ô hình tròn có dấu tích là xám -  không quan trọng lắm. Chưa cần tập trung ngay
 
-{:refdef: style="text-align:left ;height:1200px ;width: 1200px"}
+{:refdef: style="text-align:left"}
 ![javaroadmap](/images/post/softskills/roadmapfrontend.png){:class="img-responsive"}
 {: refdef}
 

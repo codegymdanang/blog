@@ -29,7 +29,7 @@ Phần chữ ký của JWT sẽ được mã hóa lại bằng HMAC hoặc RSA.
 ### **3. Cấu tạo của 1 JWT**
 
 {:refdef: style="text-align: center;"}
-![JWT](/images/post/spring/jwt.png){:class"img-responsive"}
+![JWT](/images/post/spring/jwt.jpeg){:class"img-responsive"}
 {: refdef}
 
 JWT bao gồm 3 phần và ngăn cách nhau bởi dấu chấm
