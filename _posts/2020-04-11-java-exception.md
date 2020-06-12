@@ -12,10 +12,9 @@ youtubeId: 2BBAVtiks1w
 
 ## **1. Giới thiệu nội dung bài viết**
 
-Chào các bạn , hôm nay chủ đề của mình sẽ nói về Exception trong lập trình là gì ? Bài hôm nay chúng ta sẽ đi
-qua các nội dung.
+Chào các bạn , hôm nay chủ đề của anh sẽ nói về Ngoại lệ (Exception) trong lập trình là gì ? Bài hôm nay chúng ta sẽ đi qua các nội dung.
 
-- Ngoại lệ là gì ?
+- Exception là gì ?
 - Check Exception là gì ?
 - Uncheck Exception là gì ?
 - Cú pháp và cách ném, bắt ngoại lệ.
@@ -24,7 +23,8 @@ qua các nội dung.
 <br>
 ## **2. Ngoại lệ (Exception) là gì ?**
 
-Exception (ngoại lệ) trong Java là một vấn đề xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.
+Exception (ngoại lệ) trong Java là một vấn đề bất thường xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.
+
 Exception là một sự kiện mà phá vỡ luồng chuẩn của chương trình. Anh lấy ví dụ về rút tiền ATM ở máy rút tiền. Trong tài khoản
 mình chỉ có 1.000.000 nhưng nếu mình bấm trong máy ATM rút 2.000.000 thì lúc đó chương trình trong máy ATM sẽ báo lỗi vì
 số tiền mình yêu cầu rút lớn hơn số hiện tại. Đó chính là một Exception (ngoại lệ) xảy ra lúc chương trình đang chạy.
@@ -71,6 +71,8 @@ Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền 
 <br>
 ## **5. Ném ngoại lệ bằng Throws hoặc throw**
 
+- Trong các ngôn ngữ lập trình khi một ngoại lệ xảy ra ,mình dùng từ khoá throw hoặc throws để ném ngoại lệ đó ra.
+
 - Trong Java mình có thể dùng từ khoá throws bên cạnh tên method để ném ngoại lệ. Ví dụ như public void deposit(int depositAmount) throws Exception . Phương thức nào
 mà gọi method deposit phải bắt lại ngoại lệ và xử lý . Để bắt ngoại lệ thì mình dùng khối  try, catch , finally lệnh để bắt ngoại lệ bắt từ hàm deposit ném ra
 
@@ -95,6 +97,8 @@ public void deposit(int depositAmount) throws Exception {
 <br>
 ## **6. Bắt ngoại lệ bằng try catch**
 
+Chúng ta sử dụng từ khoá try , catch để bắt ngoại lệ và xử lý. Nếu chúng ta không bắt ngoại lệ lại và sử lý thì chương trình có nguy cơ bị đứng. Hoặc nghiêm trọng hơn là ứng dụng bị chết và không chạy được. Nhờ sử dụng try catch mà ta có thể sử lý ngoại lệ giúp chương trình tiếp tục chạy.
+
 {% highlight java linenos %}
 public int getPlayerScore(String playerFile) {
     try {
@@ -108,6 +112,8 @@ public int getPlayerScore(String playerFile) {
 
 <br>
 ## Bắt ngoại lệ bằng nhiều catch
+
+Khi gọi một method, nhưng nếu method đó ném ra nhiều hơn 1 ngoại lệ. Ta có thể sử dụng nhiều catch để bắt các ngoại lệ đó. Mỗi catch sẽ bắt một ngoại lệ tương ứng.
 
 {% highlight java linenos %}
 public int getPlayerScore(String playerFile) {
@@ -126,7 +132,7 @@ public int getPlayerScore(String playerFile) {
 <br>
 ## **7. Khối lệnh Finally**
 
-Khối lệnh Finally luôn luôn chạy cho dù có xảy ra lỗi ở trong khối lệnh try hay catch . Khối lệnh Finally thường dùng để.
+Các đoạn code trong khối lệnh Finally luôn luôn chạy cho dù có xảy ra lỗi ở trong khối lệnh try hay catch . Khối lệnh Finally thường dùng để.
 
 - Đóng kết nối xuống file .
 - Đóng kết nối xuống database.
