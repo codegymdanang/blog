@@ -10,7 +10,7 @@ description : Ngoại lệ là gì trong java . Check Exception là gì ? Unchec
 youtubeId: 2BBAVtiks1w
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+## **1. Giới thiệu nội dung bài viết**
 
 Chào các bạn , hôm nay chủ đề của mình sẽ nói về Exception trong lập trình là gì ? Bài hôm nay chúng ta sẽ đi
 qua các nội dung.
@@ -22,7 +22,7 @@ qua các nội dung.
 - Video demo cách code Exception
 
 <br>
-### **2. Ngoại lệ (Exception) là gì ?**
+## **2. Ngoại lệ (Exception) là gì ?**
 
 Exception (ngoại lệ) trong Java là một vấn đề xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.
 Exception là một sự kiện mà phá vỡ luồng chuẩn của chương trình. Anh lấy ví dụ về rút tiền ATM ở máy rút tiền. Trong tài khoản
@@ -34,7 +34,7 @@ lập trình viên có thể bắt lại Expection trong lúc viết code hoặc
 để từ đó lập trình viên có thể xử lý các ngoại lệ đó mà chương trình vẫn tiếp tục chạy.
 
 <br>
-### **3. Check Exception**
+## **3. Check Exception**
 
 - Những lỗi  developer có thể đoán trước được.
 - Bắt buộc developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code).
@@ -47,7 +47,7 @@ Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán đư
 - IO Exception.
 
 <br>
-### **4. Uncheck Exception**
+## **4. Uncheck Exception**
 
 - Những lỗi xảy ra khi chương trình đang chạy và chúng ta không biết chắc nó có xảy ra hay không.
 - Không yêu cầu developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code). Nhưng mà
@@ -69,7 +69,7 @@ Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền 
 - Exception Runtime : là cha của tất cả các class Uncheck
 
 <br>
-### **5. Ném ngoại lệ bằng Throws hoặc throw**
+## **5. Ném ngoại lệ bằng Throws hoặc throw**
 
 - Trong Java mình có thể dùng từ khoá throws bên cạnh tên method để ném ngoại lệ. Ví dụ như public void deposit(int depositAmount) throws Exception . Phương thức nào
 mà gọi method deposit phải bắt lại ngoại lệ và xử lý . Để bắt ngoại lệ thì mình dùng khối  try, catch , finally lệnh để bắt ngoại lệ bắt từ hàm deposit ném ra
@@ -93,7 +93,7 @@ public void deposit(int depositAmount) throws Exception {
 {% endhighlight %}
 
 <br>
-### **6. Bắt ngoại lệ bằng try catch**
+## **6. Bắt ngoại lệ bằng try catch**
 
 {% highlight java linenos %}
 public int getPlayerScore(String playerFile) {
@@ -107,7 +107,7 @@ public int getPlayerScore(String playerFile) {
 {% endhighlight %}
 
 <br>
-### Bắt ngoại lệ bằng nhiều catch
+## Bắt ngoại lệ bằng nhiều catch
 
 {% highlight java linenos %}
 public int getPlayerScore(String playerFile) {
@@ -124,7 +124,7 @@ public int getPlayerScore(String playerFile) {
 {% endhighlight %}
 
 <br>
-### **7. Khối lệnh Finally**
+## **7. Khối lệnh Finally**
 
 Khối lệnh Finally luôn luôn chạy cho dù có xảy ra lỗi ở trong khối lệnh try hay catch . Khối lệnh Finally thường dùng để.
 
@@ -133,7 +133,7 @@ Khối lệnh Finally luôn luôn chạy cho dù có xảy ra lỗi ở trong kh
 - Giải phóng bộ nhớ.
 
 <br>
-### **8. Video demo tạo Exception trong Java**
+## **8. Video demo tạo Exception trong Java**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
