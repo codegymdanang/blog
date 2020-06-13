@@ -10,7 +10,7 @@ description : Ngoại lệ là gì trong java . Check Exception là gì ? Unchec
 youtubeId: 2BBAVtiks1w
 ---
 
-## **1. Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn , hôm nay chủ đề của anh sẽ nói về Ngoại lệ (Exception) trong lập trình là gì ? Bài hôm nay chúng ta sẽ đi qua các nội dung.
 
@@ -21,7 +21,7 @@ Chào các bạn , hôm nay chủ đề của anh sẽ nói về Ngoại lệ (E
 - Video demo cách code Exception
 
 <br>
-## **2. Ngoại lệ (Exception) là gì ?**
+## **1. Ngoại lệ (Exception) là gì ?**
 
 Exception (ngoại lệ) trong Java là một vấn đề bất thường xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.
 
@@ -34,7 +34,7 @@ lập trình viên có thể bắt lại Expection trong lúc viết code hoặc
 để từ đó lập trình viên có thể xử lý các ngoại lệ đó mà chương trình vẫn tiếp tục chạy.
 
 <br>
-## **3. Check Exception**
+## **2. Check Exception**
 
 - Những lỗi  developer có thể đoán trước được.
 - Bắt buộc developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code).
@@ -47,7 +47,7 @@ Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán đư
 - IO Exception.
 
 <br>
-## **4. Uncheck Exception**
+## **3. Uncheck Exception**
 
 - Những lỗi xảy ra khi chương trình đang chạy và chúng ta không biết chắc nó có xảy ra hay không.
 - Không yêu cầu developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code). Nhưng mà
@@ -58,6 +58,7 @@ Sẽ có những trường hợp lỗi xảy ra khi chương trình đang chạy
 Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền có khả năng xảy ra lỗi và mình sẽ viết code  để xử lý ngoại lệ đó .
 
 <br>
+## **4. Kiến trúc của ngoại lệ**
 
 {:refdef: style="text-align: center;"}
 ![Exception ](/images/post/javacore/exception.png){:class="img-responsive"}
@@ -123,9 +124,8 @@ public class MyUncheckedBusinessException extends RuntimeException {
 }
 {% endhighlight %}
 
-Mình sử dụng MyUncheckedBusinessException như sau
+Mình sử dụng MyUncheckedBusinessException như
 
-{% highlight java linenos %}
 private void wrapException(String input) {
 	try {
 		// do something
@@ -133,7 +133,6 @@ private void wrapException(String input) {
 		throw new MyUncheckedBusinessException("A message that describes the error.", e, ErrorCode.INVALID_PORT_CONFIGURATION);
 	}
 }
-{% endhighlight %}
 
 <br>
 ## **5. Ném ngoại lệ bằng Throws hoặc throw**
@@ -178,7 +177,7 @@ public int getPlayerScore(String playerFile) {
 {% endhighlight %}
 
 <br>
-## Bắt ngoại lệ bằng nhiều catch
+## **7. Bắt ngoại lệ bằng nhiều catch**
 
 Khi gọi một method, nhưng nếu method đó ném ra nhiều hơn 1 ngoại lệ. Ta có thể sử dụng nhiều catch để bắt các ngoại lệ đó. Mỗi catch sẽ bắt một ngoại lệ tương ứng.
 
@@ -197,7 +196,7 @@ public int getPlayerScore(String playerFile) {
 {% endhighlight %}
 
 <br>
-## **7. Khối lệnh Finally**
+## **8. Khối lệnh Finally**
 
 Các đoạn code trong khối lệnh Finally luôn luôn chạy cho dù có xảy ra lỗi ở trong khối lệnh try hay catch . Khối lệnh Finally thường dùng để.
 
@@ -206,7 +205,7 @@ Các đoạn code trong khối lệnh Finally luôn luôn chạy cho dù có x�
 - Giải phóng bộ nhớ.
 
 <br>
-## **8. Video demo tạo Exception trong Java**
+## **9. Video demo tạo Exception trong Java**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
