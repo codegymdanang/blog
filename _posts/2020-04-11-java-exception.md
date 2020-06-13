@@ -124,8 +124,9 @@ public class MyUncheckedBusinessException extends RuntimeException {
 }
 {% endhighlight %}
 
-Mình sử dụng MyUncheckedBusinessException như
+Mình sử dụng MyUncheckedBusinessException như sau
 
+{% highlight java linenos %}
 private void wrapException(String input) {
 	try {
 		// do something
@@ -133,7 +134,7 @@ private void wrapException(String input) {
 		throw new MyUncheckedBusinessException("A message that describes the error.", e, ErrorCode.INVALID_PORT_CONFIGURATION);
 	}
 }
-
+{% endhighlight %}
 <br>
 ## **5. Ném ngoại lệ bằng Throws hoặc throw**
 
