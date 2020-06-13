@@ -63,10 +63,77 @@ Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền 
 ![Exception ](/images/post/javacore/exception.png){:class="img-responsive"}
 {: refdef}
 
-- Throwable : là cha của tất cả ngoại lệ xảy ra trong chương trình bao gồm lỗi (Error) và ngoại lệ (Exception)
-- Error : là tất cả những lỗi được bắt từ JMV (Máy ảo Java). Ví dụ như Error OutOfMemory
-- Excepton : là cha của tất cả class Check Exception
-- Exception Runtime : là cha của tất cả các class Uncheck
+- Throwable : là cha của tất cả ngoại lệ xảy ra trong chương trình bao gồm lỗi (Error) và ngoại lệ (Exception).
+- Error : là tất cả những lỗi được bắt từ JMV (Máy ảo Java). Ví dụ như Error OutOfMemory hoặc chia một số cho 0.
+
+- Excepton : là cha của tất cả class Check Exception. Mình khai báo một Class và kế thừa Class Exception.
+{% highlight java linenos %}
+public class MyBusinessException extends Exception {
+
+	public MyBusinessException(String message, Throwable cause, ErrorCode code) {
+		super(message, cause);
+		this.code = code;
+	}
+}
+{% endhighlight %}
+
+Mình sử dụng ngoại lệ MyBusinessException như sau
+{% highlight java linenos %}
+private void wrapException(String input) throws MyBusinessException {
+	try {
+		// do something
+	} catch (NumberFormatException e) {
+		throw new MyBusinessException("A message that describes the error.", e, ErrorCode.INVALID_PORT_CONFIGURATION);
+	}
+}
+{% endhighlight %}
+
+- Exception Runtime : là cha của tất cả các class Uncheck. Mình khai báo một Class và kế thừa RuntimeExcepton. Những lỗi này thường xảy ra khi chương trình đang chạy.
+
+{% highlight java linenos %}
+public class MyUncheckedBusinessException extends RuntimeException {
+
+	private static final long serialVersionUID = -8460356990632230194L;
+
+	private final ErrorCode code;
+
+	public MyUncheckedBusinessException(ErrorCode code) {
+		super();
+		this.code = code;
+	}
+
+	public MyUncheckedBusinessException(String message, Throwable cause, ErrorCode code) {
+		super(message, cause);
+		this.code = code;
+	}
+
+	public MyUncheckedBusinessException(String message, ErrorCode code) {
+		super(message);
+		this.code = code;
+	}
+
+	public MyUncheckedBusinessException(Throwable cause, ErrorCode code) {
+		super(cause);
+		this.code = code;
+	}
+
+	public ErrorCode getCode() {
+		return this.code;
+	}
+}
+{% endhighlight %}
+
+Mình sử dụng MyUncheckedBusinessException như sau
+
+{% highlight java linenos %}
+private void wrapException(String input) {
+	try {
+		// do something
+	} catch (NumberFormatException e) {
+		throw new MyUncheckedBusinessException("A message that describes the error.", e, ErrorCode.INVALID_PORT_CONFIGURATION);
+	}
+}
+{% endhighlight %}
 
 <br>
 ## **5. Ném ngoại lệ bằng Throws hoặc throw**
