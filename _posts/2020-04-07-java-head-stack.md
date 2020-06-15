@@ -10,7 +10,7 @@ description : Phân biệt bộ nhớ heap và stack . bộ nhớ heap là gì ,
 youtubeId: werAdblsT1s
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+#**Giới thiệu nội dung bài viết**
 
 Chào bạn, chắc hẳn bạn đang phân vân khi mình khai báo biến , object , phương thức , tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ?
 Ai sẽ quản lý bộ nhớ ? Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ Heap và Stack lưu trữ dữ liệu gì và lưu như thế nào nhé . Các nội dung sau sẽ được trình bày
@@ -24,7 +24,7 @@ trong bài viết hôm nay
 - Video demo về Heap và Stack
 
 <br>
-### **2. Các thuật ngữ**
+# **1. Các thuật ngữ**
 
 {:refdef: style="text-align: center;"}
 ![Các thuật ngữ ](/images/post/javacore/cacthuatngu.png){:class="img-responsive"}
@@ -37,7 +37,7 @@ trong bài viết hôm nay
 - Object : là đối tượng được khởi tạo từ khoá new từ một class
 
 <br>
-### **3 Heap và Stack**
+# **2 Heap và Stack**
 
 Java Heap và Stack Memory là một phần của bộ nhớ được JVM sử dụng để chạy chương trình Java của bạn. Khi bạn chạy chương trình Java, JVM sẽ yêu cầu hệ điều hành cấp cho một không gian bộ nhớ trong RAM để dùng cho việc chạy chương trình.
 JVM sẽ chia bộ nhớ được cấp phát này thành 2 phần: Heap và Stack cho việc quản lý.
@@ -47,7 +47,7 @@ JVM sẽ chia bộ nhớ được cấp phát này thành 2 phần: Heap và Sta
 {: refdef}
 
 <br>
-### **4 Bộ nhớ Heap**
+# **3 Bộ nhớ Heap**
 
 - Java Heap Memory là bộ nhớ được sử dụng ở runtime để lưu các Objects. Bất cứ khi nào ở đâu trong chương trình của bạn khi bạn tạo Object thì nó sẽ được lưu trong Heap (thực thi toán tử new).
 - Các objects trong Heap đều được truy cập bởi tất cả các các nơi trong ứng dụng, bởi các threads khác nhau.
@@ -57,7 +57,7 @@ JVM sẽ chia bộ nhớ được cấp phát này thành 2 phần: Heap và Sta
 - Dung lượng Heap thường lớn hơn Stack.
 
 <br>
-### **5 Bộ nhớ Stack**
+# **4 Bộ nhớ Stack**
 
 - Bộ nhớ để lưu các biến local trong hàm và lời gọi hàm ở runtime trong một Thread java.
 - Các biến local bao gồm loại nguyên thuỷ (primitive) và loại tham chiếu tới đối tượng trong heap (reference) khai báo trong hàm, hoặc đối số được truyền vào hàm, thường có thời gian sống ngắn.
@@ -105,7 +105,7 @@ Hình chữ nhật bự nhất bao ở ngoài là hàm main () . Bên trong hàm
 được lưu bên Heap.
 
 <br>
-###  **6. Video demo Heap và Stack**
+# **5. Video demo Heap và Stack**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
