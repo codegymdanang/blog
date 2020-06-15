@@ -10,7 +10,7 @@ description : Generic là gì. khái niệm generic trong java, sử dụng gene
 youtubeId: 2ADRQUlsRtI
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào bạn, bạn đã từng nghe tới khái niệm về Generic chưa ? Nếu bạn nghe rồi nhưng vẫn không hình dung được
 Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạo một Generic Class và Generic method như thế nào ? Và ưu điểm và nhược
@@ -23,7 +23,7 @@ Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạ
 - Ưu điểm và nhược điểm của Generic
 
 <br>
-### **2. Generic là gì**
+# **1. Generic là gì**
 
 Generic có nghĩa là ta viết các phương thức và lớp để tái sử dụng cho các đối tượng thuộc các kiểu dữ liệu khác nhau (Kiểu dữ liệu như Person , Car , Student, Hotel vv).
 Nghe có vẻ khó hiểu nên anh sẽ trình bày ví dụ sau đây.
@@ -49,7 +49,7 @@ là 2 kiểu dữ liệu khác nhau. Do vậy tuỳ vào ngữ cảnh ta truyề
 Nói cách khác Generic thì ta định nghĩa một kiểu dữ liệu chung chung , và tuỳ vào ngữ cảnh ta truyền vào (Student hay Teacher) thì ta sẽ có tập hợp tương ứng.
 
 <br>
-### **3. Cách tạo Generic Class và Generic method**
+# **2. Cách tạo Generic Class và Generic method**
 
 1. **Cách tạo Generic Class**
 
@@ -138,7 +138,7 @@ Nếu ta truyền  đối số là Integer thì sẽ nhận được kết quả
 cả các đối số là những kiểu dữ liệu khác nhau.
 
 <br>
-### **4. Các ký tự trong Generic**
+# **3. Các ký tự trong Generic**
 
 Như ta thấy ở các ví dụ trên ta dùng các ký tự đặt biệt như \<T\> hay \<E\> để đặt tên các kiểu dữ liệu và  tham số . Ta có thể dùng các từ khác cũng được như X,Y,Z . Nhưng do  \<T\> hay \<E\>
 là các qui ước chung cho các lập trình viên đọc cho dể hiểu, dể bảo trì nên ta không nên đặt các từ khác gây nhầm lẫn. Chúng ta có các qui ước sau.
@@ -149,7 +149,7 @@ là các qui ước chung cho các lập trình viên đọc cho dể hiểu, d�
 + T – Type (Kiểu dữ liệu bất kỳ thuộc Wrapper class: String, Integer, Long, Float, …).
 
 <br>
-### **5. Generic với các ký tự đại diện**
+# **4. Generic với các ký tự đại diện**
 
 Trong Generic nhiều lúc chúng ta sẽ gặp các ký tự đại diên như : (?),(wildcard), nó đại diện cho một loại dữ liệu  không rõ ràng.
 Ví dụ của tham số đại diện (wildcard parameterized).
@@ -169,7 +169,7 @@ Ví dụ: List<? extends Number> mô tả một danh sách, nơi mà các phần
 Ví dụ: Comparator<? super String> Mô tả một bộ so sánh (Comparator) mà thông số phải là String hoặc cha của String.
 
 <br>
-### **6. Generic trong abstract và intefacer**
+# **5. Generic trong abstract và intefacer**
 
 Trong lập trình chúng ta thường sử dụng nhiều generic trong Abstract và Interface để code trở nên gọn hơn tái sử dụng được  nhiều lần.
 
@@ -195,7 +195,7 @@ public interface GenericDao<T> {
 {% endhighlight %}
 
 <br>
-### **7. Lợi ích khi dùng generic**
+# **6. Lợi ích khi dùng generic**
 
 - Kiểu dữ liệu an toàn: Chúng ta chỉ có thể giữ được một loại đối tượng trong Generics. Nó không cho phép lưu trữ các loại đối tượng khác.
 - Kiểm tra dữ liệu chặt chẽ ở Compile-time mà không phải là Runtime-error. Nên chúng ta sẽ dễ dàng kiểm soát lỗi hơn.
@@ -205,14 +205,14 @@ public interface GenericDao<T> {
 Nó rất hữu ích cho những người viết software libraries (thư viện phần mềm) làm sao để generic programming (lập trình có tính tổng quát) vì nó cho phép người dùng sử dụng ở nhiều tình huống khác nhau.
 
 <br>
-### **8. Nhược điểm**
+# **7. Nhược điểm**
 
 - Không thể gọi Generics bằng kiểu dữ liệu nguyên thủy (Primitive type: int, long, double, …), thay vào đó sử dụng các kiểu dữ liệu Object.
 - Không thể tạo instances của kiểu dữ liệu Generics.
 - Không thể sử dụng static cho Generics.
 
 <br>
-### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
+# Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}

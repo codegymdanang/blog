@@ -9,6 +9,8 @@ image: /images/blog/design-patterns.png
 description : Abstract Factory là gì . hướng dẫn abstract factory trong java , ví dụ abstract factory trong java , khi nào sử dụng abstract factory
 ---
 
+# **Giới thiệu nội dung bài viết**
+
 Chào các e, chủ đề hôm nay của anh sẽ bàn về Design Pattern Abstract Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình
 
 <br>

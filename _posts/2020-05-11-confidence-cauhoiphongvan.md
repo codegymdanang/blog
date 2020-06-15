@@ -10,7 +10,7 @@ description : câu hỏi phỏng vấn java , câu hỏi phỏng vấn lập tr�
 youtubeId: r2w7in6xMB4
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay sẽ chia sẽ những kinh nghiệm của anh đứng trên vai trò là nhà tuyển dụng các bạn fresher , junior, dev tại công ty mà anh đã làm việc. Nội dung chúng ta sẽ xoay quanh các nội dung sau.
 
@@ -19,7 +19,7 @@ Chào các em, hôm nay sẽ chia sẽ những kinh nghiệm của anh đứng t
 - Kết luận
 
 <br>
-### **2. Các bài test của công ty IT**
+# **1. Các bài test của công ty IT**
 
 Ở công ty của anh hay ở các công ty phần mềm mà anh từng làm việc. Thông thường các bạn fresher , junior , dev sẽ trải qua 3 vòng thi.
 
@@ -99,7 +99,7 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
 Ở đây thông thường các anh/chị đưa ra một vấn đề sau đó hỏi các em cách giải quyết như thế nào. Có thể câu trả lời không đúng 100% nhưng có ý gần đúng cũng như là đã okie.
 
 <br>
-### Vòng 3 : Phỏng vấn với bộ phận nhân sự tại công ty
+# Vòng 2 : Phỏng vấn với bộ phận nhân sự tại công ty
 
 Vòng này các em sẽ phỏng vấn với bộ phận nhân sự tại công ty. Mình sẽ không hỏi các vấn đề về kỷ thuật nữa mà xoay quanh các vấn đề về thái độ. Trong ngành công nghệ thông tin. Các anh đều coi trọng thái độ hơn là trình độ. Có thể các bạn yếu về kỷ thuật nhưng có thái độ tốt . Các anh/chị hoàn toàn có thể giúp đở các em về mặt kỷ thuật để nâng cao tay nghề. Còn những ai mà bộ phận nhân sự cảm thấy không có thái độ tốt thì sẽ có nguy cơ bị loại.
 

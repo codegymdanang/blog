@@ -10,7 +10,7 @@ description : hibernate là gì . hướng dẫn sử dụng hibernate , ví d�
 youtubeId: WNfuVJptPnQ
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về Hibernate .
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
@@ -21,7 +21,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 - Kết luận
 
 <br>
-### **2. Giới thiệu Hibernate**
+# **1. Giới thiệu Hibernate**
 
 Như các em biết để hiển thị được dữ liệu lưu trữ trong cơ sở dữ liệu (database) ra cho người dùng thì mình phải thao tác xuống database như kết nối vào database .Sau đó thực hiện các câu lệnh truy vấn như select , insert, update , join các bảng .Cuối cùng là lấy dữ liệu từ database về và xử lý. Trong lập trình java mình may mắn có một framework giúp mình làm được tất cả các việc đó. Nó chính là  Hibernate.
 
@@ -44,7 +44,7 @@ Các chức năng được hỗ trợ khi ta sử dụng Hibernate
 - Hầu hết các dự án Java ngày nay đều sử dụng Spring Data JPA kết hợp với Hibernate như một công cụ để thao tác giữa ứng dụng của mình và database
 
 <br>
-### **3. Cấu hình Hibernate với Spring**
+# **2. Cấu hình Hibernate với Spring**
 
 #### Bước 1 : Nhúng thư viện hibernate vào dự án qua file pom
 
@@ -283,7 +283,7 @@ public abstract class HibernateDAO{
 {% endhighlight %}
 
 <br>
-### **4. Kết luận**
+# **3. Kết luận**
 
 Để kết nối và thao tác với database chúng ta có thể dùng Hibernate framework để mình truy xuất và thao tác các dữ liệu. Ngoài Hibernate thông thường các dự án Spring thì mình dùng Spring Data JPA (bài JPA là gì mọi người có thể tham khảo bài viết trước của anh).
 

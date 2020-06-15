@@ -10,7 +10,7 @@ description : Validation trong Spring. ví dụ validation trong lập trình Sp
 youtubeId: ljyqbIo4jbk
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các bạn, hôm nay anh sẽ trình bày kỷ thuật để kiểm tra dữ liệu người dùng nhập vào có đúng như định dạng mình mong muốn không ? Nếu
 không đúng định dạng mình sẽ thông báo lỗi cho người dùng? Trong Spring thì mình dùng các cách nào để kiểm tra dữ liệu người dùng truyền
@@ -21,7 +21,7 @@ lên là hợp lệ. Nội dung hôm nay sẽ trình bày là
 - Video hướng dẫn cách làm kiểm tra dữ liệu trong Spring
 
 <br>
-### **2. Tại sao cần kiểm tra và ràng buộc dữ liệu**
+# **1. Tại sao cần kiểm tra và ràng buộc dữ liệu**
 
 Cái quý giá và quan trọng nhất đối với một phần mềm đó chính là dữ liệu , thông tin về dữ liệu. Như các e thấy facebook hay google họ nắm
 dữ một lượng người dùng khá lớn , dự vào nguồn dữ liệu đó họ sẽ phát triển các kế hoạch dài hạn và tăng doanh thu cho công ty . Chính vì vậy
@@ -30,7 +30,7 @@ chuẩn la dd/MM/YYYY hoặc trường dữ liệu bắt buộc người dùng n
 sai định dạnh mình yêu cầu thì mình thông báo lỗi để người dùng nhập lại.
 
 <br>
-### **2. Hướng dẫn cách làm**
+# **2. Hướng dẫn cách làm**
 
 #### Bước 1 Thiết  ràng buộc dữ liệu trong Entiry
 

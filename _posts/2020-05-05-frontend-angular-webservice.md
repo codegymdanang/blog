@@ -10,6 +10,8 @@ description : hướng dẫn angular gọi webservice . ví dụ angular gọi  
 youtubeId: edYsCowgQq0
 ---
 
+# **Giới thiệu nội dung bài viết**
+
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách gọi Web Service bên ngoài   dự án Angualr là như thế nào nhé .
 Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.từ
 

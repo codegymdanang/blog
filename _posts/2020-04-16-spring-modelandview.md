@@ -10,7 +10,7 @@ description : model là gì  trong Spring . ModelMap là gì , Map là gì , Mod
 youtubeId: vaQxJlfmB6s
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn phân biệt Model , ModelMap , Map và ModeAndView. Bài hôm nay sẽ nói về các nội dụng sau
 
 - Model là gì ?
@@ -21,7 +21,7 @@ Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn p
 - Video hướng dẫn cách thực hiện
 
 <br>
-### **2. Model là gì**
+# **1. Model là gì**
 
 Chúng ta sử dụng Interface Model để truyền dữ liệu  từ Controller sang View để hiển thị .
 Spring cho phép chúng ta sử dụng Model như là một tham số trong method của Controller nên chúng ta dể dàng lấy , chỉnh sử data
@@ -55,7 +55,7 @@ public class GreetingController {
 <br>
 
 <br>
-### **3. ModelMap là gì**
+# **2. ModelMap là gì**
 
 ModelMap cũng tương tư như Model. Chúng ta có thể sử dụng ModelMap như một tham số trong method của Controller.
 
@@ -70,7 +70,7 @@ public String getWithModelMap(@RequestParam("name") String name, ModelMap modelM
 {% endhighlight %}
 
 <br>
-### **4. Map**
+# **3. Map**
 
 Map cũng tương tự như Model . Chúng ta có thể sử dụng Map như một tham số trong method của Controller.
 
@@ -85,7 +85,7 @@ public String getWithMap(@RequestParam("name") String name, Map<String, Object> 
 {% endhighlight %}
 
 <br>
-### **5. ModelAndView**
+# **4. ModelAndView**
 
 Là sự kết hợp của 2 khía cạnh truyền dữ liệu và view. Như ta thấy ở ví dụ trên ta dùng 2 dòng code.
 
@@ -105,7 +105,7 @@ public ModelAndView get(@RequestParam("name") String name) {
 {% endhighlight %}
 
 <br>
-### **6. Sự khác nhau giữa các model**
+# **5. Sự khác nhau giữa các model**
 
 1. Model là một interface trong khi đó ModelMap là một Class.
 2. Model là một  interface nó chứa đựng 4 phương thức addAttribute và một phương thức  merAttribute .
@@ -113,7 +113,7 @@ public ModelAndView get(@RequestParam("name") String name) {
 4. ModelAndView là sự kết hợp của 2 mục đích  ModelMap and View . Nó cho phép controller trả về 1 giá trị bao gồm Model và View .  
 
 <br>
-### **7. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+# **6. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}

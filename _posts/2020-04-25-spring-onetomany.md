@@ -10,7 +10,7 @@ description : OneToMany mapping trong Spring . hướng dẫn onetomany trong sp
 youtubeId: WNfuVJptPnQ
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ đề hôm nay chúng ta sẽ nói về các annotation @OneToMany và @ManyToOne trong Spring  .
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
@@ -20,7 +20,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 - Cấu hình và triển khai một dự án dùng các annotation
 
 <br>
-### **2. One To Many annotation**
+# **1. One To Many annotation**
 
 Anh lấy ví dụ như mình làm ứng dụng về bán hàng. Mình có chức năng lưu sản phẩm (Item)  vào  giỏ hàng (cart) .
 Trong giỏ hàng (cart) sẽ chứa nhiều sản phẩm (Items). Như vậy quan hệ giữa giỏ hàng và sản phẩm  là One To Many nghĩa là 1 giỏ hàng chứa nhiều sản  .
@@ -57,7 +57,7 @@ public class Cart {
 {% endhighlight %}
 
 <br>
-### **3. Triển khai trong Java code
+# **2. Triển khai trong Java code
 
 Bây giờ anh sẽ hướng dẫn các bạn xây dựng ứng dụng shopping cart . Sử dụng @OneToMany và @ManyToOne để thiết lập mối quan hệ giữa
 Cart (gio hang) và Item (san phẩm).
@@ -170,7 +170,7 @@ Chúng ta sẽ lưu giỏ hàng và các sản phẩm xuống database theo các
 {% endhighlight %}
 
 <br>
-### **5. Kết luận**
+# **3. Kết luận**
 
 Như vậy chúng ta sử dụng annotaion @OneToMany và @ManyToOne để thực hiện việc liên kết giữa hai entity với nhau. Từ Cart ta có thể lấy các kết quả
 của Items.

@@ -10,7 +10,7 @@ description : jpa query , @query, creation query , name query, truy vấn dữ l
 youtubeId: WNfuVJptPnQ
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về các cách để query dữ liệu từ database thông qua Spring Data JPA. Nội
 dung sẽ xoay quanh các vấn đề  
@@ -41,7 +41,7 @@ public class Department implements Serializable {
 {% endhighlight %}
 
 <br>
-### **2. Sử dung @Query để lấy dữ liệu trong table Department ?**
+# **1. Sử dung @Query để lấy dữ liệu trong table Department ?**
 
 - Sử dụng JPQL
 
@@ -107,7 +107,7 @@ List<User> findUserByNameList(@Param("names") Collection<String> names);
 {% endhighlight %}
 
 <br>
-### **3. Sử dung Query Creation**
+# **2. Sử dung Query Creation**
 
 Spring Data JPA hỗ trở cho chúng ta sẳn các phương thức để truy cập xuống database. Chúng ta chỉ cần kế thừa JPARepository và sau đó có thể sử dụng các phương thức mà JPA cung cấp đề lấy dữ liệu từ database.
 
@@ -135,7 +135,7 @@ public interface DepartmentQueryCreationRepository extends JpaRepository<Departm
 Trong đó findBy là từ khoá mà JPA cung cấp cho mình sau từ findBy là tên column có trong database. Ví dụ findByName tìm kiếm các user có tên là tham số name truyền vào. Trong đó findBy là từ khoá của JPA và Name chính là tên column trong database. Ngoài findBy thì JPA còn hỗ trợ nhiều phương thức khác nữa có thể xem ở đây
 
 <br>
-### **4. Sử dung @NameQuery trong Entiry**
+# **3. Sử dung @NameQuery trong Entiry**
 
 {% highlight java  linenos %}
 @Entity
@@ -169,7 +169,7 @@ public interface EmployeeRepository extends JpaRepository<Employee,Long>, Employ
 {% endhighlight %}
 
 <br>
-### **5. Sử dung Order in Query để sắp xếp dữ liệu theo chiều tăng hoặc giảm dần**
+# **4. Sử dung Order in Query để sắp xếp dữ liệu theo chiều tăng hoặc giảm dần**
 
 {% highlight java  linenos %}
 departmentRepository.findAll(new Sort(Sort.Direction.ASC, "name"));
@@ -178,7 +178,7 @@ departmentRepository.findAll(new Sort(Sort.Direction.ASC, "name"));
 Dòng new Sort(Sort.Direction.ASC, "name") nghĩa là chúng ta muốn sắp xếp dữ liệu ở cột name theo chiều hướng tăng dần. Nếu muốn sắp xếp name theo chiều hướng giảm dần thì ta dùng new Sort(Sort.Direction.DESC, "name")
 
 <br>
-### **6. Sử dụng annotation @Modifying để cập nhật dữ liệu**
+# **5. Sử dụng annotation @Modifying để cập nhật dữ liệu**
 
 {% highlight java  linenos %}
 @Modifying
@@ -197,7 +197,7 @@ int updateUserSetStatusForNameNative(Integer status, String name);
 {% endhighlight %}
 
 <br>
-### **7. Sử dụng annotation @Modifying để insert dữ liệu**
+# **6. Sử dụng annotation @Modifying để insert dữ liệu**
 
 Trong spring data jpa chúng ta dùng hàm save() có sẳn để insert dữ liệu xuống database. Trong trường hợp dùng native query thì chúng ta phải kết hợp @Modifiying và câu lệnh Insert chung với nhau vì Spring Data JPA chúng ta đang dùng không hổ trợ Insert
 
@@ -211,7 +211,7 @@ void insertUser(@Param("name") String name, @Param("age") Integer age,
   @Param("status") Integer status, @Param("email") String email);
 {% endhighlight %}
 
-### **8. Sử dụng Pageable để phân trang**
+# **7. Sử dụng Pageable để phân trang**
 
 Chúng ta sử dụng Pageable để lấy một tập hợp con trong database. Ví dụ như trong database có 100 dòng. Ta chỉ muốn lấy từ dùng 1 cho tới dòng 10. Để làm được như vậy chúng ta sẽ sử dụng đối tượng PageRequestObject để khai báo số lượng dòng mà ta muốn trả về , sau đó truyền đối tượng PageRequestObject vào câu lệnh truy vấn.
 

@@ -10,7 +10,7 @@ description : Tham trị và tham chiếu trong lập trình java . tham trị l
 youtubeId: 0F_8a5_fKno
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 Chào các bạn, chắc chắn không ý bạn nhầm lẫn khái niệm tham trị và tham chiếu  ? Có rất nhiều bạn có nhận định chưa đúng về khái niệm
 Ví dụ như các bạn nói các tham số trong hàm nếu ta truyền kiểu nguyên thuỷ thid đó là tham trị còn nếu truyền kiểu object là tham chiếu.
 Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nhé . Nội dung bài viết sẽ xoay quanh các vấn đề sau .
@@ -21,7 +21,7 @@ Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nh
 - Giải thích tham trị và tham chiếu qua ví dụ .  
 
 <br>
-### **2. Gán giá trị**
+# **1. Gán giá trị**
 
 Trước hết mình xem lại  bộ nhớ máy tính lưu trữ các biến và giá trị mình như thế nào ? .
 
@@ -35,7 +35,7 @@ Trước hết mình xem lại  bộ nhớ máy tính lưu trữ các biến và
  |   xx2 	            |         3                      |
 
 <br>
-### **3.Tham trị là gì  (pass by value)**
+# **2.Tham trị là gì  (pass by value)**
 
 Tham trị Pass by value : nghĩa là mình sẽ clone (tạo ra một giá trị mới bằng cách copy giá trị gốc), và mình chỉ thao táo giá trị với bản copy.
 Khi chúng ta thay đổi các giá trị của đối tượng, thì không ảnh hưởng đến giá trị gốc. Pass-by-value được hiểu là khi bạn thay đổi biến trong hàm thì ngoài hàm sẽ không bị ảnh hưởng.
@@ -60,7 +60,7 @@ Sau khi hàm process(int value) thực hiện xong nhiệm vụ của mình , th
 (copy) cũng được giải phóng trả lại bộ nhớ.
 
 <br>
-### **4. Truyền tham  chiếu**
+# **3. Truyền tham  chiếu**
 
 Pass by reference (Truyền tham chiếu) : Ngược lại với Pass by value . Giá trị gốc sẽ bị thay đổi Pass-by-reference là khi bạn thay đổi biến trong hàm cũng làm ngoài hàm bị ảnh hưởng.
 Nó giống như bạn truyền đúng địa chỉ của biến đó vào hàm.
@@ -73,7 +73,7 @@ Trong trường hợp này hàm process(int &value) trỏ thằng tới địa c
 đổi luôn giá trị khác .
 
 <br>
-### **5. Tổng kết **
+# **4. Tổng kết **
 
 Các bạn nên nhớ trong  Java là 100% truyền tham trị (passed by value). Mình chỉ clone một giá trị từ giá trị gốc sau đó truyền đi
 cho các method cần dùng nó. Ta chỉ thay đổi giá trị Clone chứ không thay đổi trực tiếp giá trị  vùng nhớ của đối tượng gốc

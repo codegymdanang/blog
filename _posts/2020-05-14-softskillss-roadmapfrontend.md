@@ -10,12 +10,12 @@ description : lập trình web, học lập trình web
 youtubeId: xLFCVXGSlNA
 ---
 
-### **Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các bạn, hôm nay anh sẽ giới thiệu cho các bạn để trở thành một lập trình viên frontend chuyên nghiệp thì mình bắt đầu từ đâu, các công nghệ mà mình cần trang bị.
 
 <br>
-### **Con đường trở thành lập trình viên frontend**
+# **Con đường trở thành lập trình viên frontend**
 
 Trong roadmap hình bên dưới có những hình tròn có dấu tích là tím , đỏ , trắng, màu đà
 
@@ -32,7 +32,7 @@ Trong roadmap hình bên dưới có những hình tròn có dấu tích là tí
 {: refdef}
 
 
-## **Kết luận**
+# **Kết luận**
 
 Để trở thành một lập trình viên frontend chuyên nghiệp thì mình sẽ bắt đầu bằng việc học và sử dụng HTML, CSS , Boostrap, Javascript. Hiểu được cơ chế hoạt động của website.
 

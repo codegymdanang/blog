@@ -10,7 +10,7 @@ description : Phân biệt Request Param và Path Variable . request param là g
 youtubeId: luc3zTLri6M
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào bạn , chắc bạn đang phân vân Request Param và PathVariable có khác gì nhau không ? Khi nào dùng thì bài viết hôm nay
 anh sẽ trình bày sự khác nhau đó .Chúng ta sẽ thảo luận các vấn đề sau.
@@ -21,7 +21,7 @@ anh sẽ trình bày sự khác nhau đó .Chúng ta sẽ thảo luận các v�
 - Video hướng dẫn cách làm
 
 <br>
-### **2. Request Param**
+# **1. Request Param**
 
 Sử dụng Request Param ở server  để lấy giá trị người dùng nhập trên trình duyệt .
 Ví dụ khi người dùng gõ vào đường link như sau để gửi 2 giá trị 10 và 20 lên server .
@@ -36,7 +36,7 @@ public String getDetails(@RequestParam(value="param1", required=true) String par
 {% endhighlight %}
 
 <br>
-### **3. Path Variable
+# **2. Path Variable
 
 Sử dụng Path Variable ở server  để lấy giá trị người dùng nhập trên trình duyệt.
 
@@ -52,7 +52,7 @@ public List<Invoice> listUsersInvoices(
 {% endhighlight %}
 
 <br>
-### **4. Kết hợp cả 2 trong 1 request
+# **3. Kết hợp cả 2 trong 1 request
 http://localhost:8080/MyApp/user/1234/invoices?date=12-05-2013
 
 {% highlight java linenos %}
@@ -65,7 +65,7 @@ public List<Invoice> listUsersInvoices(
 {% endhighlight %}
 
 <br>
-### **5. Kết luận
+# **4. Kết luận
 
 Cả 2 cách trên đều thực hiện chung một nhiệm vụ là lấy các tham số từ người dùng truyền lên. Bạn sử dụng cái nào cũng làm được
 mục đích của mình . Tuy nhiên tuỳ vào thiết kế của một hệ thống mà lựa chọn Request Param hoặc  Path Variable để sử dụng mới đem lại

@@ -11,7 +11,7 @@ youtubeId: 2xSwAsdcwLo
 youtubeId1: 9G2UAIWILa4
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các bạn , bạn đang có ý định làm một website cho mình nhưng không biết nên sử dụng framework nào
 để hỗ trợ việc làm website một cách đơn giản và đẹp .Hôm nay anh sẽ giới thiệu với các bạn Boostrap framework. Chúng ta sẽ đi qua các nội
@@ -24,7 +24,7 @@ dung sau
 - Video trình bày cách làm một trang web đẹp bằng Bootstrap
 
 <br>
-### **2. Trước tiên ta hãy xem Bootstrap là gì**
+# **1. Trước tiên ta hãy xem Bootstrap là gì**
 
 Boostrap là một framework gồm HTML , CSS , JS giúp chúng ta thiết kế website theo một chuẩn nhất định. Bootstrap định nghĩa
 các thư viện có sẳn và ta chỉ việc dùng nó . Sử dụng Bootstrap giúp ta tiết kiệm được thời gian phát triển web vì nó định nghĩa
@@ -32,7 +32,7 @@ sẳn các chức năng như Responsive (hiển thị được trên mobile , de
 các animation (hiệu ứng) đã được tích hợp trong Boostrap.
 
 <br>
-### **3. Lợi ích của Boostrap**
+# **2. Lợi ích của Boostrap**
 
 - Dễ dàng thao tác . Boostrap có nguyên một bộ tài liệu hướng dẫn
 - Tuỳ chỉnh dể dàng.
@@ -41,7 +41,7 @@ các animation (hiệu ứng) đã được tích hợp trong Boostrap.
 - Tái sử dụng .
 
 <br>
-### **4. Cài đặt Boostrap cho dự án**
+# **3. Cài đặt Boostrap cho dự án**
 
 - Chúng ta có thể cài boostrap từ CDN bằng cách thêm  dòng sau vào trang HTML.
 
@@ -73,14 +73,12 @@ các animation (hiệu ứng) đã được tích hợp trong Boostrap.
 Để sử dụng được các thành phần của  Bootstrap ta chỉ cần sử dụng class của Boostrap trong HTML của mình.
 Ví dụ <div class="container"> thì class container là của Bootstap . Như vậy ta chỉ cần sử dụng lại
 
-
-
 - Chúng ta có thể download trực tiếp từ trang chủ của Boostrap (https://getbootstrap.com)
 
 <br>
-### **5 Một số tính năng quan trọng của Bootstrap**  
+### **3 Một số tính năng quan trọng của Bootstrap**  
 
-####  Meta là gì ? Viewport ? content ? initial-scale ?
+#  Meta là gì ? Viewport ? content ? initial-scale ?
 
 {% highlight xml  linenos %}
 <meta name = "viewport" content = "width=device-width, initial-scale = 1, shrink-to-fit = no">
@@ -91,7 +89,7 @@ Ví dụ <div class="container"> thì class container là của Bootstap . Như 
 + Thuộc tính width=device-width đặt chiều rộng của trang web theo chiều rộng màn hình của thiết bị.
 + Thuộc tính initial-scale=1.0 thiết lập mức độ phóng ban đầu khi trang được trình duyệt tải lần đầu tiên, người dùng sẽ không thể zoom khi thuộc tính này có giá trị bằng 1
 
-#### Container Class
+# Container Class
 
 + Có 2 loại container
 + Loại container sẽ hiển thị website với giá trị fixed width (lập trình viên tự định nghĩa giá trị như sau
@@ -119,7 +117,7 @@ Ví dụ <div class="container"> thì class container là của Bootstap . Như 
 </div>
 {% endhighlight %}
 
-#### Responsive breakpoints
+# Responsive breakpoints
 
 Responsive là cách mình lập trình trang web có thể hiển thị trên nhiều thiết bị khác nhau ví dụ trên điện thoại , IPad , Tivi. Nhờ có Bootstrap
 mà ta không còn phải lo lắng khi làm responsive vì Boostrap đã hỗ trợ cho mình. Bằng cách sử dụng thẻ @media ta có thể dể dành hiển thị trang web
@@ -161,7 +159,7 @@ mà ta không còn phải lo lắng khi làm responsive vì Boostrap đã hỗ t
 }
 {% endhighlight %}
 
-#### Hệ thống lưới
+# Hệ thống lưới
 
 Bootstrap sử dụng hệ thống lưới 12 cột đại để là layout cho trang web .
 
@@ -201,7 +199,7 @@ Bootstrap sử dụng hệ thống lưới 12 cột đại để là layout cho 
 
 {% endhighlight %}
 
-## Quy tắc khi thực hiện Responsive Web Design
+# Quy tắc khi thực hiện Responsive Web Design
 
 1. Không sử dụng các HTML element có chiều rộng cố định quá lớn - Ví dụ: Một hình ảnh có chiều rộng quá lớn so với chiều rộng của các thiết bị nhỏ thì khi hiển thị trên các thiết bị này hình ảnh sẽ bị tràn ra ngoài và cần phải cuộn ngang để xem được toàn bộ ảnh. Vì vậy, cần phải điều chỉnh hỉnh ảnh sao cho phù hợp với chiều rộng của từng thiết bị. <br>
 
@@ -210,14 +208,14 @@ Bootstrap sử dụng hệ thống lưới 12 cột đại để là layout cho 
 3. Sử dụng icon SVG thay cho icon hỉnh ảnh thông thường (JPG, PNG,...) Các icon, hình ảnh dạng SVG sẽ không bị mờ khi thu phóng ở bất kỳ kích thước nào, điều này sẽ giúp nội dung của trang web hiển thị tốt nhất trên các thiết bị Retina như iPhone, iPad, Macbook
 
 <br>
-### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
+# Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
 <br>
-### Các bạn có thể làm  một trang website giống 100% Zing.vn tại đây nhé
+# Các bạn có thể làm  một trang website giống 100% Zing.vn tại đây nhé
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId1 %}

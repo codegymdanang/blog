@@ -10,7 +10,7 @@ description : auto generation trong hibernate , identity generation , sequence g
 youtubeId: WNfuVJptPnQ
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các em ,như các em thấy trong các Entity mình annotation @GeneratedValue và nó có các strategy như GenerationType.IDENTITY,sequence-generator. Vậy nó là cái gì thì chủ đề hôm nay chúng ta sẽ nói về các loại Generation trong Hibernate
 
@@ -21,7 +21,7 @@ Chào các em ,như các em thấy trong các Entity mình annotation @Generated
 - Cấu hình và triển khai một dự án dùng các annotation
 
 <br>
-### **2. Auto Generation**
+# **1. Auto Generation**
 
 Nếu ta không khai báo strategy thì mình sẽ sử dụng default generation để sinh ra giá trị cho khoá chính. Thì trường khoá chính sẽ có giá trị là số hoặc UUID
 
@@ -60,7 +60,7 @@ public class Course {
 {% endhighlight %}
 
 <br>
-### **3. IDENTITY Generation**
+# **2. IDENTITY Generation**
 
 Khi sử dụng strategy Identity có nghĩa khoá chính sẽ tự động tăng lên
 
@@ -79,7 +79,7 @@ public class Student {
 Lúc này giá trị cửa studentId sẽ là 1,2,3,4,5 ...
 
 <br>
-### **4. SEQUENCE Generation**
+# **3. SEQUENCE Generation**
 
 Chúng ta sử dụng sequen-generator để có cấu hình cách tạo ra các giá trị cho khoá chính.
 Như ta thấy ở ví dụ Identify Generation. Thì thứ tự bắt đầu là 1 , sau đó tăng lên 2,3,4.
@@ -108,10 +108,10 @@ public class User {
 {% endhighlight %}
 
 <br>
-### **4. Table Generation**
+# **4. Table Generation**
 
 <br>
-### **5. Tự tạo Generation cho chúng ta**
+# **5. Tự tạo Generation cho chúng ta**
 
 Chúng ta có thể hoàn toàn tự tạo một Generator theo ý của mình bằng cách implements IdentifierGenerator. Ví dụ như
 ta có thể tạo ra một identifier chứ biểu mẫu chính quy gồm cả String và số . Ta sẽ override lại method generate
@@ -168,6 +168,6 @@ public class Product {
 {% endhighlight %}
 
 <br>
-### **6. Kết luận**
+# **6. Kết luận**
 
 Chúng ta có 4 loại generator chúng trả về kết quả gần như nhau nhưng khác nhau ở cơ chế thực hiện  của database  

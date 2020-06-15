@@ -10,7 +10,7 @@ description : học lập trình , học lập trình bắt đầu từ đâu, p
 youtubeId: r2w7in6xMB4
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các bạn, chắc hẳn bạn sẽ thắc mắc học lập trình nên bắt đầu như thế nào? Cần có những yếu tố gì để giúp mình trở thành một lập trình viên. Hôm nay anh sẽ chia sẽ cho các bạn chuẩn bị học lập trình nên trang bị những gì?
 
@@ -22,7 +22,7 @@ Chào các bạn, chắc hẳn bạn sẽ thắc mắc học lập trình nên b
 - Kết luận.
 
 <br>
-### **2. Định nghĩa đam mê về lập trình**
+# **1. Định nghĩa đam mê về lập trình**
 
 Trước khi bắt đầu sẳn sàng cho học lập trình. Anh muốn các bạn xát định rõ tại sao mình học lập trình.
 
@@ -33,7 +33,7 @@ Một số bạn bắt đầu học lập trình  vì mình thích làm các ứ
 Đam mê chính là yếu tố quan trọng nhất khi mình bắt đầu học lập trình. Nghề lập trình thì phải học cả đời từ lúc là lập trình viên tới lúc mình nghỉ hưu, vì công nghệ và kỷ thuật lập trình luôn luôn thay đổi và có cái mới do đó bắt buộc mình phải học để nâng cao bản thân. Nếu không có đam mê thì mình có thể bỏ cuộc giữa chừng như vậy mình sẽ rất lảng phí thời gian. Nếu không có đam mê anh nghĩ mình hãy chọn một ngành nghề mới để kinh doanh. Chắc chắn làm giàu không chỉ có bằng nghề lập trình mà còn các công việc khác giúp chúng ta làm giàu. Như vậy trước khi bắt tay vào học lập trình các bạn hãy xát định rõ mục đích của mình là gì từ đó phấn đấu cho mục đích đó nhằm tạo động lực và niềm đam mê trong lập trình. Đam mê có nhiều cách để mình có thể tự tạo ra nó ,nhưng anh thấy có 2 xu hướng chính đó là mình thích lập trình dẫn tới đam mê, hoặc mình học lập trình vì một mục đích muốn có một cuộc sống tốt hơn và dẫn tới đam mê.
 
 <br>
-### **2. Lập trình là gì**
+# **2. Lập trình là gì**
 
 Theo như anh thấy học lập trình cũng giống như học anh văn vậy. Mình học anh văn để giao tiếp với các bạn nước ngoài. Để giao tiếp được thì mình phải học từ vựng và ngữ pháp của ngôn ngữ đó ,từ đó mình sử dụng nó để nói chuyện và trao đổi các mong muốn của mình với các bạn nước ngoài.
 
@@ -42,7 +42,7 @@ Học lập trình cũng vậy mình sẽ học các từ vựng (các từ kho�
 Như các em thấy ngày nay có rất nhiều ứng dụng như ngân hàng, thương mại điện tử được lập trình ra bời vì mình hiểu được cách giao tiếp , ra chỉ thị cho máy tính, ứng dụng thông qua dòng lệnh . Từ đó mình xây dựng các chỉ dẫn dựa trên nghiệp vụ mà mình biết để ra lệnh cho phần mềm phải làm những điều mình muốn.
 
 <br>
-### **3. Học lập trình bắt đầu từ đâu**
+# **3. Học lập trình bắt đầu từ đâu**
 
 Bước 1 : Đầu tiên chúng ta xát định là sẽ học phần cơ bản nhất đó là bắt đầu với việc tạo ra được trang web của mình hay còn gọi là học lập trình frontend (frontend có nghĩa là những thứ mình có thể thấy được, vì dụ như website bán điện thoại di động, khi vào trang web thì mình thấy danh sách các loại điện thoại . Vậy frontend là những cái mình thấy được bằng mắt). Để làm được frontend mọi người phải học công nghệ HTML , CSS , và Javascript . Trong giai đoạn này mình sẽ học cú pháp , cấu trúc cơ bản của HTML,CSS,Javascript và tự xây dựng được trang web cho mình.
 
@@ -59,7 +59,7 @@ Bước 4 : Đạt các còn level của lập trình
 Khi đã được level 1 lúc đó mình đó có nền tảng về lập trình. Thông thường sẽ mất 2 năm để đạt tiếp level 2 (Medium) , 5->10 năm để đạt level 3 (advantage) và trên 10 năm có thể đạt level 4 (expert). Khi mọi người vào công ty thì tuỳ vào dự án mà mọi người sẽ được học các công nghệ khác nhau . Tuy nhiên khi đã có level1 rồi thì mình được các công ty tạo cơ hội làm trong các dự án để đạt các level tiếp theo.
 
 <br>
-### **4.Các phương pháp học lập trình**
+# **4.Các phương pháp học lập trình**
 
 Thông thường khi học một ngôn ngữ mới hay một công nghệ mới các việc sau đây anh cần phải làm
 
@@ -71,7 +71,7 @@ nhiều thứ không hiểu vì mình là người mới bắt đầu học lậ
 - Sau khi đã chuẩn bị xong mọi thứ thì bắt tay vào việc học. Học lập trình quan trọng là code nhiều để quen cú pháp và từ vựng của ngôn ngữ. Chính vì vậy cứ mỗi bài học mình xát định là đã hiều nội dung , làm được bài thực hành của bài học, và tự mình đặt ra câu hỏi  xem mình đã hiểu chưa, thực hiện các câu trắc nghiệm về bài học mình vừa hoàn thành. Sau khi kết thúc việc học thì mình sẽ làm 1 một phần mềm mang tính thực tế và áp dụng các kiến thức mình học trong môn đó vào lập trình. Cuối cùng mình phải xây dựng hay lập trình được một cái gì đó. Vì học lập trình mà không viết code thì mình sẽ quên kiến thức ngay. Chính vì vậy mà mình phải làm ra một phần mềm ở cuối chương trình để nắm lại những thức mà mình học. Thông thường thì mất tầm 1 tháng để học một công nghệ mới và làm được một ứng dụng mang tính hiểu các nguyên lý của ngôn ngữ đó.
 
 <br>
-### **5.Các ngành nghề và chức danh trong lập trình**
+# **5.Các ngành nghề và chức danh trong lập trình**
 
 Để làm ra được một phần mềm thì có rất nhiều vai trò cùng làm việc với nhau để cho ra sản phẩm. Nếu mình không giỏi về lập trình thì mình có thể tham gia dự án với các vai trò sau.
 
@@ -84,6 +84,6 @@ nhiều thứ không hiểu vì mình là người mới bắt đầu học lậ
 - Ngoài ra ở các công ty khác thì sẽ có thêm các vai trò khác nữa để giúp dự án chạy tốt hơn, nhưng cơ bản 1 dự án thì cần các vai trò như tester, designer , developer, quản lý dự án cùng phối hợp với nhau để tạo ra sản phẩm.
 
 <br>
-### **Kết luận**
+# **Kết luận**
 
 Học lập trình không quá khó. Cái quan trọng mình phải xát định mục tiêu mình là gì? Từ đó chuyển mục tiêu đó thành đam mê để giúp mình có nhiều thời gian cải thiện bản thân và vươn xa trong sự nghiệp. Đam mê sẽ mang lại thành công

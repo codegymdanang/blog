@@ -10,6 +10,8 @@ description : hướng dẫn nhúng  boostrap trong angualar . boostrap angular 
 youtubeId: 977WIZTAUv8
 ---
 
+# **Giới thiệu nội dung bài viết**
+
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách nhúng Bootstrap vào dự án Angualr là như thế nào nhé .
 Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
 

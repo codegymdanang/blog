@@ -10,7 +10,7 @@ description : Spring Security là gì ? hướng dẫn spring security , ví d�
 youtubeId: WNfuVJptPnQ
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào bạn, bạn đang gặp rắc rối với Spring Security? bạn không hiểu luồng đi của ứng dụng ?
 bạn đang quan tâm trong thực tế mình sẽ áp dụng như thế nào ? Hôm nay anh sẽ hướng dẫn mọi người cách sử dung Spring security.
@@ -21,7 +21,7 @@ Bài viết sẽ đi qua các nội dụng sau đây
 - Xây dựng một ứng dụng Spring Security với mysql database hoàn chỉnh
 
 <br>
-### **2. Demo mục đích bài hướng dẫn hôm nay**
+# **1. Demo mục đích bài hướng dẫn hôm nay**
 
 Kết thúc bài giảng hôm nay các em sẽ làm được ứng dụng phân quyền tuỳ thuộc vào user đăng nhập vào hệ thống là user hay admin mà ta cho phép họ
 vào trang web tương ứng. Ví dụ.  
@@ -35,7 +35,7 @@ vào trang web tương ứng. Ví dụ.
 {: refdef}
 
 <br>
-### **2. Các khái niệm về Spring Security**
+# **2. Các khái niệm về Spring Security**
 
 - Authentication : Khi nói về authentication là ta nói về chức năng đăng nhập vào hệ thống. Authentication nghĩa là bạn có phải là người dùng của hệ thống hay không.
 
@@ -43,7 +43,7 @@ vào trang web tương ứng. Ví dụ.
 xát thực mình là user trong hệ thống . Tiếp đến tuỳ vào role của mình là admin hay user mà mình chỉ có quyền truy cập một số trang nhất định thuộc thẩm quyền của mình.
 
 <br>
-### **3. Hướng dẫn xây dựng ứng dụng Spring Security**
+# **3. Hướng dẫn xây dựng ứng dụng Spring Security**
 
 Luồng đi của ứng dụng mình như sau.
 

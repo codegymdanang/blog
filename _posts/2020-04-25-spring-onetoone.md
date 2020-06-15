@@ -10,7 +10,7 @@ description : OneToOne Mapping . hướng dẫn onetoone trong spring data jpa ,
 youtubeId: WNfuVJptPnQ
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ đề hôm nay chúng ta sẽ nói về các annotation @OneToOne  .
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
@@ -19,7 +19,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 - Cấu hình và triển khai một dự án dùng các annotation
 
 <br>
-### **2. One To Many annotation**
+# **1. One To Many annotation**
 
 Anh lấy ví dụ như mình làm ứng dụng về quản lý nhân sự ở công ty . Một nhân viên chỉ có một địa chỉ duy nhất.
 
@@ -45,7 +45,7 @@ CREATE TABLE `user` (
 Ta tạo 2 database user và address . addressid trong table user là khoá phụ liên kết đến bảng Address
 
 <br>
-### **3. Triển khai trong Java
+# **2. Triển khai trong Java**
 
 Đầu tiên mình tạo Class User và sử dụng annotation @OneToOne để nói rằng. Một user chỉ có một địa chỉ duy nhất.  
 
@@ -111,7 +111,7 @@ Chúng ta sẽ lưu xuống database theo cách sau.
 {% endhighlight %}
 
 <br>
-### **5. Kết luận**
+### **3. Kết luận**
 
 Như vậy chúng ta sử dụng annotaion @OneToOne để thực hiện việc liên kết giữa hai entity với nhau mà chúng có quan hệ 1-1. Từ User mình có thể
 suy ra địa chỉ của user và ngược lại

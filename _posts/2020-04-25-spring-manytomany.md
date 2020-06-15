@@ -10,7 +10,7 @@ description : Hướng dẫn sử dụng quan hệ @ManyToMany many to many tron
 youtubeId: WNfuVJptPnQ
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ đề hôm nay chúng ta sẽ nói về  annotation @ManyToMany  .
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
@@ -19,7 +19,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 - Cấu hình và triển khai một dự án dùng ManyToMany
 
 <br>
-### **1. ManyToMany là gì**
+# **1. ManyToMany là gì**
 
 Hôm nay mình sẽ làm phần mềm về quản lý  sinh viên và khoá học tại trường đại học .Như các em đã biết
 Một sinh viên có thể đăng ký học nhiều khoá học (khoá anh văn , khoá tinh học, khoá  hoá học) trong một học kỳ.
@@ -28,7 +28,7 @@ Như vậy mình sẽ thấy mối quan hệ giữa sinh viên và khoá học l
 nhiều sinh viên.
 
 <br>
-### **2. Biểu diển ManyToMany trong database**
+# **2. Biểu diển ManyToMany trong database**
 Chúng ta sẽ biểu diển mối quan hệ này trong database. Như các em biết trong database nếu 2 tables quan hệ nhiều nhiều mình sẽ tách thêm
 một bảng thứ 3 làm bảng trung gian cho 2 tables đó .
 
@@ -59,7 +59,7 @@ Trong thiết kế database không tồn tại quan hệ nhiều nhiều chính 
 thành 2 mối quan hệ một nhiều .   
 
 <br>
-### **2. Biểu diển ManyToMany trong Java**
+# **3. Biểu diển ManyToMany trong Java**
 
 Trong Java chúng ta sử dụng annotation @ManyToMany để thể hiện mối quan hệ nhiều nhiều.
 Đầu tiên chúng ta sẽ tạo Entity Student
@@ -107,7 +107,7 @@ Như vậy là ta đã setup xong. Như trong thực tế ta có thể dùng nhi
 thuật CompositeKey để làm quan hệ nhiều nhiều. Mình ko cần dùng @JoinTable
 
 <br>
-### **3 . Quan hệ nhiều nhiều sử dụng CompositeKey**
+# **4 . Quan hệ nhiều nhiều sử dụng CompositeKey**
 
 Như ta thấy ở mục 1 về cấu trúc database. Ta có một bảng trung gian là student_course với 2 keys phụ là student_id và course_id . Hai khoá này kết hợp với nhau trở thành khoá chính và mình gọi là Composite Key.
 
@@ -156,6 +156,6 @@ Như ta thấy ở trên mình không dùng @ManyToMany nữa mà thay vào đó
 Chúng ta sử dụng @EmbeddedId để dánh dấu cặp key trở thành khoá chính (PRIMARY KEY ) trong entity
 
 <br>
-### **4 . Tổng kết**
+# **5. Tổng kết**
 
 Các em có thể dùng một trong 2 cách trên khi gặp mối quan hệ nhiều nhiều đều giải quyết được vấn đề. Thông thường anh hay dùng cách thứ 2 (CompositeKey) vì code dể quản lý và thay đổi . Ví dụ như a muốn thêm vô vài trường trong table trung gian thì  quản lý rất dể.

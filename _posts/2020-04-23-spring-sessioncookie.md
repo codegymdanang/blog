@@ -10,7 +10,7 @@ description : Phân biệt Session và Cookie . Session là gi , cookie là gì 
 youtubeId: ym4-rU9R6fM
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 Chào bạn, chắc khá nhiều bạn đang học lập trình không phân biệt  được sự khác nhau giữa session và cookie . Khi nào thì dùng chúng
 Hôm nay anh sẽ trình bày nguyên lý và sự khác nhau của session và cookie cũng như khi nào mình sẽ sử dụng nó. Nội dung trình bày trong bài này
 
@@ -20,7 +20,7 @@ Hôm nay anh sẽ trình bày nguyên lý và sự khác nhau của session và 
 - Video demo
 
 <br>
-### **2. Session là gì**
+# **1. Session là gì**
 
 Một session hay còn gọi là một phiên làm việc. Nó  là cách giao tiếp giữa client (trình duyệt web) với server.
 Một session bắt đầu khi client gửi request đến sever, nó tồn tại xuyên suốt từ trang này đến trang khác trong ứng dụng và chỉ kết thúc khi hết thời gian timeout hoặc khi bạn đóng ứng dụng tắt trình duyệt .
@@ -30,13 +30,13 @@ Sau khi server tạo các giá trị session , server sẽ tạo ra một tệp 
 để xem làm trình duyệt đó là mới hay cũ.
 
 <br>
-### **3. Cookie là gì**
+# **2. Cookie là gì**
 
 Cookie cũng được dùng để lưu những thông tin tạm thời. ệp tin cookie sẽ được truyền từ server tới browser và được lưu trữ trên máy tính của bạn khi bạn truy cập vào ứng dụng.
 Như vậy dù có tắt browser cũng không mất đi các giá trị vì chúng ta đã lưu nó trên máy tính của mình.
 
 <br>
-### **4. So sánh session và cookie**
+# **3. So sánh session và cookie**
 
 {:class="table table-bordered"}
  |  	 Cookie                                             |   Session	                                        |
@@ -47,7 +47,7 @@ Như vậy dù có tắt browser cũng không mất đi các giá trị vì chú
  |  Dữ liệu cookie có sẵn trong trình duyệt đến khi expired.   | Sau khi đóng trình duyệt sẽ hết phiên làm việc (session)   |
 
 <br>
-### **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+# **4. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}

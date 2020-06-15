@@ -9,17 +9,20 @@ image: /images/blog/design-patterns.png
 description : design pattern là gì ? vì sao sử dụng design pattern, các mẫu design pattern
 ---
 
+# **Giới thiệu nội dung bài viết**
 Chào các e, chủ đề hôm nay của anh sẽ bàn về chủ đề  Design Pattern
 
 <br>
-### Design Pattern là gì ?
+# Design Pattern là gì ?
+
 Design Pattern là một giải pháp cho một vấn đề chung trong thiết kế phần mềm . Nó mô tả cách giải quyết một vấn đề được lập đi lập lại
 nhiều lần. A lấy ví dụ về giải pháp khi mình thay đổi giá trị trong database thì nó tự động cập nhập giá trị đó lên các giao diện ứng dung
 khác nhau như mobile , web, tivi cùng một lúc. Để giải quyết được vấn đề đó thì người ta áp dụng MVC pattern để giải quyết vấn đề.
 Như vậy người ta áp dụng design pattern để giải quyết cho những vấn đề gặp phải ở nhiều tình huống khác nhau.
 
 <br>
-### Tại sao nên sử dụng Design Pattern
+# Tại sao nên sử dụng Design Pattern
+
 1. Design Pattern giúp cho dự án chúng ta dể dàng mở rộng mà không phải xoá đi code. Chúng ta chỉ cần viết thêm Class mới cho
 chức năng mới
 2. Các mẫu Design Pattern này do các kỷ sư hàng đầu thế giới nghiêu cứu và phát triển nên ta hoàn toàn tin tưởng khả
@@ -28,7 +31,7 @@ năng mở rộng khi dùng chúng
 thiết kế hệ thống của các developer
 
 <br>
-### Các loại design pattern hiện nay
+# Các loại design pattern hiện nay
 Design Pattern được chia làm 3 mục chính là : Creational Pattern ( nhóm khởi tạo), Structural (nhóm cấu trúc) và Behavioral patterns (nhóm hành vi ) .
 
 Creational Pattern ( nhóm khởi tạo): Nhóm này sẽ giúp bạn rất nhiều trong việc khởi tạo đối tượng
@@ -73,6 +76,6 @@ Behavioral patterns (nhóm hành vi): Nhóm này sẽ tập trung thực hiện 
 12.   Visitor.
 
 <br>
-### Tổng kết
+# Tổng kết
 Như các em thấy hầu hết các framework mà chúng ta đang dùng đều xây dựng dựa trên các design pattern . Vì nó có
 khả năng mở rộng cao . Ứng với từng mục đích , từng bài toán mà ta sẽ sử dụng pattern tương ứng để giải quyết vấn đề .

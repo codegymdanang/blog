@@ -10,6 +10,8 @@ description : Xu hướng nghành CNTT, xu hướng nghành công nghệ thông 
 youtubeId: r2w7in6xMB4
 ---
 
+# **Giới thiệu nội dung bài viết**
+
 Chào các bạn, chắc hẳn bạn rất thích lập trình và mong muốn biết được lộ trình sự nghiệp của lập trình viên trong tương lai là như thế nào? Hôm nay anh sẽ chia sẽ với các bạn chủ để sau
 
 - Sinh viên cần trang bị các kiến thức gì khi rời ghế nhà trường

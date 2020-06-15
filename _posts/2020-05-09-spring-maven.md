@@ -10,7 +10,7 @@ description : maven là gì? hướng dẫn sử dụng maven , ví dụ maven
 youtubeId: WNfuVJptPnQ
 ---
 
-### **1. Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các em, chủ để hôm nay chúng ta sẽ tìm hiểu về Maven là gì ?
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
@@ -21,7 +21,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 - Kết luận
 
 <br>
-### **2. Maven là gì ?**
+# **1. Maven là gì ?**
 
 Maven là một tool ta sử dụng chung với các dự án java . Mục đích chính của Maven dùng để quản lý các thư viện được dùng chung với dự án java.
 Ví dụ như mình muốn tích hợp chức năng login của facebook vào ứng dụng của mình, thì mình phải nhúng thư viện  của facebook vào dự án của mình.
@@ -30,7 +30,7 @@ Ngoài việc quản lý thư viện và version của thư viện. Thì mình d
 để deploy sản phẩm của mình lên các con server khác nhau
 
 <br>
-### **3. Khai báo dependency trong POM**
+# **2. Khai báo dependency trong POM**
 
 Để nhúng một thư viện vào dự án Trong file pom.xml ta sử dụng đoạn mã sau:
 
@@ -102,7 +102,7 @@ Ngoài việc quản lý thư viện và version của thư viện. Thì mình d
 {% endhighlight %}
 
 <br>
-### **3. Maven Repository**
+# **3. Maven Repository**
 
 Bạn có thắc mắc vì sao ta chỉ khai báo cách dưới đây mà dự án của ta lấy được file slf4j-api và nhúng vào dự án mình không ?
 
