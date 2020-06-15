@@ -10,13 +10,12 @@ description : Phân biệt bộ nhớ heap và stack . bộ nhớ heap là gì ,
 youtubeId: werAdblsT1s
 ---
 
-#**Giới thiệu nội dung bài viết**
+# **Giới thiệu nội dung bài viết**
 
-Chào bạn, chắc hẳn bạn đang phân vân khi mình khai báo biến , object , phương thức , tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ?
-Ai sẽ quản lý bộ nhớ ? Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ Heap và Stack lưu trữ dữ liệu gì và lưu như thế nào nhé . Các nội dung sau sẽ được trình bày
-trong bài viết hôm nay
+Chào bạn ,chắc hẳn bạn đang phân vân khi mình khai báo biến ,object ,phương thức ,tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ? Ai sẽ quản lý bộ nhớ ?Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ Heap và Stack lưu trữ dữ liệu gì và lưu như thế nào nhé .Các nội dung sau sẽ được trình bày
+trong bài viết hôm nay.
 
-- Các thuật ngữ về bộ nhớ
+- Các thuật ngữ về bộ nhớ.
 - Heap và Stack là gì ?
 - Bộ nhớ Heap dùng làm gì ?
 - Bộ nhớ Stack dùng làm gì ?
@@ -30,16 +29,16 @@ trong bài viết hôm nay
 ![Các thuật ngữ ](/images/post/javacore/cacthuatngu.png){:class="img-responsive"}
 {: refdef}
 
-- Runtime : thời gian chạy của chương trình
-- Java Heap Memory : Bộ nhớ Heap trong Java
-- Java Stack Memory: Bộ nhớ Stack trong Java
-- JVM : Java Virtual Machine , máy ảo Java để chạy các chương trình Java
-- Object : là đối tượng được khởi tạo từ khoá new từ một class
+- Runtime : khoản thời gian chương trình chạy.
+- Java Heap Memory : Bộ nhớ Heap trong Java.
+- Java Stack Memory: Bộ nhớ Stack trong Java.
+- JVM : máy ảo Java Vitural Machine để chạy các chương trình Java.
+- Object : là đối tượng được khởi tạo từ khoá new từ một class. Ví dụ Persion persion = new Person().
 
 <br>
 # **2 Heap và Stack**
 
-Java Heap và Stack Memory là một phần của bộ nhớ được JVM sử dụng để chạy chương trình Java của bạn. Khi bạn chạy chương trình Java, JVM sẽ yêu cầu hệ điều hành cấp cho một không gian bộ nhớ trong RAM để dùng cho việc chạy chương trình.
+Bộ nhớ Heap và Stack là một phần của bộ nhớ được JVM sử dụng để chạy chương trình Java của bạn. Khi bạn chạy chương trình Java, JVM sẽ yêu cầu hệ điều hành (Ví dụ như Window,Mac, ) cấp cho một không gian bộ nhớ trong RAM để dùng cho việc chạy chương trình.
 JVM sẽ chia bộ nhớ được cấp phát này thành 2 phần: Heap và Stack cho việc quản lý.
 
 {:refdef: style="text-align: center;"}
@@ -49,10 +48,10 @@ JVM sẽ chia bộ nhớ được cấp phát này thành 2 phần: Heap và Sta
 <br>
 # **3 Bộ nhớ Heap**
 
-- Java Heap Memory là bộ nhớ được sử dụng ở runtime để lưu các Objects. Bất cứ khi nào ở đâu trong chương trình của bạn khi bạn tạo Object thì nó sẽ được lưu trong Heap (thực thi toán tử new).
+- Java Heap Memory là bộ nhớ được sử dụng ở runtime (Khi chương trình đang  chạy) để lưu các Objects(các đối   tượng) . Bất cứ khi nào ở đâu trong chương trình của bạn khi bạn tạo Object thì nó sẽ được lưu trong Heap (thực thi toán tử new).
 - Các objects trong Heap đều được truy cập bởi tất cả các các nơi trong ứng dụng, bởi các threads khác nhau.
 - Thời gian sống của object phụ thuộc vào Garbage Collection của java.
-- Garbage Collection sẽ chạy trên bộ nhớ Heap để xoá các Object không được sử dụng nữa, nghĩa là object không được referece trong chương trình.
+- Garbage Collection (bộ dọn rác của java. Khi các đối tượng khai báo mà không sử dụng, bộ dọn rác sẽ xoá các đối tượng đó đi để tiết kiệm bộ nhớ) sẽ chạy trên bộ nhớ Heap để xoá các Object không được sử dụng nữa, nghĩa là object không được referece trong chương trình.
 - Dung lượng sử dụng của Heap sẽ tăng giảm phụ thuộc vào Objects sử dụng.
 - Dung lượng Heap thường lớn hơn Stack.
 
