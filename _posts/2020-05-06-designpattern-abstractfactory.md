@@ -11,24 +11,24 @@ description : Abstract Factory là gì . hướng dẫn abstract factory trong j
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các e, chủ đề hôm nay của anh sẽ bàn về Design Pattern Abstract Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình
+Chào các e, chủ đề hôm nay của anh sẽ bàn về Design Pattern Abstract Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình.
 
 <br>
-### Abstract Factory Là gì ?
+# Abstract Factory Là gì ?
 
-### Khi nào nên dùng Abstract Factory
+# Khi nào nên dùng Abstract Factory
 + Khi chúng ta muốn tạo một họ sản phẩm (FAMILY PRODUCT) liên quan đến . Ví dụ như mình muốn tạo một đối tượng là Xe hơi Toyota. Thì các thành phần cấu thành xe hơi Toyota phải từ chính Toyota mà ra . Ví dụ Xe hơi Toyota thì Tay laí Toyota , lốp xe Toyota. Khung xe được sản xuất tại Toyota. Nói tóm lại các thành phần cấu tạo nên chiếc xe phải từ Toyota mà ra cả.
 
 <br>
-### Abstract Factory UML
+# Abstract Factory UML
 ![Abstract Factory UML ](/images/post/designpattern/abstractfactoryUML.png){:class="img-responsive"}
 
 <br>
-### Abstract Factory Button và Checkbox
+# Abstract Factory Button và Checkbox
 ![Abstract Factory ](/images/post/designpattern/abstractfactory.png){:class="img-responsive"}
 
 <br>
-### Xây dựng ứng dụng
+# Xây dựng ứng dụng
 Trong ví dụ  trên về xây dựng một ứng dụng Paint(vẽ) gồm có các phần như tạo button (nút) và tạo checkbox. Ứng với hệ điều hành Windows thì nó sẽ tạo ra bộ sản phẩm nút và check box của Windows. Nếu là hệ điều hành Mac thì nó sẽ tạo ra một bộ sản phẩm checkbox và nút bấm cho Mac. Như vậy phụ thuộc vào hệ điều hành mà mình đang dùng thì mình sẽ tạo các các thành phần tương ứng cho hệ điều hành đó. Không có trường hợp hệ điều hành Windows mà mình có thể tạo ra nút bấm Windows và Checkbox của Mac được.
 
 1. GUI Factory trong thiết kế tương ứng với Abstract Facetory . Gui Factory gồm các method để tạo ra một sản phẩm . Mỗi method là tạo ra một phần của sản phẩm như button hay checkbox

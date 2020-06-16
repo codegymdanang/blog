@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Sử dụng Angular gọi  Webservice
-slug : su-dung-bootstrap-trong-angular
+slug : su-dung-angular-goi-webservice
 category: laptrinhweb
 tags: [angular]
 summery: Sử dụng Angular gọi  Webservice
