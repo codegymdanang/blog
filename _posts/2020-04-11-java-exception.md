@@ -7,7 +7,7 @@ tags: [java core]
 summery: Ngoại Lệ Trong Java
 image: /images/blog/java.png
 description : Ngoại lệ là gì trong java . Check Exception là gì ? Uncheck Exception là gì ? try catch finally trong exception
-youtubeId: 2BBAVtiks1w
+youtubeId: zC0t0e9DaH4
 ---
 
 # **Giới thiệu nội dung bài viết**
