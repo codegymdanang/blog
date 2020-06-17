@@ -7,7 +7,7 @@ tags: [cicd]
 summery: Jenkins tự động CI-CD   
 image: /images/blog/cicd.png
 description : CI CD là gì ? hướng dẫn ci cd , ví dụ ci cd
-youtubeId: Sd3GYvOQ6Ag
+youtubeId: nhWzKyz9H3s
 ---
 
 # **Giới thiệu nội dung bài viết**
