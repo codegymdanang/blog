@@ -7,7 +7,7 @@ tags: [skills]
 summery: Cách tìm bug trập trình   
 image: /images/blog/softskills.png
 description : Debug ứng dụng là gì , hướng dẫn debug trong lập trình web , debug lập trình java
-youtubeId: xLFCVXGSlNA
+youtubeId: vluehE10qAg
 ---
 
 # **Giới thiệu nội dung bài viết**
