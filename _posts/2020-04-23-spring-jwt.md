@@ -7,7 +7,7 @@ tags: [spring]
 summery: Json Web Token là gì  
 image: /images/blog/spring.png
 description : Spring Json WebToken là gì . Cách . Json Web Token  . Ví dụ JWT , ví dụ Json web token
-youtubeId: 6VCjvbbR_SI
+youtubeId: NSFLGrM6pAU
 ---
 
 # **Giới thiệu nội dung bài viết**
