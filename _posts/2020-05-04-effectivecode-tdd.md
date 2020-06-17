@@ -7,7 +7,7 @@ tags: [effectivecode]
 summery: Cách tìm bug trập trình   
 image: /images/blog/quality-code.png
 description : tdd là gì , ví dụ về tdd , hướng dẫn tdd trong java
-youtubeId: 4IYBDSdBPew
+youtubeId: LdLvwsj5_Sk
 ---
 
 # **Giới thiệu nội dung bài viết**
