@@ -7,7 +7,7 @@ tags: [database]
 summery: Các bước chuẩn hoá dữ liệu    
 image: /images/blog/database.png
 description : Chuẩn hoá dữ liệu là gì , ví dụ về chuẩn hoá dữ liệu, hướng dẫn chuẩn hoá dữ liệu, kỷ thuật chuẩn hoá database
-youtubeId: rMJu2gTawz0
+youtubeId: Thx8bBqIY28
 ---
 
 # **Giới thiệu nội dung bài viết**
