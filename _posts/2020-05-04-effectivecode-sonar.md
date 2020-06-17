@@ -7,7 +7,7 @@ tags: [effectivecode]
 summery: Cải thiệnvới chất lượng code với Sonar
 image: /images/blog/quality-code.png
 description : sonar là gì ? hướng dẫn sử dụng sonar , ví dụ sonar
-youtubeId: lQYHakgIP9A
+youtubeId: 03t61WQSQUg
 ---
 
 # **Giới thiệu nội dung bài viết**
