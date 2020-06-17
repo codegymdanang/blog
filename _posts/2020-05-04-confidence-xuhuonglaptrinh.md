@@ -7,7 +7,7 @@ tags: [confidence]
 summery: Xu hướng nghành lập trình   
 image: /images/blog/softskills.png
 description : Xu hướng nghành CNTT, xu hướng nghành công nghệ thông tin . có nên học lập trình, học lập trình bắt đầu từ đâu, lương nghành IT, có nên học lập trình
-youtubeId: r2w7in6xMB4
+youtubeId: tJn3CghXjnA
 ---
 
 # **Giới thiệu nội dung bài viết**
