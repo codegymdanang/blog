@@ -57,11 +57,11 @@ JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc qu
 <br>
 # **4 Bộ nhớ Stack**
 
-- Bộ nhớ để lưu các biến local trong hàm và lời gọi hàm ở runtime trong một Thread java.
+- Bộ nhớ để lưu các biến local trong hàm.
 - Các biến local bao gồm loại nguyên thuỷ (primitive) và loại tham chiếu tới đối tượng trong heap (reference) khai báo trong hàm, hoặc đối số được truyền vào hàm, thường có thời gian sống ngắn.
 - Bộ  nhớ stack thường nhỏ.
-- Cơ chế hoạt động là LIFO (Last-In-First-Out), chạy sau chết trước.
-- Bất cứ khi nào gọi 1 hàm, một khối bộ nhớ mới sẽ được tạo trong Stack cho hàm đó để lưu các biến local. Khi hàm thực hiện xong, khối bộ nhớ cho hàm sẽ bị xoá, và giải phóng bộ nhớ trong stack.
+- Cơ chế hoạt động thức của Stack là những phương thức , biến chạy sau thì sẽ bị giải phóng đầu .
+- Khi hàm được gọi thì một vùng nhớ được tạo ra trong stack và lưu các biến trong hàm đó. Khi hàm thực hiện xong, khối bộ nhớ cho hàm sẽ bị xoá, và giải phóng bộ nhớ trong stack.
 <br>
 
 - Ví dụ về Heap và Stack
