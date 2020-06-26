@@ -69,7 +69,7 @@ Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền 
 
 - Excepton : là cha của tất cả class Check Exception. Mình khai báo một Class và kế thừa Class Exception.
 {% highlight java linenos %}
-public class MyBusinessException extends Exception {
+public class MyDepositException extends Exception {
 
 	public MyBusinessException(String message, Throwable cause, ErrorCode code) {
 		super(message, cause);
@@ -78,13 +78,14 @@ public class MyBusinessException extends Exception {
 }
 {% endhighlight %}
 
-Mình sử dụng ngoại lệ MyBusinessException như sau
+Mình sử dụng ngoại lệ MyDepositException như sau
+
 {% highlight java linenos %}
-private void wrapException(String input) throws MyBusinessException {
+private void wrapException(String input) throws MyDepositException {
 	try {
 		// do something
 	} catch (NumberFormatException e) {
-		throw new MyBusinessException("A message that describes the error.", e, ErrorCode.INVALID_PORT_CONFIGURATION);
+		throw new MyDepositException("Rut tien vuot dinh muc", e, 5004);
 	}
 }
 {% endhighlight %}
@@ -92,28 +93,27 @@ private void wrapException(String input) throws MyBusinessException {
 - Exception Runtime : là cha của tất cả các class Uncheck. Mình khai báo một Class và kế thừa RuntimeExcepton. Những lỗi này thường xảy ra khi chương trình đang chạy.
 
 {% highlight java linenos %}
-public class MyUncheckedBusinessException extends RuntimeException {
+public class MyDepositRuntimeException extends RuntimeException {
 
-	private static final long serialVersionUID = -8460356990632230194L;
 
 	private final ErrorCode code;
 
-	public MyUncheckedBusinessException(ErrorCode code) {
+	public MyDepositRuntimeException(ErrorCode code) {
 		super();
 		this.code = code;
 	}
 
-	public MyUncheckedBusinessException(String message, Throwable cause, ErrorCode code) {
+	public MyDepositRuntimeException(String message, Throwable cause, ErrorCode code) {
 		super(message, cause);
 		this.code = code;
 	}
 
-	public MyUncheckedBusinessException(String message, ErrorCode code) {
+	public MyDepositRuntimeException(String message, ErrorCode code) {
 		super(message);
 		this.code = code;
 	}
 
-	public MyUncheckedBusinessException(Throwable cause, ErrorCode code) {
+	public MyDepositRuntimeException(Throwable cause, ErrorCode code) {
 		super(cause);
 		this.code = code;
 	}
@@ -124,14 +124,14 @@ public class MyUncheckedBusinessException extends RuntimeException {
 }
 {% endhighlight %}
 
-Mình sử dụng MyUncheckedBusinessException như sau
+Mình sử dụng MyDepositRuntimeException như sau.
 
 {% highlight java linenos %}
 private void wrapException(String input) {
 	try {
 		// do something
 	} catch (NumberFormatException e) {
-		throw new MyUncheckedBusinessException("A message that describes the error.", e, ErrorCode.INVALID_PORT_CONFIGURATION);
+		throw new MyDepositRuntimeException("Loi rut tien", e, 5005);
 	}
 }
 {% endhighlight %}
