@@ -30,8 +30,8 @@ trong bài viết hôm nay.
 {: refdef}
 
 - Runtime : khoản thời gian chương trình chạy.
-- Java Heap Memory : Bộ nhớ Heap trong Java.
-- Java Stack Memory: Bộ nhớ Stack trong Java.
+- Java Heap Memory : Vùng nhớ Heap trong Java.
+- Java Stack Memory: Vùng nhớ Stack trong Java.
 - JVM : máy ảo Java Vitural Machine để chạy các chương trình Java.
 - Object : là đối tượng được khởi tạo từ khoá new từ một class. Ví dụ Persion persion = new Person().
 
@@ -39,7 +39,7 @@ trong bài viết hôm nay.
 # **2 Heap và Stack**
 
 Bộ nhớ Heap và Stack là một phần của bộ nhớ được JVM sử dụng để chạy chương trình Java của bạn. Khi bạn chạy chương trình Java, JVM sẽ yêu cầu hệ điều hành (Ví dụ như Window,Mac, ) cấp cho một không gian bộ nhớ trong RAM để dùng cho việc chạy chương trình.
-JVM sẽ chia bộ nhớ được cấp phát này thành 2 phần: Heap và Stack cho việc quản lý.
+JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc quản lý.
 
 {:refdef: style="text-align: center;"}
 ![Heap và Stack trong Java  ](/images/post/javacore/stackandheap.png){:class="img-responsive"}
@@ -50,8 +50,7 @@ JVM sẽ chia bộ nhớ được cấp phát này thành 2 phần: Heap và Sta
 
 - Java Heap Memory là bộ nhớ được sử dụng ở runtime (Khi chương trình đang  chạy) để lưu các Objects(các đối   tượng) . Bất cứ khi nào ở đâu trong chương trình của bạn khi bạn tạo Object thì nó sẽ được lưu trong Heap (thực thi toán tử new).
 - Các objects trong Heap đều được truy cập bởi tất cả các các nơi trong ứng dụng, bởi các threads khác nhau.
-- Thời gian sống của object phụ thuộc vào Garbage Collection của java.
-- Garbage Collection (bộ dọn rác của java. Khi các đối tượng khai báo mà không sử dụng, bộ dọn rác sẽ xoá các đối tượng đó đi để tiết kiệm bộ nhớ) sẽ chạy trên bộ nhớ Heap để xoá các Object không được sử dụng nữa, nghĩa là object không được referece trong chương trình.
+- Thời gian sống của object phụ thuộc vào chương  trình  Garbage Collector (GC ) của java. Khi một object bị null hoặc không tham chiếu tới một đối tượng nào thì GC sẽ xoá nó khỏi bộ nhớ.
 - Dung lượng sử dụng của Heap sẽ tăng giảm phụ thuộc vào Objects sử dụng.
 - Dung lượng Heap thường lớn hơn Stack.
 
