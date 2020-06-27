@@ -39,7 +39,7 @@ Trước hết mình xem lại  bộ nhớ máy tính lưu trữ các biến và
 
 Tham trị Pass by value : nghĩa là mình sẽ clone (tạo ra một giá trị mới bằng cách copy giá trị gốc), và mình chỉ thao táo giá trị với bản copy.
 Khi chúng ta thay đổi các giá trị của đối tượng, thì không ảnh hưởng đến giá trị gốc. Pass-by-value được hiểu là khi bạn thay đổi biến trong hàm thì ngoài hàm sẽ không bị ảnh hưởng.
-Nó giống như bạn copy giá trị của biến vào biến khác rồi truyền vào hàm.
+
 
 {:refdef: style="text-align: center;"}
 ![Tham trị](/images/post/javacore/passbyvalue.png){:class="img-responsive"}
