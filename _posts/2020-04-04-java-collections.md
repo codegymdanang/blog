@@ -115,7 +115,7 @@ Map<Integer, String> hashMap = new HashMap<>();
 
 - Collections trong java là kiến trúc để lưu trữ và thao tác tới nhóm các đối tượng. Tất cả các hoạt động mà bạn thực hiện trên một dữ liệu như tìm kiếm, phân loại, chèn, xóa,... có thể được thực hiện bởi Java Collections.
 
-- Collection trong java là một root interface trong hệ thống cấp bậc Collection. Java Collection cung cấp nhiều interface (Set, List, Queue, Deque vv) và các lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet vv).
+- Java Collection cung cấp nhiều interface (Set, List, Queue, Deque vv) và các lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet vv).
 
 <br>
 # **9. Sự khác nhau  Array và ArrayList**
@@ -154,11 +154,11 @@ Map<Integer, String> hashMap = new HashMap<>();
 
 1. ArrayList
     * ArrayList sử dụng một mảng động
-    * ArrayList là tốt hơn để lưu trữ và lấy dữ liệu
+    * ArrayList nhanh hơn trong việc  trữ và lấy dữ liệu
 
 2. LinkedList
     * LinkedList sử dụng danh sách liên kết doubly
-    * LinkedList là tốt hơn để thao tác dữ liệu
+    * LinkedList nhanh hơn trong việc thao tác dữ liệu
 
 <br>
 # **13. Sự khác nhau HashSet và TreeSet**
@@ -167,8 +167,9 @@ HashSet không duy trì thứ tự nào, trong khi TreeSet duy trì thứ tự t
 
 <br>
 # **14. Sự khác biệt giữa HashSet và HashMap**
+  * HashSet với cấu trúc chứa đựng chỉ là các giá trị.
+  * HashMap cấu trúc chứa đựng là key và value
 
-HashSet chỉ chứa giá trị, trong khi HashMap chứa cặp key và value.
 
 <br>
 # **15. Sự khác biệt giữa HashMap và TreeMap**
@@ -179,11 +180,11 @@ HashMap duy trì không có thứ tự, trong khi TreeMap duy trì thứ tự t�
 
 1. HashMap
     * HashMap là KHÔNG synchronized
-    * HashMap có thể chứa một khóa null và nhiều giá trị null.
+    * HashMap cấu trúc chỉ chứa một key null và nhiều giá trị null.
 
 2. Hashtable
     * Hashtable là synchronized.
-    * Hashtable không thể chứa bất kỳ khóa null hoặc giá trị null.
+    * Hashtable cấu trúc không chứa bất kỳ key null hoặc giá trị null.
 
 <br>
 # **17. Sự khác nhau Set và Map**
