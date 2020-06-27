@@ -152,7 +152,7 @@ là các qui ước chung cho các lập trình viên đọc cho dể hiểu, d�
 # **4. Generic với các ký tự đại diện**
 
 Trong Generic nhiều lúc chúng ta sẽ gặp các ký tự đại diên như : (?),(wildcard), nó đại diện cho một loại dữ liệu  không rõ ràng.
-Ví dụ của tham số đại diện (wildcard parameterized).
+
 
 - Collection<?>
 - List<? extends Number>
@@ -162,11 +162,11 @@ Ví dụ của tham số đại diện (wildcard parameterized).
 1. Ký tự đại diện <?> chấp nhận tất cả các loại đối số (chứa mọi kiểu đối tượng).
 Ví dụ: Collection<?> mô tả một tập hợp chấp nhận tất cả các loại đối số kiểu String, Integer, Boolean, …
 
-2. Ký tự đại diện <? extends type>: chấp nhận bất ký đối tượng nào miễn là đối tượng này kế thừa từ type hoặc đối tượng của type.
+2. Ký tự đại diện <? extends type>: Các đối tượng bất kỳ nào cũng được nhưng bắt buộc phải có cùng kiểu dữ liệu mới hợp lệ .
 Ví dụ: List<? extends Number> mô tả một danh sách, nơi mà các phần tử là kiểu Number hoặc kiểu con của Number.
 
 3. Ký tự đại diện <? super type> chấp nhận bất ký đối tượng nào miễn là đối tượng này là cha của type hoặc đối tượng của type.
-Ví dụ: Comparator<? super String> Mô tả một bộ so sánh (Comparator) mà thông số phải là String hoặc cha của String.
+
 
 <br>
 # **5. Generic trong abstract và intefacer**
@@ -202,7 +202,6 @@ public interface GenericDao<T> {
 - Hạn chế việc ép kiểu (cast) thủ công mà không an toàn.
 - Giúp chúng ta viết các thuật toán được sử dụng nhiều (reusable), dễ dàng thay đổi, an toàn dữ liệu và dễ đọc hơn.
 
-Nó rất hữu ích cho những người viết software libraries (thư viện phần mềm) làm sao để generic programming (lập trình có tính tổng quát) vì nó cho phép người dùng sử dụng ở nhiều tình huống khác nhau.
 
 <br>
 # **7. Nhược điểm**
