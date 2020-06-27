@@ -42,7 +42,7 @@ Khi một phương thức hoặc biến được khai báo là default thì ch�
 <br>
 # **4. Từ khoá protected   dùng làm gì**
 
-Protected modifier khá giống với default modifier, nó hạn chế khả năng truy cập trong cùng 1 package, tuy nhiên với protected modifier thì nó còn cho phép truy cập từ các class con kể cả khi class con không nằm cùng package với class cha. (truy cập theo trường hợp thừa kế).
+Cho phép truy cập các biến ở các class khác nhau không cùng chung một package thông qua cơ chế kế thừa. 
 
 <br>
 # **5. Từ khoá static dùng làm gì**
