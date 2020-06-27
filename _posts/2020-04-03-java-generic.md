@@ -142,11 +142,11 @@ cả các đối số là những kiểu dữ liệu khác nhau.
 
 Như ta thấy ở các ví dụ trên ta dùng các ký tự đặt biệt như \<T\> hay \<E\> để đặt tên các kiểu dữ liệu và  tham số . Ta có thể dùng các từ khác cũng được như X,Y,Z . Nhưng do  \<T\> hay \<E\>
 là các qui ước chung cho các lập trình viên đọc cho dể hiểu, dể bảo trì nên ta không nên đặt các từ khác gây nhầm lẫn. Chúng ta có các qui ước sau.
-+ E- Element (phần tử – được sử dụng phổ biến trong Collection Framework).
-+ K – Key (khóa).
-+ V – Value (giá trị).
-+ N – Number (kiểu số: Integer, Double, Float, …).
-+ T – Type (Kiểu dữ liệu bất kỳ thuộc Wrapper class: String, Integer, Long, Float, …).
++ E- Element (Phần tử như Student , Teacher)
++ K – Key (Giống như key trong tập hợp Map)
++ V – Value (V là giá trị giống như kiểu Value trong M )
++ N – Number (Kiểu số)
++ T – Type (Loại đối tượng ví dụ như con chó , gà , mèo thuộc loại động vật)
 
 <br>
 # **4. Generic với các ký tự đại diện**
