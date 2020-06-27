@@ -91,47 +91,47 @@ sử dụng Generic mình đỡ phải viết code nhiều. Mình có thể tái
 
    Ví dụ ta viết một phương thức in tất cả các phần tử là generic. Mọi người chú ý tham số truyền vào trong phương thức là chữ \<E\> đó là tham khi ta muốn viết một hàm generic.
    Tuỳ vào tham số truyền vào là kiểu dữ liệu gì . Ta cũng in được các phần tử con trong tập hợp đó
-   Ví dụ ta viết phương thức printArray sau truyền vào tham số là một kiểu generic. Ký tự \<E\> ta sẽ bàn trong phần tiếp.
+   Ví dụ ta viết phương thức printArrayGeneric sau truyền vào tham số là một kiểu generic. Ký tự \<E\> ta sẽ bàn trong phần tiếp.
 
    {% highlight java linenos %}
    public class GenericMethodTest {
-      // generic method printArray
-      public static < E > void printArray( E[] inputArray ) {
+      // generic method printArrayGeneric
+      public static < E > void printArrayGeneric( E[] inputArrayGeneric ) {
          // Display array elements
-         for(E element : inputArray) {
-            System.out.printf("%s ", element);
+         for(E elementGeneric : ArrayGeneric) {
+            System.out.printf("%s ", elementGeneric);
          }
          System.out.println();
       }
 
       public static void main(String args[]) {
          // Create arrays of Integer, Double and Character
-         Integer[] intArray = { 1, 2, 3, 4, 5 };
-         Double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };
-         Character[] charArray = { 'H', 'E', 'L', 'L', 'O' };
+         Integer[] intArrayGeneric = { 2,4,6,8,10 };
+         Double[] doubleArrayGeneric = { 2.1, 3.2, 4.3, 5.4 };
+         Character[] charArrayGeneric = { 'L', 'E', 'V', 'U', 'O' };
 
-         System.out.println("Array integerArray contains:");
-         printArray(intArray);   // pass an Integer array
+         System.out.println("Array intArrayGeneric contains:");
+         printArrayGeneric(intArrayGeneric);   // pass an Integer array
 
          System.out.println("\nArray doubleArray contains:");
-         printArray(doubleArray);   // pass a Double array
+         printArrayGeneric(doubleArrayGeneric);   // pass a Double array
 
          System.out.println("\nArray characterArray contains:");
-         printArray(charArray);   // pass a Character array
+         printArrayGeneric(charArrayGeneric);   // pass a Character array
       }
    }
    {% endhighlight %}
 
  **Kết quả nhận được sẽ là.** <br>
 
-   Array integerArray contains:
-   1 2 3 4 5
+   Array intArrayGeneric contains:
+   2 4 6 8 10
 
-   Array doubleArray contains:
-   1.1 2.2 3.3 4.4
+   Array doubleArrayGeneric contains:
+   2.1 3.2 4.3 5.4
 
    Array characterArray contains:
-   H E L L O
+   L E V U O
 
 Như vậy ở ví dụ trên ta tạo ra một phương thức in ra màn hình là generic . Tuỳ thuộc vào đối số truyền vào là Integer , String, hay Double thì phương thức in đều in ra được các phần tử
 Nếu ta truyền  đối số là Integer thì sẽ nhận được kết quả là các số nguyên trong tập hợp được in ra  . Nếu ta truyền đối số là  Double thì ta sẽ nhận được các số thực được in ra . Như vậy ta chỉ viết code 1 lần và sử dụng được cho tất
