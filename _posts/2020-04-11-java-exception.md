@@ -53,7 +53,7 @@ Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán đư
 - Không yêu cầu developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code). Nhưng mà
 phải dự đoán được có khả năng xảy ra lỗi ở những đoạn code nào từ đó bắt lỗi cho đoạn code đó.
 
-Ví dụ : Khi mình viết một chương trình cho nhà bank với chức năng rút tiền.
+Ví dụ : Khi anh viết một chương trình cho nhà bank với chức năng rút tiền.
 Sẽ có những trường hợp lỗi xảy ra khi chương trình đang chạy đó là việc khách hàng có thể rút tiền nhiều hơn số tiền họ hiện có trong tài khoản.
 Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền có khả năng xảy ra lỗi và mình sẽ viết code  để xử lý ngoại lệ đó .
 
@@ -78,7 +78,7 @@ public class MyDepositException extends Exception {
 }
 {% endhighlight %}
 
-Mình sử dụng ngoại lệ MyDepositException như sau
+Anh sử dụng ngoại lệ MyDepositException như sau.
 
 {% highlight java linenos %}
 private void wrapException(String input) throws MyDepositException {
@@ -90,7 +90,7 @@ private void wrapException(String input) throws MyDepositException {
 }
 {% endhighlight %}
 
-- Exception Runtime : là cha của tất cả các class Uncheck. Mình khai báo một Class và kế thừa RuntimeExcepton. Những lỗi này thường xảy ra khi chương trình đang chạy.
+- Exception Runtime : là cha của tất cả các class Uncheck. Anh khai báo một Class và kế thừa RuntimeExcepton. Những lỗi này thường xảy ra khi chương trình đang chạy.
 
 {% highlight java linenos %}
 public class MyDepositRuntimeException extends RuntimeException {
