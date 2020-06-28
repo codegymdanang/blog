@@ -20,22 +20,23 @@ dung sẽ xoay quanh các vấn đề
 - NameQuery
 - Các annotation bổ trợ khác
 
-Giả sử ta có entity như sau
+Giả sử ta có ta viết một chương trình quản lý nhân sự ở một công ty. Thường ở một công ty sẽ có các phòng ban như : Phòng kế toán, phòng đào tạo, phòng nhân sự. Tại mỗi phòng ban sẽ có các nhân viên thuộc phòng ban đó. Ví dụ ta có entity Phòng ban như sau.
+
 
 {% highlight java  linenos %}
 @Entity
-@Table(name = "department")
-public class Department implements Serializable {
+@Table(name = "phongban")
+public class PhongBan implements Serializable {
 
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     public int id;
 
-    @Column(name = "name")
+    @Column(name = "ten")
     public String name;
 
-    @Column(name = "description")
+    @Column(name = "mota")
     public String description;
 }
 {% endhighlight %}
@@ -47,10 +48,10 @@ public class Department implements Serializable {
 
 {% highlight java  linenos %}
 @Transactional
-public interface DepartmentAnnotationRepository extends JpaRepository<Department,Integer> {
+public interface PhongBanAnnotationRepository extends JpaRepository<PhongBan,Integer> {
 
-    @Query("select department from Department department)
-    Department findAllDepartment();
+    @Query("select phongban from PhongBan phongban)
+    PhongBan findAllPhongBan();
 }
 {% endhighlight %}
 
@@ -58,9 +59,9 @@ public interface DepartmentAnnotationRepository extends JpaRepository<Department
 
 {% highlight java  linenos %}
 @Query(
-  value = "SELECT * FROM Department u WHERE u.status = 1",
+  value = "SELECT * FROM PhongBan phongban WHERE phongban.status = 1",
   nativeQuery = true)
-Collection<Department> findAllDepartment();
+Collection<PhongBan> findAllPhongBan();
 {% endhighlight %}
 
 Để sử dung câu query thuần giống như ta thực hiện câu select trong database thì mình thêm tham số nativeQuery = true
@@ -68,24 +69,24 @@ Collection<Department> findAllDepartment();
 - Tham số Index trong câu Query
 
 {% highlight java  linenos %}
-@Query("select department from Department department where department.name = ?1")
-    Department findByName(String departmentName);
+@Query("select phongban from PhongBan phongban where phongban.name = ?1")
+    PhongBan findByName(String tenphongban);
 {% endhighlight %}
 
-Chúng ta dùng ?1 tương ứng với tham số đầu tiên trong method findByName. ?1 sẽ được ánh xạ bằng tham số String departmentName. Nếu
+Chúng ta dùng ?1 tương ứng với tham số đầu tiên trong method findByName. ?1 sẽ được ánh xạ bằng tham số String tenphongban. Nếu
 chúng ta có nhiều tham số ví dụ
 
 {% highlight java  linenos %}
-@Query("select department from Department department where department.name = ?1" and department.code = ?2)
-    Department findByName(String departmentName,int code);
+@Query("select phongban from PhongBan phongban where phongban.name = ?1" and phongban.code = ?2)
+    PhongBan findByName(String tenphongban,int code);
 {% endhighlight %}
 
-Lúc đó ?1 sẽ bằng tham số departmentName và ?2 bằng code. Như vậy dùng ? để chỉ ra thứ tự các tham số trong method tương ứng với vị trí trong câu query
+Lúc đó ?1 sẽ bằng tham số tenphongban và ?2 bằng code. Như vậy dùng ? để chỉ ra thứ tự các tham số trong method tương ứng với vị trí trong câu query
 
 - Tham số Name trong câu Query
 
 {% highlight java  linenos %}
-@Query("SELECT u FROM User u WHERE u.status = :status and u.name = :name")
+@Query("SELECT nguoidung FROM NguoiDung nguoidung WHERE nguoidung.status = :status and nguoidung.name = :name")
 User findUserByStatusAndNameNamedParams(@Param("status") Integer status, @Param("name") String name);
 {% endhighlight %}
 
@@ -96,13 +97,13 @@ Nó cũng giống na ná như Index query thay vì sử dụng vị trí (index)
 Trong database chúng ta có toán tử IN và NOT IN như sau
 
 {% highlight java  linenos %}
-SELECT u FROM User u WHERE u.name IN :names
+SELECT nguoidung FROM NguoiDung nguoidung WHERE nguoidung.name IN :names
 {% endhighlight %}
 
 Để sử dụng được toán tử IN trong JPQL Query thì ta sử dụng tham số là Collection như sau
 
 {% highlight java  linenos %}
-@Query(value = "SELECT u FROM User u WHERE u.name IN :names")
+@Query(value = "SELECT nguoidung FROM NguoiDung nguoidung WHERE nguoidung.name IN :names")
 List<User> findUserByNameList(@Param("names") Collection<String> names);
 {% endhighlight %}
 
@@ -112,22 +113,22 @@ List<User> findUserByNameList(@Param("names") Collection<String> names);
 Spring Data JPA hỗ trở cho chúng ta sẳn các phương thức để truy cập xuống database. Chúng ta chỉ cần kế thừa JPARepository và sau đó có thể sử dụng các phương thức mà JPA cung cấp đề lấy dữ liệu từ database.
 
 {% highlight java  linenos %}
-public interface DepartmentQueryCreationRepository extends JpaRepository<Department,Integer> {
+public interface PhongBanQueryCreationRepository extends JpaRepository<PhongBan,Integer> {
 
-    List<Department> findByName (String name);
-    List<Department> findByNameLike (String name);
-    List<Department> findByNameContaining (String name);
-    List<Department> findByNameStartingWith(String name);
-    List<Department> findByNameEndingWith(String name);
-    List<Department> findByNameIgnoreCase(String name);
+    List<PhongBan> findByName (String name);
+    List<PhongBan> findByNameLike (String name);
+    List<PhongBan> findByNameContaining (String name);
+    List<PhongBan> findByNameStartingWith(String name);
+    List<PhongBan> findByNameEndingWith(String name);
+    List<PhongBan> findByNameIgnoreCase(String name);
 
 
-    /* List<Department> findByNameAndLocal(String name,String local);
-    List<Department> findByNameOrLocal(String name,String local);
-    List<Department> findByNameNot(String name);
-    List<Department> findByDateAfter(Date date);
-    List<Department> findByDateBefore (Date date);
-    List<Department> findByDateBetween(Date from,Date to); */
+    List<Department> findByNameAndLocal(String name,String local);
+    List<PhongBan> findByNameOrLocal(String name,String local);
+    List<PhongBan> findByNameNot(String name);
+    List<PhongBan> findByDateAfter(Date date);
+    List<PhongBan> findByDateBefore (Date date);
+    List<PhongBan> findByDateBetween(Date from,Date to);
 
 }
 {% endhighlight %}
@@ -139,11 +140,11 @@ Trong đó findBy là từ khoá mà JPA cung cấp cho mình sau từ findBy l�
 
 {% highlight java  linenos %}
 @Entity
-@Table(name = "employee", schema="spring_data_jpa_example")
-@NamedQuery(name = "Employee.fetchByLastNameLength",
-        query = "SELECT e FROM Employee e WHERE CHAR_LENGTH(e.lastname) =:length "
+@Table(name = "NhanVien")
+@NamedQuery(name = "NhanVien.fetchByLastNameLength",
+        query = "SELECT e FROM NhanVien e WHERE CHAR_LENGTH(e.lastname) =:length "
 )
-public class Employee {
+public class NhanVien {
 
     @Id
     @Column(name = "id")
@@ -158,13 +159,13 @@ public class Employee {
  }
 {% endhighlight %}     
 
-Như các em thấy trong Class Entity mình sử dụng @NameQuery để tạo câu lệnh select. Chú ý cho anh chổ @NamedQuery(name = "Employee.fetchByLastNameLength") Để gọi được câu lệnh này thì nơi chỗ JPA Repository ta phải có phương thức (fetchByLastNameLength) giống y chang vậy.
+Như các em thấy trong Class Entity mình sử dụng @NameQuery để tạo câu lệnh select. Chú ý cho anh chổ @NamedQuery(name = "NhanVien.fetchByLastNameLength") Để gọi được câu lệnh này thì nơi chỗ JPA Repository ta phải có phương thức (fetchByLastNameLength) giống y chang vậy.
 
 {% highlight java  linenos %}
 @Repository
-public interface EmployeeRepository extends JpaRepository<Employee,Long>, EmployeeRepositoryCustom {
+public interface NhanVienRepository extends JpaRepository<Employee,Long>, EmployeeRepositoryCustom {
 
-    List<Employee> fetchByLastNameLength(@Param("length") Long length);
+    List<NhanVien> fetchByLastNameLength(@Param("length") Long length);
 }
 {% endhighlight %}
 
@@ -172,7 +173,7 @@ public interface EmployeeRepository extends JpaRepository<Employee,Long>, Employ
 # **4. Sử dung Order in Query để sắp xếp dữ liệu theo chiều tăng hoặc giảm dần**
 
 {% highlight java  linenos %}
-departmentRepository.findAll(new Sort(Sort.Direction.ASC, "name"));
+phongBanRepository.findAll(new Sort(Sort.Direction.ASC, "name"));
 {% endhighlight %}
 
 Dòng new Sort(Sort.Direction.ASC, "name") nghĩa là chúng ta muốn sắp xếp dữ liệu ở cột name theo chiều hướng tăng dần. Nếu muốn sắp xếp name theo chiều hướng giảm dần thì ta dùng new Sort(Sort.Direction.DESC, "name")
@@ -182,8 +183,8 @@ Dòng new Sort(Sort.Direction.ASC, "name") nghĩa là chúng ta muốn sắp x�
 
 {% highlight java  linenos %}
 @Modifying
-@Query("update User u set u.status = :status where u.name = :name")
-int updateUserSetStatusForName(@Param("status") Integer status,
+@Query("update NhanVien nhanvien set nhanvien.status = :status where nhanvien.name = :name")
+int updateUser(@Param("status") Integer status,
   @Param("name") String name);
 {% endhighlight %}
 
@@ -191,9 +192,9 @@ Kết quả trả về là bao nhiêu dòng trong database được cập nhật
 
 {% highlight java  linenos %}
 @Modifying
-@Query(value = "update Users u set u.status = ? where u.name = ?",
+@Query(value = "update NhanVien nhanvien set nhanvien.status  where nhanvien.name = ?",
   nativeQuery = true)
-int updateUserSetStatusForNameNative(Integer status, String name);
+int updateUserNative(Integer status, String name);
 {% endhighlight %}
 
 <br>
@@ -205,9 +206,9 @@ Trong spring data jpa chúng ta dùng hàm save() có sẳn để insert dữ li
 @Modifying
 @Query(
   value =
-    "insert into Users (name, age, email, status) values (:name, :age, :email, :status)",
+    "insert into NhanVien (name, age, email, status) values (:name, :age, :email, :status)",
   nativeQuery = true)
-void insertUser(@Param("name") String name, @Param("age") Integer age,
+void insertNhanVien(@Param("name") String name, @Param("age") Integer age,
   @Param("status") Integer status, @Param("email") String email);
 {% endhighlight %}
 
