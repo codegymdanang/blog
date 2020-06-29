@@ -36,7 +36,7 @@ public String getDetails(@RequestParam(value="param1", required=true) String par
 {% endhighlight %}
 
 <br>
-# **2. Path Variable
+# **2. Path Variable**
 
 Sử dụng Path Variable ở server  để lấy giá trị người dùng nhập trên trình duyệt.
 
@@ -52,7 +52,7 @@ public List<Invoice> listUsersInvoices(
 {% endhighlight %}
 
 <br>
-# **3. Kết hợp cả 2 trong 1 request
+# **3. Kết hợp cả 2 trong 1 request**
 http://localhost:8080/MyApp/user/1234/invoices?date=12-05-2013
 
 {% highlight java linenos %}
@@ -65,7 +65,7 @@ public List<Invoice> listUsersInvoices(
 {% endhighlight %}
 
 <br>
-# **4. Kết luận
+# **4. Kết luận**
 
 Cả 2 cách trên đều thực hiện chung một nhiệm vụ là lấy các tham số từ người dùng truyền lên. Bạn sử dụng cái nào cũng làm được
 mục đích của mình . Tuy nhiên tuỳ vào thiết kế của một hệ thống mà lựa chọn Request Param hoặc  Path Variable để sử dụng mới đem lại
