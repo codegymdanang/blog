@@ -15,7 +15,7 @@ youtubeId2 : rUFUgrkMg4o
 
 Chào bạn, nếu bạn là người mới tìm hiểu về lập trình, hẳn bạn đã từng nghe tới khái niệm về Abstract và Interface.
 Nhưng bạn có biết khi nào mình sẽ dùng abstract và khi nào mình dùng interface không? Khi mới bước chân vào
-nghề lập trình a cũng rất hoang mang về công dụng và lợi ý của Abstract và Interface. Chính vì vậy anh
+nghề lập trình anh cũng rất hoang mang về công dụng và lợi ý của Abstract và Interface. Chính vì vậy anh
 viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào mình dùng abstract và Interface. Bài viết hôm nay sẽ xoay quanh các chủ đề sau.
 
 - Interface là gì ?
@@ -54,7 +54,7 @@ class Pig implements Animal {
 Một số chú ý khi sử dụng Interface.
 
 - Cũng giống như Abstract Class. Chúng ta không thể tạo đối tượng từ Interface bằng toán tử new
-- Interface hỉ chứa method trống không có phần thân. Phần thân sẽ được code bởi những class implement (cài đặt) interface đó
+- Interface thì chứa method trống không có phần thân. Phần thân sẽ được code bởi những class implement (cài đặt) interface đó
 - Lớp cài đặt Interface phải implement hết tất cả các method có trong interface. Nó định nghĩa một mẫu chung các hành động mà các lớp implements nó follow theo.
 - Các method trong Interface mặc định là abstract  public và
 - Các biến (thuộc tính) trong Interface mặc định là public,static và final  
@@ -102,20 +102,20 @@ class Pig extends Animal {
  |   Đa kế thừa 	    | Không hỗ trợ đa kế thừa	    | Một class có thể kế thừa nhiều Interface        |
  |   Defaul (mặc định) 	| Có thể định nghĩa thuộc tính , và thân phương thức có thể chứa code 	    | chỉ chứa hằng số , không có code trong phần thân method |
  |   Access Modifier	                |   có thể đặt tất cả modifier	    |   Mọi phương thức và thuộc tính là  public	        |  
- |   Mục đích sử dụng                   |     IS  A    |    HAS A (Can do)    |
+ |   Mục đích sử dụng                   |     IS  A (quan hệ cha con)    |    HAS A (Can do, có khả năng làm được việc gì)    |
 
 <br>
 # **4. Khi nào dùng abstract**
 
 - Khả năng mở rộng không cần xoá hết code làm lại.
-- Tăng tính bảo mật e dấu các dữ liệu quan trong ch
-- Khi các lớp có mối liên hệ cha  với nhau ví dụ như con gà , chó , mèo  chúng đều là động vật (Animal)
+- Tăng tính bảo mật che dấu các dữ liệu quan trọng
+- Khi các lớp có mối liên hệ cha con  với nhau ví dụ như con gà , chó , mèo  chúng đều là động vật (Animal)
 
 <br>
 # **5. Khi nào dùng interface**
 
 - Mục đích chính của interface là dùng cho tính đa hình. Khả năng thực hiện các hành động khác nhau trên các ngữ cảnh khác nhau.
-- Chúng ta muốn các lớp không liên quan với nhau liên kết lại với nhau.
+- Chúng ta muốn các lớp không liên quan với nhau liên kết lại với nhau. Anh ví dụ như mình có phương thức thanh toán HSBC , mình có  thanh toán Vietcombank . 2 Class này hoàn toàn không liên quan gì với nhau. Ví dụ như trong ứng dụng của anh. Anh mong muốn hỗ trợ người dùng cả 2 phương thức thanh toán, có nghĩa là nếu họ có tài khoản bên HSBC họ có thể thực hiện giao dịch thanh toán , chuyển khoản bên Vietcombank. Để làm được việc đó thì 2 class HSBC và Vietcombank phải nói chuyện được với nhau, có nghỉa là 2 class đó phải có cùng một điểm chung. Thì lúc này anh sẽ tạo ra một Interface là Payment . Sau đó HSBC và Vietcombank cùng implements nó. Như vậy 2 cái đó sẽ có một điểm chung nên có thể nói chuyện được với nhau.
 - Chúng ta muốn chú trọng vào hành động hơn  về cấu trúc đối tượng.
 - Chúng ta muốn sử dụng đa thừa kế.
 - Tăng cường tính bảo mật . Người dùng chỉ có thể thấy được method nhưng không thấy được nội dung code bên trong
