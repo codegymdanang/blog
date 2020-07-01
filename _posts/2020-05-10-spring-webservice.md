@@ -26,7 +26,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 
 Webservice là tập hợp các tiêu chuẩn và giao thức được sử dụng để trao đổi dữ liệu giữa các ứng dụng hoặc các hệ thống khác nhau.
 
-Anh lấy ví dụ như sau : Anh muốn phát triển một ví điện tử   (dạng Momo) có tên là Le-ebaking . Ứng dung Le-ebaking   có thể kết nối với ngân hàng HSBC , Techcombank , Vietcombank. Người dùng có thể chuyển tiền từ hệ thống Techcombank sang Vietcombank thông qua ứng dụng Le-ebaking.
+Anh lấy ví dụ như sau : Anh muốn phát triển một ví điện tử  (dạng Momo) có tên là Le-ebaking . Ứng dung Le-ebaking   có thể kết nối với ngân hàng HSBC , Techcombank , Vietcombank. Người dùng có thể chuyển tiền từ hệ thống Techcombank sang Vietcombank thông qua ứng dụng Le-ebaking.
 
 Trong đó HSBC được viết bằng ngôn ngữ PHP chạy trên Server Window, HSBC viết bằng ngôn ngữ Java chạy trên Ubuntu và Techcombank viết bằng ngôn ngữ Ruby và chạy trên nền MacOS. Như vậy ta thấy 3 ngân hàng sử dụng 3 loại ngôn ngữ lập trình khác nhau và triển khai trên 3 nền tảng OS khác nhau. Vậy làm sao các ứng dụng đó có thể trao đổi dữ liệu với nhau được. May mắn cho chúng ta đã có Webservice,nó  giúp chúng ta có thể trao đổi dữ liệu từ các ứng dung , ngôn ngữ , OS khác nhau có thể nói chuyện được với nhau.
 
