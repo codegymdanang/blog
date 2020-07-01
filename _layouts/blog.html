@@ -110,61 +110,32 @@
 							<div class="fb-group" data-href="https://www.facebook.com/groups/danangagiledeveloper/" data-width="300" data-show-social-context="true" data-show-metadata="true"></div>
 
 						</div>
-					</div>
 
-					<div class="sidebar_widget">
-						<!-- Stay Connect -->
-						<div class="single_sidebar_wiget">
-							<div class="sidebar_tittle">
-								<h3>Stay Connect</h3>
-							</div>
-							<div class="social_share_icon tags">
-								<ul class="list-unstyled">
-									<li><a href="#"><i class="ti-facebook"></i></a></li>
-									<li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-									<li><a href="#"><i class="ti-pinterest"></i></a></li>
-									<li><a href="#"><i class="ti-instagram"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="single_sidebar_wiget">
-							<div class="sidebar_tittle">
-								<h3>Categories</h3>
-							</div>
-							<div class="single_catagory_item category">
-								<ul class="list-unstyled">
-									<li><a href="#">Java</a> <span>({{ site.categories.laptrinhjava | size }})</span> </li>
-									<li><a href="#">Agile</a> <span>(15)</span> </li>
-									<li><a href="#">Tester</a> <span>(15)</span> </li>
-									<li><a href="#">Production</a> <span>(15)</span> </li>
-									<li><a href="#">Mangement</a> <span>(15)</span> </li>
-									<li><a href="#">4.0</a> <span>(15)</span> </li>
-								</ul>
-							</div>
-						</div>
-						<!-- Popular Post -->
-						<div class="single_sidebar_wiget">
-							<div class="sidebar_tittle">
-								<h3>Popular Feeds</h3>
-							</div>
-							{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:9 %}
-							<ul id='relatedposts'>
-								{% for post in posts %}
-								<div class="single_catagory_post post_2 ">
-									<div class="post_text_1 pr_30">
-										<a href='{{post.url | relative_url }}'>
-											<h5>{{post.title}}</h5>
-										</a>
-										<p><span>Posted By nguyen.le </span> {{ post.date | date: "%B %d, %Y"}}</p>
-									</div>
+						<div class="sidebar_widget">
+							<!-- Popular Post -->
+							<div class="single_sidebar_wiget">
+								<div class="sidebar_tittle">
+									<h3>Popular Feeds</h3>
 								</div>
-								{% endfor %}
-								<span class='list-item' data-label='Blogging'></span>
-							</ul>
+								{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:9 %}
+								<ul id='relatedposts'>
+									{% for post in posts %}
+									<div class="single_catagory_post post_2 ">
+										<div class="post_text_1 pr_30">
+											<a href='{{post.url | relative_url }}'>
+												<h5>{{post.title}}</h5>
+											</a>
+										</div>
+									</div>
+									{% endfor %}
+								</ul>
+
+
+							</div>
+							<!-- Popular Post -->
 
 
 						</div>
-						<!-- Popular Post -->
 
 
 					</div>
