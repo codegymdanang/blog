@@ -79,7 +79,7 @@ Ví dụ ta tạo  Generic Class tên là  Box . Mọi người chú ý để t�
       }
    }
    {% endhighlight %}
-  ** Kết quả nhận được sẽ là. ** <br>
+  ** Kết quả nhận được sẽ là.** <br>
    Integer Value :10 <br>
    String Value :Hello World <br>
 
