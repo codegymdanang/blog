@@ -73,7 +73,7 @@ Trong trường hợp này hàm process(int &value) trỏ thằng tới địa c
 đổi luôn giá trị khác .
 
 <br>
-# **4. Tổng kết **
+# **4. Tổng kết**
 
 Các bạn nên nhớ trong  Java là 100% truyền tham trị (passed by value). Mình chỉ clone một giá trị từ giá trị gốc sau đó truyền đi
 cho các method cần dùng nó. Ta chỉ thay đổi giá trị Clone chứ không thay đổi trực tiếp giá trị  vùng nhớ của đối tượng gốc
