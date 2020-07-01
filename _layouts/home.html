@@ -277,39 +277,44 @@
 				</div>
 				<!-- End Web Post -->
 
-				<!-- Tong hop cac bai Post -->
+				<!-- Softkills -->
 				<div class="row">
-					<div class="col-lg-12">
-						<div class='relatedposts'>
-							<h4> Bài Viết Mới </h4>
-						</div>
-					</div>
-					<div class="col-lg-12">
-						<div class="row"  >
-							{% for post in paginator.posts  %}
-							<div class="post-container">
-								<div class="post-thumbnail">
-									<div class="sh-ratio">
-										<div class="sh-ratio-container">
-											<div class="sh-ratio-content">
-												<a href='{{post.url | relative_url }}'>
-													<img class='post-image'   src="{{post.image | relative_url}}" />
-												</a>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="col-lg-12">
+								<div class='relatedposts'>
+									<h4> Bài Viết Web </h4>
+								</div>
+							</div>
+
+							<div class="row">
+								{% for post in site.categories.career limit:6  %}
+								<div class="col-lg-4 col-sm-4">
+									<div class="post-container">
+										<div class="post-thumbnail">
+											<div class="sh-ratio">
+												<div class="sh-ratio-container">
+													<div class="sh-ratio-content">
+														<a href='{{post.url | relative_url }}'>
+															<img class='post-image'   src="{{post.image | relative_url}}" />
+														</a>
+													</div>
+												</div>
 											</div>
 										</div>
-									</div>
-								</div>
-								<div class="post-content-container">
-									<div class="post-categories-container">
-										<div class="post-categories">
-											<span> {{post.category}}</span>
-										</div>
-									</div>
-									<a  class="post-title">
-										<h6> {{post.title}} </h6>
-									</a>
-									<div class="post-meta">
-										<div class="post-meta-content">
+										<div class="post-content-container">
+											<div class="post-categories-container">
+												<div class="post-categories">
+													<span> {{post.category}}</span>
+												</div>
+											</div>
+											<a  class="post-title">
+												<a href='{{post.url | relative_url }}'>
+													<h6>{{post.title}}</h6>
+												</a>
+											</a>
+											<div class="post-meta">
+												<div class="post-meta-content">
 													<span class="post-auhor-date">
 														<span>
 															<a class="post-author">nguyen.le</a>
@@ -320,45 +325,28 @@
 													</span>
 													<span class="post-readtime">
 														<i class="icon icon-clock"></i> 15 min <span>read</span> </span>
-											</span>
+													</span>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-							{% endfor %}
-						</div>
-						<div class="row">
-							<!-- Pagination links -->
-							<!-- pagination -->
-							{% if paginator.total_pages > 1 %}
-							<div class="pagination">
-								{% if paginator.previous_page %}
-								<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-								{% else %}
-								<span>&laquo; Prev</span>
-								{% endif %}
-
-								{% for page in (1..paginator.total_pages) %}
-								{% if page == paginator.page %}
-								<span class="webjeda">{{ page }}</span>
-								{% elsif page == 1 %}
-								<a href="/">{{ page }}</a>
-								{% else %}
-								<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-								{% endif %}
 								{% endfor %}
-
-								{% if paginator.next_page %}
-								<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-								{% else %}
-								<span>Next &raquo;</span>
-								{% endif %}
 							</div>
-							{% endif %}
+							<div class="row">
+								<div class="col-lg-8 col-sm-8"> </div>
+								<div class="col-lg-4 col-sm-4">
+									<div style="text-align:right">
+										<a href='{{"/hoc-lap-trinh-web" | prepend: site.baseurl }}' ><img  src='{{ "/images/blog/readmore.png" | prepend: site.baseurl }}' /></a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
+
 				</div>
-				<!-- End New Post -->
+				<!-- End Softkills -->
+
 			</div>
 			<div class="col-lg-4">
 				<div class="sidebar_widget">
