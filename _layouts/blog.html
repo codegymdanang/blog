@@ -138,24 +138,30 @@
 
 						</div>
 
-						<div class="single_sidebar_wiget">
-							<div class="sidebar_tittle">
-								<h3>Popular Feeds</h3>
-							</div>
-							{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:9 %}
-							<ul id='relatedposts'>
-								{% for post in posts %}
-								<div class="single_catagory_post post_2 ">
-									<div class="post_text_1 pr_30">
-										<a href='{{post.url | relative_url }}'>
-											<h5>{{post.title}}</h5>
-										</a>
-										<p><span>Posted By nguyen.le </span> {{ post.date | date: "%B %d, %Y"}}</p>
-									</div>
+						<div class="sidebar_widget">
+							<!-- Popular Post -->
+							<div class="single_sidebar_wiget">
+								<div class="sidebar_tittle">
+									<h3>Popular Feeds</h3>
 								</div>
-								{% endfor %}
-								<span class='list-item' data-label='Blogging'></span>
-							</ul>
+								{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:9 %}
+								<ul id='relatedposts'>
+									{% for post in posts %}
+									<div class="single_catagory_post post_2 ">
+										<div class="post_text_1 pr_30">
+											<a href='{{post.url | relative_url }}'>
+												<h5>{{post.title}}</h5>
+											</a>
+											<p><span>Posted By nguyen.le </span> {{ post.date | date: "%B %d, %Y"}}</p>
+										</div>
+									</div>
+									{% endfor %}
+									<span class='list-item' data-label='Blogging'></span>
+								</ul>
+
+
+							</div>
+							<!-- Popular Post -->
 
 
 						</div>
