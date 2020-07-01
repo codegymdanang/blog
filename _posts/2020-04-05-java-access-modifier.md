@@ -39,30 +39,90 @@ Như các em thấy qua ví dụ của anh, nếu mình không cẩn thận khô
 
 Khi một phương thức hoặc biến được khai báo là public, có nghĩa là tất cả các class khác, kể cả các class không thuộc cùng package đều có thể truy cập.
 
+{% highlight java  %}
+
+public class Card {
+
+  public int cardNumber;
+
+}
+
+{% endhighlight %}
+
 <br>
 # **3. Từ khoá private  dùng làm gì**
 
 Khi một phương thức hoặc biến được khai báo là private nó sẽ không thể truy cập từ class khác, kể cả các class cùng source file hay các class con.
+
+{% highlight java  %}
+
+public class Card {
+
+  private int cardNumber;
+
+}
+
+{% endhighlight %}
 
 <br>
 # **4. Từ khoá default  dùng làm gì**
 
 Khi một phương thức hoặc biến được khai báo là default thì chỉ có các class thuộc cùng package với nó mới có thể truy cập.
 
+{% highlight java  %}
+
+public class Card {
+
+   int cardNumber;
+
+}
+
+{% endhighlight %}
+
 <br>
 # **5. Từ khoá protected   dùng làm gì**
 
 Cho phép truy cập các biến ở các class khác nhau không cùng chung một package thông qua cơ chế kế thừa.
+
+{% highlight java  %}
+
+public class Card {
+
+  protected int cardNumber;
+
+}
+
+{% endhighlight %}
 
 <br>
 # **6. Từ khoá static dùng làm gì**
 
 Static : khi mình muốn chia sẽ (dùng chung, và là duy nhất tron cả hệ thống) cái biến đó cho các object khác có thể sử dụng được.
 
+{% highlight java  %}
+
+public class Card {
+
+  public static int cardNumber;
+
+}
+
+{% endhighlight %}
+
 <br>
 # **7. Từ khoá final  dùng làm gì**
 
 Final : Khi mình muốn giá trị là hằng số và không thể thay đổi được (Ví dụ final double PI = 3.14).
+
+{% highlight java  %}
+
+public class Card {
+
+  public final int CARNUMBER = 123123321233;
+
+}
+
+{% endhighlight %}
 
 <br>
 # **8. Tổng kết**
