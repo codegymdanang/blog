@@ -18,4 +18,6 @@ giúp chúng ta có thể lập trình TDD một cách hiệu quả nhất.
 <br>
 ### Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
 
+
+
 {% include youtubePlayer.html id=page.youtubeId %}
