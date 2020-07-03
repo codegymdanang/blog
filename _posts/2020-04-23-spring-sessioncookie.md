@@ -32,8 +32,7 @@ Sau khi server tạo các giá trị session , server sẽ tạo ra một tệp 
 <br>
 # **2. Cookie là gì**
 
-Cookie cũng được dùng để lưu những thông tin tạm thời. ệp tin cookie sẽ được truyền từ server tới browser và được lưu trữ trên máy tính của bạn khi bạn truy cập vào ứng dụng.
-Như vậy dù có tắt browser cũng không mất đi các giá trị vì chúng ta đã lưu nó trên máy tính của mình.
+Cookie cũng được dùng để lưu những thông tin tạm thời. Tệp tin cookie sẽ được truyền từ server tới browser và được lưu trữ trên máy tính của bạn khi bạn truy cập vào ứng dụng. Như vậy dù có tắt browser cũng không mất đi các giá trị vì chúng ta đã lưu nó trên máy tính của mình.
 
 
 <br>
