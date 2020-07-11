@@ -21,7 +21,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 <br>
 # **1. One To Many annotation**
 
-Anh lấy ví dụ như mình làm ứng dụng về quản lý nhân sự ở công ty . Một nhân viên chỉ có một địa chỉ duy nhất.
+Anh lấy ví dụ như mình làm ứng dụng về quản lý nhân sự ở công ty . Một nhân viên chỉ có một địa chỉ duy nhất. Như vậy khi ta thực hiện câu query, nếu ta lấy được nhân viên thì sẽ lấy được địa chỉ của nhân viên đó.
 
 Nếu ta thiết kết database thì ta có 2 bảng là user  và address như sau .
 
@@ -35,14 +35,14 @@ CREATE TABLE `address` (
 
 CREATE TABLE `user` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `street` int(11),
-  'city' varchar(45)
+  `phone` int(11),
+  'name' varchar(45)
   KEY `adress_id` (`user_address`),
   CONSTRAINT `usser_address` FOREIGN KEY (`id`) REFERENCES `Address` (`address_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 {% endhighlight %}
 
-Ta tạo 2 database user và address . addressid trong table user là khoá phụ liên kết đến bảng Address
+Ta tạo 2 tables là  user và address . Trong đó ta có trường addressid trong table user là khoá phụ liên kết đến bảng Address
 
 <br>
 # **2. Triển khai trong Java**
@@ -71,6 +71,35 @@ public class User {
 Như các em thấy ở trên ta sử dụng annotation @OneToOne để nói rằng một user chỉ có 1 đối tượng Address .
 
 Tiếp đến cascade = CascadeType.ALL nghĩa là khi xoá một dòng dữ liệu trong table Address. Thì bên bản User cũng sẽ bị xoá 1 đòng tương ứng với dòng bị xoá bên table User . Như vậy dữ liệu ở 2 table User và Address dữ liệu sẽ giống nhau. Mục đích của Casecade là để toàn vẹn dữ liệu, dữ liệu sẽ thống nhất ở 2 bảng,tránh thừa dữ liệu không cần thiết.
+
+Điều gì sẽ xảy ra nếu ta không dùng cascade. 
+Anh lấy ví dụ ta có các bảng ghi sau trong table User
+
+{:class="table table-bordered"}
+ |  id    |  name           |      phone    | adress_id |
+ |---     |---                |---          |---        |
+ |    1   |  Nguyễn Văn A          |   0905500505| 1         | 
+ |    2   |  Trần Văn B         |   0905500506| 2         | 
+ |    3   |  Tôn Đức C    |   0905500507| 3         | 
+ |    4   |  Quang Viet      |   0905500508| 4         | 
+
+
+Anh lấy ví dụ ta có các bảng ghi sau trong table Adress
+
+{:class="table table-bordered"}
+ |  id    |  name           |      city     |
+ |---     |---                |---          |
+ |    1   |  Lê  Lợi          |      Da Nẵng|  
+ |    2   |  Trần Phú         |      Da Nẵng|  
+ |    3   |  Tôn Đức Thắng    |      Da Nẵng|  
+ |    4   |  Quang Trung      |      Da Nẵng| 
+
+
+ Nếu anh không có sử dụng cascade thì khi anh xoá 1 dòng dữ liệu trong bảng Address ví dụ như anh xoá dòng 1 (Lê Lợi) thì dòng dữ liệu Nguyễn Văn A trong bản User vẫn tồn tại. Nhưng lúc này giá trị là vô nghĩa vì dữ liệu address (Lê Lợi) không có tồn tại nữa trong cơ sở dữ liệu, lúc này dữ liệu mình bị dư thừa.
+
+ Nếu anh sử dụng cascade. Thì khi anh xoá dòng 1 (Lê Lợi) bên table Adress thì tự động dữ liệu Nguyễn Văn A cũng sẽ bị xoá đi. Như vậy giúp mình đồng bộ dữ liệu giữa 2 tables. Khi nào dữ liệu  Adress bị xoá thì nó sẽ xoá luôn các dữ liệu bên bảng User (nếu dòng dữ liệu bên bảng User có liên kết với address bị xoá đi).
+
+ Chúng ta phải thiết lập cascade trong code java và trong mysql thì lúc đó dữ liệu sẽ được toàn vẹn và không bị dư thừa dữ liệu 
 
 Chúng ta sử dụng @JoinColumn để cấu hình cho biến address là tìm kiếm trong column nào trong database mà map vào (nó chính là foregin key)
 .Biến address này được khai báo trong Class Address dưới đây.
