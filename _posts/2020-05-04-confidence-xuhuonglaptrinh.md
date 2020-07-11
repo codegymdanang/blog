@@ -20,5 +20,100 @@ Chào các bạn, chắc hẳn bạn rất thích lập trình và mong muốn b
 - Xu hướng công nghệ trong tương lai
 - Các tools và ngôn ngữ lập trình các doanh nghiệp đang sử dụng
 
+# **1. Khó khăn của sinh viên hiện nay**
+
+Các bạn sinh viên hiện nay khi ra trường thường phải được đào tạo lại các công nghệ mà công ty tuyên dụng nơi mà mình làm việc. Thông thường các bạn phải trãi qua giai đoạn đào tạo 6 tháng tại công ty thì mới làm được việc. Nguyên nhân do các bạn chưa tiếp cận được công nghệ mới trong quá trình ngồi trên ghế nhà trường dẫn đến bở ngỡ khi đi làm.
+
+Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang đi học trên trường thì cũng phải thường xuyên cập nhật công nghệ mới ngoài kiến thức nhà trường đã trang bị cho các em. Sau đây anh sẽ đưa ra một list các trang web mà có thể giúp mình tiến nhanh trên việc học.
+
+1- Các khoá học onine miễn phí
++ Stackoverflow.com
++ Github.com
++ Codeacademy.com
+
+2- Cập nhật tin tức
++ Medium.com
++ Techtalk.vn
++ Viblo.asia
++ Slimshare.com
++ Kopalog
+
+3- Tham gia các sự kiện
++ Vietnam Mobile
++ Vietnam Web submit
++ TechFest
++ Tech Summit
+
+# **2. Xu hướng công nghệ các năm tiếp theo**
+
+Trong thời đại 4.0 đang diển ra thì các bạn cũng phải cập nhật công nghệ để bắt kịp thị trường. Trong nghành công nghệ thông tin mình sẽ chú trọng vào 4 công nghệ chính sau đây. Những công nghệ này sẽ đem lại mức lương rất cao.
+
+1- BlockChain
+
+Trong năm 2009 chắc các em đã nghe nhiều về đồng tiền BigCoin. Thì nó chính là một sản phẩm dựa trên công nghệ Blockchain. Công nghệ Blogchain ra đời giúp cho việc bảo mật trở nên tốt và an toàn hơn. Hiện nay các nghành như ngân hàng, bệnh viện, vận chuyển cũng đã chuẩn bị sử dụng blockchain để xây dựng các sản phẩm cho mình. Các em có thể tham khảo thêm về một trong những ngôn ngữ lập trình blogchain tại đây https://solidity.readthedocs.io/en/v0.6.10/
+
+
+2- Devops
+
+Khi mình phát triển xong phần mềm thì mình sẽ triển khai nó lên các con server hoặc các dịch vụ điện toán đám mây để người dùng có thể truy cập. Ngày xưa khi đội dev viết xong sản phẩm thì sẽ có một đội Deploy sẽ triển khai sản phẩm đó lên server. Tuy nhiên đội Deploy sẽ rất khó khăn trong việc triển khai vì họ chỉ nắm các kỷ thuật về Linux và Server chứ không có kiến thức về ứng dụng và cách hoạt động của ứng dụng. Dẫn đến việc nhiều lúc triển khai sản phẩm không được. Như vậy để triển khai được sản phẩm thì mình phải có kiến thức về ứng dụng và kiến thức về server. Thì người đó được gọi là Devops
+
+Hiện nay các công ty IT đang rất cần các bạn Devops trong công ty để triển khai sản phẩm một các hiệu quả. Đặt biệt các bạn Devops có kiến thức về lập trình và điện toán đám mây (Cloud) trên các nền tảng AWS và Azure.
+
+3- AI (Machine Learning)
+
+Hiện nay các ứng dụng mới đều sử dụng Trí tuệ nhân tạo vào các chức năng sản phẩm của mình. Anh lấy ví dụ như ứng dụng nhận diện khuôn mặt. Chỉ cần mình dùng camera quyét qua khuôn mặt sẽ biết được mình là ai. Một số ứng dụng ví điện tử khi mình thanh toán mua hàng, mình có thể chụp khuôn mặt mình vào để nhận diện mình là chủ nhân của ví diện tử thì lúc đó giao dịch mới thành công. Nên thời gian sắp tới Python sẽ là ngôn ngữ được sử dụng nhiều nhất trong tương lai để làm AL.
+
+4- Data Science
+
+Data Science là nghành nghiên cứu dữ liệu lớn từ đó cho ra các quyết định cải tiến. Trong 3 năm trở lại đây thì từ Data Science không phải là mới mẻ với các kỷ sư tại Việt Nam. Các tập đoàn lớn FPT, VNG và Vintech đã có những đội nhóm làm các dự án phân tích về dữ liệu lớn. Các ngành như tài chính, bất động sản , y tế và marketing cũng đã có những bước tiến cải thiện vượt bật nhờ vào việc phân tích các dữ liệu của mình để cho ra các quyết định đúng đắn để phát triển tập đoàn. Để làm được Data Science chúng ta có thể bắt đầu học ngôn ngữ Python hay R  
+
+# **3. Mức lương theo năm kinh nghiêm**
+
+1- Sinh viên mới ra trường : $331 -> $519
+2- Lập trình viên có kinh nghiệm 2-4 năm : $523 -> $1,1154
+3- Cấp quản lý trên 5 năm : $1.350 -> $2.150
+
+
+# **4. Công nghệ lập trình sử dụng trong công việc**
+
+1- Java Script 	: 	69%
+2- Java 	   	: 	43%
+3- PHP 			:	41%
+4- Python		:	37%
+5- C#			:	33%
+6- .Net			:	30%
+7- Object-C		:	16%
+8- C++			:	9%
+9- RUBY 		:	5%
+10- Go 			:	3%
+
+# **5. Các framwork hay sử dụng trong công việc**
+
+1- Laravel	:	50%
+2- NodeJs	:	37%
+3- ReactJS	:	27%
+4- VueJS	:	27%
+5- Angular	:	18%
+6- .Net CORE 	: 12%
+7- Spring	:	8%
+8- Django	:	8%
+
+# **6. Các database hay sử dụng trong công việc**	
+
+1- Mysql	:	60%
+2- SQL		:	41%
+3- Postgre 	:	33%
+4- MongoDB	:	26%
+5- SQL Lite	:	20%
+6- Redis	:	18%
+7- Elasticsearch :	14%
+8- MariaDB	:	13%
+9- Oracle	:	11%
+
+# **Kết luận**
+
+Theo báo cáo thống kê thì năm 2020 Việt Nam cần 400.000 nhân lực công nghệ thông tin nhưng hiện nay chúng ta vẫn đang bị thiếu 100.000 người. Theo số liệu của Bộ giáo dục và đào tạo, cả nước có 235 đại học trong đó có 153 trường đào tạo CNTT, hằng năm có 50.000 sinh viên ra trường nhưng chỉ có 30% là làm được việc ngay. 70% còn lại phải đào tạo lại. Vì vậy nếu chúng ta theo nghành IT thì chắc chắn sẽ có việc làm và cơ hội kiếm thu nhập cao là chuyện đương nhiên. Nhưng để học được công nghệ thông tin không phải ai cũng học được. Cơ bản mình phải có tư duy và đam mê nghành phần mềm thì mới hy vọng thành công.
+
+
 <br>
 {% include youtubePlayer.html id=page.youtubeId %}
