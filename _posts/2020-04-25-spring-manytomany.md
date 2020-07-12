@@ -12,25 +12,25 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ đề hôm nay chúng ta sẽ nói về  annotation @ManyToMany  .
-Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
+Chào các em ,chủ đề hôm nay chúng ta sẽ nói về annotation @ManyToMany. Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - ManyToMany là gì   ?
-- Cấu hình và triển khai một dự án dùng ManyToMany
+- Cấu hình và triển khai một dự án dùng @ManyToMany
 
 <br>
 # **1. ManyToMany là gì**
 
 Hôm nay mình sẽ làm phần mềm về quản lý  sinh viên và khoá học tại trường đại học .Như các em đã biết
-Một sinh viên có thể đăng ký học nhiều khoá học (khoá anh văn , khoá tinh học, khoá  hoá học) trong một học kỳ.
+Một sinh viên có thể đăng ký học nhiều khoá học (khoá anh văn , khoá tin học, khoá hoá học) trong một học kỳ.
 Một khoá học thường sẽ có rất nhiều sinh viên đăng ký theo học trung bình một lớp thường có 30 bạn.
 Như vậy mình sẽ thấy mối quan hệ giữa sinh viên và khoá học là quan hệ nhiều nhiều. Một học sinh có nhiều khoá học và một khoá học có
 nhiều sinh viên.
 
 <br>
 # **2. Biểu diển ManyToMany trong database**
+
 Chúng ta sẽ biểu diển mối quan hệ này trong database. Như các em biết trong database nếu 2 tables quan hệ nhiều nhiều mình sẽ tách thêm
-một bảng thứ 3 làm bảng trung gian cho 2 tables đó .
+một bảng thứ 3 làm bảng trung gian cho 2 tables đó . Chúng ta sẽ tạo thêm một bảng trung gian là student_course như sau.
 
 {% highlight mysql  linenos %}
 CREATE TABLE `student` (
@@ -85,8 +85,17 @@ Như các em thấy trong entity Student đầu tiên ta thấy
 Annotation @ManyToMany : dùng để nói rằng Entity Student sẽ có mối quan hệ nhiều nhiều với Course
 
 @JoinTable : mình chỉ ra table trung gian dùng để kết nối 2 bảng như ta thảo luận ở mục 1 trong phần database. Khi 2 tables quan hệ nhiều nhiều
-thì mình thêm một bảng trung gian. Trong bài này bảng trung gian mình có tên là student_course. Trong @JoinTable mình phải thông báo là tên table cần join là gì . Trong ví dụ trên mình khai báo là student_course (name = "student_course"). Tiếp đến mình chỉ trong bảng trung gian hai column mà mình liên kết với 2 bảng có quan hệ nhiều nhiều mà trong bài hôm nay là student và course (@JoinColumn(name = "student_id"), inverseJoinColumns = @JoinColumn(name = "course_id")). Như vậy là ta đã thiết lập xong table trung gian nối 2 bảng Student và Course có quan hệ
-nhiều nhiều. Tiếp đến ta khai báo entity Course
+thì mình thêm một bảng trung gian. Trong bài này bảng trung gian mình có tên là student_course. Trong @JoinTable có 3 tham số sau 
+ 
+Tham số đầu tiên là name = "student_id" cái này là ta đặt tên cho mối quan hệ là gì
+Tham số thứ 2 là joinColumns = @JoinColumn(name = "student_id") Column mà bảng Student sẽ liên kết với bảng trung gian
+Tham số thứ 3 inverseJoinColumns = @JoinColumn(name = "course_id") Column mà bảng Course sẽ liên kết với bảng trung gian
+
+
+Như vậy là ta đã thiết lập xong table trung gian nối 2 bảng Student và Course có quan hệ nhiều nhiều. 
+
+
+Tiếp đến ta khai báo entity Course
 
 {% highlight java  linenos %}
 @Entity
