@@ -62,11 +62,16 @@ public class User {
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "address_id", referencedColumnName = "id")
-    private Address address; // biến address này sẽ trùng  với giá trị  mappedBy trong Class User dưới đ
+    private Address address; // biến address này sẽ trùng  với giá trị  mappedBy trong Class User 
 
     // ... getters and setters
 }
 {% endhighlight %}
+
+@Id : dùng để chỉ ra đây chính là khoá chính, như vậy khoá chính trong table User sẽ được ánh xạ vào biên Long id.
+
+@GeneratedValue(strategy = GenerationType.AUTO) : Đây là annotation để mình tăng tự động thứ tự các dòng trong table. Ví dụ như trong table dòng số 1 là id = 1. Khi ta insert thêm một dòng dữ liệu nữa thì id sẽ tự động tăng lên = 2. Có rất nhiều cách để tăng tự động giá trị của khoá chính.
+Các em có thể tham khảo thêm các cách tăng khác nhau tại [đây](https://levunguyen.com/laptrinhspring/2020/04/25/generation-identifier/)
 
 Như các em thấy ở trên ta sử dụng annotation @OneToOne để nói rằng một user chỉ có 1 đối tượng Address .
 
@@ -102,7 +107,7 @@ Anh lấy ví dụ ta có các bảng ghi sau trong table Adress
  Chúng ta phải thiết lập cascade trong code java và trong mysql thì lúc đó dữ liệu sẽ được toàn vẹn và không bị dư thừa dữ liệu 
 
 Chúng ta sử dụng @JoinColumn để cấu hình cho biến address là tìm kiếm trong column nào trong database mà map vào (nó chính là foregin key)
-.Biến address này được khai báo trong Class Address dưới đây.
+.Biến address này được khai báo trong Class Address dưới đây. Như vậy chúng ta sử dụng @JoinColumn giống như một cầu nối nơi 2 tables User và Address. Nó được dùng để khai báo 2 tables sẽ kết nối mối quan hệ với nhau thông qua column nào.
 
 {% highlight java   linenos %}
 @Entity
@@ -143,6 +148,6 @@ Chúng ta sẽ lưu xuống database theo cách sau.
 ### **3. Kết luận**
 
 Như vậy chúng ta sử dụng annotaion @OneToOne để thực hiện việc liên kết giữa hai entity với nhau mà chúng có quan hệ 1-1. Từ User mình có thể
-suy ra địa chỉ của user và ngược lại
+lấy  ra địa chỉ và ngược lại.
 
 Để hiểu thêm về mappedBy còn có chức năng nào mới không thì các bạn có thể đọc bài viết sau
