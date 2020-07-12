@@ -17,13 +17,13 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 
 - OneToMany là gì  ?
 - ManyToOne là gì ?
-- Cấu hình và triển khai một dự án dùng các annotation
+- Cấu hình và triển khai một dự án dùng các annotation @OneToMany và @ManyToOne
 
 <br>
 # **1. One To Many annotation**
 
-Anh lấy ví dụ như mình làm ứng dụng về bán hàng. Mình có chức năng lưu sản phẩm (Item)  vào  giỏ hàng (cart) .
-Trong giỏ hàng (cart) sẽ chứa nhiều sản phẩm (Items). Như vậy quan hệ giữa giỏ hàng và sản phẩm  là One To Many nghĩa là 1 giỏ hàng chứa nhiều sản  .
+Anh lấy ví dụ như mình làm ứng dụng về bán hàng. Mình có chức năng thêm sản phẩm (Item)  vào  giỏ hàng (cart) .
+Trong giỏ hàng (cart) sẽ chứa nhiều sản phẩm (Items). Như vậy quan hệ giữa giỏ hàng và sản phẩm  là One To Many nghĩa là 1 giỏ hàng chứa nhiều sản  phẩm.
 
 Nếu ta thiết kết database thì ta có 2 bảng là cart và item như sau .
 
@@ -45,7 +45,7 @@ CREATE TABLE `Items` (
 
 Như vậy mối quan hệ trong database giữa Cart và Item là một nhiều . Column cart_id là khoá chính trong bảng Cart và là khoá phụ trong bảng Items.
 
-Trong Java mình thể hiện mối quan hệ 1 - nhiều qua annotation @OneToMany như sau
+Trong Java mình thể hiện mối quan hệ 1 - nhiều qua annotation @OneToMany Ví dụ như ta khai báo lớp Cart có quan hệ một nhiều với lớp Item như sau.
 
 {% highlight java   linenos %}
 public class Cart {
@@ -55,6 +55,10 @@ public class Cart {
 
 }
 {% endhighlight %}
+
+Chúng ta sử dụng annotation @OneToMany để nói lên mối liên hệ một nhiều. Như ví dụ trên ta có thể thấy 1 giỏ hảng (Cart) có nhiều sản phẩm Items. Ở trên chúng ta sử dụng collection là Set vì chúng ta muốn tập hợp sản phẩm không được trùng lập nhau. Các em có thể sử dụng các tập hợp khác như List , Map cũng được. Tuỳ theo mục đích sử dụng mà mình chọn tập hợp cho đúng
+
+
 
 <br>
 # **2. Triển khai trong Java code
@@ -151,7 +155,7 @@ Chúng ta thấy trong lớp Cart chúng ta định nghĩa @OneToMany và mapped
 <br>
 #### Bước 5. Test ứng dụng
 
-Chúng ta sẽ lưu giỏ hàng và các sản phẩm xuống database theo cách sau.
+Chúng ta sẽ lưu giỏ hàng và các sản phẩm xuống database theo cách sau. Khi dữ liệu được lưu thì nó sẽ được lưu xuống cả 2 tables cùng một lúc.
 
 
 {% highlight java   linenos %}
@@ -172,7 +176,7 @@ Chúng ta sẽ lưu giỏ hàng và các sản phẩm xuống database theo các
 <br>
 # **3. Kết luận**
 
-Như vậy chúng ta sử dụng annotaion @OneToMany và @ManyToOne để thực hiện việc liên kết giữa hai entity với nhau. Từ Cart ta có thể lấy các kết quả
-của Items.
+Như vậy chúng ta sử dụng annotaion @OneToMany và @ManyToOne để thực hiện việc liên kết giữa hai entity với nhau. Trong lập trình sẽ có những lúc khi ta có thể query từ Cart lấy ra tất cả các dòng dữ liệu Items trong Cart đó hoặc sẽ có những trường hợp ngược lại là từ những Items trong Cart đó ta có thể lấy được Cart đó là gì thông qua các Item. Đó chính là Bidirectional chúng ta có thể query Cart lấy Item hoặc query ngược từ Item ra Cart. Để làm được việc này thì ta phải sử dụng @JoinColumn và MappedBy để thực hiện Bidriectional 
+
 
 Để hiểu thêm về mappedBy còn có chức năng nào mới không thì các bạn có thể đọc bài viết sau
