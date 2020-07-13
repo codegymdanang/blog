@@ -24,8 +24,10 @@ Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn p
 # **1. Model là gì**
 
 Chúng ta sử dụng Interface Model để truyền dữ liệu  từ Controller sang View để hiển thị .
-Spring cho phép chúng ta sử dụng Model như là một tham số trong method của Controller nên chúng ta dể dàng lấy , chỉnh sử data
+Spring cho phép chúng ta sử dụng Model như là một tham số trong method của Controller nên chúng ta dể dàng lấy , chỉnh sử dữ liệu
 để truyền qua cho View.
+
+Như vậy model như là một cầu nối dữ liệu giữa Controller và View. Tầng view có nhiệm vụ hiển thị dữ liệu ra cho người dùng và dữ liệu đó được controller truyền sang cho view. View sẽ kết hợp dữ liệu thô từ controller với HTML,CSS,JS để cho ra một trang web đẹp và hoàn chỉnh.
 
 {% highlight java linenos %}
 
@@ -42,7 +44,9 @@ public class GreetingController {
 }
 {% endhighlight %}
 
-Ở tầng view chúng ta có thể lấy data truyền từ model như sau
+Trong method getWithModel chúng ta có tham số là Model model. Chúng ta sử dụng nó bằng các thêm các giá trị mà chúng ta mong muốn tầng View sẽ sử dụng. Model hỗ trợ ta phương thức addAttribute, anh ví dụ như chúng ta muốn truyền đối tượng greeting từ controller qua cho view thì ta thêm như sau : model.addAttribute("greeting", greeting). Trong đó tham số đầu tiên là tên (greeting) nhờ có tên này mà mình có thể lấy ra đối tượng greeting bên view. Tham số thứ 2 là đối tượng mình mong muốn truyền qua cho View
+
+Như vây tầng view chúng ta có thể lấy data truyền từ model như sau
 
 {% highlight html  linenos %}
 <!DOCTYPE html>
@@ -53,6 +57,10 @@ public class GreetingController {
 </html>
 {% endhighlight %}
 <br>
+
+
+Chúng ta sử dụng ${greeting.name} để lấy giá trị bên controller gửi qua. Đây là cách đọc giá trị từ controller qua view bằng kỷ thuật Themeleaf sử dụng cú pháp ${} . Ngoài Themeleaf chúng ta còn nhiều kỷ thuật khác như Velocity, Jstl ect.
+
 
 <br>
 # **2. ModelMap là gì**
@@ -69,10 +77,12 @@ public String getWithModelMap(@RequestParam("name") String name, ModelMap modelM
 
 {% endhighlight %}
 
+Trong phương thức getWithModelMap ta có thêm tham số là ModelMap modelMap thay vì Model
+
 <br>
 # **3. Map**
 
-Map cũng tương tự như Model . Chúng ta có thể sử dụng Map như một tham số trong method của Controller.
+Map cũng tương tự như Model. Chúng ta có thể sử dụng Map như một tham số trong method của Controller.
 
 {% highlight java  linenos %}
 @RequestMapping(path = "/getWithMap", method = RequestMethod.GET)
@@ -83,6 +93,8 @@ public String getWithMap(@RequestParam("name") String name, Map<String, Object> 
 
 }
 {% endhighlight %}
+
+Trong phương thức getWithModelMap ta có thêm tham số là Map gồm có key và value và ta sử dụng phương thức put thay vì addAttribute như model và modelmap
 
 <br>
 # **4. ModelAndView**
