@@ -67,9 +67,51 @@ Sử dụng XML Configure
 
 2- Cách 2 : Dùng SimpleUrlHandlerMapping
 
+SimpleUrlHandlerMapping thì uyển chuyển hơn BeanNameUrlHandlerMapping. Chúng ta có thể name hoặc url để mapping tới controller tương ứng.
+
+Ví dụ sử dụng Java Confiure
+
+{% highlight java linenos %}
+@Configuration
+	public class SimpleUrlHandlerMappingConfig {
+	 
+	    @Bean
+	    public SimpleUrlHandlerMapping simpleUrlHandlerMapping() {
+	        SimpleUrlHandlerMapping simpleUrlHandlerMapping = new SimpleUrlHandlerMapping();
+	        
+	        Map<String, Object> urlMap = new HashMap<>();
+	        urlMap.put("/simpleUrlWelcome", hello());
+	        simpleUrlHandlerMapping.setUrlMap(urlMap);  
+	        return simpleUrlHandlerMapping;
+	    }
+	 
+	    @Bean
+	    public HelloController hello() {
+	        return new HelloController();
+	    }
+	}
+{% endhighlight %}
+
+Ví dụ sử dụng XML Configure
+
+{% highlight java linenos %}
+<bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+	    <property name="mappings">
+	        <value>
+	            /simpleUrlWelcome=hello
+	            /*/simpleUrlWelcome=hello
+	        </value>
+	    </property>
+	</bean>
+	<bean id="hello" class="com.levunguyen.HelloController" />
+{% endhighlight %}
+
+
 3- Cách 3 : ControllerClassNameHandlerMapping
 
-3- Cách 4 : Configuring Priorities
+ControllerClassNameHandlerMapping hiện nay không được hỗ trợ trong version Spring 5.
+
+Chúng ta hoàn toàn có thể cấu hình cách mà URL mapping vào controller theo tên hay theo đường dẩn để mapping vào controller tương ứng.
 
 
 4. Sau khi vào controller tương ứng thì từ controller ta gọi services, service gọi repository, repository sẽ sử dung tầng persisten để thao tác với database lấy dữ liệu .
@@ -77,9 +119,22 @@ và chuyển hoá dữ liệu trong database thành model và trả ngược l�
 
 5. Controller sẽ trả về tên view (tên trang web  ) và model cho Dispatchervleter.
 
-6. DispatcherServlet sẽ dự vào tên view mà controler trả về . Nó sẽ đi tìm trang view (thymeleaf,jsp) tương ứng dựa vào việc ta cấu hình View Reolver mà Dispatcher biết phải tìm thấy trang view ở đâu
- đồng thời truyền model để trang view hiểu thị dữ liệu. Kết quả cuối cùng là ta có một trang website hoàn chỉnh có HTML và dữ liệu .
-7. Cuối cùng DispatchServlet gửi lại kết quả trang web cho client.
+6. DispatcherServlet sẽ dự vào tên view mà controler trả về . Nó sẽ đi tìm trang view (thymeleaf,jsp) tương ứng dựa vào việc ta cấu hình View Reolver mà Dispatcher biết phải tìm thấy trang view ở đâu đồng thời truyền model để trang view hiểu thị dữ liệu. Kết quả cuối cùng là ta có một trang website hoàn chỉnh có HTML và dữ liệu. Chúng ta có thể cấu hình tầng view có thể trả về dạng html, jsp , hoặc xml hoặc json như sau
+
+{% highlight java linenos %}
+@Bean
+	public ViewResolver internalResourceViewResolver() {
+	    InternalResourceViewResolver bean = new InternalResourceViewResolver();
+	    bean.setViewClass(JstlView.class);
+	    bean.setPrefix("/WEB-INF/view/");
+	    bean.setSuffix(".jsp");
+	    return bean;
+	}
+{% endhighlight %}
+
+Chúng ta sử dụng internalResourceViewResolver để cấu hình nơi nào chúng ta đặt các cái view (/WEB-INF/view/). Trang kết quả trả về là html,xml, hoạc jsp (bean.setSuffix(".jsp").
+
+7. Cuối cùng DispatchServlet gửi lại kết quả trang web cho client. Như vậy chúng ta thấy trang web được sinh ra ở phía server sau đó nó mới được gửi lại cho người dùng.
 
 <br>
 # **2. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**

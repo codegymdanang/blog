@@ -43,8 +43,11 @@ Creational Pattern ( nhóm khởi tạo): Nhóm này sẽ giúp bạn rất nhi�
 5. Pool.
 6. Prototype.
 7. Simple Factory.
-8. Singleton.
+8. Singleton
 10. Static Factory.
+
+Vậy khi nào chúng ta dùng design pattern cho nhóm khởi tạo. Khởi tạo ở đây là việc tạo ra một đối tượng. Tại sao trong lập trình mình có thể dùng toán tử new để khai báo ra một đối tượng luôn. Dùng design pattern creation để làm gì? Câu trả lời rất đơn giản, chúng ta hoàn toàn có thể dùng từ khoá new để tạo ra đối tượng nhưng ứng dụng của chúng ta sẽ không thể mở rộng trong tương lai. Nhiều lúc khi phát triển tính năng mới ta phải đập hết code củ và viết lại một chức năng mới. Trong 10 cách tạo đối tượng ở trên mỗi pattern sẽ có một vai trò , mục đích khác nhau. Tuỳ vào nghiệp vụ của chương trình mà ta có thể chọn pattern đúng để tạo ra các đối tượng giúp cho việc mở rộng sau này được dể dàng.
+
 
 Structural (nhóm cấu trúc): Nhóm này sẽ giúp chúng ta thiết lập, định nghĩa quan hệ giữa các đối tượng. Cấu trúc để tạo đối tượng
 
