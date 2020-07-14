@@ -28,12 +28,49 @@ Trước hết mình đi qua hình ảnh về luồng đi của ứng dụng spr
 ![Luồn đi của ứng dụng MVC  ](/images/post/spring/springmvcflow.jpg){:class="img-responsive"}
 {: refdef}
 
-1. Người dùng điền vào tên website mình cần truy cập trên browser sau đó bấm enter. Lúc này mình gửi 1 request lên server nơi mà mình triển khai sourcecode.
+1. Người dùng điền vào tên website mình cần truy cập trên browser sau đó bấm enter. Lúc này mình gửi 1 request lên server nơi mà mình triển khai ứng dụng Spring.
 
-2. Thành phần DispatcherServlet của  Spring MVC sẽ nhận được request (yêu cầu) của người dùng ở bước 1.
+2. Thành phần DispatcherServlet của  Spring MVC sẽ nhận được request (yêu cầu) của người dùng ở bước 1. Dispatcher là thành phần quan trọng nhất trong springmvc. Nó sẽ là nơi đầu tiên nhận request từ client sau đó sẽ chuyển request đó tới các controller tương ứng, đồng thời sẽ là chốt chặn cuối cùng trả về kết quả cho client.
 
-3. Sau khi nhận được request(yêu cầu) DispatcherServlet sẽ chuyển yêu cầu đó tới Controller bằng các cơ chế mapping mà ta khai báo trong Handler Mapping (có nhiều cách để cấu hình mapping từ yêu cầu
- người dùng vào Controller).
+3. Sau khi nhận được request(yêu cầu) DispatcherServlet sẽ chuyển yêu cầu đó tới Controller bằng các cơ chế mapping mà ta khai báo trong Handler Mapping. Có 4 cách chúng ta có thể dùng để mapping một request vào controller tương ứng
+
+1- Cách 1 : Dùng BeanNameUrlHandlerMapping
+
+Đây là cơ chế mapping mặc định. Dựa vào tên của URL mà nó sẽ mapping tới controller tương ứng. Anh lấy ví dụ http://localhost/hello thì nó sẽ mapping vào đúng controller HelloController vì nó trùng tên là Hello.
+
+Sử dụng Java configure
+
+{% highlight java linenos %}
+@Configuration
+	public class BeanNameUrlHandlerMappingConfig {
+	    @Bean
+	    BeanNameUrlHandlerMappingConfig beanNameUrlHandlerMapping() {
+	        return new BeanNameUrlHandlerMapping();
+	    }
+	 
+	    @Bean("/HelloUrl")
+	    public WelcomeController hello() {
+	        return new HelloController();
+	    }
+	}
+
+{% endhighlight %}
+
+Sử dụng XML Configure
+
+{% highlight java linenos %}
+
+<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" />
+	<bean name="/hello" class="com.levuguyen.HelloController" />
+
+{% endhighlight %}
+
+2- Cách 2 : Dùng SimpleUrlHandlerMapping
+
+3- Cách 3 : ControllerClassNameHandlerMapping
+
+3- Cách 4 : Configuring Priorities
+
 
 4. Sau khi vào controller tương ứng thì từ controller ta gọi services, service gọi repository, repository sẽ sử dung tầng persisten để thao tác với database lấy dữ liệu .
 và chuyển hoá dữ liệu trong database thành model và trả ngược lại cho controller.
