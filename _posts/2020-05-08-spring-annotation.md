@@ -20,6 +20,7 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 
 <br>
 # **1. Spring Annotation**
+Trong bài hôm nay chúng ta sẽ đi qua các annotation thường xuyên được sử dụng trong Spring
 
 # **2 @Congiguration**
 

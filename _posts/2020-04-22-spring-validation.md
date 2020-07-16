@@ -32,7 +32,21 @@ sai định dạnh mình yêu cầu thì mình thông báo lỗi để người 
 <br>
 # **2. Hướng dẫn cách làm**
 
-#### Bước 1 Thiết  ràng buộc dữ liệu trong Entiry
+- Bước 1 : Nhúng thư viện vào trong file pom
+
+{% highlight java linenos %}
+<dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency> 
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency> 
+
+{% endhighlight %}
+
+- Bước 2 : Thiết  ràng buộc dữ liệu trong Entiry
 
 {% highlight java linenos %}
 @Entity
@@ -56,9 +70,9 @@ public class User {
 Như ta thấy mình sử dụng các annotaion có sẳng như @NotBlank để ràng buộc không được phép rỗng cho giá trị name.
 
 <br>
-#### Bước 2. sử dụng trong controller
+- Bước 3 : Sử dụng trong controller
 
-Trong ví dụ sau a sẽ sử dụng Restful Webservice .
+Trong ví dụ sau anh sẽ sử dụng Restful Webservice .
 
 {% highlight java linenos %}
 @RestController
@@ -80,9 +94,7 @@ Khi tham số trong controller có annotation @Valid nó sẽ tự động bật
 trong thư viện Hibernate Validator để kiểm tra giá trị.
 
 <br>
-#### Ngoài ra chúng ta có thể sử dụng annotation @ExceptionHandler
-
-@ExceptionHandler cho phép chúng ta bắt lỗi dữ liệu cho từng method.
+Chúng ta có thể sử dụng annotation @ExceptionHandler cho phép chúng ta bắt lỗi dữ liệu cho từng method.
 
 {% highlight java linenos %}
 @ResponseStatus(HttpStatus.BAD_REQUEST)
@@ -100,7 +112,84 @@ public Map<String, String> handleValidationExceptions(
 {% endhighlight %}
 
 <br>
-### Bước 3. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
+# **4. Một số annotaion thường dùng để kiểm tra dữ liệu**
+
+- @NotNull – kiểm tra giá trị null
+- @AssertTrue – kiểm tra giá trị thuộc tính là true 
+- @Size – kiểm tra độ dài min and max
+- @Min – kiểm tra giá trị nhỏ nhất 
+- @Max – Kiểm tra giá trị lớn nhất
+- @Email – kiểm tra email có hợp lệ
+- @NotEmpty – kiểm tra không được trống và empty
+- @NotBlank – kiểm tra giá trị không được null hoặc khoảng trắng 
+- @Positive and @PositiveOrZero – kiểm tra chỉ được phép là số nguyên dương từ 0 trở đi 
+- @Negative and @NegativeOrZero – kiểm tra số âm
+- @Past and @PastOrPresent – kiểm tra ngày từ quá khứ đến hiện tại.
+- @Future and @FutureOrPresent – kiểm tra ngày từ hiện tại đến tương lai
+
+<br>
+# **5. Tự định nghĩa annotation riêng**
+
+Trong ví dụ sau anh sẽ tạo một annotation riêng tên @Author là để kiểm tra trường name phải nhập vào giá trị tên mà anh mong muốn nến trường name chứa đựng giá trị anh không mong muốn thì sẽ báo lỗi như sau.
+
+{% highlight java linenos %}
+@Entity
+public class User {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
+
+    @NotBlank(message = "Name is mandatory")
+    @Author
+    private String name;
+
+    @NotBlank(message = "Email is mandatory")
+    private String email;
+
+}
+{% endhighlight %}
+
+Tiếp đến anh định nghĩa  của @Author như sau
+
+{% highlight java linenos %}
+
+@Target({FIELD})
+@Retention(RUNTIME)
+@Constraint(validatedBy = AuthorValidator.class)
+@Documented
+public @interface Author {
+
+    String message() default "Author is not allowed.";
+
+    Class<?>[] groups() default {};
+
+    Class<? extends Payload>[] payload() default {};
+
+}
+{% endhighlight %}
+
+Và cuối cùng anh định nghĩa thế nào là hợp lệ là đúng. Như ví dụ dưới đây anh định nghĩa trường tên tác giả truyền vào phải nằm trong danh sách mà anh định nghĩa là "Santideva", "Marie Kondo", "Martin Fowler", "levunguyen". Nếu tên tác giả không nằm trong danh sách này thì xem như không hợp lệ và trả về lỗi
+
+{% highlight java linenos %}
+public class AuthorValidator implements ConstraintValidator<Author, String> {
+
+    List<String> authors = Arrays.asList("Santideva", "Marie Kondo", "Martin Fowler", "levunguyen");
+
+    @Override
+    public boolean isValid(String value, ConstraintValidatorContext context) {
+
+        return authors.contains(value);
+
+    }
+}
+{% endhighlight %}
+
+# **6. Tổng kết**
+
+Chúng ta có thể sử dụng các annotaion sẳn có hoặc có thể tự định nghĩa một cái cho phù hợp với ứng dụng của mình.
+
+# **Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
