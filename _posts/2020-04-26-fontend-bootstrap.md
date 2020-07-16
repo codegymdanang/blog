@@ -78,7 +78,7 @@ Ví dụ <div class="container"> thì class container là của Bootstap . Như 
 <br>
 # **4 Một số tính năng quan trọng của Bootstrap**  
 
-Meta là gì ? Viewport ? content ? initial-scale ?
+Khi mở trang web ra điều đầu tiên ta nhận thấy tất cả các trang web điều có thể Meta ,Viewport với thuột tính content ,initial-scale, shrink-to-fit. Vậy nó có nhiệm vụ gì mà bất cứ trang web nào cũng phải có. Ví dụ như sau
 
 {% highlight xml  linenos %}
 <meta name = "viewport" content = "width=device-width, initial-scale = 1, shrink-to-fit = no">
@@ -112,7 +112,7 @@ Thuộc tính initial-scale=1.0 thiết lập mức độ phóng ban đầu khi 
 </div>
 {% endhighlight %}
 
-Loại container-fluid sẽ hiện thị full chiều rộng màn hình
+Loại container-fluid sẽ hiện thị full chiều rộng màn hình.
 
 {% highlight html linenos %}
 <div class = "container-fluid">
@@ -126,7 +126,7 @@ Responsive là cách mình lập trình trang web có thể hiển thị trên n
 mà ta không còn phải lo lắng khi làm responsive vì Boostrap đã hỗ trợ cho mình. Bằng cách sử dụng thẻ @media ta có thể dể dành hiển thị trang web
 ở những thiết bị có kích thướt khác nhau .
 
-Tuỳ vào kích thướt màn hình mà màu H3 sẽ thay đổi là đỏ , vàng , xanh , tím.
+Anh có ví dụ dưới đây. Tuỳ vào kích thướt màn hình mà màu H3 sẽ thay đổi là đỏ , vàng , xanh , tím.
 Nếu màn hình điện thoại sẽ là đỏ.
 Nếu tablets là vàng.
 Nếu là desktop là xanh.
@@ -162,6 +162,8 @@ Nếu là desktop là xanh.
 }
 {% endhighlight %}
 
+
+Như vậy chúng ta sử dụng @media để chọn css tương ứng với các khích thướt hiển thị khác nhau.
 
 <br>
 # **Hệ thống lưới**
