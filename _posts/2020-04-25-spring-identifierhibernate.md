@@ -12,7 +12,7 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,như các em thấy trong các Entity mình annotation @GeneratedValue và nó có các strategy như GenerationType.IDENTITY,sequence-generator. Vậy nó là cái gì thì chủ đề hôm nay chúng ta sẽ nói về các loại Generation trong Hibernate
+Chào các em ,như các em thấy trong các Entity mình annotation @GeneratedValue và nó có các strategy(dịch nôm na là các cách để tạo ra giá trị cho khoá chính) như GenerationType.IDENTITY,sequence-generator. Vậy nó là cái gì thì chủ đề hôm nay chúng ta sẽ nói về các loại Generation trong Hibernate
 
 - Auto Generation ?
 - Identity Generation ?
@@ -23,14 +23,13 @@ Chào các em ,như các em thấy trong các Entity mình annotation @Generated
 <br>
 # **1. Auto Generation**
 
-Nếu ta không khai báo strategy thì mình sẽ sử dụng default generation để sinh ra giá trị cho khoá chính. Thì trường khoá chính sẽ có giá trị là số hoặc UUID
+Nếu ta không khai báo strategy thì mình sẽ sử dụng default generation để sinh ra giá trị cho khoá chính. Thì trường khoá chính sẽ có giá trị là số (như là 1,2,3,4,5,6) hoặc UUID (dãy số và chữ kết hợp với nhau 8dd5f315-9788-4d00-87bb-10eed9eff566)
 
 Nếu khoá chính là kiểu số thì Persisten sẽ tự động sinh giá trị cho khoá chính  dựa trên cơ chế  sequence number. Sequence number có nghĩa là giá trị sẽ tăng lên 1,2,3,4,5,6,7,8 ... 
 
 Nếu khoá chính là kiểu UUID thì giá trị của khoá chính nó sẽ được sinh theo thuật toán UUID Generation
 
 Ví dụ sau đây ta khai báo khoá chính là kiểu số. Và nó là duy nhất trong table .
-
 
 {% highlight java  linenos %}
 @Entity
@@ -65,7 +64,7 @@ public class Course {
 <br>
 # **2. IDENTITY Generation**
 
-Khi sử dụng strategy Identity có nghĩa khoá chính sẽ tự động tăng lên
+Khi sử dụng strategy Identity có nghĩa khoá chính sẽ tự động tăng lên cấp tiến như 1,2,3,4
 
 {% highlight java  linenos %}
 @Entity
@@ -88,7 +87,7 @@ Lúc này giá trị cửa studentId sẽ là 1,2,3,4,5 ...
 
 Chúng ta sử dụng sequen-generator để có cấu hình cách tạo ra các giá trị cho khoá chính.
 Như ta thấy ở ví dụ Identify Generation. Thì thứ tự bắt đầu là 1 , sau đó tăng lên 2,3,4.
-Khi xử dụng sequen-generator ta hoàn toàn có thể thay đổi lại . Như ví dụ bên dưới, ta yêu cầu
+Khi xử dụng sequen-generator ta hoàn toàn có thể thay đổi lại bước nhảy . Như ví dụ bên dưới, ta yêu cầu
 giá trị ban đầu là 4 (@Parameter(name = "initial_value", value = "4"). Và ta muốn mỗi lần tăng là 2 đơn vị
 @Parameter(name = "increment_size", value = "2"). Như vậy giá trị của userId sẽ là : 4,6,8,10
 
