@@ -25,7 +25,7 @@ Chào các em ,như các em thấy trong các Entity mình annotation @Generated
 
 Nếu ta không khai báo strategy thì mình sẽ sử dụng default generation để sinh ra giá trị cho khoá chính. Thì trường khoá chính sẽ có giá trị là số hoặc UUID
 
-Nếu khoá chính là kiểu interger thì Persisten sẽ tự động sinh giá trị cho khoá chính  dựa trên cơ chế  sequence number
+Nếu khoá chính là kiểu số thì Persisten sẽ tự động sinh giá trị cho khoá chính  dựa trên cơ chế  sequence number. Sequence number có nghĩa là giá trị sẽ tăng lên 1,2,3,4,5,6,7,8 ... 
 
 Nếu khoá chính là kiểu UUID thì giá trị của khoá chính nó sẽ được sinh theo thuật toán UUID Generation
 
@@ -44,8 +44,11 @@ public class Student {
 }
 {% endhighlight %}
 
-Ví dụ sau đây ta khai báo khoá chính là kiểu . Thì studentId sẽ tự động tăng dần lên và nó là duy nhất trong table.
-Lúc đó giá trị của nó là 8dd5f315-9788-4d00-87bb-10eed9eff566. Đây là giá do UUID Generation sinh ra
+Chúng ta sử dụng annotation @GeneratedValue để khai báo cách sinh ra giá trị.
+
+Ví dụ sau đây ta khai báo khoá chính là kiểu số. Thì giá trị của trường studentId sẽ tự động tăng dần lên và nó là duy nhất trong table.
+
+Nếu khoá chính kiểu UUID ví dụ như UUID sau : 8dd5f315-9788-4d00-87bb-10eed9eff566. Giá trị này do thuật toán có trong UUID Generation sinh ra và là duy nhất.
 
 {% highlight java  linenos %}
 @Entity
@@ -75,6 +78,8 @@ public class Student {
     // ...
 }
 {% endhighlight %}
+
+Chúng ta sử dụng annotation @GeneratedValue (strategy = GenerationType.IDENTITY) để khai báo cách sinh ra giá trị.
 
 Lúc này giá trị cửa studentId sẽ là 1,2,3,4,5 ...
 
@@ -107,8 +112,33 @@ public class User {
 }
 {% endhighlight %}
 
+- Chúng ta sử dụng annotation @GeneratedValue(generator = "sequence-generator") để sinh ra giấ trị
+
+- sequence_name  : tên sequence
+- initial_value  : giá trị ban đầu
+- increment_size : bước nhảy
 <br>
 # **4. Table Generation**
+
+Table Generation Strategy cũng gần tương tự như sequence strategy. Nhưng trong phương pháp này ta sử dụng table để hỗ trợ việc tạo ra các giá trị cho trường khoá chính. Anh có ví dụ sau
+
+{% highlight java  linenos %}
+@Entity
+@TableGenerator(name="person", initiaValue=0, allocationSize=50)
+public class Persion {
+
+  @GeneratedValue(strategy=GenerationType.Table, generator="person")
+  @Id
+  Long id;
+}
+{% endhighlight %}
+
+- Trong ví dụ trên ta khai báo annotation @TableGenerator để khai báo strategy dùng là Generator Table
+- initiaValue=0 Giá trị ban đầu được gán, trong trường hợp này id sẽ bằng 0.
+- allocationSize Giá trị sequence sẽ được sinh ra dựa trên khai báo allocationSize. Mặc định giá trị này là 50. Thì giá trị tăng 50 lần sau mỗi lần gọi. Nếu mình set là allocationSize = 1 thì nó sẽ tự động tăng dần đều.
+
+Sự khác nhau giữa SEQUENCE và Table Generator là giá trị initiaValue. Nếu là SEQUENCE nó sẽ lưu giá trị tiếp theo của dãy số vào table . Còn Table Generator sẽ lưu trữ giá trị cuối cùng đã được sử dụng vào table
+
 
 <br>
 # **5. Tự tạo Generation cho chúng ta**
