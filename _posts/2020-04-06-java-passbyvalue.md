@@ -6,6 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Blog 2
 image: /images/blog/java.png
+featureImage: /images/post/javacore/feature_passbyvalue.png
 description : Tham trị và tham chiếu trong lập trình java . tham trị là gì , tham chiếu là gì
 youtubeId: 0F_8a5_fKno
 ---
