@@ -6,6 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Blog 5
 image: /images/blog/java.png
+featureImage: /images/post/javacore/feature_collection.png
 description : Sử dụng các collection trong java. Khái niệm collection trong java, các tập hợp trong java. List , Vector , Set , Queue, Dequee, Map trong  Java
 youtubeId: GXQn39fU2Kg
 ---

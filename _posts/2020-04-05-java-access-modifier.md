@@ -6,6 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Blog 1
 image: /images/blog/java.png
+featureImage: /images/post/javacore/feature_accessmodifier.png
 description : Các access modifier trong java . ý nghĩa từ khoá public , private , static, default, protected, static , final trong java
 youtubeId: qzfMZigVMDc
 ---
