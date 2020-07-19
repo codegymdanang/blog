@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Luồng đi của ứng dụng Spring MVC
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_springmvc.png
 description : Luồng đi ứng dụng Spring MVC . Spring MVC là gì ?
 youtubeId: 7Wpi_jC8CqA
 ---
