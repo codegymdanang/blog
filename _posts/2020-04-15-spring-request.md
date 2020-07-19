@@ -17,17 +17,17 @@ anh sẽ trình bày sự khác nhau đó .Chúng ta sẽ thảo luận các v�
 
 - Request Param là gì ?
 - Path Varible là gì ?
-- Kết hợp cả hai trong lập trình ?
+- Kết hợp cả hai trong lập trình như thế nào
 - Video hướng dẫn cách làm
 
 <br>
 # **1. Request Param**
 
-Sử dụng Request Param ở server  để lấy giá trị người dùng nhập trên trình duyệt .
-Ví dụ khi người dùng gõ vào đường link như sau để gửi 2 giá trị 10 và 20 lên server .
+Chúng ta sử dụng Request Param ở controller để lấy giá trị người dùng nhập trên trình duyệt. Ví dụ khi người dùng gõ vào đường link như sau để gửi 2 giá trị 10 và 20 lên server .
+
 http://localhost:8080/springmvc/hello/101?param1=10&param2=20
 
-Phía Controller ta bắt lại 2 giá trị 10 và 20 như sau :
+Phía Controller ta sẽ dùng @RequestParam để bắt lại 2 giá trị 10 và 20 như sau :
 
 {% highlight java linenos %}
 public String getDetails(@RequestParam(value="param1", required=true) String param1, @RequestParam(value="param2", required=false) String param2){
@@ -35,12 +35,17 @@ public String getDetails(@RequestParam(value="param1", required=true) String par
 }
 {% endhighlight %}
 
+- @RequestParam : chúng ta sử dụng annotation @RequestParam để khai báo là sẽ sử dụng nó để lấy các giá trị trên url
+- Value="param1" : Chúng ta khai báo để lấy giá trị tên là "param1" trên trình duyệt. Như vậy ứng với giá trị số 10 trên trình duyệt sẽ gán vào giá trị String param1
+- Value="param2" : Thì nó tương tự mục đích ở trên , chúng ta khai báo để lấy giá trị tên param2. Như vậy nó sẽ lấy giá trị 20 và gán vào biên String param2
+- require = true : Thì chúng ta bắt buột là trên url phải có tham số param1
+
 <br>
 # **2. Path Variable**
 
-Sử dụng Path Variable ở server  để lấy giá trị người dùng nhập trên trình duyệt.
+Sử dụng Path Variable ở Controller để lấy giá trị người dùng nhập trên trình duyệt. Nhưng ở đây mình sẽ không dùng theo định dạng key và value như ?param1=10&param2=20. Mà thay vào đó chúng ta sẽ sử dụng định dạng khác là /param/10.
 
-Ví dụ khi người dùng nhập vào url sau và muốn truyền 1234 lên server thì bên server ta sử lý như sau .
+Ví dụ khi người dùng nhập vào url sau và muốn truyền 1234 lên Controller thì bên Controller ta sử lý như sau .
 http://localhost:8080/MyApp/user/1234
 
 {% highlight java linenos %}
@@ -51,8 +56,15 @@ public List<Invoice> listUsersInvoices(
 }
 {% endhighlight %}
 
+- @RequestMapping(value="/user/{userId}" : chúng ta khai báo định dạng là /user/{userId}. Như vậy nó sẽ map với trình duyệt có định dạnh là user/1234
+
+- @PathVariable chúng ta sẽ lấy số 1234 từ trình duyệt và gắn vào biên int user.
+
 <br>
 # **3. Kết hợp cả 2 trong 1 request**
+
+Về mặt kỷ thuật chúng ta có thể sử dụng cả 2 phương pháp PathVariable và RequestParam trong một Controller để lấy giá trị từ url như sau.
+
 http://localhost:8080/MyApp/user/1234/invoices?date=12-05-2013
 
 {% highlight java linenos %}
@@ -64,6 +76,7 @@ public List<Invoice> listUsersInvoices(
 }
 {% endhighlight %}
 
+Trong đó PathVariable sẽ sử dụng định dạng là /user/{userId}. Trong khi đó @RequestParam sẽ sử dụng định dạng key và value date (key) =12-05-2013 (value).
 <br>
 # **4. Kết luận**
 
