@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Phân Biệt Session và Cookie
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_sessioncookie.png
 description : Phân biệt Session và Cookie . Session là gi , cookie là gì trong lập trình web
 youtubeId: ym4-rU9R6fM
 ---
