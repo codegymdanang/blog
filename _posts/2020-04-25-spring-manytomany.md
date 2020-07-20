@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Lập Trình Spring Security
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_manytomany.png
 description : Hướng dẫn sử dụng quan hệ @ManyToMany many to many trong spring data jpa .
 youtubeId: WNfuVJptPnQ
 ---

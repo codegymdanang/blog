@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Generation Identifier trong spring
 image: /images/blog/spring.png
+
 description : auto generation trong hibernate , identity generation , sequence generation, table generation, hướng dẫn tạo generation trong spring, ví dụ về generation trong spring, phân biệt autogeneration và identity generation
 youtubeId: WNfuVJptPnQ
 ---

@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: OneToOne Relationship
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_manytomany.png
 description : OneToOne Mapping . hướng dẫn onetoone trong spring data jpa , ví dụ onetoone spring data jpa  
 youtubeId: WNfuVJptPnQ
 ---
