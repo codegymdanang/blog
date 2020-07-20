@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery:  Các phương thức HTTP
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_httpmethod.png
 description : Các loại Request HTTP , get là gì , post là gì , put là gì , head là gì . Phân biệt get và post
 youtubeId: Awpe1PIC-M4
 ---
