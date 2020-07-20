@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Lập Trình Spring Security
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_springsecurity.png
 description : Spring Security là gì ? hướng dẫn spring security , ví dụ spring security
 youtubeId: WNfuVJptPnQ
 ---
