@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Model, ModelMap, and ModelView
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_modelandview.png
 description : model là gì  trong Spring . ModelMap là gì , Map là gì , ModelAndView là gì trong Spring
 youtubeId: vaQxJlfmB6s
 ---
