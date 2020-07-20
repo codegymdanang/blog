@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Json Web Token là gì  
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_jwt.png
 description : Spring Json WebToken là gì . Cách . Json Web Token  . Ví dụ JWT , ví dụ Json web token
 youtubeId: NSFLGrM6pAU
 ---
