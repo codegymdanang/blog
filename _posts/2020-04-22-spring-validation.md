@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Sử dụng Validation Trong  Spring
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_springvalidation.png
 description : Validation trong Spring. ví dụ validation trong lập trình Spring
 youtubeId: ljyqbIo4jbk
 ---
