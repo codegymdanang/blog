@@ -6,6 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: OneToMany Relationship
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_manytomany.png
 description : OneToMany mapping trong Spring . hướng dẫn onetomany trong spring data jpa, ví dụ onetomany  trong spring data jpa
 youtubeId: WNfuVJptPnQ
 ---
