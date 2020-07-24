@@ -7,7 +7,7 @@ tags: [java core]
 summery: Generic là gì
 image: /images/blog/java.png
 description : Generic là gì. khái niệm generic trong java, sử dụng generic trong java, cách tạo generic trong java
-youtubeId: 2ADRQUlsRtI
+youtubeId: pXSdvkKK658
 ---
 
 # **Giới thiệu nội dung bài viết**
