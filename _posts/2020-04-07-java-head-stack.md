@@ -1,20 +1,19 @@
 ---
 layout: blog
-title: Bộ  Heap va Stack
+title: Heap và Stack trong lập trình java
 slug : phan-biet-bo-nho-heap-va-stack
 category: laptrinhjava
 tags: [java core]
 summery: Phân Biệt Bộ Nhớ  Heap va Stack
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_heapstack.png
-description : Phân biệt bộ nhớ heap và stack . bộ nhớ heap là gì , bộ nhớ stack là gì , bộ nhớ trong lập trình java
+description : Giải thích các hoạt động của bộ nhớ heap và stack trong lập trình java. Hiểu được cách thức lưu trữ các giá trị, đối tượng trong ngôn ngữ java trong bộ nhớ heap và stack. Phân biệt được sự khác nhau giữ bộ nhớ heap và stack trong ngôn ngữ lập trình java
 youtubeId: 5ix_2ALbqHY
 ---
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn ,chắc hẳn bạn đang phân vân khi mình khai báo biến ,object ,phương thức ,tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ? Ai sẽ quản lý bộ nhớ ?Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ Heap và Stack lưu trữ dữ liệu gì và lưu như thế nào nhé .Các nội dung sau sẽ được trình bày
-trong bài viết hôm nay.
+Chào bạn ,chắc hẳn bạn đang phân vân khi mình khai báo biến ,object ,phương thức ,tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ? Ai sẽ quản lý bộ nhớ? Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ Heap và Stack lưu trữ dữ liệu gì và lưu như thế nào nhé .Các nội dung sau sẽ được trình bày trong bài viết hôm nay.
 
 - Các thuật ngữ về bộ nhớ.
 - Heap và Stack là gì ?
@@ -100,8 +99,7 @@ tượng Memory bên Heap.
 Hình chữ nhật bự nhất bao ở ngoài là hàm main () . Bên trong hàm main là bộ nhớ phương thức foo. Khi chương trình chạy xong thì bộ nhớ foo() sẽ
 được giải phóng trước sau đó mới đến main.
 - Dòng 6 private void foo() thì hàm foo()  được lưu trong bộ nhó Stack.
-- Dòng 7 String str = param.toString() . Trong java String là kiểu đặc biệt . Nó là kiểu Object và được quản lý bởi String Pool riêng. Chính vì vậy nó
-được lưu bên Heap.
+- Dòng 7 String str = param.toString() . Trong java String là kiểu đặc biệt . Nó là kiểu Object và được quản lý bởi String Pool riêng. Chính vì vậy nó được lưu bên Heap.
 
 <br>
 # **5. Video demo Heap và Stack**
