@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Tìm hiểu Generic trong Java
+title: Sử dụng Generic trong ngôn ngữ lập trình Java
 slug : generic-la-gi
 category: laptrinhjava
 tags: [java core]
 summery: Generic là gì
 image: /images/blog/java.png
-description : Generic là gì. khái niệm generic trong java, sử dụng generic trong java, cách tạo generic trong java
+description : Sử dụng Generic trong ngôn ngữ lập trình Java. Chúng ta sẽ đi qua khái niệm generic, sử dụng generic,cách tạo generic trong lập trình java.
 youtubeId: pXSdvkKK658
 ---
 
