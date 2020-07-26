@@ -1,12 +1,13 @@
 ---
 layout: blog
-title: Restful là gì
+title: Sử dụng Restful trong lập trình java
 slug : restful
 category: laptrinhspring
 tags: [spring]
 summery: Restful là gì
 image: /images/blog/spring.png
-description : restful webservice là gì , hướng dẫn restfull webservice , ví dụ restful webservice  , ví dụ restful webservice
+featureImage: /images/post/javacore/feature_webservice.png
+description : Sử dụng restful webservice trong lập trình. Hiểu cơ chế hoạt động của restfull webservice thông qua các  ví dụ thực tế. Phân biệt được sự khác nhau của website và webservice và khi nào thì mình dùng webservice trong lập trình java.
 youtubeId: WNfuVJptPnQ
 ---
 

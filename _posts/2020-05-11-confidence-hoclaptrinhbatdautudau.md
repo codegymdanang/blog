@@ -6,7 +6,7 @@ category: career
 tags: [confidence]
 summery: Học lập trình bắt đầu từ đâu  
 image: /images/blog/softskills.png
-description : học lập trình , học lập trình bắt đầu từ đâu, phương pháp học lập trình cho người mới bắt đầu.
+description : học lập trình nên bắt đầu từ đâu. Hướng dẫn các phương phương pháp học lập trình cho người tự học java. Hiểu được học lập trình là gì. Hướng dẫn con đường tự học java cơ bản tới nâng cao. Cơ hội nghề nghiệp cho các bạn sau khi tự học java.
 youtubeId: r2w7in6xMB4
 ---
 
@@ -46,7 +46,12 @@ Như các em thấy ngày nay có rất nhiều ứng dụng như ngân hàng, t
 
 Bước 1 : Đầu tiên chúng ta xát định là sẽ học phần cơ bản nhất đó là bắt đầu với việc tạo ra được trang web của mình hay còn gọi là học lập trình frontend (frontend có nghĩa là những thứ mình có thể thấy được, vì dụ như website bán điện thoại di động, khi vào trang web thì mình thấy danh sách các loại điện thoại . Vậy frontend là những cái mình thấy được bằng mắt). Để làm được frontend mọi người phải học công nghệ HTML , CSS , và Javascript . Trong giai đoạn này mình sẽ học cú pháp , cấu trúc cơ bản của HTML,CSS,Javascript và tự xây dựng được trang web cho mình.
 
+Sau đây là trang web giúp mình có thể tự học thiết kế web.
+- https://www.w3schools.com
+
 Bước 2 : Chọn công nghệ để làm phần backend (backend là những thứ mình không thấy được, như ví dụ điện thoại ở trên thì ta thấy những chiếc điện thoại mà mắt mình thấy được là do ở đâu mà có). Thông thường thì mình nên chọn Java làm ngôn ngữ để học phần backend. Nhưng ở giai đoạn này mình đã có kiến thức (từ vựng, cầu trúc ở phần frontend) nên khi học Java mình chỉ thay đổi từ vựng (từ khoá về ngôn ngữ đó) khác đi một chút xí, còn về nguyên lý các ngôn ngữ lập trình na ná nhau. Chính vì vậy nếu mình học tốt Javascript thì các ngôn ngữ khác như : Java , Ruby , Python , PHP, .Net (đây chính là các ngôn ngữ lập trình) đều rất đơn giản
+
+- Hiện nay trên youtube có rất nhiều khoá học miễn phí dạy học cho người bắt đầu với ngôn ngữ java
 
 Bước 3 : Học về cơ sở dữ liệu
 

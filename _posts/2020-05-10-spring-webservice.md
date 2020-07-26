@@ -7,7 +7,7 @@ tags: [spring]
 summery: webservice là gì ?
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_webservice.png
-description : webservice là gì , hướng dẫn webservice , ví dụ webservice , soap là gì , restful webservice là gì
+description : webservice là gì trong học lập trình. Hiểu được webservice thông qua các ví dụ thực tế. Phân biệt được các loại webservice hiện nay gồm SOAP và Restful webservice trong lập trình java.
 youtubeId: WNfuVJptPnQ
 ---
 
