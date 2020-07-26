@@ -1,13 +1,14 @@
 ---
 layout: blog
-title: Ngoại Lệ Trong Java
+title: Ngoại lệ trong ngôn ngữ lập trình
 slug : ngoai-le-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Ngoại Lệ Trong Java
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_exception.png
-description : Ngoại lệ là gì trong java . Check Exception là gì ? Uncheck Exception là gì ? try catch finally trong exception
+description : Tìm hiểu ngoại lệ là gì trong ngôn ngữ lập trình java. Chúng ta sẽ tìm hiểu check exception và uncheck exception là gì. Cách sử dụng try catch finaly để bắt ngoại lệ trong ngôn ngữ lập trình và các phương pháp ném ngoại lệ trong ngôn ngữ java.
+
 youtubeId: zC0t0e9DaH4
 ---
 
@@ -204,7 +205,7 @@ Các đoạn code trong khối lệnh Finally luôn luôn chạy cho dù có x�
 
 - Đóng kết nối xuống file .
 - Đóng kết nối xuống database.
-- Giải phóng bộ nhớ.
+- Giải phóng bộ nhớ. Để hiểu thêm về bộ nhớ bạn có thể đọc bài viết tại (đây)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/]
 
 <br>
 # **9. Video demo tạo Exception trong Java**
