@@ -205,7 +205,7 @@ Các đoạn code trong khối lệnh Finally luôn luôn chạy cho dù có x�
 
 - Đóng kết nối xuống file .
 - Đóng kết nối xuống database.
-- Giải phóng bộ nhớ. Để hiểu thêm về bộ nhớ bạn có thể đọc bài viết tại (đây)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/]
+- Giải phóng bộ nhớ. Để hiểu thêm về bộ nhớ bạn có thể đọc bài viết tại [đây](https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/)
 
 <br>
 # **9. Video demo tạo Exception trong Java**
