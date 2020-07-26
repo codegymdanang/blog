@@ -6,6 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: Generic là gì
 image: /images/blog/java.png
+featureImage: /images/post/javacore/feature_generic.png
 description : Sử dụng Generic trong ngôn ngữ lập trình Java. Chúng ta sẽ đi qua khái niệm generic, sử dụng generic,cách tạo generic trong lập trình java.
 youtubeId: pXSdvkKK658
 ---
@@ -25,11 +26,10 @@ Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạ
 <br>
 # **1. Generic là gì**
 
-Generic có nghĩa là ta viết các phương thức và lớp để tái sử dụng cho các đối tượng thuộc các kiểu dữ liệu khác nhau (Kiểu dữ liệu như Person , Car , Student, Hotel vv).
-Nghe có vẻ khó hiểu nên anh sẽ trình bày ví dụ sau đây.
+Generic có nghĩa là ta viết các phương thức và lớp để tái sử dụng cho các đối tượng thuộc các kiểu dữ liệu khác nhau (Kiểu dữ liệu như Person , Car , Student, Hotel vv).Nghe có vẻ khó hiểu nên anh sẽ trình bày ví dụ sau đây.
 
 Ví dụ anh muốn viết một chương trình quản lý danh sách  học sinh và giáo viên tại trường đào tạo
-công nghệ thông tin Ada. Anh sẽ sử dụng List để a lưu lại danh sách của học sinh và giáo viên như sau.
+công nghệ thông tin Ada. Anh sẽ sử dụng List để a lưu lại danh sách của học sinh và giáo viên như sau. Nếu các bạn đã quên về List là gì thì có thể tham khảo lại các loại tập hợp trong lập trình java tại (đây)[https://levunguyen.com/laptrinhjava/2020/04/04/cac-tap-hop-trong-lap-trinh-java/]
 
 - Danh sách học sinh
 
