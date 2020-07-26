@@ -1,12 +1,13 @@
 ---
 layout: blog
-title: Spring JPA Query
+title: Sử dụng JPA trong lập trình spring
 slug : spring-jpa-query
 category: laptrinhspring
 tags: [spring]
 summery: Spring JPA Query
 image: /images/blog/spring.png
-description : jpa query , @query, creation query , name query, truy vấn dữ liệu trong spring data jpa
+featureImage: /images/post/javacore/feature_jpa.png
+description : Sử dụng JPA thao tác với database trong lập trình Spring. Hiểu được các annotation như @Query, Creation Query, Name Query và các annotaion bổ trợ trong việc truy vấn dữ liệu trong các ứng dụng spring hoặc spring boot.
 youtubeId: WNfuVJptPnQ
 ---
 
