@@ -1,13 +1,13 @@
 ---
 layout: blog
-title:  Access Modifier Trong Java
+title:  Sử dụng Access Modifier trong lập trình java
 slug : phan-biet-access-modifier-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Blog 1
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_accessmodifier.png
-description : Các access modifier trong java . ý nghĩa từ khoá public , private , static, default, protected, static , final trong java
+description : Khi học ngôn ngữ lập trình java thì mình có các access modifier như public , private , static, default, protected, static, final. Mỗi từ khoá nó có một ý nghĩa và cách sử dụng khác nhau  trong lập trình java
 youtubeId: J7tZ9aSzqUg
 ---
 
