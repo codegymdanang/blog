@@ -6,6 +6,7 @@ category: career
 tags: [confidence]
 summery: Học lập trình bắt đầu từ đâu  
 image: /images/blog/softskills.png
+featureImage: /images/post/javacore/feature_hoclaptrinh.png
 description : học lập trình nên bắt đầu từ đâu. Hướng dẫn các phương phương pháp học lập trình cho người tự học java. Hiểu được học lập trình là gì. Hướng dẫn con đường tự học java cơ bản tới nâng cao. Cơ hội nghề nghiệp cho các bạn sau khi tự học java.
 youtubeId: r2w7in6xMB4
 ---
