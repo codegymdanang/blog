@@ -1,19 +1,19 @@
 ---
 layout: blog
-title: Tham trị và tham chiếu
+title: Tham trị và tham chiếu trong lập trình java
 slug : tham-tri-va-tham-chieu-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Blog 2
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_passbyvalue.png
-description : Tham trị và tham chiếu trong lập trình java . tham trị là gì , tham chiếu là gì
+description : Tham trị pass by value và tham chiếu pass by reference là 2 cách thức hoạt động khác nhau. Trong bài viết sau sẽ giải thích cách thức hoạt động của tham trị và tham chiếu
 youtubeId: 0F_8a5_fKno
 ---
 
 # **Giới thiệu nội dung bài viết**
 Chào các bạn, chắc chắn không ý bạn nhầm lẫn khái niệm tham trị và tham chiếu  ? Có rất nhiều bạn có nhận định chưa đúng về khái niệm
-Ví dụ như các bạn nói các tham số trong hàm nếu ta truyền kiểu nguyên thuỷ thid đó là tham trị còn nếu truyền kiểu object là tham chiếu.
+Ví dụ như các bạn nói các tham số trong hàm nếu ta truyền kiểu nguyên thuỷ thì đó là tham trị còn nếu truyền kiểu object là tham chiếu.
 Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nhé . Nội dung bài viết sẽ xoay quanh các vấn đề sau .
 
 - Gán giá trị là gì ?
@@ -24,7 +24,7 @@ Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nh
 <br>
 # **1. Gán giá trị**
 
-Trước hết mình xem lại  bộ nhớ máy tính lưu trữ các biến và giá trị mình như thế nào ? .
+Trước hết mình xem lại  bộ nhớ máy tính lưu trữ các biến và giá trị mình như thế nào?. Nếu các bạn còn chưa rõ về cách lưu trữ thì có thể xem lại bài viết bộ nhớ tại (đây)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/]
 
 - Bộ nhớ chương trình gồm có 2 thành phần chính là địa chỉ bộ nhớ và dữ liệu được lưu trữ trong bộ nhớ đó
 - Ví dụ khi mình gán một biến cho một giá trị như test = 3. Như vậy bộ nhớ cần lưu trữ chữ test và giá trị 3 của nó vào bộ nhớ như sau
