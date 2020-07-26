@@ -1,11 +1,12 @@
 ---
 layout: blog
-title: Webservice là gì
+title: Webservice trong học lập trình
 slug : webservice
 category: laptrinhspring
 tags: [spring]
 summery: webservice là gì ?
 image: /images/blog/spring.png
+featureImage: /images/post/javacore/feature_webservice.png
 description : webservice là gì , hướng dẫn webservice , ví dụ webservice , soap là gì , restful webservice là gì
 youtubeId: WNfuVJptPnQ
 ---
