@@ -1,12 +1,13 @@
 ---
 layout: blog
-title: Maven là gì ?
+title: Maven trong ngôn ngữ lập trình 
 slug : maven
 category: laptrinhspring
 tags: [spring]
 summery: maven là gì ?
 image: /images/blog/spring.png
-description : maven là gì? hướng dẫn sử dụng maven , ví dụ maven
+description : Sử dụng maven trong các dự án java. Hiểu được mục đích sử dụng Maven trong ngôn ngữ java và các dự án java.
+Hướng dẫn sử dụng maven trong dự án
 youtubeId: WNfuVJptPnQ
 ---
 
