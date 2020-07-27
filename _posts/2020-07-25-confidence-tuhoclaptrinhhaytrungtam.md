@@ -19,10 +19,7 @@ Chào các em, chắc hẳn các em đang thắc mắc có nên tự học lập
 - Có nên học lập trình tại các trung tâm ?
 - Kết luận.
 
-https://freetuts.net/hoi-dap/toi-la-nguoi-moi-thi-nen-tu-hoc-lap-trinh-hay-den-trung-tam-47.html
-
 <br>
-
 # **1. Tự học lập trình có được không**
 
 Việc đầu tiên mình nên xát định khả năng của mình đang ở đâu để có thể tự học lập trình. Ví dụ nếu các em đã có căn bản về lập trình nghĩa là có khả năng code được một cái gì đó thì câu trả lời là CÓ. Các em có thể tự học lập trình được. 
