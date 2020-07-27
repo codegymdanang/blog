@@ -47,6 +47,7 @@ Tự học lập trình là hoàn toàn học được tuy nhiên cũng có rấ
 - Buồn					: Không có ai trao đổi với mình. Nhiều lúc cần bạn để trao đổi các vấn đề về lý thuyết và thực hành.
 - Không có tính cam kết : Vì không ai quản lý nên nhiều lúc đâm ra mình thích thì học dần dần chán nản
 
+<br>
 # **3. Học lập trình ở trung tâm**
 
 - Nếu thật sự mình thích học lập trình và mình muốn theo nghề lập trình như năng lực của mình hiện tại chưa có. Thì tốt nhất nên chọn một
@@ -63,7 +64,7 @@ trung tâm lập trình để mình học.
 Nếu thật sự bạn muốn học lập trình thì nên tìm hiểu các trung tâm ở thành phố mình đang ở. Nên xem các review về các trung tâm đó, hoặc hỏi các bạn trong lớp mình xem có ai đã học trung tâm đó chưa? Nếu không có bạn thì có thể đưa câu hỏi mình lên các diễn đàn IT hoặc nhóm IT để hỏi. Mình nên chọn trung tâm mà sẽ giúp mình thành công mình và đi nhanh hơn. Tránh tâm lý giá cả thị trường vào trong quyết định của mình.
 Nếu một trung tâm tốt thì mình cũng không ngại chuyện học phí. Nếu chọn trung tâm mà nó rẽ hơn nhưng không chất lượng lúc đó mình lại mất thêm thời gian nhảy chỗ khác học lại lúc đó mình vừa mất thêm tiền và mất thêm thời gian. Mình nên tìm hiểu rõ về các trung tâm dạy lập trình trước khi đăng ký. Một số điều cần lưu ý khi chọn trung tâm như : trung tâm đó tồn tại bao lâu, ai là giảng viên tại trung tâm, mọi người đánh giá về trung tâm đó như thế nào, cơ sở vật chất tại trung tâm đó ra sao, học xong họ giúp gì được mình trên con đường lập trình. Nếu tất cả câu trả lời đều  ok với mình thì mình sẽ vào đó học. 
 
-
+<br>
 # **Kết luận**
 
 Tự học lập trình hay học lập trình tại trung tâm đều được cả, quan trọng mình phải xem mình đang ở đâu. Nếu mà mình chưa có kiến thức gì thì 100% nên chọn trung tâm mà học. Nếu mình có căn bản rồi thì chỉ cần tìm sư phụ nhờ sư phụ chỉ dạy các công nghệ sau đó mình có thể mua khoá học và tự thực hành. Tự học khá khó nên cần kiên trì và tăng tính cam kết với bản thân.
