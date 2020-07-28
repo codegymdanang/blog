@@ -13,7 +13,7 @@ youtubeId: r2w7in6xMB4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, chắc hẳn các em đang thắc mắc có nên tự học lập trình hay không? Hay mình nên tìm một trung tâm để học lập trình. Bài viết hôm nay của anh sẽ chỉ ra cho mọi người thấy những ưu nhược điểm và tuỳ vào khả năng của mình mà nên chọn một phương pháp học lập trình tối ưu nhất. Nội dung bài viết thảo luận các vấn đề sau:
+Chào các em, chắc hẳn các em đang thắc mắc có nên tự học lập trình hay không? Hay mình nên tìm một trung tâm để học lập trình. Bài viết hôm nay của anh sẽ chỉ ra cho mọi người thấy những ưu nhược điểm và tuỳ vào khả năng của mình mà chọn một phương pháp học lập trình tối ưu nhất. Nội dung bài viết thảo luận các vấn đề sau:
 
 - Tự học lập trình có được không ?
 - Có nên học lập trình tại các trung tâm ?
@@ -22,7 +22,7 @@ Chào các em, chắc hẳn các em đang thắc mắc có nên tự học lập
 <br>
 # **1. Tự học lập trình có được không**
 
-- Việc đầu tiên mình nên xát định khả năng của mình đang ở đâu để có thể tự học lập trình. Ví dụ nếu các em đã có căn bản về lập trình nghĩa là có khả năng code được một cái gì đó thì câu trả lời là CÓ. Các em có thể tự học lập trình được. 
+- Việc đầu tiên mình nên xáC định khả năng của mình đang ở đâu để có thể tự học lập trình. Ví dụ nếu các em đã có căn bản về lập trình nghĩa là có khả năng code được một cái gì đó thì câu trả lời là CÓ. Các em có thể tự học lập trình được. 
 
 - Ví dụ các em chưa biết gì về lập trình chỉ nghe các bạn kể và chưa code được một ứng dụng nhỏ nào thì câu trả lời là KHÔNG các em nên đi học ở một trung tâm chất lượng về dạy lập trình. 
 
@@ -53,7 +53,7 @@ Tự học lập trình là hoàn toàn học được tuy nhiên cũng có rấ
 - Nếu thật sự mình thích học lập trình và mình muốn theo nghề lập trình như năng lực của mình hiện tại chưa có. Thì tốt nhất nên chọn một
 trung tâm lập trình để mình học.
 
-- Đi học trung tâm thì họ có lộ trình học rõ ràng. Mình bắt đầu từ đâu học cái gì học trong bao lâu. Nên mình không lăn tăng trong việc chọn công nghệ nào là đúng. Vì tất cả trung tâm đều đã có lộ trình cho mình.
+- Đi học trung tâm thì họ có lộ trình học rõ ràng. Mình bắt đầu từ đâu học cái gì học trong bao lâu. Nên mình không lăn tăn trong việc chọn công nghệ nào là đúng. Vì tất cả trung tâm đều đã có lộ trình cho mình.
 
 - Hầu hết các giảng viên ở trung tâm đều trực chiến, tham gia dự án tại các doanh nghiệp nên họ có kinh nghiệm về công nghệ, có thể hướng mình đi đúng đường. Họ như sư phụ của mình vậy
 
@@ -62,7 +62,7 @@ trung tâm lập trình để mình học.
 - Mặc dù học ở trung tâm tốn nhiều chi phí hơn nhưng sẽ tốt hơn cho các bạn muốn học lập trình từ con số 0. Học ở trung tâm sẽ có nhiều bạn bè hơn nên tiện cho việc trao đổi kiến thức.
 
 Nếu thật sự bạn muốn học lập trình thì nên tìm hiểu các trung tâm ở thành phố mình đang ở. Nên xem các review về các trung tâm đó, hoặc hỏi các bạn trong lớp mình xem có ai đã học trung tâm đó chưa? Nếu không có bạn thì có thể đưa câu hỏi mình lên các diễn đàn IT hoặc nhóm IT để hỏi. Mình nên chọn trung tâm mà sẽ giúp mình thành công mình và đi nhanh hơn. Tránh tâm lý giá cả thị trường vào trong quyết định của mình.
-Nếu một trung tâm tốt thì mình cũng không ngại chuyện học phí. Nếu chọn trung tâm mà nó rẽ hơn nhưng không chất lượng lúc đó mình lại mất thêm thời gian nhảy chỗ khác học lại lúc đó mình vừa mất thêm tiền và mất thêm thời gian. Mình nên tìm hiểu rõ về các trung tâm dạy lập trình trước khi đăng ký. Một số điều cần lưu ý khi chọn trung tâm như : trung tâm đó tồn tại bao lâu, ai là giảng viên tại trung tâm, mọi người đánh giá về trung tâm đó như thế nào, cơ sở vật chất tại trung tâm đó ra sao, học xong họ giúp gì được mình trên con đường lập trình. Nếu tất cả câu trả lời đều  ok với mình thì mình sẽ vào đó học. 
+Nếu một trung tâm tốt thì mình cũng không ngại chuyện học phí. Nếu chọn trung tâm mà nó rẻ hơn nhưng không chất lượng lúc đó mình lại mất thêm thời gian nhảy chỗ khác học lại lúc đó mình vừa mất thêm tiền và mất thêm thời gian. Mình nên tìm hiểu rõ về các trung tâm dạy lập trình trước khi đăng ký. Một số điều cần lưu ý khi chọn trung tâm như : trung tâm đó tồn tại bao lâu, ai là giảng viên tại trung tâm, mọi người đánh giá về trung tâm đó như thế nào, cơ sở vật chất tại trung tâm đó ra sao, học xong họ giúp gì được mình trên con đường lập trình. Nếu tất cả câu trả lời đều  ok với mình thì mình sẽ vào đó học. 
 
 <br>
 # **Kết luận**
