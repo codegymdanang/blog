@@ -22,7 +22,7 @@ Chào các em, chắc hẳn các em đang thắc mắc có nên tự học lập
 <br>
 # **1. Tự học lập trình có được không**
 
-- Việc đầu tiên mình nên xáC định khả năng của mình đang ở đâu để có thể tự học lập trình. Ví dụ nếu các em đã có căn bản về lập trình nghĩa là có khả năng code được một cái gì đó thì câu trả lời là CÓ. Các em có thể tự học lập trình được. 
+- Việc đầu tiên mình nên xác định khả năng của mình đang ở đâu để có thể tự học lập trình. Ví dụ nếu các em đã có căn bản về lập trình nghĩa là có khả năng code được một cái gì đó thì câu trả lời là CÓ. Các em có thể tự học lập trình được. 
 
 - Ví dụ các em chưa biết gì về lập trình chỉ nghe các bạn kể và chưa code được một ứng dụng nhỏ nào thì câu trả lời là KHÔNG các em nên đi học ở một trung tâm chất lượng về dạy lập trình. 
 
