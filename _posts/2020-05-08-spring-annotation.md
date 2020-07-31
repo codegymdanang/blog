@@ -406,7 +406,7 @@ public  @ResponseBody String helloWorld() {
     return "Hello World";
 }  
 {% endhighlight %}
-Alternatively, we can use @RestController annotation in place of @Controller annotation. This will remove the need to using @ResponseBody.
+
 
 <br>
 # **20. @RequestHeader và @ResponseHeader**
