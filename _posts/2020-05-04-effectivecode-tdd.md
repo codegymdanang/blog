@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Các viết TDD trong lập  
+title: Hướng dẫn viết TDD trong lập trình java
 slug : lap-trinh-tdd-la-gi
 category: craftmanship
 tags: [effectivecode]
 summery: Cách tìm bug trập trình   
 image: /images/blog/quality-code.png
-description : tdd là gì , ví dụ về tdd , hướng dẫn tdd trong java
+description : Hướng dẫn cách viết TDD trong lập trình java. Hiểu được nguyên lý của TDD được áp dụng trong lập trình.
 youtubeId: LdLvwsj5_Sk
 ---
 

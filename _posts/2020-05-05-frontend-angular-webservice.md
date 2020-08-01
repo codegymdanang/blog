@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Sử dụng Angular gọi  Webservice
+title: Gọi webservice trong Angular
 slug : su-dung-angular-goi-webservice
 category: laptrinhweb
 tags: [angular]
 summery: Sử dụng Angular gọi  Webservice
 image: /images/blog/angular.png
-description : hướng dẫn angular gọi webservice . ví dụ angular gọi  webservice
+description : Hướng dẫn gọi webservice trong dự án Angular.
 youtubeId: edYsCowgQq0
 ---
 

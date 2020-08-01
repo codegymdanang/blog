@@ -6,7 +6,7 @@ category: devops
 tags: [cicd]
 summery: Triển khai ứng dụng Spring trên heroku   
 image: /images/blog/cicd.png
-description : triển khai spring java trên heroku .
+description : Triển khai dự án spring trên heroku. Hiểu được các khái niệm domain là gì. Hosting là gì trong lập trình web.
 youtubeId: gdt4DODk5o4
 ---
 

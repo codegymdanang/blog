@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Jenkins tự động CI-CD
+title: Sử dụng Jenkins trong dự án
 slug : jenkins-ci-cd
 category: devops
 tags: [cicd]
 summery: Jenkins tự động CI-CD   
 image: /images/blog/cicd.png
-description : CI CD là gì ? hướng dẫn ci cd , ví dụ ci cd
+description : Sử dụng Jenkins trong dự án java. Hiểu CI CD là gì ? hướng dẫn triển khai dự án Java ci cd trên công cụ Jenkins.
 youtubeId: nhWzKyz9H3s
 ---
 
