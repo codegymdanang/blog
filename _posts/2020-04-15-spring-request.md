@@ -1,13 +1,14 @@
 ---
 layout: blog
-title: Phân biệt  Request Param và  PathVariable
+title: Phân biệt Request Param và PathVariable trong lập trình Spring
 slug : phan-biet-request-param-va-path-variable
 category: laptrinhspring
 tags: [spring]
 summery: Phân biệt  Request Param và  PathVariable
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_request.jpg
-description : Phân biệt Request Param và Path Variable . request param là gì , path variable là gì
+description : Phân biệt Request Param và Path Variable trong lập trình Spring. Hiểu được request param là gì , path variable là gì.
+Khi nào chúng ta nên dùng Request Param hay Path Variable trong lập trình Spring.
 youtubeId: luc3zTLri6M
 ---
 

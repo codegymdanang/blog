@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Maven trong ngôn ngữ lập trình 
+title: Sử dụng Maven trong ngôn ngữ lập trình 
 slug : maven
 category: laptrinhspring
 tags: [spring]

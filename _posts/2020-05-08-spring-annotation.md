@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Các Anotation trong Spring
+title: Tổng hợp các Anotation trong lập trình Spring
 slug : spring-annotation
 category: laptrinhspring
 tags: [spring]
 summery: Các Anotation trong Spring
 image: /images/blog/spring.png
-description : các annotation trong spring, ví dụ annotation trong spring , sử dụng annotation trong spring  
+description : Tổng hợpc các annotation được sử dụng trong dự án spring. Tìm hiểu ý nghĩa của từng annotation 
 youtubeId: WNfuVJptPnQ
 ---
 

@@ -1,13 +1,13 @@
 ---
 layout: blog
-title: Json Web Token là gì  
+title: Sử dung Json Web Token trong lập trình java
 slug : json-web-token-la-gi
 category: laptrinhspring
 tags: [spring]
 summery: Json Web Token là gì  
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_jwt.png
-description : Spring Json WebToken là gì . Cách . Json Web Token  . Ví dụ JWT , ví dụ Json web token
+description : Sử dụng được Spring Json WebToken trong lập trình Java. Hiểu cách thứ hoạt động của Json Web Token trong ứng dụng web. Các ví dụ để tạo ra một JWT.
 youtubeId: NSFLGrM6pAU
 ---
 

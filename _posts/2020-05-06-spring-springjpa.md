@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Spring Data JPA
+title: Sử dụng Spring Data JPA trong lập trình Spring
 slug : spring-jpa-la-gi
 category: laptrinhspring
 tags: [spring]
 summery: Spring Data JPA
 image: /images/blog/spring.png
-description : Spring jpa là gì ? hướng dẫn spring data jpa , ví dụ spring data jpa
+description : Spring jpa là gì ? Khái niệm ORM, JPA và mô hình MVC. Hướng dẫn cấu hình sping jpa trong lập trình dự án Spring
 youtubeId: 4dQlWJQ7ZQo
 ---
 

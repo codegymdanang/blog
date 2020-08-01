@@ -1,12 +1,12 @@
 ---
 layout: blog
-title: Spring Optional PathVariable
+title: Sử dụng Optional PathVariable trong lập trình Spring
 slug : optional-pathvariable
 category: laptrinhspring
 tags: [spring]
 summery: Spring Optional PathVariable
 image: /images/blog/spring.png
-description : Optional PathVariable trong Spring . ví dụ Optional PathVariable trong spring, hướng dẫn Optional PathVariable , Optional PathVariable là gì
+description : Hiểu được Optional PathVariable trong lập trình dự án Spring. Hướng dẫn sử dụng Optional PathVariable , Optional PathVariable trong lập trình Spring
 youtubeId: WNfuVJptPnQ
 ---
 

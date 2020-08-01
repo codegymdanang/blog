@@ -1,13 +1,13 @@
 ---
 layout: blog
-title: OneToOne Relationship
+title: Sử dụng OneToOne Relationship trong lập trình
 slug : one-to-one
 category: laptrinhspring
 tags: [spring]
 summery: OneToOne Relationship
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
-description : OneToOne Mapping . hướng dẫn onetoone trong spring data jpa , ví dụ onetoone spring data jpa  
+description : Sử dụng OneToOne Relationship trong lập trình. Hiểu annotation @OneToOne là gì và sử dụng như thế nào trong lập trình Spring  
 youtubeId: WNfuVJptPnQ
 ---
 

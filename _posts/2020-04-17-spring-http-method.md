@@ -1,13 +1,13 @@
 ---
 layout: blog
-title: Các phương thức HTTP
+title: Sử dụng các phương thức HTTP trong lập trình web
 slug : cac-phuong-thuc-http
 category: laptrinhspring
 tags: [spring]
 summery:  Các phương thức HTTP
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_httpmethod.png
-description : Các loại Request HTTP , get là gì , post là gì , put là gì , head là gì . Phân biệt get và post
+description : Sử dụng các phương thức HTTP trong lập trình web. Hiểu được get là gì , post là gì , put là gì , head là gì . Phân biệt get và post. Hướng dẫn sử dụng các phương thức HTTP như get post put và delete.
 youtubeId: Awpe1PIC-M4
 ---
 

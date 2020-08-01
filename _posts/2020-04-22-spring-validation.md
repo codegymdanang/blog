@@ -1,13 +1,13 @@
 ---
 layout: blog
-title: Sử dụng Validation Trong  Spring
+title: Sử dụng Validation trong lập trình Spring
 slug : su-dung-spring-validation
 category: laptrinhspring
 tags: [spring]
 summery: Sử dụng Validation Trong  Spring
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springvalidation.png
-description : Validation trong Spring. ví dụ validation trong lập trình Spring
+description : Sử dụng Validation trong lập trình Spring. Hướng dẫn cách ràng buộc dữ liệu và kiểm tra dữ liệu trong lập trình các dự án về Spring.
 youtubeId: ljyqbIo4jbk
 ---
 
