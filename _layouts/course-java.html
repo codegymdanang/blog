@@ -60,7 +60,7 @@
 			<div style='clear: both'></div>
 		</div>
 
-		<div class="container">
+		<div class="container-fluid">
 
 			<div class="row">
 
@@ -105,7 +105,9 @@
 						</div>
 						
 						<div id="contentPost">
-						
+						{% if content == blank %}
+							<div> Loi trinh hoc java </div>
+						{% endif %}
 							{{content}}
 							<h3>Subcribe kênh youtube để  được các bài viết hay	</h3>
 							<div class="g-ytsubscribe" data-channelid="UC8VjQlFZWLrB-Nq7pQ0zGgA" data-layout="default" data-count="default"></div>
