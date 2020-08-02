@@ -69,46 +69,46 @@ Data Science là nghành nghiên cứu dữ liệu lớn từ đó cho ra các q
 
 # **3. Mức lương theo năm kinh nghiêm**
 
-1- Sinh viên mới ra trường : $331 -> $519
-2- Lập trình viên có kinh nghiệm 2-4 năm : $523 -> $1,1154
-3- Cấp quản lý trên 5 năm : $1.350 -> $2.150
+1- Sinh viên mới ra trường : $331 -> $519. <br>
+2- Lập trình viên có kinh nghiệm 2-4 năm : $523 -> $1,1154. <br>
+3- Cấp quản lý trên 5 năm : $1.350 -> $2.150. <br>
 
 
 # **4. Công nghệ lập trình sử dụng trong công việc**
 
-1- Java Script 	: 	69%
-2- Java 	   	: 	43%
-3- PHP 			:	41%
-4- Python		:	37%
-5- C#			:	33%
-6- .Net			:	30%
-7- Object-C		:	16%
-8- C++			:	9%
-9- RUBY 		:	5%
-10- Go 			:	3%
+1- Java Script 	: 	69%<br>
+2- Java 	   	: 	43%<br>
+3- PHP 			:	41%<br>
+4- Python		:	37%<br>
+5- C#			:	33%<br>
+6- .Net			:	30%<br>
+7- Object-C		:	16%<br>
+8- C++			:	9%<br>
+9- RUBY 		:	5%<br>
+10- Go 			:	3%<br>
 
 # **5. Các framwork hay sử dụng trong công việc**
 
-1- Laravel	:	50%
-2- NodeJs	:	37%
-3- ReactJS	:	27%
-4- VueJS	:	27%
-5- Angular	:	18%
-6- .Net CORE 	: 12%
-7- Spring	:	8%
-8- Django	:	8%
+1- Laravel	:	50%<br>
+2- NodeJs	:	37%<br>
+3- ReactJS	:	27%<br>
+4- VueJS	:	27%<br>
+5- Angular	:	18%<br>
+6- .Net CORE 	: 12%<br>
+7- Spring	:	8%<br>
+8- Django	:	8%<br>
 
 # **6. Các database hay sử dụng trong công việc**	
 
-1- Mysql	:	60%
-2- SQL		:	41%
-3- Postgre 	:	33%
-4- MongoDB	:	26%
-5- SQL Lite	:	20%
-6- Redis	:	18%
-7- Elasticsearch :	14%
-8- MariaDB	:	13%
-9- Oracle	:	11%
+1- Mysql	:	60%<br>
+2- SQL		:	41%<br>
+3- Postgre 	:	33%<br>
+4- MongoDB	:	26%<br>
+5- SQL Lite	:	20%<br>
+6- Redis	:	18%<br>
+7- Elasticsearch :	14%<br>
+8- MariaDB	:	13%<br>
+9- Oracle	:	11%<br>
 
 # **Kết luận**
 
