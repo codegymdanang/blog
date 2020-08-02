@@ -1,8 +1,8 @@
 ---
 layout: course-java
-title: Lập trình hướng đối tượng trong lập trình java
-slug : lap-trinh-huong-doi-tuong-trong-java
-category: laptrinhjava
+title: Cai dat moi truong
+slug : set-up-java
+category: khoajava
 tags: [java core]
 summery: Lập Trình Hướng Đối Tượng  
 image: /images/blog/java.png
