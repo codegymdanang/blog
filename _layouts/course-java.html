@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
+	<title>{{site.blog_title}}</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+	<link rel="icon" href='{{ "/images/favicon.png" | prepend: site.baseurl }}' >
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href='{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}' >
+	<!-- style CSS -->
+	<link rel="stylesheet" href='{{ "/css/style.css" | prepend: site.baseurl }}' >
+	<link rel="stylesheet" href='{{ "/css/themify-icons.css" | prepend: site.baseurl }}' >
+
+	<script src='{{"/js/jquery-1.12.1.min.js"  | prepend: site.baseurl }}'></script>
+	<!-- bootstrap js -->
+	<script src='{{"/js/bootstrap.min.js"  | prepend: site.baseurl }}' ></script>
+	<!-- custom js -->
+	<script src='{{"/js/custom.js"  | prepend: site.baseurl }}'> </script>
+
+	{% seo %}
+</head>
+
+<body>
+<!--::header part start::-->
+<div >
+	{% include header.html %}
+	<div style='clear: both'></div>
+</div>
+<!-- Header part end-->
+
+<!-- banner post -->
+{% include banner.html %}
+<!-- end banner post-->
+
+<!-- feature_post start-->
+<section class="all_post section_padding">
+	<div class="container">
+		<div class="row">
+			 Khoá học Java
+
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- feature_post end-->
+
+
+<div id='footer'>
+	{% include footer.html %}
+</div>
+</div>
+{% include googleana.html %}
+
+</body>
+</html>
