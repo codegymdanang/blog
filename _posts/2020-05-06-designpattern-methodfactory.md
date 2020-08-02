@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Sử dụng Abstract Factory trong lập trình java
-slug : su-dung-abstract-factory-design-pattern
+title: Sử dụng Factory Method trong lập trình java
+slug : su-dung-factory-method-design-pattern
 category: craftmanship
 tags: [designpattern]
 summery: Spring JPA
