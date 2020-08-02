@@ -14,7 +14,7 @@ description : Sử dụng  Factory Method trong lập trình java. Hướng dẫ
 Chào các em, chủ đề hôm nay của anh sẽ bàn về Design Pattern Method Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình.
 
 <br>
-# **1- Factory method là gì ?
+# **1- Factory method là gì ?**
 Factory Method cho phép chúng ta tạo ra một đối tượng mà chúng ta không cần quan tâm nó được tạo ra như thế nào
 
 # **2- Khi nào nên dùng Abstract Factory**

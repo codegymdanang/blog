@@ -14,7 +14,7 @@ description : Sử dụng Strategy trong lập trình java. Hướng dẫn sử 
 Chào các em, chủ đề hôm nay của anh sẽ bàn về Design Pattern Method Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình.
 
 <br>
-# **1- Strategy Pattern là gì ?
+# **1- Strategy Pattern là gì ?**
 
 Chúng ta dùng Strategy Pattern để quản lý thuật toán , các mối quan hệ giữa các object trong ứng dụng
 
