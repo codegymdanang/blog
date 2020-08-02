@@ -6,7 +6,7 @@ category: craftmanship
 tags: [designpattern]
 summery: Design Pattern Là Gì ?
 image: /images/blog/design-patterns.png
-description : Hiểu design pattern là gì ? vì sao sử dụng design pattern. Hướng dẫn các mẫu design pattern trong học lập trình java
+description : Hiểu design pattern là gì ? vì sao sử dụng design pattern. Hướng dẫn các mẫu design pattern trong học lập trình java.
 ---
 
 # **Giới thiệu nội dung bài viết**
