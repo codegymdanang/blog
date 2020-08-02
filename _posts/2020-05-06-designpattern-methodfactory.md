@@ -6,12 +6,12 @@ category: craftmanship
 tags: [designpattern]
 summery: Spring JPA
 image: /images/blog/design-patterns.png
-description : Sử dụng Abstract Factory trong lập trình java. Hướng dẫn sử dụng abstract factory trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng abstract factory trong lập trình.
+description : Sử dụng  Factory Method trong lập trình java. Hướng dẫn sử dụng  Factory Method trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng  Factory Method trong lập trình.
 ---
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các e, chủ đề hôm nay của anh sẽ bàn về Design Pattern Method Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình.
+Chào các em, chủ đề hôm nay của anh sẽ bàn về Design Pattern Method Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình.
 
 <br>
 # **1- Factory method là gì ?

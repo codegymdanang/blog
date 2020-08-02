@@ -11,7 +11,7 @@ description : Sử dụng Abstract Factory trong lập trình java. Hướng d�
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các e, chủ đề hôm nay của anh sẽ bàn về Design Pattern Abstract Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình.
+Chào các em, chủ đề hôm nay của anh sẽ bàn về Design Pattern Abstract Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình.
 
 <br>
 # **1- Abstract Factory Là gì ?**
