@@ -14,10 +14,10 @@ description : Sử dụng Abstract Factory trong lập trình java. Hướng d�
 Chào các e, chủ đề hôm nay của anh sẽ bàn về Design Pattern Method Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình.
 
 <br>
-#Factory method là gì ?
+# **1- Factory method là gì ?
 Factory Method cho phép chúng ta tạo ra một đối tượng mà chúng ta không cần quan tâm nó được tạo ra như thế nào
 
-# **Khi nào nên dùng Abstract Factory**
+# **2- Khi nào nên dùng Abstract Factory**
 
 - Khi ta muốn tạo ra đối tượng lúc chương trình đang chay (run time) mà ta chưa biết nó sẽ trả về đối tượng gì.
 - Khi các đối tượng được tạo ra có chung đặc điểm của lớp cha.
@@ -25,9 +25,11 @@ Factory Method cho phép chúng ta tạo ra một đối tượng mà chúng ta 
 
 
 
-# **Method Factory UML**
+# **3- Method Factory UML**
 
+{:refdef: style="text-align: center;"}
 ![Method Factory UML ](/images/post/designpattern/methodfactoryuml.gif){:class="img-responsive"}
+{: refdef}
 
 - Trong ví dụ sau chúng ta sẽ sử dụng Factory Method createButton để ra các dialog(Hộp thoại) trên hộp thoại đó sẽ có các button(nút bấm) khác nhau dự vào cái máy đang chạy ứng dụng này.
 
@@ -37,9 +39,11 @@ Factory Method cho phép chúng ta tạo ra một đối tượng mà chúng ta 
 
 - Ví dụ máy của mình đang là máy Mac thì khi chạy chương trình nó sẽ sinh ra Dialog (hội thoại) có button (nút bấm) theo định dạng Mac. Ví dụ máy khác đang sử dụng là Windows thì khi chạy chương trình nó sẽ sinh ra Dialog (hội thoại) có button (nút bấm) theo định dạng Windows
 
-# **Factory Method tạo ra Dialog (hộp thoại) với các button (nút bấm) khác nhau**
+# **4- Factory Method tạo ra Dialog (hộp thoại) với các button (nút bấm) khác nhau**
 
+{:refdef: style="text-align: center;"}
 ![Method Factory  ](/images/post/designpattern/factorymethod.png){:class="img-responsive"}
+{: refdef}
 
 - Theo thiết kế ở trên thì HTML Button và Windows Button chính là 2 Concreat Class. Là 2 class sản phẩm được tạo ra từ abstract method createButton của HTML Dialog và Windows Dialog
 

@@ -14,21 +14,28 @@ description : Sử dụng Abstract Factory trong lập trình java. Hướng d�
 Chào các e, chủ đề hôm nay của anh sẽ bàn về Design Pattern Abstract Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình.
 
 <br>
-# Abstract Factory Là gì ?
+# **1- Abstract Factory Là gì ?**
 
-# Khi nào nên dùng Abstract Factory
+# **2- Khi nào nên dùng Abstract Factory**
 + Khi chúng ta muốn tạo một họ sản phẩm (FAMILY PRODUCT) liên quan đến . Ví dụ như mình muốn tạo một đối tượng là Xe hơi Toyota. Thì các thành phần cấu thành xe hơi Toyota phải từ chính Toyota mà ra . Ví dụ Xe hơi Toyota thì Tay laí Toyota , lốp xe Toyota. Khung xe được sản xuất tại Toyota. Nói tóm lại các thành phần cấu tạo nên chiếc xe phải từ Toyota mà ra cả.
 
 <br>
-# Abstract Factory UML
+# **3- Abstract Factory UML**
+
+{:refdef: style="text-align: center;"}
 ![Abstract Factory UML ](/images/post/designpattern/abstractfactoryUML.png){:class="img-responsive"}
+{: refdef}
 
 <br>
-# Abstract Factory Button và Checkbox
+# **4- Abstract Factory Button và Checkbox**
+
+{:refdef: style="text-align: center;"}
 ![Abstract Factory ](/images/post/designpattern/abstractfactory.png){:class="img-responsive"}
+{: refdef}
 
 <br>
-# Xây dựng ứng dụng
+# **5- Xây dựng ứng dụng**
+
 Trong ví dụ  trên về xây dựng một ứng dụng Paint(vẽ) gồm có các phần như tạo button (nút) và tạo checkbox. Ứng với hệ điều hành Windows thì nó sẽ tạo ra bộ sản phẩm nút và check box của Windows. Nếu là hệ điều hành Mac thì nó sẽ tạo ra một bộ sản phẩm checkbox và nút bấm cho Mac. Như vậy phụ thuộc vào hệ điều hành mà mình đang dùng thì mình sẽ tạo các các thành phần tương ứng cho hệ điều hành đó. Không có trường hợp hệ điều hành Windows mà mình có thể tạo ra nút bấm Windows và Checkbox của Mac được.
 
 1. GUI Factory trong thiết kế tương ứng với Abstract Facetory . Gui Factory gồm các method để tạo ra một sản phẩm . Mỗi method là tạo ra một phần của sản phẩm như button hay checkbox
@@ -42,7 +49,7 @@ Trong ví dụ  trên về xây dựng một ứng dụng Paint(vẽ) gồm có 
 9. Mac Checkbox     : là Product B1 . Đây là lớp định nghĩa Mac checkbox  là gì
 10. Application : Sử dụng Gui Factory và 2 lớp Interface Button và Interface Checkbox để tạo ra họ sản phẩm . Nếu windows thì button và checkbox Windows và ngược lại
 
-```
+{% highlight java  linenos %}
 public class Demo {
 
     /**
@@ -69,8 +76,10 @@ public class Demo {
         app.paint();
     }
 }
-```
-```
+{% endhighlight %}
+
+{% highlight java  linenos %}
+
 /**
  * Factory users don't care which concrete factory they use since they work with
  * factories and products through abstract interfaces.
@@ -89,8 +98,9 @@ public class Application {
         checkbox.paint();
     }
 }
-```
-```
+{% endhighlight %}
+
+{% highlight java  linenos %}
 /**
  * Abstract factory knows about all (abstract) product types.
  */
@@ -98,9 +108,10 @@ public interface GUIFactory {
     Button createButton();
     Checkbox createCheckbox();
 }
-```
+{% endhighlight %}
 
-```
+
+{% highlight java  linenos %}
 /**
  * Each concrete factory extends basic factory and responsible for creating
  * products of a single variety.
@@ -117,9 +128,9 @@ public class MacOSFactory implements GUIFactory {
         return new MacOSCheckbox();
     }
 }
-```
+{% endhighlight %}
 
-```
+{% highlight java  linenos %}
 /**
  * Each concrete factory extends basic factory and responsible for creating
  * products of a single variety.
@@ -136,9 +147,9 @@ public class WindowsFactory implements GUIFactory {
         return new WindowsCheckbox();
     }
 }
-```
+{% endhighlight %}
 
-```
+{% highlight java  linenos %}
 /**
  * Checkboxes is the second product family. It has the same variants as buttons.
  */
@@ -146,9 +157,9 @@ public interface Checkbox {
     void paint();
 }
 
-```
+{% endhighlight %}
 
-```
+{% highlight java  linenos %}
 /**
  * All products families have the same varieties (MacOS/Windows).
  *
@@ -162,9 +173,9 @@ public class MacOSCheckbox implements Checkbox {
     }
 }
 
-```
+{% endhighlight %}
 
-```
+{% highlight java  linenos %}
 /**
  * All products families have the same varieties (MacOS/Windows).
  *
@@ -177,9 +188,9 @@ public class WindowsCheckbox implements Checkbox {
         System.out.println("You have created WindowsCheckbox.");
     }
 }
-```
+{% endhighlight %}
 
-```
+{% highlight java  linenos %}
 /**
  * Abstract Factory assumes that you have several families of products,
  * structured into separate class hierarchies (Button/Checkbox). All products of
@@ -190,9 +201,9 @@ public class WindowsCheckbox implements Checkbox {
 public interface Button {
     void paint();
 }
-```
+{% endhighlight %}
 
-```
+{% highlight java  linenos %}
 /**
  * All products families have the same varieties (MacOS/Windows).
  *
@@ -205,9 +216,9 @@ public class MacOSButton implements Button {
         System.out.println("You have created MacOSButton.");
     }
 }
-```
+{% endhighlight %}
 
-```
+{% highlight java  linenos %}
 /**
  * All products families have the same varieties (MacOS/Windows).
  *
@@ -221,9 +232,9 @@ public class WindowsButton implements Button {
     }
 }
 
-```
+{% endhighlight %}
 
-```
+{% highlight java  linenos %}
 public class Demo {
 
     /**
@@ -250,4 +261,4 @@ public class Demo {
         app.paint();
     }
 }
-```
+{% endhighlight %}
