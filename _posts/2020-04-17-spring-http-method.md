@@ -8,7 +8,7 @@ summery:  Các phương thức HTTP
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_httpmethod.png
 description : Sử dụng các phương thức HTTP trong lập trình web. Hiểu được get là gì , post là gì , put là gì , head là gì . Phân biệt get và post. Hướng dẫn sử dụng các phương thức HTTP như get post put và delete.
-youtubeId: Awpe1PIC-M4
+youtubeId: 7VMXLT5oW1g
 ---
 
 # **Giới thiệu nội dung bài viết**

@@ -8,7 +8,7 @@ summery: Spring JPA Query
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_jpa.png
 description : Sử dụng JPA thao tác với database trong lập trình Spring. Hiểu được các annotation như @Query, Creation Query, Name Query và các annotaion bổ trợ trong việc truy vấn dữ liệu trong các ứng dụng spring hoặc spring boot.
-youtubeId: WNfuVJptPnQ
+youtubeId: bilwK0K9qoc
 ---
 
 # **Giới thiệu nội dung bài viết**
@@ -228,3 +228,7 @@ public interface ProductRepository extends PagingAndSortingRepository<Product, I
     List<Product> findAllByPrice(double price, Pageable pageable);
 }
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
