@@ -67,7 +67,8 @@ Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền 
 {: refdef}
 
 - Throwable : là cha của tất cả **ngoại lệ** xảy ra trong chương trình bao gồm lỗi (**Error**) và ngoại lệ (**Exception**).
-- Error : là tất cả những lỗi được bắt từ JMV (Máy ảo Java). Ví dụ như Error OutOfMemory hoặc chia một số cho 0.
+
+- Error : là tất cả những lỗi được bắt từ JMV (Máy ảo Java). Ví dụ như Error OutOfMemory hoặc chia một số cho 0.Các em có thể tìm hiểu thêm về bộ nhớ của chương trình tại (đây)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/] .
 
 - Excepton : là cha của tất cả class Check Exception. Mình khai báo một Class và kế thừa Class Exception.
 {% highlight java linenos %}
