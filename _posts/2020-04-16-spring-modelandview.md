@@ -8,7 +8,7 @@ summery: Model, ModelMap, and ModelView
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_modelandview.png
 description : Sử dụng Model ModelMap ModelView trong lập trình Springg. Hiểu model là gì  trong Spring . ModelMap là gì , Map là gì , ModelAndView là gì trong Spring. Phân biệt sự khác nhau giữ Model ModelMap Map và ModelAndView trong học lập trình Spring.
-youtubeId: vaQxJlfmB6s
+youtubeId: WzRjQjubR6o
 ---
 
 # **Giới thiệu nội dung bài viết**
