@@ -8,7 +8,7 @@ summery: Phân biệt  Request Param và  PathVariable
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_request.jpg
 description : Phân biệt Request Param và Path Variable . request param là gì , path variable là gì
-youtubeId: luc3zTLri6M
+youtubeId: z3ZlVvu1yUY
 ---
 
 # **Giới thiệu nội dung bài viết**
