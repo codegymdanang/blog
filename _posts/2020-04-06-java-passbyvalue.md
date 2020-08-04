@@ -12,9 +12,10 @@ youtubeId: 0F_8a5_fKno
 ---
 
 # **Giới thiệu nội dung bài viết**
+
 Chào các bạn, chắc chắn không ý bạn nhầm lẫn khái niệm tham trị và tham chiếu  ? Có rất nhiều bạn có nhận định chưa đúng về khái niệm
 Ví dụ như các bạn nói các tham số trong hàm nếu ta truyền kiểu nguyên thuỷ thì đó là tham trị còn nếu truyền kiểu object là tham chiếu.
-Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nhé . Nội dung bài viết sẽ xoay quanh các vấn đề sau .
+Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nhé. Để hiểu được bài viết này thì các em nên đọc qua bài viết về (bộ nhớ)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/] để nắm được cách lưu trữ các giá trị trong lập trình. Nội dung bài viết sẽ xoay quanh các vấn đề sau .
 
 - Gán giá trị là gì ?
 - Tham trị là gì ?

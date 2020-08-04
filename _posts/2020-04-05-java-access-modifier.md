@@ -13,7 +13,7 @@ youtubeId: J7tZ9aSzqUg
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, bạn đã từng nghe tới khái niệm về các access modifier  chưa ? Bài viết hôm nay giúp bạn phân biệt các từ khoá
+Chào bạn, bạn đã từng nghe tới khái niệm về các <b>access modifier</b>  chưa ? Bài viết hôm nay giúp bạn phân biệt các từ khoá
 như public , private , protected và default. Khi nào thì mình nên dùng từ khoá nào là hợp lý nhất nhằm tăng thêm tính bảo mật cho các giá trị và phương thức trong
 lớp . Trong bài viết hôm nay chúng ta sẽ thảo luận các vấn đề sau .
 
@@ -27,7 +27,7 @@ lớp . Trong bài viết hôm nay chúng ta sẽ thảo luận các vấn đề
 
 # **1. Tầm quan trọng của access modifier**
 
-Trước khi bắt đầu tìm hiểu cách sử dụng access modifier anh sẽ kể một câu chuyện vì sao acess modifier lại quan trọng. Các đây 8 năm khi anh làm lập trình với team của anh gồm 15 lập trình viên Java. Bọn anh có phát triển 1 chức năng gọi là hoa hồng giao dịch. Nghĩa là khi người dùng sử dụng ứng dụng của bọn anh thanh toán mua hàng ,thì ứng dụng bọn anh sẽ thu phí là 0.001% trên mỗi lần khách hàng giao dịch.
+Trước khi bắt đầu tìm hiểu cách sử dụng <b>access modifier</b> anh sẽ kể một câu chuyện vì sao acess modifier lại quan trọng. Các đây 8 năm khi anh làm lập trình với team của anh gồm 15 lập trình viên Java. Bọn anh có phát triển 1 chức năng gọi là hoa hồng giao dịch. Nghĩa là khi người dùng sử dụng ứng dụng của bọn anh thanh toán mua hàng ,thì ứng dụng bọn anh sẽ thu phí là 0.001% trên mỗi lần khách hàng giao dịch.
 
 Trong team anh lúc này có một bạn phụ trách chức năng này (anh goi là bạn A) và khai báo biến phần trăm hoa hồng là public float hoaHong = 0.001%. Khi bạn này khai báo public nghĩa là ở đâu cũng thấy được cái biến hoaHong.
 
@@ -113,7 +113,7 @@ public class Card {
 <br>
 # **7. Từ khoá final  dùng làm gì**
 
-Final : Khi mình muốn giá trị là hằng số và không thể thay đổi được (Ví dụ final double PI = 3.14).
+Final : Khi mình muốn giá trị là <b>hằng số và không thể thay đổi được</b> (Ví dụ final double PI = 3.14).
 
 {% highlight java  %}
 
