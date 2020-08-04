@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Xu hướng nghành CNTT
+title: Xu hướng ngành CNTT
 slug : xu-huong-nghanh-lap-trinh
 category: career
 tags: [confidence]
@@ -22,7 +22,7 @@ Chào các bạn, chắc hẳn bạn rất thích lập trình và mong muốn b
 
 # **1. Khó khăn của sinh viên hiện nay**
 
-Các bạn sinh viên hiện nay khi ra trường thường phải được đào tạo lại các công nghệ mà công ty tuyên dụng nơi mà mình làm việc. Thông thường các bạn phải trãi qua giai đoạn đào tạo 6 tháng tại công ty thì mới làm được việc. Nguyên nhân do các bạn chưa tiếp cận được công nghệ mới trong quá trình ngồi trên ghế nhà trường dẫn đến bở ngỡ khi đi làm.
+Các bạn sinh viên hiện nay khi ra trường thường phải được đào tạo lại các công nghệ mà công ty tuyển dụng nơi mà mình làm việc. Thông thường các bạn phải trải qua giai đoạn đào tạo 6 tháng tại công ty thì mới làm được việc. Nguyên nhân do các bạn chưa tiếp cận được công nghệ mới trong quá trình ngồi trên ghế nhà trường dẫn đến bở ngỡ khi đi làm.
 
 Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang đi học trên trường thì cũng phải thường xuyên cập nhật công nghệ mới ngoài kiến thức nhà trường đã trang bị cho các em. Sau đây anh sẽ đưa ra một list các trang web mà có thể giúp mình tiến nhanh trên việc học.
 
