@@ -25,7 +25,7 @@ Chào các bạn , hôm nay chủ đề của anh sẽ nói về Ngoại lệ (E
 <br>
 # **1. Ngoại lệ (Exception) là gì ?**
 
-**Exception** (ngoại lệ) trong Java là một vấn đề bất thường xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.
+{:refdef: style="font-weight: bold"}Exception{: refdef} (ngoại lệ) trong Java là một vấn đề bất thường xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.
 
 Exception là một sự kiện mà phá vỡ luồng chuẩn của chương trình. Anh lấy ví dụ về rút tiền ATM ở máy rút tiền. Trong tài khoản
 mình chỉ có 1.000.000 nhưng nếu mình bấm trong máy ATM rút 2.000.000 thì lúc đó chương trình trong máy ATM sẽ báo lỗi vì
