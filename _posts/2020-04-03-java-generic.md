@@ -13,8 +13,8 @@ youtubeId: pXSdvkKK658
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, bạn đã từng nghe tới khái niệm về Generic chưa ? Nếu bạn nghe rồi nhưng vẫn không hình dung được
-Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạo một Generic Class và Generic method như thế nào ? Và ưu điểm và nhược
+Chào bạn, bạn đã từng nghe tới khái niệm về <b>Generic</b> chưa ? Nếu bạn nghe rồi nhưng vẫn không hình dung được
+Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạo một <b>Generic Class</b> và <b>Generic method</b> như thế nào ? Và ưu điểm và nhược
 điểm của Generic thì bài hôm nay anh sẽ giúp mọi người nắm rõ các câu hỏi ở trên. Nội dụng thảo luận hôm nay gồm các chủ đề sau .
 
 - Generic là gì ?
@@ -26,7 +26,7 @@ Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạ
 <br>
 # **1. Generic là gì**
 
-Generic có nghĩa là ta viết các phương thức và lớp để tái sử dụng cho các đối tượng thuộc các kiểu dữ liệu khác nhau (Kiểu dữ liệu như Person , Car , Student, Hotel vv).Nghe có vẻ khó hiểu nên anh sẽ trình bày ví dụ sau đây.
+<b>Generic</b> có nghĩa là ta viết các phương thức và lớp để tái sử dụng cho các đối tượng thuộc các kiểu dữ liệu khác nhau (Kiểu dữ liệu như Person , Car , Student, Hotel vv).Nghe có vẻ khó hiểu nên anh sẽ trình bày ví dụ sau đây.
 
 Ví dụ anh muốn viết một chương trình quản lý danh sách  học sinh và giáo viên tại trường đào tạo
 công nghệ thông tin Ada. Anh sẽ sử dụng List để a lưu lại danh sách của học sinh và giáo viên như sau. Nếu các bạn đã quên về List là gì thì có thể tham khảo lại các loại tập hợp trong lập trình java tại (đây)[https://levunguyen.com/laptrinhjava/2020/04/04/cac-tap-hop-trong-lap-trinh-java/]
@@ -45,7 +45,7 @@ List<Teacher> teachers = new ArrayList<Teacher>();
 
 Oh, có một điều đặc biệt tại sao List lúc thì chứa đối tượng sinh viên , lúc thì chứa đối tượng là giáo viên. Điều này có kỳ lạ không ?
 Bởi vì List được cài đặt theo cách generic nên ta có thể tái sử dụng lại được các kiểu dữ liệu khác nhau  (lúc thì chứa sinh viên , lúc thì chứa giáo viên). Sinh viên và giáo viên
-là 2 kiểu dữ liệu khác nhau. Do vậy tuỳ vào ngữ cảnh ta truyền vào cho List thì nó có là danh sách sinh viên (List \<Student \>) hay nó có thể là danh sách giáo viên  (List \< Teacher \>).
+là 2 <b>kiểu dữ liệu</b> khác nhau. Do vậy tuỳ vào ngữ cảnh ta truyền vào cho List thì nó có là danh sách sinh viên (List \<Student \>) hay nó có thể là danh sách giáo viên  (List \< Teacher \>).
 Nói cách khác Generic thì ta định nghĩa một kiểu dữ liệu chung chung , và tuỳ vào ngữ cảnh ta truyền vào (Student hay Teacher) thì ta sẽ có tập hợp tương ứng.
 
 <br>
@@ -53,7 +53,7 @@ Nói cách khác Generic thì ta định nghĩa một kiểu dữ liệu chung c
 
 1. **Cách tạo Generic Class**
 
-Ví dụ ta tạo  Generic Class tên là  Box . Mọi người chú ý để tạo 1 class là generic ta thêm \< T \> vào sau class. \<T\> là ký hiệu của Generic , ta sẽ tìm hiểu ở phần tiếp theo.
+Ví dụ ta tạo <b>Generic Class</b> tên là  Box. Mọi người chú ý để tạo 1 class là generic ta thêm \< T \> vào sau class. \<T\> là ký hiệu của Generic , ta sẽ tìm hiểu ở phần tiếp theo.
 
    {% highlight java linenos %}
    public class Box<T> {
@@ -89,8 +89,8 @@ sử dụng Generic mình đỡ phải viết code nhiều. Mình có thể tái
 
 2. **Cách tạo Generic method**
 
-   Ví dụ ta viết một phương thức in tất cả các phần tử là generic. Mọi người chú ý tham số truyền vào trong phương thức là chữ \<E\> đó là tham khi ta muốn viết một hàm generic.
-   Tuỳ vào tham số truyền vào là kiểu dữ liệu gì . Ta cũng in được các phần tử con trong tập hợp đó
+Ví dụ ta viết một phương thức in tất cả các phần tử là generic. Mọi người chú ý tham số truyền vào trong phương thức là chữ \<E\> đó là tham khi ta muốn viết một hàm generic.
+Tuỳ vào tham số truyền vào là <b>kiểu dữ liệu</b> gì . Ta cũng in được các phần tử con trong tập hợp đó
    Ví dụ ta viết phương thức printArrayGeneric sau truyền vào tham số là một kiểu generic. Ký tự \<E\> ta sẽ bàn trong phần tiếp.
 
    {% highlight java linenos %}
@@ -140,7 +140,7 @@ cả các đối số là những kiểu dữ liệu khác nhau.
 <br>
 # **3. Các ký tự trong Generic**
 
-Như ta thấy ở các ví dụ trên ta dùng các ký tự đặt biệt như \<T\> hay \<E\> để đặt tên các kiểu dữ liệu và  tham số . Ta có thể dùng các từ khác cũng được như X,Y,Z . Nhưng do  \<T\> hay \<E\>
+Như ta thấy ở các ví dụ trên ta dùng các ký tự đặt biệt như \<T\> hay \<E\> để đặt tên các kiểu dữ liệu và tham số. Ta có thể dùng các từ khác cũng được như X,Y,Z . Nhưng do  \<T\> hay \<E\>
 là các qui ước chung cho các lập trình viên đọc cho dể hiểu, dể bảo trì nên ta không nên đặt các từ khác gây nhầm lẫn. Chúng ta có các qui ước sau.
 + E- Element (Phần tử như Student , Teacher)
 + K – Key (Giống như key trong tập hợp Map)
@@ -151,7 +151,7 @@ là các qui ước chung cho các lập trình viên đọc cho dể hiểu, d�
 <br>
 # **4. Generic với các ký tự đại diện**
 
-Trong Generic nhiều lúc chúng ta sẽ gặp các ký tự đại diên như : (?),(wildcard), nó đại diện cho một loại dữ liệu  không rõ ràng.
+Trong Generic nhiều lúc chúng ta sẽ gặp các ký tự đại diên như : (?),(wildcard), nó đại diện cho một loại dữ liệu không rõ ràng.
 
 
 - Collection<?>
@@ -171,7 +171,7 @@ Ví dụ: List<? extends Number> mô tả một danh sách, nơi mà các phần
 <br>
 # **5. Generic trong abstract và intefacer**
 
-Trong lập trình chúng ta thường sử dụng nhiều generic trong Abstract và Interface để code trở nên gọn hơn tái sử dụng được  nhiều lần.
+Trong <b>lập trình</b> chúng ta thường sử dụng nhiều generic trong <b>Abstract</b> và <b>Interface</b> để code trở nên gọn hơn tái sử dụng được  nhiều lần.
 
 1. Generic trong Abstract được khai báo như sau
 
@@ -197,16 +197,16 @@ public interface GenericDao<T> {
 <br>
 # **6. Lợi ích khi dùng generic**
 
-- Kiểu dữ liệu an toàn: Chúng ta chỉ có thể giữ được một loại đối tượng trong Generics. Nó không cho phép lưu trữ các loại đối tượng khác.
+- <b>Kiểu dữ liệu</b> an toàn: Chúng ta chỉ có thể giữ được một loại đối tượng trong Generics. Nó không cho phép lưu trữ các loại đối tượng khác.
 - Kiểm tra dữ liệu chặt chẽ ở Compile-time mà không phải là Runtime-error. Nên chúng ta sẽ dễ dàng kiểm soát lỗi hơn.
-- Hạn chế việc ép kiểu (cast) thủ công mà không an toàn.
+- Hạn chế việc <b>ép kiểu</b> (cast) thủ công mà không an toàn.
 - Giúp chúng ta viết các thuật toán được sử dụng nhiều (reusable), dễ dàng thay đổi, an toàn dữ liệu và dễ đọc hơn.
 
 
 <br>
 # **7. Nhược điểm**
 
-- Không thể gọi Generics bằng kiểu dữ liệu nguyên thủy (Primitive type: int, long, double, …), thay vào đó sử dụng các kiểu dữ liệu Object.
+- Không thể gọi Generics bằng kiểu <b>dữ liệu nguyên thủy</b> (Primitive type: int, long, double, …), thay vào đó sử dụng các kiểu dữ liệu Object.
 - Không thể tạo instances của kiểu dữ liệu Generics.
 - Không thể sử dụng static cho Generics.
 

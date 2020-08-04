@@ -13,7 +13,7 @@ youtubeId: 5ix_2ALbqHY
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn ,chắc hẳn bạn đang phân vân khi mình khai báo biến ,object ,phương thức ,tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ? Ai sẽ quản lý bộ nhớ? Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ Heap và Stack lưu trữ dữ liệu gì và lưu như thế nào nhé .Các nội dung sau sẽ được trình bày trong bài viết hôm nay.
+Chào bạn ,chắc hẳn bạn đang phân vân khi mình khai báo biến ,object ,phương thức ,tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ? Ai sẽ quản lý bộ nhớ? Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ <b>Heap</b> và <b>Stack</b> lưu trữ dữ liệu gì và lưu như thế nào nhé .Các nội dung sau sẽ được trình bày trong bài viết hôm nay.
 
 - Các thuật ngữ về bộ nhớ.
 - Heap và Stack là gì ?
@@ -38,7 +38,7 @@ Chào bạn ,chắc hẳn bạn đang phân vân khi mình khai báo biến ,obj
 <br>
 # **2 Heap và Stack**
 
-Bộ nhớ Heap và Stack là một phần của bộ nhớ được JVM sử dụng để chạy chương trình Java của bạn. Khi bạn chạy chương trình Java, JVM sẽ yêu cầu hệ điều hành (Ví dụ như Window,Mac, ) cấp cho một không gian bộ nhớ trong RAM để dùng cho việc chạy chương trình.
+<b>Bộ nhớ Heap và Stack</b> là một phần của bộ nhớ được <b>JVM</b> sử dụng để chạy chương trình Java của bạn. Khi bạn chạy chương trình Java, JVM sẽ yêu cầu hệ điều hành (Ví dụ như Window,Mac, ) cấp cho một không gian bộ nhớ trong RAM để dùng cho việc chạy chương trình.
 JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc quản lý.
 
 {:refdef: style="text-align: center;"}
@@ -48,9 +48,9 @@ JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc qu
 <br>
 # **3 Bộ nhớ Heap**
 
-- Java Heap Memory là bộ nhớ được sử dụng ở runtime (Khi chương trình đang  chạy) để lưu các Objects(các đối   tượng) . Bất cứ khi nào ở đâu trong chương trình của bạn khi bạn tạo Object thì nó sẽ được lưu trong Heap (thực thi toán tử new).
+- <b>Java Heap Memory</b> là bộ nhớ được sử dụng ở runtime (Khi chương trình đang  chạy) để lưu các Objects(các đối   tượng) . Bất cứ khi nào ở đâu trong chương trình của bạn khi bạn tạo Object thì nó sẽ được lưu trong Heap (thực thi toán tử new).
 - Các objects trong Heap đều được truy cập bởi tất cả các các nơi trong ứng dụng, bởi các threads khác nhau.
-- Thời gian sống của object phụ thuộc vào chương  trình  Garbage Collector (GC ) của java. Khi một object bị null hoặc không tham chiếu tới một đối tượng nào thì GC sẽ xoá nó khỏi bộ nhớ.
+- Thời gian sống của object phụ thuộc vào chương  trình <b>Garbage Collector</b> (GC ) của java. Khi một object bị null hoặc không tham chiếu tới một đối tượng nào thì GC sẽ xoá nó khỏi bộ nhớ.
 - Dung lượng sử dụng của Heap sẽ tăng giảm phụ thuộc vào Objects sử dụng.
 - Dung lượng Heap thường lớn hơn Stack.
 
@@ -60,7 +60,7 @@ JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc qu
 - Bộ nhớ để lưu các biến local trong hàm.
 - Các biến local bao gồm loại nguyên thuỷ (primitive) và loại tham chiếu tới đối tượng trong heap (reference) khai báo trong hàm, hoặc đối số được truyền vào hàm, thường có thời gian sống ngắn.
 - Bộ  nhớ stack thường nhỏ.
-- Cơ chế hoạt động thức của Stack là những phương thức , biến chạy sau thì sẽ bị giải phóng đầu .
+- Cơ chế hoạt động thức của <b>Stack</b> là những phương thức , biến chạy sau thì sẽ bị giải phóng đầu .
 - Khi hàm được gọi thì một vùng nhớ được tạo ra trong stack và lưu các biến trong hàm đó. Khi hàm thực hiện xong, khối bộ nhớ cho hàm sẽ bị xoá, và giải phóng bộ nhớ trong stack.
 <br>
 

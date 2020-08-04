@@ -14,7 +14,7 @@ youtubeId2 : kfQ7O7Fky8U
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, nếu bạn là người mới tìm hiểu về lập trình, hẳn bạn đã từng nghe tới khái niệm về Abstract và Interface.
+Chào bạn, nếu bạn là người mới tìm hiểu về lập trình, hẳn bạn đã từng nghe tới khái niệm về <b>Abstract</b> và <b>Interface</b>.
 Nhưng bạn có biết khi nào mình sẽ dùng abstract và khi nào mình dùng interface không? Khi mới bước chân vào
 nghề lập trình anh cũng rất hoang mang về công dụng và lợi ý của Abstract và Interface. Chính vì vậy anh
 viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào mình dùng abstract và Interface. Bài viết hôm nay sẽ xoay quanh các chủ đề sau.
@@ -28,7 +28,7 @@ viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào m�
 <br>
 # **1. Interface là gì**
 
-Interface chính là cách mình áp dụng tính trừu tượng trong lập trình. Interface chính là 100% abstract class (khi tạo một lớp abstract ta có thể có 5 phương thức là abstract còn lại 5 phương thức không cần abstract. Như vậy khi lớp con kế thừa thì bắt buộc cài đặt 5 phương thức còn 5 phương thức kia không cần cài đặt. Nếu một lớp abstract có 10 phương thức abstract thì bắt buộc lớp con phải cài đặt 10 phương thức, như vậy là cũng giống interface khi ta có 10 phương thức thì lớp con cũng phải cài đặt 10 phương thức. Nói các khác interface chính là abstract class nếu lớp abstract class đó tất cả các method đều là abstract method) để nhóm các phương thức liên quan với nhau và không có
+<b>Interface</b> chính là cách mình áp dụng <b>tính trừu tượng</b> trong lập trình. Interface chính là 100% abstract class (khi tạo một lớp abstract ta có thể có 5 phương thức là abstract còn lại 5 phương thức không cần abstract. Như vậy khi lớp con kế thừa thì bắt buộc cài đặt 5 phương thức còn 5 phương thức kia không cần cài đặt. Nếu một lớp abstract có 10 phương thức abstract thì bắt buộc lớp con phải cài đặt 10 phương thức, như vậy là cũng giống interface khi ta có 10 phương thức thì lớp con cũng phải cài đặt 10 phương thức. Nói các khác interface chính là abstract class nếu lớp abstract class đó tất cả các method đều là abstract method) để nhóm các phương thức liên quan với nhau và không có
 phần thân. Phần thân của method sẽ được implement (cài đặt) ở trong lớp implement Interface.
 
 {% highlight java linenos %}
@@ -65,11 +65,11 @@ Một số chú ý khi sử dụng Interface.
 <br>
 # **2. Abstract là gì**
 
-Data Abstraction là quá trình che giấu đi những dữ liệu quan trọng mình chỉ đưa ra những thông tin cần thiết cho người dùng. Để làm được abstraction trong lập  ta
+<b>Data Abstraction</b> là quá trình che giấu đi những dữ liệu quan trọng mình chỉ đưa ra những thông tin cần thiết cho người dùng. Để làm được abstraction trong lập  ta
 có thể sử dụng abstract và interface . Ta có thể sử dụng abstract cho class hoặc method .Chúng ta sử dụng từ khoá abstract để khai báo abstract class và method.
 
-- Abstract class : cũng giống như Interface chúng ta không thể tạo đối tượng từ Abstract Class
-- Abstract method : cũng giống như Interface chúng không có phần thân . Phần thân sẽ được cài đặt trong lớp kế thừa nó
+- <b>Abstract class</b> : cũng giống như Interface chúng ta không thể tạo đối tượng từ Abstract Class
+- <b>Abstract method</b> : cũng giống như Interface chúng không có phần thân . Phần thân sẽ được cài đặt trong lớp kế thừa nó
 
 {% highlight java linenos %}
 

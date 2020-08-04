@@ -13,8 +13,8 @@ youtubeId: GXQn39fU2Kg
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, hẳn bạn đang phân vân trong java mình có những loại collection (tập hợp nào) ? Các tập hợp đó khi nào thì nên sử dụng và nó khác nhau như thế nào.
-Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng và phân biệt sự khác nhau giữa các tập hợp trong Java. Nội dung bài này sẽ nói về.
+Chào bạn, hẳn bạn đang phân vân trong java mình có những loại <b>collection</b> (tập hợp nào) ? Các tập hợp đó khi nào thì nên sử dụng và nó khác nhau như thế nào.
+Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng và phân biệt sự khác nhau giữa <b>các tập hợp trong Java</b>. Nội dung bài này sẽ nói về.
 
 - Các collection trong Java
 - Tập hợp List
@@ -37,7 +37,7 @@ Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng v�
 # **2. List**
 
 Là một collection có thứ tự (đôi khi còn được gọi là một chuỗi).
-List có thể chứa các phần tử trùng lặp. Thường có quyền kiểm soát chính xác vị trí các phần tử được chèn vào và có thể truy cập chúng bằng chỉ số (vị trí của chúng).
+<b>List có thể chứa các phần tử trùng lặp</b>. Thường có quyền kiểm soát chính xác vị trí các phần tử được chèn vào và có thể truy cập chúng bằng chỉ số (vị trí của chúng).
 
 {% highlight java linenos %}
 List<String> list = new ArrayList<String>();
@@ -49,7 +49,7 @@ list.add("Collection List ");
 <br>
 # **3. Vector**
 
-Là một collection có thể chứa các phần tử trùng lặp.Duy trì thứ tự của phần tử được thêm vào.Vector là synchronized.
+Là một <b>collection có thể chứa các phần tử trùng lặp</b>. Duy trì thứ tự của phần tử được thêm vào. Vector là synchronized.
 
 {% highlight java linenos %}
 Vector<String> list3 = new Vector<String>();
@@ -60,7 +60,7 @@ Vector<String> list3 = new Vector<String>();
 <br>
 # **4. Set**
 
-Là  một collection không thể chứa 2 giá trị trùng lặp.
+Là  <b>một collection không thể chứa 2 giá trị trùng lặp</b>.
 
 {% highlight java linenos %}
  Set<Integer> hashsetInteger = new HashSet<>();
@@ -84,7 +84,7 @@ Queue cung cấp các thao tác bổ sung như chèn, lấy ra và kiểm tra. Q
 <br>
 # **6. Deque**
 
-Là một collection cung cấp các thao tác bổ sung như chèn, lấy ra và kiểm tra. Deque có thể được sử dụng như là FIFO (first-in, first-out - vào trước, ra trước) và LIFO (last-in, first-out - vào sau, ra trước).
+Là một collection cung cấp các thao tác bổ sung như chèn, lấy ra và kiểm tra. <b>Deque</b> có thể được sử dụng như là FIFO (first-in, first-out - vào trước, ra trước) và LIFO (last-in, first-out - vào sau, ra trước).
 Trong một Deque, tất cả các phần tử mới có thể được chèn vào, lấy ra và lấy ra ở cả hai đầu.
 
 {% highlight java linenos %}   
@@ -99,7 +99,7 @@ Trong một Deque, tất cả các phần tử mới có thể được chèn v�
 <br>
 # **7. Map**
 
-Là một đối tượng ánh xạ mỗi key tương úng với một giá trị. Map không thể chứa giá trị trùng lặp. Mỗi key có thể ánh xạ đến nhiều nhất một giá trị.
+Là một đối tượng ánh xạ mỗi key tương úng với một giá trị. <b>Ma</b> không thể chứa giá trị trùng lặp. Mỗi key có thể ánh xạ đến nhiều nhất một giá trị.
 
 {% highlight java linenos %}
 Map<Integer, String> hashMap = new HashMap<>();
@@ -114,9 +114,9 @@ Map<Integer, String> hashMap = new HashMap<>();
 <br>
 # **8. Phân biệt Collection vs Collections**
 
-- Collections trong java là kiến trúc để lưu trữ và thao tác tới nhóm các đối tượng. Tất cả các hoạt động mà bạn thực hiện trên một dữ liệu như tìm kiếm, phân loại, chèn, xóa,... có thể được thực hiện bởi Java Collections.
+- <b>Collections trong java</b> là kiến trúc để lưu trữ và thao tác tới nhóm các đối tượng. Tất cả các hoạt động mà bạn thực hiện trên một dữ liệu như tìm kiếm, phân loại, chèn, xóa,... có thể được thực hiện bởi Java Collections.
 
-- Java Collection cung cấp nhiều interface (Set, List, Queue, Deque vv) và các lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet vv).
+- <b>Java Collection</b> cung cấp nhiều interface (Set, List, Queue, Deque vv) và các lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet vv).
 
 <br>
 # **9. Sự khác nhau  Array và ArrayList**
