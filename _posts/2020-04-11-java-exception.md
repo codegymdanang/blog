@@ -31,15 +31,15 @@ Exception là một sự kiện mà phá vỡ luồng chuẩn của chương tr�
 mình chỉ có 1.000.000 nhưng nếu mình bấm trong máy ATM rút 2.000.000 thì lúc đó chương trình trong máy ATM sẽ báo lỗi vì
 số tiền mình yêu cầu rút lớn hơn số hiện tại. Đó chính là một Exception (ngoại lệ) xảy ra lúc chương trình đang chạy.
 
-Đối với lập trình viên mình phải bắt và xử lý các **ngoại lệ** trong chương trình. Nếu không chương trình sẽ bị dừng. Thường các
-lập trình viên có thể bắt lại **Expection** trong lúc viết code hoặc dự đoán được Exception trong lúc chương trình đang chạy
+Đối với lập trình viên mình phải bắt và xử lý các <b>ngoại lệ</b> trong chương trình. Nếu không chương trình sẽ bị dừng. Thường các
+lập trình viên có thể bắt lại <b>Expection</b> trong lúc viết code hoặc dự đoán được Exception trong lúc chương trình đang chạy
 để từ đó lập trình viên có thể xử lý các ngoại lệ đó mà chương trình vẫn tiếp tục chạy.
 
 <br>
 # **2. Check Exception**
 
 - Những lỗi developer có thể đoán trước được.
-- Bắt buộc developer phải bắt và xử lý **ngoại lệ** trong lúc compile time (lúc đang code).
+- Bắt buộc developer phải bắt và xử lý <b>ngoại lệ</b> trong lúc compile time (lúc đang code).
 
 Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán được.
 
@@ -66,7 +66,7 @@ Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền 
 ![Exception ](/images/post/javacore/exception.png){:class="img-responsive"}
 {: refdef}
 
-- Throwable : là cha của tất cả **ngoại lệ** xảy ra trong chương trình bao gồm lỗi (**Error**) và ngoại lệ (**Exception**).
+- Throwable : là cha của tất cả <b>ngoại lệ</b> xảy ra trong chương trình bao gồm lỗi (<b>Error</b>) và ngoại lệ (<b>Exception**</b>).
 
 - Error : là tất cả những lỗi được bắt từ JMV (Máy ảo Java). Ví dụ như Error OutOfMemory hoặc chia một số cho 0.Các em có thể tìm hiểu thêm về bộ nhớ của chương trình tại (đây)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/] .
 
@@ -81,7 +81,7 @@ public class MyDepositException extends Exception {
 }
 {% endhighlight %}
 
-Anh sử dụng **ngoại lệ** MyDepositException như sau.
+Anh sử dụng <b>ngoại lệ</b> MyDepositException như sau.
 
 {% highlight java linenos %}
 private void wrapException(String input) throws MyDepositException {
@@ -93,7 +93,7 @@ private void wrapException(String input) throws MyDepositException {
 }
 {% endhighlight %}
 
-- **Exception Runtime** : là cha của tất cả các class Uncheck. Anh khai báo một Class và kế thừa RuntimeExcepton. Những lỗi này thường xảy ra khi chương trình đang chạy.
+- <b>Exception Runtime</b> : là cha của tất cả các class Uncheck. Anh khai báo một Class và kế thừa RuntimeExcepton. Những lỗi này thường xảy ra khi chương trình đang chạy.
 
 {% highlight java linenos %}
 public class MyDepositRuntimeException extends RuntimeException {
@@ -141,12 +141,12 @@ private void wrapException(String input) {
 <br>
 # **5. Ném ngoại lệ bằng Throws hoặc throw**
 
-- Trong các ngôn ngữ lập trình khi một **ngoại lệ** xảy ra ,mình dùng từ khoá **throw** hoặc **throws** để ném ngoại lệ đó ra.
+- Trong các ngôn ngữ lập trình khi một <b>ngoại lệ</b> xảy ra ,mình dùng từ khoá **throw** hoặc **throws** để ném ngoại lệ đó ra.
 
 - Trong Java mình có thể dùng từ khoá throws bên cạnh tên method để ném ngoại lệ. Ví dụ như public void deposit(int depositAmount) throws Exception . Phương thức nào
 mà gọi method deposit phải bắt lại ngoại lệ và xử lý . Để bắt ngoại lệ thì mình dùng khối  **try**, **catch** , **finally** lệnh để bắt ngoại lệ bắt từ hàm deposit ném ra
 
-- Ngoài cách dùng **Throws** ta có thể dùng **throw new Exception**  bên trong method như ví dụ dưới  đây .
+- Ngoài cách dùng <b>Throws</b> ta có thể dùng <b>throw new Exception</b>  bên trong method như ví dụ dưới  đây .
 
 {% highlight java linenos %}
 /**
@@ -167,7 +167,7 @@ public void deposit(int depositAmount) throws Exception {
 <br>
 # **6. Bắt ngoại lệ bằng try catch**
 
-Chúng ta sử dụng từ khoá **try** , **catch** để bắt ngoại lệ và xử lý. Nếu chúng ta không bắt ngoại lệ lại và sử lý thì chương trình có nguy cơ bị đứng. Hoặc nghiêm trọng hơn là ứng dụng bị chết và không chạy được. Nhờ sử dụng try catch mà ta có thể sử lý ngoại lệ giúp chương trình tiếp tục chạy.
+Chúng ta sử dụng từ khoá <b>try</b>, <b>catch</b> để bắt ngoại lệ và xử lý. Nếu chúng ta không bắt ngoại lệ lại và sử lý thì chương trình có nguy cơ bị đứng. Hoặc nghiêm trọng hơn là ứng dụng bị chết và không chạy được. Nhờ sử dụng try catch mà ta có thể sử lý ngoại lệ giúp chương trình tiếp tục chạy.
 
 {% highlight java linenos %}
 public int getPlayerScore(String playerFile) {
@@ -183,7 +183,7 @@ public int getPlayerScore(String playerFile) {
 <br>
 # **7. Bắt ngoại lệ bằng nhiều catch**
 
-Khi gọi một method, nhưng nếu method đó ném ra nhiều hơn 1 ngoại lệ. Ta có thể sử dụng nhiều **catch** để bắt các ngoại lệ đó. Mỗi catch sẽ bắt một ngoại lệ tương ứng.
+Khi gọi một method, nhưng nếu method đó ném ra nhiều hơn 1 ngoại lệ. Ta có thể sử dụng nhiều <b>catch</b> để bắt các ngoại lệ đó. Mỗi catch sẽ bắt một ngoại lệ tương ứng.
 
 {% highlight java linenos %}
 public int getPlayerScore(String playerFile) {
@@ -202,7 +202,7 @@ public int getPlayerScore(String playerFile) {
 <br>
 # **8. Khối lệnh Finally**
 
-Các đoạn code trong khối lệnh **Finally** luôn luôn chạy cho dù có xảy ra lỗi ở trong khối lệnh try hay catch . Khối lệnh Finally thường dùng để.
+Các đoạn code trong khối lệnh <b>Finally</b> luôn luôn chạy cho dù có xảy ra lỗi ở trong khối lệnh try hay catch . Khối lệnh Finally thường dùng để.
 
 - Đóng kết nối xuống file .
 - Đóng kết nối xuống database.
