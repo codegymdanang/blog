@@ -13,7 +13,7 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về webservice  là gì ?
+Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>webservice</b> là gì ?
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - Webservice là gì ?
@@ -25,13 +25,13 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 <br>
 # **1. Webservice là gì ?**
 
-Webservice là tập hợp các tiêu chuẩn và giao thức được sử dụng để trao đổi dữ liệu giữa các ứng dụng hoặc các hệ thống khác nhau.
+<b>Webservice</b> là tập hợp các tiêu chuẩn và giao thức được sử dụng để <b>trao đổi dữ liệu</b> giữa các ứng dụng hoặc các hệ thống khác nhau.
 
-Anh lấy ví dụ như sau : Anh muốn phát triển một ví điện tử  (dạng Momo) có tên là Le-ebaking . Ứng dung Le-ebaking   có thể kết nối với ngân hàng HSBC , Techcombank , Vietcombank. Người dùng có thể chuyển tiền từ hệ thống Techcombank sang Vietcombank thông qua ứng dụng Le-ebaking.
+Anh lấy ví dụ như sau : Anh muốn phát triển một ví điện tử  (dạng Momo) có tên là Le-ebaking. Ứng dung Le-ebaking có thể kết nối với ngân hàng HSBC , Techcombank , Vietcombank. Người dùng có thể chuyển tiền từ hệ thống Techcombank sang Vietcombank thông qua ứng dụng Le-ebaking.
 
-Trong đó HSBC được viết bằng ngôn ngữ PHP chạy trên Server Window, HSBC viết bằng ngôn ngữ Java chạy trên Ubuntu và Techcombank viết bằng ngôn ngữ Ruby và chạy trên nền MacOS. Như vậy ta thấy 3 ngân hàng sử dụng 3 loại ngôn ngữ lập trình khác nhau và triển khai trên 3 nền tảng OS khác nhau. Vậy làm sao các ứng dụng đó có thể trao đổi dữ liệu với nhau được. May mắn cho chúng ta đã có Webservice,nó  giúp chúng ta có thể trao đổi dữ liệu từ các ứng dung , ngôn ngữ , OS khác nhau có thể nói chuyện được với nhau.
+Trong đó HSBC được viết bằng ngôn ngữ <b>PHP</b> chạy trên Server Window, HSBC viết bằng ngôn ngữ <b>Java</b> chạy trên Ubuntu và Techcombank viết bằng ngôn ngữ <b>Ruby</b> và chạy trên nền MacOS. Như vậy ta thấy 3 ngân hàng sử dụng 3 loại ngôn ngữ lập trình khác nhau và triển khai trên 3 nền tảng OS khác nhau. Vậy làm sao các ứng dụng đó có thể trao đổi dữ liệu với nhau được. May mắn cho chúng ta đã có Webservice,nó  giúp chúng ta có thể trao đổi dữ liệu từ các ứng dung , ngôn ngữ , OS khác nhau có thể nói chuyện được với nhau.
 
-Trong thực tế khi anh làm ứng dụng payment thì dự án của anh cũng gọi các webservice của các ngân hàng khác. Anh không quan tâm webservice của ngân hàng đó viết bằng ngôn ngữ gì , chạy trên nền tảng gì. Ngân hàng mà hợp tác với anh sẽ cung cấp cho anh một webservice dựa vào đặt tả webservice thì mình sẽ gọi lên ngân hàng đó và lấy kết quả về cho ứng dụng của mình. Sau đó mình làm gì tiếp với dữ liệu là phụ thuộc vô nghiệp vụ của ứng dụng mình.
+Trong thực tế khi anh làm ứng dụng payment thì dự án của anh cũng gọi các <b>webservice</b> của các ngân hàng khác. Anh không quan tâm webservice của ngân hàng đó viết bằng ngôn ngữ gì, chạy trên nền tảng gì. Ngân hàng mà hợp tác với anh sẽ cung cấp cho anh một <b>webservice</b> dựa vào đặt tả webservice thì mình sẽ gọi lên ngân hàng đó và lấy kết quả về cho ứng dụng của mình. Sau đó mình làm gì tiếp với dữ liệu là phụ thuộc vô nghiệp vụ của ứng dụng mình.
 
 <br>
 # **2. Các loại webservice**
@@ -89,7 +89,7 @@ Khi mình gọi lên Techcombank service thì mình sẽ nhận lại kết qu�
 </SOAP-ENV:Envelope>
 {% endhighlight %}
 
-Như các em thấy mình có thẻ xml '<ns2:balance>1000</ns2:balance>' với giá trị và 1000. Như vậy ứng dụng Le-ebanking sẽ lấy giá trị 1000 từ kết quả trả về, sau đó mình trả lại kết quả này cho người dùng
+Như các em thấy mình có thẻ <b>xml</b> '<ns2:balance>1000</ns2:balance>' với giá trị và 1000. Như vậy ứng dụng Le-ebanking sẽ lấy giá trị 1000 từ kết quả trả về, sau đó mình trả lại kết quả này cho người dùng
 
 <br>
 # **4. Restful webservice là gì**
@@ -114,7 +114,7 @@ public class EmployeeController {
   }
 {% endhighlight %}
 
-Kết quả mình nhận được sẽ là một file json . Trong đó có giá trị balance là 1000. Sau đó ta sử lý và gửi giá trị balance về cho người dùng app.
+Kết quả mình nhận được sẽ là một file <b>json</b>. Trong đó có giá trị balance là 1000. Sau đó ta sử lý và gửi giá trị balance về cho người dùng app.
 
 {% highlight json  linenos %}
 {

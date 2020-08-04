@@ -66,9 +66,9 @@ Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền 
 ![Exception ](/images/post/javacore/exception.png){:class="img-responsive"}
 {: refdef}
 
-- Throwable : là cha của tất cả <b>ngoại lệ</b> xảy ra trong chương trình bao gồm lỗi (<b>Error</b>) và ngoại lệ (<b>Exception**</b>).
+- Throwable : là cha của tất cả <b>ngoại lệ</b> xảy ra trong chương trình bao gồm lỗi (<b>Error</b>) và ngoại lệ (<b>Exception</b>).
 
-- Error : là tất cả những lỗi được bắt từ JMV (Máy ảo Java). Ví dụ như Error OutOfMemory hoặc chia một số cho 0.Các em có thể tìm hiểu thêm về bộ nhớ của chương trình tại (đây)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/] .
+- Error : là tất cả những lỗi được bắt từ JMV (Máy ảo Java). Ví dụ như Error OutOfMemory hoặc chia một số cho 0.Các em có thể tìm hiểu thêm về bộ nhớ của chương trình tại [đây](https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/) .
 
 - Excepton : là cha của tất cả class Check Exception. Mình khai báo một Class và kế thừa Class Exception.
 {% highlight java linenos %}

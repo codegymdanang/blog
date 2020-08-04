@@ -24,7 +24,7 @@ Trong bài hôm nay chúng ta sẽ đi qua các annotation thường xuyên đư
 
 # **2 @Congiguration**
 
-Được sử dụng để chỉ ra rằng class khai báo sử dụng annotation @Configuration sẽ khai báo một hoặc nhiều @Bean method trong class đó. Những class khai báo với @Configuration sẽ được Spring container quản lý và tạo bean trong lúc chương trình đang chạy. Thông thường các bean cấu hình cho dự án ta để trong này. Ví dụ cấu hình themeleaf, đa ngôn ngữ , và nhiều cấu hình khác cho ứng dụng.   
+Được sử dụng để chỉ ra rằng class khai báo sử dụng annotation <b>@Configuration</b> sẽ khai báo một hoặc nhiều @Bean method trong class đó. Những class khai báo với @Configuration sẽ được Spring container quản lý và tạo bean trong lúc chương trình đang chạy. Thông thường các bean cấu hình cho dự án ta để trong này. Ví dụ cấu hình themeleaf, đa ngôn ngữ , và nhiều cấu hình khác cho ứng dụng.   
 
 {% highlight java linenos %}
 @Configuration
@@ -49,7 +49,7 @@ public class WebConfig implements WebMvcConfigurer {
 <br>
 # **3. @Bean**
 
-Method (phương thức) sử dụng @Bean ở phía trên mình để chỉ ra rằng . Method đó sẽ sản xuất ra đối tượng bean và được quản lý bởi spring container . Bean annotation có thể sử dụng với các tham số như name, initMethod hoặc destroyMethod
+Method (phương thức) sử dụng <b>@Bean</b> ở phía trên mình để chỉ ra rằng . Method đó sẽ sản xuất ra đối tượng bean và được quản lý bởi spring container . Bean annotation có thể sử dụng với các tham số như name, initMethod hoặc destroyMethod
 
 Ví dụ dưới đây mình sử dụng @Bean để tạo ra object Spring Template .
 
@@ -71,7 +71,7 @@ Ví dụ dưới đây mình sử dụng @Bean để tạo ra object Spring Temp
 <br>
 # **4. @PreDetroy và @PostConstruct**
 
-Đây là cách dùng khác để quản lý vòng đời của Bean. Ngoài cách sử dụng initMethod và destroyMethod. Ta có thể sử dụng @PreDetroy và @PostConstruct với cùng một mục đích
+Đây là cách dùng khác để quản lý vòng đời của Bean. Ngoài cách sử dụng <b>initMethod</b> và <b>destroyMethod</b>. Ta có thể sử dụng <b>@PreDetroy</b> và <b>@PostConstruct</b> với cùng một mục đích
 
 {% highlight java linenos %}
 public class Computer {
@@ -91,7 +91,7 @@ public class Computer {
 <br>
 # **5. @ComponentScan**
 
-Chúng ta sử dụng @ComponentScan để thông báo có Spring Container biết phải vào package nào trong dự án để quyét các Annotation và tạo Bean. Như ví dụ bên dưới. Spring sẽ quyét tất cả các file trong pakage levunguyen.spring. Tìm các Class có annotation để tạo bean và các @autowire để nhúng bean ở trong container vào các Class sử dụng autowire
+Chúng ta sử dụng <b>@ComponentScan</b> để thông báo  Spring Container biết phải vào package nào trong dự án để quyét các <b>Annotation</b> và tạo <b>Bean</b>. Như ví dụ bên dưới. Spring sẽ quyét tất cả các file trong pakage levunguyen.spring. Tìm các Class có annotation để tạo bean và các <b>@autowire</b> để nhúng bean ở trong container vào các Class sử dụng autowire
 
 {% highlight java linenos %}
 @ComponentScan(basePackages = "levunguyen.spring ")
@@ -104,7 +104,7 @@ public class SpringComponentScanApp {
 <br>
 # **6. @Component**
 
-Khi một class được đánh dấu là component thì sẽ được tạo thành 1 bean. Khi Spring start thì nó quyét qua các annotation có dánh dấu là @Component thì nó sẽ tạo bean cho class đó.
+Khi một class được đánh dấu là <b>@Component</b> thì sẽ được tạo thành 1 bean. Khi Spring start thì nó quyét qua các annotation có dánh dấu là @Component thì nó sẽ tạo bean cho class đó.
 Ví dụ ta có class Contact và ta đánh dấu nó là @Component thì Spring khi đọc qua class này nó sẽ tạo 1 bean có tên là contact trong container của nó. Nếu có class nào dùng thì nó sẽ nhúng bean này vào. Dùng @component là để tạo ra một bean
 
 {% highlight java linenos %}
@@ -118,7 +118,7 @@ public class Contact {
 <br>
 # **7. @PropertySource và @Value**
 
-Trong Spring chúng ta sử dụng @PropertySource để cho Spring biết tìm các file properties cấu hình cho hệ thống ở đâu đồng thời sử dụng @Value để lấy các giá trị trong file properties
+Trong Spring chúng ta sử dụng <b>@PropertySource</b> để cho Spring biết tìm các file properties cấu hình cho hệ thống ở đâu đồng thời sử dụng <b>@Value</b> để lấy các giá trị trong file properties
 
 Ví dụ bên dưới ta sử dụng classpath để khai báo file properties ta đặt ở đâu trong dự án. Tiếp đến ta sử dụng @Value để lấy các giá trị trong file properties với key tương ứng và gán vào biến mà ta sẽ sử dụng.
 
@@ -142,7 +142,7 @@ Sử dụng để khai báo với Spring đọc các cấu hình trong file reso
 <br>
 # **8. @Service**
 
-Nếu một class được đánh dấu là @Service thì nó là kiểu đặt biệt cuả @Component. Nó được dùng để xử lý các nghiệp vụ của ứng dụng. Ví dụ như kế toán thì có nghiệp vụ là kiểm tra chi, quản lý thu. Lớp BookServiceImpl dưới đây được đánh dấu là @Service thì nó sẽ phụ trách xử lý các vấn đề liên quan đến nghiệp vụ.
+Nếu một class được đánh dấu là <b>@Service</b> thì nó là kiểu đặt biệt cuả @Component. Nó được dùng để xử lý các nghiệp vụ của ứng dụng. Ví dụ như kế toán thì có nghiệp vụ là kiểm tra chi, quản lý thu. Lớp BookServiceImpl dưới đây được đánh dấu là @Service thì nó sẽ phụ trách xử lý các vấn đề liên quan đến nghiệp vụ.
 
 {% highlight java linenos %}
 @Service
@@ -154,7 +154,7 @@ public class BookServiceImpl implements BookService {
 <br>
 # **9. @Repository**
 
-Nếu một class được đánh dấu là @Repository thì nó là kiểu đặt biệt của @Component . Nó được sử dụng để nói bean này dùng để truy cập và thao tác xuống cơ sở dữ liệu. Class BookDaoImpl được đánh dấu với @Repository nghĩa là lớp này có nhiệm vụ thực hiện các câu lệnh truy vấn xuống database.
+Nếu một class được đánh dấu là <b>@Repository</b> thì nó là kiểu đặt biệt của @Component . Nó được sử dụng để nói bean này dùng để truy cập và thao tác xuống cơ sở dữ liệu. Class BookDaoImpl được đánh dấu với @Repository nghĩa là lớp này có nhiệm vụ thực hiện các câu lệnh truy vấn xuống database.
 
 {% highlight java linenos %}
 @Repository
@@ -166,7 +166,7 @@ public class BookDaoImpl implements BookDao {
 <br>
 # **10. @Autowire**
 
-Tự động nhúng các  bean được Spring Container sinh ra vào Class có khai báo @Autowire. Khi Spring nó sẽ tìm kiếm bean có tên là BookDao trong container của nó ,sau đó nhúng (hoặc tiêm) vào lớp BookServiceImple. Đây chính là cơ chế DI (depedency injection) . Khi Spring bắt đầu chạy nó sẽ quyét qua các lớp có sử dụng annotation để tạo bean đồng thời nó cũng quyét bên trong các bean xem có khai báo @Autowire không nếu có nó sẽ tìm kiếm bean tương ứng mà nó quản lý và nhúng vào.
+Tự động nhúng các  bean được Spring Container sinh ra vào Class có khai báo <b>@Autowire</b>. Khi Spring nó sẽ tìm kiếm bean có tên là BookDao trong container của nó ,sau đó nhúng (hoặc tiêm) vào lớp BookServiceImple. Đây chính là cơ chế <b>DI</b> (depedency injection) . Khi Spring bắt đầu chạy nó sẽ quyét qua các lớp có sử dụng annotation để tạo bean đồng thời nó cũng quyét bên trong các bean xem có khai báo @Autowire không nếu có nó sẽ tìm kiếm bean tương ứng mà nó quản lý và nhúng vào.
 
 {% highlight java linenos %}
 @Service
@@ -185,7 +185,7 @@ public class BookServiceImpl implements BookService {
 <br>
 # **11 @Scope**
 
-Khi bean được tạo ra thì nó có nhiều scope khác nhau. Scope ở đây là phạm vi bean được sinh và và bị phá huỷ dưới sự quản lý của Spring Container. Khi bean được sinh ra nó có 5 scope (phạm vi được sử dụng)
+Khi bean được tạo ra thì nó có nhiều scope khác nhau. <b>@Scope</b> ở đây là phạm vi bean được sinh và và bị phá huỷ dưới sự quản lý của Spring Container. Khi bean được sinh ra nó có 5 scope (phạm vi được sử dụng)
 
 - singleton : đây là scope mặc định của 1 bean khi được sinh ra. Nếu ta không khai báo scope cụ thể thì bean sẽ lấy singleton scope. Singleton bean có nghĩ là bean chỉ tạo ra 1 lần và được sử dụng trong container . Chỉ duy nhất 1 bean tồn tại trong container
 - prototype : ngược lại với singleton ta muốn có nhiều bean (đối tượng) thì ta sử dụng scope prototype
@@ -206,7 +206,7 @@ public class Contact {
 <br>
 # **12. @Valid**
 
-Dùng để kiểm tra dữ liệu có đúng như mình mong muốn hay không. Ví dụ dưới đây mình mong muốn name là không được rỗng , author không được rỗng. Nếu dữ liệu bị rỗng thì @Validate sẽ bắt lỗi.
+Dùng để kiểm tra dữ liệu có đúng như mình mong muốn hay không. Ví dụ dưới đây mình mong muốn name là không được rỗng , author không được rỗng. Nếu dữ liệu bị rỗng thì <b>@Validate</b> sẽ bắt lỗi.
 
 {% highlight java linenos %}
 @Entity
@@ -243,7 +243,7 @@ public class BookController {
 <br>
 # **13. @Controller**
 
-Một class được đánh dấu là controller thì để khai báo Class đó là một controller và có nhiệm vụ mapping request trên url vào các method tương ứng trong controller. Ví dụ dưới đây mình khai báo Class HomeController là một Controller . Khi người dùng gõ vào http://localhost:8080/ thì sẽ được xử lý bởi Class HomeController. Như vậy nhiệm vụ của Controller là điều hướng các request (yêu cầu) người dùng vào method xử lý tương  
+Một class được đánh dấu là <b>@Controller</b> thì để khai báo Class đó là một controller và có nhiệm vụ mapping request trên url vào các method tương ứng trong controller. Ví dụ dưới đây mình khai báo Class HomeController là một Controller . Khi người dùng gõ vào http://localhost:8080/ thì sẽ được xử lý bởi Class HomeController. Như vậy nhiệm vụ của Controller là điều hướng các request (yêu cầu) người dùng vào method xử lý tương  
 
 {% highlight java linenos %}
 @Controller
@@ -260,7 +260,7 @@ public class HomeController {
 <br>
 # **14. @RequestMapping**
 
-Có nhiệm vụ ánh xạ các request (yêu cầu) người dùng vào method tương ứng trong controller.
+Có nhiệm vụ <b>ánh xạ các request</b> (yêu cầu) người dùng vào method tương ứng trong controller.
 Ví dụ : Khi ta nhập vào url là http://localhost:8080/method2 thì nó sẽ được xử lý bởi phương thức là public String method2().
 
 Ví dụ : Khi ta nhập vào url là http://localhost:8080/method3 thì nó sẽ được xử lý bởi phương thức là public String method3().
@@ -283,7 +283,7 @@ Ví dụ : Khi ta nhập vào url là http://localhost:8080/method3 thì nó s�
 <br>
 # **15. @PathVariable**
 
-PathVariable được sử dụng để xử lý những URI động, có một hoặc nhiều paramter trên URI.
+<b>@PathVariable<b> được sử dụng để xử lý những URI động, có một hoặc nhiều paramter trên URI.
 
 Ví dụ bên dưới khi người dùng gõ vào là http://localhost:8080/test2/10/nguyen.
 
@@ -305,7 +305,7 @@ public String test2(@PathVariable("id") int id, @PathVariable("name") String nam
 <br>
 # **16. @RequestParam**
 
-Chúng ta sử dụng @RequestParame để bắt các giá trị các tham số mà người dùng truyền vào trên url theo định dạng key và value.
+Chúng ta sử dụng <b>@RequestParame</b> để bắt các giá trị các tham số mà người dùng truyền vào trên url theo định dạng key và value.
 
 Ví dụ mình có cái link sau http://localhost:8080/api/foos?id=abc . Bây giờ mình muốn lấy giá trị abc của tham số id trên url thì mình sẽ dùng @RequestParam . Ở đây mình khai báo giá trị tham số trên URL theo định dạng key = value (id=abc).
 
@@ -322,7 +322,7 @@ public String getFoos(@RequestParam String id) {
 <br>
 # **17. @ModelAttribute**
 
-Một trong những annotaion quan trọng trong Spring đó là @ModelAttribute. Chúng ta sử dụng ModelAttribute như một cầu nối giữa Controller và View. Từ Controller chúng ta truyền các dữ liệu qua cho View thông qua ModelAttribute. Từ View chúng ta sẽ sử dụng Themeleaf để đọc các dữ liệu từ model và hiển thị ra cho người dùng.
+Một trong những annotaion quan trọng trong Spring đó là <b>@ModelAttribute</b>. Chúng ta sử dụng ModelAttribute như một cầu nối giữa Controller và View. Từ Controller chúng ta truyền các dữ liệu qua cho View thông qua ModelAttribute. Từ View chúng ta sẽ sử dụng Themeleaf để đọc các dữ liệu từ model và hiển thị ra cho người dùng.
 
 Tầng View chúng ta sử dụng model để lấy các giá trị từ người dùng và gắn vào thuộc tính modelAttribute.
 
@@ -357,7 +357,7 @@ Tầng View chúng ta sử dụng model để lấy các giá trị từ ngườ
 
 được sử dụng để lấy các giá trị mà người dùng gửi lên server mà các giá trị đó được chứa trong phần thân (body) của request
 
-Ví dụ như mình request sau gửi lên server dữ liệu (sendInfo) là một json gồm có tên,địa bằng method post và dữ liệu được gửi trong phần thân của request . Để nhận được dữ liệu json này từ clien thì chúng ta dùng @RequestBody trong method để lấy kết quả.  
+Ví dụ như mình request sau gửi lên server dữ liệu (sendInfo) là một json gồm có tên,địa bằng method post và dữ liệu được gửi trong phần thân của request . Để nhận được dữ liệu json này từ clien thì chúng ta dùng <b>@RequestBody</b> trong method để lấy kết quả.  
 
 {% highlight java linenos %}
 
@@ -386,7 +386,7 @@ Ví dụ như mình request sau gửi lên server dữ liệu (sendInfo) là m�
        });
 {% endhighlight %}
 
-Trong method handle ta sử dụng @RequestBody để lấy dữ liệu json (sendInfo) từ client gửi lên và gán giá trị đó cho biến body
+Trong method handle ta sử dụng <b>@RequestBody</b> để lấy dữ liệu json (sendInfo) từ client gửi lên và gán giá trị đó cho biến body
 
 {% highlight java linenos %}
 @RequestMapping(path = "/something", method = RequestMethod.PUT)
@@ -398,7 +398,7 @@ public void handle(@RequestBody String body, Writer writer) throws IOException {
 <br>
 # **19. @ResponseBody**
 
-Chúng ta sử dụng @ResponseBody để nói cho controller biết rằng ta sẽ trả về một đối tượng Object kiểu Json cho client chứ mình không render ra một trang view.
+Chúng ta sử dụng <b>@ResponseBody</b> để nói cho controller biết rằng ta sẽ trả về một đối tượng Object kiểu Json cho client chứ mình không render ra một trang view.
 
 {% highlight java linenos %}
 @RequestMapping(path = "/something", method = RequestMethod.PUT)
@@ -411,7 +411,7 @@ public  @ResponseBody String helloWorld() {
 <br>
 # **20. @RequestHeader và @ResponseHeader**
 
-@RequestHeader được sử dụng khi ta muốn lấy dữ liệu được truyền bằng Header của một request (yêu cầu từ clien)
+<b>@RequestHeader</b> được sử dụng khi ta muốn lấy dữ liệu được truyền bằng Header của một request (yêu cầu từ clien)
 
 Ví dụ sau ta truyền thêm biến my-number trong phần header của request gửi lên server. @RequestHeader được khai báo trong phương thức doubleNumber có nhiệm vụ lấy giá trị từ header truyền vào biên
 
@@ -425,7 +425,7 @@ public ResponseEntity<String> doubleNumber(@RequestHeader("my-number") int myNum
 
 @ResponseHeader
 
-Chúng ta sử dụng @ResponseHeader khi mình muốn trả về thêm dữ liệu cho client ở phần trên cùng của mỗi response
+Chúng ta sử dụng <b>@ResponseHeader</b> khi mình muốn trả về thêm dữ liệu cho client ở phần trên cùng của mỗi response
 
 Ví dụ sau ta trả thêm các giá trị ở trên phần header cho client thông qua phương thức response.setHeader
 
@@ -447,7 +447,7 @@ public String addUser(@Valid User user, BindingResult bindingResult,HttpServletR
 <br>
 # **21. @SessionAttribute**
 
-Chúng ta sử dụng @SessionAttribute để lưu trữ các giá trị trong một phiên làm việc. Giống như mình làm một ứng dụng shopping cart . Khi người dùng chọn 1 sản phẩm thì mình dùng session mình lưu lại. Khi khách hàng thanh toán giỏ hàng thì mình lấy hết tất cả các mặt hàng chứa trong session ra và tính toán
+Chúng ta sử dụng <b>@SessionAttribute</b> để lưu trữ các giá trị trong một phiên làm việc. Giống như mình làm một ứng dụng shopping cart . Khi người dùng chọn 1 sản phẩm thì mình dùng session mình lưu lại. Khi khách hàng thanh toán giỏ hàng thì mình lấy hết tất cả các mặt hàng chứa trong session ra và tính toán
 
 {% highlight java linenos %}
 @Controller

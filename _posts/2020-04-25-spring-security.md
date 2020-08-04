@@ -13,7 +13,7 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, bạn đang gặp rắc rối với Spring Security? bạn không hiểu luồng đi của ứng dụng ?
+Chào bạn, bạn đang gặp rắc rối với <b>Spring Security</b>? bạn không hiểu luồng đi của ứng dụng ?
 bạn đang quan tâm trong thực tế mình sẽ áp dụng như thế nào ? Hôm nay anh sẽ hướng dẫn mọi người cách sử dung Spring security.
 Bài viết sẽ đi qua các nội dụng sau đây
 
@@ -38,9 +38,9 @@ vào trang web tương ứng. Ví dụ.
 <br>
 # **2. Các khái niệm về Spring Security**
 
-- Authentication : Khi nói về authentication là ta nói về chức năng đăng nhập vào hệ thống. Authentication nghĩa là bạn có phải là người dùng của hệ thống hay không.
+- <b>Authentication</b> : Khi nói về authentication là ta nói về chức năng đăng nhập vào hệ thống. Authentication nghĩa là bạn có phải là người dùng của hệ thống hay không.
 
-- Authorization  : Khi nói về authorization ta nói về quyền hạn được phép làm gì ? Trong ví dụ trên mình có user và admin . Bước đầu tiên họ phải authentication .
+- <b>Authorization</b> : Khi nói về authorization ta nói về quyền hạn được phép làm gì ? Trong ví dụ trên mình có user và admin . Bước đầu tiên họ phải authentication .
 xát thực mình là user trong hệ thống . Tiếp đến tuỳ vào role của mình là admin hay user mà mình chỉ có quyền truy cập một số trang nhất định thuộc thẩm quyền của mình.
 
 <br>
@@ -58,13 +58,13 @@ Luồng đi của ứng dụng mình như sau.
 <br>
 #### Bước 1 . Chuẩn bị database để lưu thông tin user và quyền
 
-Mình dùng database để lưu thông tin người dùng và role (vai trò,được phép làm gì). Phục vụ cho việc truy vấn username và role có hợp lệ hay không .
+Mình dùng database để lưu <b>thông tin người dùng</b> và <b>role</b> (vai trò,được phép làm gì). Phục vụ cho việc truy vấn username và role có hợp lệ hay không .
 
 {:refdef: style="text-align: center;"}
 ![Database  ](/images/post/spring/security_db.png){:class="img-responsive"}
 {: refdef}
 
-Như vậy để làm ứng dụng spring security mình sẽ lưu user name và quyền vào trong database. Anh sẽ giải thích ý nghĩa của từng bảng.
+Như vậy để làm ứng dụng <b>spring security</b> mình sẽ lưu user name và quyền vào trong database. Anh sẽ giải thích ý nghĩa của từng bảng.
 
 1. Table APP_USER  dùng để lưu thông tin username và passwor . Khi người dùng đăng nhập họ truyền user name và password vào form sau đó code của mình sẽ query
 trong databaPPse xem là username và password có đúng như trong database không ?d Bước này chính là authentication.
@@ -89,7 +89,7 @@ Nếu chạy script xong thì mình sẽ có 2 users sau :
 <br>
 #### Bước 2. Thêm dependencies cần thiết trong pom.xml
 
-Chúng ta thêm các dependencies spring security, thymeleaf, mysql connector và jpa.  
+Chúng ta thêm các dependencies <b>spring security</b>, <b>thymeleaf</b>, <b>mysql connector</b> và <b>jpa</b>.  
 
 {% highlight java linenos %}
 
@@ -151,7 +151,7 @@ Khi người dùng click vào nút submit thì action mình dùng là /j_spring_
 #### Bước 4. Tạo file WebSecurityConfig để cấu hình  cho Spring security .
 
 Các bạn có thể tìm thấy file đó ở github ở trên trong thư mục configure/WebSecurityConfig.
-File WebSecurityConfig sẽ kế thừa WebSecurityConfigurerAdapter để mình tuỳ chỉnh các cấu hình security cho ứng dụng của mình.
+File WebSecurityConfig sẽ kế thừa <b>WebSecurityConfigurerAdapter</b> để mình tuỳ chỉnh các cấu hình security cho ứng dụng của mình.
 Giờ a sẽ giải thích nhiệm vụ của các method.
 
 1. Method mà chúng ta xem xét đầu tiên là : protected void configure(HttpSecurity http) throws Exception .
@@ -239,7 +239,7 @@ Username này là ai trong hệ thống , UserName này có quyền gì. Chúng 
 <br>
 #### Bước 5. Tạo UserDetailsServiceImpl
 
-File này sẽ implement UserDetailsService của Spring và định nghĩa cách kiểm tra username , password và quyền của user có hợp lệ hay không
+File này sẽ implement <b>UserDetailsService</b> của Spring và định nghĩa cách kiểm tra username , password và quyền của user có hợp lệ hay không
 Khi user login vào hệ thống ta sẽ query xuống database để kiểm tra user có đúng trong database không và quyền là gì ?
 
 {% highlight java linenos %}

@@ -13,7 +13,7 @@ youtubeId: bilwK0K9qoc
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về các cách để query dữ liệu từ database thông qua Spring Data JPA. Nội
+Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về các cách để query dữ liệu từ database thông qua <b>Spring Data JPA</b>. Nội
 dung sẽ xoay quanh các vấn đề  
 
 - Annotation @Query
@@ -45,7 +45,7 @@ public class PhongBan implements Serializable {
 <br>
 # **1. Sử dung @Query để lấy dữ liệu trong table Department ?**
 
-- Sử dụng JPQL
+- Sử dụng <b>JPQL</b>
 
 {% highlight java  linenos %}
 @Transactional
@@ -56,7 +56,7 @@ public interface PhongBanAnnotationRepository extends JpaRepository<PhongBan,Int
 }
 {% endhighlight %}
 
-- Sử dụng Native Query
+- Sử dụng <b>Native Query</b>
 
 {% highlight java  linenos %}
 @Query(
@@ -67,7 +67,7 @@ Collection<PhongBan> findAllPhongBan();
 
 Để sử dung câu query thuần giống như ta thực hiện câu select trong database thì mình thêm tham số nativeQuery = true
 
-- Tham số Index trong câu Query
+- Tham số <b>Index</b> trong câu Query
 
 {% highlight java  linenos %}
 @Query("select phongban from PhongBan phongban where phongban.name = ?1")
@@ -84,7 +84,7 @@ chúng ta có nhiều tham số ví dụ
 
 Lúc đó ?1 sẽ bằng tham số tenphongban và ?2 bằng code. Như vậy dùng ? để chỉ ra thứ tự các tham số trong method tương ứng với vị trí trong câu query
 
-- Tham số Name trong câu Query
+- Tham số <b>Name</b> trong câu Query
 
 {% highlight java  linenos %}
 @Query("SELECT nguoidung FROM NguoiDung nguoidung WHERE nguoidung.status = :status and nguoidung.name = :name")
@@ -101,7 +101,7 @@ Trong database chúng ta có toán tử IN và NOT IN như sau
 SELECT nguoidung FROM NguoiDung nguoidung WHERE nguoidung.name IN :names
 {% endhighlight %}
 
-Để sử dụng được toán tử IN trong JPQL Query thì ta sử dụng tham số là Collection như sau
+Để sử dụng được toán tử IN trong <b>JPQL Query</b> thì ta sử dụng tham số là Collection như sau
 
 {% highlight java  linenos %}
 @Query(value = "SELECT nguoidung FROM NguoiDung nguoidung WHERE nguoidung.name IN :names")
@@ -111,7 +111,7 @@ List<User> findUserByNameList(@Param("names") Collection<String> names);
 <br>
 # **2. Sử dung Query Creation**
 
-Spring Data JPA hỗ trở cho chúng ta sẳn các phương thức để truy cập xuống database. Chúng ta chỉ cần kế thừa JPARepository và sau đó có thể sử dụng các phương thức mà JPA cung cấp đề lấy dữ liệu từ database.
+<b>Spring Data JPA</b> hỗ trở cho chúng ta sẳn các phương thức để truy cập xuống database. Chúng ta chỉ cần kế thừa JPARepository và sau đó có thể sử dụng các phương thức mà JPA cung cấp đề lấy dữ liệu từ database.
 
 {% highlight java  linenos %}
 public interface PhongBanQueryCreationRepository extends JpaRepository<PhongBan,Integer> {
@@ -134,7 +134,7 @@ public interface PhongBanQueryCreationRepository extends JpaRepository<PhongBan,
 }
 {% endhighlight %}
 
-Trong đó findBy là từ khoá mà JPA cung cấp cho mình sau từ findBy là tên column có trong database. Ví dụ findByName tìm kiếm các user có tên là tham số name truyền vào. Trong đó findBy là từ khoá của JPA và Name chính là tên column trong database. Ngoài findBy thì JPA còn hỗ trợ nhiều phương thức khác nữa có thể xem ở đây
+Trong đó <b>findBy</b> là từ khoá mà JPA cung cấp cho mình sau từ findBy là tên column có trong database. Ví dụ findByName tìm kiếm các user có tên là tham số name truyền vào. Trong đó findBy là từ khoá của JPA và Name chính là tên column trong database. Ngoài findBy thì JPA còn hỗ trợ nhiều phương thức khác nữa có thể xem ở đây
 
 <br>
 # **3. Sử dung @NameQuery trong Entiry**
@@ -160,7 +160,7 @@ public class NhanVien {
  }
 {% endhighlight %}     
 
-Như các em thấy trong Class Entity mình sử dụng @NameQuery để tạo câu lệnh select. Chú ý cho anh chổ @NamedQuery(name = "NhanVien.fetchByLastNameLength") Để gọi được câu lệnh này thì nơi chỗ JPA Repository ta phải có phương thức (fetchByLastNameLength) giống y chang vậy.
+Như các em thấy trong Class Entity mình sử dụng <b>@NameQuery</b> để tạo câu lệnh select. Chú ý cho anh chổ @NamedQuery(name = "NhanVien.fetchByLastNameLength") Để gọi được câu lệnh này thì nơi chỗ JPA Repository ta phải có phương thức (fetchByLastNameLength) giống y chang vậy.
 
 {% highlight java  linenos %}
 @Repository
@@ -177,7 +177,7 @@ public interface NhanVienRepository extends JpaRepository<Employee,Long>, Employ
 phongBanRepository.findAll(new Sort(Sort.Direction.ASC, "name"));
 {% endhighlight %}
 
-Dòng new Sort(Sort.Direction.ASC, "name") nghĩa là chúng ta muốn sắp xếp dữ liệu ở cột name theo chiều hướng tăng dần. Nếu muốn sắp xếp name theo chiều hướng giảm dần thì ta dùng new Sort(Sort.Direction.DESC, "name")
+Dòng <b>new Sort(Sort.Direction.ASC, "name")</b> nghĩa là chúng ta muốn sắp xếp dữ liệu ở cột name theo chiều hướng tăng dần. Nếu muốn sắp xếp name theo chiều hướng giảm dần thì ta dùng new Sort(Sort.Direction.DESC, "name")
 
 <br>
 # **5. Sử dụng annotation @Modifying để cập nhật dữ liệu**
@@ -201,7 +201,7 @@ int updateUserNative(Integer status, String name);
 <br>
 # **6. Sử dụng annotation @Modifying để insert dữ liệu**
 
-Trong spring data jpa chúng ta dùng hàm save() có sẳn để insert dữ liệu xuống database. Trong trường hợp dùng native query thì chúng ta phải kết hợp @Modifiying và câu lệnh Insert chung với nhau vì Spring Data JPA chúng ta đang dùng không hổ trợ Insert
+Trong <b>spring data jpa</b> chúng ta dùng hàm save() có sẳn để insert dữ liệu xuống database. Trong trường hợp dùng native query thì chúng ta phải kết hợp <b>@Modifiying</b> và câu lệnh Insert chung với nhau vì Spring Data JPA chúng ta đang dùng không hổ trợ Insert
 
 {% highlight java  linenos %}
 @Modifying
@@ -215,7 +215,7 @@ void insertNhanVien(@Param("name") String name, @Param("age") Integer age,
 
 # **7. Sử dụng Pageable để phân trang**
 
-Chúng ta sử dụng Pageable để lấy một tập hợp con trong database. Ví dụ như trong database có 100 dòng. Ta chỉ muốn lấy từ dùng 1 cho tới dòng 10. Để làm được như vậy chúng ta sẽ sử dụng đối tượng PageRequestObject để khai báo số lượng dòng mà ta muốn trả về , sau đó truyền đối tượng PageRequestObject vào câu lệnh truy vấn.
+Chúng ta sử dụng <b>Pageable</b> để lấy một tập hợp con trong database. Ví dụ như trong database có 100 dòng. Ta chỉ muốn lấy từ dùng 1 cho tới dòng 10. Để làm được như vậy chúng ta sẽ sử dụng đối tượng <b>PageRequestObject</b> để khai báo số lượng dòng mà ta muốn trả về , sau đó truyền đối tượng PageRequestObject vào câu lệnh truy vấn.
 
 {% highlight java  linenos %}
 Pageable first10PageWithTwoElements = PageRequest.of(0, 10);

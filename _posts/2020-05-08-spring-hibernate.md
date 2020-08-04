@@ -23,25 +23,25 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 <br>
 # **1. Giới thiệu Hibernate**
 
-Như các em biết để hiển thị được dữ liệu lưu trữ trong cơ sở dữ liệu (database) ra cho người dùng thì mình phải thao tác xuống database như kết nối vào database .Sau đó thực hiện các câu lệnh truy vấn như select , insert, update , join các bảng .Cuối cùng là lấy dữ liệu từ database về và xử lý. Trong lập trình java mình may mắn có một framework giúp mình làm được tất cả các việc đó. Nó chính là  Hibernate.
+Như các em biết để hiển thị được dữ liệu lưu trữ trong cơ sở dữ liệu (database) ra cho người dùng thì mình phải thao tác xuống <b>database</b> như kết nối vào database .Sau đó thực hiện các <b>câu lệnh truy vấn</b> như select , insert, update , join các bảng .Cuối cùng là lấy dữ liệu từ database về và xử lý. Trong lập trình java mình may mắn có một <b>framework</b> giúp mình làm được tất cả các việc đó. Nó chính là  <b>Hibernate</b>.
 
-Vì sao ta nên sử dụng framework , bởi vì nó đã có sẳn các thư viện như kết nối xuống database, thực hiện các câu truy vấn chúng ta chỉ sử dụng các thư việc có sẳn mà framework cung cấp và nhiệm vụ của chúng ta chỉ tập trung vào xử lý các nghiệp vụ của phần mềm.
+Vì sao ta nên sử dụng framework , bởi vì nó đã có sẳn các thư viện như kết nối xuống database, thực hiện các <b>câu truy vấn</b> chúng ta chỉ sử dụng các thư việc có sẳn mà framework cung cấp và nhiệm vụ của chúng ta chỉ tập trung vào xử lý các nghiệp vụ của phần mềm.
 
-Hibernate là một framework được sử dụng ở tầng Persistence. Tầng Persisten có nghĩa là lưu trử và sử lý dữ liệu trong một khoảng thời gian dài. Hibernate là mã nguồn mở , ta có thể nhúng vào dự án và dùng không phải trả tiền
+<b>Hibernate</b> là một framework được sử dụng ở tầng <b>Persistence</b>. Tầng Persisten có nghĩa là lưu trử và sử lý dữ liệu trong một khoảng thời gian dài. Hibernate là mã nguồn mở , ta có thể nhúng vào dự án và dùng không phải trả tiền
 
 Các chức năng được hỗ trợ khi ta sử dụng Hibernate
 
-- Auto DDL : DDL có nghĩa là các câu lệnh định nghĩa cấu trúc để lưu trữ dữ liệu như create table , columns , kiểu dữ liệu trong database. Hiberate có thể tự động tạo table, columns, kiểu dữ liệu thông qua các annotaion mà ta thêm trong Entity mà ta không cần phải vào database tạo các table , column bằng tay
+- Auto DDL : DDL có nghĩa là các câu lệnh <b>định nghĩa cấu trúc</b> để lưu trữ dữ liệu như create table , columns , kiểu dữ liệu trong database. Hiberate có thể tự động tạo table, columns, kiểu dữ liệu thông qua các annotaion mà ta thêm trong Entity mà ta không cần phải vào database tạo các table , column bằng tay
 
-- Auto Primary Key : Trong database để đánh dấu một trường là khoá chính thì ta phải làm bằng tay hoặc viết câu lệnh SQL để đánh dấu một trường là khoá chính của table. Hibernate có thể làm việc này một cách tự động
+- Auto Primary Key : Trong database để đánh dấu một trường là <b>khoá chính</b> thì ta phải làm bằng tay hoặc viết câu lệnh SQL để đánh dấu một trường là khoá chính của table. Hibernate có thể làm việc này một cách tự động
 
-- HQL query : Để thực hiện các câu lệnh truy vấn và thao tác dữ liệu thì ta dùng cú pháp HQL (Hibernate Query Language) để lấy dữ liệu ra thay vì viết câu lệnh SQL như select * from table . Mà chúng ta có thể viết bằng ngôn ngữ HQL như select customer from customer customer . Khi sử dụng HQL thì ta không phụ thuộc vào database đang sử dụng là gì vì câu lệnh HQL nó tương thích với các database quan hệ khác nhau như mysql , postgress .Giúp chúng ta không phụ thuộc vào database.
+- HQL query : Để thực hiện các <b>câu lệnh truy vấn và thao tác dữ liệu</b> thì ta dùng cú pháp HQL (Hibernate Query Language) để lấy dữ liệu ra thay vì viết câu lệnh SQL như select * from table . Mà chúng ta có thể viết bằng ngôn ngữ HQL như select customer from customer customer . Khi sử dụng HQL thì ta không phụ thuộc vào database đang sử dụng là gì vì câu lệnh HQL nó tương thích với các database quan hệ khác nhau như mysql , postgress .Giúp chúng ta không phụ thuộc vào database.
 
-- Hibernate Cache : giúp chúng ta có thể cache lại câu truy vấn mà không phải thực hiện thao tác, truy xuất xuống database nhiều lần. A ví dụ như câu select * from customer trả về 1000 kết quả. những kết quả này sẽ được lưu lại trong bộ nhớ. Khi có câu lại có câu lệnh select * from customer lần nữa. Vì nó đã lưu kết quả trong bộ nhớ nên nó sẽ trả về 1000 kết quả giống lần đầu tiên vì câu query giống nhau. Như vậy các em thấy dù có 1000 câu truy vấn thì Hibernate chỉ kết nối xuống database lần đầu tiên thôi. Điều này giúp cho ứng dụng nhanh hơn vì không phải mất thời gian kết nối xuống database và thực hiện truy vấn thêm nữa.
+- Hibernate Cache : giúp chúng ta có thể <b>cache (lưu lại câu query)</b> lại câu truy vấn mà không phải thực hiện thao tác, truy xuất xuống database nhiều lần. A ví dụ như câu select * from customer trả về 1000 kết quả. những kết quả này sẽ được lưu lại trong bộ nhớ. Khi có câu lại có câu lệnh select * from customer lần nữa. Vì nó đã lưu kết quả trong bộ nhớ nên nó sẽ trả về 1000 kết quả giống lần đầu tiên vì câu query giống nhau. Như vậy các em thấy dù có 1000 câu truy vấn thì Hibernate chỉ kết nối xuống database lần đầu tiên thôi. Điều này giúp cho ứng dụng nhanh hơn vì không phải mất thời gian kết nối xuống database và thực hiện truy vấn thêm nữa.
 
-- Hibernate hỗ trợ ORM mapping . Các em có thể xem lại bài blog về ORM anh đã viết để nắm rõ thêm ORM là gì ?
+- Hibernate hỗ trợ <b>ORM mapping</b>. Các em có thể xem lại bài blog về ORM anh đã viết để nắm rõ thêm ORM là gì ?
 
-- Hầu hết các dự án Java ngày nay đều sử dụng Spring Data JPA kết hợp với Hibernate như một công cụ để thao tác giữa ứng dụng của mình và database
+- Hầu hết các dự án Java ngày nay đều sử dụng <b>Spring Data JPA</b> kết hợp với <b>Hibernate</b> như một công cụ để thao tác giữa ứng dụng của mình và database
 
 <br>
 # **2. Cấu hình Hibernate với Spring**
@@ -78,7 +78,7 @@ Các chức năng được hỗ trợ khi ta sử dụng Hibernate
 
 #### Bước 2 : Tạo file khai báo kết nối database
 
-Chúng ta tạo file persistence-mysql.properties khai báo username , database trong file properties. Khi spring chạy nó sẽ vào đây dể biết được phải kết nối database ở đâu .   
+Chúng ta tạo file <b>persistence-mysql.properties</b> khai báo username , database trong file properties. Khi spring chạy nó sẽ vào đây dể biết được phải kết nối database ở đâu .   
 
 {% highlight java linenos %}
 # jdbc.X
@@ -185,7 +185,7 @@ public class Employee {
 
 #### Bước 5. Sử dụng truy vẫn dữ liệu
 
-Chúng ta sử dụng sessionFactory để mở kết nối và thực hiện các câu lệnh truy vấn xuống database.
+Chúng ta sử dụng <b>sessionFactory</b> để mở kết nối và thực hiện các câu lệnh truy vấn xuống database.
 
 {% highlight java linenos %}
 public abstract class HibernateDAO{
@@ -285,14 +285,14 @@ public abstract class HibernateDAO{
 <br>
 # **3. Kết luận**
 
-Để kết nối và thao tác với database chúng ta có thể dùng Hibernate framework để mình truy xuất và thao tác các dữ liệu. Ngoài Hibernate thông thường các dự án Spring thì mình dùng Spring Data JPA (bài JPA là gì mọi người có thể tham khảo bài viết trước của anh).
+Để kết nối và thao tác với <b>database</b> chúng ta có thể dùng <b>Hibernate framework</b> để mình truy xuất và thao tác các dữ liệu. Ngoài Hibernate thông thường các dự án Spring thì mình dùng Spring Data JPA (bài JPA là gì mọi người có thể tham khảo bài viết trước của anh).
 
 Vậy Hibernate và Spring Data JPA thì khác biệt gì nhau. Trước tiên chúng ta phải hiểu các khái niệm sau
 
-JPA : Java Persistence API , cung cấp các chuẩn để kết nối database , truy vấn dữ liệu, lưu trữ dữ liệu.
+JPA : <b>Java Persistence API</b>, cung cấp các chuẩn để kết nối database , truy vấn dữ liệu, lưu trữ dữ liệu.
 
-Hibernate là một trong số provider (nhà cung cấp dịch vụ trong việc thao tác với database) cài đặt và tuân thủ các chuẩn JPA để thao tác , lưu trữ và truy xuất dữ liệu
+<b>Hibernate</b> là một trong số <b>provider</b> (nhà cung cấp dịch vụ trong việc thao tác với database) cài đặt và tuân thủ các chuẩn JPA để thao tác , lưu trữ và truy xuất dữ liệu
 
-Spring JPA : là một tầng được xây dựng ở trên JPA. Nó abstract (trừa tượng hoá các thư viện). Chúng ta chỉ cần dùng và tập trung và nghiệp vụ giúp chúng ta dể dàng quản lý, maintain code.
+<b>Spring JPA</b> : là một tầng được xây dựng ở trên JPA. Nó abstract (trừa tượng hoá các thư viện). Chúng ta chỉ cần dùng và tập trung và nghiệp vụ giúp chúng ta dể dàng quản lý, maintain code.
 
 Thông thường ở dự án Spring mình kết hợp cả 2. Mình sử dụng Hibernate là provider cho ORM , các validation và kết hợp với Spring Data JPA để thao tác với database.

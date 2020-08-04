@@ -13,7 +13,7 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, chủ để hôm nay chúng ta sẽ tìm hiểu về Maven là gì ? Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
+Chào các em, chủ để hôm nay chúng ta sẽ tìm hiểu về <b>Maven</b> là gì ? Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - Maven là gì ?
 - Repository chứa đựng các thư viện
@@ -23,10 +23,10 @@ Chào các em, chủ để hôm nay chúng ta sẽ tìm hiểu về Maven là g�
 <br>
 # **1. Maven là gì ?**
 
-Maven là một tool ta sử dụng chung với các dự án java . Mục đích chính của Maven dùng để quản lý các thư viện được dùng chung với dự án java.
+<b>Maven</b> là một tool ta sử dụng chung với các dự án java. Mục đích chính của Maven dùng để <b>quản lý các thư viện</b> được dùng chung với dự án java.
 Ví dụ như mình muốn tích hợp chức năng login của facebook vào ứng dụng của mình, thì mình phải nhúng thư viện  của facebook vào dự án của mình.
 Trong trường hợp này mình sử dụng Maven để lấy thư viện facebook và nhúng vào dự án. Từ đó code của mình viết sẽ gọi được các thư viện của facebook.
-Ngoài việc quản lý thư viện và version của thư viện. Thì mình dùng Maven để tự động build dự án của mình , đồng thời mình có thể thực hiện các lệnh maven để deploy sản phẩm của mình lên các con server khác nhau
+Ngoài việc quản lý thư viện và version của thư viện. Thì mình dùng <b>Maven để tự động build dự án</b> của mình, đồng thời mình có thể thực hiện các lệnh maven để deploy sản phẩm của mình lên các con server khác nhau
 
 <br>
 # **2. Khai báo dependency trong POM**
@@ -138,14 +138,14 @@ Ví dụ như mình search từ khoá facebook api để lấy các thư viện 
 
 
 
-Ngoài ra mình có thể hoàn toàn tự build hệ thống maven reposioty ở local cho team mình dùng. Không cần public gói thư viện đó ra cho tất cả mọi người. Vì có những dự án bảo mật thì các gói thư viện mà team mình xây dựng chỉ phục vụ cho team nội bộ không công khai ra ngoài.
+Ngoài ra mình có thể hoàn toàn tự build hệ thống <b>maven reposioty</b> ở local cho team mình dùng. Không cần public gói thư viện đó ra cho tất cả mọi người. Vì có những dự án bảo mật thì các gói thư viện mà team mình xây dựng chỉ phục vụ cho team nội bộ không công khai ra ngoài.
 
 Nếu mình muốn xây dựng một hệ thống giống https://mvnrepository.com để quản lý các file thư viện và các phiên bản, mình hoàn toàn làm được.
-Trong các dự án của mình anh sẽ build một hệ thống local tên Nexus. Nó giống như một con server riêng chỉ team anh dùng, các thư viện , các phiên bản đều được quản lý bằng con Nexus này.
+Trong các dự án của mình anh sẽ build một hệ thống local tên <b>Nexus</b>. Nó giống như một con server riêng chỉ team anh dùng, các thư viện, các phiên bản đều được quản lý bằng con Nexus này.
 
 <br>
 # **4. Kết luận**
 
-Hầu hết các dự án Java đều sử dụng maven để quản lý thư viện, xây dựng quy trình build dự án và triển khai dự án một cách tự động. Nhờ có maven mà việc quản lý thư viện trong dự án trở nên dể dàng và linh hoạt hơn. Ngoài maven thì chúng ta còn có thể những thằng khác tương tự như gradle hoặc Ivy.
+Hầu hết các dự án Java đều sử dụng <b>maven</b> để quản lý thư viện, xây dựng quy trình build dự án và triển khai dự án một cách tự động. Nhờ có maven mà việc quản lý thư viện trong dự án trở nên dể dàng và linh hoạt hơn. Ngoài maven thì chúng ta còn có thể những thằng khác tương tự như gradle hoặc Ivy.
 
 

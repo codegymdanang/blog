@@ -12,8 +12,8 @@ youtubeId: 4dQlWJQ7ZQo
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ đề hôm nay của anh là về JPA ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
-Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong database.Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
+Chào các em ,chủ đề hôm nay của anh là về <b>JPA</b> ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
+Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong <b>database</b>. Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - ORM là gì ?
 - Các nhà cung cấp ORM trong java.
@@ -25,9 +25,9 @@ Chào các em ,chủ đề hôm nay của anh là về JPA ? Anh sẽ giải th�
 <br>
 # **1. ORM là gì ?**
 
-ORM là viết tắt của Object Relational Mapping, là một quá trình ánh xạ (chuyển đổi) dữ liệu từ ngôn ngữ hướng đối tượng sang Database quan hệ và ngược lại.
-ORM giúp mình ánh xạ các tables,column,kiểu dữ liệu và mối quan hệ (1-1,1-n,n-n) trong database thành các Class và thuộc tính trong Java.
-Anh lấy ví dụ .Trong database mình có table (person)  và các trường (id kiểu Integer , name kiểu varchar ) như sau.
+<b>ORM</b> là viết tắt của Object Relational Mapping, là một quá trình ánh xạ (chuyển đổi) dữ liệu từ ngôn ngữ <b>hướng đối tượng</b> sang <b>Database</b> quan hệ và ngược lại.
+ORM giúp mình ánh xạ các <b>tables,column,kiểu dữ liệu và mối quan hệ</b> (1-1,1-n,n-n) trong database thành các Class và thuộc tính trong Java.
+Anh lấy ví dụ. Trong database mình có table (person)  và các trường (id kiểu Integer , name kiểu varchar ) như sau.
 
 {% highlight mysql linenos %}
 CREATE TABLE persons (
@@ -56,7 +56,7 @@ Sau đây là bản mapping các kiểu dữ liệu trong mysql tương ứng v�
 <br>
 # **2. Một số ORM Framework**
 
-Trong Spring thì thường mình  hay sử trong các dự án Java được cung cấp bởi nhà cung cấp sau.
+Trong <b>Spring</b> thì thường mình  hay sử trong các dự án Java được cung cấp bởi nhà cung cấp sau.
 
 - JPA
 - Hibernate
@@ -67,7 +67,7 @@ Trong Spring thì thường mình  hay sử trong các dự án Java được cu
 <br>
 # **3. JPA là gì ?**
 
-JPA viết tắc của từ Java Persitent API . Tầng Persistent có nhiệm vụ thao  tác với database như query lấy dữ liệu , lưu dữ liệu
+<b>JPA</b> viết tắc của từ Java Persitent API . Tầng Persistent có nhiệm vụ thao  tác với database như query lấy dữ liệu , lưu dữ liệu
 xuống database . JPA cung cấp cho mình cơ chế ORM mapping các bảng, column , mối quan hệ trong database thành các lớp java và đồng
 thời cung cấp cho mình các method cần thiết để thao tác  dữ liệu trong database.
 
@@ -86,7 +86,7 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 <br>
 # **5. Hướng dẫn sử dụng JPA thông qua ví dụ**
 
-Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ database và trả kết quả về cho người dùng . Và mình sẽ sử dụng thư viện spring-data-jpa để kết nối và thao tác với database.
+Sau đây mình sẽ làm một ứng dụng đơn giản để lấy dữ liệu từ <b>database</b> và trả kết quả về cho người dùng. Và mình sẽ sử dụng thư viện spring-data-jpa để kết nối và thao tác với database.
 Ngoài ra mọi người có thể xem qua bài viết Hibernate mà anh đã viết để thao tác với database nhé. Source code <a href="https://github.com/codegymdanang/CGDN-SpringBoot-JPA"> tại đây </a>.
 
 
