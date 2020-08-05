@@ -13,7 +13,7 @@ youtubeId: NSFLGrM6pAU
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, có phải bạn đang tự hỏi Json Web Token là gì  không ? Nó mã hoá như thế nào ? Nó khác gì với session và cookie. Và nó được sử dụng ở đâu trong lập trình
+Chào bạn, có phải bạn đang tự hỏi <b>Json Web Token</b> là gì  không ? Nó mã hoá như thế nào ? Nó khác gì với <b>session và cookie</b>. Và nó được sử dụng ở đâu trong <b>lập trình</b>.
 Bài viết hôm nay chúng ta sẽ nói về .
 
 - JSON WEB TOKEN là gì ?
@@ -31,8 +31,8 @@ Hoặc chúng ta sử dụng session và cookie để lưu thông tin cho nhữn
 <br>
 # **2. JSON Web Token là gì**
 
-JSON Web Token (JWT) là 1 tiêu chuẩn mở (RFC 7519) định nghĩa cách thức truyền tin an toàn giữa client và server bằng đối tượng JSON. Thông tin này có thể được xác thực và đánh dấu tin cậy nhờ vào "chữ ký" của nó.
-Phần chữ ký của JWT sẽ được mã hóa nhằm tránh các hacker có thể lấy nó thông qua mạng. Bằng các thuật toán mã hoá có tên gọi là  HMAC hoặc các thuật toán mã hoá dữ liệu là RSA thì dữ liệu chúng ta sẽ được mã hoá trên mạng , hacker có lấy được cũng khó mà giải mã ra các dữ liệu.
+<b>JSON Web Token (JWT) là 1 tiêu chuẩn mở (RFC 7519)</b> định nghĩa cách thức <b>truyền tin an toàn giữa client và server</b> bằng đối tượng JSON. Thông tin này có thể được xác thực và đánh dấu tin cậy nhờ vào "chữ ký" của nó.
+Phần chữ ký của <b>JWT</b> sẽ được mã hóa nhằm tránh các hacker có thể lấy nó thông qua mạng. Bằng các thuật toán mã hoá có tên gọi là  HMAC hoặc các thuật toán mã hoá dữ liệu là RSA thì dữ liệu chúng ta sẽ được mã hoá trên mạng, hacker có lấy được cũng khó mà giải mã ra các dữ liệu.
 Như vậy mình sẽ yên tâm hơn vì các dữ liệu mình truyền đi đều đã được mã hoá.
 
 <br>
@@ -48,7 +48,7 @@ JWT bao gồm 3 phần và ngăn cách nhau bởi dấu chấm.
 - Payload
 - Signature (chữ ký số )
 
-Ví dụ sau đây là một token được sinh ra.
+Ví dụ sau đây là một <b>token</b> được sinh ra.
 
 eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuZ3V5ZW4iLCJleHAiOjE1Njg3NTAxMTEsImlhdCI6MTU2ODczMjExMX0.mPuurljzpycuyy0d_B0GNVPBz7SEpPCPIoGGy2lUVgJ9rLlRJkDCdG2vwkXITUsJ4dnU5IF178yXv34izGPcpw
 
@@ -84,7 +84,7 @@ Các em có thể kiểm tra token tại trang web sau https://jwt.io
 
 Khi người dùng đăng nhập vào hệ thống. Trong trường hợp này anh đang chọn là người dùng nhập đúng username và password. Khi server đã kiểm tra là ok thì lúc đó server sẽ tạo ra một dãy token ví dụ như eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuZ3V5ZW4iLCJleHAiOjE1Njg3NTAxMTEsImlhdCI6MTU2ODczMjExMX0.mPuurljzpycuyy0d_B0GNVPBz7SEpPCPIoGGy2lUVgJ9rLlRJkDCdG2vwkXITUsJ4dnU5IF178yXv34izGPcpw
 
-Dãy token này là duy nhất và không bị trùng lập. Đồng thời không thể dịch ngược lại được các thông tin mà đã mã hoá. Sau đó server sẽ gửi trả token này về lại cho client.
+<b>Dãy token này là duy nhất và không bị trùng lập</b>. Đồng thời không thể dịch ngược lại được các thông tin mà đã mã hoá. Sau đó server sẽ gửi trả token này về lại cho client.
 
 Tất các các hành động khác của client sau khi login thành công. Thì khi gọi một hành động nào trên server thì client sẽ gửi kèm thêm một thông tin token nữa lên server.
 

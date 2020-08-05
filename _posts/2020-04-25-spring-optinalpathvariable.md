@@ -12,7 +12,7 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ đề hôm nay chúng ta sẽ nói về Spring Optional PathVariable sử dụng như thế nào.
+Chào các em ,chủ đề hôm nay chúng ta sẽ nói về <b>Spring Optional PathVariable</b> sử dụng như thế nào.
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - PathVariable dùng để làm gì ?
@@ -22,8 +22,8 @@ Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ �
 <br>
 # **1. PathVariable dùng để làm gì**
 
-Như các em đã thấy trong bài RequestMaping anh viết lần trước. Chúng ta sử dụng
-@PathVariable để mapping URI mà người dùng nhập trên trình duyệt vào Controller tưng ứng.
+Như các em đã thấy trong bài <b>RequestMaping</b> anh viết lần trước tại [đây](https://levunguyen.com/laptrinhspring/2020/04/15/phan-biet-request-param-va-path-variable/). Chúng ta sử dụng
+<b>@PathVariable</b> để mapping URI mà người dùng nhập trên trình duyệt vào Controller tưng ứng.
 
 Ví dụ anh có một controller có phương thức là getArticle sau.
 

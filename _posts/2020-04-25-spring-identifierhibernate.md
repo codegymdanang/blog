@@ -13,7 +13,7 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,như các em thấy trong các Entity mình annotation @GeneratedValue và nó có các strategy(dịch nôm na là các cách để tạo ra giá trị cho khoá chính) như GenerationType.IDENTITY,sequence-generator. Vậy nó là cái gì thì chủ đề hôm nay chúng ta sẽ nói về các loại Generation trong Hibernate
+Chào các em ,như các em thấy trong các Entity mình annotation <b>@GeneratedValue</b> và nó có các strategy(dịch nôm na là các cách để tạo ra giá trị cho khoá chính) như GenerationType.IDENTITY,sequence-generator. Vậy nó là cái gì thì chủ đề hôm nay chúng ta sẽ nói về các loại Generation trong <b>Hibernate</b>.
 
 - Auto Generation ?
 - Identity Generation ?
@@ -44,7 +44,7 @@ public class Student {
 }
 {% endhighlight %}
 
-Chúng ta sử dụng annotation @GeneratedValue để khai báo cách sinh ra giá trị.
+Chúng ta sử dụng annotation <b>@GeneratedValue</b> để khai báo cách sinh ra giá trị.
 
 Ví dụ sau đây ta khai báo khoá chính là kiểu số. Thì giá trị của trường studentId sẽ tự động tăng dần lên và nó là duy nhất trong table.
 
@@ -65,7 +65,7 @@ public class Course {
 <br>
 # **2. IDENTITY Generation**
 
-Khi sử dụng strategy Identity có nghĩa khoá chính sẽ tự động tăng lên cấp tiến như 1,2,3,4
+Khi sử dụng <b>strategy Identity</b> có nghĩa khoá chính sẽ tự động tăng lên cấp tiến như 1,2,3,4
 
 {% highlight java  linenos %}
 @Entity
@@ -79,14 +79,14 @@ public class Student {
 }
 {% endhighlight %}
 
-Chúng ta sử dụng annotation @GeneratedValue (strategy = GenerationType.IDENTITY) để khai báo cách sinh ra giá trị.
+Chúng ta sử dụng annotation <b>@GeneratedValue (strategy = GenerationType.IDENTITY)</b> để khai báo cách sinh ra giá trị.
 
 Lúc này giá trị cửa studentId sẽ là 1,2,3,4,5 ...
 
 <br>
 # **3. SEQUENCE Generation**
 
-Chúng ta sử dụng sequen-generator để có cấu hình cách tạo ra các giá trị cho khoá chính.
+Chúng ta sử dụng <b>sequen-generator</b> để có cấu hình cách tạo ra các giá trị cho khoá chính.
 Như ta thấy ở ví dụ Identify Generation. Thì thứ tự bắt đầu là 1 , sau đó tăng lên 2,3,4.
 Khi xử dụng sequen-generator ta hoàn toàn có thể thay đổi lại bước nhảy . Như ví dụ bên dưới, ta yêu cầu
 giá trị ban đầu là 4 (@Parameter(name = "initial_value", value = "4"). Và ta muốn mỗi lần tăng là 2 đơn vị
@@ -112,7 +112,7 @@ public class User {
 }
 {% endhighlight %}
 
-- Chúng ta sử dụng annotation @GeneratedValue(generator = "sequence-generator") để sinh ra giấ trị
+- Chúng ta sử dụng annotation <b>@GeneratedValue(generator = "sequence-generator")</b> để sinh ra giấ trị
 
 - sequence_name  : tên sequence
 - initial_value  : giá trị ban đầu
@@ -120,7 +120,7 @@ public class User {
 <br>
 # **4. Table Generation**
 
-Table Generation Strategy cũng gần tương tự như sequence strategy. Nhưng trong phương pháp này ta sử dụng table để hỗ trợ việc tạo ra các giá trị cho trường khoá chính. Anh có ví dụ sau
+<b>Table Generation Strategy</b> cũng gần tương tự như sequence strategy. Nhưng trong phương pháp này ta sử dụng table để hỗ trợ việc tạo ra các giá trị cho trường khoá chính. Anh có ví dụ sau
 
 {% highlight java  linenos %}
 @Entity
@@ -137,13 +137,13 @@ public class Persion {
 - initiaValue=0 Giá trị ban đầu được gán, trong trường hợp này id sẽ bằng 0.
 - allocationSize Giá trị sequence sẽ được sinh ra dựa trên khai báo allocationSize. Mặc định giá trị này là 50. Thì giá trị tăng 50 lần sau mỗi lần gọi. Nếu mình set là allocationSize = 1 thì nó sẽ tự động tăng dần đều.
 
-Sự khác nhau giữa SEQUENCE và Table Generator là giá trị initiaValue. Nếu là SEQUENCE nó sẽ lưu giá trị tiếp theo của dãy số vào table . Còn Table Generator sẽ lưu trữ giá trị cuối cùng đã được sử dụng vào table
+Sự khác nhau giữa SEQUENCE và Table Generator là giá trị initiaValue. Nếu là SEQUENCE nó sẽ lưu giá trị tiếp theo của dãy số vào table. Còn Table Generator sẽ lưu trữ giá trị cuối cùng đã được sử dụng vào table
 
 
 <br>
 # **5. Tự tạo Generation cho chúng ta**
 
-Chúng ta có thể hoàn toàn tự tạo một Generator theo ý của mình bằng cách implements IdentifierGenerator. Ví dụ như
+Chúng ta có thể hoàn toàn tự tạo một Generator theo ý của mình bằng cách implements <b>IdentifierGenerator</b>. Ví dụ như
 ta có thể tạo ra một identifier chứ biểu mẫu chính quy gồm cả String và số . Ta sẽ override lại method generate
 
 {% highlight java  linenos %}
@@ -200,4 +200,4 @@ public class Product {
 <br>
 # **6. Kết luận**
 
-Chúng ta có 4 loại generator chúng trả về kết quả gần như nhau nhưng khác nhau ở cơ chế thực hiện  của database  
+Chúng ta có 4 loại generator chúng trả về kết quả gần như nhau nhưng khác nhau ở cơ chế thực hiện của database  

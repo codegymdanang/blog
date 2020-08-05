@@ -13,7 +13,7 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ đề hôm nay chúng ta sẽ nói về các annotation @OneToMany và @ManyToOne trong Spring  .
+Chào các em ,chủ đề hôm nay chúng ta sẽ nói về các annotation <b>@OneToMany</b> và <b>@ManyToOne</b> trong Spring  .
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - OneToMany là gì  ?
@@ -46,7 +46,7 @@ CREATE TABLE `Items` (
 
 Như vậy mối quan hệ trong database giữa Cart và Item là một nhiều . Column cart_id là khoá chính trong bảng Cart và là khoá phụ trong bảng Items.
 
-Trong Java mình thể hiện mối quan hệ 1 - nhiều qua annotation @OneToMany Ví dụ như ta khai báo lớp Cart có quan hệ một nhiều với lớp Item như sau.
+Trong Java mình thể hiện mối quan hệ 1 - nhiều qua annotation <b>@OneToMany</b>. Ví dụ như ta khai báo lớp Cart có quan hệ một nhiều với lớp Item như sau.
 
 {% highlight java   linenos %}
 public class Cart {
@@ -57,14 +57,12 @@ public class Cart {
 }
 {% endhighlight %}
 
-Chúng ta sử dụng annotation @OneToMany để nói lên mối liên hệ một nhiều. Như ví dụ trên ta có thể thấy 1 giỏ hảng (Cart) có nhiều sản phẩm Items. Ở trên chúng ta sử dụng collection là Set vì chúng ta muốn tập hợp sản phẩm không được trùng lập nhau. Các em có thể sử dụng các tập hợp khác như List , Map cũng được. Tuỳ theo mục đích sử dụng mà mình chọn tập hợp cho đúng
-
-
+Chúng ta sử dụng annotation <b>@OneToMany</b> để nói lên mối liên hệ một nhiều. Như ví dụ trên ta có thể thấy 1 giỏ hảng (Cart) có nhiều sản phẩm Items. Ở trên chúng ta sử dụng collection là Set vì chúng ta muốn tập hợp sản phẩm không được trùng lập nhau. Các em có thể sử dụng các tập hợp khác như List , Map cũng được. Tuỳ theo mục đích sử dụng mà mình chọn tập hợp cho đúng
 
 <br>
 # **2. Triển khai trong Java code
 
-Bây giờ anh sẽ hướng dẫn các bạn xây dựng ứng dụng shopping cart . Sử dụng @OneToMany và @ManyToOne để thiết lập mối quan hệ giữa
+Bây giờ anh sẽ hướng dẫn các bạn xây dựng ứng dụng shopping cart . Sử dụng <b>@OneToMany và @ManyToOne</b> để thiết lập mối quan hệ giữa
 Cart (gio hang) và Item (san phẩm).
 
 <br>
@@ -122,11 +120,10 @@ public class Cart {
 {% endhighlight %}
 
 Chúng ta chú ý, theo yêu cầu thì một giỏ hàng (Cart) sẽ chứa nhiều sản phẩm giống như trong database mô tả . Để làm được việc đó
-Ta sử dụng @OneToMany trong Class Cart, điều đó có nghĩa 1 giỏ hàng sẽ có nhiều sản phẩm (Items) .
+Ta sử dụng <b>@OneToMany</b> trong Class Cart, điều đó có nghĩa 1 giỏ hàng sẽ có nhiều sản phẩm (Items) .
 
-Tiếp đến ta sẽ thấy từ mappedBy = "cart" . MappedBy dùng để đinh nghĩa Class Cart và Class Item sẽ liên kết với nhau thông qua tên "cart".
-Và bắt buộc tên "cart" phải được định nghĩa trong Class Item. MappedBy giống như là 1 cầu nối để ta có thể từ Class Cart mình gọi hàm getItems mình
-sẽ nhận được một danh sách Items
+Tiếp đến ta sẽ thấy từ mappedBy = "cart". <b>MappedBy</b> dùng để đinh nghĩa Class Cart và Class Item sẽ liên kết với nhau thông qua tên "cart".
+Và bắt buộc tên "cart" phải được định nghĩa trong Class Item. MappedBy giống như là 1 cầu nối để ta có thể từ Class Cart mình gọi hàm getItems mình sẽ nhận được một danh sách Items
 
 <br>
 #### Bước 4. Tạo Entity Items
@@ -147,10 +144,10 @@ public class Items {
 }
 {% endhighlight %}
 
-Chúng ta thấy trong lớp Cart chúng ta định nghĩa @OneToMany và mappedBy với  giá trị "cart" để tạo liên kết giữa lớp Cart và Item  . Để liên kết
+Chúng ta thấy trong lớp Cart chúng ta định nghĩa <b>@OneToMany</b> và <b>mappedBy</b> với  giá trị "cart" để tạo liên kết giữa lớp Cart và Item  . Để liên kết
 đó hoạt động thì ta cũng phải cấu hình biến "cart" trong Class Item.
 
-Đầu tiên chúng ta sử dụng  @ManyToOne và @JoinColumn để định nghĩa cho biến cart để tạo sự liên kết ngược lại  giữa Class Items và Cart  .
+Đầu tiên chúng ta sử dụng  @ManyToOne và <b>@JoinColumn</b> để định nghĩa cho biến cart để tạo sự liên kết ngược lại  giữa Class Items và Cart  .
 .Trong @JoinColumn ta định nghĩa name = "car_id" . Cái 'cart_id ' chính là  column khoá phụ trong table Items mà ta định nghĩa trong database . nullable = false là ta ràng buộc dữ liệu không được phép null
 
 <br>
@@ -179,5 +176,3 @@ Chúng ta sẽ lưu giỏ hàng và các sản phẩm xuống database theo các
 
 Như vậy chúng ta sử dụng annotaion @OneToMany và @ManyToOne để thực hiện việc liên kết giữa hai entity với nhau. Trong lập trình sẽ có những lúc khi ta có thể query từ Cart lấy ra tất cả các dòng dữ liệu Items trong Cart đó hoặc sẽ có những trường hợp ngược lại là từ những Items trong Cart đó ta có thể lấy được Cart đó là gì thông qua các Item. Đó chính là Bidirectional chúng ta có thể query Cart lấy Item hoặc query ngược từ Item ra Cart. Để làm được việc này thì ta phải sử dụng @JoinColumn và MappedBy để thực hiện Bidriectional 
 
-
-Để hiểu thêm về mappedBy còn có chức năng nào mới không thì các bạn có thể đọc bài viết sau
