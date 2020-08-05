@@ -13,7 +13,7 @@ youtubeId: 7Wpi_jC8CqA
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, bạn đang học Spring MVC nhưng chưa hiểu luồng đi của ứng dụng nó chạy  như thế nào. Ví dụ như khi người dùng gõ một url như sau vào trình duyệt
+Chào bạn, bạn đang học <b>Spring MVC</b> nhưng chưa hiểu luồng đi của ứng dụng nó chạy  như thế nào. Ví dụ như khi người dùng gõ một url như sau vào trình duyệt
 http://localhost8080 thì ứng dụng mình sẽ chạy qua các tầng nào của springmvc  để trả kết quả là trang home cho người dùng thấy được ?
 Trong bài này anh sẽ hướng dẫn mọi người các bước mà SpringMVC xử lý một request (yêu cầu) từ người dùng. Anh sẽ đi qua các chủ đề sau
 
@@ -68,9 +68,9 @@ Sử dụng XML Configure
 
 2- Cách 2 : Dùng SimpleUrlHandlerMapping
 
-SimpleUrlHandlerMapping thì uyển chuyển hơn BeanNameUrlHandlerMapping. Chúng ta có thể name hoặc url để mapping tới controller tương ứng.
+<b>SimpleUrlHandlerMapping</b> thì uyển chuyển hơn <b>BeanNameUrlHandlerMapping</b>. Chúng ta có thể name hoặc url để mapping tới controller tương ứng.
 
-Ví dụ sử dụng Java Confiure
+Ví dụ sử dụng Java Confiure.
 
 {% highlight java linenos %}
 @Configuration
@@ -133,9 +133,9 @@ và chuyển hoá dữ liệu trong database thành model và trả ngược l�
 	}
 {% endhighlight %}
 
-Chúng ta sử dụng internalResourceViewResolver để cấu hình nơi nào chúng ta đặt các cái view (/WEB-INF/view/). Trang kết quả trả về là html,xml, hoạc jsp (bean.setSuffix(".jsp").
+Chúng ta sử dụng <b>internalResourceViewResolver</b> để cấu hình nơi nào chúng ta đặt các cái view (/WEB-INF/view/). Trang kết quả trả về là html,xml, hoạc jsp (bean.setSuffix(".jsp").
 
-7. Cuối cùng DispatchServlet gửi lại kết quả trang web cho client. Như vậy chúng ta thấy trang web được sinh ra ở phía server sau đó nó mới được gửi lại cho người dùng.
+7. Cuối cùng <b>DispatchServlet</b> gửi lại kết quả trang web cho client. Như vậy chúng ta thấy trang web được sinh ra ở phía server sau đó nó mới được gửi lại cho người dùng.
 
 <br>
 # **2. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**

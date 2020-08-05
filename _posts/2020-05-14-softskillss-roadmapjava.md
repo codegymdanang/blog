@@ -12,7 +12,7 @@ youtubeId: xLFCVXGSlNA
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, hôm nay anh sẽ giới thiệu cho các bạn để trở thành một lập trình viên Java chuyên nghiệp thì mình bắt đầu từ đâu, các công nghệ mà mình cần trang bị.
+Chào các bạn, hôm nay anh sẽ giới thiệu cho các bạn để trở thành một <b>lập trình viên Java</b> chuyên nghiệp thì mình bắt đầu từ đâu, các công nghệ mà mình cần trang bị.
 
 <br>
 # **Con đường trở thành lập trình viên Java**

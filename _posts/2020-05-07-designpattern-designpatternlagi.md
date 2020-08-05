@@ -10,12 +10,12 @@ description : Hiểu design pattern là gì ? vì sao sử dụng design pattern
 ---
 
 # **Giới thiệu nội dung bài viết**
-Chào các e, chủ đề hôm nay của anh sẽ bàn về chủ đề  Design Pattern
+Chào các e, chủ đề hôm nay của anh sẽ bàn về chủ đề  <b>Design Pattern</b>
 
 <br>
 # Design Pattern là gì ?
 
-Design Pattern là một giải pháp cho một vấn đề chung trong thiết kế phần mềm . Nó mô tả cách giải quyết một vấn đề được lập đi lập lại
+<b>Design Pattern</b> là một giải pháp cho một vấn đề chung trong thiết kế phần mềm . Nó mô tả cách giải quyết một vấn đề được lập đi lập lại
 nhiều lần. A lấy ví dụ về giải pháp khi mình thay đổi giá trị trong database thì nó tự động cập nhập giá trị đó lên các giao diện ứng dung
 khác nhau như mobile , web, tivi cùng một lúc. Để giải quyết được vấn đề đó thì người ta áp dụng MVC pattern để giải quyết vấn đề.
 Như vậy người ta áp dụng design pattern để giải quyết cho những vấn đề gặp phải ở nhiều tình huống khác nhau. Ngoài ra có có một chức năng cực quan trong là khi áp dụng design pattern khả năng mở rộng các chức năng ứng dụng rất cao. Ta không phải đập hết code củ để viết lại cái mới mà thay vào đó ta chỉ tạo thêm các Class mới và không xoá đi code củ.
@@ -32,9 +32,9 @@ thiết kế hệ thống của các developer
 
 <br>
 # Các loại design pattern hiện nay
-Design Pattern được chia làm 3 mục chính là : Creational Pattern ( nhóm khởi tạo), Structural (nhóm cấu trúc) và Behavioral patterns (nhóm hành vi ) .
+Design Pattern được chia làm 3 mục chính là : <b>Creational Pattern</b> ( nhóm khởi tạo), <b>Structural </b>(nhóm cấu trúc) và <b>Behavioral</b> patterns (nhóm hành vi ) .
 
-Creational Pattern ( nhóm khởi tạo): Nhóm này sẽ giúp bạn rất nhiều trong việc khởi tạo đối tượng. Nó gồm các design pattern sau. Mỗi loại design sẽ ứng với một mục đích khác nhau. Ứng dụng mỗi design pattern sẽ được miêu tả chi tiết và cụ thể trong các bài viết trong blog.
+<b>Creational Pattern</b> ( nhóm khởi tạo): Nhóm này sẽ giúp bạn rất nhiều trong việc khởi tạo đối tượng. Nó gồm các design pattern sau. Mỗi loại design sẽ ứng với một mục đích khác nhau. Ứng dụng mỗi design pattern sẽ được miêu tả chi tiết và cụ thể trong các bài viết trong blog.
 
 1. Abstract Factory.
 2. Builder.
@@ -49,7 +49,7 @@ Creational Pattern ( nhóm khởi tạo): Nhóm này sẽ giúp bạn rất nhi�
 Vậy khi nào chúng ta dùng design pattern cho nhóm khởi tạo. Khởi tạo ở đây là việc tạo ra một đối tượng. Tại sao trong lập trình mình có thể dùng toán tử new để khai báo ra một đối tượng luôn. Dùng design pattern creation để làm gì? Câu trả lời rất đơn giản, chúng ta hoàn toàn có thể dùng từ khoá new để tạo ra đối tượng, nhưng ứng dụng của chúng ta sẽ không thể mở rộng trong tương lai. Nhiều lúc khi phát triển tính năng mới ta phải đập hết code củ và viết lại một chức năng mới. Trong 10 cách tạo đối tượng ở trên mỗi pattern sẽ có một vai trò , mục đích khác nhau. Tuỳ vào nghiệp vụ của chương trình mà ta có thể chọn pattern đúng để tạo ra các đối tượng giúp cho việc mở rộng sau này được dể dàng.
 
 
-Structural (nhóm cấu trúc): Nhóm này sẽ giúp chúng ta thiết lập, định nghĩa quan hệ giữa các đối tượng. Cấu trúc để tạo đối tượng, chúng ta có 11 design pattern cho việc cấu trúc một đối tượng. 
+<b>Structural</b> (nhóm cấu trúc): Nhóm này sẽ giúp chúng ta thiết lập, định nghĩa quan hệ giữa các đối tượng. Cấu trúc để tạo đối tượng, chúng ta có 11 design pattern cho việc cấu trúc một đối tượng. 
 
 1. Adapter/ Wrapper.
 2.    Bridge.
@@ -69,7 +69,7 @@ Khi nói về cấu trúc của một đối tượng và cách mình tạo ra c
 Như vậy mình phải tìm một cấu trúc để lưu trữ cây gia phả cho hợp lý, có nghĩa là mình dể dàng thêm, sửa, xoá các node trong cây gia phả. Như vậy ta phải tìm ra một cấu trúc linh hoạt, và trong trường hợp này mình dùng Composite design pattern để tạo ra cấu trúc lại các đối tượng trong chức năng của mình.
 
 
-Behavioral patterns (nhóm hành vi): Nhóm này sẽ tập trung thực hiện các hành vi của đối tượng. Chúng ta có các design pattern sau.
+<b>Behavioral</b> patterns (nhóm hành vi): Nhóm này sẽ tập trung thực hiện các hành vi của đối tượng. Chúng ta có các design pattern sau.
 
 1.    Chain Of Responsibilities.
 2.    Command.

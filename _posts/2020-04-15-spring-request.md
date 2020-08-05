@@ -13,7 +13,7 @@ youtubeId: z3ZlVvu1yUY
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn , chắc bạn đang phân vân Request Param và PathVariable có khác gì nhau không ? Khi nào dùng thì bài viết hôm nay
+Chào bạn , chắc bạn đang phân vân <b>Request Param</b> và <b>PathVariable</b> có khác gì nhau không ? Khi nào dùng thì bài viết hôm nay
 anh sẽ trình bày sự khác nhau đó .Chúng ta sẽ thảo luận các vấn đề sau.
 
 - Request Param là gì ?
@@ -24,11 +24,11 @@ anh sẽ trình bày sự khác nhau đó .Chúng ta sẽ thảo luận các v�
 <br>
 # **1. Request Param**
 
-Chúng ta sử dụng Request Param ở controller để lấy giá trị người dùng nhập trên trình duyệt. Ví dụ khi người dùng gõ vào đường link như sau để gửi 2 giá trị 10 và 20 lên server .
+Chúng ta sử dụng <b>Request Param</b> ở controller để lấy giá trị người dùng nhập trên trình duyệt. Ví dụ khi người dùng gõ vào đường link như sau để gửi 2 giá trị 10 và 20 lên server .
 
 http://localhost:8080/springmvc/hello/101?param1=10&param2=20
 
-Phía Controller ta sẽ dùng @RequestParam để bắt lại 2 giá trị 10 và 20 như sau :
+Phía Controller ta sẽ dùng <b>@RequestParam</b> để bắt lại 2 giá trị 10 và 20 như sau :
 
 {% highlight java linenos %}
 public String getDetails(@RequestParam(value="param1", required=true) String param1, @RequestParam(value="param2", required=false) String param2){
@@ -44,7 +44,7 @@ public String getDetails(@RequestParam(value="param1", required=true) String par
 <br>
 # **2. Path Variable**
 
-Sử dụng Path Variable ở Controller để lấy giá trị người dùng nhập trên trình duyệt. Nhưng ở đây mình sẽ không dùng theo định dạng key và value như ?param1=10&param2=20. Mà thay vào đó chúng ta sẽ sử dụng định dạng khác là /param/10.
+Sử dụng <b>Path Variable</b> ở Controller để lấy giá trị người dùng nhập trên trình duyệt. Nhưng ở đây mình sẽ không dùng theo định dạng key và value như ?param1=10&param2=20. Mà thay vào đó chúng ta sẽ sử dụng định dạng khác là /param/10.
 
 Ví dụ khi người dùng nhập vào url sau và muốn truyền 1234 lên Controller thì bên Controller ta sử lý như sau .
 http://localhost:8080/MyApp/user/1234

@@ -12,7 +12,7 @@ youtubeId: r2w7in6xMB4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, chắc hẳn bạn sẽ thắc mắc lập trình viên có giàu không, khả năng lập trình viên kiếm được thu nhập bao nhiêu mỗi tháng. Tại sao nghành lập trình lại rất hot hiện nay. Hôm nay anh sẽ chia sẽ các cách mà anh đã từng làm. Hy vọng qua bài viết này các em có động lực để phát triển và theo đuổi nghề lập trình. Nội dung hôm nay anh sẽ xoay quanh các cách kiếm thu nhập của một lập trình viên
+Chào các bạn, chắc hẳn bạn sẽ thắc mắc <b>lập trình viên</b> có giàu không, khả năng <b>lập trình viên kiếm được thu nhập bao nhiêu mỗi tháng</b>. Tại sao nghành lập trình lại rất hot hiện nay. Hôm nay anh sẽ chia sẽ các cách mà anh đã từng làm. Hy vọng qua bài viết này các em có động lực để phát triển và theo đuổi nghề lập trình. Nội dung hôm nay anh sẽ xoay quanh các cách kiếm thu nhập của một lập trình viên
 
 <br>
 # **1. Nguồn thu nhập 1- Có một công việc ổn định tại một công ty lập trình**

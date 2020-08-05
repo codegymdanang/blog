@@ -14,7 +14,7 @@ youtubeId: WNfuVJptPnQ
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn, bạn đang gặp rắc rối với <b>Spring Security</b>? bạn không hiểu luồng đi của ứng dụng ?
-bạn đang quan tâm trong thực tế mình sẽ áp dụng như thế nào ? Hôm nay anh sẽ hướng dẫn mọi người cách sử dung Spring security.
+bạn đang quan tâm trong thực tế mình sẽ áp dụng như thế nào ? Hôm nay anh sẽ hướng dẫn mọi người cách sử dụng Spring security.
 Bài viết sẽ đi qua các nội dụng sau đây
 
 - Các khái niệm về Spring Security

@@ -12,7 +12,7 @@ youtubeId: tJn3CghXjnA
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, chắc hẳn bạn rất thích lập trình và mong muốn biết được lộ trình sự nghiệp của lập trình viên trong tương lai là như thế nào? Hôm nay anh sẽ chia sẽ với các bạn chủ để sau
+Chào các bạn, chắc hẳn bạn rất thích <b>lập trình</b> và mong muốn biết được lộ trình sự nghiệp của lập trình viên trong tương lai là như thế nào? Hôm nay anh sẽ chia sẽ với các bạn chủ để sau
 
 - Sinh viên cần trang bị các kiến thức gì khi rời ghế nhà trường
 - Mức lương nghành công nghệ thông tin ở các vị trí
@@ -24,7 +24,7 @@ Chào các bạn, chắc hẳn bạn rất thích lập trình và mong muốn b
 
 Các bạn sinh viên hiện nay khi ra trường thường phải được đào tạo lại các công nghệ mà công ty tuyển dụng nơi mà mình làm việc. Thông thường các bạn phải trải qua giai đoạn đào tạo 6 tháng tại công ty thì mới làm được việc. Nguyên nhân do các bạn chưa tiếp cận được công nghệ mới trong quá trình ngồi trên ghế nhà trường dẫn đến bở ngỡ khi đi làm.
 
-Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang đi học trên trường thì cũng phải thường xuyên cập nhật công nghệ mới ngoài kiến thức nhà trường đã trang bị cho các em. Sau đây anh sẽ đưa ra một list các trang web mà có thể giúp mình tiến nhanh trên việc học.
+Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang đi học trên trường thì cũng phải thường xuyên cập nhật công nghệ mới ngoài kiến thức nhà trường đã trang bị cho các em. Sau đây anh sẽ đưa ra một list các trang web mà có thể giúp mình tiến nhanh trên việc <b>tự học lập trình</b>.
 
 1- Các khoá học onine miễn phí
 + Stackoverflow.com
@@ -46,7 +46,7 @@ Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang
 
 # **2. Xu hướng công nghệ các năm tiếp theo**
 
-Trong thời đại 4.0 đang diển ra thì các bạn cũng phải cập nhật công nghệ để bắt kịp thị trường. Trong nghành công nghệ thông tin mình sẽ chú trọng vào 4 công nghệ chính sau đây. Những công nghệ này sẽ đem lại mức lương rất cao.
+Trong thời đại 4.0 đang diển ra thì các bạn cũng phải cập nhật công nghệ để bắt kịp thị trường. Trong nghành <b>công nghệ thông tin</b> mình sẽ chú trọng vào 4 công nghệ chính sau đây. Những công nghệ này sẽ đem lại mức lương rất cao.
 
 1- BlockChain
 

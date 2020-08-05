@@ -13,7 +13,7 @@ youtubeId: ljyqbIo4jbk
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, hôm nay anh sẽ trình bày kỷ thuật để kiểm tra dữ liệu người dùng nhập vào có đúng như định dạng mình mong muốn không ? Nếu
+Chào các bạn, hôm nay anh sẽ trình bày kỷ thuật để <b>kiểm tra dữ liệu</b> người dùng nhập vào có đúng như định dạng mình mong muốn không ? Nếu
 không đúng định dạng mình sẽ thông báo lỗi cho người dùng? Trong Spring thì mình dùng các cách nào để kiểm tra dữ liệu người dùng truyền
 lên là hợp lệ. Nội dung hôm nay sẽ trình bày là
 
@@ -27,7 +27,7 @@ lên là hợp lệ. Nội dung hôm nay sẽ trình bày là
 Cái quý giá và quan trọng nhất đối với một phần mềm đó chính là dữ liệu , thông tin về dữ liệu. Như các e thấy facebook hay google họ nắm
 dữ một lượng người dùng khá lớn , dự vào nguồn dữ liệu đó họ sẽ phát triển các kế hoạch dài hạn và tăng doanh thu cho công ty . Chính vì vậy
 nắm được dữ liệu sẽ là yếu tố quyết định cho sự thành công. Để đảm bảo dữ liệu phải nhập đúng định dạng ví dụ như ngày tháng năm phải theo
-chuẩn la dd/MM/YYYY hoặc trường dữ liệu bắt buộc người dùng nhập vào thì ta sử dụng Spring Validation để làm việc đó . Khi người dùng nhập
+chuẩn la dd/MM/YYYY hoặc trường dữ liệu bắt buộc người dùng nhập vào thì ta sử dụng <b>Spring Validation</b> để làm việc đó. Khi người dùng nhập
 sai định dạnh mình yêu cầu thì mình thông báo lỗi để người dùng nhập lại.
 
 <br>
@@ -68,7 +68,7 @@ public class User {
 }
 {% endhighlight %}
 
-Như ta thấy mình sử dụng các annotaion có sẳng như @NotBlank để ràng buộc không được phép rỗng cho giá trị name.
+Như ta thấy mình sử dụng các annotaion có sẳng như <b>@NotBlank</b> để ràng buộc không được phép rỗng cho giá trị name.
 
 <br>
 - Bước 3 : Sử dụng trong controller
@@ -90,12 +90,12 @@ public class UserController {
 }
 {% endhighlight %}
 
-Như ta thấy trong đoạn code trên ta sử dụng @Valid để kiểm tra dữ liệu người dùng truyền lên có thảo mảng điều kiện ta thiết lập trong Entiry User không ?
+Như ta thấy trong đoạn code trên ta sử dụng <b>@Valid</b> để kiểm tra dữ liệu người dùng truyền lên có thảo mảng điều kiện ta thiết lập trong Entiry User không ?
 Khi tham số trong controller có annotation @Valid nó sẽ tự động bật chế độ kiểm tra dữ liệu theo chuẩn JSR 380 cái mà cài đặt chứa năng kiểm tra
 trong thư viện Hibernate Validator để kiểm tra giá trị.
 
 <br>
-Chúng ta có thể sử dụng annotation @ExceptionHandler cho phép chúng ta bắt lỗi dữ liệu cho từng method.
+Chúng ta có thể sử dụng annotation <b>@ExceptionHandler</b> cho phép chúng ta bắt lỗi dữ liệu cho từng method.
 
 {% highlight java linenos %}
 @ResponseStatus(HttpStatus.BAD_REQUEST)

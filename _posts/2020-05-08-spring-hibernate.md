@@ -12,7 +12,7 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về Hibernate .
+Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>Hibernate</b> .
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - Hibernate là gì ?

@@ -13,7 +13,7 @@ youtubeId: r2w7in6xMB4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, chắc hẳn bạn sẽ thắc mắc học lập trình nên bắt đầu như thế nào? Cần có những yếu tố gì để giúp mình trở thành một lập trình viên. Hôm nay anh sẽ chia sẽ cho các bạn chuẩn bị học lập trình nên trang bị những gì?
+Chào các bạn, chắc hẳn bạn sẽ thắc mắc <b>học lập trình nên bắt đầu như thế nào</b>? Cần có những yếu tố gì để giúp mình trở thành một lập trình viên. Hôm nay anh sẽ chia sẽ cho các bạn chuẩn bị <b>học lập trình nên trang bị những gì</b>?
 
 - Định nghĩa đam mê về lập trình
 - Lập trình là gì
@@ -25,18 +25,18 @@ Chào các bạn, chắc hẳn bạn sẽ thắc mắc học lập trình nên b
 <br>
 # **1. Định nghĩa đam mê về lập trình**
 
-Trước khi bắt đầu sẳn sàng cho học lập trình. Anh muốn các bạn xát định rõ tại sao mình học lập trình.
+Trước khi bắt đầu sẳn sàng cho <b>học lập trình</b>. Anh muốn các bạn xát định rõ tại sao mình học lập trình.
 
 Anh lấy ví dụ như mình thích chơi game vì nó quá hay và cuốn hút mình dẫn đến việc mình đam mê nó, dành nhiều thời gian cho nó và mục đich của mình là trở thành cao thủ trong cái game mà mình đang chơi. Như vậy từ việc thích nó sẽ dẫn tới việc đam mê nó . Từ việc mong muốn trở thành cao thủ trong trò chơi dẫn tới mình đam mê nó.
 
-Một số bạn bắt đầu học lập trình  vì mình thích làm các ứng dụng , thích làm các phần mềm để giải quyết các công việc cá nhân hoặc thích làm các phần mềm vì các bạn thích viết code. Từ việc thích làm một điều gì đó dẫn tới các bạn đam mê và dành thời gian cho nó hơn bất cứ việc khác. Có một số bạn khác không thích lập trình nhưng vì mong muốn có một cuộc sống ổn định hơn , mong muốn có thu nhập tốt hơn dẫn đến mong muốn chuyển qua học lập trình. Vì quyết tâm cao là phải trở lập trình viên ,dẫn đến các bạn  dành nhiều thời gian và dần dần đam mê nó.  
+Một số bạn <b>bắt đầu học lập trình</b>  vì mình thích làm các ứng dụng , thích làm các phần mềm để giải quyết các công việc cá nhân hoặc thích làm các phần mềm vì các bạn thích viết code. Từ việc thích làm một điều gì đó dẫn tới các bạn đam mê và dành thời gian cho nó hơn bất cứ việc khác. Có một số bạn khác không thích lập trình nhưng vì mong muốn có một cuộc sống ổn định hơn , mong muốn có thu nhập tốt hơn dẫn đến mong muốn chuyển qua học lập trình. Vì quyết tâm cao là phải trở lập trình viên ,dẫn đến các bạn  dành nhiều thời gian và dần dần đam mê nó.  
 
-Đam mê chính là yếu tố quan trọng nhất khi mình bắt đầu học lập trình. Nghề lập trình thì phải học cả đời từ lúc là lập trình viên tới lúc mình nghỉ hưu, vì công nghệ và kỷ thuật lập trình luôn luôn thay đổi và có cái mới do đó bắt buộc mình phải học để nâng cao bản thân. Nếu không có đam mê thì mình có thể bỏ cuộc giữa chừng như vậy mình sẽ rất lảng phí thời gian. Nếu không có đam mê anh nghĩ mình hãy chọn một ngành nghề mới để kinh doanh. Chắc chắn làm giàu không chỉ có bằng nghề lập trình mà còn các công việc khác giúp chúng ta làm giàu. Như vậy trước khi bắt tay vào học lập trình các bạn hãy xát định rõ mục đích của mình là gì từ đó phấn đấu cho mục đích đó nhằm tạo động lực và niềm đam mê trong lập trình. Đam mê có nhiều cách để mình có thể tự tạo ra nó ,nhưng anh thấy có 2 xu hướng chính đó là mình thích lập trình dẫn tới đam mê, hoặc mình học lập trình vì một mục đích muốn có một cuộc sống tốt hơn và dẫn tới đam mê.
+<b>Đam mê</b> chính là yếu tố quan trọng nhất khi mình bắt đầu học lập trình. Nghề lập trình thì phải học cả đời từ lúc là lập trình viên tới lúc mình nghỉ hưu, vì công nghệ và kỷ thuật lập trình luôn luôn thay đổi và có cái mới do đó bắt buộc mình phải học để nâng cao bản thân. Nếu không có đam mê thì mình có thể bỏ cuộc giữa chừng như vậy mình sẽ rất lảng phí thời gian. Nếu không có đam mê anh nghĩ mình hãy chọn một ngành nghề mới để kinh doanh. Chắc chắn làm giàu không chỉ có bằng nghề lập trình mà còn các công việc khác giúp chúng ta làm giàu. Như vậy trước khi bắt tay vào học lập trình các bạn hãy xát định rõ mục đích của mình là gì từ đó phấn đấu cho mục đích đó nhằm tạo động lực và niềm đam mê trong lập trình. Đam mê có nhiều cách để mình có thể tự tạo ra nó ,nhưng anh thấy có 2 xu hướng chính đó là mình thích lập trình dẫn tới đam mê, hoặc mình học lập trình vì một mục đích muốn có một cuộc sống tốt hơn và dẫn tới đam mê.
 
 <br>
 # **2. Lập trình là gì**
 
-Theo như anh thấy học lập trình cũng giống như học anh văn vậy. Mình học anh văn để giao tiếp với các bạn nước ngoài. Để giao tiếp được thì mình phải học từ vựng và ngữ pháp của ngôn ngữ đó ,từ đó mình sử dụng nó để nói chuyện và trao đổi các mong muốn của mình với các bạn nước ngoài.
+Theo như anh thấy <b>học lập trình</b> cũng giống như học anh văn vậy. Mình học anh văn để giao tiếp với các bạn nước ngoài. Để giao tiếp được thì mình phải học từ vựng và ngữ pháp của ngôn ngữ đó ,từ đó mình sử dụng nó để nói chuyện và trao đổi các mong muốn của mình với các bạn nước ngoài.
 
 Học lập trình cũng vậy mình sẽ học các từ vựng (các từ khoá về ngôn ngữ lập trình) các mệnh để, cấu trúc câu của ngôn ngữ lập trình từ đó mình có thể ra lệnh cho máy tính, hoặc phần mềm làm gì mà mình mong muốn dựa theo những dòng lệnh mà mình viết ra.
 
@@ -45,12 +45,17 @@ Như các em thấy ngày nay có rất nhiều ứng dụng như ngân hàng, t
 <br>
 # **3. Học lập trình bắt đầu từ đâu**
 
-Bước 1 : Đầu tiên chúng ta xát định là sẽ học phần cơ bản nhất đó là bắt đầu với việc tạo ra được trang web của mình hay còn gọi là học lập trình frontend (frontend có nghĩa là những thứ mình có thể thấy được, vì dụ như website bán điện thoại di động, khi vào trang web thì mình thấy danh sách các loại điện thoại . Vậy frontend là những cái mình thấy được bằng mắt). Để làm được frontend mọi người phải học công nghệ HTML , CSS , và Javascript . Trong giai đoạn này mình sẽ học cú pháp , cấu trúc cơ bản của HTML,CSS,Javascript và tự xây dựng được trang web cho mình.
+Bước 1 : Đầu tiên chúng ta xát định là sẽ học phần cơ bản nhất đó là bắt đầu với việc tạo ra được trang web của mình hay còn gọi là học lập trình frontend (frontend có nghĩa là những thứ mình có thể thấy được, vì dụ như website bán điện thoại di động, khi vào trang web thì mình thấy danh sách các loại điện thoại . Vậy frontend là những cái mình thấy được bằng mắt). Để làm được frontend mọi người phải học công nghệ <b>HTML , CSS , và Javascript</b> . Trong giai đoạn này mình sẽ học cú pháp , cấu trúc cơ bản của HTML,CSS,Javascript và tự xây dựng được trang web cho mình.
 
-Sau đây là trang web giúp mình có thể tự học thiết kế web.
-- https://www.w3schools.com
+- Học HTML tại [đây](https://www.w3schools.com/html/default.asp)
+- Học CSS tại [đây](https://www.w3schools.com/css/default.asp)
+- Học Javascript tại [đây] (https://www.w3schools.com/js/default.asp)
+
+Sau khi đã qua các bài tập cơ bản về html,css,javascript rồi thì các bạn có thể tham khảo tiếp các môn học tiếp theo tại [đây](https://levunguyen.com/career/2020/05/14/con-duong-tro-thanh-lap-trinh-vien-frontend/)
 
 Bước 2 : Chọn công nghệ để làm phần backend (backend là những thứ mình không thấy được, như ví dụ điện thoại ở trên thì ta thấy những chiếc điện thoại mà mắt mình thấy được là do ở đâu mà có). Thông thường thì mình nên chọn Java làm ngôn ngữ để học phần backend. Nhưng ở giai đoạn này mình đã có kiến thức (từ vựng, cầu trúc ở phần frontend) nên khi học Java mình chỉ thay đổi từ vựng (từ khoá về ngôn ngữ đó) khác đi một chút xí, còn về nguyên lý các ngôn ngữ lập trình na ná nhau. Chính vì vậy nếu mình học tốt Javascript thì các ngôn ngữ khác như : Java , Ruby , Python , PHP, .Net (đây chính là các ngôn ngữ lập trình) đều rất đơn giản
+
+Sau khi đã qua các bài tập cơ bản về java rồi thì các bạn có thể tham khảo tiếp các môn học tiếp theo tại [đây](https://levunguyen.com/career/2020/05/14/con-duong-tro-thanh-lap-trinh-vien-java/)
 
 - Hiện nay trên youtube có rất nhiều khoá học miễn phí dạy học cho người bắt đầu với ngôn ngữ java
 

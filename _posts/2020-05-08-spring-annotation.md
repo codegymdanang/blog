@@ -12,7 +12,7 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về các annotation trong Spring có ý nghĩa là gì nhé .
+Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>các annotation trong Spring</b> có ý nghĩa là gì nhé .
 Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - Danh sách các annotation trong Spring là gì ?

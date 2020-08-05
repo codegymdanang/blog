@@ -10,7 +10,7 @@ description : kỷ thuật Extract Method là gì, hướng dẫn extract method
 ---
 # **Giới thiệu nội dung bài viết**
 
-Chào các e, chủ đề hôm nay của anh sẽ bàn về kỷ thuật Extract Method ? Kỷ thuật nằm nhằm làm cho một method dài khó đọc
+Chào các e, chủ đề hôm nay của anh sẽ bàn về kỷ thuật <b>Extract Method</b> ? Kỷ thuật nằm nhằm làm cho một method dài khó đọc
 trở thành một phương thức nhỏ hơn , dể đọc hơn.
 
 <br>

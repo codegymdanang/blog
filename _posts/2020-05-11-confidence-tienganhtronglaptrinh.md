@@ -12,7 +12,7 @@ youtubeId: r2w7in6xMB4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, hôm nay anh sẽ chia sẽ về chủ đề tầm quan trọng của tiếng Anh trong nghành phần mềm. Anh sẽ kể câu chuyện mà anh đã trãi qua và tiếng Anh đã giúp gì cho Anh trong những năm tháng làm trong nghành lập trình
+Chào các bạn, hôm nay anh sẽ chia sẽ về chủ đề <b>tầm quan trọng của tiếng Anh trong nghành phần mềm</b>. Anh sẽ kể câu chuyện mà anh đã trải qua và tiếng Anh đã giúp gì cho anh trong những năm tháng làm trong <b>ngành lập trình</b>.
 
 <br>
 # **1. May mắn khi được học tiếng Anh**

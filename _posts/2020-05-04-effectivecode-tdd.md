@@ -12,19 +12,19 @@ youtubeId: LdLvwsj5_Sk
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, chắc hẳn bạn sẽ muốn biết TDD là lập trình như thế nào phải không nào ? Trong bài viết hôm nay a sẽ giới thiệu từng bước giúp chúng ta có thể lập trình TDD một cách hiệu quả nhất.
+Chào các bạn, chắc hẳn bạn sẽ muốn biết <b>TDD</b> là lập trình như thế nào phải không nào ? Trong bài viết hôm nay a sẽ giới thiệu từng bước giúp chúng ta có thể lập trình TDD một cách hiệu quả nhất.
 
 <br>
 # **1. Lập trình theo bản năng**
 
-Một thói quen phổ biến của lập trình viên là khi nhận được yêu cầu của khách hàng hay từ team leader của mình. Thì việc đầu tiên là nhảy vào code ngay, chỉ phán đoán sơ bộ chức năng rồi nhảy vào viết các controller , các nghiệp vụ, kết nối database lấy dữ liệu. Đây là cách lập trình theo thói quen và  vội vã trong lúc lập trình dẫn đến có nhiều bugs phát sinh sau khi chức năng code xong và chức năng chạy không đúng với yêu cầu của người dùng. Vậy có cách nào để code ý lỗi hơn hay không. Sau đây anh sẽ trình bày cách lập trình TDD giúp mình viết ra một đoạn code ít bug.
+Một thói quen phổ biến của lập trình viên là khi nhận được yêu cầu của khách hàng hay từ team leader của mình. Thì việc đầu tiên là nhảy vào code ngay, chỉ phán đoán sơ bộ chức năng rồi nhảy vào viết các controller, các nghiệp vụ, kết nối database lấy dữ liệu. Đây là cách lập trình theo thói quen và  vội vã trong lúc lập trình dẫn đến có nhiều bugs phát sinh sau khi chức năng code xong và chức năng chạy không đúng với yêu cầu của người dùng. Vậy có cách nào để code ý lỗi hơn hay không. Sau đây anh sẽ trình bày cách lập trình TDD giúp mình viết ra một đoạn code ít bug.
 
 <br>
 # **2. TDD là gì**
 
-TDD là viết tắt của từ Test-Driven-Developement được phát triển bởi Kent Bech (một trong những lập trình viên có tiếng trên thế giới không những về coding và còn về qui trình, đây là một trong số lập trình viên mà anh yêu thích,ngoài ra các em có thể tìm kiếm thêm Uncle Bob là những người đã đem lại những đột phá trong nghề lập trình giúp các lập trình viên ngày nay trở nên giỏi hơn).
+TDD là viết tắt của từ <b>Test-Driven-Developement</b> được phát triển bởi <b>Kent Bech</b> (một trong những lập trình viên có tiếng trên thế giới không những về coding và còn về qui trình, đây là một trong số lập trình viên mà anh yêu thích,ngoài ra các em có thể tìm kiếm thêm Uncle Bob là những người đã đem lại những đột phá trong nghề lập trình giúp các lập trình viên ngày nay trở nên giỏi hơn).
 
-Khi ta thực hiện cách viết code kiểu TDD. Nó yêu cầu mình phải suy nghỉ, thiết kế các testcase trước khi nhảy vào viết code. Sau khi viết code test xong thì sau  đó mới viết code thực thi chương trình, chứ không giống như trường hợp anh nói ở trên là lập trình viên bay vào code liền. Chính vì bắt buộc lập trình viên phải suy nghỉ trước khi test nên mình có thể dự đoán được các trường hợp sẽ xảy ra với dòng code của mình. Sau khi viết code thực thi xong thì công đoạn tiếp theo là sẽ tìm cách refactor (chỉnh sửa) code đã có trở nên gọn hơn, dể đọc hơn.
+Khi ta thực hiện cách viết code kiểu TDD. Nó yêu cầu mình phải suy nghỉ, thiết kế các <b>testcase</b> trước khi nhảy vào viết code. Sau khi viết code test xong thì sau  đó mới viết code thực thi chương trình, chứ không giống như trường hợp anh nói ở trên là lập trình viên bay vào code liền. Chính vì bắt buộc lập trình viên phải suy nghỉ trước khi test nên mình có thể dự đoán được các trường hợp sẽ xảy ra với dòng code của mình. Sau khi viết code thực thi xong thì công đoạn tiếp theo là sẽ tìm cách refactor (chỉnh sửa) code đã có trở nên gọn hơn, dể đọc hơn.
 
 <br>
 # **3. Vòng đời TDD**
@@ -71,7 +71,7 @@ class CalculatorTest {
 }
 {% endhighlight %}
 
-Như các em thấy ta tạo ra class CalculatorTest có hàm testPlu2Number thì đây chính là 1 testcase. Mình sẽ suy nghỉ là nếu mình nhập vào số 2,3 thì kết quả mình nhận được là số 5.
+Như các em thấy ta tạo ra class CalculatorTest có hàm testPlu2Number thì đây chính là 1 <b>testcase</b>. Mình sẽ suy nghỉ là nếu mình nhập vào số 2,3 thì kết quả mình nhận được là số 5.
 
 ## Bước 2 - Test Fail.
 
@@ -135,7 +135,7 @@ Ta lại tiếp tục vòng đời mới là viết code thực thi, chạy test
 
 # **5. Ưu điểm**
 
-Theo kinh nghiệm của anh thì Ưu điểm của TDD là :
+Theo kinh nghiệm của anh thì <b>ưu điểm của TDD</b> là :
 
 - Nó bắt buộc người lập trình phải suy nghỉ các trường hợp sẽ xảy ra với code của mình trước khi bắt đầu viết code Production. Điều này giúp lập trình viên có thể dự đoán các vấn đề xảy ra trong lúc viết code
 

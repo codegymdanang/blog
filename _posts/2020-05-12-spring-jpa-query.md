@@ -13,7 +13,7 @@ youtubeId: bilwK0K9qoc
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về các cách để query dữ liệu từ database thông qua <b>Spring Data JPA</b>. Nội
+Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về các cách để <b>query</b> dữ liệu từ database thông qua <b>Spring Data JPA</b>. Nội
 dung sẽ xoay quanh các vấn đề  
 
 - Annotation @Query

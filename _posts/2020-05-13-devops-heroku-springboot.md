@@ -12,7 +12,7 @@ youtubeId: gdt4DODk5o4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, hôm nay anh sẽ hướng dẫn cách triển khai một ứng dụng spring và database trên server Heroku. Nội dung sẽ xoay quanh
+Chào các bạn, hôm nay anh sẽ hướng dẫn cách <b>triển khai một ứng dụng spring và database</b> trên server <b>Heroku</b>. Nội dung sẽ xoay quanh
 
 - Hosting là gì ?
 - Domain là gì ?

@@ -14,7 +14,7 @@ youtubeId: zC0t0e9DaH4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn , hôm nay chủ đề của anh sẽ nói về Ngoại lệ (Exception) trong lập trình là gì ? Bài hôm nay chúng ta sẽ đi qua các nội dung.
+Chào các bạn , hôm nay chủ đề của anh sẽ nói về <b>Ngoại lệ (Exception)</b> trong lập trình là gì ? Bài hôm nay chúng ta sẽ đi qua các nội dung.
 
 - Exception là gì ?
 - Check Exception là gì ?

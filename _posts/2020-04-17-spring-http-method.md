@@ -13,7 +13,7 @@ youtubeId: 7VMXLT5oW1g
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em , hôm nay anh sẽ giới thiệu với các bạn các loại HTTP method trong lập trình .Nội dung hôm nay sẽ nói về
+Chào các em , hôm nay anh sẽ giới thiệu với các bạn các loại <b>HTTP method</b> trong lập trình. Nội dung hôm nay sẽ nói về
 
 - Tổng hợp các loại request
 - Các khái niệm quan trọng
@@ -29,7 +29,7 @@ Anh ví dụ như mình có cái website là tiki bán hàng. Khi mình vào tra
 
 Thông thường thì từ client gửi yêu cầu lên server sẽ có nhiều dạnh yêu cầu. Có khi là client yêu cầu danh sách các sản phẩm, có khi là yêu cầu thêm một sản phẩm, hoặc xoá một sản phẩm. Tuỳ vào mong muốn của client mà trong lập trình mình có nhiều loại yêu cầu hỗ trợ khác nhau.
 
-Sau đây là tổng hợp 9 loại yêu cần được sử dụng nhiều trong lập trình. Thông thường yêu cầu Get dùng để lấy thông tin. Post dùng để tạo/thêm mới.
+Sau đây là tổng hợp <b>9 loại yêu cần được sử dụng nhiều trong lập trình</b>. Thông thường yêu cầu Get dùng để lấy thông tin. Post dùng để tạo/thêm mới.
 Put là để cập nhật thông tin và Delete dùng để xoá thông tin.
 
 

@@ -11,16 +11,16 @@ description : Sử dụng Strategy trong lập trình java. Hướng dẫn sử 
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, chủ đề hôm nay của anh sẽ bàn về Design Pattern Method Factory ? Khi nào chúng ta sẽ dùng nó trong lập trình.
+Chào các em, chủ đề hôm nay của anh sẽ bàn về <b>Design Pattern</b> <b>Method Factory</b> ? Khi nào chúng ta sẽ dùng nó trong lập trình.
 
 <br>
 # **1- Strategy Pattern là gì ?**
 
-Chúng ta dùng Strategy Pattern để quản lý thuật toán , các mối quan hệ giữa các object trong ứng dụng
+Chúng ta dùng <b>Strategy Pattern</b> để quản lý thuật toán , các mối quan hệ giữa các object trong ứng dụng
 
 # **2- Khi nào nên dùng Abstract Factory**
 
-Chúng ta sử dung Strategy khi chúng ta muốn chọn một thuật toán cho một đối tượng cụ thể lúc runtime (chương trình đang chạy). Ví dụ như thuật toán thanh toán cho khi mua hàng online trên mạng. Chúng ta có thể thanh toán bằng thẻ visa hay master. Thì khi chương trình mình dang chạy nếu người dùng chọn visa thì mình sẽ dùng thuật toán tính tiền của visa để thanh toán. Như vậy ta wrap các thuật toán , các business thành một đối tượng và sử dụng nó
+Chúng ta sử dụng <b>Strategy</b> khi chúng ta muốn chọn một thuật toán cho một đối tượng cụ thể lúc runtime (chương trình đang chạy). Ví dụ như thuật toán thanh toán cho khi mua hàng online trên mạng. Chúng ta có thể thanh toán bằng thẻ visa hay master. Thì khi chương trình mình dang chạy nếu người dùng chọn visa thì mình sẽ dùng thuật toán tính tiền của visa để thanh toán. Như vậy ta wrap các thuật toán , các business thành một đối tượng và sử dụng nó
 
 
 # **3- Strategy UML**

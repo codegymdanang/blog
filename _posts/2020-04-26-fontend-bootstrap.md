@@ -14,9 +14,8 @@ youtubeId1: 9G2UAIWILa4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn , bạn đang có ý định làm một website cho mình nhưng không biết nên sử dụng framework nào
-để hỗ trợ việc làm website một cách đơn giản và đẹp .Hôm nay anh sẽ giới thiệu với các bạn Boostrap framework. Chúng ta sẽ đi qua các nội
-dung sau
+Chào các bạn ,bạn đang có ý định làm một <b>website</b> cho mình nhưng không biết nên sử dụng framework nào
+để hỗ trợ việc làm website một cách đơn giản và đẹp .Hôm nay anh sẽ giới thiệu với các bạn <b>Boostrap</b> framework. Chúng ta sẽ đi qua các nội dung sau.
 
 - Bootstrap là gì ?
 - Lợi ích của Bootstrap
@@ -27,9 +26,9 @@ dung sau
 <br>
 # **1. Trước tiên ta hãy xem Bootstrap là gì**
 
-Boostrap là một framework gồm HTML , CSS , JS giúp chúng ta thiết kế website theo một chuẩn nhất định. Bootstrap định nghĩa
-các thư viện có sẳn và ta chỉ việc dùng nó . Sử dụng Bootstrap giúp ta tiết kiệm được thời gian phát triển web vì nó định nghĩa
-sẳn các chức năng như Responsive (hiển thị được trên mobile , desktop , laptop , Ipad ) , các thành phần như button , text , form
+Boostrap là một framework gồm <b>HTML , CSS , JS</b> giúp chúng ta thiết kế website theo một chuẩn nhất định. Bootstrap định nghĩa
+các thư viện có sẳn và ta chỉ việc dùng nó. Sử dụng Bootstrap giúp ta tiết kiệm được thời gian phát triển web vì nó định nghĩa
+sẳn các chức năng như <b>Responsive</b> (hiển thị được trên mobile , desktop , laptop , Ipad ), các thành phần như button , text , form
 các animation (hiệu ứng) đã được tích hợp trong Boostrap.
 
 <br>
@@ -44,7 +43,7 @@ các animation (hiệu ứng) đã được tích hợp trong Boostrap.
 <br>
 # **3. Cài đặt Boostrap cho dự án**
 
-- Chúng ta có thể cài boostrap từ CDN bằng cách thêm  dòng sau vào trang HTML.
+- Chúng ta có thể cài <b>boostrap từ CDN</b> bằng cách thêm  dòng sau vào trang HTML.
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -85,18 +84,18 @@ Khi mở trang web ra điều đầu tiên ta nhận thấy tất cả các tran
 <meta name = "viewport" content = "width=device-width, initial-scale = 1, shrink-to-fit = no">
 {% endhighlight %}
 
-Viewport tạm dịch là khung nhìn, là khu vực có thể nhìn thấy của người dùng về nội dung trong một trang web. Viewport sẽ khác nhau với các thiết bị khác nhau, và sẽ nhỏ hơn trên điện thoại di động so với trên màn hình máy tính. Trước khi thiết kế cho máy tính bảng và điện thoại di động, các trang web chỉ được thiết kế cho màn hình máy tính và thông thường các trang web có thiết kế tĩnh và có kích thước cố định. Sau đó, khi chúng ta bắt đầu lướt web bằng cách sử dụng máy tính bảng và điện thoại di động, các trang web có kích thước cố định đã quá lớn để phù hợp với người dùng. Để khắc phục điều này, các trình duyệt trên các thiết bị này tự động thu nhỏ toàn bộ trang web để vừa với màn hình. Khi chiều ngang của thiết bị quá nhỏ, người dùng phải vuốt ngang để xem hết nội dung của trang web hoặc xem trang web với nội dung quá nhỏ và cần phải zoom để đọc được nội dung.
+<b>Viewport</b> tạm dịch là khung nhìn, là khu vực có thể nhìn thấy của người dùng về nội dung trong một trang web. Viewport sẽ khác nhau với các thiết bị khác nhau, và sẽ nhỏ hơn trên điện thoại di động so với trên màn hình máy tính. Trước khi thiết kế cho máy tính bảng và điện thoại di động, các trang web chỉ được thiết kế cho màn hình máy tính và thông thường các trang web có thiết kế tĩnh và có kích thước cố định. Sau đó, khi chúng ta bắt đầu lướt web bằng cách sử dụng máy tính bảng và điện thoại di động, các trang web có kích thước cố định đã quá lớn để phù hợp với người dùng. Để khắc phục điều này, các trình duyệt trên các thiết bị này tự động thu nhỏ toàn bộ trang web để vừa với màn hình. Khi chiều ngang của thiết bị quá nhỏ, người dùng phải vuốt ngang để xem hết nội dung của trang web hoặc xem trang web với nội dung quá nhỏ và cần phải zoom để đọc được nội dung.
 
-Thẻ <meta> viewport thiết lập cho trang web hiển thị tương ứng với kích thước của từng thiết bị khác nhau.
+Thẻ <b><meta></b> viewport thiết lập cho trang web hiển thị tương ứng với kích thước của từng thiết bị khác nhau.
 
 Thuộc tính width=device-width đặt chiều rộng của trang web theo chiều rộng màn hình của thiết bị.
 
 Thuộc tính initial-scale=1.0 thiết lập mức độ phóng ban đầu khi trang được trình duyệt tải lần đầu tiên, người dùng sẽ không thể zoom khi thuộc tính này có giá trị bằng 1
 
-# **Container Class**
+# **5- Container Class**
 
-+ Có 2 loại container
-+ Loại container sẽ hiển thị website với giá trị fixed width (lập trình viên tự định nghĩa giá trị như sau
+- Có 2 loại container
+- Loại container sẽ hiển thị website với giá trị <b>fixed width</b> (lập trình viên tự định nghĩa giá trị như sau
 
 {% highlight html linenos %}
     <style>
@@ -113,7 +112,7 @@ Thuộc tính initial-scale=1.0 thiết lập mức độ phóng ban đầu khi 
 </div>
 {% endhighlight %}
 
-Loại container-fluid sẽ hiện thị full chiều rộng màn hình.
+Loại <b>container-fluid</b> sẽ hiện thị full chiều rộng màn hình.
 
 {% highlight html linenos %}
 <div class = "container-fluid">
@@ -121,10 +120,10 @@ Loại container-fluid sẽ hiện thị full chiều rộng màn hình.
 </div>
 {% endhighlight %}
 
-# Responsive breakpoints
+# **6- Responsive breakpoints**
 
-Responsive là cách mình lập trình trang web có thể hiển thị trên nhiều thiết bị khác nhau ví dụ trên điện thoại , IPad , Tivi. Nhờ có Bootstrap
-mà ta không còn phải lo lắng khi làm responsive vì Boostrap đã hỗ trợ cho mình. Bằng cách sử dụng thẻ @media ta có thể dể dành hiển thị trang web
+<b>Responsive</b> là cách mình lập trình trang web có thể hiển thị trên nhiều thiết bị khác nhau ví dụ trên điện thoại , IPad , Tivi. Nhờ có Bootstrap
+mà ta không còn phải lo lắng khi làm responsive vì Boostrap đã hỗ trợ cho mình. Bằng cách sử dụng thẻ <b>@media</b> ta có thể dể dành hiển thị trang web
 ở những thiết bị có kích thướt khác nhau .
 
 Anh có ví dụ dưới đây. Tuỳ vào kích thướt màn hình mà màu H3 sẽ thay đổi là đỏ , vàng , xanh , tím.
@@ -164,12 +163,12 @@ Nếu là desktop là xanh.
 {% endhighlight %}
 
 
-Như vậy chúng ta sử dụng @media để chọn css tương ứng với các khích thướt hiển thị khác nhau.
+Như vậy chúng ta sử dụng <b>@media</b> để chọn css tương ứng với các khích thướt hiển thị khác nhau.
 
 <br>
 # **Hệ thống lưới**
 
-Bootstrap sử dụng hệ thống lưới 12 cột đại để là layout cho trang web.
+Bootstrap sử dụng <b>hệ thống lưới 12 cột</b> để là layout cho trang web.
 
 {:refdef: style="text-align: center;"}
 ![Grid   ](/images/post/frontend/grid.png){:class="img-responsive"}
@@ -207,7 +206,7 @@ lg = large screens (remaining desktops).
 
 {% endhighlight %}
 
-# **Quy tắc khi thực hiện Responsive Web Design**
+# **7- Quy tắc khi thực hiện Responsive Web Design**
 
 1. Không sử dụng các HTML element có chiều rộng cố định quá lớn - Ví dụ: Một hình ảnh có chiều rộng quá lớn so với chiều rộng của các thiết bị nhỏ thì khi hiển thị trên các thiết bị này hình ảnh sẽ bị tràn ra ngoài và cần phải cuộn ngang để xem được toàn bộ ảnh. Vì vậy, cần phải điều chỉnh hỉnh ảnh sao cho phù hợp với chiều rộng của từng thiết bị. <br>
 

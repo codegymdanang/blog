@@ -12,8 +12,8 @@ youtubeId: Thx8bBqIY28
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, chắc các bạn gặp phải những khó khăn trong việc tối ưu hoá dữ liệu trong database ? Các bạn không biết mình nên
-bắt đầu từ đâu khi xây dựng một database và làm thế nào để thiết kế một database tối ưu . Trong bài viết hôm nay anh sẽ trình bày
+Chào các bạn, chắc các bạn gặp phải những khó khăn trong việc <b>tối ưu hoá dữ liệu trong database</b> ? Các bạn không biết mình nên
+bắt đầu từ đâu khi xây dựng một <b>database</b> và làm thế nào để thiết kế một database tối ưu. Trong bài viết hôm nay anh sẽ trình bày
 các kỷ thuật để có thể xây dựng được một database chuẩn.
 
 <br>
@@ -34,7 +34,7 @@ thừa dữ liệu gây ra.
 # Vậy chuẩn hoá dữ liệu là gì ?
 Là quá trình phân tích chia bảng thành những bảng nhỏ hơn dựa vào các quy luật chuẩn hoá.
 
-Có 4 dạnh  chuẩn hoá dữ liệu  : 1NF , 2NF , 3 NF , 4NF , và dạng BCNF (Boyce Codd Normal Form) .
+<b>Có 4 dạnh  chuẩn hoá dữ liệu</b>  : 1NF , 2NF , 3 NF , 4NF , và dạng BCNF (Boyce Codd Normal Form) .
 
 <br>
 # Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
