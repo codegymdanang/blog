@@ -6,7 +6,7 @@ category: craftmanship
 tags: [effectivecode]
 summery: Cách tìm bug trập trình   
 image: /images/blog/quality-code.png
-description : Hướng dẫn cách viết TDD trong lập trình java. Hiểu được nguyên lý của TDD được áp dụng trong lập trình.
+description : Nắm được nguyên lý và áp dụng được TDD trong lập trình. Nắm được vòng đời của một TDD và hướng dẫn sử dụng viết TDD trong dự án thực tế
 youtubeId: LdLvwsj5_Sk
 ---
 

@@ -7,7 +7,7 @@ tags: [spring]
 summery: OneToMany Relationship
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
-description : Sử dụng OneToMany mapping trong lập trình Spring. Hướng dẫn sử dụng annotation @onetomany trong spring data jpa.
+description : Sử dụng @OneToMany mapping trong lập trình Spring. Hướng dẫn sử dụng annotation @onetomany trong spring data jpa.
 youtubeId: WNfuVJptPnQ
 ---
 

@@ -6,7 +6,7 @@ category: database
 tags: [database]
 summery: Các bước chuẩn hoá dữ liệu    
 image: /images/blog/database.png
-description : Chuẩn hoá dữ liệu là gì , ví dụ về chuẩn hoá dữ liệu, hướng dẫn chuẩn hoá dữ liệu, kỷ thuật chuẩn hoá database
+description : Chuẩn hoá dữ liệu là gì? Hiểu các quy luật 1NF, 2NF, 3NF, 4NF và BCNF. Hướng dẫn cách xây dựng một database chuẩn hoá dữ liệu, tìm hiểu các kỷ thuật chuẩn hoá database.
 youtubeId: Thx8bBqIY28
 ---
 

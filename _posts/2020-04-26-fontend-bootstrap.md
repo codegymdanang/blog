@@ -7,7 +7,7 @@ tags: [ui]
 summery: Bootstrap là gì phần 1  
 image: /images/blog/ui.png
 featureImage: /images/post/javacore/feature_boostrap.jpeg
-description : Boostrap là gì ? lập trình web , hướng dẫn sử dụng bootstrap , ví dụ về bootstrap
+description : Boostrap là gì ? Lợi ích của việc sử dụng Boostrap trong lập trình web. Hướng dẫn cái cài đặt Boostrap trong dự án lập trình web. Giới thiệu các tính năng quan trọng trong Boostrap.
 youtubeId: 2xSwAsdcwLo
 youtubeId1: 9G2UAIWILa4
 ---
