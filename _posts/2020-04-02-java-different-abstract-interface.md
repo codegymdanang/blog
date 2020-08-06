@@ -7,7 +7,7 @@ tags: [java core]
 summery: Sự khác  giữa abstract và interface
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_interfaces_vs_abstract.png
-description : Sự khác  giữa abstract và interface trong lập trình java. Chúng ta tìm hiểu Interface là gì ? Abstract là gì? Khi nào dùng abstract, khi nào dùng interface trong quá trình lập trình java.
+description : Chúng ta tìm hiểu Interface là gì ? Abstract là gì? Phân biệt sự khác giữa abstract và interface trong lập trình java. Khi nào dùng abstract, khi nào dùng interface trong quá trình lập trình java.
 youtubeId1 : hxTH18XG4qs
 youtubeId2 : kfQ7O7Fky8U
 ---

@@ -7,7 +7,7 @@ tags: [java core]
 summery: Blog 1
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_accessmodifier.png
-description : Khi học ngôn ngữ lập trình java thì mình có các access modifier như public , private , static, default, protected, static, final. Mỗi từ khoá nó có một ý nghĩa và cách sử dụng khác nhau  trong lập trình java
+description : Tìm hiểu các access modifier như public , private , static, default, protected, static, final trong lập trình java. Mỗi từ khoá nó có một ý nghĩa và cách sử dụng khác nhau trong lập trình java. 
 youtubeId: J7tZ9aSzqUg
 ---
 

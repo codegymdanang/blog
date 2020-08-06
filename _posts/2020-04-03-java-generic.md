@@ -7,7 +7,7 @@ tags: [java core]
 summery: Generic là gì
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_generic.png
-description : Sử dụng Generic trong ngôn ngữ lập trình Java. Chúng ta sẽ đi qua khái niệm generic, sử dụng generic,cách tạo generic trong lập trình java.
+description : Khái niệm generic là gì và cách sử dụng Generic trong ngôn ngữ lập trình Java. Phương pháp tạo ra một Generic class và method. Hướng dẫn sử dụng Generic trong Abstract và Interface. Hiểu được ưu điểm và nhược điểm của generic.
 youtubeId: pXSdvkKK658
 ---
 
@@ -18,7 +18,7 @@ Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạ
 điểm của Generic thì bài hôm nay anh sẽ giúp mọi người nắm rõ các câu hỏi ở trên. Nội dụng thảo luận hôm nay gồm các chủ đề sau .
 
 - Generic là gì ?
-- Phương pháp tại ra một Generic
+- Phương pháp tạo ra một Generic
 - Các ký tự được sử dụng trong Generic
 - Sử dụng Generic trong Abstract và Interface
 - Ưu điểm và nhược điểm của Generic
