@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: OneToOne Relationship
 image: /images/blog/spring.png
-description : Sử dụng Hibernate trong lập trình Spring. Biết cách cấu hình hibernate trong dự án Spring 
+description : Sử dụng Hibernate trong lập trình Spring. Biết cách cấu hình hibernate trong dự án Spring. Hướng dẫn thực hiện các câu truy vấn lấy dữ liệu.
 youtubeId: WNfuVJptPnQ
 ---
 

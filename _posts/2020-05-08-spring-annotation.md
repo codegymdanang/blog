@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring]
 summery: Các Anotation trong Spring
 image: /images/blog/spring.png
-description : Tổng hợpc các annotation được sử dụng trong dự án spring. Tìm hiểu ý nghĩa của từng annotation 
+description : Tổng hợp các annotation được sử dụng trong dự án spring. Tìm hiểu ý nghĩa của từng annotation và nhiệm vụ của nó trong dự án. Hướng dẫn sử dụng từng annotation trong Spring. 
 youtubeId: WNfuVJptPnQ
 ---
 
