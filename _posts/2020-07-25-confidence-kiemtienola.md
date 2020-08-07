@@ -13,7 +13,7 @@ youtubeId: r2w7in6xMB4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, tình hình dịch bệnh covid-19 ngày càng phức tạp và ảnh hưởng rất nhiều đến kinh tế của mỗi người. Thời gian qua anh có nghiên cứu để tìm hiểu các kiếm thêm thu nhập thụ động cho các em, để giúp đỡ các em một phần nào đó về kinh tế. Tuy dự án này mới ra nhưng anh hy vọng trong 2 tháng tới mình sẽ cùng nhau làm được một thứ gì đó giúp các em có thể kiếm thêm thu nhập. Nếu làm tốt và cùng nhau làm thì mình có thể kiếm được 100.000 VND mỗi ngày là chuyện có thể làm được. Anh nghỉ số tiền 100.000 tuy không lớn nhưng mình có thể trang trải cuộc sống được ở thành phố chúng ta.
+Chào các em, tình hình dịch bệnh covid-19 ngày càng phức tạp và ảnh hưởng rất nhiều đến kinh tế của mỗi người. Thời gian qua anh có nghiên cứu để tìm hiểu các kiếm thêm thu nhập thụ động cho các em, để giúp đỡ các em một phần nào đó về kinh tế. Tuy dự án này mới ra nhưng anh hy vọng trong 2 tháng tới mình sẽ cùng nhau làm được một thứ gì đó giúp các em có thể kiếm thêm thu nhập. Nếu làm tốt và cùng nhau làm thì mình có thể kiếm được 100.000 VND mỗi ngày là chuyện có thể làm được. Anh nghĩ số tiền 100.000 tuy không lớn nhưng mình có thể trang trải cuộc sống được ở thành phố chúng ta.
 
 Qua tìm hiểu thì anh thấy có rất nhiều cách để làm MMO (Making Money Online) hay còn nói cách khác là kiếm tiền online. Hôm nay anh xin giới thiệu một ứng dụng mới ra và nghe nói trên mạng mọi người bàn tán rất nhiều. Nên anh nghỉ mình hãy thử cùng nhau xây dựng đội nhóm và làm thử xem như thế nào. Ứng dụng mà anh nói có tên là Ola City.
 
