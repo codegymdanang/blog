@@ -8,7 +8,7 @@ summery: Kiếm tiền từ dự án Ola City
 image: /images/blog/softskills.png
 featureImage: /images/post/javacore/feature_olacity.jpg
 description : Hướng dẫn kiếm tiền online MMO thông qua nền tảng Ola City. Giới thiệu về Ola City là gì? Cách thức hoạt động của nền tảng Ola City. Cùng nhau xây dựng cộng đồng Ola City tại Đà Nẵng
-youtubeId: r2w7in6xMB4
+youtubeId: UqLW31TcBg0
 ---
 
 # **Giới thiệu nội dung bài viết**
@@ -57,3 +57,8 @@ Trong 3 cách kiếm tiền ở trên thì mình nên theo đuổi cách thứ 3
 
 MMO là một lĩnh vực khá mới mẻ tuy nhiên cách đây 10 năm bạn bè anh đã làm rồi. Từ việc click quảng cáo kiếm tiền tới việc viết các tools tự động để xem quảng cáo. Không biết bạn anh có ai giàu lên chưa nhưng anh cũng nghe đến một số trường hợp đã thành công. Mình nên thử xem như thế nào. Đồng thời cũng mong muốn nó thành công để mọi người có thêm thu nhập thụ động cho mình.
 
+# **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
