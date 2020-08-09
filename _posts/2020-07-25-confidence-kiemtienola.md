@@ -42,7 +42,7 @@ Trong 3 cách kiếm tiền ở trên thì mình nên theo đuổi cách thứ 3
 
 # **4. Trở thành đội nhóm**
 
-- Bước 1 : Đăng ký nền tảng Ola : Các em đăng ký bằng việc bấm vào [link](https://olacity.com/ref/kp3zqp ) này sau đó đăng ký tài khoản để mình trở thành một đội. Tránh trường hợp gõ link trực tiếp trên browswer là https://olacity.com để đăng ký. Vì khi bấm trực tiếp thì mình sẽ không ở chung 1 đội.
+- Bước 1 : Đăng ký nền tảng Ola : Các em đăng ký bằng việc bấm vào [link](https://olacity.com/ref/kp3zqp ) này sau đó đăng ký tài khoản để mình trở thành một đội. 
 
 - Bước 2 : Tham gia vào group trên facebook để cùng nhau trao đổi thông tin các buồi offline tại [đây](https://www.facebook.com/groups/664869977720928)
 
