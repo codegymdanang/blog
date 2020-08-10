@@ -32,7 +32,7 @@ Như vậy việc <b>tự học lập trình</b> có được hay không còn ph
 
 - Để tự <b>học lập trình</b> hay tự nghiên cứu thì các em có thể mua một khoá học trực tuyến sau đó tự mình làm các bài tập. Nếu gặp vấn đề hay bug khó không giải quyết được thì lại nhờ sư phụ vào giúp hoặc có thể đặt câu hỏi trên các group lập trình mà mình tham gia. Tuy nhiên điều này có nhược điểm là sẽ chờ các bạn trả lời khá lâu hoặc câu trả lời mơ hồ không rõ ràng, không giải quyết được vấn đề. Lý dó là các thành viên trong group đa phần có trình độ ngang với các em, các anh có kinh nghiệm lâu năm sẽ không có nhiều thời gian lướt Facebook support cho các đàn em.
 
-- Ưu điểm khi <b>học trực tuyến</b> là mình có thể sắp xếp thời gian linh động, mình có thể học bất kỳ khi nào. Tự học lập trình yêu cầu tính kiên nhẫn, chăm học. Thông thường nếu là tự học lập trình thì các em nên dành ít nhất 6 tiếng 1 ngày cho việc học lý thuyết và làm bài tập. Quan trọng là bản thân phải có cố gắng. Còn nếu đi học ở trung tâm tuần 3 buổi, 1 buổi 4 tiếng mà mình không cố gắng thì cũng không thể học lập trình được.
+- Ưu điểm khi <b>học lập trình onlie</b> là mình có thể sắp xếp thời gian linh động, mình có thể học bất kỳ khi nào. Tự học lập trình yêu cầu tính kiên nhẫn, chăm học. Thông thường nếu là tự học lập trình thì các em nên dành ít nhất 6 tiếng 1 ngày cho việc học lý thuyết và làm bài tập. Quan trọng là bản thân phải có cố gắng. Còn nếu đi học ở trung tâm tuần 3 buổi, 1 buổi 4 tiếng mà mình không cố gắng thì cũng không thể học lập trình được.
 
 Thông thường thì <b>học lập trình online</b> thì sẽ rẻ hơn so với đi học ở trung tâm. Nếu mình có căn cơ về lập trình thì chỉ cần tìm thêm sư phụ đang làm trong ngành lập trình nữa là OK.
 
