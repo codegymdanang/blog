@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-java
 title: Sử dụng Generic trong ngôn ngữ lập trình Java
 slug : generic-la-gi
 category: laptrinhjava
