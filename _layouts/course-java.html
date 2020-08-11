@@ -66,11 +66,11 @@
 
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-3 col-sm-3">
+				<div class="col-lg-3 col-sm-3" style="display: table;">
 					<div>
 						{% for post in site.categories.laptrinhjava  %}
 								{% if post.tags contains 'java core' %}
-									<div class="col-lg-3 col-sm-3" style="display:inline">
+									<div >
 										<a href='{{post.url | relative_url }}'>{{post.summery}} </a>					
 									</div>
 								{% endif %}
