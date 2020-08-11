@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-softskill
 title: Trở thành một Senior Java
 slug : tro-thanh-senior-java
 category: career

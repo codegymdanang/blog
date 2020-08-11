@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-softskill
 title: Cách tìm bug trong lập trình
 slug : ky-thuat-tim-bug
 category: career

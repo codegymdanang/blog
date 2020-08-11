@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-softskill
 title: Con đường trở thành lập trình viên frontend
 slug : con-duong-tro-thanh-lap-trinh-vien-frontend
 category: career

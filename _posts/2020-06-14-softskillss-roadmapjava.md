@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-softskill
 title: Con đường trở thành lập trình viên Java
 slug : con-duong-tro-thanh-lap-trinh-vien-java
 category: career
