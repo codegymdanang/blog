@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-spring
 title: Sử dụng Hibernate trong lập trình Spring
 slug : hibernate trong java
 category: laptrinhspring
 tags: [spring]
-summery: OneToOne Relationship
+summery: Hibernate
 image: /images/blog/spring.png
 description : Sử dụng Hibernate trong lập trình Spring. Biết cách cấu hình hibernate trong dự án Spring. Hướng dẫn thực hiện các câu truy vấn lấy dữ liệu.
 youtubeId: WNfuVJptPnQ

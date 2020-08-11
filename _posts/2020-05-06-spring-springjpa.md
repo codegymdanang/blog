@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-spring
 title: Sử dụng Spring Data JPA trong lập trình Spring
 slug : spring-jpa-la-gi
 category: laptrinhspring

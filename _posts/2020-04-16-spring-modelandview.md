@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-spring
 title: Sử dụng Model ModelMap ModelView trong lập trình Spring  
 slug : su-dung-model-modelmap-modelview-trong-spring
 category: laptrinhspring
 tags: [spring]
-summery: Model, ModelMap, and ModelView
+summery: Model ModelMap ModelView
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_modelandview.png
 description : Sử dụng Model ModelMap ModelView trong lập trình Springg. Hiểu model là gì  trong Spring . ModelMap là gì , Map là gì , ModelAndView là gì trong Spring. Phân biệt sự khác nhau giữ Model ModelMap Map và ModelAndView trong học lập trình Spring.

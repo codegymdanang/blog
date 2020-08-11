@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-spring
 title: Luồng đi của ứng dụng Spring MVC
 slug : spring-mvc-la-gi
 category: laptrinhspring
 tags: [spring]
-summery: Luồng đi của ứng dụng Spring MVC
+summery: Spring MVC
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springmvc.png
 description : Tìm hiểu về ứng dụng spring mvc là gì? Hiểu được cơ chế và đường đi của một ứng dụng MVC.

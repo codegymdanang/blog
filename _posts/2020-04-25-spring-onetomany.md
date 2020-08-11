@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-spring
 title: Sử dụng OneToMany Relationship trong học lập trình
 slug : one-to-many
 category: laptrinhspring
 tags: [spring]
-summery: OneToMany Relationship
+summery: OneToMany 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
 description : Sử dụng @OneToMany mapping trong lập trình Spring. Hướng dẫn sử dụng annotation @onetomany trong spring data jpa.

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-spring
 title: Sử dụng các phương thức HTTP trong lập trình web
 slug : cac-phuong-thuc-http
 category: laptrinhspring

@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-spring
 title: Webservice trong học lập trình
 slug : webservice
 category: laptrinhspring
 tags: [spring]
-summery: webservice là gì ?
+summery: Webservice
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_webservice.png
 description : webservice là gì trong học lập trình. Hiểu được webservice thông qua các ví dụ thực tế. Phân biệt được các loại webservice hiện nay gồm SOAP và Restful webservice trong lập trình java.

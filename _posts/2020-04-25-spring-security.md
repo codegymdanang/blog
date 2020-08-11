@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-spring
 title: Sử dụng Spring Security trong lập trình Spring
 slug : spring-security
 category: laptrinhspring
 tags: [spring]
-summery: Lập Trình Spring Security
+summery: Spring Security
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springsecurity.png
 description : Hiểu các khái niệm cơ bản của lập trình Spring Security. Xây dựng được ứng dụng spring security kết hợp với mysql.

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-spring
 title: Tổng hợp các Anotation trong lập trình Spring
 slug : spring-annotation
 category: laptrinhspring

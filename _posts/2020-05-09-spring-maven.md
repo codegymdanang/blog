@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-spring
 title: Sử dụng Maven trong ngôn ngữ lập trình 
 slug : maven
 category: laptrinhspring
 tags: [spring]
-summery: maven là gì ?
+summery: Maven 
 image: /images/blog/spring.png
 description : Sử dụng maven trong các dự án java. Hiểu được mục đích sử dụng Maven trong ngôn ngữ java và các dự án java.
 Hướng dẫn sử dụng maven trong dự án
