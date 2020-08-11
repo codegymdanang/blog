@@ -1,33 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="bold">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/spring-home.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2019-01-01-course-java-s1-setup.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2019-01-01-course-java-s2-variable.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2019-01-01-course-java-s3-memory.md" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md" afterPath="$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-13-spring-di.md" afterPath="$PROJECT_DIR$/_posts/2020-04-13-spring-di.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-15-spring-request.md" afterPath="$PROJECT_DIR$/_posts/2020-04-15-spring-request.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-16-spring-modelandview.md" afterPath="$PROJECT_DIR$/_posts/2020-04-16-spring-modelandview.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-17-spring-http-method.md" afterPath="$PROJECT_DIR$/_posts/2020-04-17-spring-http-method.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-22-spring-validation.md" afterPath="$PROJECT_DIR$/_posts/2020-04-22-spring-validation.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-sessioncookie.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" afterPath="$PROJECT_DIR$/_posts/2020-04-24-spring-i18n.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-identifierhibernate.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-identifierhibernate.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-manytomany.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-manytomany.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-onetomany.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-onetomany.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-onetoone.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-onetoone.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-optinalpathvariable.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-optinalpathvariable.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-security.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md" afterPath="$PROJECT_DIR$/_posts/2020-05-06-spring-springjpa.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-08-spring-annotation.md" afterPath="$PROJECT_DIR$/_posts/2020-05-08-spring-annotation.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-08-spring-hibernate.md" afterPath="$PROJECT_DIR$/_posts/2020-05-08-spring-hibernate.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-09-spring-maven.md" afterPath="$PROJECT_DIR$/_posts/2020-05-09-spring-maven.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-10-spring-restful.md" afterPath="$PROJECT_DIR$/_posts/2020-05-10-spring-restful.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-05-10-spring-webservice.md" afterPath="$PROJECT_DIR$/_posts/2020-05-10-spring-webservice.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hoc-lap-trinh-spring.html" afterPath="$PROJECT_DIR$/hoc-lap-trinh-spring.html" />
+    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-tamsu.html" afterPath="$PROJECT_DIR$/_layouts/course-tamsu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="New changelist" />
@@ -159,7 +134,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-1742" />
+    <option name="y" value="49" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -401,30 +377,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00815" summary="backlink">
-      <created>1596524905190</created>
-      <option name="number" value="00815" />
-      <option name="project" value="LOCAL" />
-      <updated>1596524905191</updated>
-    </task>
-    <task id="LOCAL-00816" summary="backlink">
-      <created>1596532212668</created>
-      <option name="number" value="00816" />
-      <option name="project" value="LOCAL" />
-      <updated>1596532212668</updated>
-    </task>
-    <task id="LOCAL-00817" summary="backlink">
-      <created>1596532317602</created>
-      <option name="number" value="00817" />
-      <option name="project" value="LOCAL" />
-      <updated>1596532317602</updated>
-    </task>
-    <task id="LOCAL-00818" summary="backlink">
-      <created>1596532495023</created>
-      <option name="number" value="00818" />
-      <option name="project" value="LOCAL" />
-      <updated>1596532495023</updated>
     </task>
     <task id="LOCAL-00819" summary="backlink">
       <created>1596532991511</created>
@@ -696,11 +648,35 @@
       <option name="project" value="LOCAL" />
       <updated>1597129644608</updated>
     </task>
-    <option name="localTasksCounter" value="864" />
+    <task id="LOCAL-00864" summary="bold">
+      <created>1597130240434</created>
+      <option name="number" value="00864" />
+      <option name="project" value="LOCAL" />
+      <updated>1597130240435</updated>
+    </task>
+    <task id="LOCAL-00865" summary="bold">
+      <created>1597130284300</created>
+      <option name="number" value="00865" />
+      <option name="project" value="LOCAL" />
+      <updated>1597130284300</updated>
+    </task>
+    <task id="LOCAL-00866" summary="bold">
+      <created>1597130424498</created>
+      <option name="number" value="00866" />
+      <option name="project" value="LOCAL" />
+      <updated>1597130424498</updated>
+    </task>
+    <task id="LOCAL-00867" summary="bold">
+      <created>1597131040069</created>
+      <option name="number" value="00867" />
+      <option name="project" value="LOCAL" />
+      <updated>1597131040069</updated>
+    </task>
+    <option name="localTasksCounter" value="868" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="-1742" y="49" width="1680" height="1027" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31664658" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1035,19 +1011,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-07-25-confidence-tuhoclaptrinhhaytrungtam.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.35025382">
-            <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/banner/banner.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1109,13 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="388" column="33" selection-start-line="388" selection-start-column="32" selection-end-line="388" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/confidence-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
