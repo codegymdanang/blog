@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-java
 title: Tham trị và tham chiếu trong lập trình java
 slug : tham-tri-va-tham-chieu-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
-summery: Blog 2
+summery: Pass by value
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_passbyvalue.png
 description : Tham trị pass by value và tham chiếu pass by reference là 2 cách thức hoạt động khác nhau. Trong bài viết sau sẽ giải thích cách thức hoạt động của tham trị và tham chiếu. Cùng tìm hiểu tham trị là gì, tham chiếu là gì trong bài viết sau đâu nhé.

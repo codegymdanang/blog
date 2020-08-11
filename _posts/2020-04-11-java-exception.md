@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-java
 title: Ngoại lệ trong ngôn ngữ lập trình
 slug : ngoai-le-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
-summery: Ngoại Lệ Trong Java
+summery: Ngoại Lệ
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_exception.png
 description : Tìm hiểu ngoại lệ là gì trong ngôn ngữ lập trình java. Chúng ta sẽ tìm hiểu check exception và uncheck exception là gì. Cách sử dụng try catch finaly để bắt ngoại lệ trong ngôn ngữ lập trình và các phương pháp ném ngoại lệ trong ngôn ngữ java.

@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-java
 title: Heap và Stack trong lập trình java
 slug : phan-biet-bo-nho-heap-va-stack
 category: laptrinhjava
 tags: [java core]
-summery: Phân Biệt Bộ Nhớ  Heap va Stack
+summery: Bộ Nhớ Heap va Stack
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_heapstack.jpeg
 description : Giải thích các hoạt động của bộ nhớ heap và stack trong lập trình java. Hiểu được cách thức lưu trữ các giá trị, đối tượng trong ngôn ngữ java trong bộ nhớ heap và stack. Phân biệt được sự khác nhau giữ bộ nhớ heap và stack trong ngôn ngữ lập trình java

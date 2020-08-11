@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-java
 title: Sự Khác Nhau Giữa Class và Object  
 category: Sự Khác Nhau Giữa Class và Object
 tags: [java core]
