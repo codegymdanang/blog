@@ -71,7 +71,8 @@
 				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Angular </span>
 			</div>
 			<div>
-				{% for post in site.categories.laptrinhweb  %}
+				{% assign sorted = site.categories.laptrinhweb | reverse %}
+				{% for post in  sorted %}
 				{% if post.tags contains 'angular' %}
 				<div >
 					<ul>

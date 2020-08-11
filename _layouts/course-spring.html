@@ -71,7 +71,8 @@
 						<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Spring Framework </span>
 					</div>
 					<div>
-						{% for post in site.categories.laptrinhspring  %}
+						{% assign sorted = site.categories.laptrinhspring | reverse %}
+						{% for post in sorted  %}
 								{% if post.tags contains 'spring' %}
 									<div >
 										<ul>
