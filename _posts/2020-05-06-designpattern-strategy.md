@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-design-pattern
 title: Sử dụng Strategy trong lập trình java
 slug : su-dung-strategy-design-pattern
 category: craftmanship
 tags: [designpattern]
-summery: Spring JPA
+summery: Strategy pattern
 image: /images/blog/design-patterns.png
 description : Sử dụng Strategy trong lập trình java. Hướng dẫn sử dụng Strategy factory trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng Strategy factory trong lập trình.
 ---

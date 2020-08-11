@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-design-pattern
 title: Sử dụng Factory Method trong lập trình java
 slug : su-dung-factory-method-design-pattern
 category: craftmanship
 tags: [designpattern]
-summery: Spring JPA
+summery: Factory Method
 image: /images/blog/design-patterns.png
 description : Sử dụng  Factory Method trong lập trình java. Hướng dẫn sử dụng  Factory Method trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng  Factory Method trong lập trình.
 ---

@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-design-pattern
 title: Design Pattern trong lập trình ?
 slug: design-pattern-la-gi
 category: craftmanship
 tags: [designpattern]
-summery: Design Pattern Là Gì ?
+summery: Design Pattern là gì
 image: /images/blog/design-patterns.png
 description : Hiểu design pattern là gì ? vì sao sử dụng design pattern. Hướng dẫn các mẫu design pattern trong học lập trình java.
 ---

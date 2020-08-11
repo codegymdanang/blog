@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-design-pattern
 title: Sử dụng Abstract Factory trong lập trình java
 slug : su-dung-abstract-factory-design-pattern
 category: craftmanship
 tags: [designpattern]
-summery: Spring JPA
+summery: Abstract Factory
 image: /images/blog/design-patterns.png
 description : Sử dụng Abstract Factory trong lập trình java. Hướng dẫn sử dụng abstract factory trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng abstract factory trong lập trình.
 ---
