@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-angular
 title: Sử dụng Bootstrap trong Angular  
 slug : su-dung-bootstrap-trong-angular
 category: laptrinhweb
 tags: [angular]
-summery: Sử dụng Bootstrap trong Angular   
+summery: Sử dụng Bootstrap   
 image: /images/blog/angular.png
 description : Sử dụng boostrap trong dự án angular. Hướng dẫn cài đặt bootstrap vào dự án Angular. Hướng dẫn các tạo một ứng dụng ANgular và nhúng Bootstrap vào dự án.
 youtubeId: 977WIZTAUv8
