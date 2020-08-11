@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: course-tamsu
 title: Xu hướng ngành CNTT
 slug : xu-huong-nghanh-lap-trinh
 category: career
-tags: [confidence]
+tags: [tamsu]
 summery: Xu hướng nghành lập trình   
 image: /images/blog/softskills.png
 description : Xu hướng nghành CNTT, xu hướng nghành công nghệ thông tin. Có nên học lập trình, học lập trình bắt đầu từ đâu, lương nghành IT, có nên học lập trình

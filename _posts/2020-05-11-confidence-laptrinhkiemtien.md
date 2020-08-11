@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: course-tamsu
 title: Lập trình viên kiếm tiền như thế nào
 slug : lập-trinh-vien-kiem-tien-nhu-the-nao
 category: career
-tags: [confidence]
+tags: [tamsu]
 summery: Lập trình viên kiếm tiền như thế nào   
 image: /images/blog/softskills.png
 description : Lập trình viên kiếm tiền như thế nào, kiếm tiền bằng nghành lập trình, tại sao nghành lập trình lại rất hot hiện nay

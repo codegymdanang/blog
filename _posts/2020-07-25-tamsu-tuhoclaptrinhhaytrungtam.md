@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: course-tamsu
 title: Tự học lập trình hay học ở trung tâm
 slug : tu-hoc-lap-trinh-hay-hoc-trung-tam
 category: career
-tags: [confidence]
+tags: [tamsu]
 summery: Tự học lập trình hay học ở trung tâm  
 image: /images/blog/softskills.png
 featureImage: /images/post/javacore/feature_hoclaptrinh.png

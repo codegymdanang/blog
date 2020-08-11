@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: course-tamsu
 title: Kiếm tiền từ dự án Ola City
 slug : kiem-tien-ola-city
 category: career
-tags: [confidence]
+tags: [tamsu]
 summery: Kiếm tiền từ dự án Ola City  
 image: /images/blog/softskills.png
 featureImage: /images/post/javacore/feature_olacity.jpg

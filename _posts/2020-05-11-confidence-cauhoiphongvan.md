@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: course-tamsu
 title: Các câu hỏi phỏng vấn của nhà tuyển dụng
 slug : cac-cau-hoi-phong-van
 category: career
-tags: [confidence]
+tags: [tamsu]
 summery: Các câu hỏi phỏng vấn của nhà tuyển dụng  
 image: /images/blog/softskills.png
 description : câu hỏi phỏng vấn java , câu hỏi phỏng vấn lập trình , phỏng vấn tại doanh nghiệp

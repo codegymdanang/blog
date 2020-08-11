@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: course-tamsu
 title: Tiếng Anh quan trọng như thế nào
 slug : tieng-anh-quan-trong-nhu-the-nao
 category: career
-tags: [confidence]
+tags: [tamsu]
 summery: Tiếng Anh quan trọng như thế nào   
 image: /images/blog/softskills.png
 description : tiếng anh trong lập trình, tiếng anh quan trong như thế nào.

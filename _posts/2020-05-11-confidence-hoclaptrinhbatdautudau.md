@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: course-tamsu
 title: Học lập trình bắt đầu từ đâu
 slug : hoc-lap-trinh-bat-dau-tu-dau
 category: career
-tags: [confidence]
+tags: [tamsu]
 summery: Học lập trình bắt đầu từ đâu  
 image: /images/blog/softskills.png
 featureImage: /images/post/javacore/feature_hoclaptrinh.png
