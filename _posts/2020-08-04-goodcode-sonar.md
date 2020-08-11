@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-goodcode
 title: Sử dụng Sonarqube trong lập trình java  
 slug : su-dung-sonarqube
 category: craftmanship
-tags: [effectivecode]
-summery: Cải thiệnvới chất lượng code với Sonar
+tags: [goodcode]
+summery: Sonar
 image: /images/blog/quality-code.png
 description : Sử dụng sonar trong các dự án Java. Hiểu được nguyên lý và lợi ích của việc sử dụng Sonar trong lập trình Java.
 youtubeId: abLazrIUKD8

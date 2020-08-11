@@ -1,10 +1,10 @@
 ---
-layout: blog
+layout: course-goodcode
 title: Hướng dẫn viết TDD trong lập trình java
 slug : lap-trinh-tdd-la-gi
 category: craftmanship
-tags: [effectivecode]
-summery: Cách tìm bug trập trình   
+tags: [goodcode]
+summery: Lập trình TDD    
 image: /images/blog/quality-code.png
 description : Nắm được nguyên lý và áp dụng được TDD trong lập trình. Nắm được vòng đời của một TDD và hướng dẫn sử dụng viết TDD trong dự án thực tế
 youtubeId: LdLvwsj5_Sk
