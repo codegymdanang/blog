@@ -1,7 +1,7 @@
 ---
 layout: course-angular
 title: Angular Model  
-slug : angular-component
+slug : angular-model
 category: laptrinhweb
 tags: [angular]
 summery: Model   
