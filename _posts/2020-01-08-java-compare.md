@@ -1,7 +1,7 @@
 ---
 layout: course-java
 title: Comparable và Comparator
-slug : ep-kieu-trong-java
+slug : comparable-comparator
 category: laptrinhjava
 tags: [java core]
 summery: Comparable và Comparator  
