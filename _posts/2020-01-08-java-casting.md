@@ -19,5 +19,6 @@ Chào các em. Hôm nay chủ đề của chúng ta sẽ về ép kiểu trong l
 - Ép kiểu ngầm định
 
 
-
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
