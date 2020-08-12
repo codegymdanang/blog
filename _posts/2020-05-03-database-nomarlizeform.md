@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-relationaldatabase
 title:  Các bước chuẩn hoá dữ liệu
 slug : cac-buoc-chuan-hoa-du-lieu
 category: database
