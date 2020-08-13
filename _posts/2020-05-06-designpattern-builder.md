@@ -4,7 +4,7 @@ title: Sử dụng Builder Design Pattern
 slug : su-dung-builder-design-pattern
 category: craftmanship
 tags: [designpattern]
-summery: Abstract Factory
+summery: Builder
 image: /images/blog/design-patterns.png
 description : Sử dụng Builder design pattern trong lập trình java. Hướng dẫn sử dụng builder design pattern trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng builder design pattern trong lập trình.
 ---
