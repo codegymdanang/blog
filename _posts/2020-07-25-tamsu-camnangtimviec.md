@@ -20,7 +20,7 @@ Chính vì vậy chúng ta hãy chủ động trong việc tìm việc làm đ�
 <br>
 # **1. Tìm việc qua kênh Facebook**
 
-Hiện nay có rất nhiều group về tuyển việc làm công nghệ thông tin. Đó là nơi tập trung khá nhiều HR của các doanh nghiệp đăng tin tuyển dụng trên đó. Nếu không tham gia vào các group trên thì rất khó để nắm được thông tin tuyển dụng. Chính vì vậy mình nên tham gia vào các nhóm để cập nhật việc làm đều đặn. Các em có thể search từ khoá này trên facebook : việc làm CNTT Đà Nẵng, Cộng đồng Java - IT jobs Việt Nam, hay Việc làm Công Nghệ Thông Tin - CNTT Đà Nẵng. Có rất nhiều nhóm facebook chỉ dành cho Đà Nẵng, nếu các em muốn tìm các công việc ở Hà Nội và Sài Gòn thì có thể search các nhóm có chữ Việt Nam cuối cùng. Anh ví dụ như IT Job Việt Nam nếu anh muốn tìm công việc trên toàn nước Việt Nam.
+Hiện nay có rất nhiều group về tuyển việc làm công nghệ thông tin. Đó là nơi tập trung khá nhiều HR của các doanh nghiệp đăng tin tuyển dụng trên đó. Nếu không tham gia vào các group trên thì rất khó để nắm được thông tin tuyển dụng. Chính vì vậy mình nên tham gia vào các nhóm để cập nhật việc làm đều đặn. Các em có thể search từ khoá này trên facebook : việc làm CNTT Đà Nẵng, Cộng đồng Java - IT jobs Việt Nam, hay Việc làm Công Nghệ Thông Tin - CNTT Đà Nẵng. Có rất nhiều nhóm facebook chỉ dành cho Đà Nẵng, nếu các em muốn tìm các công việc ở Hà Nội và Sài Gòn thì có thể search các nhóm có chữ Việt Nam cuối cùng.
 
 Khi đã thấy HR(nhà tuyển dụng) nào đăng 1 tin về tuyển dụng mà phù hợp với mình, các em chủ động Inbox nhà tuyển dụng, sau đó gửi CV của mình. Nhà tuyển dụng sẽ chọn lọc nếu CV phù hợp thì họ sẽ gọi đi phỏng vấn.
 
@@ -56,7 +56,7 @@ Ví dụ như các em đã tìm thấy công ty mà mình yêu thích nhưng h�
 <br>
 # **7. Qua người quen**
 
-Các em có thể tìm xem trong thành viên gia đình mình có ai đang làm lập trình không, hoặc có bạn bè nào của người thân đang làm lập trình. Mình có thể xin chỉ dẫn. Hoặc có thể hỏi các chuyên gia trong danh sách bạn bè của mình trên facebook và linkedin xem có công ty nào có nhu cầu tuyển dụng không.
+Các em có thể tìm xem trong thành viên gia đình mình có ai đang làm lập trình không, hoặc có bạn bè nào của người thân đang làm lập trình. Mình có thể xin chỉ dẫn từ các người quen.
 
 # **Kết luận**
 
