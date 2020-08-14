@@ -1,7 +1,7 @@
 ---
 layout: course-tamsu
 title: Cẩm nang tìm việc hiệu quả
-slug : kiem-tien-ola-city
+slug : cam-nang-tim-viec
 category: career
 tags: [tamsu]
 summery: Cẩm nang tìm việc  
