@@ -6,7 +6,7 @@ category: career
 tags: [tamsu]
 summery: Cẩm nang tìm việc  
 image: /images/blog/softskills.png
-featureImage: /images/post/javacore/feature_vieclam.jpg
+featureImage: /images/post/javacore/feature_vieclam.png
 description : Hướng dẫn cách kiếm việc hiệu quả
 youtubeId: ZqmIem8Q2Fo
 ---
