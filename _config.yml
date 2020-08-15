@@ -18,7 +18,7 @@ defaults:
   - scope:
       path: "assets/static"
     values:
-      image: true
+      image: false
 
 linkined_url: ""
 theme: jekyll-theme-minimal
