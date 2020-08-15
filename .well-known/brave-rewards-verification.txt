@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: levunguyen.com
-Token: 563b4f5fbd5941330920ecf1085ab91104091ea38062e28071795e7b138022c3
