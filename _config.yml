@@ -14,6 +14,12 @@ twitter: "Ghosteyes1"
 github: "codegymdanang"
 facebook: "levunguyen"
 
+defaults:
+  - scope:
+      path: "assets/static"
+    values:
+      image: true
+
 linkined_url: ""
 theme: jekyll-theme-minimal
 # Paginate post in page
