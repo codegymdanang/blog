@@ -8,7 +8,7 @@ summery: OneToOne
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
 description : Sử dụng OneToOne Relationship trong lập trình. Hiểu annotation @OneToOne là gì và sử dụng như thế nào trong lập trình Spring  
-youtubeId: WNfuVJptPnQ
+youtubeId: TDiydQTFXLU
 ---
 
 # **Giới thiệu nội dung bài viết**
@@ -153,3 +153,7 @@ Như vậy chúng ta sử dụng annotaion <b>@OneToOne</b> để thực hiện 
 lấy  ra địa chỉ và ngược lại.
 
 Để hiểu thêm về <b>mappedBy</b> còn có chức năng nào mới không thì các bạn có thể đọc bài viết tiếp theo nhé.
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

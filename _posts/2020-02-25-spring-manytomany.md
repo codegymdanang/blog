@@ -8,7 +8,7 @@ summery: Many To Many
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
 description : Sử dụng annotation @ManyToMany trong lập trình Spring. Hướng dẫn sử dụng quan hệ @ManyToMany many to many trong spring data jpa . Cấu hình và triển khai dự án dùng @ManyToMany
-youtubeId: WNfuVJptPnQ
+youtubeId: qhovNzYD5Lk
 ---
 
 # **Giới thiệu nội dung bài viết**
@@ -167,3 +167,7 @@ Chúng ta sử dụng <b>@EmbeddedId</b> để dánh dấu cặp key trở thàn
 # **5. Tổng kết**
 
 Các em có thể dùng một trong 2 cách trên khi gặp mối quan hệ nhiều nhiều đều giải quyết được vấn đề. Thông thường anh hay dùng cách thứ 2 (CompositeKey) vì code dể quản lý và thay đổi . Ví dụ như a muốn thêm vô vài trường trong table trung gian thì  quản lý rất dể.
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

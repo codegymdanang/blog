@@ -8,7 +8,7 @@ summery: OneToMany
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
 description : Sử dụng @OneToMany mapping trong lập trình Spring. Hướng dẫn sử dụng annotation @onetomany trong spring data jpa.
-youtubeId: WNfuVJptPnQ
+youtubeId: JSnxij3p6nU
 ---
 
 # **Giới thiệu nội dung bài viết**
@@ -176,3 +176,7 @@ Chúng ta sẽ lưu giỏ hàng và các sản phẩm xuống database theo các
 
 Như vậy chúng ta sử dụng annotaion @OneToMany và @ManyToOne để thực hiện việc liên kết giữa hai entity với nhau. Trong lập trình sẽ có những lúc khi ta có thể query từ Cart lấy ra tất cả các dòng dữ liệu Items trong Cart đó hoặc sẽ có những trường hợp ngược lại là từ những Items trong Cart đó ta có thể lấy được Cart đó là gì thông qua các Item. Đó chính là Bidirectional chúng ta có thể query Cart lấy Item hoặc query ngược từ Item ra Cart. Để làm được việc này thì ta phải sử dụng @JoinColumn và MappedBy để thực hiện Bidriectional 
 
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
