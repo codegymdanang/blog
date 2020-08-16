@@ -8,7 +8,7 @@ summery: Tạo dự án spring Boot
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Sử dụng Dependency Injection trong lập trình Spring. Hiểu được Dependency Injection là gì. Hướng dẫn sử dụng DI trong lập trình Spring.
-youtubeId: qA_GSXZh
+youtubeId: qA_GSXZh-oA
 ---
 
 # **Giới thiệu nội dung bài viết**
