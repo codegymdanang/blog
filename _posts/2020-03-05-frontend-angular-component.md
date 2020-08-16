@@ -10,7 +10,7 @@ description : Sử dụng boostrap trong dự án angular. Hướng dẫn cài �
 youtubeId: 0734nF0B_BM
 ---
 
-# **Giới thiệu nộitếung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Angular Component</b> là như thế nào?
 

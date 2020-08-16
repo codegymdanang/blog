@@ -10,7 +10,7 @@ description : Sử dụng Promise trong dự án angular. Hướng dẫn cài đ
 youtubeId: xeIb4xbjxb8
 ---
 
-# **Giới thiệu nộitếung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Promise </b> là như thế nào?
 

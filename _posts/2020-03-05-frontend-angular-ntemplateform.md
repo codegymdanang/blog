@@ -10,7 +10,7 @@ description : Sử dụng boostrap trong dự án angular. Hướng dẫn cài �
 youtubeId: _-NDwzWcQFE
 ---
 
-# **Giới thiệu nộitếung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Angular Template Form</b> là như thế nào?
 

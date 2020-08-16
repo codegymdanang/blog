@@ -10,7 +10,7 @@ description : Sử dụng angular router trong dự án angular. Hướng dẫn 
 youtubeId: JV0MCJ37bLI
 ---
 
-# **Giới thiệu nộitếung bài viết**
+# **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Angular Router </b> là như thế nào?
 
