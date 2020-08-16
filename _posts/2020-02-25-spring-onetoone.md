@@ -8,7 +8,7 @@ summery: OneToOne
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
 description : Sử dụng OneToOne Relationship trong lập trình. Hiểu annotation @OneToOne là gì và sử dụng như thế nào trong lập trình Spring  
-youtubeId: TDiydQTFXLU
+youtubeId: 3xMFBVQZfXM
 ---
 
 # **Giới thiệu nội dung bài viết**
