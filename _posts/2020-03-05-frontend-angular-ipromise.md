@@ -4,7 +4,7 @@ title: Sử dụng Promise
 slug : angular-promise
 category: laptrinhweb
 tags: [angular]
-summery: Router   
+summery: Promise   
 image: /images/blog/angular.png
 description : Sử dụng Promise trong dự án angular. Hướng dẫn cài đặt promise vào dự án Angular. Hướng dẫn các tạo một ứng dụng promise và nhúng promise vào dự án.
 youtubeId: xeIb4xbjxb8
