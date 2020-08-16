@@ -50,6 +50,7 @@ về abstract factory là gì ?
 - Code không tốt
 
 {% highlight java  linenos %}
+
 public class Example {
 
 	private static final String COMMISSIONED = null;
@@ -89,6 +90,7 @@ public class Example {
 - Code tốt
 
 {% highlight java  linenos %}
+
 public abstract class Employee {
 	public abstract boolean isPayday();
 
@@ -186,6 +188,7 @@ DrawLine draw = paint.render().getFullPath (suiteTeardown).getElement();
  DrawLine draw = paint.render(pagePath); 
 
 }
+{% endhighlight %}
 
 <br>
 # **5. Giá trị Boolean trong IF Else**
@@ -303,8 +306,6 @@ void print() {
   position.setY();
 
 }
-
-
 {% endhighlight %}
 
 - Code tốt
@@ -318,6 +319,7 @@ void print() {
 void getPosition() {
 	//calculateTax
 }
+
 {% endhighlight %}
 
 <br>
@@ -327,6 +329,8 @@ Method nhiều nhất chỉ chứa 2 tham số. Nếu vượt quá 2 tham số t
 chúng ta thay thế các tham số x,y,radius thành đối tượng Point
 
 - Code không tốt
+
+{% highlight java  linenos %}
 
 public class Example {
 	
@@ -339,6 +343,7 @@ public class Example {
 
 Chúng ta nên có 2 phương thức riêng biệt
 
+{% highlight java  linenos %}
 
 public class Example {
 	
