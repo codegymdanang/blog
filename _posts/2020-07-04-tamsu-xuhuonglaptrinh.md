@@ -24,7 +24,7 @@ Chào các bạn, chắc hẳn bạn rất thích <b>lập trình</b> và mong m
 
 Các bạn sinh viên hiện nay khi ra trường thường phải được đào tạo lại các công nghệ mà công ty tuyển dụng nơi mà mình làm việc. Thông thường các bạn phải trải qua giai đoạn đào tạo 6 tháng tại công ty thì mới làm được việc và trở thành một <b>lập trình viên</b> tại công ty. Nguyên nhân do các bạn chưa tiếp cận được công nghệ mới trong quá trình ngồi trên ghế nhà trường dẫn đến bở ngỡ khi đi làm.
 
-Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang đi học trên trường thì cũng phải thường xuyên cập nhật công nghệ mới ngoài kiến thức nhà trường đã trang bị cho các em để trở thành một <b>lập trình viên</b> giỏi đáp ứng nhu cầu nhà tuyển dụng. Sau đây anh sẽ đưa ra một list các trang web mà có thể giúp mình tiến nhanh trên việc <b>tự học lập trình</b>.
+Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang đi học trên trường thì cũng phải thường xuyên cập nhật công nghệ mới ngoài kiến thức nhà trường đã trang bị cho các em để trở thành một <b>lập trình viên</b> giỏi đáp ứng nhu cầu nhà tuyển dụng. Sau đây anh sẽ đưa ra một list các trang web mà có thể giúp mình tiến nhanh trên việc <b>tự học lập trình</b>. Ngoài ra các em có thể tham khảo thêm tại [đây](https://levunguyen.com/career/2020/06/14/con-duong-tro-thanh-lap-trinh-vien-frontend/) lộ trình phát triển của lập trình viên cần học những gì ở frontend. Hoặc lộ trình học để trở thành backend tại [đây](https://levunguyen.com/career/2020/06/14/con-duong-tro-thanh-lap-trinh-vien-java/)
 
 1- Các khoá học onine miễn phí
 + Stackoverflow.com
