@@ -1,7 +1,7 @@
 ---
 layout: course-tamsu
-title: Tiếng Anh quan trọng như thế nào
-slug : tieng-anh-quan-trong-nhu-the-nao
+title: Tiếng Anh Trong Lập Trình
+slug : tieng-anh-trong-lap-trình
 category: career
 tags: [tamsu]
 summery: Tiếng Anh quan trọng như thế nào   
@@ -12,7 +12,7 @@ youtubeId: r2w7in6xMB4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, hôm nay anh sẽ chia sẽ về chủ đề <b>tầm quan trọng của tiếng Anh trong nghành phần mềm</b>. Anh sẽ kể câu chuyện mà anh đã trải qua và tiếng Anh đã giúp gì cho anh trong những năm tháng làm trong <b>ngành lập trình</b>.
+Chào các bạn, hôm nay anh sẽ chia sẽ về chủ đề tầm quan trọng của <b>tiếng Anh trong nghành lập trình</b>. Anh sẽ kể câu chuyện mà anh đã trải qua và tiếng Anh đã giúp gì cho anh trong những năm tháng làm trong <b>ngành lập trình</b>.
 
 <br>
 # **1. May mắn khi được học tiếng Anh**

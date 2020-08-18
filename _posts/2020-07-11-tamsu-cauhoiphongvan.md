@@ -1,7 +1,7 @@
 ---
 layout: course-tamsu
 title: Các câu hỏi phỏng vấn của nhà tuyển dụng
-slug : cac-cau-hoi-phong-van
+slug : cac-cau-hoi-phong-van-cua-nha-tuyen-dung
 category: career
 tags: [tamsu]
 summery: Các câu hỏi phỏng vấn của nhà tuyển dụng  
@@ -12,7 +12,7 @@ youtubeId: r2w7in6xMB4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay sẽ chia sẽ những kinh nghiệm của anh đứng trên vai trò là nhà tuyển dụng các bạn fresher , junior, dev tại công ty mà anh đã làm việc. Nội dung chúng ta sẽ xoay quanh các nội dung sau.
+Chào các em, hôm nay sẽ chia sẽ những kinh nghiệm của anh đứng trên vai trò là nhà tuyển dụng đặt <b>các câu hỏi phỏng vấn lập trình </b> cho các bạn fresher , junior, dev tại công ty mà anh đã làm việc. Nội dung chúng ta sẽ xoay quanh các nội dung sau.
 
 - Các bài test đầu  đầu vào của một công ty IT
 - Các câu hỏi phỏng vấn
@@ -31,7 +31,7 @@ Trong vòng này các bạn sẽ được công ty đưa cho bài test để ki�
 <br>
 ### Vòng 2 : Phỏng vấn kỷ thuật trực tiếp với đội ngũ team lead tại công ty.
 
-Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị là team lead của dự án. Thông thường các anh/chị sẽ hỏi các kiến thức từ cơ bản đến nâng cao. Sau đây anh sẽ ghi ra danh sách các câu hỏi mà anh và các nhà tuyển dụng hay hỏi
+Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị là team lead của dự án. Thông thường các anh/chị sẽ hỏi các kiến thức từ cơ bản đến nâng cao. <b>Các câu hỏi phỏng vấn lập trình</b> mà các anh chị thưởng hay hỏi
 
 1. Kiến thức Java nền tảng
   + Lập trình hướng đối tượng là gì? [Trả lời](https://levunguyen.com/laptrinhjava/2020/04/01/lap-trinh-huong-doi-tuong-trong-java/)
@@ -106,4 +106,4 @@ Vòng này các em sẽ phỏng vấn với bộ phận nhân sự tại công t
 <br>
 ### **Kết luận**
 
-Thông thường khi phỏng vấn fresher , junior hoặc dev thì các câu hỏi xoáy quanh về kiến thức nền tảng (core). Vì khi các bạn có nền tảng tốt lúc đó các anh/chị sẽ hướng dẫn nhanh hơn vào dự án tốt hơn. Cái quan trọng nữa là mình phải có thái độ đúng đắn trong nghề lập trình
+Thông thường khi phỏng vấn fresher , junior hoặc dev thì các <b>câu hỏi phỏng vấn lập trình</b> xoáy quanh về kiến thức nền tảng (core). Vì khi các bạn có nền tảng tốt lúc đó các anh/chị sẽ hướng dẫn nhanh hơn vào dự án tốt hơn. Cái quan trọng nữa là mình phải có thái độ đúng đắn trong nghề lập trình
