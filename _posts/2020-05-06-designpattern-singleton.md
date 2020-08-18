@@ -22,8 +22,6 @@ Singleton Pattern giúp chúng ta tạo ra một đối tượng duy nhất tron
 
 + Khi chúng ta muốn có một đối tượng duy nhất xuyên suốt ứng dụng.
 
-+ Chúng ta sử dụng singleton cho việc log, làm các tuyến trình (thread) hoặc cache.
-
 <br>
 # **3- Singleton UML**
 
