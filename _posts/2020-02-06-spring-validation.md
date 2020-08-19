@@ -24,7 +24,7 @@ lên là hợp lệ. Nội dung hôm nay sẽ trình bày là
 <br>
 # **1. Tại sao cần kiểm tra và ràng buộc dữ liệu**
 
-Cái quý giá và quan trọng nhất đối với một phần mềm đó chính là dữ liệu , thông tin về dữ liệu. Như các e thấy facebook hay google họ nắm
+Cái quý giá và quan trọng nhất đối với một phần mềm đó chính là dữ liệu, thông tin về dữ liệu. Như các e thấy facebook hay google họ nắm
 dữ một lượng người dùng khá lớn , dự vào nguồn dữ liệu đó họ sẽ phát triển các kế hoạch dài hạn và tăng doanh thu cho công ty . Chính vì vậy
 nắm được dữ liệu sẽ là yếu tố quyết định cho sự thành công. Để đảm bảo dữ liệu phải nhập đúng định dạng ví dụ như ngày tháng năm phải theo
 chuẩn la dd/MM/YYYY hoặc trường dữ liệu bắt buộc người dùng nhập vào thì ta sử dụng <b>Spring Validation</b> để làm việc đó. Khi người dùng nhập

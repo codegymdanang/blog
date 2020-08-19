@@ -13,7 +13,7 @@ youtubeId: z3ZlVvu1yUY
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn , chắc bạn đang phân vân <b>Request Param</b> và <b>PathVariable</b> có khác gì nhau không ? Khi nào dùng thì bài viết hôm nay
+Chào bạn , chắc bạn đang phân vân <b>Request Param</b> và <b>Path Variable</b> có khác gì nhau không ? Khi nào dùng thì bài viết hôm nay
 anh sẽ trình bày sự khác nhau đó .Chúng ta sẽ thảo luận các vấn đề sau.
 
 - Request Param là gì ?

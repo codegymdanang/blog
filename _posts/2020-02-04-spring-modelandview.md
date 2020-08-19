@@ -66,7 +66,7 @@ Chúng ta sử dụng <b>${greeting.name}</b> để lấy giá trị bên contro
 <br>
 # **2. ModelMap là gì**
 
-<b>ModelMap</b> cũng tương tư như Model. Chúng ta có thể sử dụng ModelMap như một tham số trong method của Controller.
+<b>ModelMap</b> cũng tương tư như <b>Model</b>. Chúng ta có thể sử dụng <b>ModelMap</b> như một tham số trong method của Controller.
 
 {% highlight java  linenos %}
 @RequestMapping(path = "/getWithModelMap", method = RequestMethod.GET)
@@ -78,12 +78,12 @@ public String getWithModelMap(@RequestParam("name") String name, ModelMap modelM
 
 {% endhighlight %}
 
-Trong phương thức getWithModelMap ta có thêm tham số là ModelMap modelMap thay vì Model
+Trong phương thức getWithModelMap ta có thêm tham số là <b>ModelMap</b> modelMap thay vì Model
 
 <br>
 # **3. Map**
 
-Map cũng tương tự như Model. Chúng ta có thể sử dụng Map như một tham số trong method của Controller.
+Map cũng tương tự như <b>Model</b>. Chúng ta có thể sử dụng Map như một tham số trong method của Controller.
 
 {% highlight java  linenos %}
 @RequestMapping(path = "/getWithMap", method = RequestMethod.GET)
@@ -95,7 +95,7 @@ public String getWithMap(@RequestParam("name") String name, Map<String, Object> 
 }
 {% endhighlight %}
 
-Trong phương thức getWithModelMap ta có thêm tham số là Map gồm có key và value và ta sử dụng phương thức put thay vì addAttribute như model và modelmap
+Trong phương thức getWithModelMap ta có thêm tham số là Map gồm có key và value và ta sử dụng phương thức put thay vì addAttribute như <b>model</b> và <b>modelmap</b>
 
 <br>
 # **4. ModelAndView**

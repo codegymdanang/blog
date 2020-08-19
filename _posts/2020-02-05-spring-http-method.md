@@ -13,7 +13,7 @@ youtubeId: 7VMXLT5oW1g
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em , hôm nay anh sẽ giới thiệu với các bạn các loại <b>HTTP method</b> trong lập trình. Nội dung hôm nay sẽ nói về
+Chào các em , hôm nay anh sẽ giới thiệu với các bạn các loại <b>phương thức http</b> trong lập trình. Nội dung hôm nay sẽ nói về
 
 - Tổng hợp các loại request
 - Các khái niệm quan trọng
@@ -60,24 +60,24 @@ Có tất cả 9 loại request.
 # **4. GET VS POST**
 
 Một ứng dụng web được thiết kế theo restful thì get chỉ dùng để lấy dữ liệu và post chỉ dùng để đẩy dữ liệu lên.
-Một chút khác biệt dễ nhận thấy giữa get và post là get thì không có body. Khi dùng get để truyền dữ liệu lên sever chúng ta thấy rằng tất cả các paramater đều bị hiển thị trên url của request, xét về khía cạnh bảo mật thì điều này thật là tệ.
-Anh lấy ví dụ nếu mình dùng Get để thực hiện công việc chuyển tiền từ tài khoản A sang tài khoản B. Thì thông tin số tài khoản sẽ được hiển thị trên trình duyệt (URL). Nếu vô tình có người đứng sau lưng mình thì họ hoàn toàn có thể thấy được các thông tin nhạy cảm trên và đánh cắp thông tin đó để phục vụ cho mục đích xấu.
+Một chút khác biệt dễ nhận thấy giữa <b>phương thức get</b> và <b>phương thức post</b> là get thì không có body. Khi dùng get để truyền dữ liệu lên sever chúng ta thấy rằng tất cả các paramater đều bị hiển thị trên url của request, xét về khía cạnh bảo mật thì điều này thật là tệ.
+Anh lấy ví dụ nếu mình dùng <b>phương thức get</b> để thực hiện công việc chuyển tiền từ tài khoản A sang tài khoản B. Thì thông tin số tài khoản sẽ được hiển thị trên trình duyệt (URL). Nếu vô tình có người đứng sau lưng mình thì họ hoàn toàn có thể thấy được các thông tin nhạy cảm trên và đánh cắp thông tin đó để phục vụ cho mục đích xấu.
 
 
 Post thì khác, nó giấu parameters trong body và mã hóa chúng đi, ngăn cản các phần tử trung gian ăn cắp nội dung. Nhưng post chỉ có tính an toàn đối với client, còn với sever thì lại khác.
 
-Anh cũng lấy ví dụ chuyển tiền trên , nếu mình sử dụng Post sẽ an toàn hơn vì thông tin tài khoản không hiển thị trên URL, mà nó nằm trong body. Người dùng không thấy được trên url nên không thể biết được là mình truyền dữ liệu gì
+Anh cũng lấy ví dụ chuyển tiền trên , nếu mình sử dụng <b>phương thức post </b> sẽ an toàn hơn vì thông tin tài khoản không hiển thị trên URL, mà nó nằm trong body. Người dùng không thấy được trên url nên không thể biết được là mình truyền dữ liệu gì
 
-Thông thường mình dùng Get để lấy thông tin. Anh ví dụ như lấy danh sách sản phẩm điện thoai trên trang tiki.vn. Thì mình có thể dùng phương thức get và hiển thị thông tin trên trình duyệt như sau : https://tiki.vn/iphone10 hoặc https://tiki.vn/samsungA51. Như vậy chữ iphone10 hay samsungA51
+Thông thường mình dùng <b>phương thức get</b> để lấy thông tin. Anh ví dụ như lấy danh sách sản phẩm điện thoai trên trang tiki.vn. Thì mình có thể dùng phương thức get và hiển thị thông tin trên trình duyệt như sau : https://tiki.vn/iphone10 hoặc https://tiki.vn/samsungA51. Như vậy chữ iphone10 hay samsungA51
 không cần phải bảo mật cao, chủ yếu mình dùng nó để lấy thông tin tất cả các sản phẩm iphone10 và samsunga51 thôi.
 
-Mình dùng post khi các thông tin truyền lên server có tính bảo mật.  
+Mình dùng <b>phương thức post</b> khi các thông tin truyền lên server có tính bảo mật.  
 
 
 <br>
 # **5. POST/PUT/PATCH**
 
-- Điểm khác biệt giữ post và put đơn giản là put là idempotent còn post thì không, bạn sẽ nhận được thông báo lỗi khi gửi một request post với cùng 1 nội dung 2 lần nhưng put thì không, nó luôn trả về kết quả như nhau.
+- Điểm khác biệt giữ <b>phương thức post</b> và <b>phương thức put</b> đơn giản là put là idempotent còn post thì không, bạn sẽ nhận được thông báo lỗi khi gửi một request post với cùng 1 nội dung 2 lần nhưng put thì không, nó luôn trả về kết quả như nhau.
 - Post: tạo mới.
 - Put: ghi đè(toàn bộ) hoặc tạo mới 1 resource.
 - Patch: cập một 1 phần của resource.
