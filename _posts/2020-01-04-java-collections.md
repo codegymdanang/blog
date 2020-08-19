@@ -1,7 +1,7 @@
 ---
 layout: course-java
 title: Sử dụng các tập hợp trong lập trình java
-slug : cac-tap-hop-trong-lap-trinh-java
+slug : cau-truc-du-lieu
 category: laptrinhjava
 tags: [java core]
 summery: Collection
@@ -13,8 +13,8 @@ youtubeId: GXQn39fU2Kg
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, hẳn bạn đang phân vân trong java mình có những loại <b>collection</b> (tập hợp nào) ? Các tập hợp đó khi nào thì nên sử dụng và nó khác nhau như thế nào.
-Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng và phân biệt sự khác nhau giữa <b>các tập hợp trong Java</b>. Nội dung bài này sẽ nói về.
+Chào bạn, hẳn bạn đang phân vân trong java mình có những loại <b>cấu trúc dữ liệu</b>  (tập hợp nào) nào? Các cấu trúc dữ liệu đó khi nào thì nên sử dụng và nó khác nhau như thế nào.
+Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng và phân biệt sự khác nhau giữa các <b>cấu trúc dữ liệu</b>. Nội dung bài này sẽ nói về.
 
 - Các collection trong Java
 - Tập hợp List
@@ -36,7 +36,7 @@ Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng v�
 <br>
 # **2. List**
 
-Là một collection có thứ tự (đôi khi còn được gọi là một chuỗi).
+Là một <b>cấu trúc dữ liệu</b> có thứ tự (đôi khi còn được gọi là một chuỗi).
 <b>List có thể chứa các phần tử trùng lặp</b>. Thường có quyền kiểm soát chính xác vị trí các phần tử được chèn vào và có thể truy cập chúng bằng chỉ số (vị trí của chúng).
 
 {% highlight java linenos %}
@@ -49,7 +49,7 @@ list.add("Collection List ");
 <br>
 # **3. Vector**
 
-Là một <b>collection có thể chứa các phần tử trùng lặp</b>. Duy trì thứ tự của phần tử được thêm vào. Vector là synchronized.
+Là một <b>cấu trúc dữ liệu</b> có thể chứa các phần tử trùng lặp. Duy trì thứ tự của phần tử được thêm vào. Vector là synchronized.
 
 {% highlight java linenos %}
 Vector<String> list3 = new Vector<String>();
@@ -60,7 +60,7 @@ Vector<String> list3 = new Vector<String>();
 <br>
 # **4. Set**
 
-Là  <b>một collection không thể chứa 2 giá trị trùng lặp</b>.
+Là một <b>cấu trúc dữ liệu</b> không thể chứa 2 giá trị trùng lặp.
 
 {% highlight java linenos %}
  Set<Integer> hashsetInteger = new HashSet<>();
@@ -72,7 +72,7 @@ Là  <b>một collection không thể chứa 2 giá trị trùng lặp</b>.
 <br>
 # **5. Queue (hàng đợi)**
 
-Là một collection được sử dụng để chứa nhiều phần tử trước khi xử lý. Bên cạnh các thao tác cơ bản của collection, Là tập hợp cho phép các phần tử trùng lặp, Không cho phép phần tử null
+Là một <b>cấu trúc dữ liệu</b> được sử dụng để chứa nhiều phần tử trước khi xử lý. Bên cạnh các thao tác cơ bản của collection, Là tập hợp cho phép các phần tử trùng lặp, Không cho phép phần tử null
 Queue cung cấp các thao tác bổ sung như chèn, lấy ra và kiểm tra. Queue có thể được sử dụng như là FIFO (first-in, first-out - vào trước, ra trước).
 
 {% highlight java linenos %}   
@@ -84,7 +84,7 @@ Queue cung cấp các thao tác bổ sung như chèn, lấy ra và kiểm tra. Q
 <br>
 # **6. Deque**
 
-Là một collection cung cấp các thao tác bổ sung như chèn, lấy ra và kiểm tra. <b>Deque</b> có thể được sử dụng như là FIFO (first-in, first-out - vào trước, ra trước) và LIFO (last-in, first-out - vào sau, ra trước).
+Là một <b>cấu trúc dữ liệu</b> cung cấp các thao tác bổ sung như chèn, lấy ra và kiểm tra. <b>Deque</b> có thể được sử dụng như là FIFO (first-in, first-out - vào trước, ra trước) và LIFO (last-in, first-out - vào sau, ra trước).
 Trong một Deque, tất cả các phần tử mới có thể được chèn vào, lấy ra và lấy ra ở cả hai đầu.
 
 {% highlight java linenos %}   
@@ -99,7 +99,7 @@ Trong một Deque, tất cả các phần tử mới có thể được chèn v�
 <br>
 # **7. Map**
 
-Là một đối tượng ánh xạ mỗi key tương úng với một giá trị. <b>Ma</b> không thể chứa giá trị trùng lặp. Mỗi key có thể ánh xạ đến nhiều nhất một giá trị.
+Là một đối tượng ánh xạ mỗi key tương úng với một giá trị. <b>Map</b> không thể chứa giá trị trùng lặp. Mỗi key có thể ánh xạ đến nhiều nhất một giá trị.
 
 {% highlight java linenos %}
 Map<Integer, String> hashMap = new HashMap<>();

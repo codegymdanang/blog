@@ -1,7 +1,7 @@
 ---
 layout: course-java
 title: Heap và Stack trong lập trình java
-slug : phan-biet-bo-nho-heap-va-stack
+slug : bo-nho-heap-va-stack
 category: laptrinhjava
 tags: [java core]
 summery: Bộ Nhớ Heap va Stack
@@ -48,7 +48,7 @@ JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc qu
 <br>
 # **3 Bộ nhớ Heap**
 
-- <b>Java Heap Memory</b> là bộ nhớ được sử dụng ở runtime (Khi chương trình đang  chạy) để lưu các Objects(các đối   tượng) . Bất cứ khi nào ở đâu trong chương trình của bạn khi bạn tạo Object thì nó sẽ được lưu trong Heap (thực thi toán tử new).
+- <b>Bộ nhớ Heap</b> là bộ nhớ được sử dụng ở runtime (Khi chương trình đang  chạy) để lưu các Objects(các đối   tượng) . Bất cứ khi nào ở đâu trong chương trình của bạn khi bạn tạo Object thì nó sẽ được lưu trong Heap (thực thi toán tử new).
 - Các objects trong Heap đều được truy cập bởi tất cả các các nơi trong ứng dụng, bởi các threads khác nhau.
 - Thời gian sống của object phụ thuộc vào chương  trình <b>Garbage Collector</b> (GC ) của java. Khi một object bị null hoặc không tham chiếu tới một đối tượng nào thì GC sẽ xoá nó khỏi bộ nhớ.
 - Dung lượng sử dụng của Heap sẽ tăng giảm phụ thuộc vào Objects sử dụng.
@@ -64,7 +64,7 @@ JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc qu
 - Khi hàm được gọi thì một vùng nhớ được tạo ra trong stack và lưu các biến trong hàm đó. Khi hàm thực hiện xong, khối bộ nhớ cho hàm sẽ bị xoá, và giải phóng bộ nhớ trong stack.
 <br>
 
-- Ví dụ về Heap và Stack
+- Ví dụ về <b>bộ nhớ Heap</b> và <b>bộ nhớ Stack</b>
 
 {:refdef: style="text-align: center;"}
 ![Ví dụ về Heap và Stack  ](/images/post/javacore/vdheapstack.png){:class="img-responsive"}

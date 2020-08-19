@@ -1,7 +1,7 @@
 ---
 layout: course-java
 title:  Sử dụng Access Modifier trong lập trình java
-slug : phan-biet-access-modifier-trong-java
+slug :  access-modifier
 category: laptrinhjava
 tags: [java core]
 summery: Access Modifier

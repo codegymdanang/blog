@@ -1,7 +1,7 @@
 ---
 layout: course-java
 title: Ngoại lệ trong ngôn ngữ lập trình
-slug : ngoai-le-trong-lap-trinh-java
+slug : ngoai-le
 category: laptrinhjava
 tags: [java core]
 summery: Ngoại Lệ
@@ -14,7 +14,7 @@ youtubeId: zC0t0e9DaH4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn , hôm nay chủ đề của anh sẽ nói về <b>Ngoại lệ (Exception)</b> trong lập trình là gì ? Bài hôm nay chúng ta sẽ đi qua các nội dung.
+Chào các bạn , hôm nay chủ đề của anh sẽ nói về <b>Ngoại lệ</b> (Exception) trong lập trình là gì ? Bài hôm nay chúng ta sẽ đi qua các nội dung.
 
 - Exception là gì ?
 - Check Exception là gì ?
@@ -27,7 +27,7 @@ Chào các bạn , hôm nay chủ đề của anh sẽ nói về <b>Ngoại lệ
 
 <b>Exception</b> (ngoại lệ) trong Java là một vấn đề bất thường xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.
 
-Exception là một sự kiện mà phá vỡ luồng chuẩn của chương trình. Anh lấy ví dụ về rút tiền ATM ở máy rút tiền. Trong tài khoản
+<b>Exception</b> là một sự kiện mà phá vỡ luồng chuẩn của chương trình. Anh lấy ví dụ về rút tiền ATM ở máy rút tiền. Trong tài khoản
 mình chỉ có 1.000.000 nhưng nếu mình bấm trong máy ATM rút 2.000.000 thì lúc đó chương trình trong máy ATM sẽ báo lỗi vì
 số tiền mình yêu cầu rút lớn hơn số hiện tại. Đó chính là một Exception (ngoại lệ) xảy ra lúc chương trình đang chạy.
 

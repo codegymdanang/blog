@@ -89,7 +89,7 @@ sử dụng Generic mình đỡ phải viết code nhiều. Mình có thể tái
 
 2. **Cách tạo Generic method**
 
-Ví dụ ta viết một phương thức in tất cả các phần tử là generic. Mọi người chú ý tham số truyền vào trong phương thức là chữ \<E\> đó là tham khi ta muốn viết một hàm generic.
+Ví dụ ta viết một phương thức in tất cả các phần tử là <b>Generic</b>. Mọi người chú ý tham số truyền vào trong phương thức là chữ \<E\> đó là tham khi ta muốn viết một hàm generic.
 Tuỳ vào tham số truyền vào là <b>kiểu dữ liệu</b> gì . Ta cũng in được các phần tử con trong tập hợp đó
    Ví dụ ta viết phương thức printArrayGeneric sau truyền vào tham số là một kiểu generic. Ký tự \<E\> ta sẽ bàn trong phần tiếp.
 

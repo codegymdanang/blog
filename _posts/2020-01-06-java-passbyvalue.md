@@ -1,7 +1,7 @@
 ---
 layout: course-java
 title: Tham trị và tham chiếu trong lập trình java
-slug : tham-tri-va-tham-chieu-trong-lap-trinh-java
+slug : tham-tri-va-tham-chieu
 category: laptrinhjava
 tags: [java core]
 summery: Pass by value
@@ -13,8 +13,8 @@ youtubeId: 0F_8a5_fKno
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, chắc chắn không ý bạn nhầm lẫn khái niệm tham trị và tham chiếu  ? Có rất nhiều bạn có nhận định chưa đúng về khái niệm
-Ví dụ như các bạn nói các tham số trong hàm nếu ta truyền kiểu nguyên thuỷ thì đó là tham trị còn nếu truyền kiểu object là tham chiếu.
+Chào các bạn, chắc chắn không ý bạn nhầm lẫn khái niệm <b>tham trị</b> và <b>tham chiếu</b>  ? Có rất nhiều bạn có nhận định chưa đúng về khái niệm
+Ví dụ như các bạn nói các tham số trong hàm nếu ta truyền kiểu nguyên thuỷ thì đó là <b>tham trị</b> còn nếu truyền kiểu object là <b>tham chiếu</b>.
 Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nhé. Để hiểu được bài viết này thì các em nên đọc qua bài viết về (bộ nhớ)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/] để nắm được cách lưu trữ các giá trị trong lập trình. Nội dung bài viết sẽ xoay quanh các vấn đề sau .
 
 - Gán giá trị là gì ?
@@ -39,7 +39,7 @@ Trước hết mình xem lại  bộ nhớ máy tính lưu trữ các biến và
 <br>
 # **2.Tham trị là gì  (pass by value)**
 
-Tham trị Pass by value : nghĩa là mình sẽ clone (tạo ra một giá trị mới bằng cách copy giá trị gốc), và mình chỉ thao táo giá trị với bản copy.
+<b>Tham trị</b> <b>Pass by value</b> : nghĩa là mình sẽ clone (tạo ra một giá trị mới bằng cách copy giá trị gốc), và mình chỉ thao táo giá trị với bản copy.
 Khi chúng ta thay đổi các giá trị của đối tượng, thì không ảnh hưởng đến giá trị gốc. Pass-by-value được hiểu là khi bạn thay đổi biến trong hàm thì ngoài hàm sẽ không bị ảnh hưởng.
 
 
@@ -64,7 +64,7 @@ Sau khi hàm process(int value) thực hiện xong nhiệm vụ của mình , th
 <br>
 # **3. Truyền tham  chiếu**
 
-Pass by reference (Truyền tham chiếu) : Ngược lại với Pass by value . Giá trị gốc sẽ bị thay đổi Pass-by-reference là khi bạn thay đổi biến trong hàm cũng làm ngoài hàm bị ảnh hưởng.
+<b>Tham chiếu</b> Pass by reference. Ngược lại với Pass by value, giá trị gốc sẽ bị thay đổi <b>Pass-by-reference</b> là khi bạn thay đổi biến trong hàm cũng làm ngoài hàm bị ảnh hưởng.
 Nó giống như bạn truyền đúng địa chỉ của biến đó vào hàm.
 
 {:refdef: style="text-align: center;"}

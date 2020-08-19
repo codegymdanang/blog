@@ -17,7 +17,7 @@ youtubeId2 : kfQ7O7Fky8U
 Chào bạn, nếu bạn là người mới tìm hiểu về lập trình, hẳn bạn đã từng nghe tới khái niệm về <b>Abstract</b> và <b>Interface</b>.
 Nhưng bạn có biết khi nào mình sẽ dùng abstract và khi nào mình dùng interface không? Khi mới bước chân vào
 nghề lập trình anh cũng rất hoang mang về công dụng và lợi ý của Abstract và Interface. Chính vì vậy anh
-viết bài này nhằm giúp mọi người có cái nhìn rõ hơn khi nào mình dùng abstract và Interface. Bài viết hôm nay sẽ xoay quanh các chủ đề sau.
+viết bài này nhằm giúp mọi người có cái nhìn rõ hơn sự <b>khác nhau giữa abstract và interface</b>. Bài viết hôm nay sẽ xoay quanh các chủ đề sau.
 
 - Interface là gì ?
 - Abstract là gì ?
@@ -97,6 +97,8 @@ class Pig extends Animal {
 <br>
 # **3. Sự khác nhau giữa abstract và interface**
 
+Bảng dưới đây sẽ giúp các em có cái nhìn rõ hơn về <b>sự khác nhau giữa abstract và interface</b>. Khi nào thì chúng ta nên sử dụng abstract hoặc interface cho hợp lý
+
  {:class="table table-bordered"}
  |  Các điểm so sánh  	|  Abstract	                    |   Interface	                                  |
  |---	                |---	                        |---	     	                                  |
@@ -122,14 +124,14 @@ class Pig extends Animal {
 - Tăng cường tính bảo mật . Người dùng chỉ có thể thấy được method nhưng không thấy được nội dung code bên trong
 
 <br>
-# **6. Demo tạo abstract**  
+# **6. Cách tạo abstract trong Java**  
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId1 %}
 </center>
 
 <br>
-# **7. Demo tạo interface**  
+# **7. Demo tạo interface trong Java**  
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId2 %}
