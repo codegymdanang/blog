@@ -15,7 +15,7 @@ youtubeId: 7Wpi_jC8CqA
 
 Chào bạn, bạn đang học <b>Spring MVC</b> nhưng chưa hiểu luồng đi của ứng dụng nó chạy  như thế nào. Ví dụ như khi người dùng gõ một url như sau vào trình duyệt
 http://localhost8080 thì ứng dụng mình sẽ chạy qua các tầng nào của springmvc  để trả kết quả là trang home cho người dùng thấy được ?
-Trong bài này anh sẽ hướng dẫn mọi người các bước mà SpringMVC xử lý một request (yêu cầu) từ người dùng. Anh sẽ đi qua các chủ đề sau
+Trong bài này anh sẽ hướng dẫn mọi người các bước mà <b>spring mvc <b> xử lý một request (yêu cầu) từ người dùng. Anh sẽ đi qua các chủ đề sau
 
 - Luồng đi của ứng dụng Spring MVC
 - Video tạo một dự án bằng Spring MVC
@@ -23,7 +23,7 @@ Trong bài này anh sẽ hướng dẫn mọi người các bước mà SpringMV
 <br>
 # **1. Luồng đi của ứng dụng MVC qua các tầng**
 
-Trước hết mình đi qua hình ảnh về luồng đi của ứng dụng spring gồm có các thành phần nào.
+Trước hết mình đi qua hình ảnh về luồng đi của ứng dụng <b>spring mvc</b> gồm có các thành phần nào.
 
 {:refdef: style="text-align: center;"}
 ![Luồn đi của ứng dụng MVC  ](/images/post/spring/springmvcflow.jpg){:class="img-responsive"}
@@ -93,7 +93,7 @@ Ví dụ sử dụng Java Confiure.
 	}
 {% endhighlight %}
 
-Ví dụ sử dụng XML Configure
+- Ví dụ sử dụng XML Configure
 
 {% highlight java linenos %}
 <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
