@@ -1,7 +1,7 @@
 ---
 layout: course-softskill
 title: Con đường trở thành lập trình viên frontend
-slug : con-duong-tro-thanh-lap-trinh-vien-frontend
+slug : lap-trinh-vien-frontend
 category: career
 tags: [skills]
 summery: Trở thành lập trình viên Front end    

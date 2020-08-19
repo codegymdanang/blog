@@ -1,7 +1,7 @@
 ---
 layout: course-softskill
 title: Cách tìm bug trong lập trình
-slug : ky-thuat-tim-bug
+slug : ky-nang-debug
 category: career
 tags: [skills]
 summery: Cách tìm bug trập trình   

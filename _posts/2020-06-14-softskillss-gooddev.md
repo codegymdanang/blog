@@ -1,7 +1,7 @@
 ---
 layout: course-softskill
 title: Trở thành một Senior Java
-slug : tro-thanh-senior-java
+slug : senior-java
 category: career
 tags: [skills]
 summery: Trở thành một Senior Java   
