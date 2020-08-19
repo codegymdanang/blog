@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
 title:  Sử dụng Trigger trong database
-slug : trigger-database
+slug : database-trigger
 category: database
 tags: [database]
 summery: Trigger    

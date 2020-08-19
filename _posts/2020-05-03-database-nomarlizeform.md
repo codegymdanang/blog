@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
 title:  Các bước chuẩn hoá dữ liệu
-slug : cac-buoc-chuan-hoa-du-lieu
+slug :  chuan-hoa-du-lieu
 category: database
 tags: [database]
 summery: Các bước chuẩn hoá dữ liệu    

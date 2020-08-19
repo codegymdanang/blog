@@ -1,7 +1,7 @@
 ---
 layout: course-design-pattern
 title: Design Pattern trong lập trình ?
-slug: design-pattern-la-gi
+slug: design-pattern
 category: craftmanship
 tags: [designpattern]
 summery: Design Pattern là gì

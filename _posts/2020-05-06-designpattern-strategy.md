@@ -1,7 +1,7 @@
 ---
 layout: course-design-pattern
 title: Sử dụng Strategy trong lập trình java
-slug : su-dung-strategy-design-pattern
+slug : strategy-design-pattern
 category: craftmanship
 tags: [designpattern]
 summery: Strategy pattern

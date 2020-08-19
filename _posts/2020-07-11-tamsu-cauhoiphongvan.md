@@ -1,7 +1,7 @@
 ---
 layout: course-tamsu
 title: Các câu hỏi phỏng vấn của nhà tuyển dụng
-slug : cac-cau-hoi-phong-van-cua-nha-tuyen-dung
+slug : cau-hoi-phong-van-cua-nha-tuyen-dung
 category: career
 tags: [tamsu]
 summery: Các câu hỏi phỏng vấn của nhà tuyển dụng  

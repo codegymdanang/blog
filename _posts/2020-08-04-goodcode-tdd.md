@@ -1,7 +1,7 @@
 ---
 layout: course-goodcode
 title: Hướng dẫn viết TDD trong lập trình java
-slug : lap-trinh-tdd-la-gi
+slug : lap-trinh-tdd
 category: craftmanship
 tags: [goodcode]
 summery: Lập trình TDD    

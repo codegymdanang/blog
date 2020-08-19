@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Sử dụng Jenkins trong dự án
-slug : jenkins-ci-cd
+slug : jenkins
 category: devops
 tags: [cicd]
 summery: Jenkins tự động CI-CD   

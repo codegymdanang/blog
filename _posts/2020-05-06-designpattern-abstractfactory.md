@@ -1,7 +1,7 @@
 ---
 layout: course-design-pattern
 title: Sử dụng Abstract Factory trong lập trình java
-slug : su-dung-abstract-factory-design-pattern
+slug : abstract-factory-design-pattern
 category: craftmanship
 tags: [designpattern]
 summery: Abstract Factory

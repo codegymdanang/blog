@@ -1,7 +1,7 @@
 ---
 layout: course-goodcode
 title: Sử dụng Sonarqube trong lập trình java  
-slug : su-dung-sonarqube
+slug : sonarqube
 category: craftmanship
 tags: [goodcode]
 summery: Sonar

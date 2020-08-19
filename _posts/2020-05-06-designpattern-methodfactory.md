@@ -1,7 +1,7 @@
 ---
 layout: course-design-pattern
 title: Sử dụng Factory Method trong lập trình java
-slug : su-dung-factory-method-design-pattern
+slug : factory-method-design-pattern
 category: craftmanship
 tags: [designpattern]
 summery: Factory Method

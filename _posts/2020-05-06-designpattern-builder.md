@@ -1,7 +1,7 @@
 ---
 layout: course-design-pattern
 title: Sử dụng Builder Design Pattern
-slug : su-dung-builder-design-pattern
+slug : builder-design-pattern
 category: craftmanship
 tags: [designpattern]
 summery: Builder

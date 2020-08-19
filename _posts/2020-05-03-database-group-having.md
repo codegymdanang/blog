@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
 title:  Sử dụng Group và Having trong database
-slug : group-having-database
+slug : group-having
 category: database
 tags: [database]
 summery: Group và Having    

@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
 title:  Sử dụng Index trong database
-slug : trigger-database
+slug :  database-index
 category: database
 tags: [database]
 summery: Index    

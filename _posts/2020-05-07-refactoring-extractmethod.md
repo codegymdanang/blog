@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Kỷ thuật Extract Method
-slug: ky-thuat-lap-trinh-extract-method
+slug:  extract-method
 category: craftmanship
 tags: [refactoring]
 summery: Kỷ thuật Extract Method
