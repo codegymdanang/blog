@@ -1,7 +1,7 @@
 ---
 layout: course-spring
 title: Sử dụng Entity Manager Thao Tác Database
-slug : su-dung-entity-manager
+slug : entity-manager
 category: laptrinhspring
 tags: [spring]
 summery:  Entity Manager

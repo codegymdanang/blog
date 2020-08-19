@@ -1,7 +1,7 @@
 ---
 layout: course-spring
 title: Sử dụng Hibernate trong lập trình Spring
-slug : hibernate trong java
+slug : hibernate
 category: laptrinhspring
 tags: [spring]
 summery: Hibernate

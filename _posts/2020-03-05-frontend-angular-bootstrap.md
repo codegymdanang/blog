@@ -1,7 +1,7 @@
 ---
 layout: course-angular
 title: Sử dụng Bootstrap trong Angular  
-slug : su-dung-bootstrap-trong-angular
+slug : bootstrap-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Sử dụng Bootstrap   

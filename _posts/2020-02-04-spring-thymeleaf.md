@@ -1,7 +1,7 @@
 ---
 layout: course-spring
 title: Sử dụng Thymeleaf trong  Spring  
-slug : su-thymeleaf
+slug : thymeleaf
 category: laptrinhspring
 tags: [spring]
 summery: Thymeleaf

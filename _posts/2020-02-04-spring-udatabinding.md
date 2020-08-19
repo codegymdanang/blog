@@ -1,7 +1,7 @@
 ---
 layout: course-spring
 title: Sử dụng Databinding trong  Spring  
-slug : su-data-binding
+slug : data-binding
 category: laptrinhspring
 tags: [spring]
 summery: Data Binding

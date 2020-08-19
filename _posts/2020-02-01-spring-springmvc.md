@@ -1,7 +1,7 @@
 ---
 layout: course-spring
 title: Luồng đi của ứng dụng Spring MVC
-slug : spring-mvc-la-gi
+slug : springmvc
 category: laptrinhspring
 tags: [spring]
 summery: Spring MVC

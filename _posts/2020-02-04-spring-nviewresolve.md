@@ -1,7 +1,7 @@
 ---
 layout: course-spring
 title: Sử dụng View Resolve Trong  Spring  
-slug : su-view-resolve
+slug : view-resolve
 category: laptrinhspring
 tags: [spring]
 summery: View Resolve

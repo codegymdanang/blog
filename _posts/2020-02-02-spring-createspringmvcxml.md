@@ -1,7 +1,7 @@
 ---
 layout: course-spring
 title: Tạo dự án Spring MVC bằng XML Configure
-slug : create-spring-web-xml
+slug : tao-du-an-springmvc
 category: laptrinhspring
 tags: [spring]
 summery: Tạo dự án spring MVC 

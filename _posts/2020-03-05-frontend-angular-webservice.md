@@ -1,7 +1,7 @@
 ---
 layout: course-angular
 title: Gọi webservice trong Angular
-slug : su-dung-angular-goi-webservice
+slug : angular-webservice
 category: laptrinhweb
 tags: [angular]
 summery: Webservice

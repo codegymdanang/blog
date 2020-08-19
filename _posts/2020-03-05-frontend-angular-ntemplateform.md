@@ -1,7 +1,7 @@
 ---
 layout: course-angular
 title: Sử dụng Template Form  
-slug : angular-component
+slug : angular-template
 category: laptrinhweb
 tags: [angular]
 summery: Template Form   

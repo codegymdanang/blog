@@ -1,7 +1,7 @@
 ---
 layout: course-angular
 title: Sử dụng Promise
-slug : angular-promise
+slug : promise
 category: laptrinhweb
 tags: [angular]
 summery: Promise   

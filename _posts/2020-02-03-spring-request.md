@@ -1,7 +1,7 @@
 ---
 layout: course-spring
 title: Phân biệt Request Param và PathVariable trong lập trình Spring
-slug : phan-biet-request-param-va-path-variable
+slug : request-param-path-variable
 category: laptrinhspring
 tags: [spring]
 summery: Request Param và PathVariable

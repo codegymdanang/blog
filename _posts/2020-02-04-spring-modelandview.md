@@ -1,7 +1,7 @@
 ---
 layout: course-spring
 title: Sử dụng Model ModelMap ModelView trong lập trình Spring  
-slug : su-dung-model-modelmap-modelview-trong-spring
+slug : model-modlemap-modelview
 category: laptrinhspring
 tags: [spring]
 summery: Model ModelMap ModelView

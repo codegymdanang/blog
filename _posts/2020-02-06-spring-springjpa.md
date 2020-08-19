@@ -1,7 +1,7 @@
 ---
 layout: course-spring
 title: Sử dụng Spring Data JPA trong lập trình Spring
-slug : spring-jpa-la-gi
+slug : spring-jpa
 category: laptrinhspring
 tags: [spring]
 summery: Spring Data JPA
