@@ -26,7 +26,7 @@ Singleton Pattern giúp chúng ta tạo ra một đối tượng duy nhất tron
 # **3- Singleton UML**
 
 {:refdef: style="text-align: center;"}
-![Abstract Factory UML ](/images/post/designpattern/abstractfactoryUML.png){:class="img-responsive"}
+![Abstract Factory UML ](/images/post/designpattern/singletonUML.png){:class="img-responsive"}
 {: refdef}
 
 <br>
