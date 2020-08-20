@@ -59,7 +59,7 @@ class MyMainClass {
 
 <br>
 
-Như vậy ta thấy lớp Animal có phương thức abstract là animalSound. Người sử dụng chỉ biết có phương thức đó thôi còn  nội dung code bên trong cài đặt như thế nào thì không biết. Các em có thể tưởng tượng trong ví dụ MasterCard của anh. Thì MasterCard cho anh phương thức thanh toán tương ứng với phương thức abstract void animalSound(). Anh chỉ tên của phương thức còn code bên trong anh không biết nó xử lý thế nào.
+Như vậy ta thấy lớp Animal có phương thức abstract là animalSound. Người sử dụng chỉ biết có phương thức đó thôi còn  nội dung code bên trong cài đặt như thế nào thì không biết. Các em có thể tưởng tượng trong ví dụ Facebook ở trên của anh. cái hàm  abstract void animalSound() tương ứng với việc là Facebook cho mình cái link và mình nhúng vào, còn nội dung bên trong thì mình không biết. Như vậy phương thức animalSound() ở lớp Animal giúp che giấu đi những code quan trọng và chỉ để lớp con của nó cài đặt những code thực thi. Người dùng chỉ biết gọi hàm animalSound và nhận kết quả.
 
 
 
