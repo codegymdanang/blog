@@ -15,7 +15,6 @@ youtubeId: 5C2OqlhiYsg
 
 Chào các em, hôm nay chủ đề của chúng ta sẽ hướng dẫn cách tạo ra một HashMap theo mong muốn của chúng ta.
 
-<br>
 # **1. HashMap là gì**
 
 HashMap là một trong những tập hợp để lưu trữ các phần tử. Nó khác với cách lưu của ArrayList ở chỗ nó lưu theo dạng key và value. Anh ví dụ sinh viên thường có mã sinh viên và thông tin sinh viên. Như vậy key ở đây chính là mã sinh viên còn thông tin sinh viên chính là giá trị. Dựa vào key mà chúng ta có thể lấy ra sinh viên tương ứng. Key là giá trị duy nhất không trung lặp. Như các em thấy mã sinh viên thì là duy nhất không có bạn nào trùng.
