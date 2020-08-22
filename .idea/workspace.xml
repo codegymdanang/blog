@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-15-oop.md" afterPath="$PROJECT_DIR$/_posts/2020-01-15-java-oop.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-16-head-stack.md" afterPath="$PROJECT_DIR$/_posts/2020-01-16-java-head-stack.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-17-passbyvalue.md" afterPath="$PROJECT_DIR$/_posts/2020-01-17-java-passbyvalue.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-18-modifier.md" afterPath="$PROJECT_DIR$/_posts/2020-01-18-java-modifier.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-19-polymorphism.md" afterPath="$PROJECT_DIR$/_posts/2020-01-19-java-polymorphism.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-21-abstraction.md" afterPath="$PROJECT_DIR$/_posts/2020-01-21-java-abstraction.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-22-inheritance.md" afterPath="$PROJECT_DIR$/_posts/2020-01-22-java-inheritance.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-23-interface.md" afterPath="$PROJECT_DIR$/_posts/2020-01-23-java-interface.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-25-abstract-interface.md" afterPath="$PROJECT_DIR$/_posts/2020-01-25-abstract-interface.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-26-compare.md" afterPath="$PROJECT_DIR$/_posts/2020-01-26-java-compare.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-27-enum.md" afterPath="$PROJECT_DIR$/_posts/2020-01-27-java-enum.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-29-arraylist.md" afterPath="$PROJECT_DIR$/_posts/2020-01-29-java-arraylist.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-30-arrayvsarraylist.md" afterPath="$PROJECT_DIR$/_posts/2020-01-30-java-arrayvsarraylist.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-31-linkedlist.md" afterPath="$PROJECT_DIR$/_posts/2020-01-31-java-linkedlist.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-32-hashmap.md" afterPath="$PROJECT_DIR$/_posts/2020-02-01-java-hashmap.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-33-hashset.md" afterPath="$PROJECT_DIR$/_posts/2020-02-02-java-hashset.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-34-collections.md" afterPath="$PROJECT_DIR$/_posts/2020-02-03-java-collections.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-35-generic.md" afterPath="$PROJECT_DIR$/_posts/2020-02-04-java-generic.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-36-iterator.md" afterPath="$PROJECT_DIR$/_posts/2020-02-05-java-iterator.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-37-exception.md" afterPath="$PROJECT_DIR$/_posts/2020-02-06-java-exception.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-38-file.md" afterPath="$PROJECT_DIR$/_posts/2020-02-07-java-file.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-7-casting.md" afterPath="$PROJECT_DIR$/_posts/2020-01-07-java-casting.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2020-01-04-java-operator.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-01-03-java-datatype.md" afterPath="$PROJECT_DIR$/_posts/2020-01-03-java-datatype.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="New changelist" />
@@ -48,6 +28,9 @@
     <leaf>
       <file leaf-file-name="2020-01-07-java-casting.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2020-01-07-java-casting.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor vertical-scroll-proportion="0.0">
@@ -57,16 +40,13 @@
               <second_editor />
             </state>
           </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="course-java.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/course-java.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.38551402">
+              <caret line="80" column="112" selection-start-line="80" selection-start-column="112" selection-end-line="80" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -149,9 +129,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1281" />
+    <option name="x" value="-1349" />
     <option name="y" value="43" />
-    <option name="width" value="1680" />
+    <option name="width" value="1349" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -177,7 +157,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,6 +206,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,48 +304,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00926" summary="buidler">
-      <created>1597480221480</created>
-      <option name="number" value="00926" />
-      <option name="project" value="LOCAL" />
-      <updated>1597480221480</updated>
-    </task>
-    <task id="LOCAL-00927" summary="buidler">
-      <created>1597545803535</created>
-      <option name="number" value="00927" />
-      <option name="project" value="LOCAL" />
-      <updated>1597545803536</updated>
-    </task>
-    <task id="LOCAL-00928" summary="buidler">
-      <created>1597546032228</created>
-      <option name="number" value="00928" />
-      <option name="project" value="LOCAL" />
-      <updated>1597546032228</updated>
-    </task>
-    <task id="LOCAL-00929" summary="buidler">
-      <created>1597546894448</created>
-      <option name="number" value="00929" />
-      <option name="project" value="LOCAL" />
-      <updated>1597546894448</updated>
-    </task>
-    <task id="LOCAL-00930" summary="buidler">
-      <created>1597547038375</created>
-      <option name="number" value="00930" />
-      <option name="project" value="LOCAL" />
-      <updated>1597547038375</updated>
-    </task>
-    <task id="LOCAL-00931" summary="buidler">
-      <created>1597548042222</created>
-      <option name="number" value="00931" />
-      <option name="project" value="LOCAL" />
-      <updated>1597548042223</updated>
-    </task>
-    <task id="LOCAL-00932" summary="buidler">
-      <created>1597548486016</created>
-      <option name="number" value="00932" />
-      <option name="project" value="LOCAL" />
-      <updated>1597548486016</updated>
     </task>
     <task id="LOCAL-00933" summary="buidler">
       <created>1597549255390</created>
@@ -619,15 +557,58 @@
       <option name="project" value="LOCAL" />
       <updated>1598079374249</updated>
     </task>
-    <option name="localTasksCounter" value="975" />
+    <task id="LOCAL-00975" summary="refactor name">
+      <created>1598083935598</created>
+      <option name="number" value="00975" />
+      <option name="project" value="LOCAL" />
+      <updated>1598083935598</updated>
+    </task>
+    <task id="LOCAL-00976" summary="refactor name">
+      <created>1598105432851</created>
+      <option name="number" value="00976" />
+      <option name="project" value="LOCAL" />
+      <updated>1598105432852</updated>
+    </task>
+    <task id="LOCAL-00977" summary="refactor name">
+      <created>1598105698348</created>
+      <option name="number" value="00977" />
+      <option name="project" value="LOCAL" />
+      <updated>1598105698348</updated>
+    </task>
+    <task id="LOCAL-00978" summary="refactor name">
+      <created>1598111884074</created>
+      <option name="number" value="00978" />
+      <option name="project" value="LOCAL" />
+      <updated>1598111884074</updated>
+    </task>
+    <task id="LOCAL-00979" summary="refactor name">
+      <created>1598111997809</created>
+      <option name="number" value="00979" />
+      <option name="project" value="LOCAL" />
+      <updated>1598111997809</updated>
+    </task>
+    <task id="LOCAL-00980" summary="refactor name">
+      <created>1598112134629</created>
+      <option name="number" value="00980" />
+      <option name="project" value="LOCAL" />
+      <updated>1598112134629</updated>
+    </task>
+    <task id="LOCAL-00981" summary="refactor name">
+      <created>1598112333541</created>
+      <option name="number" value="00981" />
+      <option name="project" value="LOCAL" />
+      <updated>1598112333541</updated>
+    </task>
+    <option name="localTasksCounter" value="982" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1281" y="43" width="1680" height="1027" extended-state="0" />
+    <frame x="-1349" y="43" width="1349" height="1027" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27623641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34438583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6073232" sideWeight="0.5324544" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35753575" sideWeight="0.46754563" order="9" side_tool="false" content_ui="tabs" />
@@ -635,7 +616,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30896226" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -699,6 +679,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-designpattern-strategy.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.18036072">
@@ -707,11 +690,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-designpattern-methodfactory.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-designpattern-methodfactory.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.18036072">
@@ -720,11 +703,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.18036072">
@@ -733,11 +716,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.1503006">
@@ -745,9 +728,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-java-chuyen-sau.html">
@@ -758,6 +738,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-08-04-goodcode-tdd.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.12024048">
@@ -766,11 +749,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-08-04-goodcode-sonar.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-08-04-goodcode-sonar.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.1503006">
@@ -778,9 +761,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/course-goodcode.html">
@@ -826,6 +806,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-03-05-frontend-angular-bootstrap.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.1503006">
@@ -834,11 +817,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-04-spring-thymeleaf.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-04-spring-thymeleaf.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.38228154">
@@ -847,11 +830,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-07-java-file.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-07-java-file.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.28266332">
@@ -860,11 +843,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-26-java-compare.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-26-java-compare.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.36407766">
@@ -873,9 +856,6 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/post/designpattern/builder.png">
       <provider selected="true" editor-type-id="images">
@@ -883,6 +863,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-07-25-tamsu-kiemtienola.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.13592233">
@@ -890,9 +873,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/course-relationaldatabase.html">
@@ -910,6 +890,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.12742719">
@@ -917,9 +900,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/co-so-du-lieu-mysql.html">
@@ -958,6 +938,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-03-05-frontend-angular-webservice.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.07281554">
@@ -966,11 +949,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-10-spring-webservice.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-10-spring-webservice.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="-1.5121359">
@@ -979,11 +962,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.81796116">
@@ -992,11 +975,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-25-spring-onetomany.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-25-spring-onetomany.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.8907767">
@@ -1005,11 +988,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-02-spring-createspringmvcxml.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-02-spring-createspringmvcxml.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -1018,11 +1001,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-02-spring-createspringboot.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-02-spring-createspringboot.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -1031,11 +1014,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-02-spring-createspringmvcxml.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-02-02-spring-createspringmvcxml.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -1043,12 +1026,12 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-09-02-cleancode-b-method.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -1057,11 +1040,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-09-01-cleancode-a-datten.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-09-01-cleancode-a-datten.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.018203884">
@@ -1070,11 +1053,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-09-02-cleancode-c-comment.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-09-02-cleancode-c-comment.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.60072815">
@@ -1083,11 +1066,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-06-14-softskillss-gooddev.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-06-14-softskillss-gooddev.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="-0.110436894">
@@ -1096,9 +1079,6 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/post/designpattern/singletonUML.png">
       <provider selected="true" editor-type-id="images">
@@ -1106,6 +1086,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-designpattern-singleton.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.61893207">
@@ -1113,9 +1096,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/post/designpattern/iteratorUML.png">
@@ -1134,6 +1114,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-01-15-java-oop.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.5825243">
@@ -1142,11 +1125,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-22-java-inheritance.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-22-java-inheritance.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.49150485">
@@ -1155,11 +1138,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-23-java-interface.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-23-java-interface.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.70995146">
@@ -1168,11 +1151,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-31-java-linkedlist.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-31-java-linkedlist.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -1181,11 +1164,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-21-java-abstraction.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-21-java-abstraction.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.69174755">
@@ -1194,11 +1177,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-07-java-casting.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-07-java-casting.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -1208,14 +1191,11 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/course-java.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.38551402">
+          <caret line="80" column="112" selection-start-line="80" selection-start-column="112" selection-end-line="80" selection-end-column="112" />
           <folding />
         </state>
       </provider>
