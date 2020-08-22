@@ -72,7 +72,7 @@
 						<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Học Java </span>
 					</div>
 					<div>
-						{% assign sorted = site.categories.laptrinhjava | reverse %}
+						{% assign sorted = site.categories.laptrinhjava  %}
 						{% for post in sorted  %}
 								{% if post.tags contains 'java core' %}
 									<div >
