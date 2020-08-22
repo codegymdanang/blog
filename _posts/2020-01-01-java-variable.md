@@ -52,12 +52,11 @@ String name = "Le Vu Nguyen";
 
 {% endhighlight %}
 
-
-Ví dụ ta tạo một biến tên num chứa giá trị 15
+Hoặc trong trường hợp này anh tạo một biến có tên là phoneNumber và gán giá trị là 15 cho nó. 
 
 {% highlight java  %}
 
-int num = 15;
+int phoneNumber = 15;
 
 {% endhighlight %}
 
