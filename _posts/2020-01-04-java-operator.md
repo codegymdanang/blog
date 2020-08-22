@@ -41,12 +41,12 @@ Chúng ta sử dụng toán tử để thực hiện các phép tính toán họ
 | =			         		|	x = 5							| 	x = 5			|
 | +=						|	x += 3							|	x = x + 3		|
 | -=						|	x -= 3							|	x = x - 3		|
-| *=|						|	x *= 3							|	x = x * 3		|
+| *=						|	x *= 3							|	x = x * 3		|
 | /= 						|	x /= 3							|	x = x / 3		|
 | %= 						|	x %= 3							|	x = x % 3		|
 | &=						|	x &= 3							|	x = x & 3		|
-| |= 						|	x |= 3							|	x = x | 3		|
-| ^=						|	x ^= 3							|	x = x ^ 3		|
+| \|= 						|	x |= 3							|	x = x | 3		|
+| ^=		\				|	x ^= 3							|	x = x ^ 3		|
 | >>=						|	x >>= 3							|	x = x >> 3		|
 | <<=						|	x <<= 3							|	x = x << 3		|
 
@@ -69,7 +69,7 @@ Chúng ta sử dụng toán tử để thực hiện các phép tính toán họ
 |  Toán tử		  	 		|  Ví dụ		            		|   Mô tả											|
 |---	                 	|---	                        	|---	     	    								|
 | &&			         	|	x < 5 &&  x < 10				| 	trả về true nếu cả 2 mệnh đề cùng đúng 			|
-| ||						|	x < 5 || x < 4					|	trả về truế nếu 1 trong 2 mệnh đề là đúng		|
+| \|\|						|	x < 5 || x < 4					|	trả về truế nếu 1 trong 2 mệnh đề là đúng		|
 | !							|	!(x < 5 && x < 10) 				|	phủ định lại giá trị trong  kết quả 			|
 
 # **6.  Toán tử Bit**
@@ -78,7 +78,7 @@ Chúng ta sử dụng toán tử để thực hiện các phép tính toán họ
 |  Toán tử		  	 		|  Ví dụ		   |   Mô tả			|		Kết quả		|	Giá trị			|	
 |---	                 	|---	           |---	     			|---				|---				|
 | &			         		|	5 & 1		   | 0101 & 0001		|		0001		|		 1			|
-| |							|	5 | 1		   | 0101 | 0001		|		0101		|		 5			|
+| \|							|	5 | 1		   | 0101 | 0001		|		0101		|		 5			|
 | ~							|	~ 5			   |~0101				|		1010		|		10			|
 | ^							|	5 ^ 1		   |0101 ^ 0001			|		0100		|		4			|
 | <<						|	9 << 1		   | 1001 << 1			|		0010		|		2			|
