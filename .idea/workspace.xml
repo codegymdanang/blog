@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="buidler">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-abstraction.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-21-abstraction.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-inheritance.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-22-inheritance.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-oop.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-15-oop.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-polymorphism.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-19-polymorphism.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-02-java-different-abstract-interface.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-25-abstract-interface.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-02-java-interface.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-23-interface.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-03-java-generic.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-35-generic.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-04-java-arraylist.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-29-arraylist.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-04-java-arrayvsarraylist.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-30-arrayvsarraylist.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-04-java-collections.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-34-collections.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-04-java-hashmap.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-32-hashmap.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-04-java-hashset.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-33-hashset.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-04-java-iterator.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-36-iterator.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-04-java-linkedlist.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-31-linkedlist.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-05-java-access-modifier.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-18-modifier.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-06-java-passbyvalue.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-17-passbyvalue.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-07-java-head-stack.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-16-head-stack.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-08-java-casting.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-7-casting.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-08-java-compare.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-26-compare.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-11-java-exception.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-37-exception.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-12-java-enum.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-27-enum.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-12-java-file.md" afterPath="$PROJECT_DIR$/_posts/2020-01-01-java-a-38-file.md" />
+    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-15-oop.md" afterPath="$PROJECT_DIR$/_posts/2020-01-15-java-oop.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-16-head-stack.md" afterPath="$PROJECT_DIR$/_posts/2020-01-16-java-head-stack.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-17-passbyvalue.md" afterPath="$PROJECT_DIR$/_posts/2020-01-17-java-passbyvalue.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-18-modifier.md" afterPath="$PROJECT_DIR$/_posts/2020-01-18-java-modifier.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-19-polymorphism.md" afterPath="$PROJECT_DIR$/_posts/2020-01-19-java-polymorphism.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-21-abstraction.md" afterPath="$PROJECT_DIR$/_posts/2020-01-21-java-abstraction.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-22-inheritance.md" afterPath="$PROJECT_DIR$/_posts/2020-01-22-java-inheritance.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-23-interface.md" afterPath="$PROJECT_DIR$/_posts/2020-01-23-java-interface.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-25-abstract-interface.md" afterPath="$PROJECT_DIR$/_posts/2020-01-25-abstract-interface.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-26-compare.md" afterPath="$PROJECT_DIR$/_posts/2020-01-26-java-compare.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-27-enum.md" afterPath="$PROJECT_DIR$/_posts/2020-01-27-java-enum.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-29-arraylist.md" afterPath="$PROJECT_DIR$/_posts/2020-01-29-java-arraylist.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-30-arrayvsarraylist.md" afterPath="$PROJECT_DIR$/_posts/2020-01-30-java-arrayvsarraylist.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-31-linkedlist.md" afterPath="$PROJECT_DIR$/_posts/2020-01-31-java-linkedlist.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-32-hashmap.md" afterPath="$PROJECT_DIR$/_posts/2020-02-01-java-hashmap.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-33-hashset.md" afterPath="$PROJECT_DIR$/_posts/2020-02-02-java-hashset.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-34-collections.md" afterPath="$PROJECT_DIR$/_posts/2020-02-03-java-collections.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-35-generic.md" afterPath="$PROJECT_DIR$/_posts/2020-02-04-java-generic.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-36-iterator.md" afterPath="$PROJECT_DIR$/_posts/2020-02-05-java-iterator.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-37-exception.md" afterPath="$PROJECT_DIR$/_posts/2020-02-06-java-exception.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-38-file.md" afterPath="$PROJECT_DIR$/_posts/2020-02-07-java-file.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-01-01-java-a-7-casting.md" afterPath="$PROJECT_DIR$/_posts/2020-01-07-java-casting.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="New changelist" />
@@ -45,7 +45,34 @@
     <favorites_list name="nguyenleblog" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="2020-01-07-java-casting.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-01-07-java-casting.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-java.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-java.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,7 +98,6 @@
         <option value="$PROJECT_DIR$/_posts/2019-01-01-course-java-s1-setup.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-15-spring-request.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-12-spring-springmvc.md" />
-        <option value="$PROJECT_DIR$/_layouts/course-java.html" />
         <option value="$PROJECT_DIR$/ky-nang-hoc-lap-trinh.html" />
         <option value="$PROJECT_DIR$/_posts/2020-05-14-softskillss-roadmapjava.md" />
         <option value="$PROJECT_DIR$/_posts/2020-06-14-softskillss-roadmapfrontend.md" />
@@ -111,6 +137,7 @@
         <option value="$PROJECT_DIR$/_posts/2020-09-02-cleancode-c-comment.md" />
         <option value="$PROJECT_DIR$/_posts/2020-01-01-java-inheritance.md" />
         <option value="$PROJECT_DIR$/_posts/2020-01-01-java-abstraction.md" />
+        <option value="$PROJECT_DIR$/_layouts/course-java.html" />
       </list>
     </option>
   </component>
@@ -122,9 +149,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1158" />
-    <option name="y" value="53" />
-    <option name="width" value="1041" />
+    <option name="x" value="-1281" />
+    <option name="y" value="43" />
+    <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -180,6 +207,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,24 +324,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00923" summary="buidler">
-      <created>1597460090523</created>
-      <option name="number" value="00923" />
-      <option name="project" value="LOCAL" />
-      <updated>1597460090523</updated>
-    </task>
-    <task id="LOCAL-00924" summary="buidler">
-      <created>1597479775648</created>
-      <option name="number" value="00924" />
-      <option name="project" value="LOCAL" />
-      <updated>1597479775648</updated>
-    </task>
-    <task id="LOCAL-00925" summary="buidler">
-      <created>1597479944550</created>
-      <option name="number" value="00925" />
-      <option name="project" value="LOCAL" />
-      <updated>1597479944550</updated>
     </task>
     <task id="LOCAL-00926" summary="buidler">
       <created>1597480221480</created>
@@ -578,14 +601,32 @@
       <option name="project" value="LOCAL" />
       <updated>1597944032064</updated>
     </task>
-    <option name="localTasksCounter" value="972" />
+    <task id="LOCAL-00972" summary="refactor name">
+      <created>1598078420298</created>
+      <option name="number" value="00972" />
+      <option name="project" value="LOCAL" />
+      <updated>1598078420299</updated>
+    </task>
+    <task id="LOCAL-00973" summary="refactor name">
+      <created>1598079267371</created>
+      <option name="number" value="00973" />
+      <option name="project" value="LOCAL" />
+      <updated>1598079267371</updated>
+    </task>
+    <task id="LOCAL-00974" summary="refactor name">
+      <created>1598079374249</created>
+      <option name="number" value="00974" />
+      <option name="project" value="LOCAL" />
+      <updated>1598079374249</updated>
+    </task>
+    <option name="localTasksCounter" value="975" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1158" y="53" width="1041" height="1027" extended-state="0" />
+    <frame x="-1281" y="43" width="1680" height="1027" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.515211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27623641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6073232" sideWeight="0.5324544" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -618,7 +659,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="hoc lap trình" />
     <MESSAGE value="copywright" />
     <MESSAGE value="remove ad" />
     <MESSAGE value="banner" />
@@ -643,7 +683,8 @@
     <MESSAGE value="title" />
     <MESSAGE value="slug" />
     <MESSAGE value="buidler" />
-    <option name="LAST_COMMIT_MESSAGE" value="buidler" />
+    <MESSAGE value="refactor name" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -654,13 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028248588">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/course-java.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4166665">
-          <caret line="63" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -817,7 +851,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-java-a-38-file.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-07-java-file.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.28266332">
@@ -830,24 +864,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-java-a-26-compare.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-26-java-compare.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.36407766">
             <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-java-a-7-casting.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
@@ -1112,12 +1133,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-java-a-15-oop.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-15-java-oop.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.5825243">
             <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1126,7 +1146,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-java-a-22-inheritance.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-22-java-inheritance.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.49150485">
@@ -1139,7 +1159,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-java-a-23-interface.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-23-java-interface.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.70995146">
@@ -1152,7 +1172,33 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-java-a-31-linkedlist.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-31-java-linkedlist.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-21-java-abstraction.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.69174755">
+            <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-07-java-casting.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -1166,18 +1212,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-java-a-21-abstraction.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.69174755">
-            <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/_layouts/course-java.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
   </component>
