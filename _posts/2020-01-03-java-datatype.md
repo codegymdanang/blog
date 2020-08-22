@@ -26,7 +26,7 @@ Trong lập trình Java chúng ta có 2 loại kiểu dữ liệu đó là kiể
 
 - Ứng với mỗi loại kiểu dữ liệu bộ nhớ sẽ cấp phát vùng nhớ tương ứng
 
-
+ {:class="table table-bordered"}
 |  kiểu dữ liệu		  	 	|  kích thướt		            |   khoảng giá trị	                |
 |---	                 	|---	                        |---	     	                 	|
 |  byte			         	|1 byte						    | từ -128 đến 127			 	 	|
