@@ -30,8 +30,9 @@ Trong lập trình Java chúng ta có 2 loại kiểu dữ liệu đó là kiể
 |  kiểu dữ liệu		  	 	|  kích thướt		            |   khoảng giá trị	                |
 |---	                 	|---	                        |---	     	                 	|
 |  byte			         	|1 byte						    | từ -128 đến 127			 	 	|
-|  short					|2 bytes						| từ -32.768 đến 32.676				|	|  int 						|4 bytes						| từ -2.147.483.648 đến 2.147.483.647 |
-|  long						|8 bytes						| từ -9.223.372.036.854.775.808 to 9.223.372.036.854.775.807|
+|  short					|2 bytes						| từ -32.768 đến 32.676				|	
+|  int 						|4 bytes						| từ -2.147.483.648 đến 2.147.483.647 |
+|  long						|8 bytes						| từ -9.223.372.036.854.775.808 to 9.223.372.036.854.775.807 |
 | float						|4 bytes						| 6 đến 7 thập phân 1.000,1232321 |
 | double					|8 bytes						| 15 dấu thập phân |
 | boolean					|1 bit							| chứa giá trị true hoặc false|
