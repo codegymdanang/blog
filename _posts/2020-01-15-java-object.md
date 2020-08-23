@@ -27,6 +27,7 @@ Một Class giống như 1 bản vẽ thiết kế ra đối tượng. Anh ví d
 
 - Chúng ta sử dụng từ khoá class để tạo ra 1 class java.
 
+<br>
 {% highlight java  %}
 
 public class MyClass {
@@ -39,6 +40,7 @@ public class MyClass {
 
 - Từ 1 class chúng ta tạo ra Object thông qua từ khoá new
 
+<br>
 {% highlight java  %}
 
 public class MyClass {
@@ -56,6 +58,7 @@ public class MyClass {
 
 - Như anh đã nói phần trên từ 1 Class ta có thể tạo ra nhiều đối tượng khác nhau. Class như một bản vẽ thiết kế vậy từ đó cho ra nhiều ngôi nhà
 
+<br>
 {% highlight java  %}
 
 public class MyClass {
@@ -77,6 +80,7 @@ public class MyClass {
 
 - Hàm khởi tạo trong Class là hàm giúp mình tạo ra một đối tượng. Như các em thấy khi mình gọi Car car = new Car(). Lúc này nó sẽ gọi hàm khởi tạo trong Class Car để tạo đối tượng cho mình. Hàm khởi tạo có một đặt điểm là tên hàm khởi tạo phải giống tên của Class và không có kiểu dữ liệu trả về
 
+<br>
 {% highlight java  %}
 
 public class Car {
@@ -99,6 +103,7 @@ public class Car {
 
 Hàm khởi tạo có thể có tham số truyền vào để khởi tạo một số giá trị có sẳn ban đầu cho đối tượng
 
+<br>
 {% highlight java  %}
 
 public class MyClass {
@@ -118,6 +123,7 @@ public class MyClass {
 
 # **7. Hàm khởi tạo constructor có nhiều tham số**
 
+<br>
 {% highlight java  %}
 
 public class Car {
@@ -141,6 +147,7 @@ public class Car {
 
 - Trong mỗi đối tượng đều có thuộc tính của nó. Thuộc tính là những tính chất của đối tượng. Anh lấy ví dụ chiếc xe hơi có màu xanh, sản xuất năm 2020 thì màu xanh (color)và năm sản xuất (model) chính là thuộc tính của chiếc xe hơi. Trong lập trình hướng đối tượng thuộc tính sẽ trở thành các biến trong Class. Như vậy thuộc tính thường là tính từ của đối tượng.
 
+<br>
 {% highlight java  %}
 
 public class Car {
@@ -157,6 +164,7 @@ public class Car {
 
 Chúng ta có thể lấy thuộc tính bằng sử dụng dấu .
 
+<br>
 {% highlight java  %}
 public class Car {
   private int model = 2020;
@@ -173,6 +181,7 @@ public class Car {
 
 - Phương thức là những hành động của một đối tượng. Anh ví dụ như chiếc xe hơi có hành động là chạy. Thì chạy chính là phương thức. Phương thức bắt buộc là động từ
 
+<br>
 {% highlight java  %}
 
 public class Car {
