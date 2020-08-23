@@ -7,7 +7,7 @@ tags: [java core]
 summery: Biến  
 image: /images/blog/java.png
 
-description : Hiểu về Biến là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về Biến trong lập trình hướng đối tượng. Lợi ích của việc sử dụng lập trình hướng đối tượng trong lập trình.
+description : Hiểu về Biến là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về Biến trong lập trình hướng đối tượng. Lợi ích của việc sử dụng biến lập trình hướng đối tượng trong lập trình.
 youtubeId: fR05ShUphxA
 ---
 
