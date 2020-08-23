@@ -1,6 +1,6 @@
 ---
 layout: course-java
-title: Khai Báo Biên
+title: Khai Báo Biến
 slug : bien
 category: laptrinhjava
 tags: [java core]
