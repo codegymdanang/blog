@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng Entity Manager Thao Tác Database
 slug : entity-manager
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery:  Entity Manager
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_httpmethod.png

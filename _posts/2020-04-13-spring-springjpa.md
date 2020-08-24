@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng Spring Data JPA trong lập trình Spring
 slug : spring-jpa
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Spring Data JPA
 image: /images/blog/spring.png
 description : Spring jpa là gì ? Khái niệm ORM, JPA và mô hình MVC. Hướng dẫn cấu hình sping jpa trong lập trình dự án Spring

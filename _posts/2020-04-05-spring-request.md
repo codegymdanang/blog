@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Phân biệt Request Param và PathVariable trong lập trình Spring
 slug : request-param-path-variable
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Request Param và PathVariable
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_request.jpg

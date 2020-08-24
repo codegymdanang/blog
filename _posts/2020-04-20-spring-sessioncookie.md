@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Phân Biệt Session và Cookie trong học lập trình
 slug : session-cookie
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Session và Cookie
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_sessioncookie.png

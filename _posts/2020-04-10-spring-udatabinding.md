@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng Databinding trong  Spring  
 slug : data-binding
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Data Binding
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_modelandview.png

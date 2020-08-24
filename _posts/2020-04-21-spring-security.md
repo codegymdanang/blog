@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng Spring Security trong lập trình Spring
 slug : spring-security
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Spring Security
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springsecurity.png

@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Tạo dự án Spring MVC bằng XML Configure
 slug : tao-du-an-springmvc
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Tạo dự án spring MVC 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png

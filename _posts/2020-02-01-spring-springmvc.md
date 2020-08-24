@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Luồng đi của ứng dụng Spring MVC
 slug : springmvc
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Spring MVC
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springmvc.png

@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng Validation trong lập trình Spring
 slug : spring-validation
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Validation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springvalidation.png

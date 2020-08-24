@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng ManyToMany Relationship trong lập trình Spring
 slug : many-to-many
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Many To Many
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png

@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng Generation Identifier trong lập trình Spring
 slug : generation-identifier
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Generation Identifier
 image: /images/blog/spring.png
 

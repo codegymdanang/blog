@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng OneToMany Relationship trong học lập trình
 slug : one-to-many
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: OneToMany 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png

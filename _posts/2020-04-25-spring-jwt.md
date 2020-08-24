@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dung Json Web Token trong lập trình java
 slug : json-web-token
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Json Web Token  
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_jwt.png

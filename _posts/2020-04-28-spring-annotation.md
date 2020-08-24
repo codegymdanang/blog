@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Tổng hợp các Anotation trong lập trình Spring
 slug : spring-annotation
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Các Anotation trong Spring
 image: /images/blog/spring.png
 description : Tổng hợp các annotation được sử dụng trong dự án spring. Tìm hiểu ý nghĩa của từng annotation và nhiệm vụ của nó trong dự án. Hướng dẫn sử dụng từng annotation trong Spring. 

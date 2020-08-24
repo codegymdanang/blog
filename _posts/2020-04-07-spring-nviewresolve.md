@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng View Resolve Trong  Spring  
 slug : view-resolve
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: View Resolve
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_modelandview.png

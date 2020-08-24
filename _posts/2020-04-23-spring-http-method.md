@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng các phương thức HTTP trong lập trình web
 slug : phuong-thuc-http
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery:  Các phương thức HTTP
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_httpmethod.png

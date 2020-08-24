@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Webservice trong học lập trình
 slug : webservice
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Webservice
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_webservice.png

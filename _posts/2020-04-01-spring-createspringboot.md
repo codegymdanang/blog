@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Tạo dự án Spring Boot
 slug : tạo-du-an-springboot
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Tạo dự án spring Boot  
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png

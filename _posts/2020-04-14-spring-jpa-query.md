@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: course-spring-web
 title: Sử dụng JPA trong lập trình spring
 slug : spring-jpa-query
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Spring JPA Query
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_jpa.png

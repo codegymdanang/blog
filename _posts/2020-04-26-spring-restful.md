@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng Restful trong lập trình java
 slug : restful
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: Restful
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_webservice.png

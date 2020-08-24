@@ -1,9 +1,9 @@
 ---
-layout: course-spring
+layout: course-spring-web
 title: Sử dụng OneToOne Relationship trong lập trình
 slug : one-to-one
 category: laptrinhspring
-tags: [spring]
+tags: [spring-web]
 summery: OneToOne
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
