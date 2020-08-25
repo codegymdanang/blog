@@ -132,7 +132,7 @@ public class Application {
 
 {% highlight java linenos %}
 
-package net.javaguides.spring.ioc;
+
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
