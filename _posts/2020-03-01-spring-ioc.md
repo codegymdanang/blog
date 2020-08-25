@@ -26,6 +26,13 @@ Trong tất cả các dự án Spring thì Spring IOC Container là trái tim c�
 
 Spring framework hỗ trợ 2 loại container là BeanFactory container và ApplicationContext container. Giúp chúng ta có thể khởi tạo và quản lý các beans (đối tượng) trong Spring
 
+BeanFactory là interface trên cùng của Spring IOC container còn ApplicationContext là lớp con của BeanFactory. Sự khác nhau chính của BeanFactory và ApplicationContext là 
+
+- BeanFactory : Các bean được tạo ra khi chúng ta gọi phương thức getBean()
+
+- ApplicationContext : chúng ta không cần phải chờ phương thức getBean được gọi mới tạo Bean. Mà khi container được start (khởi động) thì bean cũng đã được tạo ra do vậy không phải chờ gọi phương thức getBean.
+
+
 # **2 .Khởi tạo Spring Container**
 
 Có 3 cách khởi tạo Spring Container như sau :

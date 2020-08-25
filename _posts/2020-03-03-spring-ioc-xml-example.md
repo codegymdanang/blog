@@ -1,19 +1,19 @@
 ---
 layout: course-spring-core
-title: Spring IOC Java Example
-slug : spring-ioc-java-example
+title: Spring IOC XML Example
+slug : spring-ioc-xml-example
 category: laptrinhspring
 tags: [spring-core]
-summery: Cấu hình IOC qua Java 
+summery: Cấu hình IOC qua XML 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Sử dụng Cấu hình IOC qua Java trong lập trình Spring. Hiểu được Cấu hình IOC qua Java là gì. Hướng dẫn sử dụng Cấu hình IOC qua Java trong lập trình Spring.
+description : Sử dụng Cấu hình IOC qua XML trong lập trình Spring. Hiểu được Cấu hình IOC qua XML là gì. Hướng dẫn sử dụng Cấu hình IOC qua XML trong lập trình Spring.
 youtubeId: 0n8_2yG5F7I
 ---
 
 # **Giới thiệu nội dung bài viết**
 
-Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Cấu hình IOC qua Java</b> ? Có phải bạn không rõ khái niệm của nó trong lập trình?
+Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Cấu hình IOC qua XML</b> ? Có phải bạn không rõ khái niệm của nó trong lập trình?
 
 <br>
 # **1 .Tạo dự án Maven**
@@ -83,30 +83,31 @@ public class HelloWorld {
 }
 {% endhighlight %}
 
-# **4 .Cấu hình Metadata Java**
+# **4 .Cấu hình Metadata cho HelloWorld Spring Java**
 
-- Như bài 1 giới thiệu về Spring IOC container ta có thể dùng code Java để tạo các bean. Code Java bình thường như bước 3 chỉ là 1 lớp java thường để trở thành bean thì ta phải thêm các cấu hình bằng annotaion @ như sau:
+- Như bài 1 giới thiệu về Spring IOC container ta có thể dùng XML để tạo các bean. 
 
-{% highlight java linenos %}
+{% highlight xml linenos %}
 
-package com.levunguyen.spring.ioc;
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+ <bean id="helloWorld" class="com.levunguyen.spring.ioc">
+  <property name="message" value="Hello World!" />
+ </bean>
+</beans>
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-
-@Configuration
-public class AppConfig {
-
-    @Bean
-    public HelloWorld helloWorld() {
-        HelloWorld helloWorld = new HelloWorld();
-        helloWorld.setMessage("Hello World!");
-        return helloWorld;
-    }
-}
 {% endhighlight %}
 
-- Chúng ta sử dụng @Congiguration và @Bean. Khi container load lên nó sẽ nhận biết các annotation @ này để tạo bean (đối tượng)
+- Chúng ta khai báo xml tên bean và đặt cho nó định danh là id=helloworl, sau đó chỉ đường dẫn tới file java com.levunguyen.spring.ioc như sau : <bean id="helloWorld" class="com.levunguyen.spring.ioc">
+
+- Tiếp đến ta gán giá trị cho biến message trong lớp Helloworld bằng thẻ XML property trong thẻ property có thuộc tính là name thì cái tên name này phải giống như thuộc tính trong lớp java HelloWorld. <property name="message" value="Hello World!" />
+
+
+
 
 # **5 .Tạo Spring Container**
 
@@ -117,8 +118,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Application {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext  context = new AnnotationConfigApplicationContext(AppConfig.class);
-        context.close();
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
     }
 }
 
@@ -130,15 +130,16 @@ public class Application {
 
 {% highlight java linenos %}
 
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+package net.javaguides.spring.ioc;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Application {
     public static void main(String[] args) {
-        // ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
         obj.getMessage();
-        context.close();
     }
 }
 
