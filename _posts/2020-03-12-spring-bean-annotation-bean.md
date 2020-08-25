@@ -4,7 +4,7 @@ title: Annotation @Bean
 slug : spring-annotation-bean
 category: laptrinhspring
 tags: [spring-core]
-summery: @Bean Annotation
+summery: Bean Annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Hiều cấu hình @Bean Annotation trong lập trình Spring. Hướng dẫn sử dụng @Bean Annotation trong lập trình Spring.
