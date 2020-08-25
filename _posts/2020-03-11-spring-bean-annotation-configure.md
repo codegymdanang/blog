@@ -15,10 +15,10 @@ youtubeId: 0n8_2yG5F7I
 
 Chào ban, Trong bài viết hôm nay chúng ta sẽ nói cách sử dụng annotation để cấu hình cho dự án Spring.
 
-Kể từ version Spring 2.5 trở đi chúng ta có thể cấu hình các DI bằng cách sử dụng các annotaion thay cho cấu hình bằng file XML. Chúng ta dùng annotation thay cho cấu hình XML vì cấu hình XML khá cồng kềnh dài dòng và phức tạp. Khó phát hiện sai sót ngay tức thì mà phải chờ deploy xong mới biết.
+Kể từ version Spring 2.5 trở đi chúng ta có thể cấu hình các DI bằng cách sử dụng các annotaion thay cho cấu hình bằng file XML. Chúng ta dùng annotation thay cho cấu hình XML vì cấu hình XML khá cồng kềnh dài dòng và phức tạp. 
 
 
-# **1. Bật chứ năng auto wire bean**
+# **1. Bật chức năng auto wire bean**
 
 Chức năng autowire (nhúng bean phụ thuộc DI) không bật lên mặc định mà chúng ta phải khai báo và bật nó lên trước khi sử dụng các annotation để nhúng các bean. Để bật chức năng này lên ta khai báo như sau
 
