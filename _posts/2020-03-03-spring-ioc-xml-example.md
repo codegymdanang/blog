@@ -104,7 +104,7 @@ public class HelloWorld {
 
 - Chúng ta khai báo xml tên bean và đặt cho nó định danh là id=helloworl, sau đó chỉ đường dẫn tới file java com.levunguyen.spring.ioc như sau : <bean id="helloWorld" class="com.levunguyen.spring.ioc">
 
-- Set giá trị cho thuộc tính message trong lớp Java Helloworld bằng thẻ XML property.
+- Gán giá trị cho thuộc tính message trong lớp HelloWorld .
 
 - Ta sử dụng thẻ <property name="message" value="Hello World!" /> . Chú ý trong thẻ property có thuộc tính là name thì cái tên name này phải giống như thuộc tính trong lớp java HelloWorld. 
 
