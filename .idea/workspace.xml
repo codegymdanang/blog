@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="refactor name">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-02-spring-createspringboot.md" afterPath="$PROJECT_DIR$/_posts/2020-04-01-spring-createspringboot.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-02-spring-di.md" afterPath="$PROJECT_DIR$/_posts/2020-03-10-spring-di.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-03-spring-request.md" afterPath="$PROJECT_DIR$/_posts/2020-04-05-spring-request.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-04-spring-modelandview.md" afterPath="$PROJECT_DIR$/_posts/2020-04-09-spring-modelandview.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-04-spring-nviewresolve.md" afterPath="$PROJECT_DIR$/_posts/2020-04-07-spring-nviewresolve.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-04-spring-thymeleaf.md" afterPath="$PROJECT_DIR$/_posts/2020-04-08-spring-thymeleaf.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-04-spring-udatabinding.md" afterPath="$PROJECT_DIR$/_posts/2020-04-10-spring-udatabinding.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-05-spring-entitymanager.md" afterPath="$PROJECT_DIR$/_posts/2020-04-12-spring-entitymanager.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-05-spring-http-method.md" afterPath="$PROJECT_DIR$/_posts/2020-04-23-spring-http-method.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-06-spring-springjpa.md" afterPath="$PROJECT_DIR$/_posts/2020-04-13-spring-springjpa.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-06-spring-validation.md" afterPath="$PROJECT_DIR$/_posts/2020-04-19-spring-validation.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-07-spring-jwt.md" afterPath="$PROJECT_DIR$/_posts/2020-04-25-spring-jwt.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-08-spring-annotation.md" afterPath="$PROJECT_DIR$/_posts/2020-04-28-spring-annotation.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-08-spring-hibernate.md" afterPath="$PROJECT_DIR$/_posts/2020-04-11-spring-hibernate.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-08-spring-sessioncookie.md" afterPath="$PROJECT_DIR$/_posts/2020-04-20-spring-sessioncookie.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-09-spring-i18n.md" afterPath="$PROJECT_DIR$/_posts/2020-04-22-spring-i18n.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-10-spring-restful.md" afterPath="$PROJECT_DIR$/_posts/2020-04-26-spring-restful.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-10-spring-webservice.md" afterPath="$PROJECT_DIR$/_posts/2020-04-24-spring-webservice.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-12-spring-jpa-query.md" afterPath="$PROJECT_DIR$/_posts/2020-04-14-spring-jpa-query.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-25-spring-identifierhibernate.md" afterPath="$PROJECT_DIR$/_posts/2020-04-18-spring-identifierhibernate.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-25-spring-manytomany.md" afterPath="$PROJECT_DIR$/_posts/2020-04-17-spring-manytomany.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-25-spring-onetomany.md" afterPath="$PROJECT_DIR$/_posts/2020-04-16-spring-onetomany.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-25-spring-onetoone.md" afterPath="$PROJECT_DIR$/_posts/2020-04-15-spring-onetoone.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-25-spring-optinalpathvariable.md" afterPath="$PROJECT_DIR$/_posts/2020-04-06-spring-optinalpathvariable.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-02-25-spring-security.md" afterPath="$PROJECT_DIR$/_posts/2020-04-21-spring-security.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md" afterPath="$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="New changelist" />
+    <list id="3f969d96-d0d5-414b-8ca6-9e38f41aa7af" name="Failed commit: Default" comment="refactor name" />
     <ignored path="nguyenleblog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +25,40 @@
     <favorites_list name="nguyenleblog" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="2020-03-01-spring-maven.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.42938933">
+                <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2020-03-02-spring-ioc-java-example.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-03-02-spring-ioc-java-example.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.018203884">
+                <caret line="1" column="26" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="26" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,9 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-04-23-spring-jwt.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-05-08-spring-annotation.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_posts/2020-04-01-java-oop.md" />
         <option value="$PROJECT_DIR$/_posts/2020-07-25-confidence-tuhoclaptrinhhaytrungtam.md" />
         <option value="$PROJECT_DIR$/_includes/banner.html" />
@@ -99,7 +106,6 @@
         <option value="$PROJECT_DIR$/_posts/2020-01-08-java-compare.md" />
         <option value="$PROJECT_DIR$/_posts/2020-01-12-java-file.md" />
         <option value="$PROJECT_DIR$/_posts/2020-02-04-spring-thymeleaf.md" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_layouts/relationaldatabase-course.html" />
         <option value="$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md" />
         <option value="$PROJECT_DIR$/co-so-du-lieu-mysql.html" />
@@ -114,6 +120,10 @@
         <option value="$PROJECT_DIR$/_posts/2020-01-01-java-inheritance.md" />
         <option value="$PROJECT_DIR$/_posts/2020-01-01-java-abstraction.md" />
         <option value="$PROJECT_DIR$/_layouts/course-java.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-spring.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_posts/2020-03-12-spring-bean-annotation-bean.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md" />
       </list>
     </option>
   </component>
@@ -125,9 +135,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1104" />
-    <option name="y" value="29" />
-    <option name="width" value="1272" />
+    <option name="x" value="-1809" />
+    <option name="y" value="23" />
+    <option name="width" value="1538" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -186,6 +196,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -219,8 +257,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/_layouts" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/_site/font" />
     </key>
@@ -286,132 +324,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00950" summary="slug">
-      <created>1597849193996</created>
-      <option name="number" value="00950" />
-      <option name="project" value="LOCAL" />
-      <updated>1597849193996</updated>
-    </task>
-    <task id="LOCAL-00951" summary="buidler">
-      <created>1597849557568</created>
-      <option name="number" value="00951" />
-      <option name="project" value="LOCAL" />
-      <updated>1597849557568</updated>
-    </task>
-    <task id="LOCAL-00952" summary="buidler">
-      <created>1597850037545</created>
-      <option name="number" value="00952" />
-      <option name="project" value="LOCAL" />
-      <updated>1597850037545</updated>
-    </task>
-    <task id="LOCAL-00953" summary="buidler">
-      <created>1597850532037</created>
-      <option name="number" value="00953" />
-      <option name="project" value="LOCAL" />
-      <updated>1597850532037</updated>
-    </task>
-    <task id="LOCAL-00954" summary="buidler">
-      <created>1597851073255</created>
-      <option name="number" value="00954" />
-      <option name="project" value="LOCAL" />
-      <updated>1597851073255</updated>
-    </task>
-    <task id="LOCAL-00955" summary="buidler">
-      <created>1597851346913</created>
-      <option name="number" value="00955" />
-      <option name="project" value="LOCAL" />
-      <updated>1597851346913</updated>
-    </task>
-    <task id="LOCAL-00956" summary="buidler">
-      <created>1597851423293</created>
-      <option name="number" value="00956" />
-      <option name="project" value="LOCAL" />
-      <updated>1597851423293</updated>
-    </task>
-    <task id="LOCAL-00957" summary="buidler">
-      <created>1597853799683</created>
-      <option name="number" value="00957" />
-      <option name="project" value="LOCAL" />
-      <updated>1597853799683</updated>
-    </task>
-    <task id="LOCAL-00958" summary="buidler">
-      <created>1597935562086</created>
-      <option name="number" value="00958" />
-      <option name="project" value="LOCAL" />
-      <updated>1597935562087</updated>
-    </task>
-    <task id="LOCAL-00959" summary="buidler">
-      <created>1597936599863</created>
-      <option name="number" value="00959" />
-      <option name="project" value="LOCAL" />
-      <updated>1597936599863</updated>
-    </task>
-    <task id="LOCAL-00960" summary="buidler">
-      <created>1597938110326</created>
-      <option name="number" value="00960" />
-      <option name="project" value="LOCAL" />
-      <updated>1597938110326</updated>
-    </task>
-    <task id="LOCAL-00961" summary="buidler">
-      <created>1597938414687</created>
-      <option name="number" value="00961" />
-      <option name="project" value="LOCAL" />
-      <updated>1597938414688</updated>
-    </task>
-    <task id="LOCAL-00962" summary="buidler">
-      <created>1597939237681</created>
-      <option name="number" value="00962" />
-      <option name="project" value="LOCAL" />
-      <updated>1597939237681</updated>
-    </task>
-    <task id="LOCAL-00963" summary="buidler">
-      <created>1597939307987</created>
-      <option name="number" value="00963" />
-      <option name="project" value="LOCAL" />
-      <updated>1597939307987</updated>
-    </task>
-    <task id="LOCAL-00964" summary="buidler">
-      <created>1597940054267</created>
-      <option name="number" value="00964" />
-      <option name="project" value="LOCAL" />
-      <updated>1597940054267</updated>
-    </task>
-    <task id="LOCAL-00965" summary="buidler">
-      <created>1597941501409</created>
-      <option name="number" value="00965" />
-      <option name="project" value="LOCAL" />
-      <updated>1597941501409</updated>
-    </task>
-    <task id="LOCAL-00966" summary="buidler">
-      <created>1597942247626</created>
-      <option name="number" value="00966" />
-      <option name="project" value="LOCAL" />
-      <updated>1597942247627</updated>
-    </task>
-    <task id="LOCAL-00967" summary="buidler">
-      <created>1597942387494</created>
-      <option name="number" value="00967" />
-      <option name="project" value="LOCAL" />
-      <updated>1597942387494</updated>
-    </task>
-    <task id="LOCAL-00968" summary="buidler">
-      <created>1597942845388</created>
-      <option name="number" value="00968" />
-      <option name="project" value="LOCAL" />
-      <updated>1597942845388</updated>
-    </task>
-    <task id="LOCAL-00969" summary="buidler">
-      <created>1597943306025</created>
-      <option name="number" value="00969" />
-      <option name="project" value="LOCAL" />
-      <updated>1597943306025</updated>
-    </task>
-    <task id="LOCAL-00970" summary="buidler">
-      <created>1597943467633</created>
-      <option name="number" value="00970" />
-      <option name="project" value="LOCAL" />
-      <updated>1597943467633</updated>
     </task>
     <task id="LOCAL-00971" summary="buidler">
       <created>1597944032064</created>
@@ -581,16 +493,142 @@
       <option name="project" value="LOCAL" />
       <updated>1598197767865</updated>
     </task>
-    <option name="localTasksCounter" value="999" />
+    <task id="LOCAL-00999" summary="refactor name">
+      <created>1598200973149</created>
+      <option name="number" value="00999" />
+      <option name="project" value="LOCAL" />
+      <updated>1598200973149</updated>
+    </task>
+    <task id="LOCAL-01000" summary="refactor name">
+      <created>1598201830407</created>
+      <option name="number" value="01000" />
+      <option name="project" value="LOCAL" />
+      <updated>1598201830407</updated>
+    </task>
+    <task id="LOCAL-01001" summary="refactor name">
+      <created>1598275205544</created>
+      <option name="number" value="01001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598275205545</updated>
+    </task>
+    <task id="LOCAL-01002" summary="refactor name">
+      <created>1598275622186</created>
+      <option name="number" value="01002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598275622187</updated>
+    </task>
+    <task id="LOCAL-01003" summary="refactor name">
+      <created>1598277127741</created>
+      <option name="number" value="01003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598277127741</updated>
+    </task>
+    <task id="LOCAL-01004" summary="refactor name">
+      <created>1598278004991</created>
+      <option name="number" value="01004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598278004991</updated>
+    </task>
+    <task id="LOCAL-01005" summary="spring core">
+      <created>1598317033489</created>
+      <option name="number" value="01005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598317033490</updated>
+    </task>
+    <task id="LOCAL-01006" summary="refactor name">
+      <created>1598317660464</created>
+      <option name="number" value="01006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598317660464</updated>
+    </task>
+    <task id="LOCAL-01007" summary="refactor name">
+      <created>1598322649728</created>
+      <option name="number" value="01007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598322649728</updated>
+    </task>
+    <task id="LOCAL-01008" summary="refactor name">
+      <created>1598322866555</created>
+      <option name="number" value="01008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598322866555</updated>
+    </task>
+    <task id="LOCAL-01009" summary="refactor name">
+      <created>1598323017832</created>
+      <option name="number" value="01009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598323017832</updated>
+    </task>
+    <task id="LOCAL-01010" summary="refactor name">
+      <created>1598323127759</created>
+      <option name="number" value="01010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598323127759</updated>
+    </task>
+    <task id="LOCAL-01011" summary="refactor name">
+      <created>1598340038675</created>
+      <option name="number" value="01011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598340038675</updated>
+    </task>
+    <task id="LOCAL-01012" summary="refactor name">
+      <created>1598341146898</created>
+      <option name="number" value="01012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598341146898</updated>
+    </task>
+    <task id="LOCAL-01013" summary="bean scope">
+      <created>1598345665447</created>
+      <option name="number" value="01013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598345665447</updated>
+    </task>
+    <task id="LOCAL-01014" summary="refactor name">
+      <created>1598347314629</created>
+      <option name="number" value="01014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598347314629</updated>
+    </task>
+    <task id="LOCAL-01015" summary="refactor name">
+      <created>1598348789171</created>
+      <option name="number" value="01015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598348789171</updated>
+    </task>
+    <task id="LOCAL-01016" summary="refactor name">
+      <created>1598363537441</created>
+      <option name="number" value="01016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598363537442</updated>
+    </task>
+    <task id="LOCAL-01017" summary="refactor name">
+      <created>1598363725080</created>
+      <option name="number" value="01017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598363725080</updated>
+    </task>
+    <task id="LOCAL-01018" summary="refactor name">
+      <created>1598364668163</created>
+      <option name="number" value="01018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598364668164</updated>
+    </task>
+    <task id="LOCAL-01019" summary="refactor name">
+      <created>1598364851085</created>
+      <option name="number" value="01019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598364851085</updated>
+    </task>
+    <option name="localTasksCounter" value="1020" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1104" y="29" width="1272" height="1027" extended-state="0" />
-    <editor active="false" />
+    <frame x="-1809" y="23" width="1538" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30079156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6073232" sideWeight="0.5324544" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35753575" sideWeight="0.46754563" order="9" side_tool="false" content_ui="tabs" />
@@ -621,8 +659,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="copywright" />
-    <MESSAGE value="remove ad" />
     <MESSAGE value="banner" />
     <MESSAGE value="adding ads.txt" />
     <MESSAGE value="google ads" />
@@ -645,6 +681,8 @@
     <MESSAGE value="title" />
     <MESSAGE value="slug" />
     <MESSAGE value="buidler" />
+    <MESSAGE value="spring core" />
+    <MESSAGE value="bean scope" />
     <MESSAGE value="refactor name" />
     <option name="LAST_COMMIT_MESSAGE" value="refactor name" />
   </component>
@@ -653,72 +691,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-06-designpattern-abstractfactory.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.18036072">
-            <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-05-07-designpattern-designpatternlagi.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.1503006">
-            <caret line="5" column="20" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-java-chuyen-sau.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-08-04-goodcode-tdd.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.12024048">
-            <caret line="4" column="22" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-08-04-goodcode-sonar.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.1503006">
-            <caret line="5" column="15" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/course-goodcode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.875">
-          <caret line="74" column="50" selection-start-line="74" selection-start-column="50" selection-end-line="74" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ky-thuat-lap-trinh-java-cleancode.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.028248588">
@@ -754,7 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-03-05-frontend-angular-bootstrap.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-05-11-frontend-angular-bootstrap.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.1503006">
@@ -831,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/course-spring.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-05-03-database-nomarlizeform.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -879,14 +844,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="141" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="141" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-03-05-frontend-angular-webservice.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-05-17-frontend-angular-webservice.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.07281554">
@@ -912,7 +870,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-04-26-fontend-bootstrap.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-05-11-fontend-bootstrap.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.81796116">
@@ -1152,7 +1110,6 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1166,7 +1123,6 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1180,6 +1136,101 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="128" selection-start-line="24" selection-start-column="128" selection-end-line="24" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-spring-core.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-07-spring-di-setter.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-08-spring-di-constructor.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="1.6019417">
+            <caret line="88" column="10" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-10-spring-bean-lifecycle.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="-0.2">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-12-spring-bean-annotation-bean.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.091019414">
+            <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-02-spring-ioc-java-example.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.018203884">
+            <caret line="1" column="26" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.42938933">
+            <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />

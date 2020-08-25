@@ -13,7 +13,7 @@ youtubeId: WNfuVJptPnQ
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, chủ để hôm nay chúng ta sẽ tìm hiểu về <b>Maven</b> là gì ? Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
+Chào các em,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>Maven</b> là gì ? Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
 - Maven là gì ?
 - Repository chứa đựng các thư viện
