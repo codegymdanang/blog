@@ -32,7 +32,7 @@ Chào các em, hôm nay chúng ta sẽ nói về chủ đề toán tử trong da
 |  Toán tử  						|  Mô tả										|
 |---								|---											|
 |	&								| Toán And										|
-|	| 								| Toán OR										|
+|	\| 								| Toán OR										|
 |	^								| Trả về 1 nếu có 1 mệnh đề là 1 và ngược lại	|
 
 # **3. Toán tử so sánh**
