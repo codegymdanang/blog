@@ -4,7 +4,7 @@ title:  Cú pháp Database
 slug : database-syntax
 category: database
 tags: [database]
-summery: Joins    
+summery: Cú pháp    
 image: /images/blog/database.png
 description : Trình bày cú pháp của database. Hướng dẫn cách sử dụng cú pháp trong database
 youtubeId: tKLOuvrHCNw
@@ -57,8 +57,7 @@ Câu lệnh SQL được chia ra thành 3 loại DDL , DML và DCL
 + DROP to drop a table.
 + RENAME to rename a table. 
 
-- Data Manipulation Language (DML): Các câu lệnh thao tác với database
-
+- Data Manipulation Language (DML): dùng để truy vấn, cập nhật và thêm dữ liệu trong table
 + INSERT to insert a new row.
 + UPDATE to update an existing row.
 + DELETE to delete a row.
