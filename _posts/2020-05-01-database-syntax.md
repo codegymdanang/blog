@@ -35,7 +35,7 @@ Table (bảng) Customer chứa 5 records (5 dòng). Mỗi dòng là thông tin c
 
 Hầu hết các hành động ta thực hiện trên database (cơ sở dữ liệu) thông qua các câu lệnh SQL.
 
-Ví dụ câu lệnh lấy tất cả khách hàng trong table Customer như sau.
+Ví dụ đây là câu lệnh hiển thị danh sách khách hàng có trong bảng Customer.
 
 
 <br>
