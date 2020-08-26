@@ -1,14 +1,14 @@
 ---
 layout: course-spring-core
-title: Sử dụng Maven trong ngôn ngữ lập trình 
-slug : maven
+title: Tạo dự án bằng maven
+slug : create-maven-project
 category: laptrinhspring
 tags: [spring-core]
-summery: Maven 
+summery: Tạo dự án bằng Maven 
 image: /images/blog/spring.png
-description : Sử dụng maven trong các dự án java. Hiểu được mục đích sử dụng Maven trong ngôn ngữ java và các dự án java.
-Hướng dẫn sử dụng maven trong dự án
-youtubeId: WNfuVJptPnQ
+featureImage: /images/post/javacore/feature_di.png
+description : Sử dụng Cấu hình IOC qua Java trong lập trình Spring. Hiểu được Cấu hình IOC qua Java là gì. Hướng dẫn sử dụng Cấu hình IOC qua Java trong lập trình Spring.
+youtubeId: 0n8_2yG5F7I
 ---
 
 # **Giới thiệu nội dung bài viết**

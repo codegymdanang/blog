@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="refactor name">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md" afterPath="$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md" />
+    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md" afterPath="$PROJECT_DIR$/_posts/2020-03-02-spring-ioc-2maven.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="New changelist" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2020-03-01-spring-maven.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md">
+      <file leaf-file-name="2020-03-02-spring-ioc-2maven.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2020-03-02-spring-ioc-2maven.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.42938933">
+              <first_editor vertical-scroll-proportion="0.0">
                 <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
                 <folding />
               </first_editor>
@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2020-03-02-spring-ioc-java-example.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2020-03-02-spring-ioc-java-example.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2020-03-02-spring-ioc-java-example.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.018203884">
+              <first_editor vertical-scroll-proportion="0.0">
                 <caret line="1" column="26" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="26" />
                 <folding />
               </first_editor>
@@ -324,12 +324,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-00971" summary="buidler">
-      <created>1597944032064</created>
-      <option name="number" value="00971" />
-      <option name="project" value="LOCAL" />
-      <updated>1597944032064</updated>
     </task>
     <task id="LOCAL-00972" summary="refactor name">
       <created>1598078420298</created>
@@ -619,16 +613,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598364851085</updated>
     </task>
-    <option name="localTasksCounter" value="1020" />
+    <task id="LOCAL-01020" summary="refactor name">
+      <created>1598365770389</created>
+      <option name="number" value="01020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598365770389</updated>
+    </task>
+    <option name="localTasksCounter" value="1021" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1809" y="23" width="1538" height="1027" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30079156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30079156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6073232" sideWeight="0.5324544" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35753575" sideWeight="0.46754563" order="9" side_tool="false" content_ui="tabs" />
@@ -636,6 +635,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30896226" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1189,7 +1189,6 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="-0.2">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1203,6 +1202,19 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.091019414">
             <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-02-spring-ioc-2maven.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1215,22 +1227,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-03-02-spring-ioc-java-example.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.018203884">
+          <first_editor vertical-scroll-proportion="0.0">
             <caret line="1" column="26" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.42938933">
-            <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
             <folding />
           </first_editor>
           <second_editor />
