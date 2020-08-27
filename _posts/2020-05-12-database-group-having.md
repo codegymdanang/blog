@@ -1,10 +1,10 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Group và Having trong database
-slug : group-having
+title:  Sử dụng Stored Procedure trong database
+slug : stored-procedure
 category: database
 tags: [database]
-summery: Group và Having    
+summery: Stored Procedure    
 image: /images/blog/database.png
 description : Chuẩn hoá dữ liệu là gì? Hiểu các quy luật 1NF, 2NF, 3NF, 4NF và BCNF. Hướng dẫn cách xây dựng một database chuẩn hoá dữ liệu, tìm hiểu các kỷ thuật chuẩn hoá database.
 youtubeId: vfAWEtwtQf8

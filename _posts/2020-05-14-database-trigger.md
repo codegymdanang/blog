@@ -6,7 +6,7 @@ category: database
 tags: [database]
 summery: Trigger    
 image: /images/blog/database.png
-description : Chuẩn hoá dữ liệu là gì? Hiểu các quy luật 1NF, 2NF, 3NF, 4NF và BCNF. Hướng dẫn cách xây dựng một database chuẩn hoá dữ liệu, tìm hiểu các kỷ thuật chuẩn hoá database.
+description : Trình bày trigger trong database là gì . Hướng dẫn cách sử dụng trigger trong database
 youtubeId: mxYQUIMJ5Aw
 ---
 
