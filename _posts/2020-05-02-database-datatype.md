@@ -32,7 +32,7 @@ Trong database có 3 kiểu dữ liệu chính là chuỗi, số và ngày thán
 |	TinyBlob						| chứa kiểu BLOB (cho những object lớn) max length là 255 bytes |
 |	TinyText						| chứa giá trị chuỗi với max độ dài là 255 ký tự			|
 |	Text(size)						| chứa giá trị chuỗi với max độ dài là 65.535 bytes			|
-|	BLOB(size)						| chứa kiểu BLOBs có thể chứa đến 65.535 bytes dữ liệu				|
+|	BLOB(size)						| chứa kiểu BLOBs có thể chứa đến 65.535 bytes dữ liệu		|
 |	MediumText						| chứa kiểu string với giá trị max là 16,777,215 ký tự		|
 |	MediumBlob						| chứa kiểu BLOB có thể chứa đến 16,777,215 bytes 			|
 |	LongText						| chứa kiểu string chứa đến 4,294,967,295 ký tự				|
