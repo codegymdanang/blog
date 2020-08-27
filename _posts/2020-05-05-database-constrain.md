@@ -20,8 +20,6 @@ Chúng ta sử dụng ràng buộc dữ liệu khi tạo ra bảng hoặc chỉn
 
 - Cú pháp
 
-- Cú pháp
-
 <br>
 {% highlight sql linenos %}
 
