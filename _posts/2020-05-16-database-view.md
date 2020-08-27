@@ -18,7 +18,7 @@ Chào các em, hôm nay chúng ta sẽ nói về chủ đề Stored Procedure tr
 
 View là một dạng table giả hay table ảo không phải table thiệt. Mình thường tạo ra các table ảo để truy vấn dữ liệu cho nhanh.
 
-View thì cũng giống như table gồm có các dòng và cột. Thông thường khi câu truy vấn lặp đi lặp lại nhiều lần ta thường tạo 1 View cho câu truy vấn đó.
+Thông thường khi câu truy vấn lặp đi lặp lại nhiều lần ta thường tạo 1 View cho câu truy vấn đó.
 
 - Cú pháp tạo VIEW
 
