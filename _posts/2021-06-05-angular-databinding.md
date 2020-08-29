@@ -49,7 +49,7 @@ Như vậy dữ liệu trong component này có là firstName và lastName. Ta h
 
 {% highlight html  linenos %}
 
-Welcome,  {{firstName}} {{lastName}}
+Welcome,  \{\{firstName\}\} \{\{lastName\}\}
 
 {% endhighlight %}
 
