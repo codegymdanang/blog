@@ -44,7 +44,6 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
   + Sự khác nhau của Set và List.[Trả lời](https://levunguyen.com/laptrinhjava/2020/02/03/cau-truc-du-lieu/)
   + Sự khác nhau giữa override và overload.
   + Phân biệt các kiểu dữ liệu trong java. Khác nhau thế nào ?[Trả lời](https://levunguyen.com/laptrinhjava/2020/01/03/kieu-du-lieu/)
-  + Sự khác nhau giữa override và overload.
   + Phân biệt sự khác nhau của các access modifier [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/18/access-modifier/)
   + Generic là gì? Cho ví dụ minh hoạ? Tại sao dùng Generic. [Trả lời](https://levunguyen.com/laptrinhjava/2020/02/04/generic-la-gi/)
   + Sự khác nhau giữa abstract class và Interface. [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/25/su-khac-nhau-giua-abstract-interface/)
