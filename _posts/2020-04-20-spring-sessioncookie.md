@@ -1,15 +1,14 @@
 ---
 layout: course-spring-web
-title: Phân Biệt Session và Cookie trong học lập trình
-slug : session-cookie
+title: Session và Cookie
+slug : spring-validation
 category: laptrinhspring
 tags: [spring-web]
 summery: Session và Cookie
 image: /images/blog/spring.png
-featureImage: /images/post/javacore/feature_sessioncookie.png
-description : Phân biệt Session và Cookie trong học lập trình java. Hiểu được Session là gì , cookie là gì trong lập trình web.
-Hướng dẫn sử dụng session và cookie trong dự án Spring.
-youtubeId: ym4-rU9R6fM
+featureImage: /images/post/javacore/feature_springvalidation.png
+description : Sử dụng Session và Cookie trong lập trình Spring. Hướng dẫn cách Session và Cookie trong lập trình các dự án về Spring.
+youtubeId: ljyqbIo4jbk
 ---
 
 # **Giới thiệu nội dung bài viết**
