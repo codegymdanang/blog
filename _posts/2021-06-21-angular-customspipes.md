@@ -104,7 +104,7 @@ export class TempConverterPipe implements PipeTransform {
 
 - Bước 3 : Khai báo TempConverterPipe trong AppModule
 
-{% highlight js linenos %}
+{% highlight html linenos %}
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
