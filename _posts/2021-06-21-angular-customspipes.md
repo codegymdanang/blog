@@ -113,7 +113,7 @@ import { HttpModule } from '@angular/http';
  
 import { AppComponent } from './app.component';
  
-import {TempConverterPipe} from './temp-convertor.pipe';
+import { TempConverterPipe } from './temp-convertor.pipe';
  
 @NgModule({
     declarations: [AppComponent,TempConverterPipe],
@@ -121,6 +121,7 @@ import {TempConverterPipe} from './temp-convertor.pipe';
     bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 {% endhighlight %} 
 
 
