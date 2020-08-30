@@ -24,7 +24,7 @@ Trong Angular có 3 loại directive là component, structural và attribute nh�
 
  - Bước 1 : Chúng ta tạo file có tên là tt-class.directive.js như sau
 
-{% highlight js  linenos %}
+{% highlight javascript  linenos %}
 
 import { Directive, ElementRef, Input, OnInit } from '@angular/core'
  
@@ -48,7 +48,7 @@ export class ttClassDirective implements OnInit {
 
 Chúng ta import thư việ Directive và các thư viện cần thiết vào 
 
-{% highlight js  linenos %}
+{% highlight javascript  linenos %}
 
 import { Directive, ElementRef, Input, OnInit } from '@angular/core'
 
@@ -56,7 +56,7 @@ import { Directive, ElementRef, Input, OnInit } from '@angular/core'
 
 Chúng ta khai báo Class này là directive thông qua annotation @Directive và đặt tên cho component này là ttClass
 
-{% highlight js  linenos %}
+{% highlight javascript  linenos %}
 
 @Directive({
   selector: '[ttClass]',
@@ -77,7 +77,7 @@ Như vậy giá trị blue sẽ được truyền vào biến ttClass : String.
 
 Chúng ta sử dụng ElementRef để thao tác với các thành phần của web.
 
-{% highlight js  linenos %}
+{% highlight javascript  linenos %}
 
 constructor(private el: ElementRef) { }
 {% endhighlight %}

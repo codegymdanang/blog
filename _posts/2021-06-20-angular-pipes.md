@@ -25,7 +25,7 @@ Sử dụng để định dạng lại kiểu ngày tháng trên website.
 
 Cú pháp
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 
 date_expression | date[:format]
 
@@ -49,7 +49,7 @@ date_expression | date[:format]
 
 Được sử dụng để viết hoa toàn bộ hoặc viết thường toàn bộ dữ liệu . Ví dụ như sau
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -72,7 +72,7 @@ export class AppComponent
 
 Dùng để cắt một chuổi từ vị trí muốn cắt đến vị trí kết thúc
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -95,7 +95,7 @@ export class AppComponent
 
 Dùng để format cho kiểu số và kiểu thập phân. Với cú pháp như sau
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 
 number_expression | number[:digitInfo]
 
@@ -104,13 +104,11 @@ number_expression | number[:digitInfo]
 - number_expression : số mà mình cần format
 - number tên pipe
 
-
-
 # **6. PercentePipe**
 
 Định dạnh số theo phần trăm
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -133,7 +131,7 @@ export class AppComponent
 
 Định dạng để sử dụng cho tiền tệ như USD, hay VNĐ
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
