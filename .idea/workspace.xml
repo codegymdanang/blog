@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="database">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2021-06-03-angular-bootstrap.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-06-03-frontend-angular-component.md" afterPath="$PROJECT_DIR$/_posts/2021-06-04-angular-component.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-06-05-frontend-angular-model.md" afterPath="$PROJECT_DIR$/_posts/2021-07-22-angular-model.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-06-11-fontend-bootstrap.md" afterPath="$PROJECT_DIR$/_posts/2021-06-03-angular-abootstrap.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-06-11-frontend-angular-bootstrap.md" afterPath="$PROJECT_DIR$/_posts/2021-06-02-angular-create-project.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-06-13-frontend-angular-ntemplateform.md" afterPath="$PROJECT_DIR$/_posts/2021-07-03-angular-template-form.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-06-15-frontend-angular-orouter.md" afterPath="$PROJECT_DIR$/_posts/2021-07-19-angular-router.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-06-17-frontend-angular-webservice.md" afterPath="$PROJECT_DIR$/_posts/2021-07-15-angular-webservice.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2020-06-18-frontend-angular-ipromise.md" afterPath="$PROJECT_DIR$/_posts/2021-07-18-angular-promise.md" />
+    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="angular">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2021-06-20-angular-pipes.md" afterPath="$PROJECT_DIR$/_posts/2021-06-20-angular-pipes.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="New changelist" />
@@ -110,9 +102,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1826" />
-    <option name="y" value="23" />
-    <option name="width" value="1519" />
+    <option name="x" value="-1729" />
+    <option name="y" value="53" />
+    <option name="width" value="1262" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -138,6 +130,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,18 +159,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="post" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Coding/Teaching/Angular/AngularStackBlitz" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
@@ -210,11 +256,11 @@
       <recent name="$PROJECT_DIR$/_site/font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/post/angular" />
       <recent name="$PROJECT_DIR$/images/banner" />
       <recent name="$PROJECT_DIR$/images/post/designpattern" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.well-known" />
-      <recent name="$PROJECT_DIR$/asset/static" />
     </key>
   </component>
   <component name="RunManager">
@@ -271,132 +317,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-01004" summary="refactor name">
-      <created>1598278004991</created>
-      <option name="number" value="01004" />
-      <option name="project" value="LOCAL" />
-      <updated>1598278004991</updated>
-    </task>
-    <task id="LOCAL-01005" summary="spring core">
-      <created>1598317033489</created>
-      <option name="number" value="01005" />
-      <option name="project" value="LOCAL" />
-      <updated>1598317033490</updated>
-    </task>
-    <task id="LOCAL-01006" summary="refactor name">
-      <created>1598317660464</created>
-      <option name="number" value="01006" />
-      <option name="project" value="LOCAL" />
-      <updated>1598317660464</updated>
-    </task>
-    <task id="LOCAL-01007" summary="refactor name">
-      <created>1598322649728</created>
-      <option name="number" value="01007" />
-      <option name="project" value="LOCAL" />
-      <updated>1598322649728</updated>
-    </task>
-    <task id="LOCAL-01008" summary="refactor name">
-      <created>1598322866555</created>
-      <option name="number" value="01008" />
-      <option name="project" value="LOCAL" />
-      <updated>1598322866555</updated>
-    </task>
-    <task id="LOCAL-01009" summary="refactor name">
-      <created>1598323017832</created>
-      <option name="number" value="01009" />
-      <option name="project" value="LOCAL" />
-      <updated>1598323017832</updated>
-    </task>
-    <task id="LOCAL-01010" summary="refactor name">
-      <created>1598323127759</created>
-      <option name="number" value="01010" />
-      <option name="project" value="LOCAL" />
-      <updated>1598323127759</updated>
-    </task>
-    <task id="LOCAL-01011" summary="refactor name">
-      <created>1598340038675</created>
-      <option name="number" value="01011" />
-      <option name="project" value="LOCAL" />
-      <updated>1598340038675</updated>
-    </task>
-    <task id="LOCAL-01012" summary="refactor name">
-      <created>1598341146898</created>
-      <option name="number" value="01012" />
-      <option name="project" value="LOCAL" />
-      <updated>1598341146898</updated>
-    </task>
-    <task id="LOCAL-01013" summary="bean scope">
-      <created>1598345665447</created>
-      <option name="number" value="01013" />
-      <option name="project" value="LOCAL" />
-      <updated>1598345665447</updated>
-    </task>
-    <task id="LOCAL-01014" summary="refactor name">
-      <created>1598347314629</created>
-      <option name="number" value="01014" />
-      <option name="project" value="LOCAL" />
-      <updated>1598347314629</updated>
-    </task>
-    <task id="LOCAL-01015" summary="refactor name">
-      <created>1598348789171</created>
-      <option name="number" value="01015" />
-      <option name="project" value="LOCAL" />
-      <updated>1598348789171</updated>
-    </task>
-    <task id="LOCAL-01016" summary="refactor name">
-      <created>1598363537441</created>
-      <option name="number" value="01016" />
-      <option name="project" value="LOCAL" />
-      <updated>1598363537442</updated>
-    </task>
-    <task id="LOCAL-01017" summary="refactor name">
-      <created>1598363725080</created>
-      <option name="number" value="01017" />
-      <option name="project" value="LOCAL" />
-      <updated>1598363725080</updated>
-    </task>
-    <task id="LOCAL-01018" summary="refactor name">
-      <created>1598364668163</created>
-      <option name="number" value="01018" />
-      <option name="project" value="LOCAL" />
-      <updated>1598364668164</updated>
-    </task>
-    <task id="LOCAL-01019" summary="refactor name">
-      <created>1598364851085</created>
-      <option name="number" value="01019" />
-      <option name="project" value="LOCAL" />
-      <updated>1598364851085</updated>
-    </task>
-    <task id="LOCAL-01020" summary="refactor name">
-      <created>1598365770389</created>
-      <option name="number" value="01020" />
-      <option name="project" value="LOCAL" />
-      <updated>1598365770389</updated>
-    </task>
-    <task id="LOCAL-01021" summary="refactor name">
-      <created>1598424302905</created>
-      <option name="number" value="01021" />
-      <option name="project" value="LOCAL" />
-      <updated>1598424302906</updated>
-    </task>
-    <task id="LOCAL-01022" summary="refactor name">
-      <created>1598425048900</created>
-      <option name="number" value="01022" />
-      <option name="project" value="LOCAL" />
-      <updated>1598425048900</updated>
-    </task>
-    <task id="LOCAL-01023" summary="refactor name">
-      <created>1598426059871</created>
-      <option name="number" value="01023" />
-      <option name="project" value="LOCAL" />
-      <updated>1598426059871</updated>
-    </task>
-    <task id="LOCAL-01024" summary="refactor name">
-      <created>1598426862911</created>
-      <option name="number" value="01024" />
-      <option name="project" value="LOCAL" />
-      <updated>1598426862911</updated>
     </task>
     <task id="LOCAL-01025" summary="refactor name">
       <created>1598427542864</created>
@@ -566,15 +486,142 @@
       <option name="project" value="LOCAL" />
       <updated>1598675810913</updated>
     </task>
-    <option name="localTasksCounter" value="1053" />
+    <task id="LOCAL-01053" summary="angular">
+      <created>1598707296643</created>
+      <option name="number" value="01053" />
+      <option name="project" value="LOCAL" />
+      <updated>1598707296644</updated>
+    </task>
+    <task id="LOCAL-01054" summary="angular">
+      <created>1598709906103</created>
+      <option name="number" value="01054" />
+      <option name="project" value="LOCAL" />
+      <updated>1598709906103</updated>
+    </task>
+    <task id="LOCAL-01055" summary="angular">
+      <created>1598722751459</created>
+      <option name="number" value="01055" />
+      <option name="project" value="LOCAL" />
+      <updated>1598722751459</updated>
+    </task>
+    <task id="LOCAL-01056" summary="angular">
+      <created>1598725029129</created>
+      <option name="number" value="01056" />
+      <option name="project" value="LOCAL" />
+      <updated>1598725029129</updated>
+    </task>
+    <task id="LOCAL-01057" summary="angular">
+      <created>1598725163113</created>
+      <option name="number" value="01057" />
+      <option name="project" value="LOCAL" />
+      <updated>1598725163113</updated>
+    </task>
+    <task id="LOCAL-01058" summary="angular">
+      <created>1598753880275</created>
+      <option name="number" value="01058" />
+      <option name="project" value="LOCAL" />
+      <updated>1598753880275</updated>
+    </task>
+    <task id="LOCAL-01059" summary="angular">
+      <created>1598754155279</created>
+      <option name="number" value="01059" />
+      <option name="project" value="LOCAL" />
+      <updated>1598754155279</updated>
+    </task>
+    <task id="LOCAL-01060" summary="angular">
+      <created>1598756090117</created>
+      <option name="number" value="01060" />
+      <option name="project" value="LOCAL" />
+      <updated>1598756090117</updated>
+    </task>
+    <task id="LOCAL-01061" summary="angular">
+      <created>1598757195272</created>
+      <option name="number" value="01061" />
+      <option name="project" value="LOCAL" />
+      <updated>1598757195272</updated>
+    </task>
+    <task id="LOCAL-01062" summary="angular">
+      <created>1598758264880</created>
+      <option name="number" value="01062" />
+      <option name="project" value="LOCAL" />
+      <updated>1598758264880</updated>
+    </task>
+    <task id="LOCAL-01063" summary="angular">
+      <created>1598758333076</created>
+      <option name="number" value="01063" />
+      <option name="project" value="LOCAL" />
+      <updated>1598758333076</updated>
+    </task>
+    <task id="LOCAL-01064" summary="angular">
+      <created>1598759236163</created>
+      <option name="number" value="01064" />
+      <option name="project" value="LOCAL" />
+      <updated>1598759236163</updated>
+    </task>
+    <task id="LOCAL-01065" summary="angular">
+      <created>1598760169128</created>
+      <option name="number" value="01065" />
+      <option name="project" value="LOCAL" />
+      <updated>1598760169128</updated>
+    </task>
+    <task id="LOCAL-01066" summary="angular">
+      <created>1598760855153</created>
+      <option name="number" value="01066" />
+      <option name="project" value="LOCAL" />
+      <updated>1598760855153</updated>
+    </task>
+    <task id="LOCAL-01067" summary="angular">
+      <created>1598773381313</created>
+      <option name="number" value="01067" />
+      <option name="project" value="LOCAL" />
+      <updated>1598773381314</updated>
+    </task>
+    <task id="LOCAL-01068" summary="angular">
+      <created>1598775038423</created>
+      <option name="number" value="01068" />
+      <option name="project" value="LOCAL" />
+      <updated>1598775038423</updated>
+    </task>
+    <task id="LOCAL-01069" summary="angular">
+      <created>1598775312222</created>
+      <option name="number" value="01069" />
+      <option name="project" value="LOCAL" />
+      <updated>1598775312222</updated>
+    </task>
+    <task id="LOCAL-01070" summary="angular">
+      <created>1598775561297</created>
+      <option name="number" value="01070" />
+      <option name="project" value="LOCAL" />
+      <updated>1598775561297</updated>
+    </task>
+    <task id="LOCAL-01071" summary="angular">
+      <created>1598775621393</created>
+      <option name="number" value="01071" />
+      <option name="project" value="LOCAL" />
+      <updated>1598775621393</updated>
+    </task>
+    <task id="LOCAL-01072" summary="angular">
+      <created>1598775670933</created>
+      <option name="number" value="01072" />
+      <option name="project" value="LOCAL" />
+      <updated>1598775670934</updated>
+    </task>
+    <task id="LOCAL-01073" summary="angular">
+      <created>1598775722224</created>
+      <option name="number" value="01073" />
+      <option name="project" value="LOCAL" />
+      <updated>1598775722224</updated>
+    </task>
+    <option name="localTasksCounter" value="1074" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1826" y="23" width="1519" height="1027" extended-state="0" />
+    <frame x="-1729" y="53" width="1262" height="1027" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3046092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36774194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6073232" sideWeight="0.5324544" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35753575" sideWeight="0.46754563" order="9" side_tool="false" content_ui="tabs" />
@@ -582,7 +629,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30896226" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -606,7 +652,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="adding ads.txt" />
     <MESSAGE value="google ads" />
     <MESSAGE value="feature images" />
     <MESSAGE value="SEO Title" />
@@ -631,52 +676,14 @@
     <MESSAGE value="bean scope" />
     <MESSAGE value="refactor name" />
     <MESSAGE value="database" />
-    <option name="LAST_COMMIT_MESSAGE" value="database" />
+    <MESSAGE value="angular" />
+    <option name="LAST_COMMIT_MESSAGE" value="angular" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2021-07-15-angular-webservice.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.07281554">
-            <caret line="4" column="21" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-04-24-spring-webservice.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="-1.5121359">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-06-03-angular-abootstrap.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.81796116">
-            <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="228" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-04-16-spring-onetomany.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1155,6 +1162,37 @@
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/angular/angular-home.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-06-10-angular-abootstrap.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="228" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-06-04-angular-component.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.3272727">
+            <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>

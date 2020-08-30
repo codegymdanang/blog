@@ -106,25 +106,50 @@ number_expression | number[:digitInfo]
 - number_expression : số mà mình cần format
 - number tên pipe
 
+
+# **6. PercentePipe**
+
+Định dạnh số theo phần trăm
+
+{% highlight js linenos %}
+
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+ 
+@Component({
+    selector: 'app-root',
+    template:'<p>Unformatted :{{per}} </p>
+              <p>Example 1 :{{per | percent }} </p>
+              <p>Example 2 :{{per | percent:'1.2-2'}} </p>'
+})
+export class AppComponent
+{
+    title: string = 'Angular pipes Example' ;
+    per: number= .7414;2';
+}
+
+{% endhighlight %} 
+
+# **7. CurrencyPipe**
+
+Định dạng để sử dụng cho tiền tệ như USD, hay VNĐ
+
 {% highlight js linenos %}
 
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 @Component({
     selector: 'app-root',
-    template: '<p> Unformatted :{{num}}</p>
-               <p> Formatted :{{num | number}}</p>
-               <p> Formatted :{{num | number:'3.1-2'}}</p>
-               <p> Formatted :{{num | number:'7.1-5'}} </p>'
+    template: '<p>Unformatted :{{cur}} </p>
+               <p>Example 1 :{{cur | currency }} </p>
+               <p>Example 2 :{{cur | currency:'INR':true:'4.2-2'}} </p>'
 })
  
 export class AppComponent
 {
     title: string = 'Angular pipes Example' ;
-    num: number= 9542.14554;
+    cur: number= 175;
 }
 
 {% endhighlight %} 
-
-
 
