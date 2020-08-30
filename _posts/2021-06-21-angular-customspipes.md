@@ -115,12 +115,12 @@ import { AppComponent } from './app.component';
  
 import { TempConverterPipe } from './temp-convertor.pipe';
  
-@NgModule({
+@NgModule( {
     declarations: [AppComponent,TempConverterPipe],
     imports: [BrowserModule,FormsModule,HttpModule],
     bootstrap: [AppComponent]
-})
-export class AppModule { }
+} )
+export class AppModule {  }
 
 {% endhighlight %} 
 
