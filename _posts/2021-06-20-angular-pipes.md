@@ -119,7 +119,7 @@ import { FormsModule } from '@angular/forms';
  
 @Component({
     selector: 'app-root',
-    template:'<p>Unformatted :\{\{per\}\} </p>
+    template:'<p>Unformatted :{ { per } } </p>
               <p>Example 1 :\{\{per | percent \}\} </p>
               <p>Example 2 :\{\{per | percent:'1.2-2'\}\} </p>'
 })

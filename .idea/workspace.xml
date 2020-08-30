@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="angular">
+    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2021-06-20-angular-pipes.md" afterPath="$PROJECT_DIR$/_posts/2021-06-20-angular-pipes.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -318,72 +318,6 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-01025" summary="refactor name">
-      <created>1598427542864</created>
-      <option name="number" value="01025" />
-      <option name="project" value="LOCAL" />
-      <updated>1598427542864</updated>
-    </task>
-    <task id="LOCAL-01026" summary="refactor name">
-      <created>1598429097276</created>
-      <option name="number" value="01026" />
-      <option name="project" value="LOCAL" />
-      <updated>1598429097276</updated>
-    </task>
-    <task id="LOCAL-01027" summary="database">
-      <created>1598452929830</created>
-      <option name="number" value="01027" />
-      <option name="project" value="LOCAL" />
-      <updated>1598452929831</updated>
-    </task>
-    <task id="LOCAL-01028" summary="database">
-      <created>1598453131095</created>
-      <option name="number" value="01028" />
-      <option name="project" value="LOCAL" />
-      <updated>1598453131095</updated>
-    </task>
-    <task id="LOCAL-01029" summary="database">
-      <created>1598453338980</created>
-      <option name="number" value="01029" />
-      <option name="project" value="LOCAL" />
-      <updated>1598453338980</updated>
-    </task>
-    <task id="LOCAL-01030" summary="database">
-      <created>1598455962733</created>
-      <option name="number" value="01030" />
-      <option name="project" value="LOCAL" />
-      <updated>1598455962733</updated>
-    </task>
-    <task id="LOCAL-01031" summary="database">
-      <created>1598456081432</created>
-      <option name="number" value="01031" />
-      <option name="project" value="LOCAL" />
-      <updated>1598456081432</updated>
-    </task>
-    <task id="LOCAL-01032" summary="database">
-      <created>1598457495360</created>
-      <option name="number" value="01032" />
-      <option name="project" value="LOCAL" />
-      <updated>1598457495360</updated>
-    </task>
-    <task id="LOCAL-01033" summary="database">
-      <created>1598457614797</created>
-      <option name="number" value="01033" />
-      <option name="project" value="LOCAL" />
-      <updated>1598457614797</updated>
-    </task>
-    <task id="LOCAL-01034" summary="database">
-      <created>1598501582062</created>
-      <option name="number" value="01034" />
-      <option name="project" value="LOCAL" />
-      <updated>1598501582063</updated>
-    </task>
-    <task id="LOCAL-01035" summary="database">
-      <created>1598502143682</created>
-      <option name="number" value="01035" />
-      <option name="project" value="LOCAL" />
-      <updated>1598502143682</updated>
-    </task>
     <task id="LOCAL-01036" summary="database">
       <created>1598502499606</created>
       <option name="number" value="01036" />
@@ -612,7 +546,73 @@
       <option name="project" value="LOCAL" />
       <updated>1598775722224</updated>
     </task>
-    <option name="localTasksCounter" value="1074" />
+    <task id="LOCAL-01074" summary="angular">
+      <created>1598775837352</created>
+      <option name="number" value="01074" />
+      <option name="project" value="LOCAL" />
+      <updated>1598775837352</updated>
+    </task>
+    <task id="LOCAL-01075" summary="angular">
+      <created>1598775988369</created>
+      <option name="number" value="01075" />
+      <option name="project" value="LOCAL" />
+      <updated>1598775988369</updated>
+    </task>
+    <task id="LOCAL-01076" summary="angular">
+      <created>1598776297183</created>
+      <option name="number" value="01076" />
+      <option name="project" value="LOCAL" />
+      <updated>1598776297183</updated>
+    </task>
+    <task id="LOCAL-01077" summary="angular">
+      <created>1598776406809</created>
+      <option name="number" value="01077" />
+      <option name="project" value="LOCAL" />
+      <updated>1598776406809</updated>
+    </task>
+    <task id="LOCAL-01078" summary="angular">
+      <created>1598776489425</created>
+      <option name="number" value="01078" />
+      <option name="project" value="LOCAL" />
+      <updated>1598776489425</updated>
+    </task>
+    <task id="LOCAL-01079" summary="angular">
+      <created>1598776558922</created>
+      <option name="number" value="01079" />
+      <option name="project" value="LOCAL" />
+      <updated>1598776558922</updated>
+    </task>
+    <task id="LOCAL-01080" summary="angular">
+      <created>1598776660679</created>
+      <option name="number" value="01080" />
+      <option name="project" value="LOCAL" />
+      <updated>1598776660680</updated>
+    </task>
+    <task id="LOCAL-01081" summary="angular">
+      <created>1598776721793</created>
+      <option name="number" value="01081" />
+      <option name="project" value="LOCAL" />
+      <updated>1598776721793</updated>
+    </task>
+    <task id="LOCAL-01082" summary="angular">
+      <created>1598776775355</created>
+      <option name="number" value="01082" />
+      <option name="project" value="LOCAL" />
+      <updated>1598776775355</updated>
+    </task>
+    <task id="LOCAL-01083" summary="angular">
+      <created>1598776871910</created>
+      <option name="number" value="01083" />
+      <option name="project" value="LOCAL" />
+      <updated>1598776871910</updated>
+    </task>
+    <task id="LOCAL-01084" summary="angular">
+      <created>1598777049228</created>
+      <option name="number" value="01084" />
+      <option name="project" value="LOCAL" />
+      <updated>1598777049228</updated>
+    </task>
+    <option name="localTasksCounter" value="1085" />
     <servers />
   </component>
   <component name="ToolWindowManager">
