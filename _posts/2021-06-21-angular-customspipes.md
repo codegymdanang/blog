@@ -124,6 +124,35 @@ import {TempConverterPipe} from './temp-convertor.pipe';
 export class AppModule { }
 {% endhighlight %} 
 
+- Bước 4 : Sử dụng Pipe
+
+{% highlight html linenos %}
+
+<div class='card'>
+  <div class='card-header'>
+    <p>{{title}} </p>
+  </div>
+  <div class="card-body">
+ 
+    <div class="row">
+      <h3>Fahrenheit to Celsius </h3>
+    </div>
+    <div class="row">
+      <p> Fahrenheit : <input type="text" [(ngModel)]="Fahrenheit" /> 
+      Celsius : { { Fahrenheit | tempConverter:'C' } } </p>
+    </div>
+ 
+    <div class="row">
+      <h3>Celsius to Fahrenheit </h3>
+    </div>
+    <div class="row">
+      <p> celsius : <input type="text" [(ngModel)]="celcius" /> 
+       Fahrenheit : { { celcius | tempConverter:'F' } } </p>
+    </div>
+  </div>
+</div>
+
+{% endhighlight %} 
 
 
 
