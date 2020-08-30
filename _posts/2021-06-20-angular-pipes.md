@@ -106,33 +106,6 @@ number_expression | number[:digitInfo]
 - number_expression : số mà mình cần format
 - number tên pipe
 
-{% highlight js linenos %}
-
-import { Component, OnInit } from '@angular/core';
-@Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html'
-})
-export class AppComponent implements OnInit {
-  num1: number = 12.638467846;
-  num2: number = 0.5;
-  constructor() {
-
-  }
-
-}
-{% endhighlight %} 
-
-
-{% highlight js linenos %}
-<div>
-  <p> {{num1 | number}} </p>
-  <p> {{num1 | number:\'3.2-5\'}} </p>
-  <p> {{num2 | number:\'3.2-5\'}} </p>
-  <p> {{num1 * num2 | number:\'1.3-6\'}} </p>
-</div>
-{% endhighlight %} 
-
 # **6. PercentePipe**
 
 Định dạnh số theo phần trăm
