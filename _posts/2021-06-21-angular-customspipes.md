@@ -25,7 +25,7 @@ Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiểu th�
 
 Cú pháp
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 
 import { Pipe, PipeTransform } from '@angular/core';
  
@@ -51,7 +51,7 @@ export class TempConverterPipe implements PipeTransform {
 
 Đầu tiên chúng ta import thư viện Pipe vào 
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 
 import { Pipe, PipeTransform } from '@angular/core';
 
@@ -59,7 +59,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 Tiếp theo ta định nghĩa annotation pipe và đặt tiên là tempConverter
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 
 @pipe( {
     name: 'tempConverter'
@@ -69,7 +69,7 @@ Tiếp theo ta định nghĩa annotation pipe và đặt tiên là tempConverter
 
 Viết file converter nhiệt độ. File này sẽ implement PipeTransform
 
-{% highlight js linenos %}
+{% highlight javascript linenos %}
 
 @pipe( {
     name: 'tempConverter'
@@ -82,7 +82,8 @@ export class TempConverterPipe implements PipeTransform {
 
 - Bước 2 : Viết lại nghiệp vụ coverter trong method transform của PipeTransform
 
-{% endhighlight %} 
+
+{% highlight javascript linenos %}
 
 export class TempConverterPipe implements PipeTransform {
  
@@ -104,28 +105,25 @@ export class TempConverterPipe implements PipeTransform {
 
 - Bước 3 : Khai báo TempConverterPipe trong AppModule
 
-{% highlight html  linenos %}
+{% highlight javascript linenos %}
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
- 
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
  
 import { AppComponent } from './app.component';
-import {CustomerComponent} from './customer-list.component';
+ 
+import {TempConverterPipe} from './temp-convertor.pipe';
  
 @NgModule({
-  declarations: [
-    AppComponent, CustomerComponent
-  ],
-  imports: [
-    BrowserModule,NgbModule.forRoot()
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [AppComponent,TempConverterPipe],
+    imports: [BrowserModule,FormsModule,HttpModule],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
 {% endhighlight %} 
+
 
 
 
