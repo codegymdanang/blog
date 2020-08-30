@@ -70,5 +70,28 @@ export class AppComponent
  
 {% endhighlight %} 
 
+# **4. SlicePipe**
+
+Dùng để cắt một chuổi từ vị trí muốn cắt đến vị trí kết thúc
+
+{% highlight js linenos %}
+
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+@Component({
+    selector: 'app-root',
+    template:'<p>Complete String :{{msg}} </p>
+              <p>Example 1 :{{msg | slice:11:20}} </p>
+              <p>Example 2 :{{msg | slice:-9}} </p>'
+})
+ 
+export class AppComponent
+{
+    title: string = 'Angular pipes Example' ;
+    msg: string= 'Welcome to Angular ';
+}
+
+{% endhighlight %} 
+
 
 
