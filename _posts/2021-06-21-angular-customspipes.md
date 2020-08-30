@@ -14,7 +14,7 @@ youtubeId: 0734nF0B_BM
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Customs Pipes</b> là như thế nào? 
 
-# **1. Pipes là gì**
+# **1. Custom Pipes là gì**
 
 Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiểu thị trên webiste. Ngoài các kiểu có sẳn định dạng cho ngày, tiền tệ, số thì ta có thể tự viết một pipe riêng.
 
@@ -27,11 +27,11 @@ Cú pháp
 
 {% highlight js linenos %}
 
-import {Pipe, PipeTransform} from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core';
  
-@pipe({
+@pipe( {
     name: 'tempConverter'
-})
+} )
 export class TempConverterPipe implements PipeTransform {
     transform(value: number, unit: string) {
         if(value && !isNaN(value)) {
@@ -53,7 +53,7 @@ export class TempConverterPipe implements PipeTransform {
 
 {% highlight js linenos %}
 
-import {Pipe, PipeTransform} from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core';
 
 {% endhighlight %} 
 
@@ -61,9 +61,9 @@ Tiếp theo ta định nghĩa annotation pipe và đặt tiên là tempConverter
 
 {% highlight js linenos %}
 
-@pipe({
+@pipe( {
     name: 'tempConverter'
-})
+} )
 
 {% endhighlight %} 
 
@@ -71,9 +71,9 @@ Viết file converter nhiệt độ. File này sẽ implement PipeTransform
 
 {% highlight js linenos %}
 
-@pipe({
+@pipe( {
     name: 'tempConverter'
-})
+} )
 export class TempConverterPipe implements PipeTransform {
  
  
@@ -153,7 +153,7 @@ export class AppModule { }
 
 {% endhighlight %} 
 
-Ta thấy custom Pipe ở dòng { { Fahrenheit | tempConverter:'C' } }
+
 
 
 
