@@ -34,8 +34,6 @@ date_expression | date[:format]
 - date_expression là đối tượng ngày hoặc là một kiểu số
 - data : tên của pipe sẽ được dùng để định dạng dữ liệu
 
-Ví dụ
-
 {% highlight js linenos %}
 
 <h3>Using Date Pipe </h3>
