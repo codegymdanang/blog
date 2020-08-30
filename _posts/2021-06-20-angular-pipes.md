@@ -93,5 +93,38 @@ export class AppComponent
 
 {% endhighlight %} 
 
+# **5. DecimalPipe và NumberPipe**
+
+Dùng để format cho kiểu số và kiểu thập phân. Với cú pháp như sau
+
+{% highlight js linenos %}
+
+number_expression | number[:digitInfo]
+
+{% endhighlight %} 
+
+- number_expression : số mà mình cần format
+- number tên pipe
+
+{% highlight js linenos %}
+
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+@Component({
+    selector: 'app-root',
+    template: '<p> Unformatted :{{num}}</p>
+               <p> Formatted :{{num | number}}</p>
+               <p> Formatted :{{num | number:'3.1-2'}}</p>
+               <p> Formatted :{{num | number:'7.1-5'}} </p>'
+})
+ 
+export class AppComponent
+{
+    title: string = 'Angular pipes Example' ;
+    num: number= 9542.14554;
+}
+
+{% endhighlight %} 
+
 
 
