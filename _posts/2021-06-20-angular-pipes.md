@@ -47,5 +47,28 @@ Ví dụ
 - Không có pipe ta sẽ nhận được là : Sun May 24 2020 19:30:12 GMT +0720 (Hong Kong)
 - Có pipe thì sẽ được hiển thị là : May 24 2020
 
+# **3. UpperCasePipe & LowerCasePipe**
+
+Được sử dụng để viết hoa toàn bộ hoặc viết thường toàn bộ dữ liệu . Ví dụ như sau
+
+{% highlight js linenos %}
+
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+ 
+@Component({
+    selector: 'app-root',
+    template:'<p>Unformatted :{{msg}} </p>
+              <p>Uppercase :{{msg | uppercase}} </p>
+              <p>Lowercase :{{msg | lowercase}} </p>'
+})
+export class AppComponent
+{
+    title: string = 'Angular pipes Example' ;
+    msg: string= 'Welcome to Angular';
+}
+ 
+{% endhighlight %} 
+
 
 
