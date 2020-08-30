@@ -35,8 +35,8 @@ Ví dụ
 {% highlight js linenos %}
 
 <h3>Using Date Pipe </h3>
-<p>Unformatted date : {{toDate }} </p>     //Without pipe
-<p>Formatted date : {{toDate | date}} </p>   //With Date Pipe
+<p>Unformatted date :  </p>     //Without pipe
+<p>Formatted date :  </p>   //With Date Pipe
 
 {% endhighlight %} 
 
