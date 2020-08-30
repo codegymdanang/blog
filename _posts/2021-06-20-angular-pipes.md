@@ -25,11 +25,7 @@ Sử dụng để định dạng lại kiểu ngày tháng trên website.
 
 Cú pháp
 
-{% highlight js linenos %}
 
-date_expression | date[:format]
-
-{% endhighlight %} 
 
 - date_expression là đối tượng ngày hoặc là một kiểu số
 - data : tên của pipe sẽ được dùng để định dạng dữ liệu
