@@ -25,7 +25,11 @@ Sử dụng để định dạng lại kiểu ngày tháng trên website.
 
 Cú pháp
 
+{% highlight js linenos %}
 
+date_expression | date[:format]
+
+{% endhighlight %} 
 
 - date_expression là đối tượng ngày hoặc là một kiểu số
 - data : tên của pipe sẽ được dùng để định dạng dữ liệu
@@ -35,8 +39,8 @@ Ví dụ
 {% highlight js linenos %}
 
 <h3>Using Date Pipe </h3>
-<p>Unformatted date :  </p>     //Without pipe
-<p>Formatted date :  </p>   //With Date Pipe
+<p>Unformatted date : \{\{toDate \}\} </p>     //Without pipe
+<p>Formatted date : \{\{toDate | date\}\} </p>   //With Date Pipe
 
 {% endhighlight %} 
 
