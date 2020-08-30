@@ -34,7 +34,7 @@ Cú pháp của ngSwitch như sau
 {% endhighlight %}
 
 
-# **1. Ví dụ NgSwitch**
+# **2. Ví dụ NgSwitch**
 
 Ví dụ ta làm một ứng dụng web. Khi người dùng nhập vào số 1 ta in ra tiếng Anh là One, 2 là Two, 3 là Three , 4 là Four, 5 là Five. Nếu nhập vào số 8 thì sẽ hiện thì giá trị mặt định vì số 8 không rơi vào trường hợp switchcase nào cả nên nó sẽ nhảy vô switch case default.
 
@@ -69,7 +69,16 @@ export class AppComponent
 </div>
 {% endhighlight %}
 
+# **3. Kiểm tra điều kiện bằng trong ngSwitch**
 
+Trong ngSwitch nếu ta nhập chuỗi rỗng nó sẽ tương ứng với giá trị 0. Ví dụ dưới đây nếu ta không nhập giá trị gì cho biên num. Thì mặc định giá trị num sẽ là 0 và rơi vào trường hợp ngSwitchCase="0"
 
+{% highlight html  linenos %}
 
-
+<div [ngSwitch]="num">
+      <div *ngSwitchCase="0">Zero is Selected</div>
+      <div *ngSwitchCase="1">One is Selected</div>
+      <div *ngSwitchCase="2">Two is Selected</div>
+      <div *ngSwitchDefault>This is Default 2</div>
+    </div>
+{% endhighlight %}
