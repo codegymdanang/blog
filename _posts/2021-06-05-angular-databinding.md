@@ -47,11 +47,10 @@ export class AppComponent {
 
 Như vậy dữ liệu trong component này có là firstName và lastName. Ta hiển thị bên View như sau
 
-{% highlight html  linenos %}
 
-Welcome,  \{\{firstName\}\} \{\{lastName\}\}
 
-{% endhighlight %}
+Welcome, {{firstName}} {{lastName}}
+
 
 - Ngược lại nếu từ View truyền dữ liệu về component thì ta dùng Property binding như sau [binding-target]=”binding-source”
 

@@ -34,6 +34,8 @@ ng new childComponent
 
 Chúng ta tạo file model định nghĩa cấu trúc dữ liệu về một khách hàng. Đối tượng này sẽ được sử dụng trong file Class Component.
 
+{% highlight javascript  linenos %}
+
 export class Customer {
  
   customerNo: number;
@@ -44,6 +46,7 @@ export class Customer {
   country:string;
  
 }
+{% endhighlight %}
 
 Chúng ta sử dụng từ khoá export để các component khác có thể sử dụng được class component khách hàng của chúng ta. Nếu không có Angular sẽ báo lỗi khi sử dụng component khách hàng.
 
