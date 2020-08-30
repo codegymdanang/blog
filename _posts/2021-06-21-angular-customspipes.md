@@ -80,50 +80,7 @@ export class TempConverterPipe implements PipeTransform {
 }
 {% endhighlight %} 
 
-- Bước 2 : Viết lại nghiệp vụ coverter trong method transform của PipeTransform
 
-{% endhighlight %} 
-
-export class TempConverterPipe implements PipeTransform {
- 
-    transform(value: number, unit: string) {
-        if(value && !isNaN(value)) {
-            if (unit === 'C') {
-               var temperature = (value - 32) /1.8 ;
-               return temperature.toFixed(2);
-            } else if (unit === 'F'){
-               var temperature = (value * 1.8 ) + 32
-               return temperature.toFixed(2);
-            }
-        }
-        return;
-    }
- 
-}
-{% endhighlight %} 
-
-- Bước 3 : Khai báo TempConverterPipe trong AppModule
-
-{% highlight js linenos %}
-
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
- 
-import { AppComponent } from './app.component';
- 
-import {TempConverterPipe} from './temp-convertor.pipe';
- 
-@NgModule({
-    declarations: [AppComponent,TempConverterPipe],
-    imports: [BrowserModule,FormsModule,HttpModule],
-    bootstrap: [AppComponent]
-})
-export class AppModule { }
-{% endhighlight %} 
-
-- Bước 4 : Sử dụng Pipe
 
 
 
