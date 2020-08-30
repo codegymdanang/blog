@@ -82,7 +82,7 @@ Trong component con chúng ta định nghĩa sự kiện countChange là loại 
 
 {% endhighlight %}
 
-Cuối cùng để bắn sự kiện lên cho component cha biết chúng ta sử dụng method emit
+Cuối cùng component con phát sinh sự kiện lên cho cha thông qua phương thức emit
 
 {% highlight javascript linenos %}
 
