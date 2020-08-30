@@ -18,30 +18,3 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>
 
 Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiểu thị trên webiste. Ví dụ như kiểu ngày tháng chúng ta muốn hiển thị theo kiểu MM-DD-YYYY (01-01-1983) cho người dùng.
 
-
-# **2. Date Pipes là gì**
-
-Sử dụng để định dạng lại kiểu ngày tháng trên website.
-
-Cú pháp
-
-{% highlight js linenos %}
-
-date_expression | date[:format]
-
-{% endhighlight %} 
-
-- date_expression là đối tượng ngày hoặc là một kiểu số
-- data : tên của pipe sẽ được dùng để định dạng dữ liệu
-
-Ví dụ
-
-{% highlight js linenos %}
-
-<h3>Using Date Pipe </h3>
-<p>Unformatted date : {{toDate }} </p>     //Without pipe
-<p>Formatted date : {{toDate | date}} </p>   //With Date Pipe
-
-{% endhighlight %} 
-
-
