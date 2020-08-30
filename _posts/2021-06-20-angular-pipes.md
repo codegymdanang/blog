@@ -39,8 +39,8 @@ Ví dụ
 {% highlight js linenos %}
 
 <h3>Using Date Pipe </h3>
-<p>Unformatted date : \{\{toDate \}\} </p>     //Without pipe
-<p>Formatted date : \{\{toDate | date\}\} </p>   //With Date Pipe
+<p>Unformatted date : { { toDate } } </p>     //Without pipe
+<p>Formatted date :  { {toDate | date } } </p>   //With Date Pipe
 
 {% endhighlight %} 
 
@@ -58,9 +58,9 @@ import { FormsModule } from '@angular/forms';
  
 @Component({
     selector: 'app-root',
-    template:'<p>Unformatted :\{\{msg\}\} </p>
-              <p>Uppercase :\{\{msg | uppercase\}\} </p>
-              <p>Lowercase :\{\{msg | lowercase\}\} </p>'
+    template:'<p>Unformatted : { { msg } } </p>
+              <p>Uppercase : { { msg | uppercase } } </p>
+              <p>Lowercase : { {msg | lowercase } } </p>'
 })
 export class AppComponent
 {
@@ -80,9 +80,9 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 @Component({
     selector: 'app-root',
-    template:'<p>Complete String :\{\{msg\}\} </p>
-              <p>Example 1 :\{\{msg | slice:11:20\}\} </p>
-              <p>Example 2 :\{\{msg | slice:-9\}\} </p>'
+    template:'<p>Complete String :{ { msg } } </p>
+              <p>Example 1 : { {msg | slice:11:20 } } </p>
+              <p>Example 2 : { {msg | slice:-9 } } </p>'
 })
  
 export class AppComponent
@@ -120,8 +120,8 @@ import { FormsModule } from '@angular/forms';
 @Component({
     selector: 'app-root',
     template:'<p>Unformatted :{ { per } } </p>
-              <p>Example 1 :\{\{per | percent \}\} </p>
-              <p>Example 2 :\{\{per | percent:'1.2-2'\}\} </p>'
+              <p>Example 1 : { {per | percent  } } </p>
+              <p>Example 2 : { {per | percent:'1.2-2' } } </p>'
 })
 export class AppComponent
 {
@@ -141,9 +141,9 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 @Component({
     selector: 'app-root',
-    template: '<p>Unformatted :\{\{cur\}\} </p>
-               <p>Example 1 :\{\{cur | currency \}\} </p>
-               <p>Example 2 :\{\{cur | currency:'INR':true:'4.2-2'\}\} </p>'
+    template: '<p>Unformatted :{ { cur } } </p>
+               <p>Example 1 :{ {cur | currency } } </p>
+               <p>Example 2 :{ {cur | currency:'INR':true:'4.2-2' } } </p>'
 })
  
 export class AppComponent
