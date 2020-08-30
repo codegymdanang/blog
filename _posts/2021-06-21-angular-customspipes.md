@@ -104,24 +104,27 @@ export class TempConverterPipe implements PipeTransform {
 
 - Bước 3 : Khai báo TempConverterPipe trong AppModule
 
-{% highlight html linenos %}
+{% highlight html  linenos %}
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+ 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
  
 import { AppComponent } from './app.component';
+import {CustomerComponent} from './customer-list.component';
  
-import { TempConverterPipe } from './temp-convertor.pipe';
- 
-@NgModule( {
-    declarations: [AppComponent,TempConverterPipe],
-    imports: [BrowserModule,FormsModule,HttpModule],
-    bootstrap: [AppComponent]
-} )
-export class AppModule {  }
-
+@NgModule({
+  declarations: [
+    AppComponent, CustomerComponent
+  ],
+  imports: [
+    BrowserModule,NgbModule.forRoot()
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
 {% endhighlight %} 
 
 
