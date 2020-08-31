@@ -18,7 +18,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách gọi <b>
 
 Khi mình gọi webservice bên ngoài, thì có nhiều webservice yêu cầu mình thêm dữ liệu trong body để truyền lên cho webservice. Để làm được việc này ta dùng đối tượng Http Param để truyền thêm giá trị.
 
-{% highlight json linenos %}
+{% highlight javascript linenos %}
 
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
@@ -52,7 +52,7 @@ export class GitHubService {
 
 - Chúng ta truyền param như sau
 
-{% highlight json linenos %}
+{% highlight javascript linenos %}
 
 this.httpClient.get<repos[]>(this.baseURL + 'users/' + userName + '/repos', {params})
 
@@ -60,7 +60,7 @@ this.httpClient.get<repos[]>(this.baseURL + 'users/' + userName + '/repos', {par
 
 # **2. Truyền giá trị trên http header gọi webservice**
 
-{% highlight json linenos %}
+{% highlight javascript linenos %}
 
 getPeopleWithHeaders(): Observable<Person[]> {
     const headers = { 'content-type': 'application/json'}  
@@ -73,7 +73,7 @@ getPeopleWithHeaders(): Observable<Person[]> {
 
 Chúng ta sử dụng tham số withCredentials=true cho request để gửi cookie
 
-{% highlight json linenos %}
+{% highlight javascript linenos %}
 
 getReposWithCookies(userName: string): Observable<repos[]> {
  
@@ -103,7 +103,7 @@ getReposWithCookies(userName: string): Observable<repos[]> {
 
 # **4. Bắt Errors ở Component**
 
-{% highlight json linenos %}
+{% highlight javascript linenos %}
 
 Trong trường hợp gọi webservice sẽ xảy ra tình trạng là webservice bị lỗi. Thì chúng ta có bắt lại lỗi đó
 
@@ -129,7 +129,7 @@ public getRepos() {
 
 hàm subscribe cung cấp cho chúng ta 3 tham số callbacks.
 
-{% highlight json linenos %}
+{% highlight javascript linenos %}
 
 .subscribe(success, error, completed);
 
@@ -137,7 +137,7 @@ hàm subscribe cung cấp cho chúng ta 3 tham số callbacks.
 
 Trong trường hợp lỗi chúng ta sẽ xử lý trong hàm error
 
-{% endhighlight %}
+{% highlight javascript linenos %}
 
 (error) => {                              //Error callback
           console.error('error caught in component')
@@ -151,7 +151,7 @@ Trong trường hợp lỗi chúng ta sẽ xử lý trong hàm error
 
 Ngoài bắt lỗi ở Component chúng ta có thực hiện bắt lỗi ở Service. Chúng ta sử dụng hàm catchError.
 
-{% endhighlight %}
+{% highlight javascript linenos %}
 
 getRepos(userName: string): Observable<repos[]> {
     return this.http.get<repos[]>(this.baseURL + 'usersY/' + userName + '/repos')
