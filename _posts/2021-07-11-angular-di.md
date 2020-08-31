@@ -59,7 +59,7 @@ Cách này có rất nhiều hạn chế mà anh nêu lên trong phần cuối c
 
 Có 5 thành phần chính trong Angular Dependency Injection Framework
 
-- Consumber : nơi mà nhúng service vào. Trong ví dụ của chúng ta là AppComponent
+- Consumer : nơi mà nhúng service vào. Trong ví dụ của chúng ta là AppComponent
 
 - Dependency : Những service được nhúng vào component
 
