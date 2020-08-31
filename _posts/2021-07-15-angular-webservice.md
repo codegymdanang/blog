@@ -1,10 +1,10 @@
 ---
 layout: course-angular
 title: Gọi webservice trong Angular
-slug : angular-webservice
+slug : angular-call-webservice
 category: laptrinhweb
 tags: [angular]
-summery: Webservice
+summery: Angular gọi Webservice
 image: /images/blog/angular.png
 description : Hướng dẫn gọi webservice trong dự án Angular. Hiểu được cách gọi web service trong dự án angular. Hiểu được mục đích của thư viện HTTP Client được sử dụng như thế nào để gọi các webservices.
 youtubeId: edYsCowgQq0
