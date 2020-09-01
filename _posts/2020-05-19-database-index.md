@@ -7,7 +7,7 @@ tags: [database]
 summery: Index    
 image: /images/blog/database.png
 description : Chuẩn hoá dữ liệu là gì? Hiểu các quy luật 1NF, 2NF, 3NF, 4NF và BCNF. Hướng dẫn cách xây dựng một database chuẩn hoá dữ liệu, tìm hiểu các kỷ thuật chuẩn hoá database.
-youtubeId: mxYQUIMJ5Aw
+youtubeId: saZr66o5zNw
 ---
 
 # **Giới thiệu nội dung bài viết**
