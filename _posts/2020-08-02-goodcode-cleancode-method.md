@@ -1,9 +1,9 @@
 ---
-layout: course-cleancode
+layout: course-goodcode
 title: Clean Code Về Method
 slug : clean-code-method
 category: craftmanship
-tags: [cleancode]
+tags: [goodcode]
 summery: Method
 image: /images/blog/quality-code.png
 description : Clean Code Method trong lập trình lập trình. Hiều clean code là gì, hướng dẫn cách sử dụng method đúng trong học lập trình.

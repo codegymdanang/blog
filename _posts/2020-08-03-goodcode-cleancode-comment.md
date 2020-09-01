@@ -1,9 +1,9 @@
 ---
-layout: course-cleancode
+layout: course-goodcode
 title: Clean Code Về Comment
 slug : clean-code-comment
 category: craftmanship
-tags: [cleancode]
+tags: [goodcode]
 summery: Comment
 image: /images/blog/quality-code.png
 description : Clean Code Comment trong lập trình lập trình. Hiều clean code là gì, hướng dẫn cách sử dụng method đúng trong học lập trình.

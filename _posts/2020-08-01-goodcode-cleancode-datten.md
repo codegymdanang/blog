@@ -1,9 +1,9 @@
 ---
-layout: course-cleancode
+layout: course-goodcode
 title: Clean Code cách đặt tên trong lập trình
 slug : clean-code-dat-ten
 category: craftmanship
-tags: [cleancode]
+tags: [goodcode]
 summery: Qui tắc đặt tên
 image: /images/blog/quality-code.png
 description : Clean Code cách đặt tên trong lập trình lập trình. Hiều clean code là gì, hướng dẫn cách đặt tên đúng trong học lập trình.
