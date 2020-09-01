@@ -6,7 +6,7 @@ category: laptrinhspring
 tags: [spring-web]
 summery: Session và Cookie
 image: /images/blog/spring.png
-featureImage: /images/post/javacore/feature_springvalidation.png
+featureImage: /images/post/javacore/feature_sessioncookie.png
 description : Sử dụng Session và Cookie trong lập trình Spring. Hướng dẫn cách Session và Cookie trong lập trình các dự án về Spring.
 youtubeId: ljyqbIo4jbk
 ---
