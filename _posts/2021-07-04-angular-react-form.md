@@ -226,7 +226,7 @@ contactForm = new FormGroup({
 
 - Chúng ta sử dụng trong template html như sau
 
-{% highlight javascript linenos %}
+{% highlight html linenos %}
 
 <div formGroupName="address">
   
@@ -249,4 +249,110 @@ contactForm = new FormGroup({
 
 {% endhighlight %}
 
+# **5. Sử dụng FormArray**
 
+Ta có lớp component class sau app.component.ts
+
+{% highlight html linenos %}
+
+import { Component, ViewChild, ElementRef } from '@angular/core';
+import { FormGroup, FormControl,FormArray, FormBuilder } from '@angular/forms'
+ 
+ 
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent  {
+  
+  title = 'FormArray Example in Angular Reactive forms';
+ 
+  skillsForm: FormGroup;
+ 
+  constructor(private fb:FormBuilder) {
+ 
+    this.skillsForm = this.fb.group({
+      name: '',
+      skills: this.fb.array([]) ,
+    });
+  
+  }
+ 
+  get skills() : FormArray {
+    return this.skillsForm.get("skills") as FormArray
+  }
+ 
+  newSkill(): FormGroup {
+    return this.fb.group({
+      skill: '',
+      exp: '',
+    })
+  }
+ 
+  addSkills() {
+    this.skills.push(this.newSkill());
+  }
+ 
+  removeSkill(i:number) {
+    this.skills.removeAt(i);
+  }
+ 
+  onSubmit() {
+    console.log(this.skillsForm.value);
+  }
+ 
+}
+ 
+ 
+export class country {
+  id: string;
+  name: string;
+ 
+  constructor(id: string, name: string) {
+    this.id = id;
+    this.name = name;
+  }
+}
+{% endhighlight %}
+
+Ta có lớp template html sau app.component.html
+
+{% highlight html linenos %}
+
+<form [formGroup]="skillsForm" (ngSubmit)="onSubmit()">
+ 
+  <p>
+    <label for="name">Name </label>
+    <input type="text" id="name" name="name" formControlName="name">
+  </p>
+ 
+ 
+  Skills:
+  <div formArrayName="skills">
+    <div *ngFor="let skill of skills().controls; let i=index">
+      <div [formGroupName]="i">
+        {{i}}
+        skill name :
+        <input type="text" formControlName="skill">
+        exp:
+        <input type="text" formControlName="exp">
+ 
+        <button (click)="removeSkill(i)">Remove</button>
+      </div>
+    </div>
+  </div>
+ 
+  <p>
+    <button type="submit">Submit</button>
+  </p>
+ 
+</form>
+ 
+ 
+<p>
+  <button type="button" (click)="addSkills()">Add</button>
+</p>
+ 
+
+{% endhighlight %}
