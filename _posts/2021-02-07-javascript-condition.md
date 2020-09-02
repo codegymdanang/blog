@@ -21,7 +21,7 @@ Javascript cung cấp cho chúng ta các câu điều kiện để quản lý lu
 
 # **2. Câu điều kiện If**
 
-Chúng ta sử dụng câu điều kiện If nếu chúng ta muốn thực hiện các đoạn code dựa trên điều kiện ta đưa vào có thoả mản hay không.
+Chúng ta sử dụng câu điều kiện If nếu chúng ta muốn thực hiện các đoạn code dựa trên điều kiện ta đưa vào có thoả mãn hay không.
 
 - Cú pháp
 
@@ -167,6 +167,11 @@ switch (a) {
 }
 
 {% endhighlight %}
+
+- Chúng ta sử dụng break để thoát khỏi mệnh đề Switch.
+- Chúng ta có từ khoá default , nếu như không rơi vào case 1,2,3,4 thì trường hợp default sẽ chạy.
+
+
 
 
 
