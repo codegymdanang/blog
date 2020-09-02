@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
 title: Câu điều kiện trong Javascript  
-slug : javascript-function
+slug : javascript-condition
 category: laptrinhjavascript
 tags: [javascript]
 summery: Câu điều kiện   

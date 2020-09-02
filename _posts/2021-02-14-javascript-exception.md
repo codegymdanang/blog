@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
 title: Ngoại lệ trong Javascript  
-slug : javascript-loop
+slug : javascript-exception
 category: laptrinhjavascript
 tags: [javascript]
 summery: Ngoại lệ   

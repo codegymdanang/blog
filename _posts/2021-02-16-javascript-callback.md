@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
 title: Callback trong Javascript  
-slug : javascript-loop
+slug : javascript-callback
 category: laptrinhjavascript
 tags: [javascript]
 summery: Callback   

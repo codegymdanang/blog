@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
 title: Array trong Javascript  
-slug : javascript-variable
+slug : javascript-array
 category: laptrinhjavascript
 tags: [javascript]
 summery: Mảng   

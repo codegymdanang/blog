@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
 title: Kiểu dữ liệu trong Javascript  
-slug : javascript-variable
+slug : javascript-datatype
 category: laptrinhjavascript
 tags: [javascript]
 summery: Kiểu dữ liệu   

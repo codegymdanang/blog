@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
 title: Scope trong Javascript  
-slug : javascript-loop
+slug : javascript-scope
 category: laptrinhjavascript
 tags: [javascript]
 summery: Scope   
