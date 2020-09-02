@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
 title: Toán tử trong Javascript  
-slug : javascript-variable
+slug : javascript-operator
 category: laptrinhjavascript
 tags: [javascript]
 summery: Toán tử   
