@@ -8,7 +8,7 @@ summery: Session và Cookie
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_sessioncookie.png
 description : Sử dụng Session và Cookie trong lập trình Spring. Hướng dẫn cách Session và Cookie trong lập trình các dự án về Spring.
-youtubeId: ljyqbIo4jbk
+youtubeId: ym4-rU9R6fM
 ---
 
 # **Giới thiệu nội dung bài viết**
