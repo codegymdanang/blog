@@ -1,10 +1,10 @@
 ---
 layout: course-javascript
 title: Debug lỗi trong Javascript  
-slug : Debug
+slug : javascript-debug
 category: laptrinhjavascript
 tags: [javascript]
-summery: Vòng lặp   
+summery: Debug   
 image: /images/blog/feature_javascript.png
 description : Giới thiệu về Debug trong Javascrip, cách hoạt động của Debug trong Javascript
 youtubeId: vluehE10qAg
@@ -22,5 +22,7 @@ Trong video này anh có hướng dẫn phần frontend và backend. Các em ch�
 <br>
 ### Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
 
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
