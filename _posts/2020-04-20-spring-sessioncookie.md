@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
 title: Session và Cookie
-slug : spring-validation
+slug : spring-session-cookie 
 category: laptrinhspring
 tags: [spring-web]
 summery: Session và Cookie

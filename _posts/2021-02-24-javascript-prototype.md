@@ -70,6 +70,8 @@ alert(studObj2.age); // 15
 
 {% endhighlight %}
 
+Như vậy các em thấy ta có dòng Student.prototype.age = 15; để thêm giá trị age cho tất cả các đối tượng là Student. Bây giờ studObj2 không bị lỗi giống như ví dụ 1.
+
 
 
 
