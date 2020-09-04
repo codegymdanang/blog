@@ -61,7 +61,7 @@ letDeclaration();
 
 {% endhighlight %}
 
-Như ta thấy dòng lệnh  console.log(num3); sẽ bị lỗi vì num3 phạm vi của nó chỉ hoặt động trong khối lệnh if mà thôi
+Như ta thấy dòng lệnh  console.log(num3); sẽ bị lỗi vì num3 phạm vi của nó chỉ hoặt động trong khối lệnh if mà thôi, ra ngoài khối lệnh if sẽ không còn tồn tại
 
 {% highlight javascript  linenos %}
 
@@ -71,7 +71,7 @@ Như ta thấy dòng lệnh  console.log(num3); sẽ bị lỗi vì num3 phạm 
     } 
 {% endhighlight %}
 
-Cũng giống như console.log(num4). Giá trị num4 chỉ có tác dụng trong khối lệnh while mà thôi. Ra ngoài khối lệnh while thì không còn tác dụng
+Tương tự như vậy cho console.log(num4). Giá trị num4 chỉ có tác dụng trong khối lệnh while mà thôi. Ra ngoài khối lệnh while thì không còn tác dụng
 
 # **2. Lợi thế của let hơn var là gì**
 
