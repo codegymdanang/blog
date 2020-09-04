@@ -104,11 +104,27 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
   + Modelbox là gì ?
   + Reponsive là gì ? Làm sao để làm được Reponsive.
 
-5. Các câu hỏi đánh giá khả năng học
+5. Kiến thức về Angular
+  + Cơ chế hoạt động của Angular
+  + Component là gì?
+  + Databinding là gì?
+  + Directive là gì?
+  + Pipes làm gì?
+  + Vòng đời của một component?
+  + Truyền data từ cha sang con như thế nào
+  + Truyền data từ con lên cha
+  + Teamplate form và react form khác nhau như thế nào
+  + Validation trong Angular là gì?
+  + Dependency Injection là gì?
+  + HTTP CLient là gì ?
+  + Promise là gì cho ví dụ?
+  + Mô tả Router là gì?
+
+6. Các câu hỏi đánh giá khả năng học
 
 Ở câu hỏi này anh thường hỏi ngoài các công nghệ mà các em học ở trường, các em có biết thêm những công nghệ mới không. Ví dụ như các em trả lời là có học thêm các công nghệ mới như Angular , ReactJS, hoăc VuejS hay nói đang nghiên cứu các công nghệ 4.0 (Blockchain, AL , Big data). Dù các em chưa làm nhưng sẽ được các anh/chị đánh giá rất cao mình khả năng học hỏi của mình. Đó chính là điểm cộng mà mình hơn các ứng viên khác.
 
-6. Các câu hỏi về tư duy logic
+7. Các câu hỏi về tư duy logic
 
 Ở đây thông thường các anh/chị đưa ra một vấn đề sau đó hỏi các em cách giải quyết như thế nào. Có thể câu trả lời không đúng 100% nhưng có ý gần đúng cũng như là đã okie.
 
