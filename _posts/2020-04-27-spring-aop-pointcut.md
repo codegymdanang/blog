@@ -4,7 +4,7 @@ title: Sử dụng Spring AOP Pointcut
 slug : spring-aop-pointcut
 category: laptrinhspring
 tags: [spring-web]
-summery:AOP Pointcut
+summery: AOP Pointcut
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springaop.png
 description : Sử dụng AOP Pointcut trong lập trình spring. Hiểu cơ chế hoạt động của AOP Pointcut thông qua các  ví dụ thực tế.
