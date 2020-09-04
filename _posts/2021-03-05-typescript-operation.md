@@ -1,22 +1,22 @@
 ---
-layout: course-javascript
-title: Toán tử trong Javascript  
-slug : javascript-operator
+layout: course-typescript
+title: Sử dụng toán tử trong Typescript  
+slug : typescript-operator
 category: laptrinhjavascript
-tags: [javascript]
+tags: [typescript]
 summery: Toán tử   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về toán tử trong Javascrip, cách hoạt động của toán tử trong Javascript
+description : Giới thiệu về toán tử trong Typescrip, cách hoạt động của toán tử trong Typescrip
 youtubeId: Ex3glZTCvlY
 ---
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>toán tử</b>là như thế nào?
+Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>toán tử</b> là như thế nào? 
 
 # **1. Toán tử là gì**
 
-Trong JavaScript hỗ trợ các phép tính toán học, so sánh, logic và điều kiện giúp cho chúng ta thực hiện các tính toán.
+Trong Typescrypt cũng hỗ trợ các phép tính toán học, so sánh, logic,phép gán, bitwise và điều kiện giúp cho chúng ta thực hiện các tính toán và so sánh.
 
 # **2. Toán tử số số học**
 
@@ -118,6 +118,66 @@ var a = 10, b = 5;
 var c = a > b? a : b; // value of c would be 10
 var d = a > b? b : a; // value of d would be 5
 {% endhighlight %}
+
+# **7. Toán tử type**
+
+- Toán tử in 
+
+{% highlight javascript  linenos %}
+
+let Bike = {make: 'Honda', model: 'CLIQ', year: 2018};
+console.log('make' in Bike);   // 
+
+{% endhighlight %}
+
+kết quả : true
+
+- Toán tử delete 
+
+{% highlight javascript  linenos %}
+
+let Bike = { Company1: 'Honda',
+             Company2: 'Hero',
+             Company3: 'Royal Enfield'
+           };
+delete Bike.Company1;
+console.log(Bike);   
+
+{% endhighlight %}
+
+kết quả : { Company2: 'Hero', Company3: 'Royal Enfield' }
+
+- Toán tử typeof 
+
+{% highlight javascript  linenos %}
+
+let message = "Welcome to " + "JavaTpoint";
+console.log(typeof message);  
+
+{% endhighlight %}
+
+kết quả : String
+
+- Toán tử instanceof 
+
+{% highlight javascript  linenos %}
+
+let arr = [1, 2, 3];
+console.log( arr instanceof Array ); // true
+console.log( arr instanceof String ); // false  
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

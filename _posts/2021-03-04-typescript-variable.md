@@ -1,6 +1,6 @@
 ---
 layout: course-typescript
-title: Sử dụng biên trong Typescript  
+title: Sử dụng biến trong Typescript  
 slug : typescript-variable
 category: laptrinhjavascript
 tags: [typescript]
