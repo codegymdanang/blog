@@ -1,5 +1,5 @@
 ---
-layout: course-javascript
+layout: course-typescript
 title: Sử dụng Array trong Typescript  
 slug : typescript-array
 category: laptrinhjavascript

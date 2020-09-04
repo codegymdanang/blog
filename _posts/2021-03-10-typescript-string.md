@@ -1,5 +1,5 @@
 ---
-layout: course-javascript
+layout: course-typescript
 title: Sử dụng String trong Typescript  
 slug : typescript-string
 category: laptrinhjavascript

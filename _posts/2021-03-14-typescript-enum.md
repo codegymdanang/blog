@@ -1,5 +1,5 @@
 ---
-layout: course-javascript
+layout: course-typescript
 title: Sử dụng Enum trong Typescript  
 slug : typescript-tuple
 category: laptrinhjavascript

@@ -1,5 +1,5 @@
 ---
-layout: course-javascript
+layout: course-typescript
 title: Sử dụng biên trong Typescript  
 slug : typescript-variable
 category: laptrinhjavascript

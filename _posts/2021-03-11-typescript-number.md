@@ -1,5 +1,5 @@
 ---
-layout: course-javascript
+layout: course-typescript
 title: Sử dụng Number trong Typescript  
 slug : typescript-number
 category: laptrinhjavascript

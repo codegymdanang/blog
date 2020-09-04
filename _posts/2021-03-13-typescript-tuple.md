@@ -1,5 +1,5 @@
 ---
-layout: course-javascript
+layout: course-typescript
 title: Sử dụng Tuple trong Typescript  
 slug : typescript-tuple
 category: laptrinhjavascript
