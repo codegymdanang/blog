@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
 title: Sử dụng Number trong Typescript  
-slug : typescript-variable
+slug : typescript-number
 category: laptrinhjavascript
 tags: [typescript]
 summery: Number   
@@ -16,7 +16,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Number<
 
 # **1. Number là gì**
 
-Chúng ta sử dụng Number khi chúng ta chứa cá giá trị là số học. Tất cả Number được chứa đựng theo dạng thập phân. Number có thể là Decimal (10), Hex(16), hoặc Octal (18)
+Chúng ta sử dụng Number khi chúng ta chứa các giá trị là số học. Tất cả Number được chứa đựng theo dạng thập phân. Number có thể là Decimal (10), Hex(16), hoặc Octal (18)
 
 {% highlight javascript  linenos %}
 
