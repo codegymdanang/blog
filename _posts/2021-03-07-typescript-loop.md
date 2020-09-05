@@ -1,110 +1,144 @@
 ---
 layout: course-typescript
-title: Sử dụng điều kiện trong Typescript  
-slug : typescript-condition
+title: Sử dụng vòng lặp trong Typescript  
+slug : typescript-loop
 category: laptrinhjavascript
 tags: [typescript]
-summery: Câu Điều kiện   
+summery: Vòng lặp   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về câu điều kiện trong Typescrip, cách hoạt động của câu điều kiện trong Typescrip
+description : Giới thiệu về vòng lặp trong Typescrip, cách hoạt động của vòng lặp trong Typescrip
 youtubeId: Ex3glZTCvlY
 ---
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>câu điều kiện</b> là như thế nào? 
+Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>vòng lặp</b> là như thế nào? 
 
-# **1. Câu điều kiện tử if-else**
+# **1. Vòng lặp for**
 
-Cũng tương tự như javascript. Câu lệnh if else trong Typescript cũng giống như cú pháp và cách sử dụng trong JS.
+Typescript hỗ trợ cho chúng ta 3 loại vòng lặp for là forloop , for of loop và for in loop
 
+- Vòng lặp for Loop
+
+Cú pháp
 
 {% highlight javascript  linenos %}
 
-
-let x: number = 10, y = 20;
-
-if (x > y) 
-{
-    console.log('x is greater than y.');
-} 
-else if (x < y)
-{
-    console.log('x is less than y.'); //This will be executed
-}
-else if (x == y) 
-{
-    console.log('x is equal to y');
+for (first expression; second expression; third expression ) {
+    // statements to be executed repeatedly
 }
 
 {% endhighlight %}
 
-- Câu điều kiện tam phân.
+
+Ví dụ
 
 {% highlight javascript  linenos %}
 
-let x: number = 10, y = 20;
-
-x > y? console.log('x is greater than y.'): console.log('x is less than or equal to y.')
-
-{% endhighlight %}
-
-# **2. Câu điều kiện tử switch**
-
-Trong Typescript cũng tương tự cách dùng switch như trong javascrip hay java.
-
-{% highlight javascript  linenos %}
-
-let day : number = 4;
-
-switch (day) {
-    case 0:
-        console.log("It is a Sunday.");
-        break;
-    case 1:
-        console.log("It is a Monday.");
-        break;
-    case 2:
-        console.log("It is a Tuesday.");
-        break;
-    case 3:
-        console.log("It is a Wednesday.");
-        break;
-    case 4:
-        console.log("It is a Thursday.");
-        break;
-    case 5:
-        console.log("It is a Friday.");
-        break;
-    case 6:
-        console.log("It is a Saturday.");
-        break;
-    default:
-        console.log("No such day exists!");
-        break;
+for (let i = 0; i < 3; i++) {
+  console.log ("Block statement execution no." + i);
 }
 
 {% endhighlight %}
 
-- Trong Typescript chúng ta cũng có thể sử dụng expression trong điều kiện như sau
+- Vòng lăp for of Loop
+
+Dùng để trả lại từng phần tử của tập hợp. Nó tiện hơn vòng lặp for . Vì vòng lặp for trả về index, dựa vào index ta mới lấy được phần tử. 
+
+Ví dụ
 
 {% highlight javascript  linenos %}
 
-let x = 10, y = 5;
+let arr = [10, 20, 30, 40];
 
-switch (x-y) {
-    case 0:
-        console.log("Result: 0");
-        break;
-    case 5:
-        console.log("Result: 5");
-        break;
-    case 10:
-        console.log("Result: 10");
-        break;
+for (var val of arr) {
+  console.log(val); // prints values: 10, 20, 30, 40
 }
 
 {% endhighlight %}
+
+- Vòng lăp for in Loop
+
+Duyệt qua các phần tử của mảng và trả về vị trí index của các phần tử trong mảng
+
+{% highlight javascript  linenos %}
+
+let arr = [10, 20, 30, 40];
+
+for (var index in arr) {
+  console.log(index); // prints indexes: 0, 1, 2, 3
+
+  console.log(arr[index]); // prints elements: 10, 20, 30, 40
+}
+
+{% endhighlight %}
+
+# **2. Vòng lặp While**
+
+Nó cũng tương tự nguyên lý vòng lặp while bên javascript. Kiểm tra điều kiện trước khi chạy các dòng code trong while
+
+Cú pháp
+
+{% highlight javascript  linenos %}
+
+while (condition expression) {
+    // code block to be executed
+}
+
+{% endhighlight %}
+
+Ví dụ
+
+{% highlight javascript  linenos %}
+
+let i: number = 2;
+
+while (i < 4) {
+    console.log( "Block statement execution no." + i )
+    i++;
+}
+
+{% endhighlight %}
+
+
+# **3. Vòng lặp doWhile**
+
+Vòng lặp dowhile thì mình chạy các câu lệnh trong do trước sau đó kiểm tra điều kiện. Vòng lặp dowhile ít nhất chạy 1 lần cho dù điều kiện không thoả mản. 
+
+Cú pháp
+
+{% highlight javascript  linenos %}
+
+do {
+// code block to be executed
+}
+while (condition expression);
+
+{% endhighlight %}
+
+Ví dụ
+
+{% highlight javascript  linenos %}
+
+let i: number = 2;
+do {
+    console.log("Block statement execution no." + i )
+    i++;
+} while ( i < 4)
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
