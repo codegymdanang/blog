@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
 title: Sử dụng Spring AOP Annotation 
-slug : spring-aop-pointcut
+slug : spring-aop-annotation
 category: laptrinhspring
 tags: [spring-web]
 summery: AOP Annotation
