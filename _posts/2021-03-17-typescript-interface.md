@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
 title: Sử dụng Interface trong Typescript  
-slug : typescript-function
+slug : typescript-interface
 category: laptrinhjavascript
 tags: [typescript]
 summery: Interface   
