@@ -8,7 +8,7 @@ summery: Spring Security
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springsecurity.png
 description : Hiểu các khái niệm cơ bản của lập trình Spring Security. Xây dựng được ứng dụng spring security kết hợp với mysql.
-youtubeId: WNfuVJptPnQ
+youtubeId: qjuyWUqzESU
 ---
 
 # **Giới thiệu nội dung bài viết**
