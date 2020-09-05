@@ -147,17 +147,67 @@ playerCodes = {     //Compiler Error: Cannot assign to playerCodes because it is
 }; 
 {% endhighlight %}
 
+# **4. Data Mofifier**
 
+Trong TypeScript chúng ta có 3 loại access modifier là public, private và protected.
 
+- Khi một biến hay một phương thức khai báo public thì nó sẽ được truy cập ở bất kỳ đâu
 
+{% highlight javascript  linenos %}
 
+class Employee {
+    public empCode: string;
+    empName: string;
+}
 
+let emp = new Employee();
+emp.empCode = 123;
+emp.empName = "Swati";
 
+{% endhighlight %}
 
+- Khi một biến hay một phương thức khai báo private thì nó sẽ được access chỉ trong Class đó và không được truy cập từ bên ngoài
 
+{% highlight javascript  linenos %}
 
+class Employee {
+    private empCode: number;
+    empName: string;
+}
 
+let emp = new Employee();
+emp.empCode = 123; // Compiler Error
+emp.empName = "Swati";//OK
 
+{% endhighlight %}
+
+- Khi một biến hay một phương thức khai báo protected thì nó sẽ được truy cập thông qua kế thừa cha và con
+
+{% highlight javascript  linenos %}
+
+class Employee {
+    public empName: string;
+    protected empCode: number;
+
+    constructor(name: string, code: number){
+        this.empName = name;
+        this.empCode = code;
+    }
+}
+
+class SalesEmployee extends Employee{
+    private department: string;
+    
+    constructor(name: string, code: number, department: string) {
+        super(name, code);
+        this.department = department;
+    }
+}
+
+let emp = new SalesEmployee("John Smith", 123, "Sales");
+empObj.empCode; //Compiler Error
+
+{% endhighlight %}
 
 
 
