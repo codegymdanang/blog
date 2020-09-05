@@ -224,13 +224,80 @@ mercObj.run();  // A Mercedes started A Mercedes-Benz GLA is moving at 150 mph!
 hondaObj.run(); // A Honda started A Honda City is moving at 100 mph!
 {% endhighlight %}
 
+# **6. Abstract Class**
 
+Typescript sử dụng từ khoá abstract để ta biến một class thành một abstract class. Một abstract class có thể có một hoặc nhiều phương thức abstract hoặc biến.
 
+{% highlight javascript  linenos %}
 
+abstract class Person {
+    name: string;
+    
+    constructor(name: string) {
+        this.name = name;
+    }
 
+    display(): void{
+        console.log(this.name);
+    }
 
+    abstract find(string): Person;
+}
 
+class Employee extends Person { 
+    empCode: number;
+    
+    constructor(name: string, code: number) { 
+        super(name); // must call super()
+        this.empCode = code;
+    }
 
+    find(name:string): Person { 
+        // execute AJAX request to find an employee from a db
+        return new Employee(name, 1);
+    }
+}
+
+let emp: Person = new Employee("James", 100);
+emp.display(); //James
+
+let emp2: Person = emp.find('Steve');
+{% endhighlight %}
+
+Class mà extends một abstract class phải bắt buộc sử dụng từ khoá super trong constructor của mình.
+
+# **7. Generic Class**
+
+TypeScript cũng hỗ trợ Generic như các ngôn ngữ lập trình Java và C#.
+
+{% highlight javascript  linenos %}
+
+class KeyValuePair<T,U>
+{ 
+    private key: T;
+    private val: U;
+
+    setKeyValue(key: T, val: U): void { 
+        this.key = key;
+        this.val = val;
+    }
+
+    display():void { 
+        console.log(`Key = ${this.key}, val = ${this.val}`);
+    }
+}
+
+let kvp1 = new KeyValuePair<number, string>();
+kvp1.setKeyValue(1, "Steve");
+kvp1.display(); //Output: Key = 1, Val = Steve 
+
+let kvp2 = new KayValuePair<string, string>();
+kvp2.SetKeyValue("CEO", "Bill"); 
+kvp2.display(); //Output: Key = CEO, Val = Bill
+
+{% endhighlight %}
+
+Chúng ta khai báo Generic trong thẻ < > sau tên của Class
 
 
 
