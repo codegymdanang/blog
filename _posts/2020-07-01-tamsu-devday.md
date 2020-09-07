@@ -48,7 +48,7 @@ Trong khoảng thời gian này, lập trình viên sẽ có những hoạt đ�
 ![dailymeeting](/images/post/tamsu/dev-pm.jpg){:class="img-responsive"}
 {: refdef}
 
-4- Sau khi đã rõ thì bắt tay vào viết những dòng code. Nếu vẫn chưa tự tin thì dev sẽ lên google dể tìm thêm thông tin. Hoặc có lỗi trong trường trình thì lên stackoverflow để tìm đáp án. Sau khi có đáp án thì tiếp tục code tiếp. Và cứ thế dev code liên tục tới giờ ăn trưa.
+4- Sau khi đã rõ thì bắt tay vào viết những dòng code. Nếu vẫn chưa tự tin thì dev sẽ lên google dể tìm thêm thông tin. Hoặc có lỗi trong chương trình thì lên stackoverflow để tìm đáp án. Sau khi có đáp án thì tiếp tục code tiếp. Và cứ thế dev code liên tục tới giờ ăn trưa.
 
 - 12h00 : Ăn trưa và nghỉ ngơi
 
