@@ -217,43 +217,22 @@
 					</div>
 					<div class="single_sidebar_wiget">
 						<div class="sidebar_tittle">
-							<h3>Khoá học free</h3>
+							<h3>Website lập trình</h3>
 						</div>
 						<div class="single_catagory_item category">
 							<ul class="list-unstyled">
-								<li><a href="#">Java</a> <span>(đang xây dựng)</span> </li>
-								<li><a href="#">Spring</a> <span>(đang xây dựng)</span> </li>
-								<li><a href="#">Scrum</a> <span>(đang xây dựng)</span> </li>
-								<li><a href="#">Manual Testing</a> <span>(đang xây dựng)</span> </li>
-								<li><a href="#">Automation Testing</a> <span>(đang xây dựng)</span> </li>
-								<li><a href="#">Web</a> <span>(đang xây dựng)</span> </li>
-								<li><a href="#">Angular</a> <span>(đang xây dựng)</span> </li>
+								<li><a href="tapchilaptrinh.vn"> Tạp chí lập trình </a>  </li>
+								<li><a href="https://hocjava.com"> Học Java </a>  </li>
+								<li><a href="https://hocphp.net/"> Học Php </a> </li>
+								<li><a href="https://hoclaravel.net/"> Học Laravel </a> </li>
+								<li><a href="https://hocspringboot.net/"> Học SpringBoot </a> </li>
+								<li><a href="https://hocspringmvc.net/"> Học SpringMVC</a> </li>
+								<li><a href="https://hocjavascript.net/"> Học JavaScript </a> </li>
+								<li><a href="codingbootcamp.vn/"> Coding Bootcamp </a> </li>
 							</ul>
 						</div>
 					</div>
-					<!-- Popular Post -->
-					<div class="single_sidebar_wiget">
-						<div class="sidebar_tittle">
-							<h3>Popular Feeds</h3>
-						</div>
-						{% assign posts = site.posts | where_exp:"post", "post.url != page.url" | sample:9 %}
-						<ul id='relatedposts'>
-							{% for post in posts %}
-							<div class="single_catagory_post post_2 ">
-								<div class="post_text_1 pr_30">
-									<a href='{{post.url | relative_url }}'>
-										<h5>{{post.title}}</h5>
-									</a>
-									<p><span>Posted By nguyen.le </span> {{ post.date | date: "%B %d, %Y"}}</p>
-								</div>
-							</div>
-							{% endfor %}
-							<span class='list-item' data-label='Blogging'></span>
-						</ul>
-
-
-					</div>
-					<!-- Popular Post -->
+					
 					<!-- Display Google Ads -->
 					<div>
 						<ins class="adsbygoogle"
