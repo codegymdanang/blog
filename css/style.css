@@ -5609,5 +5609,6 @@ a {
 .toc__menu > ul > li > ul { padding-left: 1em; }
 .toc .toc__menu { position: relative; margin: 0; max-height: 0; font-size: 1em; opacity: 0; overflow: hidden; z-index: 10; border: 1px solid #ddd;}
 .toc input:checked ~ .toc__menu { max-height: 100vh; opacity: 1; margin-top: 1em; }
-.toc__menu ul{counter-reset: item;}#markdown-toc li{display: block;margin-right: 10px;}
+.toc__menu ul{counter-reset: item;}
+#markdown-toc li{display: block;margin-right: 10px;}
 #markdown-toc li::before{content: counters(item, ".") " "; counter-increment: item;}
