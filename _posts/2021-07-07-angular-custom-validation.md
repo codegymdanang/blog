@@ -1,6 +1,6 @@
 ---
 layout: course-angular
-title: Custom Validation Trong Angular  
+title: Custom Validation  
 slug : angular-custom-validation
 category: laptrinhweb
 tags: [angular]

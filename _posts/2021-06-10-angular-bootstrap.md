@@ -1,6 +1,6 @@
 ---
 layout: course-angular
-title: Sử dụng Bootstrap trong Angular  
+title: Sử dụng Bootstrap   
 slug : bootstrap-trong-angular
 category: laptrinhweb
 tags: [angular]

@@ -1,6 +1,6 @@
 ---
 layout: course-angular
-title: Gọi webservice trong Angular
+title: Gọi webservice
 slug : angular-call-webservice
 category: laptrinhweb
 tags: [angular]
