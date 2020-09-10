@@ -3,7 +3,7 @@ layout: course-softskill
 title: Con đường trở thành lập trình viên Java
 slug : lap-trinh-vien-java
 category: career
-tags: [skills]
+tags: [tamsu]
 summery: Trở thành một Senior Java   
 image: /images/blog/softskills.png
 description : lập trình viên java , học lập trình java

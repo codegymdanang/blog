@@ -3,7 +3,7 @@ layout: course-softskill
 title: Trở thành một Senior Java
 slug : senior-java
 category: career
-tags: [skills]
+tags: [tamsu]
 summery: Trở thành một Senior Java   
 image: /images/blog/softskills.png
 description : học lập trình java chuyên nghiệp, trở thành java chuyên nghiệp, các kỷ thuật cần cho một java

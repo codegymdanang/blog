@@ -3,7 +3,7 @@ layout: course-softskill
 title: Con đường trở thành lập trình viên frontend
 slug : lap-trinh-vien-frontend
 category: career
-tags: [skills]
+tags: [tamsu]
 summery: Trở thành lập trình viên Front end    
 image: /images/blog/softskills.png
 description : lập trình web, học lập trình web
