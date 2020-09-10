@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Index trong database
+title:  Sử dụng Index
 slug :  database-index
 category: database
 tags: [database]

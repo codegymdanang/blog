@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng View trong database
+title:  Sử dụng View
 slug : database-view
 category: database
 tags: [database]

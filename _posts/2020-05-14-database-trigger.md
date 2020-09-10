@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Trigger trong database
+title:  Sử dụng Trigger
 slug : database-trigger
 category: database
 tags: [database]

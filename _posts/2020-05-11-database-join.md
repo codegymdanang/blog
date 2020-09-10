@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Joins trong database
+title:  Sử dụng Joins
 slug : database-joins
 category: database
 tags: [database]

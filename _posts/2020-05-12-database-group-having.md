@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Group và Having trong database
+title:  Sử dụng Group và Having
 slug : database-group-having
 category: database
 tags: [database]

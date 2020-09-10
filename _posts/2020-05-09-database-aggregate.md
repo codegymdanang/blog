@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Các hàm tổng hợp trong SQL 
+title:  Các hàm tổng hợp SQL 
 slug : database-sql-aggreate
 category: database
 tags: [database]

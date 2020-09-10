@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Kiểu dữ liệu trong database
+title:  Kiểu dữ liệu 
 slug : database-datatype
 category: database
 tags: [database]

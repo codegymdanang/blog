@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Cú pháp Database
+title:  Cú pháp
 slug : database-syntax
 category: database
 tags: [database]

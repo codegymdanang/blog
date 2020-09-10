@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Transaction trong database
+title:  Sử dụng Transaction
 slug :  database-index
 category: database
 tags: [database]

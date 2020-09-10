@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Stored Procedure trong database
+title:  Sử dụng Stored Procedure
 slug : stored-procedure
 category: database
 tags: [database]

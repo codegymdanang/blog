@@ -1,6 +1,6 @@
 ---
 layout: course-relationaldatabase
-title:  Toán tử trong database
+title:  Toán tử
 slug : database-operator
 category: database
 tags: [database]
