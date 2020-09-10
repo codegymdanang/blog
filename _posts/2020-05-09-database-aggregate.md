@@ -10,6 +10,8 @@ description : Trình bày các hàm tổng hợp trong database. Hướng dẫn 
 youtubeId: tKLOuvrHCNw
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chúng ta sẽ nói về các hàm tổng hợp trong database là gì nhé ?

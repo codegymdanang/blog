@@ -11,6 +11,8 @@ description : Sử dụng Dependency Injection trong lập trình Spring. Hiểu
 youtubeId: qA_GSXZh-oA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay anh sẽ hướng dẫn mọi người tạo một dự án Spring Boot.

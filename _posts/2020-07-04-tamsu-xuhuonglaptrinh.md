@@ -10,15 +10,11 @@ description : Xu hướng nghành CNTT, xu hướng nghành công nghệ thông 
 youtubeId: tJn3CghXjnA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, chắc hẳn bạn rất thích <b>lập trình</b> và mong muốn biết được lộ trình sự nghiệp của <b>lập trình viên</b> trong tương lai là như thế nào? Hôm nay anh sẽ chia sẽ với các bạn chủ để sau
-
-- Sinh viên cần trang bị các kiến thức gì khi rời ghế nhà trường
-- Mức lương nghành công nghệ thông tin ở các vị trí
-- Các nguồn học lập trình uy tín
-- Xu hướng công nghệ trong tương lai
-- Các tools và ngôn ngữ lập trình các doanh nghiệp đang sử dụng
+Chào các bạn, chắc hẳn bạn rất thích <b>lập trình</b> và mong muốn biết được lộ trình sự nghiệp của <b>lập trình viên</b> trong tương lai là như thế nào? 
 
 # **1. Khó khăn của sinh viên hiện nay**
 

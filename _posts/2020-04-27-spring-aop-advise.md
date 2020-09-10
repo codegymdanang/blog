@@ -11,9 +11,10 @@ description : Sử dụng AOP Advise trong lập trình spring. Hiểu cơ chế
 youtubeId: WNfuVJptPnQ
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>AOP Advise</b> có ý nghĩa là gì nhé .
-
 
 <br>
 # **1. Spring AOP là gì**

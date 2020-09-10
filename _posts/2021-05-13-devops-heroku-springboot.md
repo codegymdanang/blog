@@ -10,14 +10,11 @@ description : Triển khai dự án spring trên heroku. Hiểu được các kh
 youtubeId: gdt4DODk5o4
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, hôm nay anh sẽ hướng dẫn cách <b>triển khai một ứng dụng spring và database</b> trên server <b>Heroku</b>. Nội dung sẽ xoay quanh
-
-- Hosting là gì ?
-- Domain là gì ?
-- Các bước chuẩn bị để triển khai ứng dụng heroku
-- Video hướng dẫn cách triển khai
+Chào các bạn, hôm nay anh sẽ hướng dẫn cách <b>triển khai một ứng dụng spring và database</b> trên server <b>Heroku</b>. 
 
 <br>
 # **1. Hosting là gì**

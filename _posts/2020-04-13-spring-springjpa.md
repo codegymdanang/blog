@@ -10,17 +10,12 @@ description : Spring jpa là gì ? Khái niệm ORM, JPA và mô hình MVC. Hư�
 youtubeId: 4dQlWJQ7ZQo
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ đề hôm nay của anh là về <b>JPA</b> ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
-Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong <b>database</b>. Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
-
-- ORM là gì ?
-- Các nhà cung cấp ORM trong java.
-- JPA là gì ?
-- Thảo luận tầng Persistence trong mô hình MVC.
-- Hướng dẫn sử dụng JPA thông qua ví dụ.
-- Video demo cách sử dụng JPA.
+Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong <b>database</b>.
 
 <br>
 # **1. ORM là gì ?**

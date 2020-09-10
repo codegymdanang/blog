@@ -10,6 +10,8 @@ description : Sử dụng angular cli tạo dự án angular. Hướng dẫn ang
 youtubeId: 977WIZTAUv8
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Angular Cli để tạo  dự án Angular</b> là như thế nào?

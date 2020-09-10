@@ -10,6 +10,8 @@ description : Trình bày các câu lệnh SQL DML trong database. Hướng dẫ
 youtubeId: tKLOuvrHCNw
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chúng ta sẽ nói về các câu lệnh SQL DML trong database là gì nhé ?

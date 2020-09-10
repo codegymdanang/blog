@@ -10,6 +10,8 @@ description : Giới thiệu về biến trong Typescrip, cách hoạt động c
 youtubeId: Ex3glZTCvlY
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>biến</b> là như thế nào? 

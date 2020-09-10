@@ -10,6 +10,8 @@ description : Sử dụng Jenkins trong dự án java. Hiểu CI CD là gì ?. N
 youtubeId: nhWzKyz9H3s
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn, bạn đang thắc mắc <b>CI/CD</b> là cái gì trong lập trình ? Nó được ứng dụng như thế nào trong phần mềm ? Sử dụng nó có mang lại

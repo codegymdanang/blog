@@ -10,6 +10,8 @@ description : Sử dụng boostrap trong dự án angular. Hướng dẫn cài �
 youtubeId: dđ
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Angular Service</b> là như thế nào?

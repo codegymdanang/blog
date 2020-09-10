@@ -9,6 +9,8 @@ image: /images/blog/design-patterns.png
 description : Sử dụng Builder design pattern trong lập trình java. Hướng dẫn sử dụng builder design pattern trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng builder design pattern trong lập trình.
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, chủ đề hôm nay của anh sẽ bàn về <b>Design Pattern</b> <b>Builder</b> ? Khi nào chúng ta sẽ dùng nó trong lập trình.

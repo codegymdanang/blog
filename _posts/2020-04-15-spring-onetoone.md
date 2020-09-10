@@ -11,13 +11,11 @@ description : Sử dụng OneToOne Relationship trong lập trình. Hiểu annot
 youtubeId: 3xMFBVQZfXM
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ đề hôm nay chúng ta sẽ nói về các annotation <b>@OneToOne</b>  .
-Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
-
-- OneToOne là   ?
-- Cấu hình và triển khai một dự án dùng các annotation
 
 <br>
 # **1. One To Many annotation**

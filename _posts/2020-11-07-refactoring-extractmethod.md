@@ -8,6 +8,9 @@ summery: Kỷ thuật Extract Method
 image: /images/blog/design-patterns.png
 description : kỷ thuật Extract Method là gì, hướng dẫn extract method , ví dụ extract method
 ---
+
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các e, chủ đề hôm nay của anh sẽ bàn về kỷ thuật <b>Extract Method</b> ? Kỷ thuật nằm nhằm làm cho một method dài khó đọc

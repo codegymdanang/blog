@@ -11,11 +11,12 @@ description : Hiều cấu hình Configure Annotation trong lập trình Spring.
 youtubeId: 0n8_2yG5F7I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, Trong bài viết hôm nay chúng ta sẽ nói cách sử dụng annotation Configure để cấu hình cho dự án Spring.
+Chào bạn, trong bài viết hôm nay chúng ta sẽ nói cách sử dụng annotation Configure để cấu hình cho dự án Spring.
  
-
 # **1. Giới thiệu @Configure Annotation**
 
 Spring @Configuration là một thành phần trong spring core framework. @Configuration annotation chỉ ra rằng trong class đó có @Bean. Vì vậy khi Spring IoC quyét qua các Class mà có annotation là @Configuration nó sẽ hiểu trong Class đó có khai báo một số bean và vào đó tạo các bean

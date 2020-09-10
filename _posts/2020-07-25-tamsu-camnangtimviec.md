@@ -11,6 +11,8 @@ description : Hướng dẫn cách kiếm việc hiệu quả
 youtubeId: ZqmIem8Q2Fo
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chủ đề của anh sẽ về các cách <b>tìm việc làm </b>hiệu quả. Cách đây 10 năm việc tìm kiếm một công việc IT rất khó khăn. Lúc đó các đàn anh của anh thường phải mua báo để đọc vì họ thường tuyển dụng trên báo. Hoặc phải đến các trung tâm giới thiệu việc làm xem có công ty nào có tuyển dụng không. Thời gian kiếm việc có khi lên đến cả tháng trời mà không có kết quả cao. Nhưng thật may mắn cho chúng ta đang sống trong thời đại công nghệ. Nên có thể cập nhật bất cứ tin tuyển dụng nào trong vòng 15 phút trên các trang tuyển dụng như vietnamwork, jobgo, hay itviec. Hoặc qua các mạng xã hội như facebook, linkedin. Hầu hết các công ty đều đăng tuyển dụng lên đó cả.

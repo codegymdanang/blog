@@ -11,6 +11,8 @@ description : Sử dụng Cấu hình IOC qua Java trong lập trình Spring. Hi
 youtubeId: 0n8_2yG5F7I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Cấu hình IOC qua Java</b> ? Có phải bạn không rõ khái niệm của nó trong lập trình?

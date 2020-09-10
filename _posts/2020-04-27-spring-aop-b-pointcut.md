@@ -11,9 +11,10 @@ description : Sử dụng AOP Pointcut trong lập trình spring. Hiểu cơ ch�
 youtubeId: WNfuVJptPnQ
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>AOP Pointcut</b> có ý nghĩa là gì nhé .
-
 
 <br>
 # **1. Spring AOP Pointcut là gì**

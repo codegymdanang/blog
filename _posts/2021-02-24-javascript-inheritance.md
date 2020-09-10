@@ -10,6 +10,8 @@ description : Giới thiệu về Kế thừa trong Javascrip, cách hoạt đ�
 youtubeId: Ex3glZTCvlY
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Kế thừa</b> là như thế nào? 

@@ -11,14 +11,11 @@ description : Sử dụng Session và Cookie trong lập trình Spring. Hướng
 youtubeId: ym4-rU9R6fM
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 Chào bạn, chắc khá nhiều bạn đang học lập trình không phân biệt được sự khác nhau giữa session và cookie . Khi nào thì dùng chúng
-Hôm nay anh sẽ trình bày nguyên lý và sự khác nhau của <b>session</b> và <b>cookie</b> cũng như khi nào mình sẽ sử dụng nó. Nội dung trình bày trong bài này
-
-- Session là gì ?
-- Cookie là gì ?
-- So sánh Sesion và Cookie
-- Video demo
+Hôm nay anh sẽ trình bày nguyên lý và sự khác nhau của <b>session</b> và <b>cookie</b> cũng như khi nào mình sẽ sử dụng nó.
 
 <br>
 # **1. Session là gì**

@@ -10,6 +10,8 @@ description : Sử dụng Custom Validation trong dự án angular. Hướng d�
 youtubeId: 
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>Custom Validation</b> là như thế nào?

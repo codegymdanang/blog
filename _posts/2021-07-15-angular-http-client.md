@@ -10,6 +10,8 @@ description : Sử dụng Http Client trong dự án angular. Hướng dẫn cà
 youtubeId: dđ
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Http Client</b> là như thế nào?

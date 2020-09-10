@@ -11,6 +11,8 @@ description : học lập trình nên bắt đầu từ đâu. Hướng dẫn c�
 youtubeId: r2w7in6xMB4
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, chủ đề hôm nay mà anh nhắc tới là nên <b>tự học lập trình</b> ở nhà hay ở trung tâm. Chắc hẳn các em lúc bắt đầu suy nghĩ tới việc học lập trình sẽ phân vân thắc mắc có nên <b>tự học lập trình</b> hay không?. Hay nên tìm một trung tâm để <b>học lập trình</b>. Bài viết hôm nay của anh sẽ chỉ ra cho mọi người thấy những ưu nhược điểm và tuỳ vào khả năng của mình mà chọn một phương pháp học lập trình tối ưu nhất. Nội dung bài viết thảo luận các vấn đề sau:

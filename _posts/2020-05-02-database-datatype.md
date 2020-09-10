@@ -10,6 +10,8 @@ description : Trình bày kiểu dữ liệu của database. Hướng dẫn các
 youtubeId: tKLOuvrHCNw
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chúng ta sẽ nói về chủ đề kiểu dữ liệu trong database là gì nhé ?

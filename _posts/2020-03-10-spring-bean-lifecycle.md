@@ -11,12 +11,11 @@ description : Hiều vòng đời Bean trong lập trình Spring. Hiểu đượ
 youtubeId: 0n8_2yG5F7I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào ban, Trong bài viết hôm nay chúng ta sẽ nói qua vòng đời của một bean được tạo ra và phá huỷ trong Spring container.
-
-
-
+Chào bạn, trong bài viết hôm nay chúng ta sẽ nói qua vòng đời của một bean được tạo ra và phá huỷ trong Spring container.
 
 # **1 .InitializingBean and DisposableBean**
 

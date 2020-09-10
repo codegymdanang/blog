@@ -10,6 +10,8 @@ description : Angular hoạt động như thế nào. Giải thích cơ chế ho
 youtubeId: 977WIZTAUv8
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>cơ chế hoạt động của Angular </b> là như thế nào?

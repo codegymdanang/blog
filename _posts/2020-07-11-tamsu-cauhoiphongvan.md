@@ -10,13 +10,11 @@ description : câu hỏi phỏng vấn java , câu hỏi phỏng vấn lập tr�
 youtubeId: r2w7in6xMB4
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay sẽ chia sẽ những kinh nghiệm của anh đứng trên vai trò là nhà tuyển dụng đặt <b>các câu hỏi phỏng vấn lập trình </b> cho các bạn fresher , junior, dev tại công ty mà anh đã làm việc. Nội dung chúng ta sẽ xoay quanh các nội dung sau.
-
-- Các bài test đầu  đầu vào của một công ty IT
-- Các câu hỏi phỏng vấn
-- Kết luận
+Chào các em, hôm nay sẽ chia sẽ những kinh nghiệm của anh đứng trên vai trò là nhà tuyển dụng đặt <b>các câu hỏi phỏng vấn lập trình </b> cho các bạn fresher , junior, dev tại công ty mà anh đã làm việc. 
 
 <br>
 # **1. Các bài test của công ty IT**

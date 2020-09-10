@@ -10,11 +10,11 @@ description : Clean Code Method trong lập trình lập trình. Hiều clean co
 youtubeId: aSDKxAUqcTc
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay anh sẽ trình bày chủ đề về viết phương thức (method) như thế nào là hiệu quả.
-
-
 
 # **1. Tên phương thức  là động từ**
 

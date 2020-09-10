@@ -10,6 +10,8 @@ description : Sử dụng React Form trong dự án angular. Hướng dẫn cài
 youtubeId: 
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>React Form</b> là như thế nào?

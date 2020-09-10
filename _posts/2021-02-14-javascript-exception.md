@@ -10,6 +10,8 @@ description : Giới thiệu về ngoại lệ trong Javascrip, cách hoạt đ�
 youtubeId: Ex3glZTCvlY
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>ngoại lệ</b>là như thế nào?

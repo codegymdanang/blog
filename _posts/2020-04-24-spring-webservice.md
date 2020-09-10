@@ -11,16 +11,11 @@ description : webservice là gì trong học lập trình. Hiểu được webse
 youtubeId: WNfuVJptPnQ
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>webservice</b> là gì ?
-Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
-
-- Webservice là gì ?
-- Các loại webservice ?
-- SOAP webservice là gì ?
-- Restful webservice là gì ?
-- Kết luận
 
 <br>
 # **1. Webservice là gì ?**

@@ -10,6 +10,8 @@ description : Thêm Pipes trong dự án angular. Hướng dẫn sử dụng Pip
 youtubeId: 0734nF0B_BM
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Pipes</b> là như thế nào? 

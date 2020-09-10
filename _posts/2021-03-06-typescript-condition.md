@@ -10,6 +10,8 @@ description : Giới thiệu về câu điều kiện trong Typescrip, cách ho�
 youtubeId: Ex3glZTCvlY
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>câu điều kiện</b> là như thế nào? 

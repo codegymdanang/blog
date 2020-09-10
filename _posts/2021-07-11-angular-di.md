@@ -10,6 +10,8 @@ description : Sử dụng Dependency Injection trong dự án angular. Hướng 
 youtubeId: dđ
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Dependency Injection</b> là như thế nào?

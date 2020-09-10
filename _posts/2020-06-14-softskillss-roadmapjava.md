@@ -10,6 +10,8 @@ description : lập trình viên java , học lập trình java
 youtubeId: xLFCVXGSlNA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn, hôm nay anh sẽ giới thiệu cho các bạn để trở thành một <b>lập trình viên Java</b> chuyên nghiệp thì mình bắt đầu từ đâu, các công nghệ mà mình cần trang bị.

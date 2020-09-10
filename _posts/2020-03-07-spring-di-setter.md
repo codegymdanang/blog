@@ -11,9 +11,11 @@ description : Sử dụng nhúng DI bằng Setter trong lập trình Spring. Hi�
 youtubeId: 0n8_2yG5F7I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Nhúng DI bằng Setter</b>  gì đúng không?
+Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Nhúng DI bằng Setter</b> là gì đúng không?
 
 
 <br>

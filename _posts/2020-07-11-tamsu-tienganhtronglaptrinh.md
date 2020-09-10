@@ -10,6 +10,8 @@ description : tiếng anh trong lập trình, tiếng anh quan trong như thế 
 youtubeId: r2w7in6xMB4
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn, hôm nay anh sẽ chia sẽ về chủ đề tầm quan trọng của <b>tiếng Anh trong nghành lập trình</b>. Anh sẽ kể câu chuyện mà anh đã trải qua và tiếng Anh đã giúp gì cho anh trong những năm tháng làm trong <b>ngành lập trình</b>.

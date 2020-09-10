@@ -11,6 +11,8 @@ description : Hiều cấu hình spring thông qua annotation trong lập trình
 youtubeId: 0n8_2yG5F7I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào ban, Trong bài viết hôm nay chúng ta sẽ nói cách sử dụng annotation để cấu hình cho dự án Spring.

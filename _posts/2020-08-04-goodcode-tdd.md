@@ -10,6 +10,8 @@ description : Nắm được nguyên lý và áp dụng được TDD trong lập
 youtubeId: LdLvwsj5_Sk
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn, chắc hẳn bạn sẽ muốn biết <b>TDD</b> là lập trình như thế nào phải không nào ? Trong bài viết hôm nay a sẽ giới thiệu từng bước giúp chúng ta có thể lập trình TDD một cách hiệu quả nhất.

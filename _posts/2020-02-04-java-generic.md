@@ -11,17 +11,13 @@ description : Khái niệm generic là gì và cách sử dụng Generic trong n
 youtubeId: pXSdvkKK658
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn, bạn đã từng nghe tới khái niệm về <b>Generic</b> chưa ? Nếu bạn nghe rồi nhưng vẫn không hình dung được
 Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạo một <b>Generic Class</b> và <b>Generic method</b> như thế nào ? Và ưu điểm và nhược
-điểm của Generic thì bài hôm nay anh sẽ giúp mọi người nắm rõ các câu hỏi ở trên. Nội dụng thảo luận hôm nay gồm các chủ đề sau .
-
-- Generic là gì ?
-- Phương pháp tạo ra một Generic
-- Các ký tự được sử dụng trong Generic
-- Sử dụng Generic trong Abstract và Interface
-- Ưu điểm và nhược điểm của Generic
+điểm của Generic thì bài hôm nay anh sẽ giúp mọi người nắm rõ các câu hỏi ở trên.
 
 <br>
 # **1. Generic là gì**

@@ -11,15 +11,12 @@ description : Phân biệt Request Param và Path Variable . Hiểu được req
 youtubeId: z3ZlVvu1yUY
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn , chắc bạn đang phân vân <b>Request Param</b> và <b>Path Variable</b> có khác gì nhau không ? Khi nào dùng thì bài viết hôm nay
-anh sẽ trình bày sự khác nhau đó .Chúng ta sẽ thảo luận các vấn đề sau.
-
-- Request Param là gì ?
-- Path Varible là gì ?
-- Kết hợp cả hai trong lập trình như thế nào
-- Video hướng dẫn cách làm
+anh sẽ trình bày sự khác nhau đó .
 
 <br>
 # **1. Request Param**

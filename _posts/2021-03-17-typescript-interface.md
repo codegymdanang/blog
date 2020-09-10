@@ -10,6 +10,8 @@ description : Giới thiệu về Interface trong Typescrip, cách hoạt độn
 youtubeId: Ex3glZTCvlY
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Interface</b> là như thế nào? 

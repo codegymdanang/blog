@@ -10,6 +10,8 @@ description : Sử dụng Validation React Form trong dự án angular. Hướng
 youtubeId: 
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>Validation React Form</b> là như thế nào?

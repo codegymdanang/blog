@@ -11,14 +11,12 @@ description : Sử dụng được Json WebToken trong lập trình web. Hiểu 
 youtubeId: NSFLGrM6pAU
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn, có phải bạn đang tự hỏi <b>Json Web Token</b> là gì  không ? Nó mã hoá như thế nào ? Nó khác gì với <b>session và cookie</b>. Và nó được sử dụng ở đâu trong <b>lập trình</b>.
-Bài viết hôm nay chúng ta sẽ nói về .
 
-- JSON WEB TOKEN là gì ?
-- Cấu tạo của 1 JWT
-- Video demo
 
 # **1. Vì sao chúng ta cân JSON**
 

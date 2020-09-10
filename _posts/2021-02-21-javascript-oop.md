@@ -10,6 +10,8 @@ description : Giới thiệu về callback trong Javascrip, cách hoạt động
 youtubeId: Ex3glZTCvlY
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>OOP</b> là như thế nào? Trước khi đi vào bài này anh muốn mọi người đọc qua bài lập trình hướng đối tượng là gì tại [đây](https://levunguyen.com/laptrinhjava/2020/01/14/lap-trinh-huong-doi-tuong/). Vì bài OOP này khá khó cho người mới bắt đầu nên các em hãy được trước bài hướng đối tượng ở trên. Không cần phải quan tâm đến cái code java viết trong đó, mà chỉ cần hiểu ví dụ anh đưa ra để hiểu hướng đối tượng là gì sau đó hãy đọc tiếp bài viết sau đây

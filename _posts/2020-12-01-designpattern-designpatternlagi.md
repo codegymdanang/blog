@@ -9,6 +9,8 @@ image: /images/blog/design-patterns.png
 description : Hiểu design pattern là gì ? vì sao sử dụng design pattern. Hướng dẫn các mẫu design pattern trong học lập trình java.
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 Chào các e, chủ đề hôm nay của anh sẽ bàn về chủ đề  <b>Design Pattern</b>
 

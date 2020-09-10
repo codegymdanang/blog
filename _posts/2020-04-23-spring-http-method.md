@@ -11,13 +11,11 @@ description : Sử dụng các phương thức HTTP trong lập trình web. Hi�
 youtubeId: 7VMXLT5oW1g
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào các em , hôm nay anh sẽ giới thiệu với các bạn các loại <b>phương thức http</b> trong lập trình. Nội dung hôm nay sẽ nói về
-
-- Tổng hợp các loại request
-- Các khái niệm quan trọng
-- So sách sự khác nhau của các phương thức request
+Chào các em , hôm nay anh sẽ giới thiệu với các bạn các loại <b>phương thức http</b> trong lập trình. 
 
 <br>
 

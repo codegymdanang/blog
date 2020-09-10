@@ -10,6 +10,8 @@ description : Thêm NgSwitch trong dự án angular. Hướng dẫn sử dụng 
 youtubeId: 0734nF0B_BM
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>NgSwitch</b> là như thế nào? 

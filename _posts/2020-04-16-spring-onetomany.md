@@ -11,14 +11,12 @@ description : Sử dụng @OneToMany mapping trong lập trình Spring. Hướng
 youtubeId: JSnxij3p6nU
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ đề hôm nay chúng ta sẽ nói về các annotation <b>@OneToMany</b> và <b>@ManyToOne</b> trong Spring  .
-Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
-- OneToMany là gì  ?
-- ManyToOne là gì ?
-- Cấu hình và triển khai một dự án dùng các annotation @OneToMany và @ManyToOne
 
 <br>
 # **1. One To Many annotation**

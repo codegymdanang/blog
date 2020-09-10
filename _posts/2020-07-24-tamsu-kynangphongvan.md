@@ -11,11 +11,11 @@ description : Hướng dẫn các kỷ năng khi đi phỏng vấn với nhà tu
 youtubeId: gjuAHfsV_8U
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay anh sẽ chia sẽ về chủ đề <b> phỏng vấn tìm việc</b> với nhà tuyển dụng. Trong bài này anh sẽ chia sẽ những nỗi lo khi ứng viên đi phỏng vấn tại các công ty và cách mình vượt qua nó.
-
-{% include toc.html %}
 
 <br>
 # **1. Nỗi lo khi đi phỏng vấn**

@@ -10,6 +10,8 @@ description : Hướng dẫnTruyền tham số cho webservice trong dự án Ang
 youtubeId: edYsCowgQq0
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách gọi <b>Truyền tham số cho webservice</b> bên ngoài ở trong dự án <b>Angualar</b> là như thế nào nhé.

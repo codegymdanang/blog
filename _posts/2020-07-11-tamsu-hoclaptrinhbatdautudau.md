@@ -11,16 +11,11 @@ description : học lập trình nên bắt đầu từ đâu. Hướng dẫn c�
 youtubeId: r2w7in6xMB4
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn, chắc hẳn bạn sẽ thắc mắc <b>học lập trình nên bắt đầu như thế nào</b>? Cần có những yếu tố gì để giúp mình trở thành một lập trình viên. Hôm nay anh sẽ chia sẽ cho các bạn chuẩn bị <b>học lập trình nên trang bị những gì</b>?
-
-- Định nghĩa đam mê về lập trình
-- Lập trình là gì
-- Học lập trình bắt đầu từ đâu
-- Các phương pháp học lập trình
-- Các nghành nghề và chức danh
-- Kết luận.
 
 <br>
 # **1. Định nghĩa đam mê về lập trình**

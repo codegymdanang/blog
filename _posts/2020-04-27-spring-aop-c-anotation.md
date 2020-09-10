@@ -11,6 +11,8 @@ description : Sử dụng AOP Annotation trong lập trình spring. Hiểu cơ c
 youtubeId: WNfuVJptPnQ
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>AOP Annotation</b> có ý nghĩa là gì nhé .
 

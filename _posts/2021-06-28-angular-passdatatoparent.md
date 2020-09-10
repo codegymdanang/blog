@@ -10,6 +10,8 @@ description : Truyền dữ liệu từ component con lên component cha trong d
 youtubeId: 0734nF0B_BM
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách  <b>component con lên component cha</b> là như thế nào? 

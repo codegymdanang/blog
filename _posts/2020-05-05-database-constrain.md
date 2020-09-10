@@ -10,6 +10,8 @@ description : Trình bày ràng buộc dữ liệu trong database. Hướng dẫ
 youtubeId: tKLOuvrHCNw
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chúng ta sẽ nói về chủ đề ràng buộc dữ liệu trong database là gì nhé ?

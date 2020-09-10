@@ -10,6 +10,7 @@ description : Chuẩn hoá dữ liệu là gì? Hiểu các quy luật 1NF, 2NF,
 youtubeId: saZr66o5zNw
 ---
 
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chúng ta sẽ nói về chủ đề Index trong database là gì nhé ?

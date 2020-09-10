@@ -10,6 +10,8 @@ description : Trình bày toán tử của database. Hướng dẫn cách sử d
 youtubeId: tKLOuvrHCNw
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chúng ta sẽ nói về chủ đề toán tử trong database là gì nhé ?

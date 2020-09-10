@@ -10,6 +10,8 @@ description : Vòng đời của component trong dự án angular. Hướng dẫ
 youtubeId: 0734nF0B_BM
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Vòng đời của component</b> trong Angular là như thế nào? 

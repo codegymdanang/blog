@@ -11,13 +11,12 @@ description : Sử dụng Spring IOC Container trong lập trình Spring. Hiểu
 youtubeId: 0n8_2yG5F7I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Spring IOC Container</b> (DI) là gì đúng không? Có phải bạn không rõ khái niệm của nó trong lập trình?
-Tại sao chúng ta cần Spring IOC Container ? Và cuối cùng là lợi ích khi sử dụng <b>Spring IOC Container</b>. Nội dung hôm nay gồm
-
-- Spring IOC Container ?
-
+Tại sao chúng ta cần Spring IOC Container ? Và cuối cùng là lợi ích khi sử dụng <b>Spring IOC Container</b>. 
 
 <br>
 # **1 .Spring IOC Container**

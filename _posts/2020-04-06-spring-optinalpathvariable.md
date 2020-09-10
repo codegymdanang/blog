@@ -10,14 +10,11 @@ description : Hiểu được Optional PathVariable trong lập trình dự án 
 youtubeId: WNfuVJptPnQ
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ đề hôm nay chúng ta sẽ nói về <b>Spring Optional PathVariable</b> sử dụng như thế nào.
-Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
-
-- PathVariable dùng để làm gì ?
-- Sử dụng Optional PathVariable ?
-- Cấu hình và triển khai một dự án dùng các annotation
 
 <br>
 # **1. PathVariable dùng để làm gì**

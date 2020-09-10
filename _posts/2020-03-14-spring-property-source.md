@@ -11,6 +11,8 @@ description : Hiều cấu hình PropertySource Annotation trong lập trình Sp
 youtubeId: 0n8_2yG5F7I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn, Trong bài viết hôm nay chúng ta sẽ nói cách sử dụng annotation PropertySource để cấu hình cho dự án Spring.

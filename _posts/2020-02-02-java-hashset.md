@@ -11,6 +11,8 @@ description : HashSet là gì? Các phương thức có trong HashSet và cách 
 youtubeId: 5C2OqlhiYsg
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chủ đề của chúng ta sẽ hướng dẫn cách tạo ra một HashSet theo mong muốn của chúng ta.

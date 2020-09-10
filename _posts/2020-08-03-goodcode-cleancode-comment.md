@@ -10,11 +10,11 @@ description : Clean Code Comment trong lập trình lập trình. Hiều clean c
 youtubeId: aSDKxAUqcTc
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay anh sẽ trình bày chủ đề về viết comment như thế nào là hiệu quả.
-
-
 
 # **1. Noise Comment**
 

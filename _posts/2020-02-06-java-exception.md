@@ -12,15 +12,11 @@ description : Tìm hiểu ngoại lệ là gì trong ngôn ngữ lập trình ja
 youtubeId: zC0t0e9DaH4
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn , hôm nay chủ đề của anh sẽ nói về <b>Ngoại lệ</b> (Exception) trong lập trình là gì ? Bài hôm nay chúng ta sẽ đi qua các nội dung.
-
-- Exception là gì ?
-- Check Exception là gì ?
-- Uncheck Exception là gì ?
-- Cú pháp và cách ném, bắt ngoại lệ.
-- Video demo cách code Exception
+Chào các bạn , hôm nay chủ đề của anh sẽ nói về <b>Ngoại lệ</b> (Exception) trong lập trình là gì ?
 
 <br>
 # **1. Ngoại lệ (Exception) là gì ?**

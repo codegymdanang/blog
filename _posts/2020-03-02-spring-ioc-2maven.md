@@ -11,14 +11,11 @@ description : Sử dụng Cấu hình IOC qua Java trong lập trình Spring. Hi
 youtubeId: 0n8_2yG5F7I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào các em,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>Maven</b> là gì ? Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
-
-- Maven là gì ?
-- Repository chứa đựng các thư viện
-- Cài đặt Maven
-- Kết luận
+Chào các em,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>Maven</b> là gì ?
 
 <br>
 # **1. Maven là gì ?**

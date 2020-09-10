@@ -11,15 +11,13 @@ description : Sử dụng Validation trong lập trình Spring. Hướng dẫn c
 youtubeId: ljyqbIo4jbk
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn, hôm nay anh sẽ trình bày kỷ thuật để <b>kiểm tra dữ liệu</b> người dùng nhập vào có đúng như định dạng mình mong muốn không ? Nếu
 không đúng định dạng mình sẽ thông báo lỗi cho người dùng? Trong Spring thì mình dùng các cách nào để kiểm tra dữ liệu người dùng truyền
-lên là hợp lệ. Nội dung hôm nay sẽ trình bày là
-
-- Tại sao ràng buộc hay kiểm tra dữ liệu
-- Hướng dẫn cách thực hiện buộc ràng hay kiểm tra  dữ liệu trong Spring
-- Video hướng dẫn cách làm kiểm tra dữ liệu trong Spring
+lên là hợp lệ.
 
 <br>
 # **1. Tại sao cần kiểm tra và ràng buộc dữ liệu**

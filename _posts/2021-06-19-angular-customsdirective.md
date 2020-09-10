@@ -10,6 +10,8 @@ description : Thêm Customs Directive trong dự án angular. Hướng dẫn s�
 youtubeId: 0734nF0B_BM
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Customs Directive</b> là như thế nào? 

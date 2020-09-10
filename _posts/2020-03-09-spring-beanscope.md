@@ -11,9 +11,11 @@ description : Sử dụng Bean Scope trong lập trình Spring. Hiểu được 
 youtubeId: 0n8_2yG5F7I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Bean Scoper</b>  gì đúng không? Trong bài viết hôm nay chúng ta sẽ nói qua 6 phạm vi (scope) của một bean được tạo ra trong container.
+Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Bean Scoper</b> là gì đúng không? Trong bài viết hôm nay chúng ta sẽ nói qua 6 phạm vi (scope) của một bean được tạo ra trong container.
 
 Có bao giờ bạn tự hỏi các beans (đối tượng) được tạo ra như thế nào không và khi nào nó được tạo ra trong container. Các scope dưới đây sẽ mô tả rõ.
 

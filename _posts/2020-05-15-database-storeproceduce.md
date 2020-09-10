@@ -10,6 +10,8 @@ description : Trình bày Stored Procedure trong database là gì . Hướng d�
 youtubeId: mxYQUIMJ5Aw
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chúng ta sẽ nói về chủ đề Stored Procedure trong database là gì nhé ?

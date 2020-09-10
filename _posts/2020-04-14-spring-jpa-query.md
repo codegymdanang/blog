@@ -11,15 +11,11 @@ description : Sử dụng JPA thao tác với database trong lập trình Spring
 youtubeId: bilwK0K9qoc
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về các cách để <b>query</b> dữ liệu từ database thông qua <b>Spring Data JPA</b>. Nội
-dung sẽ xoay quanh các vấn đề  
-
-- Annotation @Query
-- Creation Query
-- NameQuery
-- Các annotation bổ trợ khác
+Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về các cách để <b>query</b> dữ liệu từ database thông qua <b>Spring Data JPA</b>. 
 
 Giả sử ta có ta viết một chương trình quản lý nhân sự ở một công ty. Thường ở một công ty sẽ có các phòng ban như : Phòng kế toán, phòng đào tạo, phòng nhân sự. Tại mỗi phòng ban sẽ có các nhân viên thuộc phòng ban đó. Ví dụ ta có entity Phòng ban như sau.
 

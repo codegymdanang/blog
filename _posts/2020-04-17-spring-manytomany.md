@@ -11,12 +11,11 @@ description : Sử dụng annotation @ManyToMany trong lập trình Spring. Hư�
 youtubeId: qhovNzYD5Lk
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ đề hôm nay chúng ta sẽ nói về annotation <b>@ManyToMany</b>. Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
-
-- ManyToMany là gì   ?
-- Cấu hình và triển khai một dự án dùng @ManyToMany
+Chào các em ,chủ đề hôm nay chúng ta sẽ nói về annotation <b>@ManyToMany</b>. 
 
 <br>
 # **1. ManyToMany là gì**

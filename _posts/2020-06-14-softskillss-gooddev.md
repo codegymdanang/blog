@@ -10,6 +10,8 @@ description : học lập trình java chuyên nghiệp, trở thành java chuyê
 youtubeId: xLFCVXGSlNA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn, chắc hẳn bạn sẽ muốn biết làm như thế nào để trở thành một <b>Java developer</b> xịn. Hôm nay anh sẽ giới thiệu một số nội dung , công nghệ mà các bạn bắt buộc phải học để trở thành một java developer giỏi.

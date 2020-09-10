@@ -11,15 +11,11 @@ description : Hiểu nguyên lý của Auto generation, identity generation, seq
 youtubeId: WNfuVJptPnQ
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em ,như các em thấy trong các Entity mình annotation <b>@GeneratedValue</b> và nó có các strategy(dịch nôm na là các cách để tạo ra giá trị cho khoá chính) như GenerationType.IDENTITY,sequence-generator. Vậy nó là cái gì thì chủ đề hôm nay chúng ta sẽ nói về các loại Generation trong <b>Hibernate</b>.
-
-- Auto Generation ?
-- Identity Generation ?
-- Sequence Generation ?
-- Table  Generation ?
-- Cấu hình và triển khai một dự án dùng các annotation
 
 <br>
 # **1. Auto Generation**

@@ -9,6 +9,8 @@ image: /images/blog/design-patterns.png
 description : Hiểu Iterator design pattern là gì ? vì sao sử dụng Iterator design pattern. Hướng dẫn các mẫu Iterator design pattern trong học lập trình java.
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, chủ đề hôm nay của anh sẽ bàn về <b> Design Pattern</b> <b>Iterator</b> ? Khi nào chúng ta sẽ dùng nó trong lập trình.

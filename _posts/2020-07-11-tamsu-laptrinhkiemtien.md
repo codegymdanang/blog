@@ -10,6 +10,8 @@ description : Lập trình viên kiếm tiền như thế nào, kiếm tiền b�
 youtubeId: r2w7in6xMB4
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn, chắc hẳn bạn sẽ thắc mắc <b>lập trình viên</b> có giàu không, khả năng <b>lập trình viên</b> kiếm được thu nhập bao nhiêu mỗi tháng. Tại sao nghành lập trình lại rất hot hiện nay. Hôm nay anh sẽ chia sẽ các cách mà anh đã từng làm. Hy vọng qua bài viết này các em có động lực để phát triển và theo đuổi nghề lập trình. Nội dung hôm nay anh sẽ xoay quanh các cách kiếm thu nhập của một <b>lập trình viên</b>. Ngoài ra các em có thể tham khảo qua bài xu hướng công nghệ và cơ hội của lập trình viên tại [đây](https://levunguyen.com/career/2020/07/04/xu-huong-nghanh-lap-trinh/)

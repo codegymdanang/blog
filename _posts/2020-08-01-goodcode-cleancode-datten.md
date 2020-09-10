@@ -10,6 +10,8 @@ description : Clean Code cách đặt tên trong lập trình lập trình. Hi�
 youtubeId: aSDKxAUqcTc
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay anh sẽ trình bày chủ đề về đặt tên biến ,hàm như thế nào là đúng. Khi mình viết code cái mình hướng tới là những dòng code của mình người khác đọc vào sẽ hiểu ý định mình là làm gì? Trải qua 10 năm làm code cái anh nhận thấy đa số các lập trình viên viết code chủ yếu là mình hiểu, còn người khác thì đọc chưa chắc đã hiểu. Chính vì vậy thường các lập trình viên khi đọc code người khác mà không hiểu thường sẽ xoá code đó đi và viết lại code mới. Điều này rất nguy hiểm vì nếu mình xoá nhầm một dòng code quan trọng thì chương trình có thể chạy sai. Chính vì vậy hôm nay anh sẽ hướng dẫn mọi người cách đặt tên cho đúng.

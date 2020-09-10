@@ -10,6 +10,8 @@ description : Giới thiệu về toán tử trong Javascrip, cách hoạt độ
 youtubeId: Ex3glZTCvlY
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>toán tử</b>là như thế nào?

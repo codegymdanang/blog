@@ -11,20 +11,12 @@ description : Sử dụng các tập hợp (collection) trong lập trình java.
 youtubeId: GXQn39fU2Kg
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn, hẳn bạn đang phân vân trong java mình có những loại <b>cấu trúc dữ liệu</b>  (tập hợp nào) nào? Các cấu trúc dữ liệu đó khi nào thì nên sử dụng và nó khác nhau như thế nào.
-Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng và phân biệt sự khác nhau giữa các <b>cấu trúc dữ liệu</b>. Nội dung bài này sẽ nói về.
-
-- Các collection trong Java
-- Tập hợp List
-- Tập hợp Vector
-- Tập hợp Set
-- Tập hợp Quee
-- Tập hợp Dequee
-- Tập hợp Map
-- Phân biệt sự khác nhau giữa các tập hợp
-- Video thực hành các tập hợp
+Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng và phân biệt sự khác nhau giữa các <b>cấu trúc dữ liệu</b>. 
 
 <br>
 # **1. Các collection trong java**

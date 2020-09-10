@@ -10,6 +10,8 @@ description : Trình bày các câu lệnh dll của database. Hướng dẫn c�
 youtubeId: tKLOuvrHCNw
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chúng ta sẽ nói về chủ đề các câu lệnh dll trong database là gì nhé ?

@@ -10,6 +10,8 @@ description : Thêm component con trong dự án angular. Hướng dẫn cách t
 youtubeId: 0734nF0B_BM
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách thêm <b>component con</b> là như thế nào? Trong bài viết hôm nay chúng ta sẽ sử dụng Angular Cli để tạo ra component.

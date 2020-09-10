@@ -10,6 +10,8 @@ description : Giới thiệu về String trong Typescrip, cách hoạt động c
 youtubeId: Ex3glZTCvlY
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>String</b> là như thế nào? 

@@ -10,6 +10,8 @@ description : Một ngày làm việc của lập trình viên là như thế n�
 youtubeId: tJn3CghXjnA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay anh sẽ giới thiệu với các em về một ngày làm việc của một <b> lập trình viên </b> diễn ra như thế nào. Tư liệu được lấy từ những người bạn làm chung các công ty của anh. Hầu hết giờ tất cả các anh chị đó đang là leader ở những công ty Âu, Mỹ, Nhật tại Đà Nẵng.

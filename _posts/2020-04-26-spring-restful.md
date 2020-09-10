@@ -11,15 +11,12 @@ description : Sử dụng restful webservice trong lập trình. Hiểu cơ ch�
 youtubeId: WNfuVJptPnQ
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>Restful webservice</b>  là gì ?
-Nội dung mình sẽ giải thích trong bài này sẽ xoay quanh các chủ đề sau đây.
 
-- Website là gì ?
-- Webservice là gì ?
-- Restfull Webservice là gì?
-- Kết luận
 
 <br>
 # **1. Website là gì ?**

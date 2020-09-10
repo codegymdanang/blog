@@ -11,15 +11,10 @@ description : Sử dụng Model ModelMap ModelView trong lập trình Springg. H
 youtubeId: WzRjQjubR6o
 ---
 
-# **Giới thiệu nội dung bài viết**
-Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn phân biệt <b>Model</b>, <b>ModelMap</b>, <b>Map</b> và <b>ModeAndView</b>. Bài hôm nay sẽ nói về các nội dụng sau
+{% include toc.html %}
 
-- Model là gì ?
-- ModelMap là gì ?
-- Map là gì ?
-- ModelAndView là gì ?
-- Sự khác nhau giữa các model
-- Video hướng dẫn cách thực hiện
+# **Giới thiệu nội dung bài viết**
+Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn phân biệt <b>Model</b>, <b>ModelMap</b>, <b>Map</b> và <b>ModeAndView</b>. 
 
 <br>
 # **1. Model là gì**

@@ -12,16 +12,12 @@ youtubeId: 2xSwAsdcwLo
 youtubeId1: 9G2UAIWILa4
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn ,bạn đang có ý định làm một <b>website</b> cho mình nhưng không biết nên sử dụng framework nào
-để hỗ trợ việc làm website một cách đơn giản và đẹp .Hôm nay anh sẽ giới thiệu với các bạn <b>Boostrap</b> framework. Chúng ta sẽ đi qua các nội dung sau.
-
-- Bootstrap là gì ?
-- Lợi ích của Bootstrap
-- Cài đặt Bootstrap
-- Một số tính năng quan trong của Boostrap
-- Video trình bày cách làm một trang web đẹp bằng Bootstrap
+để hỗ trợ việc làm website một cách đơn giản và đẹp .Hôm nay anh sẽ giới thiệu với các bạn <b>Boostrap</b> framework.
 
 <br>
 # **1. Trước tiên ta hãy xem Bootstrap là gì**

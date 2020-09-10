@@ -10,6 +10,8 @@ description : Truyền dữ liệu từ component cha xuống component con tron
 youtubeId: 0734nF0B_BM
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách  <b>truyền dữ liệu từ component cha xuống con</b> là như thế nào? 
