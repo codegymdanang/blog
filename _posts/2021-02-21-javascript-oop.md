@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: OOP trong Javascript  
+title: Lập trình hướng đối tượng  
 slug : javascript-oop
 category: laptrinhjavascript
 tags: [javascript]

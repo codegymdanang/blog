@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Array trong Javascript  
+title: Sử dụng Array  
 slug : javascript-array
 category: laptrinhjavascript
 tags: [javascript]

@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Câu điều kiện trong Javascript  
+title: Câu điều kiện 
 slug : javascript-condition
 category: laptrinhjavascript
 tags: [javascript]

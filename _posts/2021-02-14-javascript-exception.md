@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Ngoại lệ trong Javascript  
+title: Ngoại lệ  
 slug : javascript-exception
 category: laptrinhjavascript
 tags: [javascript]

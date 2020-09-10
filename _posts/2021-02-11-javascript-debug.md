@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Debug lỗi trong Javascript  
+title: Debug lỗi  
 slug : javascript-debug
 category: laptrinhjavascript
 tags: [javascript]

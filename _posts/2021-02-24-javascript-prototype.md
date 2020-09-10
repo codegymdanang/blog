@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Prototype trong Javascript  
+title: Prototype  
 slug : javascript-prototype
 category: laptrinhjavascript
 tags: [javascript]

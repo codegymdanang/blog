@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Function trong Javascript  
+title: Sử dụng Function  
 slug : javascript-function
 category: laptrinhjavascript
 tags: [javascript]

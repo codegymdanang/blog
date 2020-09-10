@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Scope trong Javascript  
+title: Sử dụng Scope  
 slug : javascript-scope
 category: laptrinhjavascript
 tags: [javascript]

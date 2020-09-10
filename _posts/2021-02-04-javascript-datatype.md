@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Kiểu dữ liệu trong Javascript  
+title: Kiểu dữ liệu  
 slug : javascript-datatype
 category: laptrinhjavascript
 tags: [javascript]

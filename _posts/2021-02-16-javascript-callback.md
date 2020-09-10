@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Callback trong Javascript  
+title: Sử dụng Callback  
 slug : javascript-callback
 category: laptrinhjavascript
 tags: [javascript]

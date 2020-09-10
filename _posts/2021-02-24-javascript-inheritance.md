@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Kế thừa trong Javascript  
+title: Kế thừa  
 slug : javascript-inheritance
 category: laptrinhjavascript
 tags: [javascript]

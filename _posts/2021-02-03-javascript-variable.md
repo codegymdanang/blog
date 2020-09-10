@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Khai báo biến trong Javascript  
+title: Khai báo biến   
 slug : javascript-variable
 category: laptrinhjavascript
 tags: [javascript]

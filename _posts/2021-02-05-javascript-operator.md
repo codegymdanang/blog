@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Toán tử trong Javascript  
+title: Toán tử   
 slug : javascript-operator
 category: laptrinhjavascript
 tags: [javascript]

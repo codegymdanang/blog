@@ -1,6 +1,6 @@
 ---
 layout: course-javascript
-title: Vòng lặp trong Javascript  
+title: Vòng lặp  
 slug : javascript-loop
 category: laptrinhjavascript
 tags: [javascript]
