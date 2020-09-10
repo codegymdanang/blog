@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng JPA trong lập trình spring
+title: Sử dụng JPA
 slug : spring-jpa-query
 category: laptrinhspring
 tags: [spring-web]

@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Webservice trong học lập trình
+title: Webservice
 slug : webservice
 category: laptrinhspring
 tags: [spring-web]

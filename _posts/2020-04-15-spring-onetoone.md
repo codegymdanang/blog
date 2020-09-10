@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng OneToOne Relationship trong lập trình
+title: Sử dụng OneToOne Relationship
 slug : one-to-one
 category: laptrinhspring
 tags: [spring-web]

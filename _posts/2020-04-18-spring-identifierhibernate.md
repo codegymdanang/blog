@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Generation Identifier trong lập trình Spring
+title: Sử dụng Generation Identifier
 slug : generation-identifier
 category: laptrinhspring
 tags: [spring-web]

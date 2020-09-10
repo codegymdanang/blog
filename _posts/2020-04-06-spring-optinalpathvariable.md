@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Optional PathVariable trong lập trình Spring
+title: Sử dụng Optional PathVariable
 slug : optional-pathvariable
 category: laptrinhspring
 tags: [spring-web]

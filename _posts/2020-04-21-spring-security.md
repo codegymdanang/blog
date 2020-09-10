@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Spring Security trong lập trình Spring
+title: Sử dụng Spring Security
 slug : spring-security
 category: laptrinhspring
 tags: [spring-web]

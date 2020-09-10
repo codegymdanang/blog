@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Validation trong lập trình Spring
+title: Sử dụng Validation
 slug : spring-validation
 category: laptrinhspring
 tags: [spring-web]

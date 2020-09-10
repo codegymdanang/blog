@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Restful trong lập trình java
+title: Sử dụng Restful
 slug : restful
 category: laptrinhspring
 tags: [spring-web]

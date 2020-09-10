@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Spring Data JPA trong lập trình Spring
+title: Sử dụng Spring Data JPA
 slug : spring-jpa
 category: laptrinhspring
 tags: [spring-web]

@@ -1,6 +1,6 @@
 ---
 layout: course-spring-core
-title: Phạm Vi Của Bean Hoạt Động
+title: Phạm vi hoạt động của bean
 slug : bean-scope
 category: laptrinhspring
 tags: [spring-core]

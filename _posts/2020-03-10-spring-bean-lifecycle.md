@@ -1,6 +1,6 @@
 ---
 layout: course-spring-core
-title: Vòng đời Bean (Bean Lifecycle)
+title: Vòng đời Bean
 slug : bean-lifecycle
 category: laptrinhspring
 tags: [spring-core]

@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng các phương thức HTTP trong lập trình web
+title: Sử dụng các phương thức HTTP
 slug : phuong-thuc-http
 category: laptrinhspring
 tags: [spring-web]

@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Databinding trong  Spring  
+title: Sử dụng Databinding  
 slug : data-binding
 category: laptrinhspring
 tags: [spring-web]

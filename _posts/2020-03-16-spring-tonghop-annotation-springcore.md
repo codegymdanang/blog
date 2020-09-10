@@ -1,6 +1,6 @@
 ---
 layout: course-spring-core
-title: Tổng hợp các Annotation trong Spring Core
+title: Tổng hợp các Annotation
 slug : spring-core-annotation-collection
 category: laptrinhspring
 tags: [spring-core]

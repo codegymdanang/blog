@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Hibernate trong lập trình Spring
+title: Sử dụng Hibernate
 slug : hibernate
 category: laptrinhspring
 tags: [spring-web]

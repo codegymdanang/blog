@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Entity Manager Thao Tác Database
+title: Sử dụng Entity Manager 
 slug : entity-manager
 category: laptrinhspring
 tags: [spring-web]

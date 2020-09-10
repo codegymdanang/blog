@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng View Resolve Trong  Spring  
+title: Sử dụng View Resolve  
 slug : view-resolve
 category: laptrinhspring
 tags: [spring-web]

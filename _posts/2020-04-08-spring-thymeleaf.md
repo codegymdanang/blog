@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Thymeleaf trong  Spring  
+title: Sử dụng Thymeleaf 
 slug : thymeleaf
 category: laptrinhspring
 tags: [spring-web]
