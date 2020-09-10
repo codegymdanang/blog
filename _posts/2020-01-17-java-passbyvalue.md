@@ -11,16 +11,13 @@ description : Tham trị pass by value và tham chiếu pass by reference là 2 
 youtubeId: 0F_8a5_fKno
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các bạn, chắc chắn không ý bạn nhầm lẫn khái niệm <b>tham trị</b> và <b>tham chiếu</b>  ? Có rất nhiều bạn có nhận định chưa đúng về khái niệm
 Ví dụ như các bạn nói các tham số trong hàm nếu ta truyền kiểu nguyên thuỷ thì đó là <b>tham trị</b> còn nếu truyền kiểu object là <b>tham chiếu</b>.
-Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nhé. Để hiểu được bài viết này thì các em nên đọc qua bài viết về (bộ nhớ)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/] để nắm được cách lưu trữ các giá trị trong lập trình. Nội dung bài viết sẽ xoay quanh các vấn đề sau .
-
-- Gán giá trị là gì ?
-- Tham trị là gì ?
-- Tham chiếu là gì ?
-- Giải thích tham trị và tham chiếu qua ví dụ .  
+Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nhé. Để hiểu được bài viết này thì các em nên đọc qua bài viết về (bộ nhớ)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/] để nắm được cách lưu trữ các giá trị trong lập trình
 
 <br>
 # **1. Gán giá trị**

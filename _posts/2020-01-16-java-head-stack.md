@@ -11,16 +11,11 @@ description : Giải thích các hoạt động của bộ nhớ heap và stack 
 youtubeId: 5ix_2ALbqHY
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn ,chắc hẳn bạn đang phân vân khi mình khai báo biến ,object ,phương thức ,tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ? Ai sẽ quản lý bộ nhớ? Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ <b>Heap</b> và <b>Stack</b> lưu trữ dữ liệu gì và lưu như thế nào nhé .Các nội dung sau sẽ được trình bày trong bài viết hôm nay.
-
-- Các thuật ngữ về bộ nhớ.
-- Heap và Stack là gì ?
-- Bộ nhớ Heap dùng làm gì ?
-- Bộ nhớ Stack dùng làm gì ?
-- Giải thích về cách lưu trữ của Heap và Stack
-- Video demo về Heap và Stack
+Chào bạn ,chắc hẳn bạn đang phân vân khi mình khai báo biến ,object ,phương thức ,tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ? Ai sẽ quản lý bộ nhớ? Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ <b>Heap</b> và <b>Stack</b> lưu trữ dữ liệu gì và lưu như thế nào nhé .
 
 <br>
 # **1. Các thuật ngữ**

@@ -11,9 +11,12 @@ description : Hiểu về Strings là gì trong lập trình hướng đối tư
 youtubeId: fR05ShUphxA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em. Hôm nay chủ đề của chúng ta sẽ về Strings trong lập trình java.
+
 
 <br>
 # **1. Strings là gì**

@@ -11,6 +11,8 @@ description : Hiểu về  Kiểu dữ liệu là gì trong lập trình hướn
 youtubeId: fR05ShUphxA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em. Hôm nay chủ đề của chúng ta sẽ về  Kiểu dữ liệu trong lập trình java.

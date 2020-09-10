@@ -15,6 +15,8 @@ youtubeId: fR05ShUphxA
 
 Chào các em. Hôm nay chủ đề của chúng ta sẽ về Biến trong lập trình java.
 
+{% include toc.html %}
+
 <br>
 # **1. Biến là gì**
 

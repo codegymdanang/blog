@@ -11,6 +11,8 @@ description : Hiểu về If Else là gì trong lập trình hướng đối tư
 youtubeId: fR05ShUphxA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em. Hôm nay chủ đề của chúng ta sẽ về If Else trong lập trình java. Trong bài viết về các loại toán tử trong lập trình bài [trước](https://levunguyen.com/laptrinhjava/2020/01/04/toan-tu/) phần toán tử so sánh. Dựa vào những điều kiện trên ta sẽ thực hiện những hành động khác nhau dự trên kết quả so sánh. 

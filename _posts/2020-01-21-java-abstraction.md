@@ -11,14 +11,12 @@ description : Hiểu về tính trừu tượng trong lập trình hướng đ�
 youtubeId: MGWT_Y9Oi8I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn, nếu bạn là người mới tìm hiểu về <b>lập trình</b>, hẳn bạn đã từng nghe tới khái niệm về <b>tính trừu tượng</b>. Nếu bạn đang không hiểu
 thì bài viết sau đây sẽ giúp bạn hiểu rõ về <b>tính trừu tượng</b> hơn các khái niệm thông qua các ví dụ thực tế. Nội dung đề cập trong bài này là
-
-- Tính trừu tượng là gì?
-- Các ví dụ demo tính đa hình
-
 
 <br>
 # **1.  Tính trừu tượng là gì**

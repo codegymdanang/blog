@@ -11,19 +11,12 @@ description : Tìm hiểu các access modifier như public , private , static, d
 youtubeId: J7tZ9aSzqUg
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn, bạn đã từng nghe tới khái niệm về các <b>access modifier</b>  chưa ? Bài viết hôm nay giúp bạn phân biệt các từ khoá
-như public , private , protected và default. Khi nào thì mình nên dùng từ khoá nào là hợp lý nhất nhằm tăng thêm tính bảo mật cho các giá trị và phương thức trong
-lớp . Trong bài viết hôm nay chúng ta sẽ thảo luận các vấn đề sau .
-
-- Sử dụng từ khoá public
-- Sử dụng từ khoá private
-- Sử dụng từ khoá default
-- Sử dụng từ khoá protected
-- Sử dụng từ khoá static
-- Sử dụng từ khoá final
-- Video hướng dẫn sử
+như public , private , protected và default. Khi nào thì mình nên dùng từ khoá nào là hợp lý nhất nhằm tăng thêm tính bảo mật cho các giá trị và phương thức trong lớp 
 
 # **1. Tầm quan trọng của access modifier**
 

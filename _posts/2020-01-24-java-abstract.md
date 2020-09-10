@@ -12,6 +12,8 @@ youtubeId1 : hxTH18XG4qs
 youtubeId2 : kfQ7O7Fky8U
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn, nếu bạn là người mới tìm hiểu về lập trình, hẳn bạn đã từng nghe tới khái niệm về <b>Abstract</b> trong lập trình.

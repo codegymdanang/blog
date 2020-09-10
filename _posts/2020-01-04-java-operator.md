@@ -11,6 +11,8 @@ description : Hiểu về Toán tử là gì trong lập trình hướng đối 
 youtubeId: fR05ShUphxA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em. Hôm nay chủ đề của chúng ta sẽ về Toán tử trong lập trình java.

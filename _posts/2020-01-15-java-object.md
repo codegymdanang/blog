@@ -11,6 +11,8 @@ description : Hiểu về Object là gì trong lập trình hướng đối tư�
 youtubeId: fR05ShUphxA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em. Hôm nay chủ đề của chúng ta sẽ về Object trong lập trình java.

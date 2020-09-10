@@ -11,6 +11,8 @@ description : Array List là gì? Các phương thức có trong ArrayList và c
 youtubeId: SkajVxpYq7k
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chủ đề của chúng ta về ArrayList. Khi nào thì mình sẽ sử dụng nó nhé

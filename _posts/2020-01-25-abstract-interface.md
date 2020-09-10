@@ -12,18 +12,14 @@ youtubeId1 : hxTH18XG4qs
 youtubeId2 : kfQ7O7Fky8U
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn, nếu bạn là người mới tìm hiểu về lập trình, hẳn bạn đã từng nghe tới khái niệm về <b>Abstract</b> và <b>Interface</b>.
 Nhưng bạn có biết khi nào mình sẽ dùng abstract và khi nào mình dùng interface không? Khi mới bước chân vào
 nghề lập trình anh cũng rất hoang mang về công dụng và lợi ý của Abstract và Interface. Chính vì vậy anh
 viết bài này nhằm giúp mọi người có cái nhìn rõ hơn sự <b>khác nhau giữa abstract và interface</b>. Bài viết hôm nay sẽ xoay quanh các chủ đề sau.
-
-- Interface là gì ?
-- Abstract là gì ?
-- Sự khác nhau giữa Abstract và Interface
-- Khi nào chúng ta nên dùng Abstract hoặc Interface
-- Video demo
 
 <br>
 # **1. Interface là gì**

@@ -11,6 +11,8 @@ description : Hiểu về Switch là gì trong lập trình hướng đối tư�
 youtubeId: fR05ShUphxA
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em. Hôm nay chủ đề của chúng ta sẽ về Switch trong lập trình java. Switch dùng để chọn thực thi một khối lệnh đúng trong nhiều khối lệnh đưa ra.

@@ -11,6 +11,8 @@ description : Hiểu về tính đóng gói trong lập trình hướng đối t
 youtubeId: MGWT_Y9Oi8I
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào bạn, nếu bạn là người mới tìm hiểu về <b>lập trình</b>, hẳn bạn đã từng nghe tới khái niệm về <b>tính đóng gói</b>. Nếu bạn đang không hiểu

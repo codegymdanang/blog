@@ -11,6 +11,8 @@ description : HashMap là gì? Các phương thức có trong HashMap và cách 
 youtubeId: 5C2OqlhiYsg
 ---
 
+{% include toc.html %}
+
 # **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay chủ đề của chúng ta sẽ hướng dẫn cách tạo ra một HashMap theo mong muốn của chúng ta.
