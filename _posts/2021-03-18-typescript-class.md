@@ -1,6 +1,6 @@
 ---
 layout: course-typescript
-title: Sử dụng Class trong Typescript  
+title: Sử dụng Class  
 slug : typescript-class
 category: laptrinhjavascript
 tags: [typescript]

@@ -1,6 +1,6 @@
 ---
 layout: course-typescript
-title: Sử dụng Number trong Typescript  
+title: Sử dụng Number  
 slug : typescript-number
 category: laptrinhjavascript
 tags: [typescript]

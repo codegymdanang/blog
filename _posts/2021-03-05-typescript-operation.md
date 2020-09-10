@@ -1,6 +1,6 @@
 ---
 layout: course-typescript
-title: Sử dụng toán tử trong Typescript  
+title: Sử dụng toán tử 
 slug : typescript-operator
 category: laptrinhjavascript
 tags: [typescript]

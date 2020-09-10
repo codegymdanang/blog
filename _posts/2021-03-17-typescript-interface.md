@@ -1,6 +1,6 @@
 ---
 layout: course-typescript
-title: Sử dụng Interface trong Typescript  
+title: Sử dụng Interface  
 slug : typescript-interface
 category: laptrinhjavascript
 tags: [typescript]

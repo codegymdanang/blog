@@ -1,6 +1,6 @@
 ---
 layout: course-typescript
-title: Sử dụng Union Any Void Never any void never trong Typescript  
+title: Sử dụng Union Any Void Never any void never  
 slug : typescript-unio-any-void-never
 category: laptrinhjavascript
 tags: [typescript]

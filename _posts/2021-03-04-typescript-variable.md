@@ -1,6 +1,6 @@
 ---
 layout: course-typescript
-title: Sử dụng biến trong Typescript  
+title: Sử dụng biến   
 slug : typescript-variable
 category: laptrinhjavascript
 tags: [typescript]

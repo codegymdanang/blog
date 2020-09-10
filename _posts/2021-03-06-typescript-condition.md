@@ -1,6 +1,6 @@
 ---
 layout: course-typescript
-title: Sử dụng điều kiện trong Typescript  
+title: Sử dụng điều kiện  
 slug : typescript-condition
 category: laptrinhjavascript
 tags: [typescript]

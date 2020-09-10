@@ -1,6 +1,6 @@
 ---
 layout: course-typescript
-title: Sử dụng function trong Typescript  
+title: Sử dụng function  
 slug : typescript-function
 category: laptrinhjavascript
 tags: [typescript]
