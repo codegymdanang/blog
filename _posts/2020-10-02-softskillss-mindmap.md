@@ -1,7 +1,7 @@
 ---
 layout: course-softskill
 title: Mindmap bản đồ tư duy hiệu quả
-slug : ky-nang-quan-ly-thoi-gian-hieu-qua
+slug : mindmap-ban-do-tu-duy-hieu-qua
 category: career
 tags: [skills]
 summery: Mindmap   
