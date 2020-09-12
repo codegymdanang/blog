@@ -3,7 +3,7 @@ layout: course-tamsu
 title: Cẩm nang tìm việc hiệu quả
 slug : cam-nang-tim-viec
 category: career
-tags: [tamsu]
+tags: [skills]
 summery: Cẩm nang tìm việc  
 image: /images/blog/softskills.png
 featureImage: /images/post/javacore/feature_vieclam.png
