@@ -22,7 +22,7 @@ Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng v�
 # **1. Các collection trong java**
 
 {:refdef: style="text-align: center;"}
-![Cấu trúc dự án](/images/post/collection/collection.png){:class="img-responsive"}
+![collection](/images/post/collection/collection.png){:class="img-responsive"}
 {: refdef}
 
 <br>
