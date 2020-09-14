@@ -21,7 +21,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Grid</b
 Grid là một hệ thống lưới nó chia trang web chúng ta thành 12 cột. Hầu hết các website sử dụng bootstrap đều sử dụng hệ thống lưới để làm layout cho trang web và bố trí các phần tử trong này. Hệ thống lưới giúp website trở nên responsive trên các thiết bị khác nhau. 
 
 {:refdef: style="text-align: center;"}
-![Grid](/images/post/boostrap/grid.png){:class="img-responsive"}
+![Grid](/images/post/boostrap/grid.PNG){:class="img-responsive"}
 {: refdef}
 
 # **2. Grid Class**
