@@ -75,7 +75,7 @@ Chúng ta sử dụng class form-inline để tạo các thành phần trên m�
 {% endhighlight %}
 
 {:refdef: style="text-align: center;"}
-![inline form](/images/post/boostrap/inlineform.png){:class="img-responsive"}
+![inline form](/images/post/boostrap/inline.png){:class="img-responsive"}
 {: refdef}
 
 
