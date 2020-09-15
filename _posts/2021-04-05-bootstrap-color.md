@@ -43,7 +43,7 @@ Ví dụ như ta có các màu sau.
 
 
 {:refdef: style="text-align: center;"}
-![Color](/images/post/boostrap/heading.color){:class="img-responsive"}
+![Color](/images/post/boostrap/color.png){:class="img-responsive"}
 {: refdef}
 
 # **2. Màu sắc cho Background trong Bootstrap 4**
