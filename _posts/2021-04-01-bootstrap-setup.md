@@ -88,11 +88,11 @@ Chúng ta thêm thẻ meta trong the head để cấu hình
 
 {% endhighlight %}
 
-Thẻ viewport cấu hình cho trang web có thể hiển thị tương thích với các thiết bị khác nhau như mobile, máy desktop, máy table hoặc tivi.
++ Thẻ viewport cấu hình cho trang web có thể hiển thị tương thích với các thiết bị khác nhau như mobile, máy desktop, máy table hoặc tivi.
 
-Thuộc tính width=device-width nói trang web sẽ có  chiều rộng của mình bằng chiều rộng màn hình của thiết bị.
++ Thuộc tính width=device-width nói trang web sẽ có  chiều rộng của mình bằng chiều rộng màn hình của thiết bị.
 
-Thuộc tính initial-scale=1.0 dùng để cấu hình mức zoom ban đầu khi trang web được load lên.
++ Thuộc tính initial-scale=1.0 dùng để cấu hình mức zoom ban đầu khi trang web được load lên.
 
 - Bước 3 : Thêm framework bootstrap vào website
 
