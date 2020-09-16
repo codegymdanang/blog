@@ -71,5 +71,5 @@ Ví dụ như ta có các màu sau.
 
 
 {:refdef: style="text-align: center;"}
-![Background Color](/images/post/boostrap/bgcolor.color){:class="img-responsive"}
+![Background Color](/images/post/boostrap/bgcolor.png){:class="img-responsive"}
 {: refdef}
