@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
 title: Container 
-slug : cai-dat-bootstrap
+slug : bootstrap-container
 category: laptrinhweb
 tags: [bootstrap]
 summery: Container
