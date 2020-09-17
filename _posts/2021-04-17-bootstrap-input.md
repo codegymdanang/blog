@@ -187,18 +187,101 @@ Chúng ta có thể tạo ra những input to nhỏ và trung bình bằng cách
 
 {% endhighlight %}
 
+# **7. Input Group**
+
+Chúng ta có thể thêm icon text hoặc button trong input bằng cách sử dụng class .input-group-prepend hoặc .input-group-append
+
+{:refdef: style="text-align: center;"}
+![input2](/images/post/boostrap/input2.png){:class="img-responsive"}
+{: refdef}
+
+<br>
+{% highlight html  linenos %}
+
+ <form>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">@</span>
+    </div>
+    <input type="text" class="form-control" placeholder="Username">
+  </div>
+
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Your Email">
+    <div class="input-group-append">
+      <span class="input-group-text">@example.com</span>
+    </div>
+  </div>
+</form> 
+
+{% endhighlight %}
 
 
+# **8. Input Group và Checkbox**
 
+Chúng ta có thể kết hợp Input Group và checkbox
 
+{:refdef: style="text-align: center;"}
+![input3](/images/post/boostrap/input3.png){:class="img-responsive"}
+{: refdef}
 
+<br>
+{% highlight html  linenos %}
 
+   <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="checkbox">
+    </div>
+  </div>
+  <input type="text" class="form-control" placeholder="Some text">
+</div>
 
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="radio">
+    </div>
+  </div>
+  <input type="text" class="form-control" placeholder="Some text">
+</div> 
 
+{% endhighlight %}
 
+# **9. Input Group và Button**
 
+Chúng ta có thể kết hợp Input Group và Button
 
+{:refdef: style="text-align: center;"}
+![input4](/images/post/boostrap/input4.png){:class="img-responsive"}
+{: refdef}
 
+<br>
+{% highlight html  linenos %}
+
+ <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-primary" type="button">Basic Button</button>
+  </div>
+  <input type="text" class="form-control" placeholder="Some text">
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Search">
+  <div class="input-group-append">
+    <button class="btn btn-success" type="submit">Go</button>
+  </div>
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Something clever..">
+  <div class="input-group-append">
+    <button class="btn btn-primary" type="button">OK</button>
+    <button class="btn btn-danger" type="button">Cancel</button>
+  </div>
+</div> 
+
+{% endhighlight %}
 
 
 
