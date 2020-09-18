@@ -117,7 +117,7 @@ Mặc định modal có kích thướt trung bình.
 
 {% endhighlight %}
 
-# **5. Modal có thanh cuộn nếu nội dung bên trong nhiều Bootstrap 4**Chung
+# **5. Modal có thanh cuộn nếu nội dung bên trong nhiều**
 
 Chúng ta có thể thêm scrollbar vào bằng việc sử dụng class .modal-dialog-scrollable  .modal-dialog
 
