@@ -160,8 +160,7 @@ Chúng ta sử dụng data-toggle="table", .tab-pane và .tab-content để làm
   <div class="tab-pane container fade" id="menu2">...</div>
 </div>
 
-{% endhighlight %5
-
+{% endhighlight %}
 
 
 
