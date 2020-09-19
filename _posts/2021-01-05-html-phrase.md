@@ -1,12 +1,12 @@
 ---
 layout: course-html
-title: Các thẻ cụm từ   
-slug : cac-the-phrase-html
+title: Thẻ Meta   
+slug : the-meta-html
 category: laptrinhweb
 tags: [html]
-summery: Cụm từ   
+summery: Thẻ Meta   
 image: /images/blog/angular.png
-description : Sử dụng các thẻ cụm từ trong HTML trong dự án làm web. Hướng dẫn sử dụng các cụm từ  HTML vào dự án web. 
+description : Sử dụng các thẻ Meta từ trong HTML trong dự án làm web. Hướng dẫn sử dụng thẻ Meta trong  HTML vào dự án web. 
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -14,143 +14,17 @@ youtubeId: Ex3glZTCvlY
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng thẻ <b>cụm từ </b> là như thế nào?
+Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng thẻ <b>thẻ Meta </b> là như thế nào?
 
-# **1. Nhấn mạnh văn bản**
+# **1. Thẻ meta**
 
-Để nhấn mạnh một nội dung trong văn bản ta sử dụng thẻ em như sau
+Chúng ta sử dụng thẻ meta để thêm các thông tin mô tả cho trang web. Thông thường các trang web sử dụng thẻ meta để tăng thứ hạng SEO trong google. Nó là một tiêu chí để google có thể hiểu rõ về website của mình.
 
+Thẻ meta được khai báo trong thẻ head. Nó gồm có các thuộc tính name, content, schema và http-equiv.
 
-{% highlight html linenos %}
+# **2. Mô tả từ khoá chính về trang web**
 
-<!DOCTYPE html>
-<html>
-
-   <head>
-      <title>Emphasized Text Example</title>
-   </head>
-   
-   <body>
-      <p>The following word uses an <em>emphasized</em> typeface.</p>
-   </body>
-   
-</html>
-
-{% endhighlight %} 
-
-{:refdef: style="text-align: center;"}
-![phrase1](/images/post/html/phrase1.png){:class="img-responsive"}
-{: refdef}
-
-
-# **2. Highlight văn bản**
-
-Chúng ta sử dụng thẻ mark để làm highlight một từ hoặc nhiều từ như sau
-
-
-{% highlight html linenos %}
-
-<!DOCTYPE html>
-<html>
-
-   <head>
-      <title>Marked Text Example</title>
-   </head>
-   
-   <body>
-      <p>The following word has been <mark>marked</mark> with yellow</p>
-   </body>
-   
-</html>
-
-{% endhighlight %} 
-
-{:refdef: style="text-align: center;"}
-![phrase2](/images/post/html/phrase2.png){:class="img-responsive"}
-{: refdef}
-
-
-# **3. In đậm văn bản**
-
-Chúng ta sử dụng thẻ strong để in đậm chữ
-
-{% highlight html linenos %}
-
-<!DOCTYPE html>
-<html>
-
-   <head>
-      <title>Strong Text Example</title>
-   </head>
-   
-   <body>
-      <p>The following word uses a <strong>strong</strong> typeface.</p>
-   </body>
-   
-</html>
-
-{% endhighlight %} 
-
-{:refdef: style="text-align: center;"}
-![phrase3](/images/post/html/phrase3.png){:class="img-responsive"}
-{: refdef}
-
-# **4. Gạch dưới văn bản**
-
-Chúng ta muốn gạch dưới một từ thì sử dụng thẻ abbr như sau
-
-{% highlight html linenos %}
-
-<!DOCTYPE html>
-<html>
-
-   <head>
-      <title>Text Abbreviation</title>
-   </head>
-   
-   <body>
-      <p>My best friend's name is  <abbr title = "Abhishek">Abhy</abbr>.</p>
-   </body>
-   
-</html>
-
-{% endhighlight %} 
-
-{:refdef: style="text-align: center;"}
-![phrase4](/images/post/html/phrase4.png){:class="img-responsive"}
-{: refdef}
-
-# **5. Trích dẫn văn bản**
-
-Để trích dẫn một văn bản ở nơi khác vào trang web của mình chúng ta sử dụng thẻ blockquote như sau
-
-{% highlight html linenos %}
-
-<!DOCTYPE html>
-<html>
-
-   <head>
-      <title>Blockquote Example</title>
-   </head>
-   
-   <body>
-      <p>The following description of XHTML is taken from the W3C Web site:</p>
-
-      <blockquote>XHTML 1.0 is the W3C's first Recommendation for XHTML,following on 
-         from earlier work on HTML 4.01, HTML 4.0, HTML 3.2 and HTML 2.0.</blockquote>
-   </body>
-   
-</html>
-
-{% endhighlight %} 
-
-{:refdef: style="text-align: center;"}
-![phrase5](/images/post/html/phrase5.png){:class="img-responsive"}
-{: refdef}
-
-# **6. Nhúng source code của các ngôn ngữ vào html**
-
-Chúng ta có thể hiển thị code của các ngôn ngữ lên trang web bằng cách sử dụng thẻ code như sau
+Chúng ta sử dụng thẻ meta để chỉ ra những từ khoá nào là quan trọng mà website chúng ta đang làm về nó. Điều này giúp google có thể đánh index lại. Chúng ta sử dụng thuộc tính keywork như sau.
 
 {% highlight html linenos %}
 
@@ -158,43 +32,190 @@ Chúng ta có thể hiển thị code của các ngôn ngữ lên trang web bằ
 <html>
    
    <head>
-      <title>Computer Code Example</title>
+      <title>Meta Tags Example</title>
+      <meta name = "keywords" content = "HTML, Meta Tags, Metadata" />
    </head>
    
    <body>
-      <p>Regular text. <code>This is code.</code> Regular text.</p>
+      <p>Hello HTML5!</p>
    </body>
    
 </html>
 
 {% endhighlight %} 
 
-# **7. Địa chỉ**
+- content : chính là các từ khoá mà website chúng ta đang làm. Ví dụ như làm về các website du lịch thì content sẽ chứa đựng các từ khoá về du lịch.
 
-Chúng ta sử dụng thẻ address để hiển thị địa chỉ như sau
+# **2. Mô tả về nội dung trang web**
+
+Chúng ta dùng description để mô tả nội dung website mình làm về cái gì.
 
 {% highlight html linenos %}
 
 <!DOCTYPE html>
 <html>
-   
+
    <head>
-      <title>Address Example</title>
+      <title>Meta Tags Example</title>
+      <meta name = "keywords" content = "HTML, Meta Tags, Metadata" />
+      <meta name = "description" content = "Learning about Meta Tags." />
    </head>
    
    <body>
-      <address>388A, Road No 22, Jubilee Hills -  Hyderabad</address>
+      <p>Hello HTML5!</p>
    </body>
    
 </html>
 
 {% endhighlight %} 
 
+# **3. Mô tả thời gian cập nhật trang web**
+
+Chúng ta dùng revised để mô tả thời gian nội dung website được cập nhật.
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Meta Tags Example</title>
+      <meta name = "keywords" content = "HTML, Meta Tags, Metadata" />
+      <meta name = "description" content = "Learning about Meta Tags." />
+      <meta name = "revised" content = "Tutorialspoint, 3/7/2014" />
+   </head>
+   
+   <body>
+      <p>Hello HTML5!</p>
+   </body>
+   
+</html>
+
+{% endhighlight %}
+
+# **4. Làm mới lại trang web**
+
+Chúng ta có thể cấu hình để trang web tự động refresh (làm mới) sau một khoản thời gian bằng thuộc tính refresh như sau.
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Meta Tags Example</title>
+      <meta name = "keywords" content = "HTML, Meta Tags, Metadata" />
+      <meta name = "description" content = "Learning about Meta Tags." />
+      <meta name = "revised" content = "Tutorialspoint, 3/7/2014" />
+      <meta http-equiv = "refresh" content = "5" />
+   </head>
+   
+   <body>
+      <p>Hello HTML5!</p>
+   </body>
+   
+</html>
+
+{% endhighlight %}
 
 
+# **5. Chuyển hướng trang tới một trang web khác**
+
+Chúng ta có thể thiết lập trang web sau một khoản thời gian cố định nó sẽ chuyển qua một trang web khác bằng cách thêm thuộc tính content và đường link trang web khác như sau
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Meta Tags Example</title>
+      <meta name = "keywords" content = "HTML, Meta Tags, Metadata" />
+      <meta name = "description" content = "Learning about Meta Tags." />
+      <meta name = "revised" content = "Tutorialspoint, 3/7/2014" />
+      <meta http-equiv = "refresh" content = "5; url = http://www.tutorialspoint.com" />
+   </head>
+   
+   <body>
+      <p>Hello HTML5!</p>
+   </body>
+   
+</html>
+
+{% endhighlight %}
 
 
+# **6. Thêm author cho website**
 
+Chúng ta sử dụng thuộc tính author để thêm tên mà người làm ra trang web như sau
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Meta Tags Example</title>
+      <meta name = "keywords" content = "HTML, Meta Tags, Metadata" />
+      <meta name = "description" content = "Learning about Meta Tags." />
+      <meta name = "author" content = "Mahnaz Mohtashim" />
+   </head>
+   
+   <body>
+      <p>Hello HTML5!</p>
+   </body>
+   
+</html>
+
+{% endhighlight %}
+
+# **7. Thiết lập mã hoá ký tự cho website**
+
+Chúng ta có thể sử dụng bảng mã UTF8 để viết tiếng Việt hoặc đối với các ngôn ngữ khác như Campuchia hay Thailand thì dùng bảng chữ cái khác. Bằng cách set thuộc tính charset như sau. Trong ví dụ này ta dùng UTF-8
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Meta Tags Example</title>
+      <meta name = "keywords" content = "HTML, Meta Tags, Metadata" />
+      <meta name = "description" content = "Learning about Meta Tags." />
+      <meta name = "author" content = "Mahnaz Mohtashim" />
+      <meta http-equiv = "Content-Type" content = "text/html; charset = UTF-8" />
+   </head>
+   
+   <body>
+      <p>Hello HTML5!</p>
+   </body>
+   
+</html>
+
+{% endhighlight %}
+
+- Ví dụ như viết chữ Trung Quốc thì ta dùng charset Big5 như sau
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Meta Tags Example</title>
+      <meta name = "keywords" content = "HTML, Meta Tags, Metadata" />
+      <meta name = "description" content = "Learning about Meta Tags." />
+      <meta name = "author" content = "Mahnaz Mohtashim" />
+      <meta http-equiv = "Content-Type" content = "text/html; charset = Big5" />
+   </head>
+   
+   <body>
+      <p>Hello HTML5!</p>
+   </body>
+   
+</html>
+
+{% endhighlight %}
 
 
 
