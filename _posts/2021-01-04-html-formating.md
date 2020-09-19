@@ -273,8 +273,11 @@ Chúng ta sử dụng thẻ div hoặc span để nhóm các thẻ lại với n
    
 </html>
 
-
 {% endhighlight %} 
+
+{:refdef: style="text-align: center;"}
+![formating10](/images/post/html/formating10.png){:class="img-responsive"}
+{: refdef}
 
 - Ví dụ thẻ span
 
@@ -297,5 +300,8 @@ Chúng ta sử dụng thẻ div hoặc span để nhóm các thẻ lại với n
 
 {% endhighlight %} 
 
+{:refdef: style="text-align: center;"}
+![formating11](/images/post/html/formating11.png){:class="img-responsive"}
+{: refdef}
 
 
