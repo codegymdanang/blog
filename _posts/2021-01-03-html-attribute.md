@@ -76,7 +76,7 @@ Ví dụ
    
 </html>
 
-{% highlight html linenos %}
+{% endhighlight %} 
 
 {:refdef: style="text-align: center;"}
 ![attribute2](/images/post/html/attribute2.png){:class="img-responsive"}
@@ -99,7 +99,7 @@ Ví dụ
    
 </html>
 
-{% highlight html linenos %}
+{% endhighlight %} 
 
 - style : cũng giống như class nhưng trong style ta thêm thẳng giá trị css vào
 
@@ -118,7 +118,7 @@ Ví dụ
    
 </html>
 
-{% highlight html linenos %}
+{% endhighlight %} 
 
 # **3. Thuột tính lang HTML**
 
@@ -140,7 +140,7 @@ Thuộc tính lang giúp chúng ta khai báo là ngôn ngữ chính hiển thị
 
 </html>
 
-{% highlight html linenos %}
+{% endhighlight %} 
 
 
 
