@@ -205,9 +205,88 @@ Chúng ta sử dụng thuộc tính width và height để xát định chiều 
 
 {% endhighlight %} 
 
+# **6. Tiêu đề cho table**
 
+Chúng ta có thể thêm tiêu đề cho table bằng thuộc tính caption như sau
 
+{% highlight html linenos %}
 
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Table Caption</title>
+   </head>
+   
+   <body>
+      <table border = "1" width = "100%">
+         <caption>This is the caption</caption>
+         
+         <tr>
+            <td>row 1, column 1</td><td>row 1, columnn 2</td>
+         </tr>
+         
+         <tr>
+            <td>row 2, column 1</td><td>row 2, columnn 2</td>
+         </tr>
+      </table>
+   </body>
+   
+</html>
+   
+
+{% endhighlight %} 
+
+{:refdef: style="text-align: center;"}
+![table5](/images/post/html/table5.png){:class="img-responsive"}
+{: refdef}
+
+# **6. Header Body và Footer trong table**
+
+Chúng ta sử dụng thead để tạo header trong table, tbody để chỉ nội dung bên trong table và tfoot để tạo ra footer
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Table</title>
+   </head>
+   
+   <body>
+      <table border = "1" width = "100%">
+         <thead>
+            <tr>
+               <td colspan = "4">This is the head of the table</td>
+            </tr>
+         </thead>
+         
+         <tfoot>
+            <tr>
+               <td colspan = "4">This is the foot of the table</td>
+            </tr>
+         </tfoot>
+         
+         <tbody>
+            <tr>
+               <td>Cell 1</td>
+               <td>Cell 2</td>
+               <td>Cell 3</td>
+               <td>Cell 4</td>
+            </tr>
+         </tbody>
+         
+      </table>
+   </body>
+   
+</html>
+
+{% endhighlight %} 
+
+{:refdef: style="text-align: center;"}
+![table6](/images/post/html/table6.png){:class="img-responsive"}
+{: refdef}
 
 
 

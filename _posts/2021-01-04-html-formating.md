@@ -247,27 +247,42 @@ Chúng ta có thể sử dụng thẻ small để làm chữ nhỏ hơn như sau
 
 Chúng ta sử dụng thẻ div hoặc span để nhóm các thẻ lại với nhau.
 
-- Ví dụ chúng ta sử dụng div để nhóm các thành phần của HTML vào một chỗ
+- Ví dụ chúng ta sử dụng div để nhóm các thành phần của HTML vào một chỗ. Thẻ div là một thẻ quan trọng. Khi ta set giá trị cho thẻ div, các phần tử bên trong thẻ div sẽ được áp dụng chung thuộc tính mà ta set cho div. 
 
 {% highlight html linenos %}
 
 <!DOCTYPE html>
 <html>
-
+   
    <head>
-      <title>Div Tag Example</title>
+      <title>HTML div Tag</title>
    </head>
    
    <body>
-      <div id = "menu" align = "middle" >
-         <a href = "/index.htm">HOME</a> | 
-         <a href = "/about/contact_us.htm">CONTACT</a> | 
-         <a href = "/about/index.htm">ABOUT</a>
+      <!-- First group of tags -->
+      <div style = "color:red">
+         <h4>This is first group</h4>
+         <p>Following is a list of vegetables</p>
+         
+         <ul>
+            <li>Beetroot</li>
+            <li>Ginger</li>
+            <li>Potato</li>
+            <li>Radish</li>
+         </ul>
       </div>
 
-      <div id = "content" align = "left" bgcolor = "white">
-         <h5>Content Articles</h5>
-         <p>Actual content goes here.....</p>
+      <!-- Second group of tags -->
+      <div style = "color:green">
+         <h4>This is second group</h4>
+         <p>Following is a list of fruits</p>
+         
+         <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+            <li>Strawberry</li>
+         </ul>
       </div>
    </body>
    
@@ -279,7 +294,7 @@ Chúng ta sử dụng thẻ div hoặc span để nhóm các thẻ lại với n
 ![formating10](/images/post/html/formating10.png){:class="img-responsive"}
 {: refdef}
 
-- Ví dụ thẻ span
+- Ví dụ thẻ span được sử dụng nhóm các thuộc tính trên cùng một dòng. Sự khác nhau giữa span và div là . Span chỉ áp dụng trên một dòng (inline) ở các phần tử còn div sẽ áp dụng cho một nhóm (blocked) nhiều thành phần.
 
 {% highlight html linenos %}
 

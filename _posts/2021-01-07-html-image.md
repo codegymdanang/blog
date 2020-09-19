@@ -119,9 +119,29 @@ Chúng ta có thể canh chỉnh hình ảnh ở vị trí bên trái, phải ha
 
 {% endhighlight %}
 
+# **5. Image link**
 
+Chúng ta có thể thêm đường link vào ảnh. Khi người dùng click vô ảnh sẽ chạy tới trang web mà chúng ta link đến bằng cách sử dụng thẻ a và thuộc tính href (trang web sẽ được mở)
 
+{% highlight html linenos %}
 
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Image Hyperlink Example</title>
+   </head>
+   
+   <body>
+      <p>Click following link</p>
+      <a href = "https://levunguyen.com" target = "_self"> 
+         <img src = "/images/logo.png" alt = "Tutorials Point" border = "0"/> 
+      </a>
+   </body>
+   
+</html>
+
+{% endhighlight %}
 
 
 
