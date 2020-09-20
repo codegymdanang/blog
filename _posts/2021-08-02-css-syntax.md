@@ -95,6 +95,8 @@ Cũng tương tự như class chúng ta có thể tạo ra bộ chọn bằng ID
 </p>
 {% endhighlight %}
 
+Sự khác nhau giữa bộ chọn class và id là Id có nghĩa là duy nhất. Chỉ áp dụng 1 phần tử trong web. Còn class thì nhiều phần tử trong web có thể dùng được.
+
 # **4. Dấu * trong selector**
 
 Nếu chúng ta không muốn chọn một selector cụ thể thì ta có thể sử dụng dấu * có nghĩa là chọn toàn bộ các phần tử trong HTML.
