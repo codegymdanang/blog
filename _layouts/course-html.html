@@ -72,18 +72,22 @@
 				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> HTML </span>
 			</div>
 			<div>
-				{% assign sorted = site.categories.laptrinhweb | reverse %}
-				{% for post in  sorted %}
-				{% if post.tags contains 'html' %}
+				
 				<div >
 					<ul>
-						<li style="list-style-type: decimal;">
-							<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
-						</li>
+						<ol>
+							{% assign sorted = site.categories.laptrinhweb | reverse %}
+							{% for post in  sorted %}
+								{% if post.tags contains 'html' %}
+							<li >
+								<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
+							</li>
+							{% endif %}
+							{% endfor %}
+						</ol>
 					</ul>
 				</div>
-				{% endif %}
-				{% endfor %}
+				
 			</div>
 		</div>
 
