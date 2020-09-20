@@ -79,14 +79,124 @@ Như vậy ta có thẻ mở HTML là \< h1 \> và thẻ đóng html là \< \/h1
 
 Như vậy ta thấy một trang HTML cơ bản phải có những phần trên. Tuỳ vào mỗi loại văn bản hiển thị mà chúng ta sẽ viết thêm code trong phần body với các thẻ mà HTML cung cấp cho mình.
 
+# **4. Thẻ title**
+
+Thẻ title dùng để đặt tên cho website. Ví dụ như blog của anh mọi người sẽ thấy cái tab trên trình duyệt là học lập trình
+
+- Ví dụ ta có một file HTML như sau
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Học lập trình</title>
+   </head>
+
+   <body>
+      <p>Hello, World!</p>
+   </body>
+
+</html>
+
+
+{% endhighlight %} 
+
+{:refdef: style="text-align: center;"}
+![title1](/images/post/html/title1.png){:class="img-responsive"}
+{: refdef}
+
+
+# **5. Thẻ base**
+
+Thẻ base được sử dụng với mục đích tất cả các trang đường link trong website sẽ được nối thêm vào bởi url được khai báo trong thẻ base. Ví dụ ta có thể base là https://levunguyen.com và ta có trang about. Thì nó sẽ được nối lại là https://levunguyen.com/about.
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML Base Tag Example</title>
+      <base href = "https://www.tutorialspoint.com/" />
+   </head>
+
+   <body>
+      <img src = "/images/logo.png" alt = "Logo Image"/>
+      <a href = "/html/index.htm" title = "HTML Tutorial"/>HTML Tutorial</a> 
+   </body>
+
+</html>
+
+
+{% endhighlight %} 
+
+
+- Kết quả ở trên ta sẽ có đường link là https://levunguyen.com/images/logo.png và https://levunguyen.com/html/index.htm
+
+
+# **5. Thẻ link**
+
+Thẻ link dùng để liên kết tài liệu HTML với những tài liệu bên ngoài hoặc các file liên quan bên ngoài. Trong ví dụ này ta sử dụng HTML liên kết với Css (CSS là công cụ để ta trang trí website đẹp hơn).
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML link Tag Example</title>
+      <base href = "https://www.tutorialspoint.com/" />
+      <link rel = "stylesheet" type = "text/css" href = "/css/style.css">
+   </head>
+	
+   <body>
+      <p>Hello, World!</p>
+   </body>
+	
+</html>
+
+
+{% endhighlight %} 
+
+# **5. Thẻ Style**
+
+Chúng ta sử dụng thẻ style để trang trí cho website. Chúng ta có thể thay đổi, thêm màu sắc và website thông qua thẻ style.
+
+
+{% highlight html linenos %}
+
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>HTML style Tag Example</title>
+      <base href = "https://www.tutorialspoint.com/" />
+      
+      <style type = "text/css">
+         .myclass {
+            background-color: #aaa;
+            padding: 10px;
+         }
+      </style>
+   </head>
+	
+   <body>
+      <p class = "myclass">Hello, World!</p>
+   </body>
+
+</html>
+
+
+{% endhighlight %} 
+
+- Trong thẻ style chúng ta khai báo một class là .myclass. Trong class này ta nhóm các thuộc tính như màu sắc , padding.
+
+- Để sử dụng được myclass trong style thì trong thẻ p ta sử dụng thuộc tính class và giá trị là tên myclass mà ta định nghĩa trong style. Kết quả thẻ p sẽ có background là màu xám và padding 10px.
+
+
 Trong các bài tiếp theo anh sẽ giới thiệu thêm các thẻ HTML để xây dựng nên một website.
-
-
-
-
-
-
-
 
 
 
