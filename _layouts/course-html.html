@@ -74,17 +74,17 @@
 			<div>
 				
 				<div >
-					<ul>
-						<ol>
+					<ul style="list-style-type:decimal;">
+						
 							{% assign sorted = site.categories.laptrinhweb | reverse %}
 							{% for post in  sorted %}
 								{% if post.tags contains 'html' %}
-							<li >
+							<li>
 								<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
 							</li>
 							{% endif %}
 							{% endfor %}
-						</ol>
+						
 					</ul>
 				</div>
 				
