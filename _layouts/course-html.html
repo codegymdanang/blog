@@ -69,7 +69,7 @@
 	<div class="row">
 		<div class="col-lg-2 col-sm-2" style="display: table;font-size: medium;padding: 0px;line-height: 40px;">
 			<div>
-				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Angular </span>
+				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> HTML </span>
 			</div>
 			<div>
 				{% assign sorted = site.categories.laptrinhweb | reverse %}
@@ -77,11 +77,9 @@
 				{% if post.tags contains 'html' %}
 				<div >
 					<ul>
-						<ol type = "1">
-							<li>
-								<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
-							</li>
-						</ol>
+						<li style="list-style-type: asterisks;">
+							<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
+						</li>
 					</ul>
 				</div>
 				{% endif %}
