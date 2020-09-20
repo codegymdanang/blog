@@ -4,7 +4,7 @@ title: Thuột tính của HTML
 slug : thuot-tinh-html
 category: laptrinhweb
 tags: [html]
-summery: Thuột tính   
+summery: Thuộc tính   
 image: /images/blog/angular.png
 description : Sử dụng các thuột tính HTML trong dự án làm web. Hướng dẫn sử dụng các thuột tính HTML vào dự án web. 
 youtubeId: Ex3glZTCvlY

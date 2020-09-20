@@ -77,9 +77,11 @@
 				{% if post.tags contains 'html' %}
 				<div >
 					<ul>
-						<li style="list-style-type: asterisks;">
-							<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
-						</li>
+						<ol>
+							<li>
+								<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
+							</li>
+						</ol>
 					</ul>
 				</div>
 				{% endif %}
