@@ -1,6 +1,6 @@
 ---
 layout: course-css
-title: Sử dụng đơn vị do trong HTML  
+title: Sử dụng đơn vị do trong CSS  
 slug : don-vi-do-css
 category: laptrinhweb
 tags: [css]
