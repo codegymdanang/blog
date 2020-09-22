@@ -1,7 +1,7 @@
 ---
 layout: course-css
 title: Sử dụng CSS trong HTML  
-slug : cu-phap-css
+slug : su-dung-css-trong-html
 category: laptrinhweb
 tags: [css]
 summery: Sử dụng CSS trong HTML  
