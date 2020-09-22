@@ -40,6 +40,8 @@ Cú pháp của CSS được chia ra làm 3 phần
 + Border chính là thuộc tính
 + 1px solid #C00 chính là giá trị cho thuộc tính border
 
+# **2. Bộ chọn thẻ HTML**
+
 - Ví dụ như ta muốn tất cả thẻ h1 trong trong web phải có màu xanh dương. Ta khai báo như sau
 
 {% highlight css linenos %}
@@ -50,9 +52,9 @@ h1 {
 
 {% endhighlight %}
 
-- Như vậy selector (bộ chọn) trên được gọi là bộ chọn sử dụng các thẻ HTML  (H1 , table)
+- Như vậy selector (bộ chọn) trên được gọi là bộ chọn sử dụng các thẻ HTML  như h1, table, ul, form v.v. Chúng ta áp dụng CSS trên các thẻ của HTML
 
-# **2. Bộ chọn là Class**
+# **3. Bộ chọn Class**
 
 Chúng ta có thể tạo ra bộ chọn bằng class với cách khai báo là .tên-class như sau. Ví dụ như ta tạo ra class là black
 
@@ -74,7 +76,7 @@ Chúng ta có thể tạo ra bộ chọn bằng class với cách khai báo là 
 
 {% endhighlight %}
 
-# **3. Bộ chọn là ID**
+# **3. Bộ chọn ID**
 
 Cũng tương tự như class chúng ta có thể tạo ra bộ chọn bằng ID với cách khai báo #tên-id. Ví dụ như ta muốn tạo ra Id là black như sau
 
