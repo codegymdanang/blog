@@ -1,11 +1,11 @@
 ---
 layout: course-spring-core
-title: Phạm vi hoạt động của bean
-slug : bean-scope
+title: Phạm vi hoạt động của bean trong Spring
+slug : pham-vi-hoat-dong-bean-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Bean Scope
-image: /images/blog/spring.png
+imagspringages/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Sử dụng Bean Scope trong lập trình Spring. Hiểu được Bean Scope là gì. Hướng dẫn sử dụng Bean Scope trong lập trình Spring.
 youtubeId: 0n8_2yG5F7I

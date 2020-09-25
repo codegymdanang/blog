@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Nhúng Dependency Injection bằng phương thức Setter
-slug : dependency-injection-bang-setter
+title: Nhúng Dependency Injection bằng phương thức Setter trong Spring
+slug : nhung-dependency-injection-bang-phuong-thuc-setter-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Nhúng DI bằng Setter 

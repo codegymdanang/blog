@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Annotation PropertySource
-slug : spring-annotation-property-source
+title: Sử dụng Annotation PropertySource trong Spring
+slug : su-dung-annotation-property-source-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: PropertySource Annotation

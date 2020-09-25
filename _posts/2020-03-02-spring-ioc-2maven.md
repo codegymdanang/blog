@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Tạo dự án bằng maven
-slug : create-maven-project
+title: Tạo dự án bằng maven trong Spring
+slug : tao-du-an-spring-bang-maven
 category: laptrinhspring
 tags: [spring-core]
 summery: Tạo dự án bằng Maven 

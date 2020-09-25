@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Iterator
-slug : iterator
+title: Sử dụng Iterator trong Java
+slug : su-dung-iterator-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Iterator

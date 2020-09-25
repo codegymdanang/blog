@@ -1,7 +1,7 @@
 ---
 layout: course-java
 title: Sử dụng các tập hợp trong lập trình java
-slug : cau-truc-du-lieu
+slug : cau-truc-du-lieu-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Collection

@@ -1,10 +1,9 @@
 ---
 layout: course-spring-core
-title: Nhúng Dependency Injection bằng Constructor
-slug : dependency-injection-bang-constructor
+title: Nhúng Dependency Injection bằng Constructor trong Spring
+slug : nhung-dependency-injection-bang-constructor-trong-spring
 category: laptrinhspring
-tags: [spring-core]
-summery: Nhúng DI bằng Constructor 
+tags: [spring-springsummery: Nhúng DI bằng Constructor 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Sử dụng nhúng DI bằng Constructor trong lập trình Spring. Hiểu được nhúng DI bằng Constructor là gì. Hướng dẫn sử dụng nhúng DI bằng Constructor trong lập trình Spring.

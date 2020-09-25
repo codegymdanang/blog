@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Vòng đời Bean
-slug : bean-lifecycle
+title: Vòng đời của Bean trong Spring
+slug : vong-doi-cua-bean-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Vòng đời Bean

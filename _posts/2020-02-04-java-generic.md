@@ -1,7 +1,7 @@
 ---
 layout: course-java
 title: Sử dụng Generic trong ngôn ngữ lập trình Java
-slug : generic-la-gi
+slug : su-dung-generic-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Generic

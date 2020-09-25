@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Annotation Lazy
-slug : spring-annotation-lazy
+title: Sử dụng Annotation Lazy trong Spring
+slug : su-dung-annotation-lazy-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Lazy Annotation

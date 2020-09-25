@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Cài đặt HashSet
-slug : hashset
+title: Sử dụng HashSet trong Java
+slug : su-dung-hashset-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: HashSet

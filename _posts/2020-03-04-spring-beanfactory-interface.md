@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Spring Bean Factory Interface Example
-slug : spring-bean-factory-interface
+title: Ví dụ sử dụng Spring Bean Factory Interface trong Spring
+slug : vi-du-su-dung-spring-bean-factory-interface-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Bean Factory 

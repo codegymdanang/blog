@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Annotation Import
-slug : spring-annotation-import
+title: Sử dụng Annotation Import trong Spring
+slug : su-dung-spring-annotation-import-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Import Annotation

@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Annotation @Bean
-slug : spring-annotation-bean
+title: Sử dụng Annotation @Bean trong Spring
+slug : su-dung-annotation-bean-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Bean Annotation

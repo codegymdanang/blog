@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Spring IOC XML Example
-slug : spring-ioc-xml-example
+title: Ví dụ cấu hình Spring IOC bằng XML 
+slug : vi-du-cau-hinh-spring-ioc-bang-xml
 category: laptrinhspring
 tags: [spring-core]
 summery: Cấu hình IOC qua XML 

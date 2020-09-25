@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Ngoại lệ trong ngôn ngữ lập trình
-slug : ngoai-le
+title: Sử dụng ngoại lệ trong ngôn ngữ lập trình Java
+slug : su-dung-ngoai-le-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Ngoại Lệ

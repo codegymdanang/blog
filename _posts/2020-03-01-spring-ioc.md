@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Spring IOC Container
-slug : spring-ioc-container
+title: IOC Container là gì trong Spring
+slug : ioc-container-la-gi-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Spring IOC Container  

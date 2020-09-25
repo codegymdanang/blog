@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Annotation Configure
-slug : spring-annotation-configure
+title: Sử dụng Annotation Configure trong Spring
+slug : su-dung-annotation-configure-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Configure Annotation

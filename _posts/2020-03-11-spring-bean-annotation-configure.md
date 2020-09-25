@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Cấu hình Bean qua annotation
-slug : spring-annotation-configure
+title: Cấu hình Bean bằng annotation trong Spring
+slug : cau-hinh-bean-bang-annotation-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Cấu hình qua annotation

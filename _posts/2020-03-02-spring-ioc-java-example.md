@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
-title: Spring IOC Java Example
-slug : spring-ioc-java-example
+title: Ví dụ Spring IOC bằng Java
+slug : vi-du-su-dung-spring-ioc-bang-java
 category: laptrinhspring
 tags: [spring-core]
 summery: Cấu hình IOC qua Java 
