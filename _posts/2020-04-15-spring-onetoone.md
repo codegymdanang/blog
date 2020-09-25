@@ -1,13 +1,13 @@
 ---
 layout: course-spring-web
-title: Sử dụng OneToOne Relationship trong Spring
-slug : su-dung-one-to-one-trong-springboot
+title: Sử dụng OneToOne Relationship
+slug : one-to-one
 category: laptrinhspring
-tags: [springweb]
-summery: One-to-One
+tags: [spring-web]
+summery: OneToOne
 image: /images/blog/spring.png
-featureImage: /images/post/javacore/feature_jpa.png
-description : Sử dụng OneToOne Relationship trong lập trình. Hiểu được các annotation như @Query, Creation Query, Name Query và các annotaion bổ trợ trong việc truy vấn dữ liệu trong các ứng dụng spring hoặc spring boot.
+featureImage: /images/post/javacore/feature_manytomany.png
+description : Sử dụng OneToOne Relationship trong lập trình. Hiểu annotation @OneToOne là gì và sử dụng như thế nào trong lập trình Spring  
 youtubeId: 3xMFBVQZfXM
 ---
 
