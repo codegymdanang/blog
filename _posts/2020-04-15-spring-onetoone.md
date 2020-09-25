@@ -1,10 +1,10 @@
 ---
 layout: course-spring-web
 title: Sử dụng OneToOne Relationship trong Spring
-slug : su-dung-one-to-one-relationship-trong-spring
+slug : su-dung-one-to-one-trong-springboot
 category: laptrinhspring
 tags: [springweb]
-summery: One to One
+summery: one-to-one
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
 description : Sử dụng OneToOne Relationship trong lập trình. Hiểu annotation @OneToOne là gì và sử dụng như thế nào trong lập trình Spring  

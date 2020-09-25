@@ -1,10 +1,10 @@
 ---
 layout: course-spring-web
 title: Sử dụng OneToMany Relationship trong Spring
-slug : su-dung-one-to-many-relationship-trong-spring
+slug : su-dung-one-to-many-trong-springboot
 category: laptrinhspring
 tags: [springweb]
-summery: One to Many
+summery: one-to-many
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
 description : Sử dụng @OneToMany mapping trong lập trình Spring. Hướng dẫn sử dụng annotation @onetomany trong spring data jpa.
