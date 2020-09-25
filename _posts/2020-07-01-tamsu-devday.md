@@ -30,7 +30,7 @@ Việc làm đầu tiên là kiểm tra email xem khách hàng có phản hồi 
 ![dailymeeting](/images/post/tamsu/dailymeeting.jpg){:class="img-responsive"}
 {: refdef}
 
-Các bạn lập trình viên, kiểm thử, design, quản lý dự án sẽ họp trong vòng 15 phút để cập nhật tình hình công việc ngày hôm qua,dự định công việc sẽ làm hôm nay, và trình bày các khó khăn gặp phải. Mục đích các anh chị muốn thông tin về dự án được minh bạch. Lần lược mỗi thành viên trong nhóm sẽ trình bày 3 câu hỏi ở trên và xoay vòng từ trái sang phải cho đến người cuối cùng trình bày
+Các bạn lập trình viên, kiểm thử, design, quản lý dự án sẽ họp trong vòng 15 phút để cập nhật tình hình công việc ngày hôm qua,dự định công việc sẽ làm hôm nay, và trình bày các khó khăn gặp phải. Mục đích các anh chị muốn thông tin về dự án được minh bạch. Lần lượt mỗi thành viên trong nhóm sẽ trình bày 3 câu hỏi ở trên và xoay vòng từ trái sang phải cho đến người cuối cùng trình bày
 
 - 8h15 : Coding dự án
 
@@ -50,7 +50,7 @@ Trong khoảng thời gian này, lập trình viên sẽ có những hoạt đ�
 ![dailymeeting](/images/post/tamsu/dev-pm.jpg){:class="img-responsive"}
 {: refdef}
 
-4- Sau khi đã rõ thì bắt tay vào viết những dòng code. Nếu vẫn chưa tự tin thì dev sẽ lên google dể tìm thêm thông tin. Hoặc có lỗi trong chương trình thì lên stackoverflow để tìm đáp án. Sau khi có đáp án thì tiếp tục code tiếp. Và cứ thế dev code liên tục tới giờ ăn trưa.
+4- Sau khi đã rõ thì bắt tay vào viết những dòng code. Nếu vẫn chưa tự tin thì dev sẽ lên google để tìm thêm thông tin. Hoặc có lỗi trong chương trình thì lên stackoverflow để tìm đáp án. Sau khi có đáp án thì tiếp tục code tiếp. Và cứ thế dev code liên tục tới giờ ăn trưa.
 
 - 12h00 : Ăn trưa và nghỉ ngơi
 
@@ -60,7 +60,7 @@ Các dev hay ra cafe chém gió về bugs mình đang làm hoặc chém gió cô
 
 Trong khoảng thời gian này, lập trình viên sẽ có những việc làm sau
 
-1- Tiếp tục code chứ năng mới, hoặc fix bug (sửa lỗi). Tiếp tục vô google và stackoverflow tìm cầu trả lời. Tiếp tục cày dự án
+1- Tiếp tục code chức năng mới, hoặc fix bug (sửa lỗi). Tiếp tục vô google và stackoverflow tìm cầu trả lời. Tiếp tục cày dự án
 
 {:refdef: style="text-align: center;"}
 ![plaining](/images/post/tamsu/caycode.jpg){:class="img-responsive"}
@@ -78,7 +78,7 @@ Trên đây là những hoạt động thường ngày của một lập trình 
 
 Thông thường vào ngày thứ 2 và thứ 6 thì lập trình viên còn có thêm 2 hoạt động nữa đó là
 
-- Thứ 2 : Tham gia vào các buổi planning (làm kế hoạch) dự án trong tuần. Cả team sẽ vào phòng họp và trao đổi các công việc sẽ làm. Lên kế hoạch hành động. 
+- Thứ 2 : Tham gia vào các buổi planning (lập kế hoạch) dự án trong tuần. Cả team sẽ vào phòng họp và trao đổi các công việc sẽ làm. Lên kế hoạch hành động. 
 
 {:refdef: style="text-align: center;"}
 ![plaining](/images/post/tamsu/plainning.png){:class="img-responsive"}
@@ -100,7 +100,7 @@ Thông thường vào ngày thứ 2 và thứ 6 thì lập trình viên còn có
 
 # **3. Một tháng làm việc của lập trình viên**
 
-- Đầu tháng : Tham gia vào các buổi planning (làm kế hoạch) dự án trong tháng. Cả team sẽ vào phòng họp và trao đổi các công việc sẽ làm. Lên kế hoạch hành động trong tháng.
+- Đầu tháng : Tham gia vào các buổi planning (lập kế hoạch) dự án trong tháng. Cả team sẽ vào phòng họp và trao đổi các công việc sẽ làm. Lên kế hoạch hành động trong tháng.
 
 {:refdef: style="text-align: center;"}
 ![plaining](/images/post/tamsu/planning-month.png){:class="img-responsive"}
@@ -110,7 +110,7 @@ Thông thường vào ngày thứ 2 và thứ 6 thì lập trình viên còn có
 
 
 
-- Thực hiện các buổi seminar công nghệ hàng tháng do lập trình viên trình bày nhằm nâng cao kỷ năng lập trình
+- Thực hiện các buổi seminar công nghệ hàng tháng do lập trình viên trình bày nhằm nâng cao kỹ năng lập trình
 
 {:refdef: style="text-align: center;"}
 ![plaining](/images/post/tamsu/seminar.jpg){:class="img-responsive"}
