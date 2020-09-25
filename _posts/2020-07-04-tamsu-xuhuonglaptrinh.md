@@ -22,7 +22,7 @@ Các bạn sinh viên hiện nay khi ra trường thường phải được đà
 
 Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang đi học trên trường thì cũng phải thường xuyên cập nhật công nghệ mới ngoài kiến thức nhà trường đã trang bị cho các em để trở thành một <b>lập trình viên</b> giỏi đáp ứng nhu cầu nhà tuyển dụng. Sau đây anh sẽ đưa ra một list các trang web mà có thể giúp mình tiến nhanh trên việc <b>tự học lập trình</b>. Ngoài ra các em có thể tham khảo thêm tại [đây](https://levunguyen.com/career/2020/06/14/con-duong-tro-thanh-lap-trinh-vien-frontend/) lộ trình phát triển của lập trình viên cần học những gì ở frontend. Hoặc lộ trình học để trở thành backend tại [đây](https://levunguyen.com/career/2020/06/14/con-duong-tro-thanh-lap-trinh-vien-java/)
 
-1- Các khoá học onine miễn phí
+1- Các khoá học online miễn phí
 + Stackoverflow.com
 + Github.com
 + Codeacademy.com
@@ -42,11 +42,11 @@ Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang
 
 # **2. Xu hướng công nghệ các năm tiếp theo**
 
-Trong thời đại 4.0 đang diển ra thì các bạn cũng phải cập nhật công nghệ để bắt kịp thị trường. Trong nghành công nghệ thông tin mình sẽ chú trọng vào 4 công nghệ chính sau đây. Những công nghệ này sẽ đem lại mức lương rất cao trong ngành lập trình.
+Trong thời đại 4.0 đang diễn ra thì các bạn cũng phải cập nhật công nghệ để bắt kịp thị trường. Trong ngành công nghệ thông tin mình sẽ chú trọng vào 4 công nghệ chính sau đây. Những công nghệ này sẽ đem lại mức lương rất cao trong ngành lập trình.
 
 1- BlockChain
 
-Trong năm 2009 chắc các em đã nghe nhiều về đồng tiền BigCoin. Thì nó chính là một sản phẩm dựa trên công nghệ Blockchain. Công nghệ Blockchain ra đời giúp cho việc bảo mật trở nên tốt và an toàn hơn. Hiện nay các nghành như ngân hàng, bệnh viện, vận chuyển cũng đã chuẩn bị sử dụng blockchain để xây dựng các sản phẩm cho mình. Các em có thể tham khảo thêm về một trong những ngôn ngữ lập trình blogchain tại [đây](https://solidity.readthedocs.io/en/v0.6.10/)
+Trong năm 2009 chắc các em đã nghe nhiều về đồng tiền BigCoin. Thì nó chính là một sản phẩm dựa trên công nghệ Blockchain. Công nghệ Blockchain ra đời giúp cho việc bảo mật trở nên tốt và an toàn hơn. Hiện nay các ngành như ngân hàng, bệnh viện, vận chuyển cũng đã chuẩn bị sử dụng blockchain để xây dựng các sản phẩm cho mình. Các em có thể tham khảo thêm về một trong những ngôn ngữ lập trình blogchain tại [đây](https://solidity.readthedocs.io/en/v0.6.10/)
 
 
 2- Devops
@@ -61,7 +61,7 @@ Hiện nay các ứng dụng mới đều sử dụng Trí tuệ nhân tạo và
 
 4- Data Science
 
-Data Science là nghành nghiên cứu dữ liệu lớn từ đó cho ra các quyết định cải tiến. Trong 3 năm trở lại đây thì từ Data Science không phải là mới mẻ với các kỷ sư tại Việt Nam. Các tập đoàn lớn FPT, VNG và Vintech đã có những đội nhóm <b>lập trình viên</b> làm các dự án phân tích về dữ liệu lớn. Các ngành như tài chính, bất động sản , y tế và marketing cũng đã có những bước tiến cải thiện vượt bật nhờ vào việc phân tích các dữ liệu của mình để cho ra các quyết định đúng đắn để phát triển tập đoàn. Để làm được Data Science chúng ta có thể bắt đầu học ngôn ngữ Python hay R  
+Data Science là ngành nghiên cứu dữ liệu lớn từ đó cho ra các quyết định cải tiến. Trong 3 năm trở lại đây thì từ Data Science không phải là mới mẻ với các kỹ sư tại Việt Nam. Các tập đoàn lớn FPT, VNG và Vintech đã có những đội nhóm <b>lập trình viên</b> làm các dự án phân tích về dữ liệu lớn. Các ngành như tài chính, bất động sản , y tế và marketing cũng đã có những bước tiến cải thiện vượt bậc nhờ vào việc phân tích các dữ liệu của mình để cho ra các quyết định đúng đắn để phát triển tập đoàn. Để làm được Data Science chúng ta có thể bắt đầu học ngôn ngữ Python hay R  
 
 # **3. Mức lương theo năm kinh nghiêm**
 
@@ -83,7 +83,7 @@ Data Science là nghành nghiên cứu dữ liệu lớn từ đó cho ra các q
 9- RUBY 		:	5%<br>
 10- Go 			:	3%<br>
 
-# **5. Các framwork hay sử dụng trong công việc**
+# **5. Các framework hay sử dụng trong công việc**
 
 1- Laravel	:	50%<br>
 2- NodeJs	:	37%<br>
@@ -108,7 +108,7 @@ Data Science là nghành nghiên cứu dữ liệu lớn từ đó cho ra các q
 
 # **Kết luận**
 
-Theo báo cáo thống kê thì năm 2020 Việt Nam cần 400.000 nhân lực công nghệ thông tin nhưng hiện nay chúng ta vẫn đang bị thiếu 100.000 <b>lập trình viên</b>. Theo số liệu của Bộ giáo dục và đào tạo, cả nước có 235 đại học trong đó có 153 trường đào tạo CNTT, hằng năm có 50.000 sinh viên ra trường nhưng chỉ có 30% là làm được việc ngay. 70% còn lại phải đào tạo lại. Vì vậy nếu chúng ta theo nghành IT thì chắc chắn sẽ có việc làm và cơ hội kiếm thu nhập cao là chuyện đương nhiên. Nhưng để học được công nghệ thông tin không phải ai cũng học được. Cơ bản mình phải có tư duy và đam mê nghành phần mềm thì mới hy vọng thành công.
+Theo báo cáo thống kê thì năm 2020 Việt Nam cần 400.000 nhân lực công nghệ thông tin nhưng hiện nay chúng ta vẫn đang bị thiếu 100.000 <b>lập trình viên</b>. Theo số liệu của Bộ giáo dục và đào tạo, cả nước có 235 đại học trong đó có 153 trường đào tạo CNTT, hằng năm có 50.000 sinh viên ra trường nhưng chỉ có 30% là làm được việc ngay. 70% còn lại phải đào tạo lại. Vì vậy nếu chúng ta theo ngành IT thì chắc chắn sẽ có việc làm và cơ hội kiếm thu nhập cao là chuyện đương nhiên. Nhưng để học được công nghệ thông tin không phải ai cũng học được. Cơ bản mình phải có tư duy và đam mê ngành phần mềm thì mới hy vọng thành công.
 
 
 <br>
