@@ -1,7 +1,7 @@
 ---
 layout: course-tamsu
 title: Kinh nghiệm phỏng vấn tìm việc với nhà tuyển dụng
-slug : ky-nang-phong-van
+slug : ky-nang-phong-van-tim-viec
 category: career
 tags: [tamsu]
 summery: Kinh nghiệm phỏng vấn  

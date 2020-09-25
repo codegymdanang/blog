@@ -1,7 +1,7 @@
 ---
 layout: course-tamsu
 title: Lập trình viên kiếm tiền như thế nào
-slug : lap-trinh-vien-kiem-tien
+slug : lap-trinh-vien-kiem-tien-nhu-the-nao
 category: career
 tags: [tamsu]
 summery: Lập trình viên kiếm tiền như thế nào   

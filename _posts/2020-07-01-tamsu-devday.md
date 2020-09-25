@@ -1,7 +1,7 @@
 ---
 layout: course-tamsu
 title: Một ngày làm việc của lập trình viên
-slug : tam-su-dev-day
+slug : mot-ngay-lam-viec-cua-lap-trinh-vien
 category: career
 tags: [tamsu]
 summery: Một ngày làm việc của lập trình viên   
