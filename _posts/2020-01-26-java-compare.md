@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Comparable và Comparator
-slug : comparable-comparator
+title: So sánh Comparable và Comparator trong Java
+slug : so-sanh-comparable-va-comparator-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Comparable và Comparator  

@@ -1,7 +1,7 @@
 ---
 layout: course-java
 title: Tham trị và tham chiếu trong lập trình java
-slug : tham-tri-va-tham-chieu
+slug : tham-tri-va-tham-chieu-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Pass by value

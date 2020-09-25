@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Mệnh đề Switch
-slug : switch
+title: Mệnh đề Switch trong Java
+slug : menh-de-switch-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Switch  

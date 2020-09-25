@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Cài đặt LinkedList
-slug : cai-dat-linkedlist
+title: Sử dụng LinkedList trong Java
+slug : su-dung-linkedlist-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Linkedlist

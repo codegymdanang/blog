@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Khai Báo Biến
-slug : bien
+title: Khai báo biến trong java
+slug : khai-bao-bien-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Biến  

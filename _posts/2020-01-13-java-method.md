@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Method 
-slug : method
+title: Sử dụng Method trong Java
+slug : su-dung-method-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Method  

@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Java String
-slug : string
+title: Sử dụng String trong Java
+slug : su-dung-string-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Strings  

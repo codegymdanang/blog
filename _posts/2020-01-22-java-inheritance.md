@@ -1,11 +1,11 @@
 ---
 layout: course-java
-title: Tính kế thừa
-slug : tinh-ke-thua
+title: Tính kế thừa trong lập trình hướng đối tượng
+slug : tinh-ke-thua-trong-lap-trinh-huong-doi-tuong
 category: laptrinhjava
 tags: [java core]
 summery: Tính kế thừa 
-image: /images/blog/java.png
+tuong: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
 description : Hiểu về tính kế thừa trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về kế thừa hìnhtrong lập trình hướng đối tượng. Lợi ích của việc sử dụng lập tính đa hình.
 youtubeId: MGWT_Y9Oi8I

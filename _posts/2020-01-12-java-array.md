@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Mảng 
-slug : array
+title: Sử dụng Mảng trong Java
+slug : su-dung-mang-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Mảng  

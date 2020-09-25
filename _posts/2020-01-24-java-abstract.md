@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Java Abstract
-slug : abstract
+title: Sử dụng Abstract trong Java
+slug : su-dung-abstract-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Abstract

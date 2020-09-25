@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Sự khác  giữa abstract và interface trong học lập trình
-slug : su-khac-nhau-giua-abstract-interface
+title: Phân biệt abstract và interface trong học lập trình Java
+slug : phan-biet-abstract-interface-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Abstract và Interface

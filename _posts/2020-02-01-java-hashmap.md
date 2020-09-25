@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Cài đặt HashMap
-slug : hashmap
+title: Sử dụng HashMap trong Java
+slug : su-dung-hashmap-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: HashMap

@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: ArrayList
-slug : arraylist
+title: Sử dụng ArrayList trong Java
+slug : su-dung-arraylist-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: ArrayList

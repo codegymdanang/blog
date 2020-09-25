@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Heap và Stack trong lập trình java
-slug : bo-nho-heap-va-stack
+title: Bộ nhớ Heap và Stack trong java
+slug : bo-nho-heap-va-stack-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Bộ Nhớ Heap va Stack

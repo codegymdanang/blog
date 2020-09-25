@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Java Object
-slug : java-object
+title: Đối tượng trong lập trình java
+slug : doi-tuong-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Object  

@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Phân biệt Array và ArrayList
-slug : array-arraylist
+title: Phân biệt sự khác nhau giữa Array và ArrayList trong Java
+slug : su-khac-nhau-giua-array-arraylist-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Array và ArrayList

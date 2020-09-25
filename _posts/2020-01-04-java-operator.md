@@ -1,9 +1,9 @@
 ---
 layout: course-java
-title: Toán tử
-slug : toan-tu
+title: Toán tử trong Java
+slug : toan-tu-trong-java
 category: laptrinhjava
-tags: [java core]
+tagsjavaava core]
 summery: Toán tử  
 image: /images/blog/java.png
 

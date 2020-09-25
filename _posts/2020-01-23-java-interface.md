@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Java Interface
-slug : interface
+title: Sử dụng Interface trong Java
+slug : su-dung-interface-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Interface

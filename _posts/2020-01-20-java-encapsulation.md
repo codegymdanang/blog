@@ -1,8 +1,8 @@
 ---
 layout: course-java
-title: Tính đóng gói
-slug : tinh-dong-goi
-category: laptrinhjava
+title: Tính đóng gói trong lập trình hướng đối tượng
+slug : tinh-dong-goi-trong-lap-trinh-huong-doi-tuong
+category: laptrjavaava
 tags: [java core]
 summery: Tính đóng gói  
 image: /images/blog/java.png

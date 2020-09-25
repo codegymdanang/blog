@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Mệnh đề If else
-slug : if-else
+title: Mệnh đề If else trong Java
+slug : menh-de-if-else-trong Java
 category: laptrinhjava
 tags: [java core]
 summery: If Else  

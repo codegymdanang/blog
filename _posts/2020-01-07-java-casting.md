@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Ép kiểu tường minh và ngầm định
-slug : ep-kieu-trong-java
+title: Ép kiểu tường minh và ngầm định trong Java
+slug : ep-kieu-tuong-minh-ngam-dinh-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Ép kiểu  

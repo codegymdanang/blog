@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Kiểu dữ liệu
-slug : kieu-du-lieu
+title: Kiểu dữ liệu trong Java
+slug : kieu-du-lieu-trong-java
 category: laptrinhjava
 tags: [java core]
 summery: Kiểu dữ liệu  
