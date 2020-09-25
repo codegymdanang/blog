@@ -1,7 +1,7 @@
 ---
 layout: course-softskill
 title: Đặt mục tiêu thông minh
-slug : smart-goals-dat-muc-tieu-thong-minh
+slug : dat-muc-tieu-thong-minh-smart-goals
 category: career
 tags: [skills]
 summery: Mục tiêu thông minh   
