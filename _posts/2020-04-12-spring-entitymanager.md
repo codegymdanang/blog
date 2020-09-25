@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng Entity Manager 
-slug : entity-manager
+title: Sử dụng Entity Manager trong Spring
+slug : su-dung-entity-manager-trong-spring
 category: laptrinhspring
 tags: [spring-web]
 summery:  Entity Manager

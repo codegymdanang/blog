@@ -3,7 +3,7 @@ layout: course-java
 title: Toán tử trong Java
 slug : toan-tu-trong-java
 category: laptrinhjava
-tagsjavaava core]
+tags: [java core]
 summery: Toán tử  
 image: /images/blog/java.png
 

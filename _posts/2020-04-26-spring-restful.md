@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng Restful
-slug : restful
+title: Sử dụng Restful trong SpringBoot
+slug : su-dung-restful-trong-springboot
 category: laptrinhspring
 tags: [spring-web]
 summery: Restful

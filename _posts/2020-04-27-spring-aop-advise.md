@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng Spring AOP Advise 
-slug : spring-aop-advise
+title: Sử dụng Spring AOP Advise trong Spring
+slug : su-dung-aop-advise-trong-spring
 category: laptrinhspring
 tags: [spring-web]
 summery: AOP Advise

@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Session và Cookie
-slug : spring-session-cookie 
+title: Sử dụng Session và Cookie trong Spring
+slug : su-dung-session-cookie-trong-spring 
 category: laptrinhspring
 tags: [spring-web]
 summery: Session và Cookie

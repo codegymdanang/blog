@@ -1,9 +1,9 @@
 ---
 layout: course-spring-web
-title: Sử dụng JPA
-slug : spring-jpa-query
+title: Sử dụng JPA trong SpringBoot
+slug : su-dung-spring-jpa-trong-springboot
 category: laptrinhspring
-tags: [spring-web]
+tags: [springweb]
 summery: Spring JPA Query
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_jpa.png

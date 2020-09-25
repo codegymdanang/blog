@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Tạo dự án Spring Boot
-slug : tạo-du-an-springboot
+title: Tạo dự án bằng Spring Boot
+slug : tạo-du-an-bang-springboot
 category: laptrinhspring
 tags: [spring-web]
 summery: Tạo dự án spring Boot  

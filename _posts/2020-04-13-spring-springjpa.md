@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng Spring Data JPA
-slug : spring-jpa
+title: Sử dụng Spring Data JPA trong SpringBoot
+slug : su-dung-spring-jpa-trong-springboot
 category: laptrinhspring
 tags: [spring-web]
 summery: Spring Data JPA

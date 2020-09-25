@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng OneToOne Relationship
-slug : one-to-one
+title: Sử dụng OneToOne Relationship trong Spring
+trug : su-dung-one-to-one-relationship-trong-spring
 category: laptrinhspring
 tags: [spring-web]
 summery: OneToOne

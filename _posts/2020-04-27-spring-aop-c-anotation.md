@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng Spring AOP Annotation 
-slug : spring-aop-annotation
+title: Sử dụng Spring AOP Annotation trong Spring
+slug : spring-aop-annotation-trong-spring
 category: laptrinhspring
 tags: [spring-web]
 summery: AOP Annotation

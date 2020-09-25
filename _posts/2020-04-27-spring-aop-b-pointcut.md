@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng Spring AOP Pointcut 
-slug : spring-aop-pointcut
+title: Sử dụng Spring AOP Pointcut trong Spring
+slug : spring-aop-pointcut-trong-spring
 category: laptrinhspring
 tags: [spring-web]
 summery: AOP Pointcut

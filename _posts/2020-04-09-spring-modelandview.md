@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Sử dụng Model ModelMap ModelView  
+title: Sử dụng Model ModelMap ModelView trong SpringMVC 
 slug : model-modlemap-modelview
 category: laptrinhspring
 tags: [spring-web]

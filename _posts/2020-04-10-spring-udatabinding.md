@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng Databinding  
-slug : data-binding
+title: Sử dụng Databinding trong SpringMVC 
+slug : su-dung-data-binding-trong-springmvc
 category: laptrinhspring
 tags: [spring-web]
 summery: Data Binding

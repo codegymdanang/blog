@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Tổng hợp các Anotation
-slug : spring-annotation
+title: Tổng hợp các Anotation trong Spring web
+slug : tong-hop-cac-annotation-trong-spring-web
 category: laptrinhspring
 tags: [spring-web]
 summery: Các Anotation trong Spring

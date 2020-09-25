@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Webservice
-slug : webservice
+title: Sử dụng Webservice trong lập trình Spring
+slug : su-dung-webservice-trong-lap-trinh-spring
 category: laptrinhspring
 tags: [spring-web]
 summery: Webservice

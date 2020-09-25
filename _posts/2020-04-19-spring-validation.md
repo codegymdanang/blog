@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng Validation
-slug : spring-validation
+title: Sử dụng Validation trong Spring
+slug : su-dung-validation-trong-spring
 category: laptrinhspring
 tags: [spring-web]
 summery: Validation
