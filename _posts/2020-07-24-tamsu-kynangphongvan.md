@@ -15,7 +15,7 @@ youtubeId: gjuAHfsV_8U
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ chia sẽ về chủ đề <b> phỏng vấn tìm việc</b> với nhà tuyển dụng. Trong bài này anh sẽ chia sẽ những nỗi lo khi ứng viên đi phỏng vấn tại các công ty và cách mình vượt qua nó.
+Chào các em, hôm nay anh sẽ chia sẻ về chủ đề <b> phỏng vấn tìm việc</b> với nhà tuyển dụng. Trong bài này anh sẽ chia sẻ những nỗi lo khi ứng viên đi phỏng vấn tại các công ty và cách mình vượt qua nó.
 
 <br>
 # **1. Nỗi lo khi đi phỏng vấn**
