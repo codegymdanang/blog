@@ -48,12 +48,12 @@ Các công ty IT đều có website riêng của mình. Trên đó ngoài việc
 <br>
 # **5. Tìm việc qua Hội thảo tuyển dụng**
 
-Tại các hội thảo về công nghệ hoặc việc làm được tổ chức, có rất nhiều doanh nghiêp tham gia để trình bày các công nghệ và nhu cầu tuyển dụng của công ty mình. Các em cố gắng tham gia các sự kiện được tổ chức trong thành phố để có thể cập nhật lại các thông tin về doanh nghiệp như họ là công ty như thế nào, quy mô ra sao, các công nghệ đang được dùng tại công ty đó. Thông qua các thông tin trên về doanh nghiệp xem mình có phù hợp với văn hoá công ty hay không? hoặc các công nghệ công ty đang sử dụng có phù hợp với mình không?
+Tại các hội thảo về công nghệ hoặc việc làm được tổ chức, có rất nhiều doanh nghiệp tham gia để trình bày các công nghệ và nhu cầu tuyển dụng của công ty mình. Các em cố gắng tham gia các sự kiện được tổ chức trong thành phố để có thể cập nhật lại các thông tin về doanh nghiệp như họ là công ty như thế nào, quy mô ra sao, các công nghệ đang được dùng tại công ty đó. Thông qua các thông tin trên về doanh nghiệp xem mình có phù hợp với văn hoá công ty hay không? hoặc các công nghệ công ty đang sử dụng có phù hợp với mình không?
 
 <br>
 # **6. Gửi CV ngẫu nhiên**
 
-Ví dụ như các em đã tìm thấy công ty mà mình yêu thích nhưng họ đã ngưng tuyển dụng thì mình cũng không ngần ngại gửi CV cho họ. Các HR sẽ lưu lại CV của mình trong trường hợp công ty có nhu cầu tuyển dụng thì mình sẽ được ưu tiên gọi trước. Nên mình cũng không nên bỏ qua cơ hội này, chăm chỉ gửi CV cho các công ty mà mình yêu thích.
+Ví dụ như các em đã tìm thấy công ty mà mình yêu thích nhưng họ đã ngừng tuyển dụng thì mình cũng không ngần ngại gửi CV cho họ. Các HR sẽ lưu lại CV của mình trong trường hợp công ty có nhu cầu tuyển dụng thì mình sẽ được ưu tiên gọi trước. Nên mình cũng không nên bỏ qua cơ hội này, chăm chỉ gửi CV cho các công ty mà mình yêu thích.
 
 <br>
 # **7. Qua người quen**
