@@ -81,4 +81,4 @@ Trong Java thì anh hay sử dụng Junit và Mockito để làm Unit Test cho c
 <br>
 # **Kết luận**
 
-Để trở thành một <b>lập trình viên Java</b> chuyên nghiệp thì còn phải học rất nhiều cái  khác nữa. Nhưng chỉ cần các em biết được 10 chủ đề ở trên thì là quá tuyệt rồi. Ở các công ty Java họ mong muốn tìm được một người có kỷ năng đạt được 10 điều trên. Đó cũng chính là các kỷ thuật bắt buộc mà một Dev Java mong muốn trở thành Senior Java.
+Để trở thành một <b>lập trình viên Java</b> chuyên nghiệp thì còn phải học rất nhiều cái  khác nữa. Nhưng chỉ cần các em biết được 10 chủ đề ở trên thì là quá tuyệt rồi. Ở các công ty Java họ mong muốn tìm được một người có kỹ năng đạt được 10 điều trên. Đó cũng chính là các kỹ thuật bắt buộc mà một Dev Java mong muốn trở thành Senior Java.
