@@ -4,7 +4,7 @@ title: Tính đa hình trong lập trình hướng đối tượng
 slug : tinh-da-hinh-trong-lap-trinh-huong-doi-tuong
 category: laptrinhjava
 tags: [java core]
-summery: Tjavađa hình  
+summery: Tính đa hình  
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
 description : Hiểu về tính đa hình trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về tính đa hìnhtrong lập trình hướng đối tượng. Lợi ích của việc sử dụng lập tính đa hình.

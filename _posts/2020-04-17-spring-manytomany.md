@@ -4,7 +4,7 @@ title: Sử dụng ManyToMany Relationship trong Spring
 slug : su-dung-many-to-many-relationship-trong-spring
 category: laptrinhspring
 tags: [springweb]
-summery: Many To Many
+summery: Many to Many
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_manytomany.png
 description : Sử dụng annotation @ManyToMany trong lập trình Spring. Hướng dẫn sử dụng quan hệ @ManyToMany many to many trong spring data jpa . Cấu hình và triển khai dự án dùng @ManyToMany
