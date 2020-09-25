@@ -14,7 +14,7 @@ youtubeId: r2w7in6xMB4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay sẽ chia sẽ những kinh nghiệm của anh đứng trên vai trò là nhà tuyển dụng đặt <b>các câu hỏi phỏng vấn lập trình </b> cho các bạn fresher , junior, dev tại công ty mà anh đã làm việc. 
+Chào các em, hôm nay sẽ chia sẻ những kinh nghiệm của anh đứng trên vai trò là nhà tuyển dụng đặt <b>các câu hỏi phỏng vấn lập trình </b> cho các bạn fresher , junior, dev tại công ty mà anh đã làm việc. 
 
 <br>
 # **1. Các bài test của công ty IT**
@@ -29,7 +29,7 @@ Trong vòng này các bạn sẽ được công ty đưa cho bài test để ki�
 <br>
 ### Vòng 2 : Phỏng vấn kỷ thuật trực tiếp với đội ngũ team lead tại công ty.
 
-Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị là team lead của dự án. Thông thường các anh/chị sẽ hỏi các kiến thức từ cơ bản đến nâng cao. <b>Các câu hỏi phỏng vấn lập trình</b> mà các anh chị thưởng hay hỏi
+Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị là team lead của dự án. Thông thường các anh/chị sẽ hỏi các kiến thức từ cơ bản đến nâng cao. <b>Các câu hỏi phỏng vấn lập trình</b> mà các anh chị thường hay hỏi
 
 1. Kiến thức Java nền tảng
   + Lập trình hướng đối tượng là gì? [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/14/lap-trinh-huong-doi-tuong/)
@@ -51,7 +51,7 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
   + Bộ nhớ Heap và Stack.[Trả lời](https://levunguyen.com/laptrinhjava/2020/01/16/bo-nho-heap-va-stack/)
   + Sư khác nhau giữa Object và Class là gì ? [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/15/java-object/)
   + Thuật toán tìm kiếm nhị phân.
-  + Thuật toán săp xếp.
+  + Thuật toán sắp xếp.
 
 2. Kiến thức về framework (ví dụ như học Spring Framework của Java)
   + Mô tả luồng đi của một ứng dụng MVC [Trả lời](https://levunguyen.com/laptrinhspring/2020/02/01/springmvc/)
@@ -96,11 +96,11 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
 4. Kiến thức về frontend
   + HTML dùng để làm gì ?
   + CSS dùng để làm gì ?
-  + Boostrap dùng để làm gì ?
+  + Bootstrap dùng để làm gì ?
   + Phân biệt class và id ?
-  + Phân biệt postion static , absolute , relative, fixed.
+  + Phân biệt position static , absolute , relative, fixed.
   + Modelbox là gì ?
-  + Reponsive là gì ? Làm sao để làm được Reponsive.
+  + Responsive là gì ? Làm sao để làm được Responsive.
 
 5. Kiến thức về Angular
   + Cơ chế hoạt động của Angular
@@ -111,7 +111,7 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
   + Vòng đời của một component?
   + Truyền data từ cha sang con như thế nào
   + Truyền data từ con lên cha
-  + Teamplate form và react form khác nhau như thế nào
+  + Template form và react form khác nhau như thế nào
   + Validation trong Angular là gì?
   + Dependency Injection là gì?
   + HTTP CLient là gì ?
@@ -129,7 +129,7 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
 <br>
 # Vòng 2 : Phỏng vấn với bộ phận nhân sự tại công ty
 
-Vòng này các em sẽ phỏng vấn với bộ phận nhân sự tại công ty. Mình sẽ không hỏi các vấn đề về kỷ thuật nữa mà xoay quanh các vấn đề về thái độ. Trong ngành công nghệ thông tin. Các anh đều coi trọng thái độ hơn là trình độ. Có thể các bạn yếu về kỷ thuật nhưng có thái độ tốt . Các anh/chị hoàn toàn có thể giúp đở các em về mặt kỷ thuật để nâng cao tay nghề. Còn những ai mà bộ phận nhân sự cảm thấy không có thái độ tốt thì sẽ có nguy cơ bị loại.
+Vòng này các em sẽ phỏng vấn với bộ phận nhân sự tại công ty. Mình sẽ không hỏi các vấn đề về kỹ thuật nữa mà xoay quanh các vấn đề về thái độ. Trong ngành công nghệ thông tin. Các anh đều coi trọng thái độ hơn là trình độ. Có thể các bạn yếu về kỹ thuật nhưng có thái độ tốt . Các anh/chị hoàn toàn có thể giúp đỡ các em về mặt kỹ thuật để nâng cao tay nghề. Còn những ai mà bộ phận nhân sự cảm thấy không có thái độ tốt thì sẽ có nguy cơ bị loại.
 
 <br>
 ### **Kết luận**
