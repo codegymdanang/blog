@@ -19,13 +19,13 @@ Chào các bạn, hôm nay anh sẽ giới thiệu cho các bạn để trở th
 
 Trong roadmap hình bên dưới có những hình tròn có dấu tích là tím , đỏ , trắng, màu đà
 
-- Những kỷ thuật trong ô hình tròn có dấu tích là tím bắt buộc mọi người phải trang bị.
+- Những kỹ thuật trong ô hình tròn có dấu tích là tím bắt buộc mọi người phải trang bị.
 
-- Những kỷ thuật trong ô hình tròn có dấu tích là đỏ rất tốt nếu mình biết được các công nghệ này. Nó sẽ giúp mình nâng cao khả năng lập trình.
+- Những kỹ thuật trong ô hình tròn có dấu tích là đỏ rất tốt nếu mình biết được các công nghệ này. Nó sẽ giúp mình nâng cao khả năng lập trình.
 
-- Những kỷ thuật trong ô hình tròn có dấu tích là trắng -  không quan trọng lắm. Nếu có thời gian thì mình trang bị.
+- Những kỹ thuật trong ô hình tròn có dấu tích là trắng -  không quan trọng lắm. Nếu có thời gian thì mình trang bị.
 
-- Những kỷ thuật trong ô hình tròn có dấu tích là xám -  không quan trọng lắm. Chưa cần tập trung ngay
+- Những kỹ thuật trong ô hình tròn có dấu tích là xám -  không quan trọng lắm. Chưa cần tập trung ngay
 
 {:refdef: style="text-align:center"}
 ![javaroadmap](/images/post/softskills/roadmapfrontend.png){:class="img-responsive"}
@@ -34,7 +34,7 @@ Trong roadmap hình bên dưới có những hình tròn có dấu tích là tí
 
 # **Kết luận**
 
-Để trở thành một lập trình viên frontend chuyên nghiệp thì mình sẽ bắt đầu bằng việc học và sử dụng HTML, CSS , Boostrap, Javascript. Hiểu được cơ chế hoạt động của website.
+Để trở thành một lập trình viên frontend chuyên nghiệp thì mình sẽ bắt đầu bằng việc học và sử dụng HTML, CSS , Bootstrap, Javascript. Hiểu được cơ chế hoạt động của website.
 
 Sau khi đã thành thạo rồi thì chọn 1 trong các công nghệ sau như Angular, ReactJs, VueJs để xây dựng các ứng dụng web theo công nghệ mới.
 
