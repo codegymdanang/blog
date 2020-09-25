@@ -14,7 +14,7 @@ youtubeId: c-f82w7poic
 
 Chào các em, hôm nay anh sẽ giới thiệu cho các em cách đặt mục tiêu thông minh trong việc lập kế hoạch đem lại hiệu quả cao trong công việc. 
 
-Ai cũng có những mục tiêu trong cuộc sống, nhưng quan trọng là mình làm như thế nào để kiểm soát và đo đạt được thì rất ít người có thể làm được. Trong các tổ chức , các công ty họ thường dùng SmartGoals (Đặt mục tiêu thông minh) như một công cụ để đo đạt mục tiêu và sự thành công.
+Ai cũng có những mục tiêu trong cuộc sống, nhưng quan trọng là mình làm như thế nào để kiểm soát và đo đạt được thì rất ít người có thể làm được. Trong các tổ chức , các công ty họ thường dùng Smart Goals (Đặt mục tiêu thông minh) như một công cụ để đo đạt mục tiêu và sự thành công.
 
 <br>
 ### Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
