@@ -26,7 +26,7 @@ Chào các bạn, chắc hẳn bạn sẽ muốn biết làm như thế nào đ�
 
 Ở phần này chúng ta tìm hiểu sâu hơn về ứng dụng Java được triển khai như thế nào và làm cách nào để <b>tăng hiệu năng</b> (năng suất) của ứng dụng mình. Cải thiện bộ nhớ , lưu trữ các biến , object của ứng dụng trong bộ nhớ. Tối ưu chương trình Java giúp chương trình nhanh hơn
 
-Nếu có thời gian các em nên đọc cuốn sách The Definitive Guild To Java
+Nếu có thời gian các em nên đọc cuốn sách The Definitive Guide To Java
 
 {:refdef: style="text-align: center;"}
 ![memory](/images/post/softskills/hotspot.png){:class="img-responsive"}
@@ -35,14 +35,14 @@ Nếu có thời gian các em nên đọc cuốn sách The Definitive Guild To J
 <br>
 # **3.Java API và Library**
 
-Nếu các em muốn học được các ví dụ, cách viết code hay thì nên đào sâu vào các thư viện có sẳn của Java. Trong bộ core của java có rất nhiều cách viết code hay mình có thể học hỏi nhiều thứ từ những thư viện này. Có hơn 20 loại thư viện và API được dùng thường xuyên trong java. Nắm được cách viết này mình sẽ nâng cao kỷ năng viết code tốt.
+Nếu các em muốn học được các ví dụ, cách viết code hay thì nên đào sâu vào các thư viện có sẵn của Java. Trong bộ core của java có rất nhiều cách viết code hay mình có thể học hỏi nhiều thứ từ những thư viện này. Có hơn 20 loại thư viện và API được dùng thường xuyên trong java. Nắm được cách viết này mình sẽ nâng cao kỹ năng viết code tốt.
 
 <br>
 # **4. Học Java 8**
 
 Hiện nay Java phiên bản 13 đã ra đời tuy nhiên cũng rất ít developer Java sử dụng hết các chức năng mới này. Hầu hết các Java Developer thường sử dụng Java 7 là nhiều .
 
-Tất cả các công việc tuyển dụng về vị trí Java các nhà tuyển dụng thường đòi hỏi các lập trình viên phải nắm được các chức năng của Java 8 như Lambdas và Stream API. Đây là 2 chức năng quan trọng mà Java 8. Nếu như không trả lời được các kỷ thuật trên thì rất khó để nhà tuyển dụng đánh giá cao mình.
+Tất cả các công việc tuyển dụng về vị trí Java các nhà tuyển dụng thường đòi hỏi các lập trình viên phải nắm được các chức năng của Java 8 như Lambdas và Stream API. Đây là 2 chức năng quan trọng mà Java 8. Nếu như không trả lời được các kỹ thuật trên thì rất khó để nhà tuyển dụng đánh giá cao mình.
 
 <br>
 # **5. Spring Boot**
@@ -52,7 +52,7 @@ Ngày nay hầu hết các công ty sử dụng các framework của Java như <
 <br>
 # **6. Cloud và Microservice**
 
-Năm này qua năm nọ , kiến trúc của một hệ thống dần dần thay dổi. Cách đây khoản 10 năm các ứng dụng đều xây dựng trên kiến trúc <b>nguyên khối (monolithic)</b>. Kiến trúc nguyên khối bao gồm controller , service , repository chung với nhau. Tính phụ thuộc giữa các module rất cao. Chính vì vậy mà khả năng mở rộng (scale) rất hạn chế. Và ngày nay mọi người đang chuyển dần các ứng dụng theo kiến trúc nguyên khối (monolithic) sang kiến trúc <b>Microservice</b> (độc lập các modules). Chính vì vậy mà tính phụ thuộc các module rất thấp nên dể dàng thay thế , cải tiến và mở rộng (scale)
+Năm này qua năm nọ , kiến trúc của một hệ thống dần dần thay đổi. Cách đây khoảng 10 năm các ứng dụng đều xây dựng trên kiến trúc <b>nguyên khối (monolithic)</b>. Kiến trúc nguyên khối bao gồm controller , service , repository chung với nhau. Tính phụ thuộc giữa các module rất cao. Chính vì vậy mà khả năng mở rộng (scale) rất hạn chế. Và ngày nay mọi người đang chuyển dần các ứng dụng theo kiến trúc nguyên khối (monolithic) sang kiến trúc <b>Microservice</b> (độc lập các modules). Chính vì vậy mà tính phụ thuộc các module rất thấp nên dễ dàng thay thế , cải tiến và mở rộng (scale)
 
 <br>
 # **7. Học Design Pattern và các Best Practice của Coding**
@@ -64,12 +64,12 @@ Hiện nay có hơn 25 bản design pattern phục vụ cho việc tạo đối 
 <br>
 # **8. Refactoring**
 
-Sẽ có những lúc mình đọc code của người khác và muốn sửa lại làm cho nó dể đọc hơn, dể bảo trì và mở rộng. Thì <b>Refactoring</b> là những kỷ thuật giúp mình làm được điều đó. Reactoring gồm các kỷ thuật tách hàm, biến , class phức tạp , khó hiểu thành những dòng code nhỏ hơn dể hiểu hơn nhưng vẫn đảm bảo chức năng chạy đúng. Hiện này có hơn 20 kỷ thuật để giúp mình viết lại, chỉnh sửa code có sẳn để nó trở nên nhỏ gọn và dể hiểu.
+Sẽ có những lúc mình đọc code của người khác và muốn sửa lại làm cho nó dễ đọc hơn, dễ bảo trì và mở rộng. Thì <b>Refactoring</b> là những kỹ thuật giúp mình làm được điều đó. Reactoring gồm các kỹ thuật tách hàm, biến , class phức tạp , khó hiểu thành những dòng code nhỏ hơn dễ hiểu hơn nhưng vẫn đảm bảo chức năng chạy đúng. Hiện này có hơn 20 kỹ thuật để giúp mình viết lại, chỉnh sửa code có sẵn để nó trở nên nhỏ gọn và dễ hiểu.
 
 <br>
 # **9. Devops**
 
-Đối với một lập trình Java hiện đại. Ngoài việc viết code mình cũng phải trang bị các kiến thức về <b>Devops</b>. Mình phải biết các kỷ thuật và tool để thực hiện các công việc tự động build , tự động tích hợp và tự động deploy (triển khai) sản phẩm. Các công nghệ mà lập trình viên Java cần trang bị  là Docker ,K8s ,Ansible, Jenkins.
+Đối với một lập trình Java hiện đại. Ngoài việc viết code mình cũng phải trang bị các kiến thức về <b>Devops</b>. Mình phải biết các kỹ thuật và tool để thực hiện các công việc tự động build , tự động tích hợp và tự động deploy (triển khai) sản phẩm. Các công nghệ mà lập trình viên Java cần trang bị  là Docker ,K8s ,Ansible, Jenkins.
 
 <br>
 # **10. Unit Test**
