@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng ManyToMany Relationship
-slug : many-to-many
+title: Sử dụng ManyToMany Relationship trong spring jpa
+slug : su-dung-many-to-many-trong-spring-jpa
 category: laptrinhspring
 tags: [spring-web]
 summery: Many To Many

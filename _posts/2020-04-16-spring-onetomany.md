@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng OneToMany Relationship trong JPA
-slug : su-dung-one-to-many-trong-jpa
+title: Sử dụng OneToMany Relationship trong spring jpa
+slug : su-dung-one-to-many-trong-spring-jpa
 category: laptrinhspring
 tags: [spring-web]
 summery: OneToMany 

@@ -1,7 +1,7 @@
 ---
 layout: course-spring-web
-title: Sử dụng @OneToOne trong jpa
-slug : su-dung-one-to-one-trong-jpa
+title: Sử dụng @OneToOne trong spring jpa
+slug : su-dung-one-to-one-trong-spring-jpa
 category: laptrinhspring
 tags: [spring-web]
 summery: OneToOne
