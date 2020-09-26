@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Kiểu dữ liệu 
-slug : database-datatype
+title: Các kiểu dữ liệu trong database 
+slug : cac-kieu-du-lieu-trong-database
 category: database
 tags: [database]
 summery: Kiểu dữ liệu    
