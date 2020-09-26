@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  SQL Like 
-slug : database-sql-aggreate
+title: Sử dụng toán tử Like trong database 
+slug : su-dung-toan-tu-like-trong-database
 category: database
 tags: [database]
 summery: Toán tử Like    

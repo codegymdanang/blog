@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Ràng buộc dữ liệu
-slug : database-constraints
+title: Ràng buộc dữ liệu trong database
+slug : rang-buoc-du-lieu-trong-database
 category: database
 tags: [database]
 summery: Ràng buộc dữ liệu    

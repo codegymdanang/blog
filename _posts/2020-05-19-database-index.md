@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Index
-slug :  database-index
+title:  Sử dụng Index trong database
+tlug :  su-dung-index-trong-database
 category: database
 tags: [database]
 summery: Index    

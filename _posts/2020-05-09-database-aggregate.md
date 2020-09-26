@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Các hàm tổng hợp SQL 
-slug : database-sql-aggreate
+title: Các hàm tổng hợp trong database 
+slug : cac-ham-tong-hop-trong-database
 category: database
 tags: [database]
 summery: Hàm tổng hợp    

@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Stored Procedure
-slug : stored-procedure
+title: Sử dụng Stored Procedure trong database
+slug : su-dung-stored-procedure-trong-database
 category: database
 tags: [database]
 summery: Stored Procedure    

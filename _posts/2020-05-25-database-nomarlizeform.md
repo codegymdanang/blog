@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Các bước chuẩn hoá dữ liệu
-slug :  chuan-hoa-du-lieu
+title:  Các bước chuẩn hoá dữ liệu trong thiết kế database
+slug :  chuan-hoa-du-lieu-trong-thiet-ke-database
 category: database
 tags: [database]
 summery: Các bước chuẩn hoá dữ liệu    

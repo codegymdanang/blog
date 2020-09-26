@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Các câu lệnh cấu trúc DLL
-slug : database-dll
+title: Các câu lệnh cấu trúc DLL trong database
+slug : cac-cau-lenh-cau-truc-dll-trong-database
 category: database
 tags: [database]
 summery: Câu lệnh DLL    

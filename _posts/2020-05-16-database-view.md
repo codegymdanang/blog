@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng View
-slug : database-view
+title: Sử dụng View trong database
+slug : su-dung-view-trong-database
 category: database
 tags: [database]
 summery: View    

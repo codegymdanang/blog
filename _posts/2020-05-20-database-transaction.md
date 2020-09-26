@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Transaction
-slug :  database-index
+title:  Sử dụng Transaction trong database
+slug :  su-dung-transaction-trong-database
 category: database
 tags: [database]
 summery: Transaction    

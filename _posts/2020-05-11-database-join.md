@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Sử dụng Joins
-slug : database-joins
+title: Sử dụng toán tử Joins trong database
+slug : su-dung-toan-tu-joins-trong-database
 category: database
 tags: [database]
 summery: Joins    

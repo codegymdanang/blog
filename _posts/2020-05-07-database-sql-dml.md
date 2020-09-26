@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Các câu lệnh SQL DML
-slug : database-sql-dml
+title: Các câu lệnh SQL DML trong database
+slug : cac-cau-lenh-sql-dml-trong-database
 category: database
 tags: [database]
 summery: Các câu lệnh SQL DML    

@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Toán tử
-slug : database-operator
+title: các loại toán tử trong database
+slug : cac-loai-toan-tu-trong-database
 category: database
 tags: [database]
 summery: Toán tử    
