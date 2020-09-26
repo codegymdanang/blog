@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Sử dụng Nav trong boostrap 
-slug : bootstrap-nav
+title: Sử dụng Nav trong Bootstrap 
+slug : su-dung-nav-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Nav

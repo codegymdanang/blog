@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Sử dụng list trong boostrap 
-slug : bootstrap-list
+title: Sử dụng list trong Bootstrap 
+slug : su-dung-list-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: List

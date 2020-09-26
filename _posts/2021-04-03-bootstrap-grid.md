@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Grid trong boostrap 
-slug : bootstrap-grid
+title: Sử dụng Grid trong Bootstrap 
+slug : su-dung-grid-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Grid

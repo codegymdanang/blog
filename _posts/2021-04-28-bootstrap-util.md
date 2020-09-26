@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Sử dụng Util trong boostrap 
-slug : bootstrap-util
+title: Sử dụng Util trong Bootstrap 
+slug : su-dung-util-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Util

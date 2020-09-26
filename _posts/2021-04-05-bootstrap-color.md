@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Sử dụng màu trong boostrap 
-slug : bootstrap-color
+title: Sử dụng màu trong Bootstrap 
+slug : su-dung-mau-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Màu sắc

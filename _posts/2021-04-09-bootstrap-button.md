@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Sử dụng button trong boostrap 
-slug : bootstrap-button
+title: Sử dụng button trong Bootstrap 
+slug : su-dung-button-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Button

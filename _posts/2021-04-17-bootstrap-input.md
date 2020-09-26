@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Sử dụng input trong boostrap 
-slug : bootstrap-input
+title: Sử dụng input trong Bootstrap 
+slug : su-dung-input-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Input

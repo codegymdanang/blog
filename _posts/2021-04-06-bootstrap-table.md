@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Sử dụng table trong boostrap 
-slug : bootstrap-table
+title: Sử dụng table trong Bootstrap 
+slug : su-dung-table-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Table

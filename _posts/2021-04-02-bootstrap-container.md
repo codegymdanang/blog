@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Container 
-slug : bootstrap-container
+title: Sử dụng Container trong Bootstrap 
+slug : su-dung-container-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Container

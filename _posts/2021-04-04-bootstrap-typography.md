@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Typography trong boostrap 
-slug : bootstrap-typography
+title: Sử dụng Typography trong Bootstrap 
+slug : su-dung-typography-trong-boostrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Typography

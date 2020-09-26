@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Sử dụng card trong boostrap 
-slug : bootstrap-card
+title: Sử dụng card trong Bootstrap 
+slug : su-dung-card-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Card

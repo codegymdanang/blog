@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Sử dụng form trong boostrap 
-slug : bootstrap-form
+title: Sử dụng form trong Bootstrap 
+slug : su-dung-form-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Form

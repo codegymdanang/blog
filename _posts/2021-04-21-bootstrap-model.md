@@ -1,7 +1,7 @@
 ---
 layout: course-bootstrap
-title: Sử dụng Modal trong boostrap 
-slug : bootstrap-modal
+title: Sử dụng Modal trong Bootstrap 
+slug : su-dung-modal-trong-bootstrap
 category: laptrinhweb
 tags: [bootstrap]
 summery: Modal
