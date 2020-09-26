@@ -1,12 +1,13 @@
 ---
 layout: course-spring-web
-title: Sử dụng Generation Identifier trong Spring
-slug : su-dung-generation-identifier-trong-spring
+title: Sử dụng Generate Identifier
+slug : su-dung-generate-identifier
 category: laptrinhspring
-tags: [springweb]
-summery: Generation Identifier
+tags: [spring-web]
+summery: Generate Identifier
 image: /images/blog/spring.png
-description : Hiểu nguyên lý của Auto generation, identity generation, sequence generation và table generation trong lập trình Spring. Hướng dẫn cách cấu hình các generation trong dự án spring.
+featureImage: /images/post/javacore/feature_manytomany.png
+description : Sử dụng annotation Generate Identifier trong lập trình Spring. Hướng dẫn sử dụng Generate Identifier trong spring
 youtubeId: WNfuVJptPnQ
 ---
 
