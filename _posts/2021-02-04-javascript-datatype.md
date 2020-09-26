@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Kiểu dữ liệu  
-slug : javascript-datatype
+title: Sử dụng kiểu dữ liệu trong Javascript  
+slug : su-dung-kieu-du-lieu-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Kiểu dữ liệu   

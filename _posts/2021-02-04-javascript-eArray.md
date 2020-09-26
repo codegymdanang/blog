@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Sử dụng Array  
-slug : javascript-array
+title: Sử dụng Array trong Javascript 
+slug : su-dung-array-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Mảng   

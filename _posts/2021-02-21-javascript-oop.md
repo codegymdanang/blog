@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Lập trình hướng đối tượng  
-slug : javascript-oop
+title: Lập trình hướng đối tượng trong Javascript 
+slug : lap-trinh-huong-doi-tuong-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: OOP   

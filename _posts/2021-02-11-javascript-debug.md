@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Debug lỗi  
-slug : javascript-debug
+title: Hướng dẫn Debug lỗi trong Javascript  
+slug : huong-dan-debug-loi-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Debug   

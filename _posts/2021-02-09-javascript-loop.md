@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Vòng lặp  
-slug : javascript-loop
+title: Sử dụng vòng lặp trong Javascript  
+slug : su-dung-vong-lap-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Vòng lặp   

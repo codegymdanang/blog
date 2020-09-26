@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Sử dụng Scope  
-slug : javascript-scope
+title: Sử dụng Scope trong Javascript 
+slug : su-dung-scope-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Scope   

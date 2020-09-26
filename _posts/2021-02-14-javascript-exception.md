@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Ngoại lệ  
-slug : javascript-exception
+title: Sử dụng ngoại lệ trong Javascript  
+slug : su-dung-ngoai-le-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Ngoại lệ   

@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Toán tử   
-slug : javascript-operator
+title: Sử dụng toán tử trong Javascript   
+slug : su-dung-toan-tu-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Toán tử   

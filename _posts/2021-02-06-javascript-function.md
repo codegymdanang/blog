@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Sử dụng Function  
-slug : javascript-function
+title: Sử dụng Function trong Javascript  
+slug : su-dung-function-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Function   

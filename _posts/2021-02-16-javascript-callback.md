@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Sử dụng Callback  
-slug : javascript-callback
+title: Sử dụng Callback trong Javascript  
+slug : su-dung-callback-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Callback   

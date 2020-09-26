@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Prototype  
-slug : javascript-prototype
+title: Sử dụng Prototype trong Javascript 
+slug : su-dung-prototype-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Prototype   

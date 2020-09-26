@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Kế thừa  
-slug : javascript-inheritance
+title: Sử dụng kế thừa trong Javascript  
+slug : su-dung-ke-thua-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Kế thừa   

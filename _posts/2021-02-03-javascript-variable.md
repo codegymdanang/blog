@@ -1,7 +1,7 @@
 ---
 layout: course-javascript
-title: Khai báo biến   
-slug : javascript-variable
+title: Khai báo biến trong Javascript  
+slug : khai-bao-bien-trong-javascript
 category: laptrinhjavascript
 tags: [javascript]
 summery: Biến   
