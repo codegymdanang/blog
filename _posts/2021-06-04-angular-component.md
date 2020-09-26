@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Angular Component  
-slug : angular-component
+title: Sử dung Component trong Angular  
+slug : su-dung-component-trong Angular
 category: laptrinhweb
 tags: [angular]
 summery: Component   

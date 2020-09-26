@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Angular hoạt động như thế nào  
-slug : angular-co-che-hoat-dong
+title: Cơ chế hoạt động trong Angular  
+slug : co-che-hoat-dong-trong-Angular
 category: laptrinhweb
 tags: [angular]
 summery: Cơ chế hoạt động của Angular   

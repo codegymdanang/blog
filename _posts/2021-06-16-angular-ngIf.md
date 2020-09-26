@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Sử dụng Directive ngIf 
-slug : angular-ngIf
+title: Sử dụng Directive ngIf trong Angular
+slug : su-dung-directive-ngif-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: NgIF  

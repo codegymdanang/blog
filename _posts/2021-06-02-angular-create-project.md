@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Tạo dự án bằng angular cli  
-slug : angular-tao-du-an
+title: Sử dụng angular cli tạo dự án trong Angular
+slug : su-dung-angular-cli-tao-du-an-angular
 category: laptrinhweb
 tags: [angular]
 summery: Tạo dự án   

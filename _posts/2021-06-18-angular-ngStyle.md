@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Sử dụng Directive ngStyle
-slug : angular-ngStyle
+title: Sử dụng Directive ngStyle trong Angular
+slug : su-dung-directive-ngstyle-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: NgStyle 

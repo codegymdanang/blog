@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Angular Directive  
-slug : angular-directive
+title: Sử dụng Directive trong Angular  
+slug : su-dung-directive-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Directive   

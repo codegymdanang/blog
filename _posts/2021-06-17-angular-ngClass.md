@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Sử dụng Directive ngClass
-slug : angular-ngClass
+title: Sử dụng Directive ngClass trong Angular
+slug : su-dung-directive-ngclass-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: NgClass 

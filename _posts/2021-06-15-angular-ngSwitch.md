@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Sử dụng Directive NgSwitch 
-slug : angular-ngSwitch
+title: Sử dụng Directive NgSwitch trong Angular
+slug : su-dung-directive-ngSwitch-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: NgSwitch   

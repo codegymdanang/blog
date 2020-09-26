@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Sử dụng Directive NgFor 
-slug : angular-ngFor
+title: Sử dụng Directive NgFor trong Angular
+slug : su-dung-directive-ngFor-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: NgFor   

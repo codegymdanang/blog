@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Thêm component con vào component cha  
-slug : angular-add-child-component
+title: Hướng dẫn thêm component con vào component cha trong Angular  
+slug : huong-dan-them-component-con-vao-component-cha-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Thêm Component Con   

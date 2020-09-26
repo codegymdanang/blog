@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Angular Databinding  
-slug : angular-databinding
+title: Sử dụng Data binding trong Angular  
+slug : su-dung-data-binding-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Data Binding   
