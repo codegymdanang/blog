@@ -1,7 +1,7 @@
 ---
 layout: course-relationaldatabase
-title:  Cú pháp
-slug : database-syntax
+title:  Sử dụng cú pháp trong database
+slug :  su-dung-cu-phap-trong-database
 category: database
 tags: [database]
 summery: Cú pháp    
