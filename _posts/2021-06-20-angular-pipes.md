@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Angular Pipes 
-slug : angular-pipes
+title: Sử dụng Pipes trong Angular 
+slug : su-dung-pipes-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Pipes  

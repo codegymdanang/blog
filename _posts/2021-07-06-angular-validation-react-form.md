@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Validation React Form  
-slug : angular-validation-react-from
+title: Sử dụng Validation trong React Form của Angular 
+slug : su-dung-validation-trong-react-form-cua-angular
 category: laptrinhweb
 tags: [angular]
 summery: Validation React Form   

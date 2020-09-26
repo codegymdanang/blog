@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Truyền dữ liệu cho component con 
-slug : angular-pass-data-to-child-component
+title: Truyền dữ liệu từ component cha cho component con trong Angular
+slug : truyen-du-lieu-tu-component-cha-cho-component-con-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Truyền data cho component con  

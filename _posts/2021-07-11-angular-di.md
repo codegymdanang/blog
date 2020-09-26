@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Angular Dependency Injection  
-slug : angular-dependency-injection
+title: Sử dung Dependency Injection trong Angular 
+slug : su-dung-dependency-injection-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Dependency Injection   

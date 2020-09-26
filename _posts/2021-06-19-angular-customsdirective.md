@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Customs Directive 
-slug : angular-custom-directive
+title: Sử dụng Customs Directive trong Angular
+slug : su-dung-customs-directive-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Customs Directive  

@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Sử dụng Promise
-slug : promise
+title: Sử dụng Promise trong Angular
+slug : su-dung-promise-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Promise   

@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Sử dụng Angular Router  
-slug : angular-router
+title: Sử dụng Router trong Angular  
+slug : su-dung-router-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Router   

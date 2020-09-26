@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Tự tạo Pipes 
-slug : angular-custom-pipes
+title: Hướng dẫn tự tạo Pipes trong Angular 
+slug : huong-dan-tu-tao-pipes-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Tự tạo Pipes  

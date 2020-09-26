@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Custom Validation  
-slug : angular-custom-validation
+title: Tạo Custom Validation trong Angular 
+slug : tao-custom-validation-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Custom Validation   

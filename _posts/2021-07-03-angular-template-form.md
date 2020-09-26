@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Sử dụng Template Form  
-slug : angular-template
+title: Sử dụng Template Form trong Angular 
+slug : su-dung-template-form-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Template Form   

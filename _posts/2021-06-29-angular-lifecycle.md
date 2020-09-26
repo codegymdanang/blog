@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Vòng đời của component trong Agule 
-slug : angular-lifecycle
+title: Vòng đời của component trong Angular 
+slug : vong-doi-cua-component-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Vòng đời của component

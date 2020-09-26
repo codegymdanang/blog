@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Truyền tham số cho webservice
-slug : angular-call-webservice
+title: Truyền tham số cho webservice trong Angular
+tlug : truyen-tham-so-cho-webservice-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Truyền tham số cho webservice

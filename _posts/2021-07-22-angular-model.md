@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Angular Model  
-slug : angular-model
+title: Sử dụng Model trong Angular  
+slug : su-dung-model-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Model   

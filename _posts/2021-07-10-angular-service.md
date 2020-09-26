@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Giới thiệu Angular Service  
-slug : angular-service
+title: Sử dụng Service trong Angular  
+slug : su-dung-service-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Service   

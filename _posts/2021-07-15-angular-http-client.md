@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Angular Http Client  
-slug : angular-dependency-injection
+title: Sử dụng Http Client trong Angular
+slug : su-dung-http-client-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Http Client   

@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: Gọi webservice
-slug : angular-call-webservice
+title: Hướng dẫn gọi webservice trong Angular
+slug : huong-dan-goi-webservice-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: Angular gọi Webservice

@@ -1,7 +1,7 @@
 ---
 layout: course-angular
-title: React Form  
-slug : angular-react-from
+title: Sử dụng React Form trong Angular 
+slug : su-dung-react-form-trong-angular
 category: laptrinhweb
 tags: [angular]
 summery: React Form   
