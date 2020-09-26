@@ -1,12 +1,12 @@
 ---
 layout: course-spring-web
 title: Sử dụng Optional PathVariable trong SpringMVC
-slug : su-dung-optional-pathvariable-trong-springmvc
+slug : su-dung-optional-path-variable-trong-springmvc
 category: laptrinhspring
 tags: [spring-web]
-summery: PathVariable
+summery: Optional Path Variable
 image: /images/blog/spring.png
-description : Hiểu được Optional PathVariable trong lập trình dự án Spring. Hướng dẫn sử dụng Optional PathVariable trong lập trình Spring. Kết hợp Option PathVariable cùng với các annotaion khác trong dự án.
+description : Hiểu được Optional Path Variable trong lập trình dự án Spring. Hướng dẫn sử dụng Optional PathVariable trong lập trình Spring. Kết hợp Option PathVariable cùng với các annotaion khác trong dự án.
 youtubeId: WNfuVJptPnQ
 ---
 
