@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
-title: Sử dụng function  
-slug : typescript-function
+title: Sử dụng function trong TypeScript  
+slug : su-dung-function-trong-typescript
 category: laptrinhjavascript
 tags: [typescript]
 summery: Function   

@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
-title: Sử dụng Class  
-slug : typescript-class
+title: Sử dụng Class trong TypeScript 
+slug : su-dung-class-trong-typescript
 category: laptrinhjavascript
 tags: [typescript]
 summery: Class   

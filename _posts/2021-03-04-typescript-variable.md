@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
-title: Sử dụng biến   
-slug : typescript-variable
+title: Khai báo biến trong TypeScript   
+slug : khai-bao-bien-trong-typescript
 category: laptrinhjavascript
 tags: [typescript]
 summery: Biến   

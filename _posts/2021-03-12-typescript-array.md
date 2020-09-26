@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
-title: Sử dụng Array  
-slug : typescript-array
+title: Sử dụng Array trong TypeScript  
+slug : su-dung-array-trong-typescript
 category: laptrinhjavascript
 tags: [typescript]
 summery: Array   

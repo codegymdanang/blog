@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
-title: Sử dụng toán tử 
-slug : typescript-operator
+title: Sử dụng toán tử trong TypeScript
+slug : su-dung-toan-tu-trong-typescript
 category: laptrinhjavascript
 tags: [typescript]
 summery: Toán tử   

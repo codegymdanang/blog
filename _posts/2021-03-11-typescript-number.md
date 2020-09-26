@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
-title: Sử dụng Number  
-slug : typescript-number
+title: Sử dụng Number trong TypeScript  
+slug : su-dung-number-trong-typescript
 category: laptrinhjavascript
 tags: [typescript]
 summery: Number   

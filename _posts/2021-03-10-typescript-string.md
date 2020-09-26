@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
-title: Sử dụng String  
-slug : typescript-string
+title: Sử dụng String trong TypeScript  
+slug : su-dung-spring-trong-typescript
 category: laptrinhjavascript
 tags: [typescript]
 summery: String   

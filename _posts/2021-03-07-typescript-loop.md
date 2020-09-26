@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
-title: Sử dụng vòng lặp  
-slug : typescript-loop
+title: Sử dụng vòng lặp trong TypeScript
+slug : su-dung-vong-lap-trong-typescript
 category: laptrinhjavascript
 tags: [typescript]
 summery: Vòng lặp   

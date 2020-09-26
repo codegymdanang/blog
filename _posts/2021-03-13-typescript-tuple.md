@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
-title: Sử dụng Tuple  
-slug : typescript-tuple
+title: Sử dụng Tuple trong TypeScript 
+slug : su-dung-tuple-trong-typescript
 category: laptrinhjavascript
 tags: [typescript]
 summery: Tuple   

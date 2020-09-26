@@ -1,7 +1,7 @@
 ---
 layout: course-typescript
-title: Sử dụng điều kiện  
-slug : typescript-condition
+title: Sử dụng mệnh đề điều kiện trong TypeScript  
+slug : su-dung-menh-de-dieu-kien-trong-typescript
 category: laptrinhjavascript
 tags: [typescript]
 summery: Câu Điều kiện   
