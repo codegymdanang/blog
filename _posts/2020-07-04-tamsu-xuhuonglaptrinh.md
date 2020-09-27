@@ -1,7 +1,7 @@
 ---
 layout: course-tamsu
 title: Xu hướng ngành CNTT
-slug : xu-huong-nghanh-lap-trinh
+slug : xu-huong-nganh-lap-trinh
 category: career
 tags: [tamsu]
 summery: Xu hướng nghành lập trình   
