@@ -1,7 +1,7 @@
 ---
 layout: course-tamsu
 title: Tiếng Anh Trong Lập Trình
-slug : tieng-anh-trong-lap-trình
+slug : tieng-anh-trong-lap-trinh
 category: career
 tags: [tamsu]
 summery: Tiếng Anh quan trọng như thế nào   
