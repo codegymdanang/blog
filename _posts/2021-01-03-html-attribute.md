@@ -1,12 +1,12 @@
 ---
 layout: course-html
-title: Thuột tính của HTML  
-slug : thuot-tinh-html
+title: Thuộc tính trong HTML  
+slug : thuoc-tinh-trong-html
 category: laptrinhweb
 tags: [html]
 summery: Thuộc tính   
 image: /images/blog/angular.png
-description : Sử dụng các thuột tính HTML trong dự án làm web. Hướng dẫn sử dụng các thuột tính HTML vào dự án web. 
+description : Sử dụng các thuộc tính HTML trong dự án làm web. Hướng dẫn sử dụng các thuột tính HTML vào dự án web. 
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -16,9 +16,9 @@ youtubeId: Ex3glZTCvlY
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>thuột tính</b> là như thế nào?
 
-# **1. Thuột tính trong thẻ HTML**
+# **1. Thuộc tính trong thẻ HTML**
 
-Hầu hết các thể HTML đều có thuột tính để chúng ta có thể thêm một số thành phần cho thẻ HTML. Thuộc tính được khai báo với cú pháp là name và giá trị. Ví dụ như thẻ p sau đây. Chúng ta khai báo thuột tính align (canh chỉnh vị trí văn bản) có giá trị là center (canh giá trị văn bản trong thẻ p là ở giữa)
+Hầu hết các thể HTML đều có thuộc tính để chúng ta có thể thêm một số thành phần cho thẻ HTML. Thuộc tính được khai báo với cú pháp là name và giá trị. Ví dụ như thẻ p sau đây. Chúng ta khai báo thuột tính align (canh chỉnh vị trí văn bản) có giá trị là center (canh giá trị văn bản trong thẻ p là ở giữa)
 
 {% highlight html linenos %}
 
@@ -43,7 +43,7 @@ Hầu hết các thể HTML đều có thuột tính để chúng ta có thể t
 ![attribute](/images/post/html/attribute1.png){:class="img-responsive"}
 {: refdef}
 
-# **2. Thuột tính chính HTML**
+# **2. Thuộc tính chính HTML**
 
 Có 4 loại thuộc tính chính được dùng trong các phần tử HTML đó là : id , title, class và style
 
@@ -120,7 +120,7 @@ Ví dụ
 
 {% endhighlight %} 
 
-# **3. Thuột tính lang HTML**
+# **3. Thuộc tính lang HTML**
 
 Thuộc tính lang giúp chúng ta khai báo là ngôn ngữ chính hiển thị trong trang web là tiếng Anh hoặc tiếng Việt hay một thứ tiếng bất kỳ. Ví dụ chúng ta muốn khai báo là trang web đang sử dụng tiếng anh thì ta thêm thuộc tính lang = en trong thẻ bắt đầu của HTML như sau
 

@@ -1,7 +1,7 @@
 ---
 layout: course-html
-title: Sử dụng Table   
-slug : su-dung-table-trong-html
+title: Sử dụng thẻ Table trong HTML   
+slug : su-dung-the-table-trong-html
 category: laptrinhweb
 tags: [html]
 summery: Table   

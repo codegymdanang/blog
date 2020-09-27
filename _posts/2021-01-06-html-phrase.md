@@ -1,7 +1,7 @@
 ---
 layout: course-html
-title: Các thẻ cụm từ   
-slug : cac-the-phrase-html
+title: Sử dụng các thẻ cụm từ trong HTML   
+slug : su-dung-cac-the-cum-tu-trong-html
 category: laptrinhweb
 tags: [html]
 summery: Cụm từ   

@@ -1,6 +1,6 @@
 ---
 layout: course-html
-title: Sử dụng Color   
+title: Sử dụng màu sắc trong HTML   
 slug : su-dung-mau-sac-trong-html
 category: laptrinhweb
 tags: [html]

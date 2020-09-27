@@ -1,7 +1,7 @@
 ---
 layout: course-html
-title: Formatting   
-slug : formating-html
+title: Sử dụng định dạng text trong HTML   
+slug : su-dung-dinh-dang-text-trong-html
 category: laptrinhweb
 tags: [html]
 summery: Formatting   
@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>formating</b> là như thế nào?
+Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>định dạng chữ</b> là như thế nào?
 
 # **1. Hiển thị chữ đậm**
 

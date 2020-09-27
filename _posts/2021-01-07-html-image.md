@@ -1,7 +1,7 @@
 ---
 layout: course-html
-title: Sử dụng Image   
-slug : the-image-html
+title: Sử dụng thẻ Image trong HTML   
+slug : su-dung-the-image-trong-html
 category: laptrinhweb
 tags: [html]
 summery: Hình Ảnh   
