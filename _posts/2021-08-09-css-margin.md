@@ -1,6 +1,6 @@
 ---
 layout: course-css
-title: Sử dụng Margin 
+title: Sử dụng Margin trong CSS
 slug : su-dung-margin-trong-css
 category: laptrinhweb
 tags: [css]

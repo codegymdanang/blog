@@ -1,7 +1,7 @@
 ---
 layout: course-css
 title: Sử dụng đơn vị do trong CSS  
-slug : don-vi-do-css
+slug : su-dung-don-vi-do-trong-css
 category: laptrinhweb
 tags: [css]
 summery: Đơn vi đo  

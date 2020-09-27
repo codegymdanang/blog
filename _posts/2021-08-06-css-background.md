@@ -1,6 +1,6 @@
 ---
 layout: course-css
-title: Sử dụng background 
+title: Sử dụng background trong CSS
 slug : su-dung-background-trong-css
 category: laptrinhweb
 tags: [css]

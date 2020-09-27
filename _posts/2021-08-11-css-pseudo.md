@@ -1,6 +1,6 @@
 ---
 layout: course-css
-title: Sử dụng Pseudo Class 
+title: Sử dụng Pseudo Class trong CSS
 slug : su-dung-pseudo-class-trong-css
 category: laptrinhweb
 tags: [css]

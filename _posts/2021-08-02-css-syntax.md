@@ -1,7 +1,7 @@
 ---
 layout: course-css
-title: Cú pháp  
-slug : cu-phap-css
+title: Khai báo cú pháp trong CSS  
+slug : khai-bao-cu-phap-trong-css
 category: laptrinhweb
 tags: [css]
 summery: Cú pháp   

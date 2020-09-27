@@ -1,6 +1,6 @@
 ---
 layout: course-css
-title: Sử dụng Padding 
+title: Sử dụng Padding trong CSS
 slug : su-dung-padding-trong-css
 category: laptrinhweb
 tags: [css]
