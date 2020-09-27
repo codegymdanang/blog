@@ -72,7 +72,8 @@
 				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Design Pattern </span>
 			</div>
 			<div>
-				{% for post in site.categories.craftmanship  %}
+				{% assign sorted = site.categories.craftmanship | reverse %}
+				{% for post in  sorted %}
 				{% if post.tags contains 'designpattern' %}
 				<div >
 					<ul>
