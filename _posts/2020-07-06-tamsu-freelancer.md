@@ -98,15 +98,15 @@ Hiện nay các công việc dễ trên freelancer thì nhiều người sẽ v�
 
 - Gặp lừa đảo
 
-Không phải nhà đầu tư nào trên freelancer cũng tốt. Có rất nhiều khách hàng sau khi yêu cầu các lập trình viên hoàn thành dự án xong thì bùm tiền không trả cho lập trình viên. Nên các tốt nhất là tính tiền theo từng giai đoạn của dự án. Ví dụ dự án 6 tháng thì chia ra thanh toán mỗi tháng 1 lần cho an toàn. Tránh trường hợp làm xong dự án nhà đầu tư chạy làng.
+Không phải nhà đầu tư nào trên freelancer cũng tốt. Có rất nhiều khách hàng sau khi yêu cầu các lập trình viên hoàn thành dự án xong thì bùm tiền không trả cho lập trình viên. Nên cách tốt nhất là tính tiền theo từng giai đoạn của dự án. Ví dụ dự án 6 tháng thì chia ra thanh toán mỗi tháng 1 lần cho an toàn. Tránh trường hợp làm xong dự án nhà đầu tư chạy làng.
  
 - Thu nhập không ổn định
 
-Dự án lúc có lúc không chứ không phải lúc nào cũng đều đều trong cả năm. Nên thu nhập có thể ảnh hưởng nhiều. Kiếm được một dự án freelancer ngon làm trong 1 năm là rất hiếm, nhưng vẫn có thể có kiếm được. Những dự án nhỏ thường làm trong 1 đến 2 tháng là kết thúc. Sau đó mình phải tìm các dự án khác mà làm.
+Dự án lúc có lúc không, chứ không phải lúc nào cũng đều đều trong cả năm. Nên thu nhập có thể ảnh hưởng nhiều. Kiếm được một dự án freelancer ngon làm trong 1 năm là rất hiếm, nhưng vẫn có thể có kiếm được. Những dự án nhỏ thường làm trong 1 đến 2 tháng là kết thúc. Sau đó mình phải tìm các dự án khác mà làm.
 
 - Bệnh tật
 
-Do phải làm nhiều công việc ở trên công ty và làm thêm freelancer dự án ngoài nên áp lực 2 bên là rất lớn dẫn đến stress nặng. Thường các vấn đề mà lập trình viên gặp phải là mắt, lưng, dạ dày, trĩ và các bệnh tim mạch do ngồi nhiều, ít vận động và thói quen thức đêm làm dự án.
+Do phải làm nhiều công việc ở trên công ty và làm thêm freelancer dự án ngoài nên áp lực 2 bên là rất lớn, dẫn đến stress nặng. Thường các vấn đề mà lập trình viên gặp phải là mắt, lưng, dạ dày, trĩ và các bệnh tim mạch do ngồi nhiều, ít vận động và thói quen thức đêm làm dự án.
 
  - Không có chính sách bảo hiểm
 
