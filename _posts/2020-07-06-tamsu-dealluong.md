@@ -14,7 +14,7 @@ youtubeId: xLFCVXGSlNA
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ chia s với mọi người cách <b>deal lương khi đi phỏng vấn </b> với nhà tuyển dụng. Bài viết hôm nay được tổng hợp từ những kinh nghiệm thực tế mà anh thấy được đứng trên vai trò của nhà tuyển dụng và người tìm việc. Trước khi đi phỏng vấn các em phải chuẩn bị các bước mà anh đã giới thiệu trong bài [trước] (https://levunguyen.com/career/2020/07/24/ky-nang-phong-van-tim-viec/). Trong bài trước thì anh không nói nhiều đến phần deal lương nên bài này anh sẽ nói rõ hơn và các em cũng nên chuẩn bị s phần deal lương trước khi gặp nhà tuyển dụng.
+Chào các em, hôm nay anh sẽ chia sẻ với mọi người cách <b>deal lương khi đi phỏng vấn </b> với nhà tuyển dụng. Bài viết hôm nay được tổng hợp từ những kinh nghiệm thực tế mà anh thấy được đứng trên vai trò của nhà tuyển dụng và người tìm việc. Trước khi đi phỏng vấn các em phải chuẩn bị các bước mà anh đã giới thiệu trong bài [trước] (https://levunguyen.com/career/2020/07/24/ky-nang-phong-van-tim-viec/). Trong bài trước thì anh không nói nhiều đến phần deal lương nên bài này anh sẽ nói rõ hơn và các em cũng nên chuẩn bị s phần deal lương trước khi gặp nhà tuyển dụng.
 
 <br>
 # **1.Bạn đáng giá bao nhiêu**
