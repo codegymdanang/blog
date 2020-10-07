@@ -75,5 +75,9 @@ class MyMainClass {
 - Để đảm bảo tính bảo mật.
 - Chúng ta chỉ đưa ra những thông tin cần thiết và che giấu những thông tin quan trọng
 
+# **3. Cách tạo abstract trong Java**  
 
+<center>
+{% include youtubePlayer.html id=page.youtubeId1 %}
+</center>
 
