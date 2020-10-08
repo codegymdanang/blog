@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/boostrap/card1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/boostrap/card2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/boostrap/card3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/boostrap/card4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/boostrap/card5.png" />
+    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="html">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-angular.html" afterPath="$PROJECT_DIR$/_layouts/course-angular.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-bootstrap.html" afterPath="$PROJECT_DIR$/_layouts/course-bootstrap.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-css.html" afterPath="$PROJECT_DIR$/_layouts/course-css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-html.html" afterPath="$PROJECT_DIR$/_layouts/course-html.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-javascript.html" afterPath="$PROJECT_DIR$/_layouts/course-javascript.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-relationaldatabase.html" afterPath="$PROJECT_DIR$/_layouts/course-relationaldatabase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-spring-core.html" afterPath="$PROJECT_DIR$/_layouts/course-spring-core.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-spring-web.html" afterPath="$PROJECT_DIR$/_layouts/course-spring-web.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-typescript.html" afterPath="$PROJECT_DIR$/_layouts/course-typescript.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="New changelist" />
@@ -29,7 +34,112 @@
     <favorites_list name="nguyenleblog" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="course-spring-web.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-spring-web.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.3333335">
+              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-html.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-html.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-css.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-css.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-bootstrap.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-bootstrap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.708333">
+              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-angular.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-angular.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-javascript.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-javascript.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.333333">
+              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-typescript.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-typescript.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.666667">
+              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-softskill.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-softskill.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="36.25">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-relationaldatabase.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-relationaldatabase.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40447155">
+              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,57 +154,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.well-known/.well-known.html" />
-        <option value="$PROJECT_DIR$/.well-known.html" />
-        <option value="$PROJECT_DIR$/_posts/2020-02-25-spring-onetomany.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-02-02-spring-createspringmvcxml.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-09-02-cleancode-c-comment.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-01-01-java-inheritance.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-01-01-java-abstraction.md" />
-        <option value="$PROJECT_DIR$/_layouts/course-spring.html" />
-        <option value="$PROJECT_DIR$/_posts/2020-03-12-spring-bean-annotation-bean.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-03-01-spring-maven.md" />
-        <option value="$PROJECT_DIR$/_layouts/blog.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-angular.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-cleancode.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-design-pattern.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-java.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-relationaldatabase.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-softskill.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-spring-core.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-tamsu.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-spring-web.html" />
-        <option value="$PROJECT_DIR$/404.html" />
-        <option value="$PROJECT_DIR$/_posts/2020-05-12-database-group-having.md" />
-        <option value="$PROJECT_DIR$/_posts/2021-07-15-angular-webservice.md" />
-        <option value="$PROJECT_DIR$/_posts/2021-07-16-angular-http-param.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-05-19-database-index.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-08-01-goodcode-a-datten.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-08-02-goodcode-cleancode-method.md" />
         <option value="$PROJECT_DIR$/_posts/2020-08-03-goodcode-cleancode-comment.md" />
         <option value="$PROJECT_DIR$/_layouts/course-goodcode.html" />
         <option value="$PROJECT_DIR$/_posts/2020-04-20-spring-sessioncookie.md" />
         <option value="$PROJECT_DIR$/_posts/2020-04-27-spring-aop-pointcut.md" />
         <option value="$PROJECT_DIR$/hoc-lap-trinh-typescript.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-typescript.html" />
         <option value="$PROJECT_DIR$/_posts/2020-01-01-java-variable.md" />
         <option value="$PROJECT_DIR$/_posts/2021-03-18-typescript-class.md" />
         <option value="$PROJECT_DIR$/hoc-lap-trinh-manual-testing.html" />
         <option value="$PROJECT_DIR$/_includes/toc.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/_posts/2020-10-01-softskillss-quanlythoigian.md" />
         <option value="$PROJECT_DIR$/_posts/2020-07-02-tamsu-roadmapjava.md" />
         <option value="$PROJECT_DIR$/_posts/2020-07-03-tamsu-roadmapfrontend.md" />
         <option value="$PROJECT_DIR$/_posts/2020-07-05-tamsu-gooddev.md" />
         <option value="$PROJECT_DIR$/_posts/2020-10-02-softskillss-mindmap.md" />
         <option value="$PROJECT_DIR$/_posts/2020-10-05-softskillss-camnangtimviec.md" />
-        <option value="$PROJECT_DIR$/_layouts/course-bootstrap.html" />
         <option value="$PROJECT_DIR$/hoc-lap-trinh-bootstrap.html" />
         <option value="$PROJECT_DIR$/_posts/2021-04-01-bootstrap-setup.md" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
         <option value="$PROJECT_DIR$/_posts/2021-04-03-bootstrap-grid.md" />
         <option value="$PROJECT_DIR$/_posts/2021-04-05-bootstrap-color.md" />
+        <option value="$PROJECT_DIR$/hoc-lap-trinh-mockito.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-mockito.html" />
+        <option value="$PROJECT_DIR$/_posts/2020-09-02-mockito-introduction.md" />
+        <option value="$PROJECT_DIR$/hoc-lap-trinh-html.html" />
+        <option value="$PROJECT_DIR$/hoc-lap-trinh-css.html" />
+        <option value="$PROJECT_DIR$/_posts/2020-04-18-spring-identifierhibernate.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-04-17-spring-manytomany.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-04-16-spring-onetomany.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-04-15-spring-onetoone.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-04-06-spring-optinalpathvariable.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-05-01-database-syntax.md" />
+        <option value="$PROJECT_DIR$/ky-thuat-lap-trinh-java-refactoring.html" />
+        <option value="$PROJECT_DIR$/_posts/2020-11-07-refactoring-extractmethod.md" />
+        <option value="$PROJECT_DIR$/_layouts/course-refactoring.html" />
+        <option value="$PROJECT_DIR$/_posts/2020-02-07-java-file.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-07-11-tamsu-tienganhtronglaptrinh.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-07-04-tamsu-xuhuonglaptrinh.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-07-06-tamsu-dealluong.md" />
+        <option value="$PROJECT_DIR$/_posts/2020-01-21-java-abstraction.md" />
+        <option value="$PROJECT_DIR$/_layouts/course-java.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/_layouts/course-spring-core.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-spring-web.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-html.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-css.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-bootstrap.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-angular.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-javascript.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-typescript.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-relationaldatabase.html" />
       </list>
     </option>
   </component>
@@ -106,10 +216,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1677" />
-    <option name="y" value="23" />
-    <option name="width" value="1096" />
-    <option name="height" value="1027" />
+    <option name="x" value="-1724" />
+    <option name="y" value="100" />
+    <option name="width" value="1454" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -162,7 +272,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -176,40 +286,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boostrap" />
+              <option name="myItemId" value="_layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,21 +302,21 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="159" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="67" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="185" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="79" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="192" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="83" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1092" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="818" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="313" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="203" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="312" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="202" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="315" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="204" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="688" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="438" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -240,17 +324,17 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_layouts" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/_site/font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images/post/boostrap" />
-      <recent name="$PROJECT_DIR$/images/blog" />
       <recent name="$PROJECT_DIR$/images/post/tamsu" />
-      <recent name="$PROJECT_DIR$/images/post/angular" />
       <recent name="$PROJECT_DIR$/images/banner" />
+      <recent name="$PROJECT_DIR$/images/blog" />
+      <recent name="$PROJECT_DIR$/images/post/css" />
+      <recent name="$PROJECT_DIR$/images/post/html" />
     </key>
   </component>
   <component name="RunManager">
@@ -308,325 +392,325 @@
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
     </task>
-    <task id="LOCAL-01172" summary="angular">
-      <created>1599574418044</created>
-      <option name="number" value="01172" />
+    <task id="LOCAL-01298" summary="change url">
+      <created>1601105732990</created>
+      <option name="number" value="01298" />
       <option name="project" value="LOCAL" />
-      <updated>1599574418044</updated>
+      <updated>1601105732990</updated>
     </task>
-    <task id="LOCAL-01173" summary="angular">
-      <created>1599575560647</created>
-      <option name="number" value="01173" />
+    <task id="LOCAL-01299" summary="html">
+      <created>1601105932332</created>
+      <option name="number" value="01299" />
       <option name="project" value="LOCAL" />
-      <updated>1599575560647</updated>
+      <updated>1601105932332</updated>
     </task>
-    <task id="LOCAL-01174" summary="angular">
-      <created>1599576197305</created>
-      <option name="number" value="01174" />
+    <task id="LOCAL-01300" summary="html">
+      <created>1601106090335</created>
+      <option name="number" value="01300" />
       <option name="project" value="LOCAL" />
-      <updated>1599576197305</updated>
+      <updated>1601106090335</updated>
     </task>
-    <task id="LOCAL-01175" summary="angular">
-      <created>1599576658813</created>
-      <option name="number" value="01175" />
+    <task id="LOCAL-01301" summary="html">
+      <created>1601106174765</created>
+      <option name="number" value="01301" />
       <option name="project" value="LOCAL" />
-      <updated>1599576658813</updated>
+      <updated>1601106174765</updated>
     </task>
-    <task id="LOCAL-01176" summary="angular">
-      <created>1599577721470</created>
-      <option name="number" value="01176" />
+    <task id="LOCAL-01302" summary="html">
+      <created>1601106309321</created>
+      <option name="number" value="01302" />
       <option name="project" value="LOCAL" />
-      <updated>1599577721470</updated>
+      <updated>1601106309321</updated>
     </task>
-    <task id="LOCAL-01177" summary="angular">
-      <created>1599577935234</created>
-      <option name="number" value="01177" />
+    <task id="LOCAL-01303" summary="html">
+      <created>1601106434106</created>
+      <option name="number" value="01303" />
       <option name="project" value="LOCAL" />
-      <updated>1599577935234</updated>
+      <updated>1601106434106</updated>
     </task>
-    <task id="LOCAL-01178" summary="angular">
-      <created>1599578102476</created>
-      <option name="number" value="01178" />
+    <task id="LOCAL-01304" summary="html">
+      <created>1601106602699</created>
+      <option name="number" value="01304" />
       <option name="project" value="LOCAL" />
-      <updated>1599578102476</updated>
+      <updated>1601106602699</updated>
     </task>
-    <task id="LOCAL-01179" summary="angular">
-      <created>1599578211406</created>
-      <option name="number" value="01179" />
+    <task id="LOCAL-01305" summary="html">
+      <created>1601106770255</created>
+      <option name="number" value="01305" />
       <option name="project" value="LOCAL" />
-      <updated>1599578211406</updated>
+      <updated>1601106770255</updated>
     </task>
-    <task id="LOCAL-01180" summary="angular">
-      <created>1599580500975</created>
-      <option name="number" value="01180" />
+    <task id="LOCAL-01306" summary="change url">
+      <created>1601107081715</created>
+      <option name="number" value="01306" />
       <option name="project" value="LOCAL" />
-      <updated>1599580500975</updated>
+      <updated>1601107081715</updated>
     </task>
-    <task id="LOCAL-01181" summary="angular">
-      <created>1599626791760</created>
-      <option name="number" value="01181" />
+    <task id="LOCAL-01307" summary="html">
+      <created>1601107243733</created>
+      <option name="number" value="01307" />
       <option name="project" value="LOCAL" />
-      <updated>1599626791760</updated>
+      <updated>1601107243733</updated>
     </task>
-    <task id="LOCAL-01182" summary="angular">
-      <created>1599645087175</created>
-      <option name="number" value="01182" />
+    <task id="LOCAL-01308" summary="html">
+      <created>1601107904201</created>
+      <option name="number" value="01308" />
       <option name="project" value="LOCAL" />
-      <updated>1599645087176</updated>
+      <updated>1601107904201</updated>
     </task>
-    <task id="LOCAL-01183" summary="angular">
-      <created>1599666738925</created>
-      <option name="number" value="01183" />
+    <task id="LOCAL-01309" summary="change url">
+      <created>1601108930164</created>
+      <option name="number" value="01309" />
       <option name="project" value="LOCAL" />
-      <updated>1599666738925</updated>
+      <updated>1601108930164</updated>
     </task>
-    <task id="LOCAL-01184" summary="angular">
-      <created>1599666932712</created>
-      <option name="number" value="01184" />
+    <task id="LOCAL-01310" summary="html">
+      <created>1601109686804</created>
+      <option name="number" value="01310" />
       <option name="project" value="LOCAL" />
-      <updated>1599666932712</updated>
+      <updated>1601109686804</updated>
     </task>
-    <task id="LOCAL-01185" summary="angular">
-      <created>1599667071195</created>
-      <option name="number" value="01185" />
+    <task id="LOCAL-01311" summary="change url">
+      <created>1601110449265</created>
+      <option name="number" value="01311" />
       <option name="project" value="LOCAL" />
-      <updated>1599667071195</updated>
+      <updated>1601110449265</updated>
     </task>
-    <task id="LOCAL-01186" summary="angular">
-      <created>1599667686640</created>
-      <option name="number" value="01186" />
+    <task id="LOCAL-01312" summary="html">
+      <created>1601111056020</created>
+      <option name="number" value="01312" />
       <option name="project" value="LOCAL" />
-      <updated>1599667686640</updated>
+      <updated>1601111056020</updated>
     </task>
-    <task id="LOCAL-01187" summary="angular">
-      <created>1599667864462</created>
-      <option name="number" value="01187" />
+    <task id="LOCAL-01313" summary="html">
+      <created>1601111545960</created>
+      <option name="number" value="01313" />
       <option name="project" value="LOCAL" />
-      <updated>1599667864462</updated>
+      <updated>1601111545960</updated>
     </task>
-    <task id="LOCAL-01188" summary="angular">
-      <created>1599668281792</created>
-      <option name="number" value="01188" />
+    <task id="LOCAL-01314" summary="change url">
+      <created>1601180842679</created>
+      <option name="number" value="01314" />
       <option name="project" value="LOCAL" />
-      <updated>1599668281793</updated>
+      <updated>1601180842679</updated>
     </task>
-    <task id="LOCAL-01189" summary="angular">
-      <created>1599730579024</created>
-      <option name="number" value="01189" />
+    <task id="LOCAL-01315" summary="change url">
+      <created>1601181204715</created>
+      <option name="number" value="01315" />
       <option name="project" value="LOCAL" />
-      <updated>1599730579024</updated>
+      <updated>1601181204715</updated>
     </task>
-    <task id="LOCAL-01190" summary="angular">
-      <created>1599732854871</created>
-      <option name="number" value="01190" />
+    <task id="LOCAL-01316" summary="change link">
+      <created>1601181414633</created>
+      <option name="number" value="01316" />
       <option name="project" value="LOCAL" />
-      <updated>1599732854871</updated>
+      <updated>1601181414633</updated>
     </task>
-    <task id="LOCAL-01191" summary="angular">
-      <created>1599747684199</created>
-      <option name="number" value="01191" />
+    <task id="LOCAL-01317" summary="html">
+      <created>1601181548099</created>
+      <option name="number" value="01317" />
       <option name="project" value="LOCAL" />
-      <updated>1599747684199</updated>
+      <updated>1601181548099</updated>
     </task>
-    <task id="LOCAL-01192" summary="angular">
-      <created>1599747905366</created>
-      <option name="number" value="01192" />
+    <task id="LOCAL-01318" summary="html">
+      <created>1601181827133</created>
+      <option name="number" value="01318" />
       <option name="project" value="LOCAL" />
-      <updated>1599747905366</updated>
+      <updated>1601181827133</updated>
     </task>
-    <task id="LOCAL-01193" summary="angular">
-      <created>1599748075222</created>
-      <option name="number" value="01193" />
+    <task id="LOCAL-01319" summary="change url">
+      <created>1601191789706</created>
+      <option name="number" value="01319" />
       <option name="project" value="LOCAL" />
-      <updated>1599748075222</updated>
+      <updated>1601191789707</updated>
     </task>
-    <task id="LOCAL-01194" summary="angular">
-      <created>1599748281165</created>
-      <option name="number" value="01194" />
+    <task id="LOCAL-01320" summary="html">
+      <created>1601192960367</created>
+      <option name="number" value="01320" />
       <option name="project" value="LOCAL" />
-      <updated>1599748281165</updated>
+      <updated>1601192960367</updated>
     </task>
-    <task id="LOCAL-01195" summary="angular">
-      <created>1599748442578</created>
-      <option name="number" value="01195" />
+    <task id="LOCAL-01321" summary="html">
+      <created>1601196105954</created>
+      <option name="number" value="01321" />
       <option name="project" value="LOCAL" />
-      <updated>1599748442578</updated>
+      <updated>1601196105954</updated>
     </task>
-    <task id="LOCAL-01196" summary="angular">
-      <created>1599748902913</created>
-      <option name="number" value="01196" />
+    <task id="LOCAL-01322" summary="html">
+      <created>1601196257923</created>
+      <option name="number" value="01322" />
       <option name="project" value="LOCAL" />
-      <updated>1599748902913</updated>
+      <updated>1601196257923</updated>
     </task>
-    <task id="LOCAL-01197" summary="angular">
-      <created>1599749957754</created>
-      <option name="number" value="01197" />
+    <task id="LOCAL-01323" summary="html">
+      <created>1601197291356</created>
+      <option name="number" value="01323" />
       <option name="project" value="LOCAL" />
-      <updated>1599749957754</updated>
+      <updated>1601197291357</updated>
     </task>
-    <task id="LOCAL-01198" summary="angular">
-      <created>1599751287742</created>
-      <option name="number" value="01198" />
+    <task id="LOCAL-01324" summary="html">
+      <created>1601197652528</created>
+      <option name="number" value="01324" />
       <option name="project" value="LOCAL" />
-      <updated>1599751287742</updated>
+      <updated>1601197652528</updated>
     </task>
-    <task id="LOCAL-01199" summary="softskills">
-      <created>1599807256483</created>
-      <option name="number" value="01199" />
+    <task id="LOCAL-01325" summary="html">
+      <created>1601197846084</created>
+      <option name="number" value="01325" />
       <option name="project" value="LOCAL" />
-      <updated>1599807256484</updated>
+      <updated>1601197846084</updated>
     </task>
-    <task id="LOCAL-01200" summary="angular">
-      <created>1599837721159</created>
-      <option name="number" value="01200" />
+    <task id="LOCAL-01326" summary="html">
+      <created>1601816602440</created>
+      <option name="number" value="01326" />
       <option name="project" value="LOCAL" />
-      <updated>1599837721159</updated>
+      <updated>1601816602440</updated>
     </task>
-    <task id="LOCAL-01201" summary="angular">
-      <created>1599876478742</created>
-      <option name="number" value="01201" />
+    <task id="LOCAL-01327" summary="html">
+      <created>1601818529482</created>
+      <option name="number" value="01327" />
       <option name="project" value="LOCAL" />
-      <updated>1599876478743</updated>
+      <updated>1601818529483</updated>
     </task>
-    <task id="LOCAL-01202" summary="angular">
-      <created>1599898610239</created>
-      <option name="number" value="01202" />
+    <task id="LOCAL-01328" summary="html">
+      <created>1602058678167</created>
+      <option name="number" value="01328" />
       <option name="project" value="LOCAL" />
-      <updated>1599898610240</updated>
+      <updated>1602058678168</updated>
     </task>
-    <task id="LOCAL-01203" summary="angular">
-      <created>1599966796632</created>
-      <option name="number" value="01203" />
+    <task id="LOCAL-01329" summary="html">
+      <created>1602060322851</created>
+      <option name="number" value="01329" />
       <option name="project" value="LOCAL" />
-      <updated>1599966796633</updated>
+      <updated>1602060322851</updated>
     </task>
-    <task id="LOCAL-01204" summary="angular">
-      <created>1599967035774</created>
-      <option name="number" value="01204" />
+    <task id="LOCAL-01330" summary="html">
+      <created>1602060455440</created>
+      <option name="number" value="01330" />
       <option name="project" value="LOCAL" />
-      <updated>1599967035774</updated>
+      <updated>1602060455440</updated>
     </task>
-    <task id="LOCAL-01205" summary="angular">
-      <created>1599968820433</created>
-      <option name="number" value="01205" />
+    <task id="LOCAL-01331" summary="html">
+      <created>1602060685164</created>
+      <option name="number" value="01331" />
       <option name="project" value="LOCAL" />
-      <updated>1599968820433</updated>
+      <updated>1602060685164</updated>
     </task>
-    <task id="LOCAL-01206" summary="boostrap">
-      <created>1599971015590</created>
-      <option name="number" value="01206" />
+    <task id="LOCAL-01332" summary="html">
+      <created>1602061313011</created>
+      <option name="number" value="01332" />
       <option name="project" value="LOCAL" />
-      <updated>1599971015590</updated>
+      <updated>1602061313011</updated>
     </task>
-    <task id="LOCAL-01207" summary="boostrap">
-      <created>1600070485584</created>
-      <option name="number" value="01207" />
+    <task id="LOCAL-01333" summary="html">
+      <created>1602065316266</created>
+      <option name="number" value="01333" />
       <option name="project" value="LOCAL" />
-      <updated>1600070485585</updated>
+      <updated>1602065316266</updated>
     </task>
-    <task id="LOCAL-01208" summary="boostrap">
-      <created>1600072450127</created>
-      <option name="number" value="01208" />
+    <task id="LOCAL-01334" summary="java">
+      <created>1602123081843</created>
+      <option name="number" value="01334" />
       <option name="project" value="LOCAL" />
-      <updated>1600072450127</updated>
+      <updated>1602123081844</updated>
     </task>
-    <task id="LOCAL-01209" summary="boostrap">
-      <created>1600147711918</created>
-      <option name="number" value="01209" />
+    <task id="LOCAL-01335" summary="html">
+      <created>1602144764548</created>
+      <option name="number" value="01335" />
       <option name="project" value="LOCAL" />
-      <updated>1600147711918</updated>
+      <updated>1602144764549</updated>
     </task>
-    <task id="LOCAL-01210" summary="boostrap">
-      <created>1600148479637</created>
-      <option name="number" value="01210" />
+    <task id="LOCAL-01336" summary="html">
+      <created>1602145136078</created>
+      <option name="number" value="01336" />
       <option name="project" value="LOCAL" />
-      <updated>1600148479637</updated>
+      <updated>1602145136078</updated>
     </task>
-    <task id="LOCAL-01211" summary="boostrap">
-      <created>1600151478697</created>
-      <option name="number" value="01211" />
+    <task id="LOCAL-01337" summary="html">
+      <created>1602145260821</created>
+      <option name="number" value="01337" />
       <option name="project" value="LOCAL" />
-      <updated>1600151478697</updated>
+      <updated>1602145260821</updated>
     </task>
-    <task id="LOCAL-01212" summary="boostrap">
-      <created>1600152436608</created>
-      <option name="number" value="01212" />
+    <task id="LOCAL-01338" summary="html">
+      <created>1602145354994</created>
+      <option name="number" value="01338" />
       <option name="project" value="LOCAL" />
-      <updated>1600152436608</updated>
+      <updated>1602145354995</updated>
     </task>
-    <task id="LOCAL-01213" summary="boostrap">
-      <created>1600154666345</created>
-      <option name="number" value="01213" />
+    <task id="LOCAL-01339" summary="html">
+      <created>1602145501579</created>
+      <option name="number" value="01339" />
       <option name="project" value="LOCAL" />
-      <updated>1600154666345</updated>
+      <updated>1602145501579</updated>
     </task>
-    <task id="LOCAL-01214" summary="boostrap">
-      <created>1600158511705</created>
-      <option name="number" value="01214" />
+    <task id="LOCAL-01340" summary="html">
+      <created>1602145597077</created>
+      <option name="number" value="01340" />
       <option name="project" value="LOCAL" />
-      <updated>1600158511706</updated>
+      <updated>1602145597077</updated>
     </task>
-    <task id="LOCAL-01215" summary="boostrap">
-      <created>1600178481539</created>
-      <option name="number" value="01215" />
+    <task id="LOCAL-01341" summary="html">
+      <created>1602145677727</created>
+      <option name="number" value="01341" />
       <option name="project" value="LOCAL" />
-      <updated>1600178481540</updated>
+      <updated>1602145677727</updated>
     </task>
-    <task id="LOCAL-01216" summary="boostrap">
-      <created>1600183570744</created>
-      <option name="number" value="01216" />
+    <task id="LOCAL-01342" summary="html">
+      <created>1602145888005</created>
+      <option name="number" value="01342" />
       <option name="project" value="LOCAL" />
-      <updated>1600183570744</updated>
+      <updated>1602145888005</updated>
     </task>
-    <task id="LOCAL-01217" summary="boostrap">
-      <created>1600218232263</created>
-      <option name="number" value="01217" />
+    <task id="LOCAL-01343" summary="html">
+      <created>1602146119332</created>
+      <option name="number" value="01343" />
       <option name="project" value="LOCAL" />
-      <updated>1600218232264</updated>
+      <updated>1602146119332</updated>
     </task>
-    <task id="LOCAL-01218" summary="boostrap">
-      <created>1600219679005</created>
-      <option name="number" value="01218" />
+    <task id="LOCAL-01344" summary="html">
+      <created>1602146208492</created>
+      <option name="number" value="01344" />
       <option name="project" value="LOCAL" />
-      <updated>1600219679005</updated>
+      <updated>1602146208492</updated>
     </task>
-    <task id="LOCAL-01219" summary="boostrap">
-      <created>1600261206849</created>
-      <option name="number" value="01219" />
+    <task id="LOCAL-01345" summary="html">
+      <created>1602146368355</created>
+      <option name="number" value="01345" />
       <option name="project" value="LOCAL" />
-      <updated>1600261206850</updated>
+      <updated>1602146368355</updated>
     </task>
-    <task id="LOCAL-01220" summary="boostrap">
-      <created>1600262834208</created>
-      <option name="number" value="01220" />
+    <task id="LOCAL-01346" summary="html">
+      <created>1602147624486</created>
+      <option name="number" value="01346" />
       <option name="project" value="LOCAL" />
-      <updated>1600262834208</updated>
+      <updated>1602147624486</updated>
     </task>
-    <option name="localTasksCounter" value="1221" />
+    <option name="localTasksCounter" value="1347" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1677" y="23" width="1096" height="1027" extended-state="0" />
-    <editor active="false" />
+    <frame x="-1724" y="100" width="1454" height="965" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2895717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28351957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.330033" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6073232" sideWeight="0.5324544" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35753575" sideWeight="0.46754563" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35655254" sideWeight="0.46754563" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30896226" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32673267" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -642,11 +726,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="khoa java" />
-    <MESSAGE value="strategy pattern" />
-    <MESSAGE value="lose post" />
-    <MESSAGE value="youtube link" />
-    <MESSAGE value="backlink" />
     <MESSAGE value="mmo ola" />
     <MESSAGE value="layout" />
     <MESSAGE value="layout java" />
@@ -667,149 +746,292 @@
     <MESSAGE value="softskills" />
     <MESSAGE value="angular" />
     <MESSAGE value="boostrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="boostrap" />
+    <MESSAGE value="css" />
+    <MESSAGE value="change link" />
+    <MESSAGE value="change url" />
+    <MESSAGE value="java" />
+    <MESSAGE value="html" />
+    <option name="LAST_COMMIT_MESSAGE" value="html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/tester.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/dev-pm.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/plainning.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/review.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/retropsective.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/planning-month.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/seminar.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/caycode.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/buildingoutside.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/thianh.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/framgia.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/englishteacher.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/football.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/tamsu/nhau.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog/spring_core.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog/javascript.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog/typescript.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog/thebestcoder.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog/mysql.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog/refactoring.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog/tamsu.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog/mongodb.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-manual-testing.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/course-mockito.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.017523365">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.5081776">
+          <caret line="76" column="65" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-html.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8943662">
-          <caret line="5613" column="0" selection-start-line="5613" selection-start-column="0" selection-end-line="5613" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.02918288">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/toc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.017523365">
-          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/post/html/formating8.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-10-01-softskillss-quanlythoigian.md">
+    <entry file="file://$PROJECT_DIR$/images/post/html/formating7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/html/formating6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/html/formating5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/html/formating4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/html/formating3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/html/formating2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/html/formating1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/html/formating11.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/post/html/formating9.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-01-05-html-meta.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.37974682">
-            <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-01-06-html-phrase.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="-5.5488567">
+            <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029239766">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/banner.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/banner.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner/dcc.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-12-spring-entitymanager.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-14-spring-jpa-query.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-18-spring-identifierhibernate.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.097826086">
+            <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-17-spring-manytomany.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.097826086">
+            <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-16-spring-onetomany.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.097826086">
+            <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-15-spring-onetoone.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.097826086">
+            <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-06-spring-optinalpathvariable.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.097826086">
+            <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-04-11-spring-hibernate.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-05-01-database-syntax.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.06521739">
+            <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ky-thuat-lap-trinh-java-refactoring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09146342">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-11-07-refactoring-extractmethod.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.16304348">
+            <caret line="5" column="18" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-refactoring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.317073">
+          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-02-07-java-file.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.097826086">
+            <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-07-11-tamsu-tienganhtronglaptrinh.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           </first_editor>
           <second_editor />
         </state>
@@ -821,8 +1043,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2020-07-04-tamsu-xuhuonglaptrinh.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="5" column="12" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="12" />
+          <first_editor vertical-scroll-proportion="0.097613886">
+            <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
@@ -831,188 +1053,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-07-02-tamsu-roadmapjava.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-07-24-tamsu-kynangphongvan.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-07-03-tamsu-roadmapfrontend.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-07-05-tamsu-gooddev.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-10-02-softskillss-mindmap.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.05461165">
-            <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-web.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/course-angular.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="40.625">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/course-javascript.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.84014004">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-java-chuyen-sau.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052508753">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-10-05-softskillss-camnangtimviec.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-10-04-softskillss-debug.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.09090909">
-            <caret line="5" column="13" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-bootstrap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blog/boostrap.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-04-01-bootstrap-setup.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.60072815">
-            <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/course-bootstrap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47313085">
-          <caret line="76" column="67" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/boostrap/container.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="111" selection-start-line="161" selection-start-column="111" selection-end-line="161" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/boostrap/grid.PNG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/boostrap/small.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-04-03-bootstrap-grid.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.07281554">
-            <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/boostrap/color.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-04-06-bootstrap-table.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
+          <first_editor vertical-scroll-proportion="-1.7638191">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
@@ -1022,11 +1066,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-04-28-bootstrap-util.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-07-06-tamsu-dealluong.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.8907767">
-            <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="1.3478261">
+            <caret line="72" column="211" selection-start-line="72" selection-start-column="211" selection-end-line="72" selection-end-column="211" />
           </first_editor>
           <second_editor />
         </state>
@@ -1035,24 +1079,24 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-06-10-angular-bootstrap.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2020-07-11-tamsu-cauhoiphongvan.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="121" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-24-java-abstract.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-04-05-bootstrap-color.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.80097085">
-            <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1060,6 +1104,144 @@
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-21-java-abstraction.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.16304348">
+            <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/database-relational-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2195122">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79651165">
+          <caret line="5620" column="0" selection-start-line="5620" selection-start-column="0" selection-end-line="5620" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-java.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36422414">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-spring-core.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42276424">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-spring-web.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-bootstrap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.708333">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-angular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-javascript.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-typescript.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.666667">
+          <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-softskill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="36.25">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-relationaldatabase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40447155">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

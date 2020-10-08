@@ -5612,19 +5612,10 @@ a {
 .toc__menu ul{counter-reset: item;}
 #markdown-toc li{display: block;margin-right: 10px;}
 
-.relatedpost p, h3, ul, ol, h4 {
-  font-size: 12px;
+.relatedpost > ul, ol {
+  font-size: 15px;
   font-weight: bold;
 }
 
-.relatedpost ol {
-  list-style-type: none;
-  counter-reset: elementcounter;
-  padding-left: 0;
-}
 
-.relatedpost li:before {
-  content: "Bài :" counter(elementcounter) ". ";
-  counter-increment: elementcounter;
-  font-weight: bold;
-}
+
