@@ -71,19 +71,21 @@
 			<div>
 				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Mysql </span>
 			</div>
-			<div>
-				{% assign sorted = site.categories.database | reverse %}
-				{% for post in sorted  %}
-				{% if post.tags contains 'database' %}
+			<div class=".relatedpost">
+
 				<div >
-					<ul>
-						<li style="list-style-type: asterisks;">
+					<ul style="list-style-type:decimal;">
+						{% assign sorted = site.categories.database | reverse %}
+						{% for post in sorted  %}
+						{% if post.tags contains 'database' %}
+						<li>
 							<a style="color:black" href='{{post.url | relative_url }}'>{{post.summery}} </a>
 						</li>
+						{% endif %}
+						{% endfor %}
 					</ul>
 				</div>
-				{% endif %}
-				{% endfor %}
+
 			</div>
 		</div>
 
