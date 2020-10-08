@@ -71,19 +71,20 @@
 					<div>
 						<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> JavaScript </span>
 					</div>
-					<div>
-						{% assign sorted = site.categories.laptrinhjavascript | reverse %}
-						{% for post in sorted  %}
-								{% if post.tags contains 'javascript' %}
+					<div class=".relatedpost">
+
 									<div >
-										<ul>
-											<li style="list-style-type: asterisks;">
+										<ul style="list-style-type:decimal;">
+											{% assign sorted = site.categories.laptrinhjavascript | reverse %}
+											{% for post in sorted  %}
+											{% if post.tags contains 'javascript' %}
+											<li>
 												<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
-											</li>	
+											</li>
+											{% endif %}
+											{% endfor %}
 										</ul>				
 									</div>
-								{% endif %}
-							{% endfor %}
 					</div>
 				</div>
 
