@@ -71,19 +71,21 @@
 			<div>
 				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> CSS </span>
 			</div>
-			<div>
-				{% assign sorted = site.categories.laptrinhweb | reverse %}
-				{% for post in  sorted %}
-				{% if post.tags contains 'css' %}
+			<div class=".relatedpost">
+
 				<div >
-					<ul>
-						<li style="list-style-type: asterisks;">
+					<ul style="list-style-type:decimal;">
+						{% assign sorted = site.categories.laptrinhweb | reverse %}
+						{% for post in  sorted %}
+						{% if post.tags contains 'css' %}
+						<li>
 							<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
 						</li>
+						{% endif %}
+						{% endfor %}
 					</ul>
 				</div>
-				{% endif %}
-				{% endfor %}
+
 			</div>
 		</div>
 
