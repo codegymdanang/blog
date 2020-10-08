@@ -72,17 +72,19 @@
 				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Kỹ năng mềm </span>
 			</div>
 			<div>
-				{% for post in site.categories.career  %}
-				{% if post.tags contains 'skills' %}
+
 				<div >
-					<ul>
+					<ul class="relatedpost">
+						{% for post in site.categories.career  %}
+						{% if post.tags contains 'skills' %}
 						<li style="list-style-type: asterisks;">
 							<a style="color:black" href='{{post.url | relative_url }}'>{{post.summery}} </a>
 						</li>
+						{% endif %}
+						{% endfor %}
 					</ul>
 				</div>
-				{% endif %}
-				{% endfor %}
+
 			</div>
 		</div>
 
