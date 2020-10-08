@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="html">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-angular.html" afterPath="$PROJECT_DIR$/_layouts/course-angular.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-bootstrap.html" afterPath="$PROJECT_DIR$/_layouts/course-bootstrap.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-css.html" afterPath="$PROJECT_DIR$/_layouts/course-css.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-html.html" afterPath="$PROJECT_DIR$/_layouts/course-html.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-javascript.html" afterPath="$PROJECT_DIR$/_layouts/course-javascript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-relationaldatabase.html" afterPath="$PROJECT_DIR$/_layouts/course-relationaldatabase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-spring-core.html" afterPath="$PROJECT_DIR$/_layouts/course-spring-core.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-spring-web.html" afterPath="$PROJECT_DIR$/_layouts/course-spring-web.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-typescript.html" afterPath="$PROJECT_DIR$/_layouts/course-typescript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-design-pattern.html" afterPath="$PROJECT_DIR$/_layouts/course-design-pattern.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-goodcode.html" afterPath="$PROJECT_DIR$/_layouts/course-goodcode.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-manual-testing.html" afterPath="$PROJECT_DIR$/_layouts/course-manual-testing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-mockito.html" afterPath="$PROJECT_DIR$/_layouts/course-mockito.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-refactoring.html" afterPath="$PROJECT_DIR$/_layouts/course-refactoring.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="New changelist" />
@@ -35,103 +30,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="course-spring-web.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/course-spring-web.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3333335">
-              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course-html.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/course-html.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625">
-              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course-css.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/course-css.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course-bootstrap.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/course-bootstrap.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.708333">
-              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course-angular.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/course-angular.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course-javascript.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/course-javascript.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.333333">
-              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course-typescript.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/course-typescript.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.666667">
-              <caret line="75" column="48" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="course-softskill.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/course-softskill.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="36.25">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.6153846">
+              <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-relationaldatabase.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_layouts/course-relationaldatabase.html">
+      <file leaf-file-name="course-goodcode.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-goodcode.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40447155">
-              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+            <state vertical-scroll-proportion="-3.1730769">
+              <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-design-pattern.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-design-pattern.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.769231">
+              <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-refactoring.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-refactoring.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.4423075">
+              <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-manual-testing.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-manual-testing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.326923">
+              <caret line="76" column="76" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-mockito.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-mockito.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35560346">
+              <caret line="75" column="60" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -154,11 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2020-08-03-goodcode-cleancode-comment.md" />
-        <option value="$PROJECT_DIR$/_layouts/course-goodcode.html" />
-        <option value="$PROJECT_DIR$/_posts/2020-04-20-spring-sessioncookie.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-04-27-spring-aop-pointcut.md" />
-        <option value="$PROJECT_DIR$/hoc-lap-trinh-typescript.html" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_posts/2020-01-01-java-variable.md" />
         <option value="$PROJECT_DIR$/_posts/2021-03-18-typescript-class.md" />
@@ -176,7 +126,6 @@
         <option value="$PROJECT_DIR$/_posts/2021-04-03-bootstrap-grid.md" />
         <option value="$PROJECT_DIR$/_posts/2021-04-05-bootstrap-color.md" />
         <option value="$PROJECT_DIR$/hoc-lap-trinh-mockito.html" />
-        <option value="$PROJECT_DIR$/_layouts/course-mockito.html" />
         <option value="$PROJECT_DIR$/_posts/2020-09-02-mockito-introduction.md" />
         <option value="$PROJECT_DIR$/hoc-lap-trinh-html.html" />
         <option value="$PROJECT_DIR$/hoc-lap-trinh-css.html" />
@@ -188,7 +137,6 @@
         <option value="$PROJECT_DIR$/_posts/2020-05-01-database-syntax.md" />
         <option value="$PROJECT_DIR$/ky-thuat-lap-trinh-java-refactoring.html" />
         <option value="$PROJECT_DIR$/_posts/2020-11-07-refactoring-extractmethod.md" />
-        <option value="$PROJECT_DIR$/_layouts/course-refactoring.html" />
         <option value="$PROJECT_DIR$/_posts/2020-02-07-java-file.md" />
         <option value="$PROJECT_DIR$/_posts/2020-07-11-tamsu-tienganhtronglaptrinh.md" />
         <option value="$PROJECT_DIR$/_posts/2020-07-04-tamsu-xuhuonglaptrinh.md" />
@@ -205,6 +153,13 @@
         <option value="$PROJECT_DIR$/_layouts/course-javascript.html" />
         <option value="$PROJECT_DIR$/_layouts/course-typescript.html" />
         <option value="$PROJECT_DIR$/_layouts/course-relationaldatabase.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-tamsu.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-softskill.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-goodcode.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-design-pattern.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-refactoring.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-manual-testing.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-mockito.html" />
       </list>
     </option>
   </component>
@@ -391,24 +346,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-01298" summary="change url">
-      <created>1601105732990</created>
-      <option name="number" value="01298" />
-      <option name="project" value="LOCAL" />
-      <updated>1601105732990</updated>
-    </task>
-    <task id="LOCAL-01299" summary="html">
-      <created>1601105932332</created>
-      <option name="number" value="01299" />
-      <option name="project" value="LOCAL" />
-      <updated>1601105932332</updated>
-    </task>
-    <task id="LOCAL-01300" summary="html">
-      <created>1601106090335</created>
-      <option name="number" value="01300" />
-      <option name="project" value="LOCAL" />
-      <updated>1601106090335</updated>
     </task>
     <task id="LOCAL-01301" summary="html">
       <created>1601106174765</created>
@@ -686,7 +623,25 @@
       <option name="project" value="LOCAL" />
       <updated>1602147624486</updated>
     </task>
-    <option name="localTasksCounter" value="1347" />
+    <task id="LOCAL-01347" summary="html">
+      <created>1602148295016</created>
+      <option name="number" value="01347" />
+      <option name="project" value="LOCAL" />
+      <updated>1602148295016</updated>
+    </task>
+    <task id="LOCAL-01348" summary="html">
+      <created>1602148389974</created>
+      <option name="number" value="01348" />
+      <option name="project" value="LOCAL" />
+      <updated>1602148389974</updated>
+    </task>
+    <task id="LOCAL-01349" summary="html">
+      <created>1602148594542</created>
+      <option name="number" value="01349" />
+      <option name="project" value="LOCAL" />
+      <updated>1602148594542</updated>
+    </task>
+    <option name="localTasksCounter" value="1350" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -758,35 +713,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/course-mockito.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5081776">
-          <caret line="76" column="65" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02918288">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/html/formating8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/html/formating7.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/post/html/formating6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/post/html/formating5.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1007,13 +933,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/course-refactoring.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.317073">
-          <caret line="76" column="53" selection-start-line="76" selection-start-column="53" selection-end-line="76" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2020-02-07-java-file.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
@@ -1226,18 +1145,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-relationaldatabase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.291667">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-tamsu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7758621">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/course-softskill.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="36.25">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-4.6153846">
+          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/course-relationaldatabase.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/course-goodcode.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40447155">
-          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+        <state vertical-scroll-proportion="-3.1730769">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-design-pattern.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.769231">
+          <caret line="84" column="36" selection-start-line="84" selection-start-column="36" selection-end-line="84" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-refactoring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4423075">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-manual-testing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.326923">
+          <caret line="76" column="76" selection-start-line="76" selection-start-column="76" selection-end-line="76" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-mockito.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35560346">
+          <caret line="75" column="60" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

@@ -72,18 +72,20 @@
 				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Nghệ nhân phần mềm </span>
 			</div>
 			<div>
-				{% assign sorted = site.categories.craftmanship | reverse %}
-				{% for post in sorted  %}
-				{% if post.tags contains 'goodcode' %}
-				<div >
+
+				<div class="relatedpost">
 					<ul>
+						{% assign sorted = site.categories.craftmanship | reverse %}
+						{% for post in sorted  %}
+						{% if post.tags contains 'goodcode' %}
 						<li style="list-style-type: asterisks;">
 							<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
 						</li>
+						{% endif %}
+						{% endfor %}
 					</ul>
 				</div>
-				{% endif %}
-				{% endfor %}
+
 			</div>
 		</div>
 

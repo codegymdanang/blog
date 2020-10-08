@@ -72,18 +72,20 @@
 						<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Mockito </span>
 					</div>
 					<div>
-						{% assign sorted = site.categories.unitest | reverse %}
-						{% for post in sorted  %}
-								{% if post.tags contains 'mockito' %}
-									<div >
-										<ul>
-											<li style="list-style-type: asterisks;">
+
+									<div class="relatedpost">
+										<ul style="list-style-type:decimal;">
+											{% assign sorted = site.categories.unitest | reverse %}
+											{% for post in sorted  %}
+											{% if post.tags contains 'mockito' %}
+											<li>
 												<a style="color:black" href='{{post.url | relative_url }}'>{{post.summery}} </a>
-											</li>	
+											</li>
+											{% endif %}
+											{% endfor %}
 										</ul>				
 									</div>
-								{% endif %}
-							{% endfor %}
+
 					</div>
 				</div>
 
