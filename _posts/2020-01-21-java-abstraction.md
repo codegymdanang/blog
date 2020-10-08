@@ -4,7 +4,7 @@ title: Tính trừu tượng trong lập trình hướng đối tượng
 slug : tinh-truu-tuong-trong-lap-trinh-huong-doi-tuong
 category: laptrinhjava
 tags: [java core]
-summery: Tính trừa tượng
+summery: Tính trừu tượng
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
 description : Hiểu về tính trừu tượng trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về tính trừu tượng  trong lập trình hướng đối tượng. Lợi ích của việc sử dụng lập tính đa hình.
