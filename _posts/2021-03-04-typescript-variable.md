@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Biến   
 image: /images/blog/feature_javascript.png
 description : Giới thiệu về biến trong Typescrip, cách hoạt động của biến trong Typescrip
-youtubeId: Ex3glZTCvlY
+youtubeId: ttKo2gO-BCE
 ---
 
 {% include toc.html %}
@@ -211,7 +211,12 @@ empObj.empCode; //Compiler Error
 
 {% endhighlight %}
 
+<br>
+# **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
