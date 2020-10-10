@@ -7,7 +7,7 @@ tags: [database]
 summery: Kiểu dữ liệu    
 image: /images/blog/database.png
 description : Trình bày kiểu dữ liệu của database. Hướng dẫn cách sử dụng kiểu dữ liệu trong database
-youtubeId: tKLOuvrHCNw
+youtubeId: 5tAE8qXPFts
 ---
 
 {% include toc.html %}
@@ -69,7 +69,12 @@ Trong database có 3 kiểu dữ liệu chính là chuỗi, số và ngày thán
 |	YEAR							| Đinh đạng 4 chữ số từ năm 1901 to 2155
 
 
+<br>
+# **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
