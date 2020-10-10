@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Câu Điều kiện   
 image: /images/blog/feature_javascript.png
 description : Giới thiệu về câu điều kiện trong Typescrip, cách hoạt động của câu điều kiện trong Typescrip
-youtubeId: Ex3glZTCvlY
+youtubeId: ufziMUA9ERY
 ---
 
 {% include toc.html %}
@@ -109,7 +109,12 @@ switch (x-y) {
 {% endhighlight %}
 
 
+<br>
+# **3. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
