@@ -7,7 +7,7 @@ tags: [database]
 summery: Toán tử    
 image: /images/blog/database.png
 description : Trình bày toán tử của database. Hướng dẫn cách sử dụng toán tử trong database
-youtubeId: tKLOuvrHCNw
+youtubeId: b-WGaGYAUQw
 ---
 
 {% include toc.html %}
@@ -81,7 +81,12 @@ Chào các em, hôm nay chúng ta sẽ nói về chủ đề toán tử trong da
 
 
  
+<br>
+# **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
