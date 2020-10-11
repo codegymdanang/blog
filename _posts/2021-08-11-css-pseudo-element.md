@@ -153,7 +153,7 @@ Chúng ta sẽ thêm ảnh sau thẻ P như sau.
 {% endhighlight %}
 
 {:refdef: style="text-align: center;"}
-![pseudo-before](/images/post/css/pseudo-before.png){:class="img-responsive"}
+![pseudo-after](/images/post/css/pseudo-after.png){:class="img-responsive"}
 {: refdef}
 
 
