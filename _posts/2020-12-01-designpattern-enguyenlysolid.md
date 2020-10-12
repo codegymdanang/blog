@@ -26,11 +26,11 @@ SOLID đưa ra cho chúng ta 5 nguyên lý (5 phương pháp) mà chúng ta ph�
 <br>
 # **2- Nguyên lý Single Responsibility ?**
 
-Nguyên lý đầu tiên là khi chúng ta tạo ra một class thì class đó chỉ có một nhiệm vụ (trách nhiệm) duy nhấtn hay làm một việc duy nhất.
+Nguyên lý đầu tiên là khi chúng ta tạo ra một class thì class đó chỉ có một nhiệm vụ (trách nhiệm) duy nhất hay nói các khác là làm một việc duy nhất.
 
 Lợi ích của sử dụng nguyên lý này giúp chúng ta trong việc
 
-- Testing : Class chỉ có 1 nhiệm vụ nên việc test hoặc làm unit rất đơn giản chỉ cần vài testcase có thể kiểm tra được chất lượng code
+- Kiểm thử chức năng : Class chỉ có 1 nhiệm vụ nên việc test hoặc làm unit rất đơn giản chỉ cần vài testcase có thể kiểm tra được chất lượng code
 
 - Giảm phụ thuộc : Ít chức năng (method) trong class dẫn đến ít sự phụ thuộc
 
@@ -91,7 +91,7 @@ public class Book {
 
 {% endhighlight %}
 
-Nếu anh viết code trên kia thì chương trình vẫn chạy đúng nhưng đang vi phạm nguyên lý Single Responsibility. Vì lớp Book chỉ nên làm một nhiệm vụ và có trách nhiệm trong việc tìm kiếm và kiểm tra thôi. Do vậy chức năng in phải di chuyển ra nơi khác và tạo một class khác chuyên cho việc in.
+Nếu anh viết code như trên kia thì chương trình vẫn chạy đúng nhưng đang vi phạm nguyên lý Single Responsibility. Vì lớp Book chỉ nên làm một nhiệm vụ và có trách nhiệm trong việc tìm kiếm và kiểm tra thôi. Do vậy chức năng in phải di chuyển ra nơi khác và tạo một class khác chuyên cho việc in.
 
 Code sẽ được thay đổi như sau.
 
