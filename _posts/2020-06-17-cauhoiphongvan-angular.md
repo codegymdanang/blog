@@ -4,7 +4,7 @@ title: Câu hỏi phỏng vấn lập trình Angular
 slug : cau-hoi-phong-van-lap-trinh-angular
 category: cauhoi
 tags: [cauhoiphongvan]
-summery: Câu hỏi phỏng vấn   
+summery: Angular
 image: /images/blog/angular.png
 description : Tổng hợp các câu hỏi phỏng vấn về Angular
 youtubeId: Ex3glZTCvlY

@@ -4,7 +4,7 @@ title:  Câu hỏi phỏng vấn về database
 slug :  cau-hoi-phong-van-ve-database
 category: cauhoi
 tags: [cauhoiphongvan]
-summery: Câu hỏi phỏng vấn    
+summery: Database
 image: /images/blog/database.png
 description : Tổng hợp các câu hỏi phỏng vấn về Database
 youtubeId: Thx8bBqIY28

@@ -4,7 +4,7 @@ title: Câu hỏi phỏng vấn Javascript
 slug : cau-hoi-phong-van-javascript
 category: cauhoi
 tags: [cauhoiphongvan]
-summery: Các câu hỏi phỏng vấn  
+summery: Javascript
 image: /images/blog/feature_javascript.png
 description : Tổng hợp các câu hỏi phỏng vấn trong lập trình Javascript
 youtubeId: Ex3glZTCvlY

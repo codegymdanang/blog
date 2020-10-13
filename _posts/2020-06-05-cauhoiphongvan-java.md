@@ -4,7 +4,7 @@ title: Câu hỏi phỏng vấn trong lập trình Java
 slug : cau-hoi-phong-van-trong-lap-trinh-java
 category: cauhoi
 tags: [cauhoiphongvan]
-summery: Câu hỏi phỏng vấn
+summery: Java
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_exception.png
 description : Phân biệt String vs String Buffer vs String Builder trong ngôn ngữ lập trình java. Chúng ta sẽ tìm hiểu Phân biệt String vs String Buffer vs String Builder là gì. Cách sử dụng Phân biệt String vs String Buffer vs String Builder trong ngôn ngữ lập trình.
