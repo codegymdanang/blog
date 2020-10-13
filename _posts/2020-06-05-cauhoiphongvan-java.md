@@ -1,9 +1,9 @@
 ---
-layout: course-java
+layout: course-cauhoiphongvan
 title: Câu hỏi phỏng vấn trong lập trình Java
 slug : cau-hoi-phong-van-trong-lap-trinh-java
-category: laptrinhjava
-tags: [java core]
+category: cauhoi
+tags: [cauhoiphongvan]
 summery: Câu hỏi phỏng vấn
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_exception.png

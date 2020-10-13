@@ -1,9 +1,9 @@
 ---
-layout: course-spring-web
+layout: course-cauhoiphongvan
 title: Câu hỏi phỏng vấn lập trình spring
 slug : cau-hoi-phong-van-lap-trinh-spring
-category: laptrinhspring
-tags: [spring-web]
+category: cauhoi
+tags: [cauhoiphongvan]
 summery: Câu hỏi phỏng vấn
 image: /images/blog/spring.png
 description : Tổng hợp các câu hỏi phỏng vấn về Spring.

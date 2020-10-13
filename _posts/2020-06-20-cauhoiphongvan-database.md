@@ -1,9 +1,9 @@
 ---
-layout: course-relationaldatabase
+layout: course-cauhoiphongvan
 title:  Câu hỏi phỏng vấn về database
 slug :  cau-hoi-phong-van-ve-database
-category: database
-tags: [database]
+category: cauhoi
+tags: [cauhoiphongvan]
 summery: Câu hỏi phỏng vấn    
 image: /images/blog/database.png
 description : Tổng hợp các câu hỏi phỏng vấn về Database

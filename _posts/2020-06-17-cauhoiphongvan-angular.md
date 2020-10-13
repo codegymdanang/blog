@@ -1,9 +1,9 @@
 ---
-layout: course-angular
+layout: course-cauhoiphongvan
 title: Câu hỏi phỏng vấn lập trình Angular  
 slug : cau-hoi-phong-van-lap-trinh-angular
-category: laptrinhweb
-tags: [angular]
+category: cauhoi
+tags: [cauhoiphongvan]
 summery: Câu hỏi phỏng vấn   
 image: /images/blog/angular.png
 description : Tổng hợp các câu hỏi phỏng vấn về Angular
