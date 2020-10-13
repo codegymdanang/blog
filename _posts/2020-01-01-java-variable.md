@@ -1,28 +1,28 @@
 ---
 layout: course-java
-title: Khai báo biến trong java
-slug : khai-bao-bien-trong-java
+title: Khai báo biến trong lập trình java
+slug : khai-bao-bien-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Biến  
 image: /images/blog/java.png
 
-description : Hiểu về Biến là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về Biến trong lập trình hướng đối tượng. Lợi ích của việc sử dụng biến lập trình hướng đối tượng trong lập trình.
+description : Trong ngôn ngữ lập trình nói chung và **ngôn ngữ lập trình Java** nói riêng. Biến là một trong những kiến thức nền tảng mà mỗi người học cần trang bị cho bản thân. Tuy nhiên hiện nay vẫn còn hạn chế các trang cung cấp các kiến thức chuyên môn cơ bản này một cách đầy đủ và thiết thực cho người học. Vì vậy đó chính là lí do bài viết này ra đời, với mục đích nhằm giúp người đọc có thêm nguồn tham khảo trong quá trình học.
 youtubeId: fR05ShUphxA
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các em. Hôm nay chủ đề của chúng ta sẽ về Biến trong lập trình java.
 
 <br>
-# **1. Biến là gì**
+## **1. Biến trong lập trình java là gì**
 
 Trong lập trình chúng ta sử dụng biến để lưu lại giá trị để thao tác. Anh lấy ví dụ mình muốn phát triển chương trình quản lý sinh viên thì các giá trị của sinh viên như tên, tuổi, địa chỉ và mã số sinh viên thì mình cần có một cái để lưu lại cho chương trình sử lý. Cái mà lưu lại các giá trị đó gọi là biến.
 
-# **2. Các loại biến**
+## **2. Các loại biến trong ngôn ngữ lập trình java**
 
 Trong lập trình Java ta có các loại biến sau.
 
@@ -32,7 +32,7 @@ Trong lập trình Java ta có các loại biến sau.
 - char    : dùng để lưu 1 ký tự ví dụ ký tự a hoặc b
 - boolean : dùng để lưu giá trị đúng hay sai.
 
- # **3. Khai báo biến**
+ ## **3. Khai báo biến trong lập trình java**
 
 Chúng ta khai báo biến với cú pháp như sau
 
@@ -81,7 +81,7 @@ num = 20;
 
 {% endhighlight %}
 
- # **4. Hiển thị giá trị trong biến**
+ ## **4. Hiển thị giá trị trong biến trong ngôn ngữ lập trình java**
 
  Để hiển thị giá trị trong biến ta sử dụng hàm println()
 
