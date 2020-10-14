@@ -74,11 +74,11 @@
 			<div>
 
 				<div class="relatedpost">
-					<ul>
+					<ul style="list-style-type:decimal;">
 						{% assign sorted = site.categories.craftmanship | reverse %}
 						{% for post in sorted  %}
 						{% if post.tags contains 'goodcode' %}
-						<li style="list-style-type: asterisks;">
+						<li>
 							<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
 						</li>
 						{% endif %}
