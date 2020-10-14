@@ -1,28 +1,28 @@
 ---
 layout: course-java
-title: Toán tử trong Java
-slug : toan-tu-trong-java
+title: Toán tử trong lập trình Java
+slug : toan-tu-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Toán tử  
 image: /images/blog/java.png
 
-description : Hiểu về Toán tử là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về Toán tửliệu trong lập trình hướng đối tượng. Lợi ích của việc sử dụng Toán tử liệu trong lập trình hướng đối tượng trong lập trình.
+description : Đối với người học ngôn ngữ **lập trình Java**, toán tử đã trở thành khái niệm quen thuộc. Nhờ vào các nhóm toán tử đa dạng trong Java mà người dùng thao tác với các biến linh hoạt hơn. Bài viết dưới đây sẽ giúp bạn hiểu hơn về toán tử trong lập trình hướng đối tượng Java, các khái niệm, phân loại và lợi ích của việc sử dụng chúng trong lập trình. Từ đó giúp bạn áp dụng nhuần nhuyễn vào quá trình thực hành và làm việc. 
 youtubeId: fR05ShUphxA
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về Toán tử trong lập trình java.
+Chào các em. Hôm nay chủ đề của chúng ta sẽ về Toán tử trong **lập trình java**.
 
 <br>
-# **Toán tử là gì**
+## **Trong lập trình Java, toán tử là gì**
 
 Chúng ta sử dụng toán tử để thực hiện các phép tính toán học trên giá trị và biến.
 
-# **1.  Toán tử số số học**
+## **1.  Toán tử số học**
 
 {:class="table table-bordered"}
 |  Toán tử		  	 		|  Ví dụ		            		|   kết quả			|
@@ -35,7 +35,7 @@ Chúng ta sử dụng toán tử để thực hiện các phép tính toán họ
 | ++ 						|	++x								|	x tăng thêm 1 giá trị			|
 | -- 						|	--x								|	x giảm đi 1 giá trị		|
 
-# **2.  Toán tử số gán**
+## **2.  Toán tử số gán**
 
 {:class="table table-bordered"}
 |  Toán tử		  	 		|  Ví dụ		            		|   kết quả			|
@@ -53,7 +53,7 @@ Chúng ta sử dụng toán tử để thực hiện các phép tính toán họ
 | <<=						|	x <<= 3							|	x = x << 3		|
 
 
-# **3.  Toán tử  so sánh**
+## **3.  Toán tử so sánh**
 
 {:class="table table-bordered"}
 |  Toán tử		  	 		|  Ví dụ		            		|   Mô tả					|
@@ -65,7 +65,7 @@ Chúng ta sử dụng toán tử để thực hiện các phép tính toán họ
 | >= 						|	x >= y 							|	so sánh lớn hơn hoặc bằng			|
 | <= 						|	x <= y							|	so sánh nhỏ hơn hoặc bằng			|
 
-# **4.  Toán tử logic**
+## **4.  Toán tử logic**
 
 {:class="table table-bordered"}
 |  Toán tử		  	 		|  Ví dụ		            		|   Mô tả											|
@@ -74,7 +74,7 @@ Chúng ta sử dụng toán tử để thực hiện các phép tính toán họ
 | \|\|						|	x < 5 || x < 4					|	trả về truế nếu 1 trong 2 mệnh đề là đúng		|
 | !							|	!(x < 5 && x < 10) 				|	phủ định lại giá trị trong  kết quả 			|
 
-# **6.  Toán tử Bit**
+## **5.  Toán tử Bit**
 
 {:class="table table-bordered"}
 |  Toán tử		  	 		|  Ví dụ		   |   Mô tả			|		Kết quả		|	Giá trị			|	
