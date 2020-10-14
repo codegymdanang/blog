@@ -74,10 +74,10 @@
 
 									<div class="relatedpost">
 
-										<ul>
+										<ul class="relatedpost">
 											{% for post in site.categories.career  %}
 											{% if post.tags contains 'tamsu' %}
-											<li style="list-style-type: asterisks;">
+											<li>
 												<a style="color:black" href='{{post.url | relative_url }}'>{{post.summery}} </a>
 											</li>
 											{% endif %}
