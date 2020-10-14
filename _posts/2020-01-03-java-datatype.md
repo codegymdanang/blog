@@ -7,7 +7,7 @@ tags: [java core]
 summery: Kiểu dữ liệu  
 image: /images/blog/java.png
 
-description : Bạn đang thắc mắc làm cách nào để biểu diễn những thông tin trong thực tế vào việc viết ra các chương trình trên máy tính? Bài chia sẻ về kiểu dữ liệu trong ngôn ngữ **lập trình Java** dưới đây sẽ giúp bạn giải đáp cho câu hỏi trên. Việc hiểu sâu các kiểu dữ liệu trong lập trình hướng đối tượng Java cũng sẽ giúp bạn biết nên sử dụng kiểu nào phù hợp nhất khi viết các chương trình Java. Vì vậy, trước khi chuyển sang học các kiến thức nâng cao thì các bạn cần nắm vững các kiến thức chuyên môn cơ bản này trước nhé. 
+description : Kiểu dữ liệu trong lập trình hướng đối tượng Java là gì? Có các loại kiểu dữ liệu nào trong ngôn ngữ lập trình Java? Cụ thể mỗi kiểu và cách áp dụng mỗi kiểu dữ liệu vào làm chương trình Java như thế nào? Bài viết sẽ giúp giải đáp tất cả các thắc mắc trên cho bạn. Nắm vững và phân biệt rõ ràng mỗi kiểu dữ liệu cũng giúp bạn biết nên lựa chọn kiểu dữ liệu nào phù hợp nhất khi viết các chương trình Java.
 youtubeId: fR05ShUphxA
 ---
 
@@ -15,7 +15,7 @@ youtubeId: fR05ShUphxA
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về Kiểu dữ liệu trong **lập trình java**.
+Bạn đang thắc mắc làm cách nào để biểu diễn những thông tin trong thực tế vào việc viết ra các chương trình trên máy tính? Bài chia sẻ về kiểu dữ liệu trong ngôn ngữ <b>lập trình Java</b> dưới đây sẽ giúp bạn giải đáp cho câu hỏi trên. Việc hiểu sâu các kiểu dữ liệu trong lập trình hướng đối tượng Java cũng sẽ giúp bạn biết nên sử dụng kiểu nào phù hợp nhất khi viết các chương trình Java. Vì vậy, trước khi chuyển sang học các kiến thức nâng cao thì các bạn cần nắm vững các kiến thức Java cơ bản này trước nhé. 
 
 <br>
 ## **Kiểu dữ liệu trong lập trình hướng đối tượng Java là gì**
