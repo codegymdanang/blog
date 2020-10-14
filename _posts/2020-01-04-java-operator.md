@@ -7,7 +7,7 @@ tags: [java core]
 summery: Toán tử  
 image: /images/blog/java.png
 
-description : Đối với người học ngôn ngữ **lập trình Java**, toán tử đã trở thành khái niệm quen thuộc. Nhờ vào các nhóm toán tử đa dạng trong Java mà người dùng thao tác với các biến linh hoạt hơn. Bài viết dưới đây sẽ giúp bạn hiểu hơn về toán tử trong lập trình hướng đối tượng Java, các khái niệm, phân loại và lợi ích của việc sử dụng chúng trong lập trình. Từ đó giúp bạn áp dụng nhuần nhuyễn vào quá trình thực hành và làm việc. 
+description :Bài viết Toán tử này nằm trong loạt bài chia sẻ về kiến thức lập trình Java. Các bài chia sẻ đi từ cơ bản đến các kiến thức nâng cao. Toán tử trong lập trình Java hướng đối tượng là một trong những kiến thức Java căn bản cần nắm. Vậy cụ thể có bao nhiêu nhóm Toán tử, mỗi nhóm bao gồm những loại nào? Trong lập trình Java có tất cả 5 nhóm Toán tử: toán tử số học, số gán, so sánh, logic và bit; trong đó tuỳ mỗi nhóm mà có số lượng loại khác nhau.
 youtubeId: fR05ShUphxA
 ---
 
@@ -15,7 +15,7 @@ youtubeId: fR05ShUphxA
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về Toán tử trong **lập trình java**.
+Đối với người học ngôn ngữ **lập trình Java**, toán tử đã trở thành khái niệm quen thuộc. Nhờ vào các nhóm toán tử đa dạng trong Java mà người dùng thao tác với các biến linh hoạt hơn. Bài viết dưới đây sẽ giúp bạn hiểu hơn về toán tử trong lập trình hướng đối tượng Java, các khái niệm, phân loại và lợi ích của việc sử dụng chúng trong lập trình. Từ đó giúp bạn áp dụng nhuần nhuyễn vào quá trình thực hành và làm việc. 
 
 <br>
 ## **Trong lập trình Java, toán tử là gì**
