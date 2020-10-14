@@ -1,28 +1,28 @@
 ---
 layout: course-java
-title: Kiểu dữ liệu trong Java
-slug : kieu-du-lieu-trong-java
+title: Kiểu dữ liệu trong lập trình Java
+slug : kieu-du-lieu-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Kiểu dữ liệu  
 image: /images/blog/java.png
 
-description : Hiểu về  Kiểu dữ liệu là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về  Kiểu dữ liệu trong lập trình hướng đối tượng. Lợi ích của việc sử dụng  Kiểu dữ liệu trong lập trình hướng đối tượng trong lập trình.
+description : Bạn đang thắc mắc làm cách nào để biểu diễn những thông tin trong thực tế vào việc viết ra các chương trình trên máy tính? Bài chia sẻ về kiểu dữ liệu trong ngôn ngữ **lập trình Java** dưới đây sẽ giúp bạn giải đáp cho câu hỏi trên. Việc hiểu sâu các kiểu dữ liệu trong lập trình hướng đối tượng Java cũng sẽ giúp bạn biết nên sử dụng kiểu nào phù hợp nhất khi viết các chương trình Java. Vì vậy, trước khi chuyển sang học các kiến thức nâng cao thì các bạn cần nắm vững các kiến thức chuyên môn cơ bản này trước nhé. 
 youtubeId: fR05ShUphxA
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về  Kiểu dữ liệu trong lập trình java.
+Chào các em. Hôm nay chủ đề của chúng ta sẽ về Kiểu dữ liệu trong **lập trình java**.
 
 <br>
-# **Kiểu dữ liệu là gì**
+## **Kiểu dữ liệu trong lập trình hướng đối tượng Java là gì**
 
-Trong lập trình Java chúng ta có 2 loại kiểu dữ liệu đó là kiểu nguyên thuỷ và kiểu đối tượng.
+Trong **lập trình Java** chúng ta có 2 loại kiểu dữ liệu đó là kiểu nguyên thuỷ và kiểu đối tượng.
 
-# **1.  Kiểu dữ liệu Nguyên Thuỷ**
+## **1.  Kiểu dữ liệu Nguyên Thuỷ**
 
 - Kiểu nguyên thuỷ bao gồm có các loại sau. Ứng với mỗi loại kiểu dữ liệu bộ nhớ sẽ cấp phát vùng nhớ tương ứng
 
@@ -39,7 +39,7 @@ Trong lập trình Java chúng ta có 2 loại kiểu dữ liệu đó là kiể
 | char						|	2 bytes						| chứa các ký tự đơn |
 
 
-# **2.  Kiểu dữ liệu Integer**
+## **2.  Kiểu dữ liệu Integer**
 
 - Byte có thể chứa giá trị từ -128 đến 127. 
 
@@ -77,7 +77,7 @@ System.out.println(myNum);
 
 {% endhighlight %}
 
-# **3.  Kiểu dữ liệu Float**
+## **3.  Kiểu dữ liệu Float**
 
 - float chứa từ 3.4e−038 to 3.4e+038
 
@@ -98,7 +98,7 @@ System.out.println(myNum);
 {% endhighlight %}
 
 
-# **4.  Kiểu dữ liệu Khoa học**
+## **4.  Kiểu dữ liệu Khoa học**
 
 Chúng ta có thể dùng e để mô tả  bội số của 10.
 
@@ -111,7 +111,7 @@ System.out.println(d1);
 
 {% endhighlight %}
 
-# **4.  Kiểu dữ liệu Boolean**
+## **5.  Kiểu dữ liệu Boolean**
 
 - Chỉ chứa kết quả đúng hay sai
 
@@ -124,7 +124,7 @@ System.out.println(isFishTasty);
 
 {% endhighlight %}
 
-# **5.  Kiểu dữ liệu ký tự**
+## **6.  Kiểu dữ liệu ký tự**
 
 - Kiểu char chỉ chứa 1 ký tự duy nhất
 
@@ -147,7 +147,7 @@ System.out.println(c);
 
 {% endhighlight %}
 
-# **5.  Kiểu dữ liệu chuỗi**
+## **7.  Kiểu dữ liệu chuỗi**
 
 - Kiểu String dùng để lưu dạng chuỗi các ký tự
 
@@ -158,7 +158,7 @@ System.out.println(greeting);
 
 {% endhighlight %}
 
-# **5.  Kiểu dữ đối tượng**
+## **8.  Kiểu dữ liệu đối tượng**
 
 - Kiểu dữ liệu đối tượng thường tham chiếu tới 1 đối tượng. Anh lấy ví dụ như 
 
