@@ -8,7 +8,7 @@ summery: Tạo dự án bằng Maven
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Sử dụng Cấu hình IOC qua Java trong lập trình Spring. Hiểu được Cấu hình IOC qua Java là gì. Hướng dẫn sử dụng Cấu hình IOC qua Java trong lập trình Spring.
-youtubeId: 0n8_2yG5F7I
+youtubeId: _gckJrhvzQI
 ---
 
 {% include toc.html %}
@@ -145,4 +145,9 @@ Trong các dự án của mình anh sẽ build một hệ thống local tên <b>
 
 Hầu hết các dự án Java đều sử dụng <b>maven</b> để quản lý thư viện, xây dựng quy trình build dự án và triển khai dự án một cách tự động. Nhờ có maven mà việc quản lý thư viện trong dự án trở nên dể dàng và linh hoạt hơn. Ngoài maven thì chúng ta còn có thể những thằng khác tương tự như gradle hoặc Ivy.
 
+<br>
+# **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
