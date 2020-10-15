@@ -20,7 +20,7 @@ Bạn đang thắc mắc làm cách nào để biểu diễn những thông tin 
 <br>
 ## **Kiểu dữ liệu trong lập trình hướng đối tượng Java là gì**
 
-Trong **lập trình Java** chúng ta có 2 loại kiểu dữ liệu đó là kiểu nguyên thuỷ và kiểu đối tượng.
+Trong <b>lập trình Java</b> chúng ta có 2 loại kiểu dữ liệu đó là kiểu nguyên thuỷ và kiểu đối tượng.
 
 ## **1.  Kiểu dữ liệu Nguyên Thuỷ**
 
