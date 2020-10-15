@@ -21,11 +21,11 @@ Trong ngôn ngữ lập trình nói chung và <b>ngôn ngữ lập trình Java</
 <br>
 ## **1. Biến trong lập trình java là gì**
 
-Trong lập trình chúng ta sử dụng biến để lưu lại giá trị để thao tác. Anh lấy ví dụ mình muốn phát triển chương trình quản lý sinh viên thì các giá trị của sinh viên như tên, tuổi, địa chỉ và mã số sinh viên thì mình cần có một cái để lưu lại cho chương trình sử lý. Cái mà lưu lại các giá trị đó gọi là biến.
+Trong <b>lập trình Java</b> chúng ta sử dụng biến để lưu lại giá trị để thao tác. Anh lấy ví dụ mình muốn phát triển chương trình quản lý sinh viên thì các giá trị của sinh viên như tên, tuổi, địa chỉ và mã số sinh viên thì mình cần có một cái để lưu lại cho chương trình sử lý. Cái mà lưu lại các giá trị đó gọi là biến.
 
 ## **2. Các loại biến trong ngôn ngữ lập trình java**
 
-Trong lập trình Java ta có các loại biến sau.
+Trong <b>lập trình Java</b> ta có các loại biến sau.
 
 - String  : dùng để lưu các giá trị chuỗi ví dụ như tên sinh viên là Nguyễn Văn A
 - int     : dùng để lưu các giá trị số ví dụ như số điện thoại 0903049583
