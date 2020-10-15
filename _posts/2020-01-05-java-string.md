@@ -1,25 +1,31 @@
 ---
 layout: course-java
-title: Sử dụng String trong Java
-slug : su-dung-string-trong-java
+title: Tất tần tật về String trong lập trình Java
+slug : tat-tan-tat-ve-string-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Strings  
 image: /images/blog/java.png
 
-description : Hiểu về Strings là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về Strings trong lập trình hướng đối tượng. Lợi ích của việc sử dụng Stringss lập trình hướng đối tượng trong lập trình.
+description : Trong ngôn ngữ lập trình Java, String (chuỗi) là một kiểu dữ liệu đặc biệt, về cơ bản nó là một đối tượng chứa nhiều phương thức để xử lí các nhiệm vụ bao gồm lấy độ dài chuỗi, chuyển hoá chữ thành chữ hoa và chữ thường, trả về vị trí một kí tự trong chuỗi, nối hai chuỗi lại với nhau, hiển thị các giá trị đặc biệt. Cụ thể mỗi phương thức được thao tác như thế nào với String trong ngôn ngữ Java sẽ được làm rõ thông qua các hình ảnh ví dụ cụ thể.
 youtubeId: fR05ShUphxA
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về Strings trong lập trình java.
+Không chỉ riêng trong <b>ngôn ngữ lập trình hướng đối tượng Java</b>, bất kể một ngôn ngữ lập trình nào cũng vậy. Thao tác với String (chuỗi) là những thao tác đòi hỏi các bạn cần nắm vững. Vì những phương thức với String được sử dụng rất nhiều trong các chương trình Java. 
+Bài viết dưới đây giúp bạn hiểu được:
+•	String trong lập trình hướng đối tượng Java là gì? 
+•	Có các loại phương thức nào trong String? 
+•	Cách thao tác với mỗi phương thức đó như thế nào? 
+•	Ví dụ cụ thể cho mỗi phương thức với String trong ngôn ngữ lập trình Java.
+
 
 
 <br>
-# **1. Strings là gì**
+## **1. Strings trong lập trình hướng đối tượng Java là gì?**
 
 String được sử dụng để lưu trữ các giá trị Text (gồm nhiều ký tự). Ví dụ nhưng 
 
@@ -29,9 +35,9 @@ String greeting = "Hello";
 
 {% endhighlight %}
 
-String là một kiểu dữ liệu đặt biệt, nó thật ra là một đối tượng chứa đựng nhiều phương thức để xử lý một số nhiệm vụ như sau.
+String trong ngôn ngữ <b>lập trình Java</b> là một kiểu dữ liệu đặt biệt, nó thật ra là một đối tượng chứa đựng nhiều phương thức để xử lý một số nhiệm vụ như sau.
 
-# **2. String length**
+## **2. String length**
 
 - Dùng để lấy độ dài của một chuỗi
 
@@ -43,7 +49,7 @@ System.out.println("The length of the txt string is: " + txt.length());
 {% endhighlight %}
 
 
-# **3. String toUperCase và toLowerCase**
+## **3. String toUperCase và toLowerCase**
 
 - Dùng để chuyển hoá chữ thành chữ hoa và chữ thường
 
@@ -55,7 +61,7 @@ System.out.println(txt.toLowerCase());   // Outputs "hello world"
 
 {% endhighlight %}
 
-# **4. String IndexOf**
+## **4. String IndexOf**
 
 - Dùng để trả về vị trí 1 ký tự trong chuỗi
 
@@ -66,7 +72,7 @@ System.out.println(txt.indexOf("locate")); // Outputs 7
 
 {% endhighlight %}
 
-# **5. String Concatenation**
+## **5. String Concatenation**
 
 - Dùng để nối 2 chuỗi lại với nhau
 
@@ -78,7 +84,7 @@ System.out.println(firstName + " " + lastName);
 
 {% endhighlight %}
 
-# **5. String hiển thị các giá trị đặt biệt**
+## **6. String hiển thị các giá trị đặt biệt**
 
 - Dùng để hiển thị các ký tự như đấu 1 nháy, 2 nháy. Ví dụ khi ta biến sau 
 
@@ -123,7 +129,7 @@ String txt = "Hello\tWorld!";
 {% endhighlight %}
 
 
-# **5. Dấu +**
+## **7. Dấu +**
 
 Khi ta sử dụng dấu + thì đối với kiểu int thì nó là cộng 2 số, còn đối với kiểu String thì sẽ là concatenation (nối chuỗi)
 
