@@ -6,8 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: If Else  
 image: /images/blog/java.png
-
-description : Mệnh đề điều kiện if else được tạo ra trong lập trình Java nhằm giải quyết các yêu cầu của các bài toán. Nó được dùng để kiểm tra một điều kiện nào đó có đúng hay không. Các biểu thức điều kiện sẽ trả về 2 giá trị TRUE hoặc FALSE. Cụ thể trong đó gồm các câu lệnh điều kiện: If, Else, If-Else, If-Else rút gọn. Cú pháp thực hiện mỗi câu lệnh điều kiện là khác nhau. Các câu lệnh của các câu điều kiện được đặt trong dấu {}. Ví dụ: if (biểu thức điều kiện) { // các câu lệnh sẽ thực thi khi biểu thức điều kiện là TRUE; }
+description : description : Hiểu về If Else là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về If Else trong lập trình hướng đối tượng. Lợi ích của việc sử dụng If Else lập trình hướng đối tượng trong lập trình.
 youtubeId: fR05ShUphxA
 ---
 
