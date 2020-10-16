@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Mệnh đề If else trong ngôn ngữ lập trình Java với các ví dụ cụ thể
-slug : menh-de-if-else-trong-ngon-ngu-lap-trinh-Java-voi-cac-vi-du-cu-the
+title: Mệnh đề If else trong lập  Java
+slug : menh-de-if-else-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: If Else  
