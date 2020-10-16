@@ -91,3 +91,8 @@ class Bicycle extends Vehicle {
 
 Như vậy khi chạy chương trình thì nó sẽ báo lỗi ở lớp Bicycle vì kế thừa lớp Vehicle. Chương trình sẽ thôgn báo cho chúng ta là lớp Bicycle không thể kế thừa lớp Vehicle được 
 
+# **3. Demo Kế thừa**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
