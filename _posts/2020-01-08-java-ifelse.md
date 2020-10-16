@@ -6,7 +6,7 @@ category: laptrinhjava
 tags: [java core]
 summery: If Else  
 image: /images/blog/java.png
-description : description : Hiểu về If Else là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về If Else trong lập trình hướng đối tượng. Lợi ích của việc sử dụng If Else lập trình hướng đối tượng trong lập trình.
+description : Hiểu về If Else là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về If Else trong lập trình hướng đối tượng. Lợi ích của việc sử dụng If Else lập trình hướng đối tượng trong lập trình.
 youtubeId: fR05ShUphxA
 ---
 
