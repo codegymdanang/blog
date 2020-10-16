@@ -1,30 +1,30 @@
 ---
 layout: course-java
-title: Mệnh đề If else trong Java
-slug : menh-de-if-else-trong Java
+title: Mệnh đề If else trong ngôn ngữ lập trình Java với các ví dụ cụ thể
+slug : menh-de-if-else-trong-ngon-ngu-lap-trinh-Java-voi-cac-vi-du-cu-the
 category: laptrinhjava
 tags: [java core]
 summery: If Else  
 image: /images/blog/java.png
 
-description : Hiểu về If Else là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về If Else trong lập trình hướng đối tượng. Lợi ích của việc sử dụng If Else lập trình hướng đối tượng trong lập trình.
+description : Mệnh đề điều kiện if else được tạo ra trong lập trình Java nhằm giải quyết các yêu cầu của các bài toán. Nó được dùng để kiểm tra một điều kiện nào đó có đúng hay không. Các biểu thức điều kiện sẽ trả về 2 giá trị TRUE hoặc FALSE. Cụ thể trong đó gồm các câu lệnh điều kiện: If, Else, If-Else, If-Else rút gọn. Cú pháp thực hiện mỗi câu lệnh điều kiện là khác nhau. Các câu lệnh của các câu điều kiện được đặt trong dấu {}. Ví dụ: if (biểu thức điều kiện) { // các câu lệnh sẽ thực thi khi biểu thức điều kiện là TRUE; }
 youtubeId: fR05ShUphxA
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về If Else trong lập trình java. Trong bài viết về các loại toán tử trong lập trình bài [trước](https://levunguyen.com/laptrinhjava/2020/01/04/toan-tu/) phần toán tử so sánh. Dựa vào những điều kiện trên ta sẽ thực hiện những hành động khác nhau dự trên kết quả so sánh. 
+Chào các em. Hôm nay chủ đề của chúng ta sẽ về If Else trong <b>lập trình Java</b>. Trong bài viết về các loại toán tử trong lập trình bài [trước](https://levunguyen.com/laptrinhjava/2020/01/04/toan-tu/) phần toán tử so sánh. Dựa vào những điều kiện trên ta sẽ thực hiện những hành động khác nhau dựa trên kết quả so sánh. 
 
-Java hỗ trợ ta các câu lệnh đều kiện. Mà điều kiện dựa vào các điều kiện mà ta đưa vào để thực hiện các yêu cầu của bài toán
+Trong <b>ngôn ngữ lập trình hướng đối tượng Java</b> hỗ trợ ta các câu lệnh điều kiện. Mà điều kiện dựa vào các điều kiện mà ta đưa vào để thực hiện các yêu cầu của bài toán
 
 - If : kiểm tra nếu đều kiện đúng, ta thực hiện các câu lệnh trong khối lệnh if.
 - Else : kiểm tra điều kiện và  thực hiện các khối lệnh ngược lại với điều kiện
 - Else If : tạo thêm một điều kiện mới nếu điều kiện trước đó là false
 - Switch  : gồm nhiều điều kiện if và else
 
-# **2. Mệnh đề If**
+## **1. Mệnh đề If**
 
 - Sử dụng if để thực hiện các dòng code bên trong nó nếu điều kiện là đúng
 
@@ -46,7 +46,7 @@ if (x > y) {
 
 {% endhighlight %}
 
-# **3. Mệnh đề Else**
+## **2. Mệnh đề Else**
 
 - Sử dụng Else để thực thi các dòng code bên trong nó nếu đều kiện là sai
 
@@ -71,7 +71,7 @@ if (time < 18) {
 
 {% endhighlight %}
 
-# **4. Mệnh đề If Else**
+## **3. Mệnh đề If Else**
 
 - Dùng để thực hiện thêm một điều kiện mới nếu điều kiện trước đó là sai
 
@@ -101,7 +101,7 @@ if (time < 10) {
 {% endhighlight %}
 
 
-# **5. Mệnh đề If Else thu gọn**
+## **4. Mệnh đề If Else thu gọn**
 
 {% highlight java  %}
 
