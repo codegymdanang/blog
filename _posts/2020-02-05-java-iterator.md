@@ -15,14 +15,14 @@ youtubeId: 5C2OqlhiYsg
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chủ đề của chúng ta sẽ hướng dẫn cách tạo ra một Iterator theo mong muốn của chúng ta.
+Chào các em, hôm nay chủ đề của chúng ta sẽ hướng dẫn cách tạo ra một <b>Iterator</b> trong lập trình java theo mong muốn của chúng ta.
 
 
 # **1. Iterator là gì**
 
 Thông thường chúng ta hay sử dụng vòng lặp for để duyệt qua các phần tử trong tập hợp. Hôm nay mình có thêm một công cụ mới để duyệt qua các phần tử trong tập hợp nữa đó là Iterator.
 
-- Chúng ta sử dụng phương thức next để lấy phần tử trong tập hợp
+- Ví dụ như anh có một ArrayList về xe sau. Trong tập hợp xe này anh lưu các giá trị như Volvo,BMW,Ford,Mazda
 
 {% highlight java linenos %}
 
@@ -49,7 +49,16 @@ public class MyClass {
 
 {% endhighlight %}
 
-- Duyệt qua các phần tử trong tập hợp
++ Đầu tiên anh sẽ khai báo một Iterator bằng cách sử dụng 
+
+{% highlight java linenos %}
+
+Iterator<String> it = cars.iterator();
+
+{% endhighlight %}
+
+
+- Để duyệt qua các phần tử trong tập hợp xe anh sử dụng phương thức hasNext mà Iterator cung cấp. Phương thức hasNext sẽ duyệt qua từng phần tử trong tập hợp cho đến khi đi tới phần tử cuối cùng của tập hợp.
 
 {% highlight java linenos %}
 
@@ -59,7 +68,11 @@ while(it.hasNext()) {
 
 {% endhighlight %}
 
-- Xoá một phần tử trong tập hợp
++ Hàm while sẽ chạy hết các phần tử trong tập hợp. Nếu chúng ta muốn lấy phần tử ra thì sử dụng phương thức next().
+Trong ví dụ trên chúng ta sẽ dùng it.next().
+
+
+- Xoá một phần tử trong tập hợp chúng ta sử dụng phương thức remove.
 
 {% highlight java linenos %}
 
@@ -86,7 +99,7 @@ public class MyClass {
 
 {% endhighlight %}
 
-
+- Trong ví dụ trên chúng ta tạo ra một ArrayList chứa các số 12,8,2,23. Sau đó chúng ta duyệt qua các phần tử trong tập hợp này. Nếu phần tử nhỏ hơn 10 thì ta sẽ xoá phần tử đó ra khỏi tập hợp thông qua phương thức it.remove().
 
 
 
