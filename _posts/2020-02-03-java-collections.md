@@ -1,10 +1,10 @@
 ---
 layout: course-java
 title: Sử dụng các tập hợp trong lập trình java
-slug : cau-truc-du-lieu-trong-java
+slug : su-dung-các-tap-hop-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
-summery: Collection
+summery: Tổng hợp các tập hợp
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
 description : Sử dụng các tập hợp (collection) trong lập trình java. Khái niệm collection trong học lập trình java. Sử dụng và hiểu các tập hợp như List , Vector , Set , Queue, Dequee, Map. Phân biệt khi nào dùng tập hợp nào là phù hợp trong java cơ bản.
@@ -15,8 +15,7 @@ youtubeId: GXQn39fU2Kg
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, hẳn bạn đang phân vân trong java mình có những loại <b>cấu trúc dữ liệu</b>  (tập hợp nào) nào? Các cấu trúc dữ liệu đó khi nào thì nên sử dụng và nó khác nhau như thế nào.
-Hôm nay anh sẽ trình bày tất cả các tập hợp mà mình hay dùng và phân biệt sự khác nhau giữa các <b>cấu trúc dữ liệu</b>. 
+Chào các em, hôm nay anh sẽ tổng hợp lại các <b>tập hợp trong bộ java collection </b> mà chúng ta hay sử dụng trong lập trình. Phân biệt sự khác nhau giữa các tập hợp và khi nào thì nên sử dụng chúng. Anh cũng sẽ nói qua phần performance (hiệu năng) cũng từng loại tập hợp giúp chúng em có thể tìm ra được tập hợp tốt nhất cho bài toán của mình.
 
 <br>
 # **1. Các collection trong java**
