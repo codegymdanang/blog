@@ -7,7 +7,7 @@ tags: [typescript]
 summery: String   
 image: /images/blog/feature_javascript.png
 description : Giới thiệu về String trong Typescrip, cách hoạt động của String trong Typescrip
-youtubeId: Ex3glZTCvlY
+youtubeId: 3r74IFfylVE
 ---
 
 {% include toc.html %}
@@ -102,7 +102,9 @@ str.toUpperCase(); // returns 'HELLO TYPESCRIPT'
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
