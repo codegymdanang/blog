@@ -7,7 +7,8 @@ tags: [database]
 summery: Ràng buộc dữ liệu    
 image: /images/blog/database.png
 description : Trình bày ràng buộc dữ liệu trong database. Hướng dẫn cách sử dụng ràng buộc dữ liệu  trong database
-youtubeId: tKLOuvrHCNw
+youtubeId: 0QGO3bKB1So
+youtubeId1: CXM_oGBqza4
 ---
 
 {% include toc.html %}
@@ -193,9 +194,15 @@ CREATE TABLE Persons (
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId1 %}
+{: refdef}
 
 
 
