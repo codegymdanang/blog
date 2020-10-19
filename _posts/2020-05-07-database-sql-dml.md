@@ -7,7 +7,7 @@ tags: [database]
 summery: Các câu lệnh SQL DML    
 image: /images/blog/database.png
 description : Trình bày các câu lệnh SQL DML trong database. Hướng dẫn cách sử dụng các câu lệnh SQL DML  trong database
-youtubeId: tKLOuvrHCNw
+youtubeId: BL7FFKPETMs
 ---
 
 {% include toc.html %}
@@ -333,6 +333,9 @@ DELETE FROM Customers;
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
