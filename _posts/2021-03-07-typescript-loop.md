@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Vòng lặp   
 image: /images/blog/feature_javascript.png
 description : Giới thiệu về vòng lặp trong Typescrip, cách hoạt động của vòng lặp trong Typescrip
-youtubeId: Ex3glZTCvlY
+youtubeId: soiEapMFxIU
 ---
 
 {% include toc.html %}
@@ -130,7 +130,9 @@ do {
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
