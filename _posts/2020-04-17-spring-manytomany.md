@@ -15,7 +15,7 @@ youtubeId: qhovNzYD5Lk
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ đề hôm nay chúng ta sẽ nói về annotation <b>@ManyToMany</b>. 
+Chào các em ,chủ đề hôm nay chúng ta sẽ nói về aJPAtation <b>@ManyToMany</b> trong Spring JPA. 
 
 <br>
 # **1. ManyToMany là gì**

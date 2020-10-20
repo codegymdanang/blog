@@ -14,7 +14,7 @@ youtubeId: 4dQlWJQ7ZQo
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ đề hôm nay của anh là về <b>JPA</b> ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
+Chào các em ,chủ đề hôm nay của anh là về <b>Spring JPA trong lập trình Spring</b> ? Anh sẽ giải thích nó là gì ? Cấu hình dự án sử dụng JPA ra sao ?
 Đồng thời anh sẽ giới thiệu các cách truy vấn dữ liệu trong <b>database</b>.
 
 <br>

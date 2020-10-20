@@ -15,7 +15,7 @@ youtubeId: JSnxij3p6nU
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em ,chủ đề hôm nay chúng ta sẽ nói về các annotation <b>@OneToMany</b> và <b>@ManyToOne</b> trong Spring  .
+Chào các em ,chủ đề hôm nay chúng ta sẽ nói về các annotation <b>@OneToMany</b> và <b>@ManyToOne</b> trong Spring JPA .
 
 
 <br>

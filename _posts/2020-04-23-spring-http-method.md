@@ -15,13 +15,13 @@ youtubeId: 7VMXLT5oW1g
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em , hôm nay anh sẽ giới thiệu với các bạn các loại <b>phương thức http</b> trong lập trình. 
+Chào các em , hôm nay anh sẽ giới thiệu với các bạn các loại <b>phương thức http trong lập trình Spring</b>. 
 
 <br>
 
 # **1. Request là gì**
 
-Anh ví dụ như mình có cái website là tiki bán hàng. Khi mình vào trang web thì mình thấy tất cả các mặt hàng của tiki hiện ra. Làm thế nào mà mình thấy được như vậy. 
+Anh ví dụ như mình có cái website là tiki bán hàng. Khi mình vào trang web thì mình thấy tất cả các mặt hàng của niki hiện ra. Làm thế nào mà mình thấy được như vậy. 
 
 Đầu tiên khi mình vào trang chủ của tiki ví dụ https://tiki.vn khi đó trang web (client) sẽ gửi một yêu cầu (request) lên server để nói server là client cần những thông tin ở trang chủ. Khi server nắm được yêu cầu (request) của client thì nó sẽ trả lại thông tin tương ứng với yêu cầu của client.
 

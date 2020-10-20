@@ -13,7 +13,7 @@ youtubeId: M9ri7OCXnvw
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn về cách sử dụng Thymeleaf để hiển thị tầng view cho người dùng. Mọi người xem video sau nhé
+Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn về cách sử dụng <b>Thymeleaf trong lập trình Spring</b> để hiển thị tầng view cho người dùng. Mọi người xem video sau nhé
 
 
 {:refdef: style="text-align: center;"}

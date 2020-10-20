@@ -13,7 +13,7 @@ youtubeId: GPEG3t7dPn0
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em , hôm nay anh sẽ giới thiệu với các bạn cách sử dụng Entity Manager để truy vấn dữ liệu trong database
+Chào các em , hôm nay anh sẽ giới thiệu với các bạn cách sử dụng <b>Entity Manager trong lập trình Spring</b> để truy vấn dữ liệu trong database
 
 # **Hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 

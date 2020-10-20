@@ -15,9 +15,8 @@ youtubeId: ljyqbIo4jbk
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, hôm nay anh sẽ trình bày kỷ thuật để <b>kiểm tra dữ liệu</b> người dùng nhập vào có đúng như định dạng mình mong muốn không ? Nếu
-không đúng định dạng mình sẽ thông báo lỗi cho người dùng? Trong Spring thì mình dùng các cách nào để kiểm tra dữ liệu người dùng truyền
-lên là hợp lệ.
+Chào các bạn, hôm nay anh sẽ trình bày kỷ thuật để <b>kiểm tra dữ liệu (Spring Validation)</b> người dùng nhập vào có đúng như định dạng mình mong muốn không ? Nếu
+không đúng định dạng mình sẽ thông báo lỗi cho người dùng? Trong Spring thì mình dùng các cách nào để kiểm tra dữ liệu người dùng truyền lên là hợp lệ.
 
 <br>
 # **1. Tại sao cần kiểm tra và ràng buộc dữ liệu**
