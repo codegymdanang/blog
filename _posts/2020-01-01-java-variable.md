@@ -33,7 +33,7 @@ Trong <b>lập trình Java</b> ta có các loại biến sau.
 - char    : dùng để lưu 1 ký tự ví dụ ký tự a hoặc b
 - boolean : dùng để lưu giá trị đúng hay sai.
 
- ## **3. Khai báo biến trong lập trình java**
+## **3. Khai báo biến trong lập trình java**
 
 Chúng ta khai báo biến với cú pháp như sau
 
@@ -82,7 +82,7 @@ num = 20;
 
 {% endhighlight %}
 
- ## **4. Hiển thị giá trị trong biến trong ngôn ngữ lập trình java**
+## **4. Hiển thị giá trị trong biến trong ngôn ngữ lập trình java**
 
  Để hiển thị giá trị trong biến ta sử dụng hàm println()
 
