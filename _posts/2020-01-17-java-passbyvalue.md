@@ -1,28 +1,28 @@
 ---
 layout: course-java
-title: Tham trị và tham chiếu trong lập trình java
-slug : tham-tri-va-tham-chieu-trong-java
+title: Tham trị và tham chiếu trong lập trình Java
+slug : tham-tri-va-tham-chieu-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Pass by value
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_passbyvalue.png
-description : Tham trị pass by value và tham chiếu pass by reference là 2 cách thức hoạt động khác nhau. Trong bài viết sau sẽ giải thích cách thức hoạt động của tham trị và tham chiếu. Cùng tìm hiểu tham trị là gì, tham chiếu là gì trong bài viết sau đâu nhé.
+description : Tham trị pass by value và tham chiếu pass by reference trong ngôn ngữ lập trình Java là hai cách thức hoạt động khác nhau. Trong bài viết sau sẽ tìm hiểu tham trị là gì, tham chiếu là gì. Từ đó phân biệt rõ ràng để sử dụng đúng cách trong các chương trình lập trình hướng đối tượng Java. Đồng thời giải thích cụ thể cách thức hoạt động của tham trị và tham chiếu. 
 youtubeId: 0F_8a5_fKno
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn, chắc chắn không ý bạn nhầm lẫn khái niệm <b>tham trị</b> và <b>tham chiếu</b>  ? Có rất nhiều bạn có nhận định chưa đúng về khái niệm
+Trong quá trình học các <b>kiến thức lập trình Java</b>, chắc chắn không ít bạn nhầm lẫn khái niệm <b>tham trị</b> và <b>tham chiếu</b>? Có rất nhiều bạn có nhận định chưa đúng về hai khái niệm này.
 Ví dụ như các bạn nói các tham số trong hàm nếu ta truyền kiểu nguyên thuỷ thì đó là <b>tham trị</b> còn nếu truyền kiểu object là <b>tham chiếu</b>.
 Hôm nay anh sẽ giải thích cho các bạn hiểu rõ 2 khái niệm này nhé. Để hiểu được bài viết này thì các em nên đọc qua bài viết về (bộ nhớ)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/] để nắm được cách lưu trữ các giá trị trong lập trình
 
 <br>
-# **1. Gán giá trị**
+## **1. Gán giá trị**
 
-Trước hết mình xem lại  bộ nhớ máy tính lưu trữ các biến và giá trị mình như thế nào?. Nếu các bạn còn chưa rõ về cách lưu trữ thì có thể xem lại bài viết bộ nhớ tại (đây)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/]
+Trước hết mình xem lại  bộ nhớ máy tính lưu trữ các biến và giá trị mình như thế nào? Nếu các bạn còn chưa rõ về cách lưu trữ thì có thể xem lại bài viết bộ nhớ tại (đây)[https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/]
 
 - Bộ nhớ chương trình gồm có 2 thành phần chính là địa chỉ bộ nhớ và dữ liệu được lưu trữ trong bộ nhớ đó
 - Ví dụ khi mình gán một biến cho một giá trị như test = 3. Như vậy bộ nhớ cần lưu trữ chữ test và giá trị 3 của nó vào bộ nhớ như sau
@@ -34,9 +34,9 @@ Trước hết mình xem lại  bộ nhớ máy tính lưu trữ các biến và
  |   xx2 	            |         3                      |
 
 <br>
-# **2.Tham trị là gì  (pass by value)**
+## **2.Tham trị là gì  (pass by value)**
 
-<b>Tham trị</b> <b>Pass by value</b> : nghĩa là mình sẽ clone (tạo ra một giá trị mới bằng cách copy giá trị gốc), và mình chỉ thao táo giá trị với bản copy.
+<b>Tham trị</b> <b>Pass by value</b> : nghĩa là mình sẽ clone (tạo ra một giá trị mới bằng cách copy giá trị gốc), và mình chỉ thao tác giá trị với bản copy.
 Khi chúng ta thay đổi các giá trị của đối tượng, thì không ảnh hưởng đến giá trị gốc. Pass-by-value được hiểu là khi bạn thay đổi biến trong hàm thì ngoài hàm sẽ không bị ảnh hưởng.
 
 
@@ -59,7 +59,7 @@ Sau khi hàm process(int value) thực hiện xong nhiệm vụ của mình , th
 (copy) cũng được giải phóng trả lại bộ nhớ.
 
 <br>
-# **3. Truyền tham  chiếu**
+## **3. Truyền tham  chiếu**
 
 <b>Tham chiếu</b> Pass by reference. Ngược lại với Pass by value, giá trị gốc sẽ bị thay đổi <b>Pass-by-reference</b> là khi bạn thay đổi biến trong hàm cũng làm ngoài hàm bị ảnh hưởng.
 Nó giống như bạn truyền đúng địa chỉ của biến đó vào hàm.
@@ -72,7 +72,7 @@ Trong trường hợp này hàm process(int &value) trỏ thằng tới địa c
 đổi luôn giá trị khác .
 
 <br>
-# **4. Tổng kết**
+## **4. Tổng kết**
 
 Các bạn nên nhớ trong  Java là 100% truyền tham trị (passed by value). Mình chỉ clone một giá trị từ giá trị gốc sau đó truyền đi
 cho các method cần dùng nó. Ta chỉ thay đổi giá trị Clone chứ không thay đổi trực tiếp giá trị  vùng nhớ của đối tượng gốc
