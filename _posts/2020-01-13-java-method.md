@@ -1,30 +1,30 @@
 ---
 layout: course-java
-title: Sử dụng Method trong Java
-slug : su-dung-method-trong-java
+title: Sử dụng Method trong lập trình Java
+slug : su-dung-method-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Method  
 image: /images/blog/java.png
 
-description : Hiểu về Method là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về Method trong lập trình hướng đối tượng. Lợi ích của việc sử dụng Method trong lập trình hướng đối tượng trong lập trình.
+description : Phương thức, Method trong ngôn ngữ lập trình Java là gì? Cách khai báo Method trong ngôn ngữ lập trình Java? Truyền tham số trong Method Java được tiến hành như thế nào? Kết quả của một phương thức đã được xử lí xong sẽ được trả về bằng cách nào? Cách ghi đè phương thức và lợi ích của việc nạp chồng các phương thức trong Java? Bài viết sẽ giúp bạn giải đáp các thắc mắc trên. Đồng thời hướng dẫn bạn cách thao tác Method trong ngôn ngữ lập trình hướng đối tượng Java thông qua các ví dụ chi tiết trong mỗi phần.
 youtubeId: fR05ShUphxA
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về Method (phương thức) trong lập trình java. 
+<b>Phương thức, Method trong ngôn ngữ lập trình Java</b> là gì? Cách khai báo Method trong <b>ngôn ngữ lập trình Java</b>? Truyền tham số trong Method Java được tiến hành như thế nào? Kết quả của một phương thức đã được xử lí xong sẽ được trả về bằng cách nào? Cách ghi đè phương thức và lợi ích của việc nạp chồng các phương thức trong Java? Bài viết sẽ giúp bạn giải đáp các thắc mắc trên. Đồng thời hướng dẫn bạn cách thao tác Method trong <b>ngôn ngữ lập trình hướng đối tượng Java</b> thông qua các ví dụ chi tiết trong mỗi phần.
 
 
-# **1. Method là gì**
+## **1. Method trong ngôn ngữ lập trình Java là gì**
 
 Method là một khối tập trung các dòng lệnh code để thực hiện mục đích của method khi chương trình gọi method. Các em có thể truyền data (tham số) vào trong method. Chúng ta sử dụng method thuận tiện cho việc sử dụng lại. Các em có thể viết method một lần và chạy nhiều lần.
 
 Method mình có thể dịch ra là phương thức hay hàm đều được cả.
 
-# **2. Tạo Method**
+## **2. Tạo Method**
 
 {% highlight java  %}
 
@@ -43,7 +43,7 @@ public class MyClass {
 - myMethod() là tên của method
 - Các dòng code để thực thi được đặt trong dấu { }
 
-# **3. Gọi Method**
+## **3. Gọi Method**
 
 Để gọi method chúng ta dùng tên method() như sau
 
@@ -63,7 +63,7 @@ public class MyClass {
 
 - Như vậy các em thấy trong hàm main chúng ta gọi myMethod() để gọi phương thức. Khi chương trình chạy hàm main sẽ chạy trước. Nó sẽ thực thi dòng code myMethod(). Sau đó nó thực thi các dòng code trong phương thức myMethod và in ra dòng I just got exectute
 
-# **4. Gọi Method nhiều lần**
+## **4. Gọi Method nhiều lần**
 
 Method được viết ra 1 lần nhưng có thể thực thi nhiều lần tuỳ vào nơi cần gọi hàm.
 
@@ -83,7 +83,7 @@ public class MyClass {
 
 {% endhighlight %}
 
-# **5. Truyền tham số trong phương thức**
+## **5. Truyền tham số trong phương thức**
 
 Các em có thể truyền thông tin vào method, những thông tin truyền vào được gọi là tham số cho phương thức. Chúng ta có thể truyền nhiều tham số cho method, mỗi tham số cách nhau bằng dấu phẩy.
 
@@ -106,7 +106,7 @@ public class MyClass {
 
 {% endhighlight %}
 
-# **6. Truyền nhiều tham số trong phương thức**
+## **6. Truyền nhiều tham số trong phương thức**
 
 {% highlight java  %}
 
@@ -127,7 +127,7 @@ public class MyClass {
 // Anja is 31
 {% endhighlight %}
 
-# **6. Trả về kết quả trong phương thức**
+## **7. Trả về kết quả trong phương thức**
 
 Khi một phương thức xử lý công việc xong thì nó phải trả về một kết quả cho nơi gọi nó. Chúng ta sử dụng từ khoá return để trả lại kết quả trong phương thức
 
@@ -161,7 +161,7 @@ public class MyClass {
 
 {% endhighlight %}
 
-# **6. phương thức override**
+## **8. Phương thức override**
 
 Nhiều phương thức có thể có cùng tên nhưng khác tham số và kiểu dữ liệu truyền vào cũng hợp lệ
 
