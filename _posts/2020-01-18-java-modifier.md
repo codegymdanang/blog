@@ -7,7 +7,7 @@ tags: [java core]
 summery: Access Modifier
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_accessmodifier.png
-description : Tìm hiểu các access modifier như public , private , static, default, protected, static, final trong lập trình java. Bài viết cũng chỉ ra được tầm quan trọng của access modifier. Và ý nghĩa của mỗi từ khoá cũng như cách sử dụng mỗi access modifier khác nhau trong lập trình java. Từ đó giúp bạn biết được khi nào thì nên dùng từ khoá nào là hợp lý nhất nhằm tăng thêm tính bảo mật cho các giá trị và phương thức trong lớp khi viết các chương trình lập trình Java. 
+description : Tìm hiểu các access modifier như public , private , static, default, protected, static, final trong lập trình java. Bài viết cũng chỉ ra được tầm quan trọng của access modifier. Và ý nghĩa của mỗi từ khoá cũng như cách sử dụng mỗi access modifier khác nhau trong lập trình hướng đối tượng java. Từ đó giúp bạn biết được khi nào thì nên dùng từ khoá nào là hợp lý nhất nhằm tăng thêm tính bảo mật cho các giá trị và phương thức trong lớp khi viết các chương trình lập trình Java. 
 youtubeId: J7tZ9aSzqUg
 ---
 
