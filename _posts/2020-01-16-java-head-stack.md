@@ -1,24 +1,24 @@
 ---
 layout: course-java
-title: Bộ nhớ Heap và Stack trong java
-slug : bo-nho-heap-va-stack-trong-java
+title: Bộ nhớ Heap và Stack trong lập trình Java
+slug : bo-nho-heap-va-stack-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Bộ Nhớ Heap va Stack
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_heapstack.jpeg
-description : Giải thích các hoạt động của bộ nhớ heap và stack trong lập trình java. Hiểu được cách thức lưu trữ các giá trị, đối tượng trong ngôn ngữ java trong bộ nhớ heap và stack. Phân biệt được sự khác nhau giữ bộ nhớ heap và stack trong ngôn ngữ lập trình java
+description : Với việc giải thích các thuật ngữ, cách thức hoạt động của bộ nhớ Heap và Stack trong lập trình Java. Bài viết giúp bạn hiểu được cách thức lưu trữ các giá trị, đối tượng trong ngôn ngữ Java trong bộ nhớ Heap và Stack như thế nào. Phân biệt được sự khác nhau giữ bộ nhớ Heap và Stack trong ngôn ngữ lập trình Java. Lồng ghép vào bài viết còn có video demo về bộ nhớ Heap và Stack giúp bạn dễ dàng tiếp thu hơn với kiến thức Java cơ bản trên.
 youtubeId: 5ix_2ALbqHY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn ,chắc hẳn bạn đang phân vân khi mình khai báo biến ,object ,phương thức ,tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ? Ai sẽ quản lý bộ nhớ? Bài viết sau đây anh sẽ giải thích cho các bạn 2 bộ nhớ <b>Heap</b> và <b>Stack</b> lưu trữ dữ liệu gì và lưu như thế nào nhé .
+Khi bạn làm các chương trình ngôn ngữ <b>lập trình Java</b>, chắc hẳn bạn đang phân vân khi mình khai báo biến, object, phương thức, tham số thì nó sẽ được lưu ở đâu trong bộ nhớ phải không ? Ai sẽ quản lý bộ nhớ này? Bài viết sau đây sẽ giúp các bạn giải đáp những câu hỏi trên. Thông qua giải thích cho các bạn 2 bộ nhớ <b>Heap</b> và <b>Stack</b> lưu trữ dữ liệu gì và cách thức lưu như thế nào nhé .
 
 <br>
-# **1. Các thuật ngữ**
+## **1. Các thuật ngữ**
 
 {:refdef: style="text-align: center;"}
 ![Các thuật ngữ ](/images/post/javacore/cacthuatngu.png){:class="img-responsive"}
@@ -31,7 +31,7 @@ Chào bạn ,chắc hẳn bạn đang phân vân khi mình khai báo biến ,obj
 - Object : là đối tượng được khởi tạo từ khoá new từ một class. Ví dụ Persion persion = new Person().
 
 <br>
-# **2 Heap và Stack**
+## **2 Heap và Stack**
 
 <b>Bộ nhớ Heap và Stack</b> là một phần của bộ nhớ được <b>JVM</b> sử dụng để chạy chương trình Java của bạn. Khi bạn chạy chương trình Java, JVM sẽ yêu cầu hệ điều hành (Ví dụ như Window,Mac, ) cấp cho một không gian bộ nhớ trong RAM để dùng cho việc chạy chương trình.
 JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc quản lý.
@@ -41,7 +41,7 @@ JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc qu
 {: refdef}
 
 <br>
-# **3 Bộ nhớ Heap**
+## **3 Bộ nhớ Heap**
 
 - <b>Bộ nhớ Heap</b> là bộ nhớ được sử dụng ở runtime (Khi chương trình đang  chạy) để lưu các Objects(các đối   tượng) . Bất cứ khi nào ở đâu trong chương trình của bạn khi bạn tạo Object thì nó sẽ được lưu trong Heap (thực thi toán tử new).
 - Các objects trong Heap đều được truy cập bởi tất cả các các nơi trong ứng dụng, bởi các threads khác nhau.
@@ -50,7 +50,7 @@ JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc qu
 - Dung lượng Heap thường lớn hơn Stack.
 
 <br>
-# **4 Bộ nhớ Stack**
+## **4 Bộ nhớ Stack**
 
 - Bộ nhớ để lưu các biến local trong hàm.
 - Các biến local bao gồm loại nguyên thuỷ (primitive) và loại tham chiếu tới đối tượng trong heap (reference) khai báo trong hàm, hoặc đối số được truyền vào hàm, thường có thời gian sống ngắn.
@@ -97,7 +97,7 @@ Hình chữ nhật bự nhất bao ở ngoài là hàm main () . Bên trong hàm
 - Dòng 7 String str = param.toString() . Trong java String là kiểu đặc biệt . Nó là kiểu Object và được quản lý bởi String Pool riêng. Chính vì vậy nó được lưu bên Heap.
 
 <br>
-# **5. Video demo Heap và Stack**
+## **5. Video demo Heap và Stack**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
