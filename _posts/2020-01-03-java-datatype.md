@@ -15,7 +15,7 @@ youtubeId: fR05ShUphxA
 
 ## **Giới thiệu nội dung bài viết**
 
-Bạn đang thắc mắc làm cách nào để biểu diễn những thông tin trong thực tế vào việc viết ra các chương trình trên máy tính? Bài chia sẻ về kiểu dữ liệu trong ngôn ngữ <b>lập trình Java</b> dưới đây sẽ giúp bạn giải đáp cho câu hỏi trên. Việc hiểu sâu các <b>kiểu dữ liệu trong lập trình hướng đối tượng Java<b> cũng sẽ giúp bạn biết nên sử dụng kiểu nào phù hợp nhất khi viết các chương trình Java. Vì vậy, trước khi chuyển sang học các kiến thức nâng cao thì các bạn cần nắm vững các <b>kiến thức Java cơ bản</b> này trước nhé. 
+Bạn đang thắc mắc làm cách nào để biểu diễn những thông tin trong thực tế vào việc viết ra các chương trình trên máy tính? Bài chia sẻ về <b>kiểu dữ liệu trong ngôn ngữ lập trình Java</b> dưới đây sẽ giúp bạn giải đáp cho câu hỏi trên. Việc hiểu sâu các <b>kiểu dữ liệu trong lập trình hướng đối tượng Java</b> cũng sẽ giúp bạn biết nên sử dụng kiểu nào phù hợp nhất khi viết các chương trình Java. Vì vậy, trước khi chuyển sang học các kiến thức nâng cao thì các bạn cần nắm vững các <b>kiến thức Java cơ bản</b> này trước nhé. 
 
 <br>
 ## **Kiểu dữ liệu trong lập trình hướng đối tượng Java là gì**
