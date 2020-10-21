@@ -17,7 +17,7 @@ youtubeId: fR05ShUphxA
 
 Không chỉ riêng trong <b>ngôn ngữ lập trình hướng đối tượng Java</b>, bất kể một ngôn ngữ lập trình nào cũng vậy. Thao tác với String (chuỗi) là những thao tác đòi hỏi các bạn cần nắm vững. Vì những phương thức với String được sử dụng rất nhiều trong các chương trình Java. 
 Bài viết dưới đây giúp bạn hiểu được:
-•	String trong lập trình hướng đối tượng Java là gì? 
+•	String trong <b>lập trình hướng đối tượng Java</b> là gì? 
 •	Có các loại phương thức nào trong String? 
 •	Cách thao tác với mỗi phương thức đó như thế nào? 
 •	Ví dụ cụ thể cho mỗi phương thức với String trong ngôn ngữ lập trình Java.
