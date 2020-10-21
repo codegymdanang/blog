@@ -1,12 +1,12 @@
 ---
 layout: course-java
-title: Mệnh đề If else trong lập  Java
+title: Mệnh đề If else trong lập trình Java
 slug : menh-de-if-else-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: If Else  
 image: /images/blog/java.png
-description : Hiểu về If Else là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về If Else trong lập trình hướng đối tượng. Lợi ích của việc sử dụng If Else lập trình hướng đối tượng trong lập trình.
+description : Bài viết cung cấp kiến thức về mệnh đề điều kiện if else được tạo ra trong lập trình Java. If-Else dùng để kiểm tra một điều kiện nào đó có đúng hay không. Các biểu thức điều kiện sẽ trả về 2 giá trị TRUE hoặc FALSE. Cụ thể trong đó gồm các câu lệnh điều kiện: If, Else, If-Else, If-Else rút gọn. Cú pháp thực hiện mỗi câu lệnh điều kiện là khác nhau. Các câu lệnh của các câu điều kiện được đặt trong dấu ngoặc nhọn.
 youtubeId: fR05ShUphxA
 ---
 
@@ -14,7 +14,7 @@ youtubeId: fR05ShUphxA
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về If Else trong <b>lập trình Java</b>. Trong bài viết về các loại toán tử trong lập trình bài [trước](https://levunguyen.com/laptrinhjava/2020/01/04/toan-tu/) phần toán tử so sánh. Dựa vào những điều kiện trên ta sẽ thực hiện những hành động khác nhau dựa trên kết quả so sánh. 
+Chào các em. Hôm nay chủ đề của chúng ta sẽ về <b>If Else trong lập trình Java</b>. Trong bài viết về các loại toán tử trong lập trình bài [trước](https://levunguyen.com/laptrinhjava/2020/01/04/toan-tu/) phần toán tử so sánh. Dựa vào những điều kiện trên ta sẽ thực hiện những hành động khác nhau dựa trên kết quả so sánh. 
 
 Trong <b>ngôn ngữ lập trình hướng đối tượng Java</b> hỗ trợ ta các câu lệnh điều kiện. Mà điều kiện dựa vào các điều kiện mà ta đưa vào để thực hiện các yêu cầu của bài toán
 
