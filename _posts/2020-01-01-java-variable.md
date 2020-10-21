@@ -15,7 +15,7 @@ youtubeId: fR05ShUphxA
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong ngôn ngữ lập trình nói chung và <b>ngôn ngữ lập trình Java</b> nói riêng. Biến là một trong những kiến thức nền tảng mà mỗi người học cần trang bị cho bản thân. Tuy nhiên hiện nay vẫn còn hạn chế các trang cung cấp các kiến thức lập trình Java căn bản này một cách đầy đủ và thiết thực cho người học. Vì vậy đó chính là lí do bài viết này ra đời, với mục đích nhằm giúp các bạn có thêm nguồn tham khảo trong quá trình học. Bài viết cung cấp thông tin chi tiết về Biến trong <b>lập trình Java</b>, giúp bạn hiểu rõ Biến là gì? Có các loại Biến nào trong ngôn ngữ lập trình Java? Đồng thời với các ví dụ cụ thể trong bài viết giúp bạn tiếp cận kiến thức lập trình Java căn bản này dễ dàng hơn và nhanh chóng áp dụng vào thực hành.
+Trong ngôn ngữ lập trình nói chung và <b>ngôn ngữ lập trình Java</b> nói riêng. <b>Biến</b> là một trong những kiến thức nền tảng mà mỗi người học cần trang bị cho bản thân. Tuy nhiên hiện nay vẫn còn hạn chế các trang cung cấp các kiến thức lập trình Java căn bản này một cách đầy đủ và thiết thực cho người học. Vì vậy đó chính là lí do bài viết này ra đời, với mục đích nhằm giúp các bạn có thêm nguồn tham khảo trong quá trình học. Bài viết cung cấp kiến thức về <b>Biến trong lập trình Java</b>, giúp bạn hiểu rõ Biến là gì? Có các loại Biến nào trong <b>ngôn ngữ lập trình Java</b>? Đồng thời với các ví dụ cụ thể trong bài viết giúp bạn tiếp cận <b>kiến thức lập trình Java cơ bản</b> này dễ dàng hơn và nhanh chóng áp dụng vào thực hành.
 
 
 <br>
