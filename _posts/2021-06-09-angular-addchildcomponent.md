@@ -7,7 +7,7 @@ tags: [angular]
 summery: Thêm Component Con   
 image: /images/blog/angular.png
 description : Thêm component con trong dự án angular. Hướng dẫn cách thêm component con vào dự án Angular. Hướng dẫn các tạo một ứng dụng component vào dự án.
-youtubeId: 0734nF0B_BM
+youtubeId: 5FD1SFJYLAo
 ---
 
 {% include toc.html %}
@@ -195,7 +195,9 @@ declarations: [
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
