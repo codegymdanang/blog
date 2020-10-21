@@ -1,31 +1,31 @@
 ---
 layout: course-java
 title: Đối tượng trong lập trình java
-slug : doi-tuong-trong-java
+slug : doi-tuong-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Object  
 image: /images/blog/java.png
 
-description : Hiểu về Object là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về Object trong lập trình hướng đối tượng. Lợi ích của việc sử dụng biến lập trình hướng đối tượng trong lập trình.
+description : Trong bài viết này, chúng ta sẽ được tìm hiểu về đối tượng Object, lớp Class trong ngôn ngữ lập trình Java là gì? Sự khác nhau giữa đối tượng và lớp trong Java? Cách tạo lớp và đối tượng, các hàm khởi tạo trong Java? Thuộc tính và cách thao tác với các thuộc tính của mỗi đối tượng như thế nào? Cũng như phương thức của mỗi đối tượng hoạt động làm sao?
 youtubeId: fR05ShUphxA
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về Object trong lập trình java.
+Mọi thứ trong <b>lập trình Java</b> đều liên quan đến <b>Object (đối tượng)</b>, các thuộc tính và phương thức của đối tượng. Các chương trình được thiết kế trong Java đều dựa trên các đối tượng và các lớp. Vì vậy để có thể viết ra được các chương trình Java, đòi hỏi bạn phải nắm được kiến thức Java này và vận dụng được vào trong thực hành. Bài viết dưới đây sẽ lần lượt chia sẻ, đi từ khái niệm chung cho đến cách tạo lớp và đối tượng, các hàm khởi tạo trong Java. Thuộc tính và cách thao tác với các thuộc tính của mỗi đối tượng như thế nào. Cũng như phương thức của mỗi đối tượng hoạt động làm sao trong <b>lập trình hướng đối tượng Java</b>. 
 
 <br>
-# **1. Object là gì**
+## **1. Object là gì**
 
-Mọi thứ trong Java đều liên quan đến Object (đối tượng), các thuộc tính và phương thức của đối tượng. Ví dụ ở ngoài đời chúng ta có chiếc xe hơi đó chính là đối tượng. Chiếc xe hơi có các thuộc tính như cân nặng, màu sắc và phương thức là chạy
+Mọi thứ trong <b>lập trình Java</b> đều liên quan đến <b>Object (đối tượng)</b>, các thuộc tính và phương thức của đối tượng. Ví dụ ở ngoài đời chúng ta có chiếc xe hơi đó chính là đối tượng. Chiếc xe hơi có các thuộc tính như cân nặng, màu sắc và phương thức là chạy
 
 Một Class giống như 1 bản vẽ thiết kế ra đối tượng. Anh ví dụ như khi mình muốn xây một ngôi nhà thì mình sẽ có bản vẽ thiết kế ngôi nhà. Từ đó ta có thể xây dựng ra các ngôi nhà khác nhau dựa và bản thiết kế. Có thể cho ra ngôi nhà màu xanh, màu đỏ khác nhau. Cũng như trong lập trình ta tạo ra các classes đó chính là bản thiết kế. Khi chương trình mình chạy dựa vào toán tử new (House house = new House()) nó sẽ sinh ra các đối tượng khác nhau.
 
 
-# **2. Tạo một Class**
+## **2. Tạo một Class**
 
 - Chúng ta sử dụng từ khoá class để tạo ra 1 class java.
 <br>
@@ -37,7 +37,7 @@ public class MyClass {
 
 {% endhighlight %}
 
-# **3. Tạo một Object**
+## **3. Tạo một Object**
 
 - Từ 1 class chúng ta tạo ra Object thông qua từ khoá new
 <br>
@@ -54,7 +54,7 @@ public class MyClass {
 
 {% endhighlight %}
 
-# **4. Tạo nhiều Object từ một Class**
+## **4. Tạo nhiều Object từ một Class**
 
 - Như anh đã nói phần trên từ 1 Class ta có thể tạo ra nhiều đối tượng khác nhau. Class như một bản vẽ thiết kế vậy từ đó cho ra nhiều ngôi nhà
 <br>
@@ -75,7 +75,7 @@ public class MyClass {
 
 
 
-# **5. Hàm khởi tạo constructor**
+## **5. Hàm khởi tạo constructor**
 
 - Hàm khởi tạo trong Class là hàm giúp mình tạo ra một đối tượng. Như các em thấy khi mình gọi Car car = new Car(). Lúc này nó sẽ gọi hàm khởi tạo trong Class Car để tạo đối tượng cho mình. Hàm khởi tạo có một đặt điểm là tên hàm khởi tạo phải giống tên của Class và không có kiểu dữ liệu trả về
 <br>
@@ -97,7 +97,7 @@ public class Car {
 
 {% endhighlight %}
 
-# **6. Hàm khởi tạo constructor có tham số**
+## **6. Hàm khởi tạo constructor có tham số**
 
 Hàm khởi tạo có thể có tham số truyền vào để khởi tạo một số giá trị có sẳn ban đầu cho đối tượng
 <br>
@@ -118,7 +118,7 @@ public class MyClass {
 
 {% endhighlight %}
 
-# **7. Hàm khởi tạo constructor có nhiều tham số**
+## **7. Hàm khởi tạo constructor có nhiều tham số**
 <br>
 {% highlight java  %}
 
@@ -139,7 +139,7 @@ public class Car {
 
 {% endhighlight %}
 
-# **8. Thuộc tính**
+## **8. Thuộc tính**
 
 - Trong mỗi đối tượng đều có thuộc tính của nó. Thuộc tính là những tính chất của đối tượng. Anh lấy ví dụ chiếc xe hơi có màu xanh, sản xuất năm 2020 thì màu xanh (color)và năm sản xuất (model) chính là thuộc tính của chiếc xe hơi. Trong lập trình hướng đối tượng thuộc tính sẽ trở thành các biến trong Class. Như vậy thuộc tính thường là tính từ của đối tượng.
 <br>
@@ -155,7 +155,7 @@ public class Car {
 
 {% endhighlight %}
 
-# **9. Thao tác với thuộc tính**
+## **9. Thao tác với thuộc tính**
 
 Chúng ta có thể lấy thuộc tính bằng sử dụng dấu .
 <br>
@@ -171,7 +171,7 @@ public class Car {
 }
 {% endhighlight %}
 
-# **10. Phương thức**
+## **10. Phương thức**
 
 - Phương thức là những hành động của một đối tượng. Anh ví dụ như chiếc xe hơi có hành động là chạy. Thì chạy chính là phương thức. Phương thức bắt buộc là động từ
 <br>
