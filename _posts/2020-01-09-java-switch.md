@@ -1,28 +1,28 @@
 ---
 layout: course-java
-title: Mệnh đề Switch trong Java
-slug : menh-de-switch-trong-java
+title: Mệnh đề Switch trong lập trình Java
+slug : menh-de-switch-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Switch  
 image: /images/blog/java.png
 
-description : Hiểu về Switch là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về Switch trong lập trình hướng đối tượng. Lợi ích của việc sử dụng Switch lập trình hướng đối tượng trong lập trình.
+description : Bài viết giúp hiểu được lệnh Switch trong ngôn ngữ lập trình Java là gì? Cùng với các ví dụ cụ thể kèm theo, hướng dẫn cách thao tác, cú pháp thực hiện như thế nào với lệnh Switch để đạt được tối ưu nhất. Cũng như chỉ ra những lợi ích mà lệnh Switch mang lại khi sử dụng trong ngôn ngữ lập trình hướng đối tượng Java.
 youtubeId: fR05ShUphxA
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về Switch trong lập trình java. Switch dùng để chọn thực thi một khối lệnh đúng trong nhiều khối lệnh đưa ra.
+Chào các em. Hôm nay chủ đề của chúng ta sẽ về <b>Switch trong lập trình Java</b>. Switch dùng để chọn thực thi một khối lệnh đúng trong nhiều khối lệnh đưa ra. Câu lệnh Switch trong <b>lập trình Java</b> được sử dụng cho nhiều trường hợp. Người dùng thường chọn sử dụng lệnh Switch thay thế cho các câu lệnh điều kiện If-Else vì tính ngắn gọn, rõ ràng của nó. Các biểu thức sử dụng trong Switch được yêu cầu phải là các kiểu dữ liệu Byte, Short, Int, Long, Enum và có thể là String. Cụ thể Switch là gì, cú pháp để dùng câu lệnh như thế nào, bài chia sẻ dưới đây sẽ giúp bạn hiểu rõ hơn.
 
 - If : kiểm tra nếu đều kiện đúng, ta thực hiện các câu lệnh trong khối lệnh if.
 - Else : kiểm tra điều kiện và  thực hiện các khối lệnh ngược lại với điều kiện
 - Else If : tạo thêm một điều kiện mới nếu điều kiện trước đó là false
 - Switch  : gồm nhiều điều kiện if và else
 
-# **2. Cú pháp Switch**
+## **1. Cú pháp Switch**
 
 {% highlight java  %}
 
