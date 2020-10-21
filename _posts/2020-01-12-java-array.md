@@ -1,24 +1,24 @@
 ---
 layout: course-java
-title: Sử dụng Mảng trong Java
-slug : su-dung-mang-trong-java
+title: Sử dụng Mảng trong lập trình Java
+slug : su-dung-mang-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Mảng  
 image: /images/blog/java.png
 
-description : Hiểu về Mảng là gì trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về Mảng trong lập trình hướng đối tượng. Lợi ích của việc sử dụng Mảng trong lập trình hướng đối tượng trong lập trình.
+description : Mảng,Array trong ngôn ngữ lập trình Java là gì? Cách lấy và cập nhật giá trị phần tử trong mảng thông qua vị trí index? Cách duyệt qua các phần tử của mảng? Độ dài của mảng? Tìm hiểu hơn về mảng nhiều chiều. Bài viết sẽ lần lượt đi qua các phần trên, cùng với các ví dụ cụ thể trong bài sẽ hướng dẫn bạn cách thao tác với Mảng trong lập trình Java. Từ đó giúp áp dụng ngay vào trong thực hành. 
 youtubeId: fR05ShUphxA
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về Mảng trong lập trình java. 
+Chào các em. Hôm nay chủ đề chúng ta chia sẻ sẽ về <b>Mảng trong lập trình Java</b>. Mảng (Array) trong ngôn ngữ <b>lập trình Java</b> là gì? Cách lấy và cập nhật giá trị phần tử trong mảng thông qua vị trí index? Cách duyệt qua các phần tử của mảng? Độ dài của mảng? Tìm hiểu hơn về mảng nhiều chiều. Bài viết sẽ lần lượt đi qua các phần trên, cùng với các ví dụ cụ thể trong bài sẽ hướng dẫn chi tiết cách thao tác với <b>Mảng trong lập trình Java</b>. Từ đó giúp các em có thể áp dụng ngay vào trong thực hành. 
 
 
-# **1. Mảng là gì**
+## **1. Mảng trong ngôn ngữ lập trình Java là gì**
 
 Mảng được sử dụng để lưu nhiều giá trị vào một biến. Giả sử nếu không có mảng nếu anh có 1000 sinh viên anh phải tạo 1000 dòng code và biến để lưu 1000 sinh viên. Nhờ có mảng ta chỉ sử dụng 1 dòng code và 1 biến để lưu trữ 1000 sinh viên.
 
@@ -38,7 +38,7 @@ String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 
 {% endhighlight %}
 
-# **2. Lấy giá trị phần tử trong mảng thông qua vị trí index**
+## **2. Lấy giá trị phần tử trong mảng thông qua vị trí index**
 
 - Một đều quan trọng vị trí bắt đầu của mảng luôn là vị trí 0. Trong ví dụ dưới đây vị trí 0 là giá trị Volvo, vị trí 1 là BMW, vị trí 2 là Ford, vị trí 3 là Mazda. Như vậy mảng có 4 phần tử và vị trí luôn luôn bắt đầu là 0.
 
@@ -49,7 +49,7 @@ System.out.println(cars[0]);
 // Kết quả Volvo
 {% endhighlight %}
 
-# **3. Cập nhật giá trị phần tử trong mảng thông qua vị trí index**
+## **3. Cập nhật giá trị phần tử trong mảng thông qua vị trí index**
 
 {% highlight java  %}
 
@@ -60,7 +60,7 @@ System.out.println(cars[0]);
 
 {% endhighlight %}
 
-# **4. Độ dài của mảng**
+## **4. Độ dài của mảng**
 
 - Để lấy được kích thướt của mảng chứa bao nhiêu phần tử ta dùng phương thức length
 
@@ -74,7 +74,7 @@ System.out.println(cars.length);
 
 {% endhighlight %}
 
-# **4. Duyệt qua các phần tử của mảng**
+## **5. Duyệt qua các phần tử của mảng**
 
 - Chúng ta có thể sử dụng vòng lặp for hoặc for-each để duyệt qua các phần tử
 
@@ -96,7 +96,7 @@ for (String i : cars) {
 
 {% endhighlight %}
 
-# **5. Mảng nhiều chiều**
+## **6. Mảng nhiều chiều**
 
 - Mảng nhiều chiều hay còn gọi là mảng của mảng chứ một hoặc nhiều mảng.
 
