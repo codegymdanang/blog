@@ -1,6 +1,6 @@
 ---
 layout: course-java
-title: Mệnh đề If else trong lập trình Java
+title: Mệnh đề If Else trong lập trình Java
 slug : menh-de-if-else-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
