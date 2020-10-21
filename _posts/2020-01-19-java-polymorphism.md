@@ -1,27 +1,26 @@
 ---
 layout: course-java
-title: Tính đa hình trong lập trình hướng đối tượng
-slug : tinh-da-hinh-trong-lap-trinh-huong-doi-tuong
+title: Tính đa hình trong lập trình hướng đối tượng Java
+slug : tinh-da-hinh-trong-lap-trinh-huong-doi-tuong-java
 category: laptrinhjava
 tags: [java core]
 summery: Tính đa hình  
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
-description : Hiểu về tính đa hình trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về tính đa hìnhtrong lập trình hướng đối tượng. Lợi ích của việc sử dụng lập tính đa hình.
+description :Thông qua những chia sẻ lí thuyết kèm theo ví dụ minh hoạ, bài viết giúp bạn hiểu được tính đa hình trong lập trình Java là gì? Áp dụng được tính đa hình vào quá trình viết các chương trình lập trình hướng đối tượng Java. Từ đó nhận ra được những lợi ích tính đa hình mang lại trong lập trình Java. 
 youtubeId: MGWT_Y9Oi8I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn, nếu bạn là người mới tìm hiểu về <b>lập trình</b>, hẳn bạn đã từng nghe tới khái niệm về <b>tính đa hình</b>. Nếu bạn đang không hiểu
-thì bài viết sau đây sẽ giúp bạn hiểu rõ về <b>tính đa hình</b> hơn các khái niệm thông qua các ví dụ thực tế.
+Với những bạn đang tìm hiểu về <b>lập trình Java</b>, hẳn các bạn đã từng nghe tới khái niệm <b>tính đa hình</b>. Nếu bạn đang còn phân vân chưa hiểu rõ khái niệm này hay cách thao tác nó trong quá trình viết các chương trình <b>lập trình hướng đối tượng Java</b>. Thì bài viết dưới đây sẽ giúp bạn. Thông qua những chia sẻ lí thuyết kèm theo ví dụ minh hoạ bạn sẽ hiểu tính đa hình là gì? Thao tác thực hiện và lợi ích tính đa hình trong <b>ngôn ngữ lập trình Java</b> mang lại như thế nào?.
 
 <br>
-# **1. Tính đa hình là gì**
+## **1. Tính đa hình trong lập trình hướng đối tượng Java là gì**
 
-Tính đa hình có nghĩa là cùng một hành động nhưng ở những ngữ cảnh khác nhau thì cho ra những hành động khác nhau, hoặc cho ra các kết quả khác nhau.
+<b>Tính đa hình</b> có nghĩa là cùng một hành động nhưng ở những ngữ cảnh khác nhau thì cho ra những hành động khác nhau, hoặc cho ra các kết quả khác nhau.
 
 Anh lấy ví dụ như mình có lớp cha là Animal (động vật), trong lớp Animal thì mình sẽ có phương thức là makeSound() (tiếng kêu của động vật). Giả sử mình có 4 lớp con là Pig (lợn), Cat (mèo), Dog (chó), Bird (chim). Tất cả chúng đều là động vật cả nên chúng sẽ kế thừa các phương thức makeSound và các thuộc tính của lớp cha Animal. Nhưng ở phương thức makeSound ở mỗi loài động vật khác nhau. Ví dụ như con Pig kết quả của hàm makeSound sẽ cho ra tiếng kêu ủn ỉn, con Cat thì hàm makeSound là meo meo, con chó thì hàm makeSound là gâu gâu. Như vậy chúng ta thấy tính đa hình ở chỗ. Cũng là phương thức makeSound nhưng trong ngữ cảnh là con Mèo thì ta sẽ viết code riêng để xử lý tiếng kêu con mèo và trả về kết quả là tiếng kêu con mèo. Còn nếu ngữ cảnh là con Dog thì ta viết code xử lý cho con chó và trả về tiếng kêu con chó.
 
@@ -60,6 +59,6 @@ class MyMainClass {
 {% endhighlight %}
 
 <br>
-# **2. Tổng kết**
+## **2. Tổng kết**
 
 Như vậy chúng ta thấy đa hình ở chỗ myAnimal.makeSound(); myPig.makeSound() ; myDog.makeSound(). Cũng là một phương thức makeSound() như nếu là con chó thì kết quả khác, con heo là kết quả khác
