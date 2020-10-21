@@ -81,7 +81,6 @@ final int num = 15;
 num = 20;
 
 {% endhighlight %}
-
 ## **4. Hiển thị giá trị trong biến trong ngôn ngữ lập trình java**
 
  Để hiển thị giá trị trong biến ta sử dụng hàm println()
