@@ -15,7 +15,7 @@ youtubeId: fR05ShUphxA
 
 ## **Giới thiệu nội dung bài viết**
 
-Nằm trong chuỗi các bài viết chia sẻ về <b>ngôn ngữ lập trình Java</b>, hôm nay anh gửi đến các bạn bài chia sẻ về <b>Mảng trong lập trình Java</b>. Đây được xem là một trong những <b>kiến thức Java cơ bản</b>, đòi hỏi cần nắm kĩ. Vậy, Mảng (Array) trong ngôn ngữ <b>lập trình Java</b> là gì? Cách lấy và cập nhật giá trị phần tử trong mảng thông qua vị trí index? Cách duyệt qua các phần tử của mảng? Độ dài của mảng? Tìm hiểu hơn về mảng nhiều chiều. Bài viết sẽ lần lượt đi qua các phần trên, cùng với các ví dụ cụ thể trong bài sẽ hướng dẫn chi tiết cách thao tác với <b>Mảng trong lập trình Java</b>. Từ đó giúp các em có thể áp dụng ngay vào trong thực hành. 
+Nằm trong chuỗi các bài viết chia sẻ về <b>ngôn ngữ lập trình Java</b>, hôm nay anh gửi đến các bạn bài chia sẻ về <b>Mảng trong lập trình Java</b>. Đây được xem là một trong những <b>kiến thức Java cơ bản</b>, đòi hỏi cần nắm kĩ. Vậy, Mảng (Array) trong ngôn ngữ <b>lập trình Java</b> là gì? Cách lấy và cập nhật giá trị phần tử trong mảng thông qua vị trí index? Cách duyệt qua các phần tử của mảng? Độ dài của mảng? Tìm hiểu hơn về mảng nhiều chiều. Bài viết sẽ lần lượt đi qua các phần trên, cùng với các ví dụ cụ thể trong bài sẽ hướng dẫn chi tiết cách thao tác với <b>Mảng trong lập trình Java</b>. Từ đó giúp các bạn có thể áp dụng ngay vào trong thực hành. 
 
 
 ## **1. Mảng trong ngôn ngữ lập trình Java là gì**
