@@ -16,7 +16,7 @@ youtubeId: J7tZ9aSzqUg
 ## **Giới thiệu nội dung bài viết**
 
 Chào bạn, bạn đã từng nghe tới khái niệm về các <b>access modifier</b> trong <b>lập trình Java</b> chưa? Bài viết này giúp bạn phân biệt các từ khoá
-như public , private , protected và default. Đồng thời cũng cho bạn thấy được tầm quan trọng của access modifier. Và chỉ ra ý nghĩa của mỗi từ khoá cũng như cách sử dụng mỗi access modifier khác nhau trong <b>lập trình Java</b>. Từ đó giúp bạn biết khi nào thì nên dùng từ khoá nào là hợp lý nhất nhằm tăng thêm tính bảo mật cho các giá trị và phương thức trong lớp khi viết các <b>chương trình lập trình Java</b>. Bài viết bao gồm kèm theo một video demo hướng dẫn về access modifier trong <b>ngôn ngữ lập trình hướng đối tượng Java</b>.
+như public , private , protected và default. Đồng thời cũng cho bạn thấy được tầm quan trọng của access modifier. Và chỉ ra ý nghĩa của mỗi từ khoá cũng như cách sử dụng mỗi access modifier khác nhau trong <b>ngôn ngữ lập trình hướng đối tượng Java</b>. Từ đó giúp bạn biết khi nào thì nên dùng từ khoá nào là hợp lý nhất nhằm tăng thêm tính bảo mật cho các giá trị và phương thức trong lớp khi viết các <b>chương trình lập trình Java</b>. Bài viết bao gồm kèm theo một video demo hướng dẫn về access modifier trong <b>ngôn ngữ lập trình hướng đối tượng Java</b>.
 
 ## **1. Tầm quan trọng của access modifier**
 
