@@ -17,7 +17,7 @@ youtubeId2 : kfQ7O7Fky8U
 ## **Giới thiệu nội dung bài viết**
 
 Chào bạn, nếu bạn là người mới tìm hiểu về <b>lập trình Java</b>, hẳn bạn đã từng nghe về khái niệm <b>Abstract</b> và <b>Interface</b>.
-Nhưng bạn có biết khi nào mình sẽ dùng abstract và khi nào mình dùng interface không? Khi mới bước chân vào nghề lập trình anh cũng rất hoang mang về công dụng và lợi ý của Abstract và Interface. Chính vì vậy anh viết bài này nhằm giúp mọi người có cái nhìn rõ hơn sự <b>khác nhau giữa abstract và interface</b>. Từ đó biết lựa chọn sử dụng cái nào phù hợp nhất cho mỗi trường hợp trong lập trình Java. Đồng thời, trong bài viết anh cũng hướng dẫn cách để các bạn tạo Abstract và Interface trong <b>lập trình Java</b>.
+Nhưng bạn có biết khi nào mình sẽ dùng abstract và khi nào mình dùng interface không? Khi mới bước chân vào nghề lập trình anh cũng rất hoang mang về công dụng và lợi ích của Abstract và Interface. Chính vì vậy anh viết bài này nhằm giúp mọi người có cái nhìn rõ hơn về sự <b>khác nhau giữa abstract và interface</b>. Từ đó biết lựa chọn sử dụng cái nào phù hợp nhất cho mỗi trường hợp trong lập trình Java. Đồng thời, trong bài viết anh cũng hướng dẫn cách để các bạn tạo Abstract và Interface trong <b>lập trình Java</b>.
  
 
 <br>
