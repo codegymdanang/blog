@@ -15,7 +15,7 @@ youtubeId: MGWT_Y9Oi8I
 
 ## **Giới thiệu nội dung bài viết**
 
-Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của <b>lập trình hướng đối tượng Java</b> bao gồm tính đa hình, tính đóng gói, tính trừu tượng, tính kế thừa. Trong bài viết này trình bày về <b>tính kế thừa, inheritance</b> trong lập trình. Hướng dẫn thông qua các ví vụ minh hoạ và video demo để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình lập trình Java. Và mục đích, lợi ích của việc sử dụng <b>tính kế thừa trong lập trình Java</b>.
+Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của <b>lập trình hướng đối tượng Java</b> bao gồm tính đa hình, tính đóng gói, tính trừu tượng, tính kế thừa. Trong bài viết này anh sẽ trình bày về <b>tính kế thừa, inheritance</b> trong lập trình. Hướng dẫn thông qua các ví vụ minh hoạ và video demo để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình lập trình Java. Và mục đích, lợi ích của việc sử dụng <b>tính kế thừa trong lập trình Java</b>.
 
 
 <br>
