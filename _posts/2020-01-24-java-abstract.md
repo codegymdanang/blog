@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Sử dụng Abstract trong Java
-slug : su-dung-abstract-trong-java
+title: Sử dụng Abstract trong lập trình Java
+slug : su-dung-abstract-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Abstract
@@ -14,15 +14,16 @@ youtubeId2 : kfQ7O7Fky8U
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn, nếu bạn là người mới tìm hiểu về lập trình, hẳn bạn đã từng nghe tới khái niệm về <b>Abstract</b> trong lập trình.
-Nhưng bạn có biết khi nào mình sẽ dùng Abstract không? 
+Một trong những tính chất của lập trình hướng đối tượng Java là tính trừu tượng. Để thực hiện được tính trừu tượng này, trong <b>lập trình Java</b> sử dụng từ khoá <b>Abstract</b> và Interface. Trong đó, anh đã có bài chia sẻ về Interface, các bạn có thể tìm đọc lại bài viết tại đây. 
+Trong bài viết hôm nay, anh sẽ chia sẻ về <b>Abstract</b>. Cụ thể Abstract là gì? Tại sao nên dùng Abstract trong lập trình Java? Nó được áp dụng cho Class và Method như thế nào trong lập trình Java? Hay cách để tạo <b>Abstract trong ngôn ngữ lập trình Java</b>. 
+ 
 
 <br>
-# **1. Abstract là gì**
+## **1. Abstract trong lập trình Java là gì**
 
-Trừa tượng có nghĩa là tuyến trình che giấu đi những chi tiết quan trọng và chỉ hiển thị những thông tin cần thiết cho người sử dụng. Để thực hiện được tính trừu tượng chúng ta sử dụng từ khoá abstract hoặc interface. Trong bài này anh sẽ giới thiệu về các sử dụng abstract. Chúng ta có thể áp dụng từ khoá abstract cho class hoặc method. Khi áp dụng abstract cho class thì chúng ta không thể tạo đối tượng từ lớp abstract được. Abstract method chỉ được sử dụng và khai báo trong abstract class. Abstract method sẽ không có phần thân (code thực thi). Phần thân code thực thi sẽ được viết bởi lớp con kế thừa abstract class.
+<b>Trừu tượng trong lập trình Java</b> có nghĩa là tuyến trình che giấu đi những chi tiết quan trọng và chỉ hiển thị những thông tin cần thiết cho người sử dụng. Để thực hiện được tính trừu tượng chúng ta sử dụng từ khoá abstract hoặc interface. Trong bài này anh sẽ giới thiệu về các sử dụng abstract. Chúng ta có thể áp dụng từ khoá abstract cho class hoặc method. Khi áp dụng abstract cho class thì chúng ta không thể tạo đối tượng từ lớp abstract được. Abstract method chỉ được sử dụng và khai báo trong abstract class. Abstract method sẽ không có phần thân (code thực thi). Phần thân code thực thi sẽ được viết bởi lớp con kế thừa abstract class.
 
 - Abstract class Animal ví dụ sau đây dùng từ khoá abstract. Chú ý chúng ta không thể tạo đối tượng Animal ani = new Animal() được.
 
@@ -70,12 +71,12 @@ class MyMainClass {
 
 {% endhighlight %}
 
-# **2. Tại sao chúng ta sử dụng Abstract**
+## **2. Tại sao chúng ta sử dụng Abstract**
 
 - Để đảm bảo tính bảo mật.
-- Chúng ta chỉ đưa ra những thông tin cần thiết và che giấu những thông tin quan trọng
+- Chúng ta chỉ đưa ra những thông tin cần thiết và che giấu những thông tin quan trọng.
 
-# **3. Cách tạo abstract trong Java**  
+## **3. Cách tạo abstract trong Java**  
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId1 %}
