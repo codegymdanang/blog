@@ -16,7 +16,7 @@ youtubeId2 : kfQ7O7Fky8U
 
 ## **Giới thiệu nội dung bài viết**
 
-Bạn đã từng nghe đề cập về khái niệm <b>Interface trong lập trình hướng đối tượng Java</b>. Nhưng bạn đã thực sự biết khi nào thì nên dùng Interface trong quá trình lập trình Java chưa? 
+Bạn đã từng nghe đề cập về khái niệm <b>Interface trong lập trình hướng đối tượng Java</b>. Nhưng bạn đã thực sự biết khi nào thì nên dùng <b>Interface</b> trong quá trình <b>lập trình Java</b> chưa? 
 Bài viết dưới đây sẽ giúp bạn hiểu được Interface là gì? Các tính chất, thuộc tính, phương thức của Interface. Cũng như biết khi nào thì nên áp dụng Interface vào trong quá trình code các chương trình <b>lập trình Java</b>. Bài chia sẻ sẽ hướng dẫn bạn cách thao tác với Interface thông qua các ví dụ minh hoạ. Kèm theo video tổng kết bài học ở cuối bài sẽ giúp bạn một lần nữa hệ thống lại <b>kiến thức Java cơ bản</b> này. Từ đó giúp bạn ghi nhớ bài học lâu hơn.
  
 
@@ -25,7 +25,7 @@ Bài viết dưới đây sẽ giúp bạn hiểu được Interface là gì? C�
 
 - Như các em đã học bài học hôm trước về tính trừu tượng, nếu các em quên thì có thể xem lại tại [đây] (https://levunguyen.com/laptrinhjava/2020/01/01/tinh-truu-tuong/). Thì Interface chính là cách mà chúng ta làm tính trừu tượng trong lập trình. Ngoài cách dùng abstract class thì để thực hiện được tính trừu tượng ta có thể sử dụng Interface.
 
-- Interface chính là 100% abstract class có nghĩa là trong abstract class ta có 10 phương thức như ta chỉ cần 5 phương thức abstract cũng được. 5 phương thức còn lại là các phương thức bình thường. Tuy nhiên nếu Abstract Class có 10 phương thức abstract thì lớp con phải Override lại 10 phương thức. Cũng tương tự như vậy tất cả các phương thức trong interface nếu có lớp con kế thừa nó thì bắt buộc lớp con phải Override lại 10 phương thức giống như abstract class vậy.
+- <b>Interface</b> chính là 100% abstract class có nghĩa là trong abstract class ta có 10 phương thức như ta chỉ cần 5 phương thức abstract cũng được. 5 phương thức còn lại là các phương thức bình thường. Tuy nhiên nếu Abstract Class có 10 phương thức abstract thì lớp con phải Override lại 10 phương thức. Cũng tương tự như vậy tất cả các phương thức trong interface nếu có lớp con kế thừa nó thì bắt buộc lớp con phải Override lại 10 phương thức giống như abstract class vậy.
 
 - Chúng ta sử dụng từ khoá interface để khai báo một Interface trong <b>lập trình Java</b>.
 
