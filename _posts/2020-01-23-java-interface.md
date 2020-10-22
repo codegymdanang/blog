@@ -16,8 +16,8 @@ youtubeId2 : kfQ7O7Fky8U
 
 ## **Giới thiệu nội dung bài viết**
 
-Bạn đã từng nghe đề cập về khái niệm Interface trong lập trình hướng đối tượng Java. Nhưng bạn đã thực sự biết khi nào thì nên dùng Interface trong quá trình lập trình Java chưa? 
-Bài viết dưới đây sẽ giúp bạn hiểu được Interface là gì? Các tính chất, thuộc tính, phương thức của Interface. Cũng như biết khi nào thì nên áp dụng Interface vào trong quá trình code các chương trình lập trình Java. Bài chia sẻ sẽ hướng dẫn bạn cách thao tác với Interface thông qua các ví dụ minh hoạ. Kèm theo video tổng kết bài học ở cuối bài sẽ giúp bạn một lần nữa hệ thống lại kiến thức. Từ đó giúp bạn ghi nhớ bài học lâu hơn.
+Bạn đã từng nghe đề cập về khái niệm <b>Interface trong lập trình hướng đối tượng Java</b>. Nhưng bạn đã thực sự biết khi nào thì nên dùng Interface trong quá trình lập trình Java chưa? 
+Bài viết dưới đây sẽ giúp bạn hiểu được Interface là gì? Các tính chất, thuộc tính, phương thức của Interface. Cũng như biết khi nào thì nên áp dụng Interface vào trong quá trình code các chương trình <b>lập trình Java</b>. Bài chia sẻ sẽ hướng dẫn bạn cách thao tác với Interface thông qua các ví dụ minh hoạ. Kèm theo video tổng kết bài học ở cuối bài sẽ giúp bạn một lần nữa hệ thống lại <b>kiến thức Java cơ bản</b> này. Từ đó giúp bạn ghi nhớ bài học lâu hơn.
  
 
 <br>
@@ -38,7 +38,7 @@ interface Animal {
 }
 {% endhighlight %}
 
-- Để sử dụng được interface thì cúng ta sử dụng từ khoá implements
+- Để sử dụng được interface thì chúng ta sử dụng từ khoá implements
 
 {% highlight java linenos %}
 // Interface
