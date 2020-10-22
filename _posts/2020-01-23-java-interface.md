@@ -27,7 +27,7 @@ Bài viết dưới đây sẽ giúp bạn hiểu được Interface là gì? C�
 
 - Interface chính là 100% abstract class có nghĩa là trong abstract class ta có 10 phương thức như ta chỉ cần 5 phương thức abstract cũng được. 5 phương thức còn lại là các phương thức bình thường. Tuy nhiên nếu Abstract Class có 10 phương thức abstract thì lớp con phải Override lại 10 phương thức. Cũng tương tự như vậy tất cả các phương thức trong interface nếu có lớp con kế thừa nó thì bắt buộc lớp con phải Override lại 10 phương thức giống như abstract class vậy.
 
-- Chúng ta sử dụng từ khoá interface để khai báo một Interface trong java.
+- Chúng ta sử dụng từ khoá interface để khai báo một Interface trong <b>lập trình Java</b>.
 
 
 {% highlight java linenos %}
@@ -103,7 +103,7 @@ class MyMainClass {
 
 
 <br>
-## **2. Demo tạo interface trong Java**  
+## **2. Demo tạo interface trong lập trình Java**  
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId2 %}
