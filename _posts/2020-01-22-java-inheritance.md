@@ -1,31 +1,30 @@
 ---
 layout: course-java
-title: Tính kế thừa trong lập trình hướng đối tượng
-slug : tinh-ke-thua-trong-lap-trinh-huong-doi-tuong
+title: Tính kế thừa trong lập trình hướng đối tượng Java
+slug : tinh-ke-thua-trong-lap-trinh-huong-doi-tuong-java
 category: laptrinhjava
 tags: [java core]
 summery: Tính kế thừa 
 tuong: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
-description : Hiểu về tính kế thừa trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về kế thừa hìnhtrong lập trình hướng đối tượng. Lợi ích của việc sử dụng lập tính đa hình.
+description : Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của lập trình hướng đối tượng Java, trong bài viết này trình bày về tính kế thừa, inheritance trong lập trình. Hướng dẫn thông qua các ví vụ minh hoạ và video demo để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình lập trình Java. Và mục đích, lợi ích của việc sử dụng tính kế thừa trong lập trình Java.
 youtubeId: MGWT_Y9Oi8I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn, nếu bạn là người mới tìm hiểu về <b>lập trình</b>, hẳn bạn đã từng nghe tới khái niệm về <b>kế thừa</b>. Nếu bạn đang không hiểu
-thì bài viết sau đây sẽ giúp bạn hiểu rõ về <b>kế thừa</b> hơn các khái niệm thông qua các ví dụ thực tế. Nội dung đề cập trong bài này là
+Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của <b>lập trình hướng đối tượng Java</b> bao gồm tính đa hình, tính đóng gói, tính trừu tượng, tính kế thừa. Trong bài viết này trình bày về <b>tính kế thừa, inheritance</b> trong lập trình. Hướng dẫn thông qua các ví vụ minh hoạ và video demo để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình lập trình Java. Và mục đích, lợi ích của việc sử dụng <b>tính kế thừa trong lập trình Java</b>.
 
 
 <br>
-# **1. Tính kế thừa là gì**
+## **1. Tính kế thừa trong lập trình hướng đối tượng Java là gì**
 
-Tính kế thừa các em hiểu nôm na giống như ngoài đời vậy. Anh lấy ví dụ như mình kế thừa ADN của cha và mẹ mình thì mình sẽ có hết tất cả các gen tốt của cha và mẹ. Trong lập trình Java khi nói đến kế thừa thì mình cũng nói khái niệm lớp cha và lớp con. Lớp con sẽ dùng từ khoá extends để mô tả nó sẽ kế thừa lớp cha. Trong lập trình khi lớp cho có 10 thuộc tính nếu lớp con kế thừa lớp cha thì mặc định lớp con có 10 thuộc tính như cha.
+<b>Tính kế thừa</b> các em hiểu nôm na giống như ngoài đời vậy. Anh lấy ví dụ như mình kế thừa ADN của cha và mẹ mình thì mình sẽ có hết tất cả các gen tốt của cha và mẹ. Trong lập trình Java khi nói đến kế thừa thì mình cũng nói khái niệm lớp cha và lớp con. Lớp con sẽ dùng từ khoá extends để mô tả nó sẽ kế thừa lớp cha. Trong lập trình khi lớp cho có 10 thuộc tính nếu lớp con kế thừa lớp cha thì mặc định lớp con có 10 thuộc tính như cha.
 Anh ví dụ như mình có lớp cha là lớp Vehical (Xe cộ), trong lớp cha này mình định nghĩa các thuộc tính như color, model và phương thức run. Giả sử như anh có 1 lớp con là Bicycle hoặc Car kế thừa lớp Vihical thông qua từ khoá extends thì lúc này lớp Bicycle và Car mặc định có thuộc tính là color, model và phương thức run.
 
-Sử dụng kế thức giúp mình tiết kiệm dòng code. Như vậy ở class Bicycle hay Car anh không phải khai báo lại biến color, model nữa.
+Sử dụng kế thừa giúp mình tiết kiệm dòng code. Như vậy ở class Bicycle hay Car anh không phải khai báo lại biến color, model nữa.
 
 
 {% highlight java linenos %}
@@ -63,7 +62,7 @@ class Car extends Vehicle {
 {% endhighlight %}
 
 <br>
-# **2. Không cho lớp con kế thừa**
+## **2. Không cho lớp con kế thừa**
 
 Trong trường hợp mình có lớp cha nhưng không muốn cho lớp con kế thừa thì mình dùng từ khoá final.
 
@@ -91,7 +90,7 @@ class Bicycle extends Vehicle {
 
 Như vậy khi chạy chương trình thì nó sẽ báo lỗi ở lớp Bicycle vì kế thừa lớp Vehicle. Chương trình sẽ thôgn báo cho chúng ta là lớp Bicycle không thể kế thừa lớp Vehicle được 
 
-# **3. Demo Kế thừa**
+## **3. Demo Kế thừa**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
