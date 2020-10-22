@@ -15,10 +15,10 @@ youtubeId: MGWT_Y9Oi8I
 
 ## **Giới thiệu nội dung bài viết**
 
-Như các ngôn ngữ lập trình hướng đối tượng khác, ngôn ngữ lập trình Java cũng có 4 đặc tính bao gồm tính đa hình, đóng gói, trừu tượng và kế thừa. Tiếp nối bài chia sẻ trước về tính đa hình, trong bài viết hôm nay anh sẽ chia sẻ về tính đóng gói trong lập trình hướng đối tượng Java. Bài viết giúp các bạn hiểu được tính đóng gói là gì? Tại sao chúng ta nên sử dụng tính đóng gói khi viết các chương trình lập trình Java? Những lợi ích mà nó mang lại nếu sử dụng?.
+Như các ngôn ngữ lập trình hướng đối tượng khác, ngôn ngữ <b>lập trình Java</b> cũng có 4 đặc tính bao gồm tính đa hình, đóng gói, trừu tượng và kế thừa. Tiếp nối bài chia sẻ trước về tính đa hình, trong bài viết hôm nay anh sẽ chia sẻ về <b>tính đóng gói trong lập trình hướng đối tượng Java</b>. Bài viết giúp các bạn hiểu được tính đóng gói là gì? Tại sao chúng ta nên sử dụng tính đóng gói khi viết các chương trình <b>lập trình Java</b>? Những lợi ích mà nó mang lại nếu sử dụng?.
 
 <br>
-## **1. Tính đóng gói là gì**
+## **1. Tính đóng gói trong lập trình hướng đối tượng Java là gì**
 
 Tính đóng gói đảm bảo rằng dữ liệu nhạy cảm và quan trọng sẽ bị ẩn đi từ người dung. Để làm được tính đóng gói ẩn dữ liệu quan trọng thì ta sử dụng từ khoá private cho các thuộc tính và cung cấp phương thức get và set cho các đối tượng khác muốn cập nhật giá trị hoặc lấy giá trị.
 
