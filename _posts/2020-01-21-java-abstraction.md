@@ -1,25 +1,25 @@
 ---
 layout: course-java
-title: Tính trừu tượng trong lập trình hướng đối tượng
-slug : tinh-truu-tuong-trong-lap-trinh-huong-doi-tuong
+title: Tính trừu tượng trong lập trình hướng đối tượng Java
+slug : tinh-truu-tuong-trong-lap-trinh-huong-doi-tuong-java
 category: laptrinhjava
 tags: [java core]
 summery: Tính trừu tượng
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
-description : Hiểu về tính trừu tượng trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về tính trừu tượng  trong lập trình hướng đối tượng. Lợi ích của việc sử dụng lập tính đa hình.
+description : Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của lập trình hướng đối tượng Java, trong bài viết này trình bày về tính trừu tượng trong lập trình, hướng dẫn thông qua các ví vụ minh hoạ để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình lập trình Java. Và mục đích, lợi ích của việc sử dụng tính trừu tượng trong lập trình Java.
 youtubeId: MGWT_Y9Oi8I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào bạn, nếu bạn là người mới tìm hiểu về <b>lập trình</b>, hẳn bạn đã từng nghe tới khái niệm về <b>tính trừu tượng</b>. Nếu bạn đang không hiểu
 thì bài viết sau đây sẽ giúp bạn hiểu rõ về <b>tính trừu tượng</b> hơn các khái niệm thông qua các ví dụ thực tế. Nội dung đề cập trong bài này là
 
 <br>
-# **1.  Tính trừu tượng là gì**
+## **1.  Tính trừu tượng là gì**
 
 Tính trừu tượng là cách mình dấu đi các chi tiết quan trọng và chỉ hiển thị những thông tin cần thiết. Anh lấy ví phát triển một ứng dụng web trong đó có chức năng login với Facebook. Thì lúc này Facebook sẽ được cho mình một đường link kèm với 1 đoạn code của facebook và yêu cầu mình bỏ vào trong trang web của mình thì lúc đó mình mới có chức năng login được. Như vậy trừu tượng ở chỗ mình không thấy cái code thực sự facebook viết như thế nào mà mình có thể gọi được login của facebook. Như vậy Facebook đã giấu đi các đoạn code xử lý quan trọng . Facebook chỉ cần mình cho tham số đầu vào sau đó Facebook tự xử lý trong hệ thống của nó và trả kết quả lại cho mình. Facebook chỉ hiển thị những thông tin cần thiết đó chính là cái code mà Facebook bắt mình nhập vào trang web của mình. Nếu mình nhập đúng như Facebook yêu cầu thì mình sẽ tích hợp được khả năng login của nó. Như vậy tính trừu tượng ở đây là mình không biết cái code bên trong facebook như thế nào nhưng mình biết một điều là khi mình cung cấp đủ thông tin thì mình sẽ nhận lại kết quả từ facebook.
 
@@ -57,7 +57,7 @@ class MyMainClass {
 
 <br>
 
-Như vậy ta thấy lớp Animal có phương thức abstract là animalSound. Người sử dụng chỉ biết có phương thức đó thôi còn  nội dung code bên trong cài đặt như thế nào thì không biết. Các em có thể tưởng tượng trong ví dụ Facebook ở trên của anh. cái hàm  abstract void animalSound() tương ứng với việc là Facebook cho mình cái link và mình nhúng vào, còn nội dung bên trong thì mình không biết. Như vậy phương thức animalSound() ở lớp Animal giúp che giấu đi những code quan trọng và chỉ để lớp con của nó cài đặt những code thực thi. Người dùng chỉ biết gọi hàm animalSound và nhận kết quả.
+Như vậy ta thấy lớp Animal có phương thức abstract là animalSound. Người sử dụng chỉ biết có phương thức đó thôi còn nội dung code bên trong cài đặt như thế nào thì không biết. Các em có thể tưởng tượng trong ví dụ Facebook ở trên của anh. cái hàm  abstract void animalSound() tương ứng với việc là Facebook cho mình cái link và mình nhúng vào, còn nội dung bên trong thì mình không biết. Như vậy phương thức animalSound() ở lớp Animal giúp che giấu đi những code quan trọng và chỉ để lớp con của nó cài đặt những code thực thi. Người dùng chỉ biết gọi hàm animalSound và nhận kết quả.
 
 
 
