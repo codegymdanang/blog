@@ -7,7 +7,7 @@ tags: [java core]
 summery: Tính đa hình  
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
-description :Thông qua những chia sẻ lí thuyết kèm theo ví dụ minh hoạ, bài viết giúp bạn hiểu được tính đa hình trong lập trình Java là gì. Áp dụng được tính đa hình vào quá trình viết các chương trình lập trình hướng đối tượng Java. Từ đó nhận ra được những lợi ích của tính đa hình mang lại trong lập trình Java. 
+description :Thông qua những chia sẻ lí thuyết kèm theo ví dụ minh hoạ, bài viết giúp bạn hiểu được tính Đa hình, Polymorphism trong lập trình Java là gì. Áp dụng được tính Đa hình vào quá trình viết các chương trình lập trình hướng đối tượng Java. Từ đó nhận ra được những lợi ích và sự quan trọng của tính chất đa hình mang lại trong lập trình Java. 
 youtubeId: MGWT_Y9Oi8I
 ---
 
