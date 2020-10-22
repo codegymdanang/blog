@@ -4,10 +4,10 @@ title: Tính đa hình trong lập trình hướng đối tượng Java
 slug : tinh-da-hinh-trong-lap-trinh-huong-doi-tuong-java
 category: laptrinhjava
 tags: [java core]
-summery: Tính đa hình
+summery: Tính đa hình  
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
-description :Thông qua những chia sẻ lí thuyết kèm theo ví dụ minh hoạ, bài viết giúp bạn hiểu được tính Đa hình, Polymorphism trong lập trình Java là gì. Áp dụng được tính Đa hình vào quá trình viết các chương trình lập trình hướng đối tượng Java. Từ đó nhận ra được những lợi ích và sự quan trọng của tính chất đa hình mang lại trong lập trình Java.
+description : Hiểu về tính đa hình trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về tính đa hìnhtrong lập trình hướng đối tượng. Lợi ích của việc sử dụng lập tính đa hình.
 youtubeId: MGWT_Y9Oi8I
 ---
 
