@@ -16,7 +16,8 @@ youtubeId2 : kfQ7O7Fky8U
 
 ## **Giới thiệu nội dung bài viết**
 
-Một trong những tính chất của lập trình hướng đối tượng Java là tính trừu tượng. Để thực hiện được tính trừu tượng này, trong <b>lập trình Java</b> sử dụng từ khoá <b>Abstract</b> và Interface. Trong đó, anh đã có bài chia sẻ về Interface, các bạn có thể tìm đọc lại bài viết tại đây. 
+Một trong những tính chất của lập trình hướng đối tượng Java là tính trừu tượng. Để thực hiện được tính trừu tượng này, trong <b>lập trình Java</b> sử dụng từ khoá <b>Abstract</b> và Interface. Trong đó, anh đã có bài chia sẻ về Interface, các bạn có thể tìm đọc lại bài viết tại đây.
+
 Trong bài viết hôm nay, anh sẽ chia sẻ về <b>Abstract</b>. Cụ thể Abstract là gì? Tại sao nên dùng Abstract trong lập trình Java? Nó được áp dụng cho Class và Method như thế nào trong lập trình Java? Hay cách để tạo <b>Abstract trong ngôn ngữ lập trình Java</b>. Ngoài ra, ở cuối bài viết có video tổng kết lại toàn bộ bài học giúp các bạn hệ thống lại kiến thức một lần nữa để giúp ghi nhớ bài học lâu hơn.
  
 
