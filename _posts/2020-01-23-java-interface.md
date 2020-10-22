@@ -1,26 +1,27 @@
 ---
 layout: course-java
-title: Sử dụng Interface trong Java
-slug : su-dung-interface-trong-java
+title: Sử dụng Interface trong lập trình Java
+slug : su-dung-interface-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Interface
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_interfaces_vs_abstract.png
-description : Chúng ta tìm hiểu Interface là gì? Khi nào dùng abstract, khi nào dùng Interface trong quá trình lập trình java.
+description : Sau khi đọc bài chia sẻ, bạn sẽ hiểu được Interface trong lĩnh vực lập trình Java là gì? Các tính chất, thuộc tính, thành phần, phương thức của nó trong lập trình Java như thế nào? Biết khi nào cần áp dụng Interface trong quá trình lập trình Java. Bài chia sẻ bao gồm các ví dụ minh hoạ và video bài học kèm theo cuối bài.
 youtubeId1 : hxTH18XG4qs
 youtubeId2 : kfQ7O7Fky8U
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn, nếu bạn là người mới tìm hiểu về lập trình, hẳn bạn đã từng nghe tới khái niệm về <b>Interface</b> trong lập trình.
-Nhưng bạn có biết khi nào mình sẽ dùng interface không? 
+Bạn đã từng nghe đề cập về khái niệm Interface trong lập trình hướng đối tượng Java. Nhưng bạn đã thực sự biết khi nào thì nên dùng Interface trong quá trình lập trình Java chưa? 
+Bài viết dưới đây sẽ giúp bạn hiểu được Interface là gì? Các tính chất, thuộc tính, phương thức của Interface. Cũng như biết khi nào thì nên áp dụng Interface vào trong quá trình code các chương trình lập trình Java. Bài chia sẻ sẽ hướng dẫn bạn cách thao tác với Interface thông qua các ví dụ minh hoạ. Kèm theo video tổng kết bài học ở cuối bài sẽ giúp bạn một lần nữa hệ thống lại kiến thức. Từ đó giúp bạn ghi nhớ bài học lâu hơn.
+ 
 
 <br>
-# **1. Interface là gì**
+## **1. Interface trong lập trình Java là gì**
 
 - Như các em đã học bài học hôm trước về tính trừu tượng, nếu các em quên thì có thể xem lại tại [đây] (https://levunguyen.com/laptrinhjava/2020/01/01/tinh-truu-tuong/). Thì Interface chính là cách mà chúng ta làm tính trừu tượng trong lập trình. Ngoài cách dùng abstract class thì để thực hiện được tính trừu tượng ta có thể sử dụng Interface.
 
@@ -102,7 +103,7 @@ class MyMainClass {
 
 
 <br>
-# **7. Demo tạo interface trong Java**  
+## **2. Demo tạo interface trong Java**  
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId2 %}
