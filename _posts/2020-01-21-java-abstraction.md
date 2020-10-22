@@ -15,7 +15,7 @@ youtubeId: MGWT_Y9Oi8I
 
 ## **Giới thiệu nội dung bài viết**
 
-Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của <b>lập trình hướng đối tượng Java</b>, trong bài viết này trình bày về tính trừu tượng trong lập trình, hướng dẫn thông qua các ví vụ minh hoạ để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình <b>ngôn ngữ lập trình Java</b>. Và mục đích, lợi ích của việc sử dụng <b>tính trừu tượng trong lập trình Java</b>.
+Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của <b>lập trình hướng đối tượng Java</b>, bao gồm tính đa hình, tính đóng gói, tính trừu tượng, và tính kế thừa. Trong bài viết này sẽ trình bày về tính trừu tượng trong lập trình, hướng dẫn thông qua các ví vụ minh hoạ để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình <b>ngôn ngữ lập trình Java</b>. Và mục đích, lợi ích của việc sử dụng <b>tính trừu tượng trong lập trình Java</b>.
 
 <br>
 ## **1.  Tính trừu tượng trong lập trình hướng đối tượng Java là gì**
