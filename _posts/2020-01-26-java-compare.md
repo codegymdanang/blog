@@ -1,19 +1,19 @@
 ---
 layout: course-java
-title: So sánh Comparable và Comparator trong Java
-slug : so-sanh-comparable-va-comparator-trong-java
+title: So sánh Comparable và Comparator trong lập trình Java
+slug : so-sanh-comparable-va-comparator-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Comparable và Comparator  
 image: /images/blog/java.png
 
-description : Hiểu về lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về tính đa hình, tính trừu tượng, tính kế thừa, và tính đóng gói trong lập trình hướng đối tượng. Lợi ích của việc sử dụng lập trình hướng đối tượng trong lập trình.
+description : Bài viết giúp hiểu được Comparable và Comparator là gì? Tính chất, cách sử dụng của mỗi Interface này như thế nào? Và sự khác nhau giữa hai giao diện này trong lập trình Java là gì? Khi nào nên dùng Comparable, khi nào dùng Comparator trong lập trình hướng đối tượng Java? Bài viết với video hướng dẫn bài học dưới đây sẽ lần lượt giải đáp những điều các bạn còn thắc mắc về kiến thức Java nâng cao này.
 youtubeId: 1Ej9GJdhE98
 ---
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em. Hôm nay chủ đề của chúng ta sẽ về Comparable và Comparator trong lập trình java
+Đối với những ai từng làm việc về <b>lập trình Java</b>, đều nghe đề cập tới 2 thuật ngữ <b>Comparable</b> và <b>Comparator</b> trong Interface. Cụ thể, Comparable và Comparator là gì? Tính chất, cách sử dụng của mỗi Interface này như thế nào? Và sự khác nhau giữa hai giao diện này là gì? Khi nào nên dùng Comparable, khi nào dùng Comparator trong <b>lập trình Java</b>? Bài viết với video hướng dẫn bài học dưới đây sẽ lần lượt giải đáp những điều các bạn còn thắc mắc về kiến thức Java nâng cao này.
 
 
 {:refdef: style="text-align: center;"}
