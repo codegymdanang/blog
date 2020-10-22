@@ -7,7 +7,7 @@ tags: [java core]
 summery: Tính đóng gói  
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
-description : Hiểu về tính đóng gói trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về tính đóng gói trong lập trình hướng đối tượng. Lợi ích của việc sử dụng tính đóng gói.
+description : Bài viết với những chia sẻ kèm theo các ví dụ minh hoạ. Giúp bạn hiểu về tính đóng gói trong lập trình hướng đối tượng trong lập trình Java? Giải thích các khái niệm về tính đóng gói trong lập trình hướng đối tượng Java. Lợi ích của việc sử dụng tính đóng gói khi viết các chương trình lập trình Java.
 youtubeId: MGWT_Y9Oi8I
 ---
 
