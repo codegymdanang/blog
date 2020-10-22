@@ -1,6 +1,6 @@
 ---
 layout: course-java
-title: Khai báo biến trong lập trình java
+title: Khai báo biến trong lập trình Java
 slug : khai-bao-bien-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
