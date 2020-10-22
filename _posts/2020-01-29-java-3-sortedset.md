@@ -7,19 +7,19 @@ tags: [java core]
 summery: SortedSet
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
-description : Hướng dẫn sử dụng SortedSet trong lập trình java ? Các phương thức có trong SortedSet và cách sử dụng Set
+description : Trong bài này, anh sẽ trình bày về SortedSet trong lập trình Java. Trước hết cần tìm hiểu SortedSet, tập hợp SortedSet là gì? Các phương thức có trong SortedSet. Hướng dẫn cách thêm và xoá một phần tử khỏi SortedSet. Hay cách làm như thế nào đế lấy phần tử đầu tiên hay cuối cùng trong SortedSet. Áp dụng được từ những chia sẻ trong bài viết để giải quyết các vấn đề khác bao gồm duyệt, sắp xếp các phần tử SortedSet. Cũng như cách để lấy các phần tử đầu và sau của SortedSet trong lập trình hướng đối tượng Java.
 youtubeId: SkajVxpYq7k
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chủ đề của chúng ta về <b>SortedSet</b> trong lập trình java. Khi nào thì mình sẽ sử dụng nó nhé.
+Trong bài này, anh sẽ trình bày về <b>SortedSet trong lập trình Java</b>. Trước hết cần tìm hiểu SortedSet, tập hợp SortedSet là gì? Các phương thức có trong SortedSet. Hướng dẫn cách thêm và xoá một phần tử khỏi SortedSet. Hay cách làm như thế nào đế lấy phần tử đầu tiên hay cuối cùng trong SortedSet. Áp dụng được từ những chia sẻ trong bài viết để giải quyết các vấn đề khác bao gồm duyệt, sắp xếp các phần tử SortedSet. Cũng như cách để lấy các phần tử đầu và sau của SortedSet trong <b>lập trình hướng đối tượng Java</b>.
 
-## **1. SortedSet là gì**
+## **1. SortedSet trong lập trình Java là gì**
 
-SortedSet là một interface con của Set nó có đủ các chức năng mà Set có như giới thiệu ở bài trước. Ngoài ra có một cái đặt biệt đó là tất cả phần tử trong SortedSet là đều được sắp xếp theo một thứ tự, một trật tự nhất định là sắp xếp tăng dần hay giảm dần. 
+<b>SortedSet</b> là một interface con của Set nó có đủ các chức năng mà Set có như giới thiệu ở bài trước. Ngoài ra có một cái đặt biệt đó là tất cả phần tử trong SortedSet là đều được sắp xếp theo một thứ tự, một trật tự nhất định là sắp xếp tăng dần hay giảm dần. 
 
 ## **2. Tập hợp SortedSet**
 
