@@ -7,7 +7,7 @@ tags: [java core]
 summery: Abstract
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_interfaces_vs_abstract.png
-description : Chúng ta tìm hiểu Abstract là gì? Khi nào dùng abstract, khi nào dùng Abstract trong quá trình lập trình java.
+description : Bài viết chia sẻ về Abstract trong lập trình hướng đối tượng Java. Giúp hiểu được thuật ngữ Abstract trong ngôn ngữ Java là gì? Tại sao nên dùng Abstract trong lập trình? Nó được áp dụng cho Class và Method như thế nào trong lập trình Java? Hay cách làm để tạo Abstract trong lập trình Java. Đồng thời hướng dẫn cách thao tác với Abstract thông qua các ví dụ minh hoạ. Kèm theo video tổng kết lại toàn bộ bài học ở cuối bài giúp hệ thống lại kiến thức một lần nữa.
 youtubeId1 : hxTH18XG4qs
 youtubeId2 : kfQ7O7Fky8U
 ---
@@ -17,7 +17,7 @@ youtubeId2 : kfQ7O7Fky8U
 ## **Giới thiệu nội dung bài viết**
 
 Một trong những tính chất của lập trình hướng đối tượng Java là tính trừu tượng. Để thực hiện được tính trừu tượng này, trong <b>lập trình Java</b> sử dụng từ khoá <b>Abstract</b> và Interface. Trong đó, anh đã có bài chia sẻ về Interface, các bạn có thể tìm đọc lại bài viết tại đây. 
-Trong bài viết hôm nay, anh sẽ chia sẻ về <b>Abstract</b>. Cụ thể Abstract là gì? Tại sao nên dùng Abstract trong lập trình Java? Nó được áp dụng cho Class và Method như thế nào trong lập trình Java? Hay cách để tạo <b>Abstract trong ngôn ngữ lập trình Java</b>. 
+Trong bài viết hôm nay, anh sẽ chia sẻ về <b>Abstract</b>. Cụ thể Abstract là gì? Tại sao nên dùng Abstract trong lập trình Java? Nó được áp dụng cho Class và Method như thế nào trong lập trình Java? Hay cách để tạo <b>Abstract trong ngôn ngữ lập trình Java</b>. Ngoài ra, ở cuối bài viết có video tổng kết lại toàn bộ bài học giúp các bạn hệ thống lại kiến thức một lần nữa để giúp ghi nhớ bài học lâu hơn.
  
 
 <br>
