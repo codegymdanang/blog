@@ -1,7 +1,7 @@
 ---
 layout: course-java
-title: Tính đóng gói trong lập trình hướng đối tượng
-slug : tinh-dong-goi-trong-lap-trinh-huong-doi-tuong
+title: Tính đóng gói trong lập trình hướng đối tượng Java
+slug : tinh-dong-goi-trong-lap-trinh-huong-doi-tuong-Java
 category: laptrinhjava
 tags: [java core]
 summery: Tính đóng gói  
@@ -13,13 +13,12 @@ youtubeId: MGWT_Y9Oi8I
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn, nếu bạn là người mới tìm hiểu về <b>lập trình</b>, hẳn bạn đã từng nghe tới khái niệm về <b>tính đóng gói</b>. Nếu bạn đang không hiểu
-thì bài viết sau đây sẽ giúp bạn hiểu rõ về <b>tính đóng gói</b> hơn các khái niệm thông qua các ví dụ thực tế. Nội dung đề cập trong bài này là
+Như các ngôn ngữ lập trình hướng đối tượng khác, ngôn ngữ lập trình Java cũng có 4 đặc tính bao gồm tính đa hình, đóng gói, trừu tượng và kế thừa. Tiếp nối bài chia sẻ trước về tính đa hình, trong bài viết hôm nay anh sẽ chia sẻ về tính đóng gói trong lập trình hướng đối tượng Java. Bài viết giúp các bạn hiểu được tính đóng gói là gì? Tại sao chúng ta nên sử dụng tính đóng gói khi viết các chương trình lập trình Java? Những lợi ích mà nó mang lại nếu sử dụng?.
 
 <br>
-# **1. Tính đóng gói là gì**
+## **1. Tính đóng gói là gì**
 
 Tính đóng gói đảm bảo rằng dữ liệu nhạy cảm và quan trọng sẽ bị ẩn đi từ người dung. Để làm được tính đóng gói ẩn dữ liệu quan trọng thì ta sử dụng từ khoá private cho các thuộc tính và cung cấp phương thức get và set cho các đối tượng khác muốn cập nhật giá trị hoặc lấy giá trị.
 
@@ -57,7 +56,7 @@ public class MyClass {
 
 {% endhighlight %}
 
-# **2. Tại sao chúng ta sử dụng tính đóng gói**
+## **2. Tại sao chúng ta sử dụng tính đóng gói**
 
 - Chúng ta sẽ kiểm soát được các thuộc tính và phương thức có trong đối tượng
 - Các thông tin nhạy cảm và quan trọng chỉ được phép đọc 
