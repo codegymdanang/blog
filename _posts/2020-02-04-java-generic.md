@@ -13,14 +13,14 @@ youtubeId: pXSdvkKK658
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào bạn, bạn đã từng nghe tới khái niệm về <b>Generic</b> chưa ? Nếu bạn nghe rồi nhưng vẫn không hình dung được
 Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạo một <b>Generic Class</b> và <b>Generic method</b> như thế nào ? Và ưu điểm và nhược
 điểm của Generic thì bài hôm nay anh sẽ giúp mọi người nắm rõ các câu hỏi ở trên.
 
 <br>
-# **1. Generic là gì**
+## **1. Generic là gì**
 
 <b>Generic</b> có nghĩa là ta viết các phương thức và lớp để tái sử dụng cho các đối tượng thuộc các kiểu dữ liệu khác nhau (Kiểu dữ liệu như Person , Car , Student, Hotel vv).Nghe có vẻ khó hiểu nên anh sẽ trình bày ví dụ sau đây.
 
@@ -45,9 +45,9 @@ là 2 <b>kiểu dữ liệu</b> khác nhau. Do vậy tuỳ vào ngữ cảnh ta 
 Nói cách khác Generic thì ta định nghĩa một kiểu dữ liệu chung chung , và tuỳ vào ngữ cảnh ta truyền vào (Student hay Teacher) thì ta sẽ có tập hợp tương ứng.
 
 <br>
-# **2. Cách tạo Generic Class và Generic method**
+## **2. Cách tạo Generic Class và Generic method**
 
-1. **Cách tạo Generic Class**
+### 1. **Cách tạo Generic Class**
 
 Ví dụ ta tạo <b>Generic Class</b> tên là  Box. Mọi người chú ý để tạo 1 class là generic ta thêm \< T \> vào sau class. \<T\> là ký hiệu của Generic , ta sẽ tìm hiểu ở phần tiếp theo.
 
@@ -83,7 +83,7 @@ Như vậy ví dụ trên ta tạo một class Box là generic có 2 phương th
 chứa kiểu dữ liệu là String (Box\<String\>) . Dù kiểu dữ liệu Integer hay String ta đều sử dụng được phương thức get và set đã được định nghỉa trong lớp Generic Box. Như vậy mình thấy
 sử dụng Generic mình đỡ phải viết code nhiều. Mình có thể tái sử dụng code cho các đối tượng khác nhau.
 
-2. **Cách tạo Generic method**
+### 2. **Cách tạo Generic method**
 
 Ví dụ ta viết một phương thức in tất cả các phần tử là <b>Generic</b>. Mọi người chú ý tham số truyền vào trong phương thức là chữ \<E\> đó là tham khi ta muốn viết một hàm generic.
 Tuỳ vào tham số truyền vào là <b>kiểu dữ liệu</b> gì . Ta cũng in được các phần tử con trong tập hợp đó
@@ -134,7 +134,7 @@ Nếu ta truyền  đối số là Integer thì sẽ nhận được kết quả
 cả các đối số là những kiểu dữ liệu khác nhau.
 
 <br>
-# **3. Các ký tự trong Generic**
+## **3. Các ký tự trong Generic**
 
 Như ta thấy ở các ví dụ trên ta dùng các ký tự đặt biệt như \<T\> hay \<E\> để đặt tên các kiểu dữ liệu và tham số. Ta có thể dùng các từ khác cũng được như X,Y,Z . Nhưng do  \<T\> hay \<E\>
 là các qui ước chung cho các lập trình viên đọc cho dể hiểu, dể bảo trì nên ta không nên đặt các từ khác gây nhầm lẫn. Chúng ta có các qui ước sau.
@@ -145,7 +145,7 @@ là các qui ước chung cho các lập trình viên đọc cho dể hiểu, d�
 + T – Type (Loại đối tượng ví dụ như con chó , gà , mèo thuộc loại động vật)
 
 <br>
-# **4. Generic với các ký tự đại diện**
+## **4. Generic với các ký tự đại diện**
 
 Trong Generic nhiều lúc chúng ta sẽ gặp các ký tự đại diên như : (?),(wildcard), nó đại diện cho một loại dữ liệu không rõ ràng.
 
@@ -165,11 +165,11 @@ Ví dụ: List<? extends Number> mô tả một danh sách, nơi mà các phần
 
 
 <br>
-# **5. Generic trong abstract và intefacer**
+## **5. Generic trong abstract và intefacer**
 
 Trong <b>lập trình</b> chúng ta thường sử dụng nhiều generic trong <b>Abstract</b> và <b>Interface</b> để code trở nên gọn hơn tái sử dụng được  nhiều lần.
 
-1. Generic trong Abstract được khai báo như sau
+### 1. Generic trong Abstract được khai báo như sau
 
 {% highlight java linenos %}
 abstract class Animal<T> {
@@ -178,7 +178,7 @@ protected abstract <T> getAnimalName();
 }
 {% endhighlight %}
 
-2. Generic trong Interface được khai báo như sau
+### 2. Generic trong Interface được khai báo như sau
 
 {% highlight java linenos %}
 public interface GenericDao<T> {
@@ -191,7 +191,7 @@ public interface GenericDao<T> {
 {% endhighlight %}
 
 <br>
-# **6. Lợi ích khi dùng generic**
+## **6. Lợi ích khi dùng generic**
 
 - <b>Kiểu dữ liệu</b> an toàn: Chúng ta chỉ có thể giữ được một loại đối tượng trong Generics. Nó không cho phép lưu trữ các loại đối tượng khác.
 - Kiểm tra dữ liệu chặt chẽ ở Compile-time mà không phải là Runtime-error. Nên chúng ta sẽ dễ dàng kiểm soát lỗi hơn.
@@ -200,14 +200,14 @@ public interface GenericDao<T> {
 
 
 <br>
-# **7. Nhược điểm**
+## **7. Nhược điểm**
 
 - Không thể gọi Generics bằng kiểu <b>dữ liệu nguyên thủy</b> (Primitive type: int, long, double, …), thay vào đó sử dụng các kiểu dữ liệu Object.
 - Không thể tạo instances của kiểu dữ liệu Generics.
 - Không thể sử dụng static cho Generics.
 
 <br>
-# Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
+Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
