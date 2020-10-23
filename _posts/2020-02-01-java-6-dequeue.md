@@ -16,7 +16,7 @@ youtubeId: 5C2OqlhiYsg
 ## **Giới thiệu nội dung bài viết**
 
 <b>Deque</b> là một trong số những Interface thuộc trong Collections trong <b>ngôn ngữ lập trình Java</b>. Nó giúp chèn, truy xuất và xoá bỏ các phần từ khỏi hai đầu. Deque đóng vai trò quan trọng trong lập trình hướng đối tượng Java. 
-Bài viết dưới đây với việc giải thích, hướng dẫn cách làm thông qua các ví dụ minh hoạ sẽ giúp bạn hiểu rõ hơn về Deque và áp dụng được vào thực hành lập trình Java. Bài viết bao gồm những chia sẻ về các khái niệm về Deque cũng như hướng dẫn cách sử dụng Deque trong lập trình Java. Trình bày cách làm thế nào để tạo Deque, thêm, peek và xoá một phần tử trong Deque, cách để kiểm tra và duyệt qua các phần tử đã có trong Deque.
+Bài viết dưới đây với việc giải thích, hướng dẫn cách làm thông qua các ví dụ minh hoạ sẽ giúp bạn hiểu rõ hơn về Deque và áp dụng được vào thực hành <b>lập trình Java</b>. Bài viết bao gồm những chia sẻ về các khái niệm về Deque cũng như hướng dẫn cách <b>sử dụng Deque trong lập trình Java</b>. Trình bày cách làm thế nào để tạo Deque, thêm, peek và xoá một phần tử trong Deque, cách để kiểm tra và duyệt qua các phần tử đã có trong Deque.
 
 ## **1. Deque trong lập trình Java là gì**
 
