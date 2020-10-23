@@ -13,7 +13,7 @@ youtubeId: SkajVxpYq7k
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong các bài trước, anh đã giới thiệu về <b>Array và ArrayList trong lập trình Java</b>. Tuy nhiên để các bạn có thể <b>phân biệt rõ ràng</b> giữa 2 khái niệm này, cũng như để biết khi nào dùng Array, khi nào dùng ArrayList. Cách làm như thế nào để chuyển đổi qua lại giữa Array và ArrayList trong quá trình code các chương trình lập trình hướng đối tượng Java. Bài chia sẻ dưới đây kèm theo video code demo sẽ giúp các bạn hiểu được sự khác nhau giữa 2 khái niệm này và áp dụng được vào thực hành <b>lập trình Java</b>. 
+Trong các bài trước, anh đã giới thiệu về <b>Array và ArrayList trong lập trình Java</b>. Tuy nhiên để các bạn có thể <b>phân biệt rõ ràng</b> giữa 2 khái niệm này, cũng như để biết khi nào dùng Array, khi nào dùng ArrayList. Cách làm như thế nào để chuyển đổi qua lại giữa Array và ArrayList trong quá trình code các chương trình lập trình hướng đối tượng Java. Bài chia sẻ dưới đây kèm theo video code demo sẽ giúp các bạn hiểu được sự khác nhau giữa hai khái niệm này và áp dụng được vào thực hành <b>lập trình Java</b>. 
 
 
 
