@@ -13,7 +13,7 @@ youtubeId: 5C2OqlhiYsg
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong phạm vi bài viết này, anh sẽ hướng dẫn các bạn về sử dụng <b>LinkedList trong lập trình Java</b>. Trước hết cần tìm hiểu trong lập trình hướng đối tượng Java, LinkedList nghĩa là gì? Trong ngôn ngữ <b>lập trình Java</b>, lớp LinkedList có các phương thức nào. Hướng dẫn cách khởi tạo một LinkedList. Hay cách làm như thế nào để truy cập và cập nhật giá trị của các phần tử LinkedList. Áp dụng được từ những chia sẻ trong bài viết để giải quyết các vấn đề khác như xoá phần tử hay tìm kiếm một phần tử LinkedList.
+Trong phạm vi bài viết này, anh sẽ hướng dẫn các bạn về sử dụng <b>LinkedList trong lập trình Java</b>. Trước hết cần tìm hiểu trong lập trình hướng đối tượng Java, <b>LinkedList</b> nghĩa là gì? Trong ngôn ngữ <b>lập trình Java</b>, lớp LinkedList có các phương thức nào. Hướng dẫn cách khởi tạo một LinkedList. Hay cách làm như thế nào để truy cập và cập nhật giá trị của các phần tử LinkedList. Áp dụng được từ những chia sẻ trong bài viết để giải quyết các vấn đề khác như xoá phần tử hay tìm kiếm một phần tử LinkedList.
 Mời các bạn cùng xem video code demo về cách sử dụng <b>LinkedList trong lập trình Java</b> dưới đây để hiểu rõ hơn nhé.
 
 
