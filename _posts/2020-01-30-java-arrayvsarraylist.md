@@ -1,22 +1,22 @@
 ---
 layout: course-java
-title: Phân biệt sự khác nhau giữa Array và ArrayList trong Java
-slug : su-khac-nhau-giua-array-arraylist-trong-java
+title: Phân biệt sự khác nhau giữa Array và ArrayList trong lập trình Java
+slug : phan-biet-su-khac-nhau-giua-array-arraylist-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Array và ArrayList
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
-description : Sử dụng các tập hợp (collection) trong lập trình java. Khái niệm collection trong học lập trình java. Sử dụng và hiểu các tập hợp như List , Vector , Set , Queue, Dequee, Map. Phân biệt khi nào dùng tập hợp nào là phù hợp trong java cơ bản.
+description : Sau khi tìm hiểu về Array và ArrayList trong lập trình Java là gì? Trong bài viết này, anh sẽ chia sẻ về sự khác nhau giữa hai khái niệm này. Cùng với video code demo hướng dẫn kèm theo dưới đây sẽ giúp các bạn phân biệt rõ ràng và biết được khi nào cần dùng Array, khi nào dùng ArrayList. Cũng như cách làm như thế nào để chuyển đổi qua lại giữa Array và ArrayList trong quá trình code các chương trình lập trình hướng đối tượng Java. 
 youtubeId: SkajVxpYq7k
 ---
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chủ đề của chúng ta về phân biệt Array và ArrayList. Khi nào thì mình sẽ sử dụng nó nhé
+Trong các bài trước, anh đã giới thiệu về <b>Array và ArrayList trong lập trình Java</b>. Tuy nhiên để các bạn có thể phân biệt rõ ràng giữa 2 khái niệm này, cũng như để biết khi nào dùng Array, khi nào dùng ArrayList. Cách làm như thế nào để chuyển đổi qua lại giữa Array và ArrayList trong quá trình code các chương trình lập trình hướng đối tượng Java. Bài chia sẻ dưới đây kèm theo video code demo sẽ giúp các bạn hiểu được sự khác nhau giữa 2 khái niệm này và áp dụng được vào thực hành <b>lập trình Java</b>. 
 
 
-### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
+
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
