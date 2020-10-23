@@ -13,11 +13,13 @@ youtubeId: 5C2OqlhiYsg
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chủ đề của chúng ta về <b>Equal và Hashcode</b> trong lập trình java. Khi nào thì mình sẽ sử dụng nó nhé.
+Trong <b>lập trình Java</b>, <b>Equal và Hashcode</b> là những phương thức quan trọng đối với tất cả các Object. 
+Vậy Equal, Hashcode là gì? Chúng quan trọng như thế nào trong lập trình Java? Mục đích sử dụng và cách để thao tác với Equal và Hashcode trong lập trình hướng đối tượng Java. Bài viết dưới đây với những ví dụ minh hoạ kèm theo trong mỗi phần sẽ giúp bạn hiểu được Equal và Hashcode cũng như biết được cách áp dụng hai phương thức này  vào trong thực hành <b>lập trình Java</b>.
 
-# **1. Equal là gì**
+
+## **1. Equal trong lập trình Java là gì**
 
 Phương thức equals được sử dụng trong hầu hết các tập hợp để kiểm tra xem phần tử đã tồn tại trong tập hợp hay chưa. Ví dụ như mình muốn kiểm tra xem giá trị 123 đã có trong tập hợp list chưa ở ví dụ sau:
 
@@ -79,7 +81,7 @@ public class Employee {
 
 Như vậy equals được sử dụng trong tập hợp để so sánh các phần tử nhằm mục đích kiểm tra phần tử có tồn tại hay chưa hoặc mình muốn xoá nó ra khỏi tập hợp.
 
-# **2. HashCode là gì**
+## **2. HashCode trong lập trình Java là gì**
 
 Ví dụ như anh có một lớp Student gồm có 2 thuộc tính là id và name như sau 
 
