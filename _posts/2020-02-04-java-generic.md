@@ -75,7 +75,7 @@ Ví dụ ta tạo <b>Generic Class</b> tên là  Box. Mọi người chú ý đ�
       }
    }
    {% endhighlight %}
-  ** Kết quả nhận được sẽ là.** <br>
+  <b>Kết quả nhận được sẽ là.</b> <br>
    Integer Value :10 <br>
    String Value :Hello World <br>
 
@@ -118,7 +118,7 @@ Tuỳ vào tham số truyền vào là <b>kiểu dữ liệu</b> gì . Ta cũng 
    }
    {% endhighlight %}
 
- **Kết quả nhận được sẽ là.** <br>
+ <b>Kết quả nhận được sẽ là.</b> <br>
 
    Array intArrayGeneric contains:
    2 4 6 8 10
