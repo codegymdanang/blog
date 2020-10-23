@@ -15,13 +15,13 @@ youtubeId: 5C2OqlhiYsg
 
 ## **Giới thiệu nội dung bài viết**
 
-Để hỗ trợ cho việc tổ chức các dữ liệu trong chương trình <b>lập trình Java</b>, bên cạnh sử dụng HashMap. Các lập trình viên Java cũng thường chọn sử dụng lớp TreeMap. 
+Để hỗ trợ cho việc tổ chức các dữ liệu trong chương trình <b>lập trình Java</b>, bên cạnh sử dụng HashMap các lập trình viên Java cũng thường chọn sử dụng lớp TreeMap. 
 Cụ thể <b>TreeMap trong lập trình Java</b> là gì? Nó hoạt động như thế nào? Các phương thức của lớp TreeMap trong lập trình Java. Các thao tác cơ bản với TreeMap như cách tạo một TreeMap, xoá một phần tử trong TreeMap. Hay cách thực hiện với SortedMap như thế nào? Hãy cùng tìm hiểu những thông tin trên qua bài viết này nhé. 
 
 
 ## **1. TreeMap trong lập trình Java là gì**
 
-Cũng giống như HashMap thì TreeMap dùng để lưu trữ các giá trị theo kiểu key và value. Tuy nhiên có một số đặt điểm mà TreeMap khác với HashMap là
+Trong <b>lập trình Java</b>, cũng giống như HashMap thì TreeMap dùng để lưu trữ các giá trị theo kiểu key và value. Tuy nhiên có một số đặt điểm mà TreeMap khác với HashMap là
 
 + HashMap có thể chứa key là null nhưng TreeMap chúng ta không thể chứa key là null được
 + Các phần tử trong HashMap thì không sắp xếp theo một trật tự còn các phần tử trong TreeMap là được sắp xếp tăng dần
