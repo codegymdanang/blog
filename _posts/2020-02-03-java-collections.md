@@ -1,31 +1,35 @@
 ---
 layout: course-java
-title: Sử dụng các tập hợp trong lập trình java
+title: Sử dụng các tập hợp trong lập trình Java
 slug : su-dung-các-tap-hop-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Tổng hợp các tập hợp
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
-description : Sử dụng các tập hợp (collection) trong lập trình java. Khái niệm collection trong học lập trình java. Sử dụng và hiểu các tập hợp như List , Vector , Set , Queue, Dequee, Map. Phân biệt khi nào dùng tập hợp nào là phù hợp trong java cơ bản.
+description : Hướng dẫn để sử dụng được các tập hợp (collection) trong lập trình Java. Bài viết trình bày, giải thích các khái niệm collection trong học lập trình Java. Cách sử dụng các tập hợp như List , Vector , Set , Queue, Deque, Map. Giúp phân biệt giữa các tập hợp và áp dụng được khi nào nên dùng tập hợp nào là phù hợp trong Java cơ bản.
 youtubeId: GXQn39fU2Kg
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ tổng hợp lại các <b>tập hợp trong bộ java collection </b> mà chúng ta hay sử dụng trong lập trình. Phân biệt sự khác nhau giữa các tập hợp và khi nào thì nên sử dụng chúng. Anh cũng sẽ nói qua phần performance (hiệu năng) cũng từng loại tập hợp giúp chúng em có thể tìm ra được tập hợp tốt nhất cho bài toán của mình.
+Chào các em, trong những bài trước anh đã giới thiệu về các tập hợp bao gồm List , Vector, Set, Queue, Deque, Map.  
 
 <br>
-# **1. Các collection trong java**
+Bài viết hôm nay anh sẽ tổng hợp lại các <b>tập hợp trong bộ Java Collection </b> mà chúng ta hay sử dụng trong <b>lập trình Java</b>. Phân biệt sự khác nhau giữa các tập hợp và giúp các em nhận biết được khi nào thì nên sử dụng chúng. Anh cũng sẽ trình bày về phần performance (hiệu năng) cũng như từng loại tập hợp giúp các em có thể tìm ra được tập hợp tốt nhất để áp dụng vào cho bài toán của mình.
+
+
+<br>
+## **1. Các collection trong lập trình java**
 
 {:refdef: style="text-align: center;"}
 ![collection](/images/post/collection/collection.png){:class="img-responsive"}
 {: refdef}
 
 <br>
-# **2. List**
+## **2. List**
 
 Là một <b>cấu trúc dữ liệu</b> có thứ tự (đôi khi còn được gọi là một chuỗi).
 <b>List có thể chứa các phần tử trùng lặp</b>. Thường có quyền kiểm soát chính xác vị trí các phần tử được chèn vào và có thể truy cập chúng bằng chỉ số (vị trí của chúng).
@@ -38,7 +42,7 @@ list.add("Collection List ");
 {% endhighlight %}
 
 <br>
-# **3. Vector**
+## **3. Vector**
 
 Là một <b>cấu trúc dữ liệu</b> có thể chứa các phần tử trùng lặp. Duy trì thứ tự của phần tử được thêm vào. Vector là synchronized.
 
@@ -49,7 +53,7 @@ Vector<String> list3 = new Vector<String>();
 {% endhighlight %}
 
 <br>
-# **4. Set**
+## **4. Set**
 
 Là một <b>cấu trúc dữ liệu</b> không thể chứa 2 giá trị trùng lặp.
 
@@ -61,7 +65,7 @@ Là một <b>cấu trúc dữ liệu</b> không thể chứa 2 giá trị trùng
 {% endhighlight %}    
 
 <br>
-# **5. Queue (hàng đợi)**
+## **5. Queue (hàng đợi)**
 
 Là một <b>cấu trúc dữ liệu</b> được sử dụng để chứa nhiều phần tử trước khi xử lý. Bên cạnh các thao tác cơ bản của collection, Là tập hợp cho phép các phần tử trùng lặp, Không cho phép phần tử null
 Queue cung cấp các thao tác bổ sung như chèn, lấy ra và kiểm tra. Queue có thể được sử dụng như là FIFO (first-in, first-out - vào trước, ra trước).
@@ -73,7 +77,7 @@ Queue cung cấp các thao tác bổ sung như chèn, lấy ra và kiểm tra. Q
 {% endhighlight %}  
 
 <br>
-# **6. Deque**
+## **6. Deque**
 
 Là một <b>cấu trúc dữ liệu</b> cung cấp các thao tác bổ sung như chèn, lấy ra và kiểm tra. <b>Deque</b> có thể được sử dụng như là FIFO (first-in, first-out - vào trước, ra trước) và LIFO (last-in, first-out - vào sau, ra trước).
 Trong một Deque, tất cả các phần tử mới có thể được chèn vào, lấy ra và lấy ra ở cả hai đầu.
@@ -88,7 +92,7 @@ Trong một Deque, tất cả các phần tử mới có thể được chèn v�
 {% endhighlight %}
 
 <br>
-# **7. Map**
+## **7. Map**
 
 Là một đối tượng ánh xạ mỗi key tương úng với một giá trị. <b>Map</b> không thể chứa giá trị trùng lặp. Mỗi key có thể ánh xạ đến nhiều nhất một giá trị.
 
@@ -103,14 +107,14 @@ Map<Integer, String> hashMap = new HashMap<>();
 {% endhighlight %}
 
 <br>
-# **8. Phân biệt Collection vs Collections**
+## **8. Phân biệt Collection vs Collections**
 
 - <b>Collections trong java</b> là kiến trúc để lưu trữ và thao tác tới nhóm các đối tượng. Tất cả các hoạt động mà bạn thực hiện trên một dữ liệu như tìm kiếm, phân loại, chèn, xóa,... có thể được thực hiện bởi Java Collections.
 
 - <b>Java Collection</b> cung cấp nhiều interface (Set, List, Queue, Deque vv) và các lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet vv).
 
 <br>
-# **9. Sự khác nhau  Array và ArrayList**
+## **9. Sự khác nhau  Array và ArrayList**
 
 1. Array
     * là fix size , cố định số lượng phần tử trong mảng
@@ -125,13 +129,13 @@ Map<Integer, String> hashMap = new HashMap<>();
     * Có nhiều phương thức để thao tác với dữ liệu.
 
 <br>
-# **10. Sự khác nhau Set và List**
+## **10. Sự khác nhau Set và List**
 
 * List các phần tử có thể trùng lặp
 * Set các phần tử không trung lặp
 
 <br>
-# **11. Sự khác nhau  ArrayList và Vector**
+## **11. Sự khác nhau ArrayList và Vector**
 
 1. ArrayList
     * ArrayList là KHÔNG synchronized
@@ -142,7 +146,7 @@ Map<Integer, String> hashMap = new HashMap<>();
     * Vector tăng kích thước của nó bằng cách nhân đôi kích thước mảng.
 
 <br>
-# **12. Sự khác nhau ArrayList và LinkedList**
+## **12. Sự khác nhau ArrayList và LinkedList**
 
 1. ArrayList
     * ArrayList sử dụng một mảng động
@@ -153,22 +157,22 @@ Map<Integer, String> hashMap = new HashMap<>();
     * LinkedList nhanh hơn trong việc thao tác dữ liệu
 
 <br>
-# **13. Sự khác nhau HashSet và TreeSet**
+## **13. Sự khác nhau HashSet và TreeSet**
 
 HashSet không duy trì thứ tự nào, trong khi TreeSet duy trì thứ tự tăng dần
 
 <br>
-# **14. Sự khác biệt giữa HashSet và HashMap**
+## **14. Sự khác biệt giữa HashSet và HashMap**
   * HashSet với cấu trúc chứa đựng chỉ là các giá trị.
   * HashMap cấu trúc chứa đựng là key và value
 
 
 <br>
-# **15. Sự khác biệt giữa HashMap và TreeMap**
+## **15. Sự khác biệt giữa HashMap và TreeMap**
 HashMap duy trì không có thứ tự, trong khi TreeMap duy trì thứ tự tăng dần.
 
 <br>
-# **16. Sự khác biệt giữa Sự khác nhau giữa HashMap và Hashtable**
+## **16. Sự khác biệt giữa Sự khác nhau giữa HashMap và Hashtable**
 
 1. HashMap
     * HashMap là KHÔNG synchronized
@@ -179,12 +183,12 @@ HashMap duy trì không có thứ tự, trong khi TreeMap duy trì thứ tự t�
     * Hashtable cấu trúc không chứa bất kỳ key null hoặc giá trị null.
 
 <br>
-# **17. Sự khác nhau Set và Map**
+## **17. Sự khác nhau Set và Map**
 
 Set chỉ chứa giá trị, trong khi Map chứa cặp key và value.
 
 <br>
-### Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
+Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
