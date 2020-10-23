@@ -15,10 +15,10 @@ youtubeId: GXQn39fU2Kg
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, trong những bài trước anh đã giới thiệu về các tập hợp bao gồm List , Vector, Set, Queue, Deque, Map.  
+Chào các em, trong những bài trước anh đã giới thiệu về các tập hợp trong lập trình Java bao gồm List , Vector, Set, Queue, Deque, Map.  
 
 <br>
-Bài viết hôm nay anh sẽ tổng hợp lại các <b>tập hợp trong bộ Java Collection </b> mà chúng ta hay sử dụng trong <b>lập trình Java</b>. Phân biệt sự khác nhau giữa các tập hợp và giúp các em nhận biết được khi nào thì nên sử dụng chúng. Anh cũng sẽ trình bày về phần performance (hiệu năng) cũng như từng loại tập hợp giúp các em có thể tìm ra được tập hợp tốt nhất để áp dụng vào cho bài toán của mình.
+Bài viết hôm nay anh sẽ tổng hợp lại các <b>tập hợp trong bộ Java Collection </b> mà chúng ta hay sử dụng trong <b>lập trình Java</b>. Phân biệt sự khác nhau giữa các tập hợp và giúp các em nhận biết được khi nào thì nên sử dụng chúng. Anh cũng sẽ trình bày về phần performance (hiệu năng) cũng như từng loại tập hợp giúp các em có thể tìm ra được tập hợp tốt nhất để áp dụng vào cho bài toán của mình trong quá trình code các chương trình lập trình hướng đối tượng Java.
 
 
 <br>
