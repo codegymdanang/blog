@@ -15,7 +15,7 @@ youtubeId: GXQn39fU2Kg
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ giới thiệu với các em về cách sử dụng các phương thức được xây dựng sẵn trong <b>Collections</b>. Nhằm phục vụ trong quá trình làm việc với các tập hợp trong <b>lập trình Java</b>. Trong bài phạm vi bài viết này, anh sẽ giới thiệu những phương thức được sử dụng phổ biến nhất hiện nay trong <b>lập trình Java</b>. Bao gồm phương thức addAll, BinarySearch, Copy, Reverse, Shuffle, Sort, ReplaceAll.
+Chào các em, hôm nay anh sẽ giới thiệu với các em về cách sử dụng các phương thức được xây dựng sẵn trong <b>Collections</b>. Nhằm phục vụ trong quá trình làm việc với các tập hợp trong <b>lập trình Java</b>. Trong bài phạm vi bài viết này, anh sẽ giới thiệu những phương thức được sử dụng phổ biến nhất hiện nay trong <b>ngôn ngữ lập trình hướng đối tượng Java</b>. Bao gồm phương thức addAll, BinarySearch, Copy, Reverse, Shuffle, Sort, ReplaceAll.
 
 <br>
 ## **1. Phương thức addAll**
