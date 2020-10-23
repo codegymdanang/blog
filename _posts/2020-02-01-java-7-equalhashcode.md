@@ -16,7 +16,7 @@ youtubeId: 5C2OqlhiYsg
 ## **Giới thiệu nội dung bài viết**
 
 Trong <b>lập trình Java</b>, <b>Equal và Hashcode</b> là những phương thức quan trọng đối với tất cả các Object. 
-Vậy Equal, Hashcode là gì? Chúng quan trọng như thế nào trong lập trình Java? Mục đích sử dụng và cách để thao tác với Equal và Hashcode trong lập trình hướng đối tượng Java. Bài viết dưới đây với những ví dụ minh hoạ kèm theo trong mỗi phần sẽ giúp bạn hiểu được Equal và Hashcode cũng như biết được cách áp dụng hai phương thức này  vào trong thực hành <b>lập trình Java</b>.
+Vậy Equal, Hashcode là gì? Chúng quan trọng như thế nào trong <b>lập trình Java</b>? Mục đích sử dụng và cách để thao tác với Equal và Hashcode trong lập trình hướng đối tượng Java. Bài viết dưới đây với những ví dụ minh hoạ kèm theo trong mỗi phần sẽ giúp bạn hiểu được Equal và Hashcode cũng như biết được cách áp dụng hai phương thức này  vào trong thực hành <b>lập trình Java</b>.
 
 
 ## **1. Equal trong lập trình Java là gì**
