@@ -1,13 +1,13 @@
 ---
 layout: course-java
 title: Sử dụng Generic trong ngôn ngữ lập trình Java
-slug : su-dung-generic-trong-java
+slug : su-dung-generic-trong-ngon-ngu-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Generic
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_generic.png
-description : Khái niệm generic là gì và cách sử dụng Generic trong ngôn ngữ lập trình Java. Phương pháp tạo ra một Generic class và method. Hướng dẫn sử dụng Generic trong Abstract và Interface. Hiểu được ưu điểm và nhược điểm của generic.
+description : Nhằm giúp các bạn hiểu rõ hơn về kiến thức lập trình Java Generic, tham số hoá kiểu dữ liệu, bài chia sẻ dưới đây giải thích các khái niệm, thuật ngữ, các kí tự dùng trong Generic. Đồng thời hướng dẫn cách để tạo ra Generic Class và Generic Method. Cũng như chỉ ra các ưu, nhược điểm của Generic để giúp các bạn hiểu được khi nào thì nên sử dụng Generic trong lập trình Java.
 youtubeId: pXSdvkKK658
 ---
 
@@ -15,12 +15,12 @@ youtubeId: pXSdvkKK658
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào bạn, bạn đã từng nghe tới khái niệm về <b>Generic</b> chưa ? Nếu bạn nghe rồi nhưng vẫn không hình dung được
-Generic là gì ? Các ký hiệu được sử dụng trong Generic. Cách tạo một <b>Generic Class</b> và <b>Generic method</b> như thế nào ? Và ưu điểm và nhược
-điểm của Generic thì bài hôm nay anh sẽ giúp mọi người nắm rõ các câu hỏi ở trên.
+<b>Generic – tham số hoá kiểu dữ liệu</b>, một thuật ngữ được nhắc đến thường xuyên trong quá trình các bạn học <b>ngôn ngữ lập trình Java</b>. Một trong những lợi ích Generic mang lại cho những lập trình viên Java, đó là cho phép người dùng có thể dễ dàng nhận ra các lỗi với các kiểu dữ liệu không hợp lệ. 
+Để giúp các bạn hiểu rõ hơn về <b>kiến thức lập trình Java nâng cao</b> này, bài chia sẻ dưới đây anh sẽ giải thích các khái niệm, thuật ngữ, các kí tự dùng trong Generic. Đồng thời hướng dẫn cách để tạo ra Generic Class và Generic Method. Cũng như chỉ ra các ưu, nhược điểm của Generic để giúp các bạn hiểu được khi nào thì nên sử dụng trong <b>lập trình Java</b>.
+
 
 <br>
-## **1. Generic là gì**
+## **1. Generic trong lập trình Java là gì**
 
 <b>Generic</b> có nghĩa là ta viết các phương thức và lớp để tái sử dụng cho các đối tượng thuộc các kiểu dữ liệu khác nhau (Kiểu dữ liệu như Person , Car , Student, Hotel vv).Nghe có vẻ khó hiểu nên anh sẽ trình bày ví dụ sau đây.
 
