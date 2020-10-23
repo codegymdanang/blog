@@ -7,15 +7,15 @@ tags: [java core]
 summery: Tiện ích Collections
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
-description : Sử dụng collections trong lập trình java. Khái niệm collection trong học lập trình java. Sử dụng và hiểu các tập hợp như List , Vector , Set , Queue, Dequee, Map. Phân biệt khi nào dùng tập hợp nào là phù hợp trong java cơ bản.
+description : Hướng dẫn để sử dụng được Collections trong lập trình Java. Bài viết hướng dẫn cách sử dụng các phương thức được xây dựng sẵn trong Collections. Nhằm phục vụ trong quá trình làm việc với các tập hợp trong lập trình Java. Trong bài phạm vi bài viết này, anh sẽ giới thiệu những phương thức được sử dụng phổ biến nhất hiện nay trong lập trình Java. Bao gồm phương thức addAll, BinarySearch, Copy, Reverse, Shuffle, Sort, ReplaceAll.
 youtubeId: GXQn39fU2Kg
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ giới thiệu với các em về cách sử dụng các phương thức được xây dựng sẳn trong Collections để làm việc với các tập hợp trong java. Trong bài này anh sẽ giới thiệu những phương thức được sử dụng phổ biến nhất trong lập trình.
+Chào các em, hôm nay anh sẽ giới thiệu với các em về cách sử dụng các phương thức được xây dựng sẵn trong <b>Collections</b>. Nhằm phục vụ trong quá trình làm việc với các tập hợp trong <b>lập trình Java</b>. Trong bài phạm vi bài viết này, anh sẽ giới thiệu những phương thức được sử dụng phổ biến nhất hiện nay trong <b>lập trình Java</b>. Bao gồm phương thức addAll, BinarySearch, Copy, Reverse, Shuffle, Sort, ReplaceAll.
 
 <br>
 ## **1. Phương thức addAll**
