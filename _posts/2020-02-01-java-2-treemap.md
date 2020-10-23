@@ -7,24 +7,26 @@ tags: [java core]
 summery: TreeMap
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
-description : TreeMap là gì? Các phương thức có trong TreeMap và cách sử dụng TreeMap trong lập trình java
+description : TreeMap trong lập trình Java là gì? Nó hoạt động như thế nào? Các phương thức của lớp TreeMap trong lập trình Java. Các thao tác cơ bản với TreeMap như cách tạo một TreeMap, xoá một phần tử trong TreeMap. Hay cách thực hiện với SortedMap như thế nào? Hãy cùng tìm hiểu những thông tin trên qua bài viết này nhé. Với những chia sẻ lí thuyết kèm theo ví dụ minh hoạ, bài viết sẽ giúp bạn áp dụng ngay TreeMap vào thực hành lập trình.
 youtubeId: 5C2OqlhiYsg
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chủ đề của chúng ta về <b>TreeMap</b> trong lập trình java. Khi nào thì mình sẽ sử dụng nó nhé.
+Để hỗ trợ cho việc tổ chức các dữ liệu trong chương trình lập trình Java, bên cạnh sử dụng HashMap. Các lập trình viên Java cũng thường chọn sử dụng lớp TreeMap. 
+Cụ thể TreeMap trong lập trình Java là gì? Nó hoạt động như thế nào? Các phương thức của lớp TreeMap trong lập trình Java. Các thao tác cơ bản với TreeMap như cách tạo một TreeMap, xoá một phần tử trong TreeMap. Hay cách thực hiện với SortedMap như thế nào? Hãy cùng tìm hiểu những thông tin trên qua bài viết này nhé. 
 
-# **1. TreeMap là gì**
+
+## **1. TreeMap trong lập trình Java là gì**
 
 Cũng giống như HashMap thì TreeMap dùng để lưu trữ các giá trị theo kiểu key và value. Tuy nhiên có một số đặt điểm mà TreeMap khác với HashMap là
 
 + HashMap có thể chứa key là null nhưng TreeMap chúng ta không thể chứa key là null được
 + Các phần tử trong HashMap thì không sắp xếp theo một trật tự còn các phần tử trong TreeMap là được sắp xếp tăng dần
 
-# **2. Tạo TreeMap**
+## **2. Tạo TreeMap**
 
 {% highlight java linenos %}
 
@@ -46,7 +48,7 @@ class TreeMap1{
 
 {% endhighlight %}
 
-# **3. Xoá phần tử trong TreeMap**
+## **3. Xoá phần tử trong TreeMap**
 
 - Chúng ta sẽ dụng phương thức remove để xoá phần tử ra khỏi tập hợp
 
@@ -75,7 +77,7 @@ public class TreeMap2 {
 
 {% endhighlight %}
 
-# **4. SortedMap**
+## **4. SortedMap**
 
 - Chúng ta sẽ dụng phương thức remove để xoá phần tử ra khỏi tập hợp
 
