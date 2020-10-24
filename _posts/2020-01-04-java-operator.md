@@ -15,12 +15,12 @@ youtubeId: fR05ShUphxA
 
 ## **Giới thiệu nội dung bài viết**
 
-Đối với người học ngôn ngữ <b>lập trình Java</b>, toán tử đã trở thành khái niệm quen thuộc. Nhờ vào các nhóm toán tử đa dạng trong Java mà người dùng thao tác với các biến linh hoạt hơn. Bài viết dưới đây sẽ giúp bạn hiểu hơn về toán tử trong lập trình hướng đối tượng Java, các khái niệm, phân loại và lợi ích của việc sử dụng chúng trong lập trình. Từ đó giúp bạn áp dụng nhuần nhuyễn vào quá trình thực hành và làm việc. 
+Đối với người học ngôn ngữ <b>lập trình Java</b>, <b>toán tử</b> đã trở thành khái niệm quen thuộc. Nhờ vào các nhóm toán tử đa dạng trong Java mà người dùng thao tác với các biến linh hoạt hơn. Bài viết dưới đây sẽ giúp bạn hiểu hơn về <b>toán tử trong lập trình hướng đối tượng Java</b>, các khái niệm, phân loại và lợi ích của việc sử dụng chúng trong lập trình. Từ đó giúp bạn áp dụng nhuần nhuyễn vào quá trình thực hành và làm việc. 
 
 <br>
 ## **Trong lập trình Java, toán tử là gì**
 
-Chúng ta sử dụng toán tử để thực hiện các phép tính toán học trên giá trị và biến.
+Trong <b>lập trình Java</b>, chúng ta sử dụng toán tử để thực hiện các phép tính toán học trên giá trị và biến.
 
 ## **1.  Toán tử số học**
 
