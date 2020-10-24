@@ -7,7 +7,7 @@ tags: [java core]
 summery: Phân biệt String vs String Buffer vs String Builder
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_exception.png
-description : Phân biệt String vs String Buffer vs String Builder trong ngôn ngữ lập trình java. Chúng ta sẽ tìm hiểu Phân biệt String vs String Buffer vs String Builder là gì. Cách sử dụng Phân biệt String vs String Buffer vs String Builder trong ngôn ngữ lập trình.
+description : Trong ngôn ngữ lập trình Java, bên cạnh String, hai khái niệm khác thường được đề cập đến là StringBuffer và StringBuilder. Bài viết này sẽ trình bày để bạn hiểu được String là gì? StringBuffer và StringBuilder là gì? Sự khác nhau giữa 3 khái niệm này. Biết được khi nào thì dùng String, khi nào dùng StringBuffer, và khi nào dùng StringBuilder trong lập trình hướng đối tượng Java.
 
 youtubeId: se9CcJKhi04
 ---
@@ -16,7 +16,7 @@ youtubeId: se9CcJKhi04
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chủ đề của chúng ta là <b>Phân biệt String vs String Buffer vs String Builder </b> trong java. Chúng ta sẽ đi qua mục đích sử dụng và ưu điểm của các loại String trên
+Trong <b>ngôn ngữ lập trình Java</b>, bên cạnh <b>String</b>, hai khái niệm khác các bạn thường được đề cập đến là <b>StringBuffer</b> và <b>StringBuilder</b>. Trong phạm vi bài viết này, anh sẽ trình bày để bạn hiểu được String là gì? StringBuffer và StringBuilder là gì? Giúp các bạn phân biệt giữa 3 khái niệm này. Biết được khi nào thì dùng String, khi nào dùng StringBuffer, và khi nào dùng StringBuilder trong <b>lập trình hướng đối tượng Java</b>.
 
 
 ## **1. String trong lập trình Java**
