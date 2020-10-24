@@ -16,7 +16,7 @@ youtubeId: se9CcJKhi04
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong <b>ngôn ngữ lập trình Java</b>, bên cạnh <b>String</b>, hai khái niệm khác các bạn thường được đề cập đến là <b>StringBuffer</b> và <b>StringBuilder</b>. Trong phạm vi bài viết này, anh sẽ trình bày để bạn hiểu được String là gì? StringBuffer và StringBuilder là gì? Giúp các bạn phân biệt giữa 3 khái niệm này. Biết được khi nào thì dùng String, khi nào dùng StringBuffer, và khi nào dùng StringBuilder trong <b>lập trình hướng đối tượng Java</b>.
+Trong <b>ngôn ngữ lập trình Java</b>, bên cạnh <b>String</b>, có hai khái niệm khác mà các bạn thường được nghe đề cập đến là <b>StringBuffer</b> và <b>StringBuilder</b>. Trong phạm vi bài viết này, anh sẽ trình bày để bạn hiểu được String là gì? StringBuffer và StringBuilder là gì? Giúp các bạn phân biệt giữa 3 khái niệm này. Biết được khi nào thì dùng String, khi nào dùng StringBuffer, và khi nào dùng StringBuilder trong <b>lập trình hướng đối tượng Java</b>.
 
 
 ## **1. String trong lập trình Java**
