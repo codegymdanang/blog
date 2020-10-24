@@ -1,26 +1,30 @@
 ---
 layout: course-java
-title: Sử dụng Iterator trong Java
-slug : su-dung-iterator-trong-java
+title: Sử dụng Iterator trong lập trình Java
+slug : su-dung-iterator-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Iterator
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
-description : Sử dụng Iterator trong lập trình java. Khái niệm Iterator trong học lập trình java. Sử dụng Iterator duyệt qua các tập hợp như List , Vector , Set , Queue, Dequee, Map.
+description : Bài viết chia sẻ về Iterator trong lập trình Java. Trình bày, giải thích các khái niệm Iterator trong học lập trình hướng đối tượng Java. Hướng dẫn sử dụng Iterator duyệt qua các tập hợp như List , Vector , Set , Queue, Deque, Map trong ngôn ngữ lập trình Java. Kèm theo các ví dụ minh hoạ sẽ giúp các bạn hiểu rõ và có thể áp dụng ngay vào lập trình.
 youtubeId: 5C2OqlhiYsg
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chủ đề của chúng ta sẽ hướng dẫn cách tạo ra một <b>Iterator</b> trong lập trình java theo mong muốn của chúng ta.
+Trong <b>lập trình Java</b>, bên cạnh sử dụng vòng lặp for thì các lập trình viên Java cũng thường sử dụng công cụ <b>Iterator</b> để duyệt qua các phần tử trong tập hợp. Nó cho phép khả năng tuần hoàn qua một tập hợp, tìm kiếm và gỡ bỏ đi các phần tử khi các bạn thao tác trong lập trình.
+
+<br>
+Vậy <b>Iterator</b> là gì? Cách sử dụng <b>Iterator trong lập trình hướng đối tượng Java</b>. Cũng như các phương thức trong Iterator. Để hiểu về Iterator và áp dụng được vào <b>lập trình Java</b>. Mời các bạn cùng tham khảo bài viết dưới đây.
 
 
-# **1. Iterator là gì**
 
-Thông thường chúng ta hay sử dụng vòng lặp for để duyệt qua các phần tử trong tập hợp. Hôm nay mình có thêm một công cụ mới để duyệt qua các phần tử trong tập hợp nữa đó là Iterator.
+## **1. Iterator trong lập trình Java là gì**
+
+Thông thường trong <b>lập trình Java</b>, chúng ta hay sử dụng vòng lặp for để duyệt qua các phần tử trong tập hợp. Hôm nay mình có thêm một công cụ mới để duyệt qua các phần tử trong tập hợp nữa đó là Iterator.
 
 - Ví dụ như anh có một ArrayList về xe sau. Trong tập hợp xe này anh lưu các giá trị như Volvo,BMW,Ford,Mazda
 
