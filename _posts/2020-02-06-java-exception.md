@@ -1,43 +1,43 @@
 ---
 layout: course-java
 title: Sử dụng ngoại lệ trong ngôn ngữ lập trình Java
-slug : su-dung-ngoai-le-trong-lap-trinh-java
+slug : su-dung-ngoai-le-trong-ngon-ngu-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Ngoại Lệ
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_exception.png
-description : Tìm hiểu ngoại lệ là gì trong ngôn ngữ lập trình java. Chúng ta sẽ tìm hiểu check exception và uncheck exception là gì. Cách sử dụng try catch finaly để bắt ngoại lệ trong ngôn ngữ lập trình và các phương pháp ném ngoại lệ trong ngôn ngữ java.
+description : Nhằm giúp các bạn hiểu hơn về Ngoại lệ Exception trong lập trình Java. Trước hết, bài viết trình bày để bạn hiểu được check exception và uncheck exception là gì. Cách sử dụng try catch finally để bắt ngoại lệ và các phương pháp ném ngoại lệ trong lập trình hướng đối tượng Java. Cuối bài viết sẽ có video demo cách thao tác để tạo Exception trong lập trình Java để các bạn dễ nắm bắt và áp dụng được kiến thức lập trình Java nâng cao này vào thực hành. 
 
 youtubeId: zC0t0e9DaH4
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn , hôm nay chủ đề của anh sẽ nói về <b>Ngoại lệ</b> (Exception) trong lập trình là gì ?
+Nhằm giúp các bạn sử dụng được <b>Ngoại lệ Exception trong ngôn ngữ lập trình Java</b>. Bài viết sẽ giải thích cho bạn hiểu được check exception và uncheck exception là gì. Cách sử dụng try catch finally để bắt ngoại lệ và các phương pháp ném ngoại lệ trong <b>lập trình hướng đối tượng Java</b>. Cuối bài viết sẽ có video demo cách thao tác để tạo Exception trong <b>lập trình Java</b> để các bạn dễ nắm bắt và áp dụng được <b>kiến thức lập trình Java nâng cao</b> này vào thực hành. 
 
 <br>
-# **1. Ngoại lệ (Exception) là gì ?**
+## **1. Ngoại lệ (Exception) là gì ?**
 
-<b>Exception</b> (ngoại lệ) trong Java là một vấn đề bất thường xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.
+<b>Exception</b> (ngoại lệ) trong <b>lập trình Java</b> là một vấn đề bất thường xảy ra trong quá trình thực hiện của chương trình mà mình có thể dự đoán hoặc không dự đoán trước.
 
 <b>Exception</b> là một sự kiện mà phá vỡ luồng chuẩn của chương trình. Anh lấy ví dụ về rút tiền ATM ở máy rút tiền. Trong tài khoản
 mình chỉ có 1.000.000 nhưng nếu mình bấm trong máy ATM rút 2.000.000 thì lúc đó chương trình trong máy ATM sẽ báo lỗi vì
 số tiền mình yêu cầu rút lớn hơn số hiện tại. Đó chính là một Exception (ngoại lệ) xảy ra lúc chương trình đang chạy.
 
-Đối với lập trình viên mình phải bắt và xử lý các <b>ngoại lệ</b> trong chương trình. Nếu không chương trình sẽ bị dừng. Thường các
+Đối với <b>lập trình viên Java</b> mình phải bắt và xử lý các <b>ngoại lệ</b> trong chương trình. Nếu không chương trình sẽ bị dừng. Thường các
 lập trình viên có thể bắt lại <b>Expection</b> trong lúc viết code hoặc dự đoán được Exception trong lúc chương trình đang chạy
 để từ đó lập trình viên có thể xử lý các ngoại lệ đó mà chương trình vẫn tiếp tục chạy.
 
 <br>
-# **2. Check Exception**
+## **2. Check Exception**
 
 - Những lỗi developer có thể đoán trước được.
 - Bắt buộc developer phải bắt và xử lý <b>ngoại lệ</b> trong lúc compile time (lúc đang code).
 
-Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán được.
+Ví dụ các lỗi mà trong lúc code <b>lập trình viên Java<b> có thể đoán được.
 
 - FileNotFoundException.
 - InterruptException.
@@ -45,7 +45,7 @@ Ví dụ các lỗi mà trong lúc code lập trình viên có thể đoán đư
 - IO Exception.
 
 <br>
-# **3. Uncheck Exception**
+## **3. Uncheck Exception**
 
 - Những lỗi xảy ra khi chương trình đang chạy và chúng ta không biết chắc nó có xảy ra hay không.
 - Không yêu cầu developer phải bắt và xử lý ngoại lệ trong lúc compile time (lúc đang code). Nhưng mà
@@ -53,10 +53,10 @@ phải dự đoán được có khả năng xảy ra lỗi ở những đoạn c
 
 Ví dụ : Khi anh viết một chương trình cho nhà bank với chức năng rút tiền.
 Sẽ có những trường hợp lỗi xảy ra khi chương trình đang chạy đó là việc khách hàng có thể rút tiền nhiều hơn số tiền họ hiện có trong tài khoản.
-Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền có khả năng xảy ra lỗi và mình sẽ viết code  để xử lý ngoại lệ đó .
+Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền có khả năng xảy ra lỗi và mình sẽ viết code để xử lý ngoại lệ đó .
 
 <br>
-# **4. Kiến trúc của ngoại lệ**
+## **4. Kiến trúc của ngoại lệ**
 
 {:refdef: style="text-align: center;"}
 ![Exception ](/images/post/javacore/exception.png){:class="img-responsive"}
@@ -135,12 +135,12 @@ private void wrapException(String input) {
 }
 {% endhighlight %}
 <br>
-# **5. Ném ngoại lệ bằng Throws hoặc throw**
+## **5. Ném ngoại lệ bằng Throws hoặc throw**
 
-- Trong các ngôn ngữ lập trình khi một <b>ngoại lệ</b> xảy ra ,mình dùng từ khoá **throw** hoặc **throws** để ném ngoại lệ đó ra.
+- Trong các <b>ngôn ngữ lập trình Java</b> khi một <b>ngoại lệ</b> xảy ra ,mình dùng từ khoá <b>throw</b> hoặc <b>throws</b> để ném ngoại lệ đó ra.
 
-- Trong Java mình có thể dùng từ khoá throws bên cạnh tên method để ném ngoại lệ. Ví dụ như public void deposit(int depositAmount) throws Exception . Phương thức nào
-mà gọi method deposit phải bắt lại ngoại lệ và xử lý . Để bắt ngoại lệ thì mình dùng khối  **try**, **catch** , **finally** lệnh để bắt ngoại lệ bắt từ hàm deposit ném ra
+- Trong <b>lập trình Java</b> mình có thể dùng từ khoá throws bên cạnh tên method để ném ngoại lệ. Ví dụ như public void deposit(int depositAmount) throws Exception . Phương thức nào
+mà gọi method deposit phải bắt lại ngoại lệ và xử lý . Để bắt ngoại lệ thì mình dùng khối <b>try</b>, <b>catch</b>, <b>finally</b> lệnh để bắt ngoại lệ bắt từ hàm deposit ném ra
 
 - Ngoài cách dùng <b>Throws</b> ta có thể dùng <b>throw new Exception</b>  bên trong method như ví dụ dưới  đây .
 
@@ -161,7 +161,7 @@ public void deposit(int depositAmount) throws Exception {
 {% endhighlight %}
 
 <br>
-# **6. Bắt ngoại lệ bằng try catch**
+## **6. Bắt ngoại lệ bằng try catch**
 
 Chúng ta sử dụng từ khoá <b>try</b>, <b>catch</b> để bắt ngoại lệ và xử lý. Nếu chúng ta không bắt ngoại lệ lại và sử lý thì chương trình có nguy cơ bị đứng. Hoặc nghiêm trọng hơn là ứng dụng bị chết và không chạy được. Nhờ sử dụng try catch mà ta có thể sử lý ngoại lệ giúp chương trình tiếp tục chạy.
 
@@ -177,7 +177,7 @@ public int getPlayerScore(String playerFile) {
 {% endhighlight %}
 
 <br>
-# **7. Bắt ngoại lệ bằng nhiều catch**
+## **7. Bắt ngoại lệ bằng nhiều catch**
 
 Khi gọi một method, nhưng nếu method đó ném ra nhiều hơn 1 ngoại lệ. Ta có thể sử dụng nhiều <b>catch</b> để bắt các ngoại lệ đó. Mỗi catch sẽ bắt một ngoại lệ tương ứng.
 
@@ -196,7 +196,7 @@ public int getPlayerScore(String playerFile) {
 {% endhighlight %}
 
 <br>
-# **8. Khối lệnh Finally**
+## **8. Khối lệnh Finally**
 
 Các đoạn code trong khối lệnh <b>Finally</b> luôn luôn chạy cho dù có xảy ra lỗi ở trong khối lệnh try hay catch . Khối lệnh Finally thường dùng để.
 
@@ -205,7 +205,7 @@ Các đoạn code trong khối lệnh <b>Finally</b> luôn luôn chạy cho dù 
 - Giải phóng bộ nhớ. Để hiểu thêm về bộ nhớ bạn có thể đọc bài viết tại [đây](https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/)
 
 <br>
-# **9. Video demo tạo Exception trong Java**
+## **9. Video demo tạo Exception trong lập trình Java**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
