@@ -16,6 +16,8 @@ youtubeId: pXSdvkKK658
 ## **Giới thiệu nội dung bài viết**
 
 <b>Generic – tham số hoá kiểu dữ liệu</b>, một thuật ngữ được nhắc đến thường xuyên trong quá trình các bạn học <b>ngôn ngữ lập trình Java</b>. Một trong những lợi ích Generic mang lại cho những lập trình viên Java, đó là cho phép người dùng có thể dễ dàng nhận ra các lỗi với các kiểu dữ liệu không hợp lệ. 
+
+<br>
 Để giúp các bạn hiểu rõ hơn về <b>kiến thức lập trình Java nâng cao</b> này, bài chia sẻ dưới đây anh sẽ giải thích các khái niệm, thuật ngữ, các kí tự dùng trong Generic. Đồng thời hướng dẫn cách để tạo ra Generic Class và Generic Method. Cũng như chỉ ra các ưu, nhược điểm của Generic để giúp các bạn hiểu được khi nào thì nên sử dụng trong <b>lập trình Java</b>.
 
 
