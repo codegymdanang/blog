@@ -67,7 +67,7 @@
 				<div class="col-lg-9 col-sm-9">
 					<div id='page'>
 						<div style="width:100%;text-align:center"> <img src="{{ page.featureImage }}"></div>
-						<div style="margin-top: 0px;padding-top: 0px;font-size: 50px;color:red">{{page.title}}</div>
+						<div style="margin-top: 0px;padding-top: 0px;font-size: 50px;color:red">{{post.title}}</div>
 						<div class="post-meta">
 							<div class="post-meta-content" style="text-align: right">
 								<span class="post-auhor-date">
@@ -85,7 +85,7 @@
 						</div>
 						
 						<div id="contentPost">
-							{% if content == "" %}
+							{% if post.content == "" %}
 								<div> Khoá học lập trình Boostrap </div>
 								<p>
 									Boostrap là một framework làm web phổ biến trong giới lập trình. Hầu hết các trang web hiện nay đều sử dụng Bootstrap để phát triển website vì nó có rất nhiều ưu điểm như dể sử dụng, giúp website hiển thị trên nhiều thiết bị khác nhau. Trong phần này anh sẽ viết các thành phần quan trọng của Bootstrap và hướng dẫn mọi người cách sử dụng Boostrap trong website của mình 
