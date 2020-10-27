@@ -1,5 +1,5 @@
 ---
-layout: course-tamsu
+layout: course-softskill
 title: Cẩm nang tìm việc hiệu quả
 slug : cam-nang-tim-viec
 category: career
