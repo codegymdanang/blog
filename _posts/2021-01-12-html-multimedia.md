@@ -1,12 +1,12 @@
 ---
 layout: course-html
-title: Sử dụng media trong HTML  
+title: Sử dụng media trong HTML
 slug : su-dung-media-trong-html
 category: laptrinhweb
 tags: [html]
-summery: Media  
+summery: Media
 image: /images/blog/angular.png
-description : Sử dụng các media như âm thanh, hình ảnh, video để nhúng vào trong HTML trong lập trình web.
+description : Sử dụng các media như âm thanh, hình ảnh, video để nhúng vào trong HTML trong lập trình web
 youtubeId: Ex3glZTCvlY
 ---
 
