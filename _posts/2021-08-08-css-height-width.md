@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [css]
 summery: Height & Width 
 image: /images/blog/angular.png
-description : Sử dụng text trong trong dự án làm web. Hướng dẫn Sử dụng text trong CSS vào dự án web. 
+description : Sử dụng thuộc tính height và width trong trong css. Hướng dẫn Sử dụng height và width trong CSS vào dự án web. 
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>thuộc tính Height và Width</b> trong css?
+Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>thuộc tính height và width</b> trong css?
 
 # **1. Thuộc tính height và width trong css**
 
