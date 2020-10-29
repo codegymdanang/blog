@@ -15,6 +15,8 @@ youtubeId: Ex3glZTCvlY
 ## **Giới thiệu nội dung bài viết**
 
 Nằm trong chuỗi các bài viết chia sẻ về <b>lập trình web HTML từ cơ bản tới nâng cao</b>, hôm nay anh sẽ tiếp theo giới thiệu đến các bạn về các <b>định dạng text (formating) trong HTML</b>. Bên cạnh giới thiệu <b>các kiểu định dạng (formating) có trong HTML</b>, anh cũng sẽ hướng dẫn các bạn – những người học <b>lập trình web HTML</b> cách thao tác như thể nào với các định dạng bao gồm: Hiển thị chữ đậm, nghiêng, gạch chân, gạch ngang đoạn text, monospace chữ, superscript chữ, chèn thêm chữ, sử dụng chữ to, chữ nhỏ hơn, và cách để nhóm các thẻ lại với nhau trong <b>lập trình web HTML</b>. 
+
+<br>
 Để biết cụ thể như thế nào thì chúng ta hãy tiếp tục đọc những chia sẻ bên dưới ngay nhé!
 
 
