@@ -18,7 +18,7 @@ youtubeId: Ex3glZTCvlY
 
 ## **1. HTML là gì**
 
-Vào những thập niên 80 khi con người muốn chia sẽ tài liệu với nhau thì mình thường copy tài liệu như word hay excel vào usb sau đưa cho người khác mở lên. Cách này rất bất tiện vì mọi người không thể chia sẽ dữ liệu với nhau được. HTML ra đời giúp cho tài liệu được chia sẽ trực tuyến trên mạng. Nó giúp cho tài liệu của chúng ta được hiển thị một cách bắt mắt và có tổ chức, các tài liệu có thể link trực tiếp qua lại với nhau được. Cụ thể như các em thấy ngày nay HTML được dùng để định dạng ra các trang web, hiển thị nội dung một cách trực quan và rất tiện lợi.
+Vào những thập niên 80 khi con người muốn chia sẻ tài liệu với nhau thì mình thường copy tài liệu như word hay excel vào usb sau đó đưa cho người khác mở lên. Cách này rất bất tiện vì mọi người không thể chia sẻ dữ liệu với nhau được. HTML ra đời giúp cho tài liệu được chia sẻ trực tuyến trên mạng. Nó giúp cho tài liệu của chúng ta được hiển thị một cách bắt mắt và có tổ chức, các tài liệu có thể link trực tiếp qua lại với nhau được. Cụ thể như các em thấy ngày nay HTML được dùng để định dạng ra các trang web, hiển thị nội dung một cách trực quan và rất tiện lợi.
 
 ## **2. Cú pháp khai báo thẻ HTML**
 
@@ -81,7 +81,7 @@ Như vậy ta thấy một trang HTML cơ bản phải có những phần trên.
 
 ## **4. Thẻ title**
 
-Thẻ title dùng để đặt tên cho website. Ví dụ như blog của anh mọi người sẽ thấy cái tab trên trình duyệt là học lập trình
+Thẻ title dùng để đặt tên cho website. Ví dụ như blog của anh mọi người sẽ thấy cái tab trên trình duyệt là <b>học lập trình</b>
 
 - Ví dụ ta có một file HTML như sau
 
