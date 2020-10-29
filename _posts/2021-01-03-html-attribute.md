@@ -23,7 +23,7 @@ Hi vọng với những chia sẻ lí thuyết có kèm theo các ví dụ minh 
 
 ## **1. Thuộc tính trong thẻ HTML**
 
-Hầu hết các thể HTML đều có thuộc tính để chúng ta có thể thêm một số thành phần cho thẻ HTML. Thuộc tính được khai báo với cú pháp là name và giá trị. Ví dụ như thẻ p sau đây. Chúng ta khai báo thuột tính align (canh chỉnh vị trí văn bản) có giá trị là center (canh giá trị văn bản trong thẻ p là ở giữa)
+Hầu hết các thẻ HTML đều có <b>thuộc tính</b> để chúng ta có thể thêm một số thành phần cho <b>thẻ HTML</b>. <b>Thuộc tính</b> được khai báo với cú pháp là name và giá trị. Ví dụ như thẻ p sau đây. Chúng ta khai báo thuột tính align (canh chỉnh vị trí văn bản) có giá trị là center (canh giá trị văn bản trong thẻ p là ở giữa)
 
 {% highlight html linenos %}
 
