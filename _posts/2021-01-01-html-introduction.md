@@ -6,21 +6,21 @@ category: laptrinhweb
 tags: [html]
 summery: HTML là gì   
 image: /images/blog/angular.png
-description : Sử dụng HTML trong dự án làm web. Hướng dẫn sử dụng HTML vào dự án web. 
+description : Bài viết giúp người học lập trình web HTLM hiểu được tổng quát HTML là gì? Tìm hiểu về các thẻ HTML cơ bản trong lập trình web bao gồm thẻ title, base, link và style. Và hướng dẫn các bạn sử dụng HTML vào các dự án làm web cũng như cách thao tác với các cú pháp để khai báo thẻ HTML trong lập trình web trở nên hiệu quả hơn. 
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>HTML</b> là như thế nào?
+<b>HTML</b> ra đời đóng góp vai trò lớn vào sự phát triển của lĩnh vực Công nghệ thông tin nói chung và ngành <b>lập trình web</b> nói riêng, cũng như mang lại những giá trị ý nghĩa cho người dùng toàn cầu. Vậy HTML là gì? Cách sử dụng nó như thế nào? Bài viết dưới đây sẽ giúp người học <b>lập trình web HTLM</b> giải đáp được những thắc mắc trên. Chúng ta sẽ cùng tìm hiểu về các <b>thẻ HTML</b> cơ bản trong <b>lập trình web</b> bao gồm thẻ title, base, link và style. Và hướng dẫn các bạn sử dụng HTML vào các dự án làm web cũng như cách thao tác với các cú pháp để khai báo thẻ <b>HTML trong lập trình web</b> trở nên hiệu quả hơn.  
 
-# **1. HTML là gì**
+## **1. HTML là gì**
 
 Vào những thập niên 80 khi con người muốn chia sẽ tài liệu với nhau thì mình thường copy tài liệu như word hay excel vào usb sau đưa cho người khác mở lên. Cách này rất bất tiện vì mọi người không thể chia sẽ dữ liệu với nhau được. HTML ra đời giúp cho tài liệu được chia sẽ trực tuyến trên mạng. Nó giúp cho tài liệu của chúng ta được hiển thị một cách bắt mắt và có tổ chức, các tài liệu có thể link trực tiếp qua lại với nhau được. Cụ thể như các em thấy ngày nay HTML được dùng để định dạng ra các trang web, hiển thị nội dung một cách trực quan và rất tiện lợi.
 
-# **2. Cú pháp khai báo thẻ HTML**
+## **2. Cú pháp khai báo thẻ HTML**
 
 HTML dùng để format lại dữ liệu hiển thị trên website. HTML cung cấp cho chúng ta những cú pháp chuẩn mà khi tuân thủ các cú pháp đó thì dữ liệu sẽ được hiển thị như chúng ta mong muốn. Cú pháp để khai báo một thẻ HTML như sau.
 
@@ -40,7 +40,7 @@ HTML dùng để format lại dữ liệu hiển thị trên website. HTML cung 
 
 Như vậy ta có thẻ mở HTML là \< h1 \> và thẻ đóng html là \< \/h1 \>
 
-# **3. Các thẻ HTML cơ bản**
+## **3. Các thẻ HTML cơ bản**
 
 - Ví dụ ta có một file HTML như sau
 
@@ -79,7 +79,7 @@ Như vậy ta có thẻ mở HTML là \< h1 \> và thẻ đóng html là \< \/h1
 
 Như vậy ta thấy một trang HTML cơ bản phải có những phần trên. Tuỳ vào mỗi loại văn bản hiển thị mà chúng ta sẽ viết thêm code trong phần body với các thẻ mà HTML cung cấp cho mình.
 
-# **4. Thẻ title**
+## **4. Thẻ title**
 
 Thẻ title dùng để đặt tên cho website. Ví dụ như blog của anh mọi người sẽ thấy cái tab trên trình duyệt là học lập trình
 
@@ -108,7 +108,7 @@ Thẻ title dùng để đặt tên cho website. Ví dụ như blog của anh m�
 {: refdef}
 
 
-# **5. Thẻ base**
+## **5. Thẻ base**
 
 Thẻ base được sử dụng với mục đích tất cả các trang đường link trong website sẽ được nối thêm vào bởi url được khai báo trong thẻ base. Ví dụ ta có thể base là https://levunguyen.com và ta có trang about. Thì nó sẽ được nối lại là https://levunguyen.com/about.
 
@@ -136,7 +136,7 @@ Thẻ base được sử dụng với mục đích tất cả các trang đườ
 - Kết quả ở trên ta sẽ có đường link là https://levunguyen.com/images/logo.png và https://levunguyen.com/html/index.htm
 
 
-# **5. Thẻ link**
+## **6. Thẻ link**
 
 Thẻ link dùng để liên kết tài liệu HTML với những tài liệu bên ngoài hoặc các file liên quan bên ngoài. Trong ví dụ này ta sử dụng HTML liên kết với Css (CSS là công cụ để ta trang trí website đẹp hơn).
 
@@ -160,7 +160,7 @@ Thẻ link dùng để liên kết tài liệu HTML với những tài liệu b�
 
 {% endhighlight %} 
 
-# **5. Thẻ Style**
+## **7. Thẻ Style**
 
 Chúng ta sử dụng thẻ style để trang trí cho website. Chúng ta có thể thay đổi, thêm màu sắc và website thông qua thẻ style.
 
