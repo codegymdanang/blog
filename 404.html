@@ -1,14 +1,93 @@
 
 <!DOCTYPE html>
 <head>
-    <!-- some other meta -->
-    {% if page.url == "/404.html" %}
+   
     <meta http-equiv="refresh" content="3; url=/">
-    {% endif %}
-    <!-- some other stuff like link or script -->
+    <style type="text/css">
+    	
+    	@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #3498db;
+    font-weight: bold;
+    text-align: center;
+    line-height: 130%;
+}
+
+.buton {
+    background: #3498db;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff0;
+}
+
+span {
+    font-size: 14px;
+    color: #FFF;
+    font-weight: normal;
+    text-align: center;
+}
+
+span a {
+    color: #FF0;
+    text-decoration: none;
+}
+
+span a:hover {
+    color: #F00;
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        width: 70%;
+    }
+    .container {
+        padding: 70px 10px 10px 10px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+}
+    	
+    </style>
 </head>
 <body>
 
-Trang web đã thay đổi đường link. Tự động về trang chính trong 3 giây.
+<body>
+    <div class="container">
+        <img class="ops" src="404.svg" />
+        <br />
+        <h3>Trang web đã thay đổi đường link. Tự động về trang chính trong 3 giây.
+        </h3>
+        <br />
+        <a class="buton" href="https://indrakusuma.web.id/">levunguyen.com</a>
+    </div>
+</body>
+
+
+
 
 </body>
