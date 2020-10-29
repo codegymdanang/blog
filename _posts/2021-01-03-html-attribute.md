@@ -6,17 +6,22 @@ category: laptrinhweb
 tags: [html]
 summery: Thuộc tính   
 image: /images/blog/angular.png
-description : Sử dụng các thuộc tính HTML trong dự án làm web. Hướng dẫn sử dụng các thuột tính HTML vào dự án web. 
+description : Nhằm giúp người học lập trình web HTML dễ dàng tìm kiếm và tra cứu các thuộc tính trong thẻ HTML để phục vụ cho việc học và làm việc với các dự án lập trình web. Bài chia sẻ dưới đây sẽ trình bày và hướng dẫn cách sử dụng các thuộc tính trong thẻ HTML bao gồm thuộc tính chính (id , title, class và style) và thuộc tính lang.  Với những chia sẻ lí thuyết có kèm theo các ví dụ minh hoạ cho mỗi thuộc tính trong thẻ HTML trong bài viết. Người học lập trình web HTML có thể  hiểu và tự tin sử dụng được vào quá trình làm các dự án lập trình web HTML. 
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>thuột tính</b> là như thế nào?
+Nhằm giúp người học <b>lập trình web HTML</b> dễ dàng tìm kiếm và tra cứu các <b>thuộc tính trong thẻ HTML</b> để phục vụ cho việc học và làm việc với các dự án <b>lập trình web</b>
+Bài chia sẻ dưới đây sẽ trình bày và hướng dẫn cách sử dụng các thuộc tính trong thẻ HTML bao gồm thuộc tính chính (id , title, class và style) và thuộc tính lang.  
 
-# **1. Thuộc tính trong thẻ HTML**
+<br>
+Hi vọng với những chia sẻ lí thuyết có kèm theo các ví dụ minh hoạ cho mỗi <b>thuộc tính trong thẻ HTML</b> trong bài viết dưới đây. Các bạn học lập trình web HTML có thể nắm bắt và áp dụng được vào quá trình thực hành làm <b>lập trình web HTML</b>.
+
+
+## **1. Thuộc tính trong thẻ HTML**
 
 Hầu hết các thể HTML đều có thuộc tính để chúng ta có thể thêm một số thành phần cho thẻ HTML. Thuộc tính được khai báo với cú pháp là name và giá trị. Ví dụ như thẻ p sau đây. Chúng ta khai báo thuột tính align (canh chỉnh vị trí văn bản) có giá trị là center (canh giá trị văn bản trong thẻ p là ở giữa)
 
@@ -43,7 +48,7 @@ Hầu hết các thể HTML đều có thuộc tính để chúng ta có thể t
 ![attribute](/images/post/html/attribute1.png){:class="img-responsive"}
 {: refdef}
 
-# **2. Thuộc tính chính HTML**
+## **2. Thuộc tính chính HTML**
 
 Có 4 loại thuộc tính chính được dùng trong các phần tử HTML đó là : id , title, class và style
 
@@ -120,7 +125,7 @@ Ví dụ
 
 {% endhighlight %} 
 
-# **3. Thuộc tính lang HTML**
+## **3. Thuộc tính lang HTML**
 
 Thuộc tính lang giúp chúng ta khai báo là ngôn ngữ chính hiển thị trong trang web là tiếng Anh hoặc tiếng Việt hay một thứ tiếng bất kỳ. Ví dụ chúng ta muốn khai báo là trang web đang sử dụng tiếng anh thì ta thêm thuộc tính lang = en trong thẻ bắt đầu của HTML như sau
 
