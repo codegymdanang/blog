@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [html]
 summery: Layout
 image: /images/blog/angular.png
-description : Sử dụng các media như âm thanh, hình ảnh, video để nhúng vào trong HTML trong lập trình web
+description : Bài viết chia sẻ về cách bố trí các thành phấn chính cho một website trong lập trình web HTML, giúp hiểu được layout trong lập trình web HTML là gì? Sau đó anh sẽ trình bày thêm về các phần tử HTML để làm ra bố cục của một trang website trong lập trình web HTML bao gồm thẻ header, nav, section, article, aside, footer. Cũng như áp dụng được các kĩ thuật trong quá trình làm bố cục một website gồm 4 phương pháp là sử dụng CSS Framework, thuộc tính CSS Float, CSS Flex, CSS Grid.
 youtubeId: Ex3glZTCvlY
 ---
 
