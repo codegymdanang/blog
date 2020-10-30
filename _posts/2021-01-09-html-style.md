@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [html]
 summery: Style   
 image: /images/blog/angular.png
-description : Sử dụng thuôt tính style trong HTML trong dự án làm web. Thuột tính style giúp trang web trở nên đẹp hơn. Chúng ta có thể thay đổi màu sắc và kích thướt của các phần tử trong website
+description : Trình bày về các thuộc tính style trong lập trình web HTML. Hướng dẫn cú pháp để khai báo thuộc tính Style, cách thao tác với màu nền cho trang web, màu sắc và font chữ, thiết lập kích thước chữ cũng như cách để canh giữa cho chữ và đoạn văn bản. Chỉ ra các thuộc tính style quan trọng được sử dụng trong lập trình web HTML như background color, color, font-family, font-size, text-align.
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -14,7 +14,10 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng thuộc tính <b>style</b> trong lập trình web là như thế nào?
+Trong quá trình làm với <b>lập trình web HTML</b>, để giúp cho trang web trở nên bắt mắt, đẹp hơn. Lúc này, các lập trình viên sẽ sử dụng <b>thuộc tính style</b> để thêm màu sắc, font chữ và kích thước cho các thành phần web.
+<br>
+Bài viết dưới đây sẽ hướng dẫn cho các bạn biết được cách thực hiện cú pháp khai báo <b>thuộc tính Style trong HTML</b>, cách để thao tác với màu nền cho trang web, màu sắc và font chữ, thiết lập kích thước chữ cũng như cách để canh giữa cho chữ và đoạn văn bản.
+
 
 ## **1. Thuộc tính Style trong HTML**
 
@@ -116,7 +119,7 @@ Chúng ta sử dụng thuột tính text-align để canh giữa cho văn bản
 
 ## **7. Kết luận**
 
-Chúng ta sử dụng thuột tính style trong các thành phân của HTML nhằm trang trí cho website trở nên đẹp hơn. Chúng ta sử dụng background-color để tạo ra màu nền cho website và các phần tử web. Sử dụng color để tạo màu cho các chữ. Sử dụng font-family để thiết lập kiểu font. Sử dụng font-size để thiết lập kích thướt nội dung trong website và text-align để canh giữa các đoạn văn bản.
+Chúng ta sử dụng <b>thuột tính style trong các thành phân của HTML</b> nhằm trang trí cho website trở nên đẹp hơn. Chúng ta sử dụng background-color để tạo ra màu nền cho website và các phần tử web. Sử dụng color để tạo màu cho các chữ. Sử dụng font-family để thiết lập kiểu font. Sử dụng font-size để thiết lập kích thướt nội dung trong website và text-align để canh giữa các đoạn văn bản.
 
 
 
