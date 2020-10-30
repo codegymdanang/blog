@@ -6,21 +6,24 @@ category: laptrinhweb
 tags: [html]
 summery: Block và Inline   
 image: /images/blog/angular.png
-description : Hướng dẫn sử dụng block và inline trong HTML trong dự án làm web. Phân biệt sự khác nhau giữa block va inline trong lập trình web.
+description : Sử dụng thuộc tính display mặc định Block và Inline trong lập trình web HTML nhằm mục đích để các thẻ có thể được hiển thị lên website. Bài viết sẽ giới thiệu về Block và Inline trong HTML, và hướng dẫn thao tác được các thẻ phổ biến sử dụng thuộc tính Block và Inline trong lập trình web HTML bao gồm thẻ DIV và thẻ Span. Sự khác nhau giữa 2 thẻ này trong HTML để từ đó biết được khi nào thì dùng thẻ DIV, khi nào thì dùng thẻ Span cho phù hợp trong lập trình web HTML.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng thẻ <b>block</b> và thẻ <b> inline </b> trong lập trình web là như thế nào?
+Trong <b>lập trình web HTML</b>, để các thẻ có thể được hiển thị lên website thì mỗi thẻ trong HTML đều có thuộc tính display với giá trị mặc định. Có 2 giá trị display mặc định trong HTML là <b>block</b> và <b>inline</b>.
+<br>
+Trong bài viết hôm nay, anh sẽ giới thiệu đến các bạn về <b>Block và Inline trong lập trình web HTML</b>, hướng dẫn áp dụng được các thẻ phổ biến sử dụng thuộc tính <b>Block và Inline trong lập trình web HTML</b> bao gồm thẻ DIV và thẻ Span. Sự khác nhau giữa 2 thẻ này trong HTML để từ đó biết được khi nào thì dùng thẻ DIV, khi nào thì dùng thẻ Span cho phù hợp trong <b>lập trình web</b>.
 
-# **1. Block và Inline trong HTML**
 
-Mọi thẻ trong HTML đều có thuột tính display với giá trị mặc định để thẻ đó được hiển thị lên website. Có 2 giá trị display mặc định là block và inline 
+## **1. Block và Inline trong HTML**
 
-# **2. Block trong HTML**
+Mọi thẻ trong HTML đều có thuộc tính display với giá trị mặc định để thẻ đó được hiển thị lên website. Có 2 giá trị display mặc định là <b>block</b> và <b>inline</b> 
+
+## **2. Block trong HTML**
 
 Một block luôn luôn bắt đầu bằng một dòng mới và có độ dài full màn hình từ trái sang phải. Ví dụ sau đây ta dùng thẻ DIV là một block. Mặc định thuộc tính display của thẻ DIV là block.
 
@@ -47,7 +50,7 @@ Như ta thấy thẻ div chứa chữ helloworld được trải dài từ trái
 
 Ngoài thẻ DIV có thuộc tính display có giá trị là block thì chúng ta còn có các thẻ khác trong HTML như : address ,dl , h1 -> h6, ol, video, article, dt, header, p, aside, fieldset, hr, pre, blockquote, figcaption, li, section, canvas, figure, main, table, dd, footer, nav, tfoot, div, form, noscript, ul.
 
-# **3. Inline trong HTML**
+## **3. Inline trong HTML**
 
 Thẻ inline không bắt đầu bằng một dòng mới và không chiếm diện tích full màn hình website từ trái qua phải mà chỉ chiếm diện tích nhất định. Ví dụ sau đây ta dùng thẻ span
 
@@ -74,7 +77,7 @@ Như các em thấy border (đường viền) xung quanh chữ helloworld chữ 
 
 Chúng ta có những thẻ inline tương tự như span như : a, button, input, samp, sup, abbr, cite, script, textarea, acronym, code, label, select, time, b, map, small, tt, bdo, em, object, span, img.
 
-# **4. Thẻ DIV trong HTML**
+## **4. Thẻ DIV trong HTML**
 
 Thẻ div được sử dụng như một container (chứ nhiều thẻ khác trong nó). Các em tưởng tượng như mình dùng thẻ div để bọc tất cả các phần tử HTML vào trong một nhóm. Thẻ  DIV được sử dụng chung với CSS để thiết lập các thuộc tính cho các phần tử bên trong nó.
 
@@ -99,7 +102,7 @@ Ví dụ dưới đây anh tạo một trang web login để người dùng nh�
 
 Như vậy thẻ DIV là một block. Chúng ta sử dụng Block khi muốn nhóm các thành phần với nhau lại thành một khối. Đồng thời chúng ta muốn block đó phải bắt đầu bằng một dòng mới.
 
-# **5. Thẻ Span trong HTML**
+## **5. Thẻ Span trong HTML**
 
 Thẻ Span thì sử dụng thuộc tính inline. Nó là một container như khác với DIV nó chỉ chứa một phần của Text hoặc một phần của tài liệu. Nó không chứa các thành phần web
 
@@ -126,7 +129,7 @@ Thẻ Span thì sử dụng thuộc tính inline. Nó là một container như k
 
 Ở ví dụ trên ta thấy chỉ mỗi từ blue là được in màu xanh nước biển còn lại các chữ khác thì bình thường.
 
-# **6. Kết luận**
+## **6. Kết luận**
 
 Chúng ta có 2 cách để hiện thị các thẻ HTMl lên website là block và inline. Block được sử dụng để nhóm các thành phần web khác lại với nhau thành một khối và nó bắt đầu bằng một dòng mới. Inline thì không bắt đầu bằng một dòng mới mà nó chỉ có tác dụng một phần nào đó trong text hay trong đoạn văn. DIV mặc định là sử dụng giá trị Block còn Span là giá trị inline
 
