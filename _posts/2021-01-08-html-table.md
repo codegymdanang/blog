@@ -12,11 +12,11 @@ youtubeId: Ex3glZTCvlY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng thẻ <b>table</b> là như thế nào?
 
-# **1. Tạo table**
+## **1. Tạo table**
 
 Để tạo table trong HTML chúng ta sử dụng thẻ table. Table được cấu tạo bởi các dòng (row) và các cột (colum). Để tạo row chúng ta dùng thẻ tr và để tạo table chúng ta dùng thẻ td.
 
@@ -54,7 +54,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụ
 
 - Nếu như chúng ta không muốn có border trong table thì chúng ta thiết lập thuộc tính border = 0.
 
-# **2. Tiêu đề table**
+## **2. Tiêu đề table**
 
 Chúng ta tạo ra tiêu đề cho table bằng cách sử dụng thẻ th như sau
 
@@ -93,7 +93,7 @@ Chúng ta tạo ra tiêu đề cho table bằng cách sử dụng thẻ th như 
 ![table2](/images/post/html/table2.png){:class="img-responsive"}
 {: refdef}
 
-# **3. Khoảng cách dòng và cột**
+## **3. Khoảng cách dòng và cột**
 
 Chúng ta có thể thiết lập khoảng cách giữa các ô trong table bằng cách sử dụng 2 thuộc tính cellpadding và cellspacing.
 
@@ -131,7 +131,7 @@ Chúng ta có thể thiết lập khoảng cách giữa các ô trong table bằ
 ![table3](/images/post/html/table3.png){:class="img-responsive"}
 {: refdef}
 
-# **4. Trộn các dòng và cột**
+## **4. Trộn các dòng và cột**
 
 Chúng ta có thể trộn (merge) các dòng và cột bằng cách sử dụng thuột tính colspan và rowspann như sau
 
@@ -174,7 +174,7 @@ Chúng ta có thể trộn (merge) các dòng và cột bằng cách sử dụng
 ![table4](/images/post/html/table4.png){:class="img-responsive"}
 {: refdef}
 
-# **5. Thiết lập chiều cao và dài cho table**
+## **5. Thiết lập chiều cao và dài cho table**
 
 Chúng ta sử dụng thuộc tính width và height để xát định chiều cao và rộng cho table
 
@@ -205,7 +205,7 @@ Chúng ta sử dụng thuộc tính width và height để xát định chiều 
 
 {% endhighlight %} 
 
-# **6. Tiêu đề cho table**
+## **6. Tiêu đề cho table**
 
 Chúng ta có thể thêm tiêu đề cho table bằng thuộc tính caption như sau
 
@@ -241,7 +241,7 @@ Chúng ta có thể thêm tiêu đề cho table bằng thuộc tính caption nh�
 ![table5](/images/post/html/table5.png){:class="img-responsive"}
 {: refdef}
 
-# **6. Header Body và Footer trong table**
+## **7. Header Body và Footer trong table**
 
 Chúng ta sử dụng thead để tạo header trong table, tbody để chỉ nội dung bên trong table và tfoot để tạo ra footer
 
