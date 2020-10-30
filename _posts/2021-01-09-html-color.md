@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [html]
 summery: Màu sắc   
 image: /images/blog/angular.png
-description : Sử dụng màu sắc trong HTML trong dự án làm web. Hướng dẫn sử dụng màu sắc trong HTML vào dự án web. 
+description : Hướng dẫn được cho các người học lập trình web HTML cách sử dụng màu sắc trong HTML. Trình bày chi tiết 3 cách để thêm màu sắc vào website bao gồm dùng tên màu sắc, dùng bảng mã hex codes hoặc sử dụng RGB làm giá trị của thuộc tính màu sắc. Bài viết cũng sẽ chia sẻ cách thay đổi background của website bằng thuộc tính bgcolor. 
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -14,7 +14,10 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng thẻ <b>màu sắc</b> là như thế nào?
+Khi làm trong các dự án <b>lập trình web HTML</b>, bên cạnh sử dụng các thẻ, thuộc tính, định dạng, cụm từ, hình ảnh và bảng, không thể không sử dụng màu sắc để thêm vào trong website để giúp phân biệt rõ ràng giữa các đối tượng cũng như giúp website trở nên bắt mắt hơn.
+<br>
+Vậy làm cách nào để sử dụng màu sắc trong lập trình web HTML? Cách để “đổ” những màu sắc như mong muốn cho website? Hay có đổi được background của website hay không? Bài viết dưới đây sẽ lần lượt giải đáp những thắc mắc trên cho bạn, đồng thời với những ví dụ minh hoạ kèm theo trong bài viết sẽ giúp bạn biết cách để tự thêm được các màu sắc vào website.
+
 
 ## **1. Màu sắc**
 
