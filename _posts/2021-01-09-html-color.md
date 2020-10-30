@@ -12,16 +12,16 @@ youtubeId: Ex3glZTCvlY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng thẻ <b>màu sắc</b> là như thế nào?
 
-# **1. Màu sắc**
+## **1. Màu sắc**
 
-Trong HTML chúng ta có 3 cách để thêm màu sắc vào website, chúng ta sử có thể dùng tên màu sắc, dùng bảng mã hex codes hoặc sử dụng rgb làm giá trị của thuộc tính màu sắc.
+Trong HTML chúng ta có 3 cách để thêm màu sắc vào website, chúng ta có thể dùng tên màu sắc, dùng bảng mã hex codes hoặc sử dụng rgb làm giá trị của thuộc tính màu sắc.
 
 
-# **2. Sử dụng tên**
+## **2. Sử dụng tên**
 
 Chúng ta có tên các màu sắc sau đây. 
 
@@ -54,7 +54,7 @@ Chúng ta có tên các màu sắc sau đây.
 
 {% endhighlight %} 
 
-# **3. Sử dụng Hex Codes**
+## **3. Sử dụng Hex Codes**
 
 Chúng ta có bảng mã hex code như sau
 
@@ -87,7 +87,7 @@ Chúng ta có bảng mã hex code như sau
 
 {% endhighlight %} 
 
-# **4. Sử dụng RGB**
+## **4. Sử dụng RGB**
 
 {:refdef: style="text-align: center;"}
 ![color3](/images/post/html/color3.png){:class="img-responsive"}
@@ -118,7 +118,7 @@ Chúng ta có bảng mã hex code như sau
 
 {% endhighlight %}
 
-# **5. Background của website**
+## **5. Background của website**
 
 Mặc định các background màu nền của website đều là màu trắng. Chúng ta có thể thay đổi màu nền hoặc thêm ảnh nền của website bằng cách sử dụng thuộc tính bgcolor 
 
