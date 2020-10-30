@@ -6,17 +6,20 @@ category: laptrinhweb
 tags: [html]
 summery: Cụm từ   
 image: /images/blog/angular.png
-description : Sử dụng các thẻ cụm từ trong HTML trong dự án làm web. Hướng dẫn sử dụng các cụm từ  HTML vào dự án web. 
+description : Bài viết giới thiệu và hướng dẫn cách thao tác thông qua các ví dụ minh hoạ kèm theo trong bài. Nhằm giúp các bạn sử dụng được các thẻ cụm từ phrasal trong lập trình web HTML bao gồm các thẻ em, mark, strong, abbr, blockquote, code và thẻ address. Trong đó, mỗi thẻ có chức năng khác nhau như nhấn mạnh, highlight, in đậm, gạch dưới hay trích dẫn văn bản, hiển thị địa chỉ hay nhúng source code của các ngôn ngữ vào html. 
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng thẻ <b>cụm từ </b> là như thế nào?
+Trong <b>lập trình web HTML</b>, mỗi <b>thẻ cụm từ phrasal</b> được tạo ra cho mỗi mục đích cụ thể khác nhau. Để giúp các bạn hiểu rõ hơn về các thẻ cụm từ trong HTML, bài viết này anh sẽ giới thiệu và hướng dẫn cách thao tác để các bạn sử dụng được các <b>thẻ cụm từ phrasal trong lập trình web HTML</b> bao gồm các thẻ em, mark, strong, abbr, blockquote, code và thẻ address. Trong đó, mỗi thẻ có chức năng khác nhau như nhấn mạnh, highlight, in đậm, gạch dưới hay trích dẫn văn bản, hiển thị địa chỉ hay nhúng source code của các ngôn ngữ vào html. 
+<br>
+Vậy để nắm kĩ hơn chức năng mỗi thẻ cũng như cách thực hiện với các <b>thẻ cụm từ phrasal trong lập trình web HTML</b>, các bạn đọc thêm những chia sẻ dưới đây nhé!.  
 
-# **1. Nhấn mạnh văn bản**
+
+## **1. Nhấn mạnh văn bản**
 
 Để nhấn mạnh một nội dung trong văn bản ta sử dụng thẻ em như sau
 
@@ -43,7 +46,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụ
 {: refdef}
 
 
-# **2. Highlight văn bản**
+## **2. Highlight văn bản**
 
 Chúng ta sử dụng thẻ mark để làm highlight một từ hoặc nhiều từ như sau
 
@@ -70,7 +73,7 @@ Chúng ta sử dụng thẻ mark để làm highlight một từ hoặc nhiều 
 {: refdef}
 
 
-# **3. In đậm văn bản**
+## **3. In đậm văn bản**
 
 Chúng ta sử dụng thẻ strong để in đậm chữ
 
@@ -95,7 +98,7 @@ Chúng ta sử dụng thẻ strong để in đậm chữ
 ![phrase3](/images/post/html/phrase3.png){:class="img-responsive"}
 {: refdef}
 
-# **4. Gạch dưới văn bản**
+## **4. Gạch dưới văn bản**
 
 Chúng ta muốn gạch dưới một từ thì sử dụng thẻ abbr như sau
 
@@ -120,7 +123,7 @@ Chúng ta muốn gạch dưới một từ thì sử dụng thẻ abbr như sau
 ![phrase4](/images/post/html/phrase4.png){:class="img-responsive"}
 {: refdef}
 
-# **5. Trích dẫn văn bản**
+## **5. Trích dẫn văn bản**
 
 Để trích dẫn một văn bản ở nơi khác vào trang web của mình chúng ta sử dụng thẻ blockquote như sau
 
@@ -148,7 +151,7 @@ Chúng ta muốn gạch dưới một từ thì sử dụng thẻ abbr như sau
 ![phrase5](/images/post/html/phrase5.png){:class="img-responsive"}
 {: refdef}
 
-# **6. Nhúng source code của các ngôn ngữ vào html**
+## **6. Nhúng source code của các ngôn ngữ vào html**
 
 Chúng ta có thể hiển thị code của các ngôn ngữ lên trang web bằng cách sử dụng thẻ code như sau
 
@@ -169,7 +172,7 @@ Chúng ta có thể hiển thị code của các ngôn ngữ lên trang web bằ
 
 {% endhighlight %} 
 
-# **7. Địa chỉ**
+## **7. Địa chỉ**
 
 Chúng ta sử dụng thẻ address để hiển thị địa chỉ như sau
 
