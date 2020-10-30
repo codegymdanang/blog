@@ -12,9 +12,12 @@ youtubeId: Ex3glZTCvlY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách thiết kế layout (khung) của một trang web
+Khi bạn truy cập vào một website nào đó, thứ đầu tiên bạn sẽ nhìn thấy là hình thức, bố cục của website. Vậy bạn có thắc mắc làm cách nào để tạo ra những phần trong website, như thế nào để bố trí và sắp xếp các thành phần chính cho một website không?
+<br>
+Bài viết hôm nay anh sẽ chia sẻ về cách bố trí các thành phấn chính cho một website trong <b>lập trình web HTML</b>, <b>layout trong lập trình web HTML</b> là gì? Sau đó anh sẽ trình bày thêm về các phần tử HTML để làm ra bố cục của một trang website bao gồm thẻ header, nav, section, article, aside, footer. Cũng như áp dụng được các kĩ thuật trong quá trình làm bố cục một website gồm 4 phương pháp: sử dụng CSS Framework, thuộc tính CSS Float, CSS Flex, CSS Grid.
+
 
 ## **1. Layout của một website**
 
