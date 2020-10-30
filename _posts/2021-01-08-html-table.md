@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [html]
 summery: Table   
 image: /images/blog/angular.png
-description : Sử dụng table trong HTML trong dự án làm web. Hướng dẫn sử dụng table trong HTML vào dự án web. 
+description : Trình bày và hướng dẫn các cách sử dụng phổ biến và quan trọng của thẻ tạo bảng table trong lập trình web HTML bao gồm cách làm thế nào để tạo bảng, tiêu đề bảng, khoảng cách dòng và cột, trộn các dòng, cột cũng như cách thiết lập chiều cao, chiều dài và header, footer cho bảng. Để thao tác với bảng table trong HTML, chúng ta sẽ sử dụng các thẻ và các thuộc tính như thẻ table, thẻ tr, thẻ td, thẻ th, thuộc tính cellpadding, cellspacing, thuộc tính colspan, rowspan, width, height, thuộc tính caption, thead, toddy. 
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -14,7 +14,12 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng thẻ <b>table</b> là như thế nào?
+Trong quá trình học và làm việc với <b>lập trình web HTML</b>,  chắc hẳn các bạn sẽ cần sử dụng <b>thẻ tạo bảng table</b> rất nhiều. Vì vậy đòi hỏi người học lập trình web HTML như chúng ta phải nắm vững các loại thẻ cũng như cách sử dụng với mỗi loại thẻ và các thuộc tính để thao tác với bảng table trong lập trình web HTML.
+<br>
+Trong phạm vi bài viết này, anh sẽ trình bày và hướng dẫn các bạn các cách sử dụng phổ biến và quan trọng của <b>thẻ tạo bảng table trong lập trình web HTML</b> bao gồm cách làm như thế nào để tạo bảng, tiêu đề bảng, khoảng cách dòng và côt, trộn các dòng, cột cũng như cách thiết lập chiều cao, chiều dài và header, footer cho bảng. Để thao tác với bảng table trong HTML, chúng ta sẽ sử dụng các thẻ và các thuộc tính như thẻ table, thẻ tr, thẻ td, thẻ th, thuộc tính cellpadding, cellspacing, thuộc tính colspan, rowspan, width, height, thuộc tính caption, thead, toddy.
+<br>
+Cụ thể cách sử dụng <b>thẻ tạo bảng table</b> và các thuộc tính như thế nào để thao tác với bảng table trong <b>lập trình web HTML</b>? Những chia sẻ dưới đây sẽ giúp bạn giải đáp những thắc mắc trên ngay nhé.
+
 
 ## **1. Tạo table**
 
