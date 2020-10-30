@@ -6,17 +6,22 @@ category: laptrinhweb
 tags: [html]
 summery: Hình Ảnh   
 image: /images/blog/angular.png
-description : Sử dụng các hình ảnh trong HTML trong dự án làm web. Hướng dẫn sử dụng hình ảnh trong HTML vào dự án web. 
+description : Trình bày và hướng dẫn các cách sử dụng phổ biến và quan trọng của thẻ hình ảnh img trong lập trình web HTML bao gồm chèn ảnh vào văn bản, thêm kích thước, tạo border, canh chỉnh cho hình ảnh và cách thêm đường link vào hình ảnh. Để sử dụng thẻ hình ảnh image trong HTML, chúng ta sẽ sử dụng các thẻ và các thuộc tính như thẻ img, thẻ a, thuộc tính src, alt, width, height, border, align, href.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng thẻ <b>hình ảnh </b> là như thế nào?
+Trong quá trình học và làm việc với <b>lập trình web HTML</b>,  chắc hẳn các bạn sẽ cần sử dụng các <b>thẻ hình ảnh img</b> rất nhiều. Vì vậy đòi hỏi người học lập trình web HTML như chúng ta phải nắm vững các loại thẻ cũng như cách sử dụng mỗi loại thẻ hình ảnh img để áp dụng thành thạo khi làm trong các dự án lập trình web HTML.
+<br>
+Trong phạm vi bài viết này, anh sẽ trình bày về các cách sử dụng <b>thẻ hình ảnh img quan trọng và phổ biến trong lập trình web HTML</b> bao gồm chèn ảnh vào văn bản, thêm kích thước, tạo border, canh chỉnh cho hình ảnh và cách thêm đường link vào hình ảnh. Để sử dụng thẻ hình ảnh image trong HTML, chúng ta sẽ sử dụng các thẻ và các thuộc tính.
+<br>
+Cụ thể cách thao tác với các thẻ và các thuộc tính như thế nào để sử dụng <b>thẻ hình ảnh trong HTML</b> ? Những chia sẻ dưới đây sẽ sớm giúp bạn giải đáp những thắc mắc trên ngay nhé.
 
-# **1. Chèn ảnh vào văn bản**
+
+## **1. Chèn ảnh vào văn bản**
 
 Để chèn ảnh vào văn bản ta sử dụng thẻ img với cú pháp như sau
 
@@ -50,7 +55,7 @@ Ví dụ chúng ta chèn một ảnh test.png vào tài liệu
 
 - Thuộc tính alt : chú thích cho hình ảnh
 
-# **2. Thêm kích thướt cho hình ảnh**
+## **2. Thêm kích thướt cho hình ảnh**
 
 Chúng ta có thể thêm kích thước chiều dài và rộng cho hình ảnh bằng thuộc tính width và height như sau
 
@@ -73,7 +78,7 @@ Chúng ta có thể thêm kích thước chiều dài và rộng cho hình ảnh
 
 {% endhighlight %}
 
-# **3. Tạo border hình ảnh**
+## **3. Tạo border hình ảnh**
 
 Chúng ta có thể tạo border cho hình ảnh bằng cách dùng thuộc tính border
 
@@ -97,7 +102,7 @@ Chúng ta có thể tạo border cho hình ảnh bằng cách dùng thuộc tín
 
 {% endhighlight %}
 
-# **4. Canh chỉnh hình ảnh**
+## **4. Canh chỉnh hình ảnh**
 
 Chúng ta có thể canh chỉnh hình ảnh ở vị trí bên trái, phải hay ở giữa bằng cách sử dụng thuộc tính align như sau
 
@@ -119,7 +124,7 @@ Chúng ta có thể canh chỉnh hình ảnh ở vị trí bên trái, phải ha
 
 {% endhighlight %}
 
-# **5. Image link**
+## **5. Image link**
 
 Chúng ta có thể thêm đường link vào ảnh. Khi người dùng click vô ảnh sẽ chạy tới trang web mà chúng ta link đến bằng cách sử dụng thẻ a và thuộc tính href (trang web sẽ được mở)
 
