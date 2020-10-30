@@ -55,7 +55,7 @@ Ví dụ chúng ta chèn một ảnh test.png vào tài liệu
 
 - Thuộc tính alt : chú thích cho hình ảnh
 
-## **2. Thêm kích thướt cho hình ảnh**
+## **2. Thêm kích thước cho hình ảnh**
 
 Chúng ta có thể thêm kích thước chiều dài và rộng cho hình ảnh bằng thuộc tính width và height như sau
 
