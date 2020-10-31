@@ -1,7 +1,7 @@
 ---
 layout: course-java
 title: Sử dụng các tập hợp trong lập trình Java
-slug : su-dung-các-tap-hop-trong-lap-trinh-java
+slug : su-dung-cac-tap-hop-trong-lap-trinh-java
 category: laptrinhjava
 tags: [java core]
 summery: Tổng hợp các tập hợp
