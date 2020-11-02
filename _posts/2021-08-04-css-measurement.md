@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong quá trình làm <b>lập trình web</b>, khi thực hiện một số các thuộc tính đòi hỏi cần sử dụng các đơn vị đo độ dài. Vì vậy trong CSS cung cấp rất nhiều đơn vị đo để người dùng có thể thao tác dễ dàng và nhanh chóng bao gồm các đơn vị đo tuyệt đối và tương đối. Cụ thể đơn vị centimeters, ex, in, millimeters, pica, point, pixel và phần trăm, em.
+Trong quá trình làm <b>lập trình web</b>, khi thực hiện một số các thuộc tính đòi hỏi cần sử dụng các đơn vị đo độ dài. Vì vậy trong CSS cung cấp rất nhiều đơn vị đo để người dùng có thể thao tác dễ dàng và nhanh chóng trong quá trình làm các dự án <b>lập trình web CSS</b> bao gồm các đơn vị đo tuyệt đối và tương đối. Cụ thể đơn vị centimeters, ex, in, millimeters, pica, point, pixel và phần trăm, em.
 <br>
 Những chia sẻ dưới đây sẽ giúp các bạn hiểu rõ hơn các đơn vị đo trên, cũng như hướng dẫn cụ thể cách khai báo đối với mỗi đơn vị đo trong <b>lập trình web CSS</b> thông qua các ví dụ minh hoạ.
 
