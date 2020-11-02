@@ -1,22 +1,25 @@
 ---
 layout: course-css
-title: Sử dụng đơn vị do trong CSS  
+title: Sử dụng đơn vị đo trong CSS  
 slug : su-dung-don-vi-do-trong-css
 category: laptrinhweb
 tags: [css]
 summery: Đơn vi đo  
 image: /images/blog/angular.png
-description : Sử dụng đơn vi đo trong trong dự án làm web. Hướng dẫn Sử dụng đơn vi đo trong CSS vào dự án web. 
+description : Những chia sẻ trong bài giúp hiểu rõ các đơn vị đó tuyệt đối và tương đối trong lập trình web CSS bao gồm đơn vị đo centimeters, ex, in, millimeters, pica, point, pixel và phần trăm, em. Với những ví dụ minh hoạ chi tiết kèm theo cho mỗi đơn vị đo, bài viết sẽ hướng dẫn được bạn cách khai báo với mỗi đơn vị đo trong lập trình web. 
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>đơn vi đo</b> là như thế nào?
+Trong quá trình làm <b>lập trình web</b>, khi thực hiện một số các thuộc tính đòi hỏi cần sử dụng các đơn vị đo độ dài. Vì vậy trong CSS cung cấp rất nhiều đơn vị đo để người dùng có thể thao tác dễ dàng và nhanh chóng bao gồm các đơn vị đo tuyệt đối và tương đối. Cụ thể đơn vị centimeters, ex, in, millimeters, pica, point, pixel và phần trăm, em.
+<br>
+Những chia sẻ dưới đây sẽ giúp các bạn hiểu rõ hơn các đơn vị đo trên, cũng như hướng dẫn cụ thể cách khai báo đối với mỗi đơn vị đo trong <b>lập trình web CSS</b> thông qua các ví dụ minh hoạ.
 
-# **1. Đơn vị do**
+
+## **1. Đơn vị đo**
 
 Trong css hỗ trợ cho chúng ta các đơn vị đo như inches, centimeters, phần trăm , em hoặc point 
 
@@ -28,7 +31,7 @@ Trong css hỗ trợ cho chúng ta các đơn vị đo như inches, centimeters,
 
 {% endhighlight %}
 
-# **2. Đơn vị do phần trăm**
+## **2. Đơn vị đo phần trăm**
 
 Ví dụ anh mong muốn các chữ trong đoạn văn bản có chiều cao là 125% thì anh khai báo như sau
 
@@ -38,7 +41,7 @@ Ví dụ anh mong muốn các chữ trong đoạn văn bản có chiều cao là
 
 {% endhighlight %}
 
-# **3. Đơn vị do centimeters**
+## **3. Đơn vị đo centimeters**
 
 Ví dụ như anh mong muốn khoảng cách khối lệnh div  là 2 cm thì anh khai báo như sau
 
@@ -48,7 +51,7 @@ div { margin-bottom: 2cm;}
 
 {% endhighlight %}
 
-# **4. Đơn vị do em**
+## **4. Đơn vị đo em**
 
 Ví dụ anh mong muốn khoảng cách giữa các ký tự trong đoạn văn là 7em.
 
@@ -58,7 +61,7 @@ p {letter-spacing: 7em;}
 
 {% endhighlight %}
 
-# **5. Đơn vị do ex**
+## **5. Đơn vị đo ex**
 
 Ví dụ anh muốn kích thước của fornt chữ cho chiều cao trong một đoạn văn bản
 
@@ -68,7 +71,7 @@ p {font-size: 24pt; line-height: 3ex;}
 
 {% endhighlight %}
 
-# **6. Đơn vị do in**
+## **6. Đơn vị đo in**
 
 Ví dụ anh muốn khoảng cách giữa các từ trong một văn bản cách nhau 15 inches
 
@@ -79,7 +82,7 @@ p {word-spacing: .15in;}
 
 {% endhighlight %}
 
-# **7. Đơn vị do milimeters**
+## **7. Đơn vị đo milimeters**
 
 Ví dụ anh muốn khoảng cách giữa các từ trong một văn bản cách nhau 15 milimeters
 
@@ -90,7 +93,7 @@ p {word-spacing: .15mm;}
 
 {% endhighlight %}
 
-# **8. Đơn vị do pica**
+## **8. Đơn vị đo pica**
 
 1 pica sẽ bằng 12 points do đó 6 pica sẽ tương ứng là 1 inch. Ví dụ anh muốn kích thướt font chữ trong đoạn văn bản là 20 pica.
 
@@ -100,7 +103,7 @@ p {font-size: 20pc;}
 
 {% endhighlight %}
 
-# **9. Đơn vị do point**
+## **9. Đơn vị đo point**
 
 Một point sẽ tương ứng với 1/72 inch. Ví dụ anh muốn font chữ có kích thướt 18pt 
 
@@ -110,7 +113,7 @@ body {font-size: 18pt;}
 
 {% endhighlight %}
 
-# **10. Đơn vị do pixel**
+## **10. Đơn vị đo pixel**
 
 Ví dụ anh muốn khoảng cách của đoạn văn bản cách lề là 25 pixel.
 
