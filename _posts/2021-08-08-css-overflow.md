@@ -6,21 +6,26 @@ category: laptrinhweb
 tags: [css]
 summery: Overflow 
 image: /images/blog/angular.png
-description : Sử dụng thuộc tính overflow trong trong css. Hướng dẫn Sử dụng thuộc tính overflow trong CSS vào dự án web. 
+description : Bạn đang lập trình web thì gặp trường hợp nội dung văn bản bị tràn ra khỏi các phần tử HTML. Bài viết dưới đây hướng dẫn bạn cách sử dụng thuộc tính overflow để khắc phục tình trạng trên. Trước hết cùng tìm hiểu thuộc tính overflow là gì? Sau đó lần lượt trình bày và hướng dẫn bạn cách thao tác với các giá trị có trong thuộc tính overflow gồm giá trị visible, hidden, scroll, auto. Cuối cùng là trình bày về thuộc tính overflow-x và overflow-y trong CSS. 
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>overflow</b> là như thế nào?
+Chắc hẳn trong quá trình làm các dự án <b>lập trình web</b>,  một số các bạn sẽ gặp phải trường hợp nội dung văn bản bị tràn ra khỏi các phần tử HTML, vì những phần tử trong có kích thước chiểu dài và cao lớn phần tử bên ngoài bao bọc nó.
+<br>
+Trong <b>lập trình web CSS</b>, để khắc phục tình trạng này CSS cung cấp cho người dùng <b>thuộc tính overflow</b>. Trong bài viết hôm nay, anh giúp cho các bạn hiểu thuộc tính overflow là gì? Giới thiệu và hướng dẫn cách sử dụng các giá trị có trong thuộc tính overflow bao gồm giá trị visible, hidden, scroll, auto. Cuối cùng là trình bày về thuộc tính overflow-x và overflow-y trong CSS.
+<br>
+Hi vọng với những chia sẻ ngay dưới đây, có thể giúp các bạn áp dụng được thuộc tính overflow vào quá trình làm <b>lập trình web</b>, để trang website được hoàn thiện nhất.
 
-# **1. Thuộc tính overflow làm gì**
 
-Chúng ta sử dụng thuộc tính overflow khi nội dung trong phần tử HTML có kích thướt chiều dài và cao lớn hơn phần tử bên ngoài bao bọc nó. Khi đó sẽ xuất hiện thanh trượt xuống hoặc trượt ngang.
+## **1. Thuộc tính overflow làm gì**
 
-Ví dụ sau đây ta có nội dung bên trong thẻ div lớn hơn kích thướt của thẻ div bọc ngoài nội dung  
+Chúng ta sử dụng thuộc tính overflow khi nội dung trong phần tử HTML có kích thước chiều dài và cao lớn hơn phần tử bên ngoài bao bọc nó. Khi đó sẽ xuất hiện thanh trượt xuống hoặc trượt ngang.
+
+Ví dụ sau đây ta có nội dung bên trong thẻ div lớn hơn kích thước của thẻ div bọc ngoài nội dung  
 
 {% highlight html linenos %}
 
@@ -52,7 +57,7 @@ Ví dụ sau đây ta có nội dung bên trong thẻ div lớn hơn kích thư�
 ![text1](/images/post/css/overflow.png){:class="img-responsive"}
 {: refdef}
 
-# **2. Các giá trị có trong thuộc tính overflow**
+## **2. Các giá trị có trong thuộc tính overflow**
 
 - visible : đây là giá trị mặc định. Khi nội dung bên trong lớn hơn phần tử bọc nó thì nội dung sẽ tràn ra ngoài.
 
@@ -62,7 +67,7 @@ Ví dụ sau đây ta có nội dung bên trong thẻ div lớn hơn kích thư�
 
 - auto : tương tự như scroll nhưng thanh trượt sẽ xuất hiện khi cần thiết
 
-# **3. Giá trị visible**
+## **3. Giá trị visible**
 
 
 {% highlight html linenos %}
@@ -96,7 +101,7 @@ div {
 ![text1](/images/post/css/overflow1.png){:class="img-responsive"}
 {: refdef}
 
-# **4. Giá trị hidden**
+## **4. Giá trị hidden**
 
 
 {% highlight html linenos %}
@@ -131,7 +136,7 @@ div {
 ![text1](/images/post/css/overflow2.png){:class="img-responsive"}
 {: refdef}
 
-# **5. Giá trị scroll**
+## **5. Giá trị scroll**
 
 {% highlight html linenos %}
 
@@ -165,7 +170,7 @@ div {
 ![text1](/images/post/css/overflow3.png){:class="img-responsive"}
 {: refdef}
 
-# **6. Giá trị auto**
+## **6. Giá trị auto**
 
 {% highlight html linenos %}
 
@@ -199,7 +204,7 @@ div {
 ![text1](/images/post/css/overflow4.png){:class="img-responsive"}
 {: refdef}
 
-# **7. Thuộc tính overflow-x và overflow-y**
+## **7. Thuộc tính overflow-x và overflow-y**
 
 Chúng ta sử dụng thuộc tính overflow-x và overflow-y để canh chỉnh nội dung theo chiều dài và cao. Nếu chiều dài hoặc chiều rộng mà cao và rộng hơn thành phần chứa nó ta có thể thêm các thanh trược vào theo chiều rộng và cao mà mình muốn hoặc chỉ thêm thanh trược chiều cao hoặc chỉ thêm thanh trược chiều rộng
 
