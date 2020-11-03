@@ -6,17 +6,22 @@ category: laptrinhweb
 tags: [css]
 summery: Height & Width 
 image: /images/blog/angular.png
-description : Sử dụng thuộc tính height và width trong trong css. Hướng dẫn Sử dụng height và width trong CSS vào dự án web. 
+description : Trình bày và hướng dẫn cách làm đối với mỗi thuộc tính trong lập trình web CSS kèm theo các ví dụ minh hoạ. Trước hết, các bạn sẽ được tìm hiểu các giá trị có trong thuộc tính height và width bao gồm auto, length, phần trăm, initial, inherit. Sau đó tiếp tục đi qua các thuộc tính max-width, min-width, max-height, min-height trong lập trình web CSS. 
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>thuộc tính height và width</b> trong css?
+Như trong bài viết về Sử dụng CSS trong HTML anh đã chia sẻ, các thuộc tính được sử dụng trong CSS nhằm giúp hiển thị, định dạng các phần tử trong HTML khi ta <b>lập trình web</b>. Trong bài viết hôm nay anh sẽ tiếp tục chia sẻ cho các bạn về <b>thuộc tính height và width trong CSS</b> dùng để thiết lập chiều cao và dài cho phần tử HTML.
+<br>
+Anh sẽ trình bày và hướng dẫn cách làm cho mỗi thuộc tính thông qua các ví dụ minh hoạ. Trước hết, các bạn sẽ được tìm hiểu các giá trị có trong thuộc tính height và width bao gồm auto, length, phần trăm, initial, inherit. Sau đó tiếp tục đi qua các thuộc tính max-width, min-width, max-height, min-height trong <b>lập trình web CSS</b>.
+<br>
+Cụ thể cách thao tác như thế nào với mỗi thuộc tính, các bạn tiếp tục đọc những chia sẻ dưới đây của anh để tìm hiểu thêm nhé!
 
-# **1. Thuộc tính height và width trong css**
+
+## **1. Thuộc tính height và width trong css**
 
 Chúng ta sử dụng thuộc tính height và width để thiết lập chiều cao và dài cho một phần tử HTML
 
@@ -24,7 +29,7 @@ Thuộc tính height và width có thể có các giá trị sau.
 
 - auto : đây là thuộc tính mặc định. Trình duyệt sẽ tính chiều cao và dài cho một phần tử HTML
 
-- length : sử dụng px, cm, và các đơn vị đo khác để xát định chiều cao và dài cho phần tử HTML
+- length : sử dụng px, cm, và các đơn vị đo khác để xác định chiều cao và dài cho phần tử HTML
 
 - %      : sử dụng phần trăm để tính giá trị chiều cao và dài cho các phần tử HTML
 
@@ -79,7 +84,7 @@ div {
 ![text1](/images/post/css/heightwidth1.png){:class="img-responsive"}
 {: refdef}
 
-# **2. Thuộc tính max-width trong css**
+## **2. Thuộc tính max-width trong css**
 
 Chúng ta sử dụng thuộc tính max-width để thiết lập giá trị maxium (giá trị lớn nhất) của chiều dài của một phần tử HTML.
 
@@ -108,7 +113,7 @@ div {
 
 <div></div>
 
-<p>Nếu ta thay đổi kích thướt của trình duyệt nhỏ lại thì tự động thẻ div sẽ tự đều chỉnh cho vừa với trình duyệt.</p>
+<p>Nếu ta thay đổi kích thước của trình duyệt nhỏ lại thì tự động thẻ div sẽ tự đều chỉnh cho vừa với trình duyệt.</p>
 
 </body>
 </html>
@@ -117,9 +122,9 @@ div {
 
 
 
-Nếu ta thay đổi kích thướt của trình duyệt nhỏ lại thì tự động thẻ div sẽ tự đều chỉnh cho vừa với trình duyệt và sẽ không xuất hiện thanh kéo ngang
+Nếu ta thay đổi kích thước của trình duyệt nhỏ lại thì tự động thẻ div sẽ tự đều chỉnh cho vừa với trình duyệt và sẽ không xuất hiện thanh kéo ngang
 
-# **3. Thuộc tính min-width trong css**
+## **3. Thuộc tính min-width trong css**
 
 Ngược với thuộc tính max-width thì thuộc tính min-width sử dụng để thiết lập giá trị min (nhỏ nhất) của chiều dài của một phân tử HTML
 
@@ -158,7 +163,7 @@ span.ex1 {
 
 {% endhighlight %}
 
-# **4. Thuộc tính max-height trong css**
+## **4. Thuộc tính max-height trong css**
 
 Thuộc tính max-heigh để thiết lập giá trị maxium (giá trị lớn nhất) của chiều cao của một phần tử HTML
 
@@ -197,7 +202,7 @@ p.ex1 {
 ![text1](/images/post/css/heightwidth2.png){:class="img-responsive"}
 {: refdef}
 
-# **5. Thuộc tính min-height trong css**
+## **5. Thuộc tính min-height trong css**
 
 Sử dụng thuộc tính min-height để thiết lập chiều cao nhỏ nhất (tối thiểu) cho một phần tử HTML. Nó ngược lại với max-heigh.
 
