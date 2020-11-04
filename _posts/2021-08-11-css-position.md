@@ -6,21 +6,24 @@ category: laptrinhweb
 tags: [css]
 summery: Position 
 image: /images/blog/angular.png
-description : Sử dụng position trong trong dự án làm web. Hướng dẫn Sử dụng position trong CSS vào dự án web. 
+description : Trong lập trình web, để đặt các phần tử web vô những vị trí mà chúng ta mong muốn để bố cục trang web rõ ràng hơn, nội dung dễ đọc hơn, trang web hoạt động tối ưu nhất. Chúng ta sẽ sử dụng thuộc tính position trong CSS. Bài viết này sẽ giúp các bạn hiểu được thuộc tính position trong lập trình web CSS là gì? Những vị trí nào chúng ta có thể sắp xếp phần tử web vào? Và cách làm như thế nào để thao tác với những vị trí relative, static, absolute, fix và sticky. Kèm theo các ví dụ minh hoạ cụ thể cách thao tác để hướng dẫn bạn thực hiện được những vị trí đó trong lập trình web.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>position</b> là như thế nào?
+Như các bạn biết, khi làm việc với <b>lập trình web</b>, một khi các bạn đã có được các phần tử web. Các bạn sẽ cần thao tác thêm rất nhiều các bước nữa để trang web được hoàn thiện nhất có thể. Và bước làm anh muốn nhắc đến ở đây là đặt các phần tử web vô những vị trí mà chúng ta mong muốn để bố cục trang web rõ ràng hơn, nội dung dễ đọc hơn, trang web hoạt động tối ưu nhất. Trong <b>lập trình web CSS<b> để làm được việc này, chúng ta sẽ sử dụng đến <b>thuộc tính positon</b>.
+<br>
+Trong bài viết này, anh sẽ giúp các bạn hiểu được <b>thuộc tính position trong lập trình web</b> là gì? Những vị trí nào chúng ta có thể sắp xếp phần tử web vào? Và cách làm như thế nào để thao tác với những vị trí relative, static, absolute, fix và sticky. Anh sẽ lấy cụ thể các ví dụ minh hoạ cách thao tác để hướng dẫn các bạn thực hiện được những vị trí đó trong <b>lập trình web</b>.
 
-# **1. Position là gì**
 
-Chúng ta sử dụng thuộc tính position để đặt các phẩn tử web ở vị trí mình mong muốn. Trong CSS chúng ta có những vị trí như relative, static, absolute, fix và sticky
+## **1. Position là gì**
 
-# **2. Position static**
+Chúng ta sử dụng <b>thuộc tính position</b> để đặt các phần tử web ở vị trí mình mong muốn. Trong CSS chúng ta có những vị trí như relative, static, absolute, fix và sticky
+
+## **2. Position static**
 
 Đây là vị trí mặc định khi một thành phần web được tạo ra. Chúng ta khai báo như sau position: static
 
@@ -57,7 +60,7 @@ always positioned according to the normal flow of the page:</p>
 ![position1](/images/post/css/position1.png){:class="img-responsive"}
 {: refdef}
 
-# **3. Position relative**
+## **3. Position relative**
 
 Chúng ta sử dụng posistion là relative khi chúng ta muốn phần tử web được tạo ra cách bên trái, phải, trên, dưới so với vị trí mặc định ban đầu. Ví dụ div sau khi được tạo ra nó sẽ cách lề trái 30 px
 
@@ -94,7 +97,7 @@ This div element has position: relative;
 ![position2](/images/post/css/position2.png){:class="img-responsive"}
 {: refdef}
 
-# **4. Position fix**
+## **4. Position fix**
 
 Chúng ta sử dụng position fix khi chúng ta muốn cố định phần tử trên trang web. Có thể cố định phía trên, dưới, trái hoặc phải
 
@@ -134,9 +137,9 @@ This div element has position: fixed;
 ![position3](/images/post/css/position3.png){:class="img-responsive"}
 {: refdef}
 
-# **4. Position absolute**
+## **5. Position absolute**
 
-Chúng ta sử dụng position absolute để canh chỉnh các phẩn tử con bên trong phần tử cha
+Chúng ta sử dụng position absolute để canh chỉnh các phầnn tử con bên trong phần tử cha
 
 
 {% highlight html linenos %}
@@ -182,7 +185,7 @@ div.absolute {
 ![position4](/images/post/css/position4.png){:class="img-responsive"}
 {: refdef}
 
-# **4. Position sticky**
+## **6. Position sticky**
 
 Chúng ta sử dụng position sticky để cố định phần tử khi người dùng kéo nội dung của trang web thì các phần tử sticky vẫn không di chuyển mà cố định cho người dùng
 
