@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [css]
 summery: Box Model 
 image: /images/blog/angular.png
-description : Trong quá trình lập trình web, để thiết kế và điều chỉnh các phần tử của HTML vào đúng vị trí mà mình mong muốn. Các lập trình viên lúc này sẽ cần sử dụng đến thuộc tính Box Model trong CSS, gồm các thành phần là margin, border, padding và content sẽ bao bọc quanh các phần tử của HTML. Bài viết sẽ giúp bạn hiểu được Box Model là gì? Cũng như cách sử dụng Box Model trong lập trình web. Chia sẻ thêm về những lưu ý trong cách tính chiều cao và chiều rộng của thẻ HTML để các bạn tránh trường hợp nhầm lẫn rằng chỉ tính các phần tử HTML mà không nhớ rằng chúng còn được bao bọc bởi Box Model.
+description : Trong quá trình lập trình web, để thiết kế và điều chỉnh các phần tử của HTML vào đúng vị trí mà mình mong muốn. Các lập trình viên lúc này sẽ cần sử dụng đến thuộc tính Box Model trong CSS, gồm các thành phần là margin, border, padding và content sẽ bao bọc quanh các phần tử của HTML. Bài viết này sẽ giúp bạn hiểu được Box Model là gì? Cũng như cách sử dụng Box Model trong lập trình web. Chia sẻ thêm về những lưu ý trong cách tính chiều cao và chiều rộng của thẻ HTML để các bạn tránh trường hợp nhầm lẫn rằng chỉ tính các phần tử HTML mà không nhớ rằng chúng còn được bao bọc bởi Box Model.
 youtubeId: Ex3glZTCvlY
 ---
 
