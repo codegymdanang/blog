@@ -6,19 +6,22 @@ category: laptrinhweb
 tags: [css]
 summery: Pseudo Class 
 image: /images/blog/angular.png
-description : Sử dụng Pseudo Class trong trong dự án làm web. Hướng dẫn Sử dụng Pseudo Class trong CSS vào dự án web. 
+description : Bài viết lần lượt đi qua các phần bao gồm giải thích cho các bạn hiểu được Pseudo Class là gì? Các hiệu ứng có thể sử dụng như link pseudo class, visited pseudo class, hover pseudo class, active pseudo class, focus pseudo class và cách tạo hiệu ứng phần tử con đầu tiên trong lập trình web CSS. Kèm theo các ví dụ minh hoạ hướng dẫn sử dụng đối với mỗi giá trị hiệu ứng trong lập trình web CSS.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>Pseudo Class</b> là như thế nào?
+Thuộc tính <b>Pseudo Class</b> và Pseudo Element trong <b>lập trình web CSS</b> thường rất dễ bị nhầm lẫn, kể cả một số các bạn lập trình viên đã đi làm đôi khi vẫn không phân biệt rõ ràng được. Vì vậy để giúp các bạn-những người học <b>lập trình web</b> có thể nhận biết được sự khác nhau giữa hai thuộc tính Pseudo Class và Pseudo Element để chọn đúng thuộc tính phù hợp áp dụng vào làm web. Anh đã có bài chia sẻ về Pseudo Element, các bạn có thể xem tại đây. Và trong bài viết này, anh sẽ chia sẻ về Pseudo Class. Hi vọng qua 2 bài viết này, các bạn sẽ hiểu rõ được 2 thuộc tính và áp dụng được vào làm web mà không bị nhầm lẫn nữa.
+<br?
+Trong bài viết này anh sẽ lần lượt đi qua các phần bao gồm giải thích cho các bạn hiểu được <b>Pseudo Class</b> là gì? Các hiệu ứng có thể sử dụng như link pseudo-class, visited pseudo-class, hover pseudo-class, active pseudo-class, focus pseudo-class và cách tạo hiệu ứng phần tử con đầu tiên trong <b>lập trình web</b> CSS.
 
-# **1. Pseudo Class là gì**
 
-Chúng ta sử dụng pseduo class để thêm hiệu ứng cho một số thành phần trong web, ví dụ khi người dùng sử dụng con chuột di chuyển qua các phần tử web mình có thể xây dựng các hiệu ứng cho hành động này hoặc khi người dùng rê chuột vào một đường link mình có thể thêm hiệu ứng thay đổi màu sắc. Mình không cần dùng javascript để làm hiệu ứng mà cái này có sẳn trong css
+## **1. Pseudo Class là gì**
+
+Chúng ta sử dụng pseduo class để thêm hiệu ứng cho một số thành phần trong web, ví dụ khi người dùng sử dụng con chuột di chuyển qua các phần tử web mình có thể xây dựng các hiệu ứng cho hành động này hoặc khi người dùng rê chuột vào một đường link mình có thể thêm hiệu ứng thay đổi màu sắc. Mình không cần dùng javascript để làm hiệu ứng mà cái này có sẵn trong css
 
 - Cú pháp như sau
 
@@ -36,7 +39,7 @@ selector.class:pseudo-class {property: value}
 
 {% endhighlight %}
 
-# **2. Hiệu ứng :link pseudo-class**
+## **2. Hiệu ứng :link pseudo-class**
 
 {% highlight html linenos %}
 
@@ -60,7 +63,7 @@ selector.class:pseudo-class {property: value}
 
 - Link Backlink sẽ có màu đen
 
-# **2. Hiệu ứng :visited pseudo-class**
+## **3. Hiệu ứng :visited pseudo-class**
 
 {% highlight html linenos %}
 
@@ -84,7 +87,7 @@ selector.class:pseudo-class {property: value}
 
 - Khi click vào link sẽ có hiệu ứng biến màu của link thành màu xanh lục.
 
-# **3. Hiệu ứng :hover pseudo-class**
+## **4. Hiệu ứng :hover pseudo-class**
 
 Khi di chuyển chuột ngang qua đường link thì sẽ đổi màu
 
@@ -104,7 +107,7 @@ Khi di chuyển chuột ngang qua đường link thì sẽ đổi màu
 
 {% endhighlight %}
 
-# **4. Hiệu ứng :active pseudo-class**
+## **5. Hiệu ứng :active pseudo-class**
 
 {% highlight html linenos %}
 
@@ -123,7 +126,7 @@ Khi di chuyển chuột ngang qua đường link thì sẽ đổi màu
 
 {% endhighlight %}
 
-# **5. Hiệu ứng :focus pseudo-class**
+## **6. Hiệu ứng :focus pseudo-class**
 
 {% highlight html linenos %}
 
@@ -141,7 +144,7 @@ Khi di chuyển chuột ngang qua đường link thì sẽ đổi màu
 
 {% endhighlight %}
 
-# **6. Hiệu ứng phần tử con đầu tiên**
+## **7. Hiệu ứng phần tử con đầu tiên**
 
 Trong ví dụ này ta có thẻ div, bên trong nó có 2 thẻ P . Nhưng bây giờ chúng ta chỉ muốn lấy thẻ p đầu tiên. Ta sử dụng first-child
 
