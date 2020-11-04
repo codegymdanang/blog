@@ -6,20 +6,23 @@ category: laptrinhweb
 tags: [css]
 summery: Pseudo Element 
 image: /images/blog/angular.png
-description : Sử dụng Pseudo Element trong trong dự án làm web. Hướng dẫn Sử dụng Pseudo Element trong CSS vào dự án web. 
+description : Trong lập trình web, nếu muốn tạo các hiệu ứng cho các phần tử trong HTML, chúng ta sẽ cần sử dụng thuộc tính Pseudo Element trong CSS. Sử dụng thuộc tính Pseudo Element giúp tạo ra các hiệu ứng như hiệu ứng đặc biệt cho chữ, dòng đầu tiên của văn bản, thêm nội dung vào trước hoặc sau một phần tử. Bài viết này sẽ giúp bạn hiểu rõ hơn về Pseudo Element là gì? Hướng dẫn cách sử dụng các giá trị trong thuộc tính Pseudo Element gồm first-line, first-letter, before, after trong CSS. Kèm theo các ví dụ minh hoạ cụ thể cách thao tác với mỗi giá trị trong bài viết sẽ giúp bạn áp dụng ngay vào thực hành và làm các dự án web.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>Pseudo Element</b> là như thế nào?
+Đối với những lập trình viên trong quá trình <b>lập trình web</b>, để làm ra được một trang website hoàn thiện thì đòi hỏi phải thực hiện qua nhiều bước khác nhau. Trong đó bao gồm có các bước giúp cho website có giao diện bắt mắt hơn nhờ vào các hiệu ứng như hiệu ứng đặc biệt cho chữ, dòng đầu tiên của văn bản, thêm nội dung vào trước hoặc sau một phần tử. Để sử dụng được các hiệu ứng đó vào trong trang web, chúng ta sẽ sử dụng <b>thuộc tính Pseudo Element trong lập trình web CSS</b>.
+<br>
+Vậy <b>thuộc tính Pseudo Element trong lập trình we</b>b là gì? Cách sử dụng các giá trị trong <b>thuộc tính Pseudo Element</b> gồm first-line, first-letter, before, after trong CSS như thế nào? Trong những chia sẻ ngay dưới đây, anh sẽ giúp các bạn giải đáp những thắc mắc trên từ đó có thể tự tin hơn với kiến thức về Pseudo Element để áp dụng được vào quá trình làm các dự án web.
 
 
-# **1. Pseudo Element là gì**
 
-Chúng ta sử dụng pseduo element để thêm các hiệu ứng vào các phần tử của HTML mà không cần dùng Javascript hay bất cứ một thư viện nào khác vào
+## **1. Pseudo Element là gì**
+
+Chúng ta sử dụng pseudo element để thêm các hiệu ứng vào các phần tử của HTML mà không cần dùng Javascript hay bất cứ một thư viện nào khác vào
 
 - Cú pháp như sau
 
@@ -36,7 +39,7 @@ selector:pseudo-element {property: value}
 + :before   : thêm nội dung trước một phần tử
 + :after    : thêm nội dung sau một phần tử
 
-# **2. Sử dụng :first-line trong CSS**
+## **2. Sử dụng :first-line trong CSS**
 
 {% highlight html linenos %}
 
@@ -68,7 +71,7 @@ selector:pseudo-element {property: value}
 ![pseudo-firstline](/images/post/css/pseudo-firstline.png){:class="img-responsive"}
 {: refdef}
 
-# **3. Sử dụng :first-letter trong CSS**
+## **3. Sử dụng :first-letter trong CSS**
 
 {% highlight html linenos %}
 
@@ -100,7 +103,7 @@ selector:pseudo-element {property: value}
 ![pseudo-firstletter](/images/post/css/pseudo-firstletter.png){:class="img-responsive"}
 {: refdef}
 
-# **4. Sử dụng :before trong CSS**
+## **4. Sử dụng :before trong CSS**
 
 Chúng ta sẽ thêm ảnh trước thẻ P như sau.
 
@@ -128,7 +131,7 @@ Chúng ta sẽ thêm ảnh trước thẻ P như sau.
 ![pseudo-before](/images/post/css/pseudo-before.png){:class="img-responsive"}
 {: refdef}
 
-# **5. Sử dụng :after trong CSS**
+## **5. Sử dụng :after trong CSS**
 
 Chúng ta sẽ thêm ảnh sau thẻ P như sau.
 
