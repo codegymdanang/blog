@@ -16,7 +16,7 @@ youtubeId: Ex3glZTCvlY
 
 Đối với những lập trình viên trong quá trình <b>lập trình web</b>, để làm ra được một trang website hoàn thiện thì đòi hỏi phải thực hiện qua nhiều bước khác nhau. Trong đó bao gồm có các bước giúp cho website có giao diện bắt mắt hơn nhờ vào các hiệu ứng như hiệu ứng đặc biệt cho chữ, dòng đầu tiên của văn bản, thêm nội dung vào trước hoặc sau một phần tử. Để sử dụng được các hiệu ứng đó vào trong trang web, chúng ta sẽ sử dụng <b>thuộc tính Pseudo Element trong lập trình web CSS</b>.
 <br>
-Vậy <b>thuộc tính Pseudo Element trong lập trình we</b>b là gì? Cách sử dụng các giá trị trong <b>thuộc tính Pseudo Element</b> gồm first-line, first-letter, before, after trong CSS như thế nào? Trong những chia sẻ ngay dưới đây, anh sẽ giúp các bạn giải đáp những thắc mắc trên từ đó có thể tự tin hơn với kiến thức về Pseudo Element để áp dụng được vào quá trình làm các dự án web.
+Vậy <b>thuộc tính Pseudo Element trong lập trình web</b/> là gì? Cách sử dụng các giá trị trong <b>thuộc tính Pseudo Element</b> gồm first-line, first-letter, before, after trong CSS như thế nào? Trong những chia sẻ ngay dưới đây, anh sẽ giúp các bạn giải đáp những thắc mắc trên từ đó có thể tự tin hơn với kiến thức về Pseudo Element để áp dụng được vào quá trình làm các dự án web.
 
 
 
