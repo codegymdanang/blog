@@ -12,16 +12,16 @@ youtubeId: Ex3glZTCvlY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>padding</b> là như thế nào?
 
-# **1. Padding là gì**
+## **1. Padding là gì**
 
 Chúng ta sử dụng thuộc tính padding để thiết lập khoảng cách giữa các nội dung trong một phần tử web. Các thuộc tính của padding bao gồm padding-bottom canh chỉnh  dưới, padding-top canh chỉnh trên, padding-left canh chỉnh trái, và padding-right canh chỉnh phải.
 
 
-# **2. Thuộc tính Padding-bottom**
+## **2. Thuộc tính Padding-bottom**
 
 Dùng để thiết lập canh dưới cho nội dung bên trong của phần tử. Chúng ta sử dụng thuộc tính padding-bottom
 
@@ -49,7 +49,7 @@ Dùng để thiết lập canh dưới cho nội dung bên trong của phần t�
 {: refdef}
 
 
-# **2. Thuộc tính Padding-top**
+## **3. Thuộc tính Padding-top**
 
 Dùng để thiết lập canh phía trên  cho nội dung bên trong của phần tử. Chúng ta sử dụng thuộc tính padding-top
 
@@ -77,7 +77,7 @@ Dùng để thiết lập canh phía trên  cho nội dung bên trong của ph�
 ![padding2](/images/post/css/padding2.png){:class="img-responsive"}
 {: refdef}
 
-# **3. Thuộc tính Padding-left**
+## **4. Thuộc tính Padding-left**
 
 Dùng để thiết lập canh trái cho nội dung bên trong của phần tử. Chúng ta sử dụng thuộc tính padding-left
 
@@ -105,7 +105,7 @@ Dùng để thiết lập canh trái cho nội dung bên trong của phần tử
 ![padding3](/images/post/css/padding3.png){:class="img-responsive"}
 {: refdef}
 
-# **4. Thuộc tính Padding-right**
+## **5. Thuộc tính Padding-right**
 
 Dùng để thiết lập canh phải cho nội dung bên trong của phần tử. Chúng ta sử dụng thuộc tính padding-right
 
@@ -133,7 +133,7 @@ Dùng để thiết lập canh phải cho nội dung bên trong của phần t�
 ![padding4](/images/post/css/padding4.png){:class="img-responsive"}
 {: refdef}
 
-# **5. Thuộc tính Padding**
+## **6. Thuộc tính Padding**
 
 Chúng ta sử dụng thuộc tính padding để canh trái, phải, trên dưới cho nội dung bên trong của phần tử. Chúng ta sử dụng thuộc tính padding
 
