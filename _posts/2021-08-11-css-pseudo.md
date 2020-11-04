@@ -15,7 +15,7 @@ youtubeId: Ex3glZTCvlY
 ## **Giới thiệu nội dung bài viết**
 
 Thuộc tính <b>Pseudo Class</b> và Pseudo Element trong <b>lập trình web CSS</b> thường rất dễ bị nhầm lẫn, kể cả một số các bạn lập trình viên đã đi làm đôi khi vẫn không phân biệt rõ ràng được. Vì vậy để giúp các bạn-những người học <b>lập trình web</b> có thể nhận biết được sự khác nhau giữa hai thuộc tính Pseudo Class và Pseudo Element để chọn đúng thuộc tính phù hợp áp dụng vào làm web. Anh đã có bài chia sẻ về Pseudo Element, các bạn có thể xem tại đây. Và trong bài viết này, anh sẽ chia sẻ về Pseudo Class. Hi vọng qua 2 bài viết này, các bạn sẽ hiểu rõ được 2 thuộc tính và áp dụng được vào làm web mà không bị nhầm lẫn nữa.
-<br?
+<br>
 Trong bài viết này anh sẽ lần lượt đi qua các phần bao gồm giải thích cho các bạn hiểu được <b>Pseudo Class</b> là gì? Các hiệu ứng có thể sử dụng như link pseudo-class, visited pseudo-class, hover pseudo-class, active pseudo-class, focus pseudo-class và cách tạo hiệu ứng phần tử con đầu tiên trong <b>lập trình web</b> CSS.
 
 
