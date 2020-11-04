@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [css]
 summery: Margin 
 image: /images/blog/angular.png
-description : Trong lập trình web CSS, để bố cục một trang web, đoạn văn cân đối và rõ ràng, CSS cung cấp thuộc tính margin để thiết lập được khoảng cách giữa các phần tử trong HTM. Trong đó bao gồm các giác trị như margin bottom canh dưới, margin top canh trên, margin left canh trái và margin right canh phải. Bài viết giới thiệu giúp hiểu được thuộc tính margin trong lập trình web CSS là gì? Các giá trị sử dụng trong thuộc tính này cũng như sẽ đi sâu vào hướng dẫn cụ thể cách làm của mỗi giá trị. Và trong mỗi giá trị như vậy có kèm theo ví dụ minh hoạ cách thao tác cụ thể để người học lập trình web dễ dàng nắm bắt và áp dụng được vào quá trình thực hành, làm việc với các dự án.
+description : Trong lập trình web CSS, để bố cục một trang web, đoạn văn cân đối và rõ ràng, CSS cung cấp thuộc tính margin để thiết lập được khoảng cách giữa các phần tử trong HTM. Trong đó bao gồm các giá trị như margin bottom canh dưới, margin top canh trên, margin left canh trái và margin right canh phải. Bài viết giới thiệu giúp hiểu được thuộc tính margin trong lập trình web CSS là gì? Các giá trị sử dụng trong thuộc tính này cũng như sẽ đi sâu vào hướng dẫn cụ thể cách làm của mỗi giá trị. Và trong mỗi giá trị như vậy có kèm theo ví dụ minh hoạ cách thao tác cụ thể để người học lập trình web dễ dàng nắm bắt và áp dụng được vào quá trình thực hành, làm việc với các dự án.
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong <b>lập trình web CSS</b>, để bố cục một trang web, đoạn văn cân đối và rõ ràng, giúp người dùng có những trải nghiệm tốt hơn. CSS cung cấp <b>thuộc tính margin</b> để thiết lập được khoảng cách giữa các phần tử trong HTM. Trong đó bao gồm các giác trị như margin-bottom canh dưới, margin-top canh trên, margin-left canh trái và margin-right canh phải.
+Trong <b>lập trình web CSS</b>, để bố cục một trang web, đoạn văn cân đối và rõ ràng, giúp người dùng có những trải nghiệm tốt hơn. CSS cung cấp <b>thuộc tính margin</b> để thiết lập được khoảng cách giữa các phần tử trong HTM. Trong đó bao gồm các giá trị như margin-bottom canh dưới, margin-top canh trên, margin-left canh trái và margin-right canh phải.
 <br>
 Trong các phần chia sẻ ngay dưới đây, anh sẽ lần lượt giới thiệu để các bạn hiểu được <b>thuộc tính margin trong lập trình web CSS</b> là gì? Các giá trị sử dụng trong thuộc tính này cũng như sẽ đi sâu vào hướng dẫn cụ thể cách làm của mỗi giá trị. Và trong mỗi giá trị như vậy anh sẽ kèm theo ví dụ minh hoạ cách thao tác cụ thể để bạn dễ dàng nắm bắt và áp dụng được vào quá trình thực hành, làm việc với các dự án <b>lập trình web</b>.
 
