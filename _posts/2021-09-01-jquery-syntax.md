@@ -328,8 +328,6 @@ $(document).ready(function(){
 
 </body>
 </html>
-
-
 {% endhighlight %}
 
 
