@@ -44,6 +44,7 @@ Nếu chúng ta download Jquery từ trang web jquery.com thì mình sẽ có 2 
 
 - Nếu chúng ta không muốn download mà sử dụng Jquery từ CDN ta thêm đường link Jquery trên CDN vào trong thẻ script như sau
 
+
 {% highlight html linenos %}
 
 <!DOCTYPE html>
@@ -144,7 +145,8 @@ $(document).ready(function(){
   // jQuery methods go here...
 
 });
-% endhighlight %}
+
+{% endhighlight %}
 
 Tất cả các method chạy trong Jquery đều được đặt bên trong hàm $(document).ready. Hàm này có chức năng là khi website load các thành phần web lên xong xuôi (ready) rồi lúc đó các đoạn code Javascript bên trong hàm đó mới được chạy.
 
@@ -158,7 +160,8 @@ $(function(){
   // jQuery methods go here...
 
 });
-% endhighlight %}
+
+{% endhighlight %}
 
 2 cách trên đều có chức năng như nhau. Nhưng thường các anh hay sử dụng cách 2 hơn vì ngắn gọn.
 
