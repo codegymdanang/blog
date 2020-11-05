@@ -4,7 +4,7 @@ title: Spring IOC XML Example
 slug : spring-ioc-xml-example
 category: laptrinhspring
 tags: [spring-core]
-summery: Cấu hình IOC qua XML 
+summery: Ví dụ IOC qua XML 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Sử dụng Cấu hình IOC qua XML trong lập trình Spring. Hiểu được Cấu hình IOC qua XML là gì. Hướng dẫn sử dụng Cấu hình IOC qua XML trong lập trình Spring.
