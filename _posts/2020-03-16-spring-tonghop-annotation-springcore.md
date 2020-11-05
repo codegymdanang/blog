@@ -1,7 +1,7 @@
 ---
 layout: course-spring-core
 title: Tổng hợp các Annotation trong Spring
-slug : tong-hop-các-annotation-trong-spring
+slug : tong-hop-cac-annotation-trong-spring
 category: laptrinhspring
 tags: [spring-core]
 summery: Các Annotation Spring Core
