@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [jquery]
 summery: Cú pháp 
 image: /images/blog/angular.png
-description : Sử dụng Box Model trong trong dự án làm web. Hướng dẫn Sử dụng Box Model trong CSS vào dự án web. 
+description : Sử dụng cú pháp Jquery và các selector được sử dụng trong Jquery để dự án làm web. Hướng dẫn Sử dụng selector trong jquery vào dự án web. 
 youtubeId: Ex3glZTCvlY
 ---
 
