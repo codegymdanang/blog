@@ -47,7 +47,7 @@ Như vậy nắm bắt được khi nào phát sinh sự kiện trên web, chún
 Ví dụ như anh muốn thêm sự kiện click cho thẻ p. Lúc này anh sẽ sử dụng hàm click() như sau
 
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").click(function(){
   // viết code sử lý sự kiện thẻ p được click ở đây!!
@@ -63,7 +63,7 @@ Khi sự kiện được phát sinh thì anh sẽ viết code để xử lý nó
 
 Ví dụ như anh muốn thêm sự kiện double click (click 2 lần liên tiếp) cho thẻ p. Anh sử dụng hàm dblclick
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").dblclick(function(){
   $(this).hide();
@@ -75,7 +75,7 @@ $("p").dblclick(function(){
 
 Ví dụ như anh muốn thêm sự kiện mouseenter cho thẻ p. Anh sử dụng hàm mouseenter
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").dblclick(function(){
   $(this).hide();
@@ -87,7 +87,7 @@ $("p").dblclick(function(){
 
 Sự kiện này xảy ra khi chuột di chuyển ra khỏi vùng được chọn, vùng chọn có thể là một nút, một đoạn văn bản hay bất kỳ một thành phần nào trên website. Ví dụ như anh muốn thêm sự kiện mouseleave cho thẻ p. Anh sử dụng hàm mouseleave
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").mouseleave(function(){
   $(this).hide();
@@ -100,7 +100,7 @@ $("p").mouseleave(function(){
 
 Sự kiện này xảy ra khi chuột được nhấn xuống trên một vùng được chọn. Ví dụ như anh muốn thêm sự kiện mousedown cho thẻ p. Anh sử dụng hàm mousedown
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").mousedown(function(){
   $(this).hide();
@@ -112,7 +112,7 @@ $("p").mousedown(function(){
 
 Ngược với mousedown thì mouseup phát sinh khi chúng ta nhả chuột ra khỏi vùng chọn. Ví dụ như anh muốn thêm sự kiện mouseup cho thẻ p. Anh sử dụng hàm mouseup
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").mouseup(function(){
   $(this).hide();
@@ -124,7 +124,7 @@ $("p").mouseup(function(){
 
 Sự kiện phát sinh khi di chuyển chuột qua vùng được chọn.Ví dụ như anh muốn thêm sự kiện hover cho thẻ p. Anh sử dụng hàm hover
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").hover(function(){
   $(this).hide();
@@ -136,7 +136,7 @@ $("p").hover(function(){
 
 Ví dụ như anh muốn thêm sự kiện focus cho thẻ p. Anh sử dụng hàm focus
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").focus(function(){
   $(this).hide();
@@ -148,7 +148,7 @@ $("p").focus(function(){
 
 Ví dụ như anh muốn thêm sự kiện blur cho thẻ p. Anh sử dụng hàm blur
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").blur(function(){
   $(this).hide();
@@ -160,7 +160,7 @@ $("p").blur(function(){
 
 Chúng ta sử dụng phương thức on để gán một sự kiện cho một phần tử trên web. Ví dụ như anh muốn gán sự kiện click trên thẻ p thì anh sẽ sử dụng phương thức on trên thẻ p như sau
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").on("click", function(){
   $(this).hide();
@@ -172,7 +172,7 @@ $("p").on("click", function(){
 
 Chúng ta có thể khai báo nhiều sự kiện phát sinh trên một phần tử. Anh ví dụ như thẻ p sau nó có 3 sự kiện là mouseenter, mouseleave, và click
 
-{% highlight html linenos %}
+{% highlight javascript linenos %}
 
 $("p").on({
   mouseenter: function(){
