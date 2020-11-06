@@ -6,21 +6,24 @@ category: laptrinhweb
 tags: [bootstrap]
 summery: Typography
 image:
-description : Giới thiệu về Typography, hướng dẫn cách sử dụng Typography trong lập trình web.
+description : Bài viết trình bày về thuộc tính Typography, một trong những thuộc tính không thể thiếu khi làm các dự án lập trình web. Bài viết lần lượt giới thiệu về các thẻ Heading, những mặc định có sẵn trong Bootstrap 4, và các thẻ small, mark, abbr, blockquote, dl được sử dụng trong Bootstrap 4. Trong mỗi phần có kèm theo hình ảnh minh hoạ cách làm cho mỗi phần để tham khảo thêm và dễ nắm bắt với những kiến thức chia sẻ trong bài. 
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Typography</b> là gì? Các sử dụng nó trong lập trình website 
+Cũng tương tự như các ngôn ngữ lập trình khác trong <b>lập trình web</b>, ngôn ngữ Bootstrap cũng có những thuộc tính để thiết lập cho các phần tử trong web.
+<br>
+Trong phạm vi bài viết này, anh sẽ chia sẻ với các bạn về thuộc tính <b>Typography</b> được sử dụng trong <b>lập trình web</b> Bootstrap. Bài viết lần lượt giới thiệu về các thẻ Heading, những mặc định có sẵn trong Bootstrap 4, và các thẻ small, mark, abbr, blockquote, dl được sử dụng trong Bootstrap 4. Trong mỗi phần anh có kèm theo hình ảnh minh hoạ cách làm cho mỗi phần để các bạn tham khảo thêm và dễ nắm bắt với những kiến thức anh chia sẻ trong bài.
 
-# **1. Mặc định có sẳn trong Bootstrap 4**
+
+## **1. Mặc định có sẳn trong Bootstrap 4**
 
 Boostrap 4 sử dụng kích thước front-size là 16px và line-height là 1.5. Font mặc định được sử dụng trong bootstrap 4 là Helvetica Neue. Các thẻ <p> đều có margin top là bằng 0 và margin bottom là 16 px.
 
-# **2. Các thẻ Heading trong Bootstrap 4**
+## **2. Các thẻ Heading trong Bootstrap 4**
 
 Các thẻ Heading từ H1 tới H6 có kích thước border và font như sau.
 
@@ -36,7 +39,7 @@ h6 Bootstrap heading (1rem = 16px)
 
 {% endhighlight %}
 
-Để hiển thị font có kích thướt to, chúng ta sử dụng class display sau đó là kích thước. Boostrap cung cấp 4 loại class để hiển thị kích thước font như sau
+Để hiển thị font có kích thước to, chúng ta sử dụng class display sau đó là kích thước. Boostrap cung cấp 4 loại class để hiển thị kích thước font như sau
 
 <br>
 {% highlight html  linenos %}
@@ -52,7 +55,7 @@ h6 Bootstrap heading (1rem = 16px)
 ![Heading](/images/post/boostrap/heading.png){:class="img-responsive"}
 {: refdef}
 
-# **3. Thẻ small trong Bootstrap 4**
+## **3. Thẻ small trong Bootstrap 4**
 
 <br>
 {% highlight html  linenos %}
@@ -74,7 +77,7 @@ h6 Bootstrap heading (1rem = 16px)
 ![small](/images/post/boostrap/small.png){:class="img-responsive"}
 {: refdef}
 
-# **4. Thẻ mark trong Bootstrap 4**
+## **4. Thẻ mark trong Bootstrap 4**
 
 Dùng để highlight các chữ text lên màu vàng. Nếu chúng ta muốn sử dụng chức năng highlight
 
@@ -93,7 +96,7 @@ Dùng để highlight các chữ text lên màu vàng. Nếu chúng ta muốn s�
 ![small](/images/post/boostrap/highlight.png){:class="img-responsive"}
 {: refdef}
 
-# **5. Thẻ abbr trong Bootstrap 4**
+## **5. Thẻ abbr trong Bootstrap 4**
 
 Dùng để gạch dưới các từ mà mình mong muốn.
 
@@ -112,7 +115,7 @@ Dùng để gạch dưới các từ mà mình mong muốn.
 ![dotundertext](/images/post/boostrap/dotundertext.png){:class="img-responsive"}
 {: refdef}
 
-# **6. Thẻ blockquote trong Bootstrap 4**
+## **6. Thẻ blockquote trong Bootstrap 4**
 
 Dùng để trích dẫn một văn bản từ một nguồn nào đó.
 
@@ -144,9 +147,9 @@ The blockquote element is used to present content from another source:
 
 {% endhighlight %}
 
-# **7. Thẻ dl trong Bootstrap 4**
+## **7. Thẻ dl trong Bootstrap 4**
 
-Sử dụng dl để hiển thị  danh sách.
+Sử dụng dl để hiển thị danh sách.
 
 <br>
 {% highlight html  linenos %}
