@@ -6,17 +6,21 @@ category: laptrinhweb
 tags: [bootstrap]
 summery: Màu sắc
 image:
-description : Giới thiệu về màu sắc, hướng dẫn cách sử dụng màu sắc trong lập trình web.
+description : Sử dụng bất kì ngôn ngữ lập trình web nào thì trang website cũng cần phải bắt mắt, khiến thu hút khách hàng. Vì vậy thuộc tính màu sắc color là một trong những thuộc tính không thể thiếu trong quá trình lập trình web. Các lập trình viên có thể sử dụng được thuộc tính màu sắc color cả cho văn bản Text và nền background. Bài viết giới thiệu và hướng dẫn cách sử dụng những loại Class được sử dụng để làm màu sắc cho các chữ text, hay các màu sắc bạn có thể dùng cho background để áp dụng được vào làm các dự án lập trình web, giúp trang website hoàn thiện hơn.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>màu sắc</b> là gì? Các sử dụng nó trong lập trình website. 
+Bất kể bạn dùng loại ngôn ngữ gì để <b>lập trình web</b>, thì trang website cũng cần phải bắt mắt và khiến thu hút khách hàng. Vì vậy thuộc tính <b>màu sắc (color)</b> là một trong những thuộc tính không thể thiếu trong quá trình <b>lập trình web</b>. Với thuộc tính <b>màu sắc (color)</b> trong Bootstrap 4, người dùng có thể sử dụng được cả cho văn bản (Text) và nền (background).
 
-# **1. Màu sắc cho Text trong Bootstrap 4**
+<br>
+Trong những chia sẻ dưới đây anh sẽ giới thiệu kĩ hơn mỗi phần cho các bạn như những loại Class được sử dụng để làm màu sắc cho các chữ (text), hay các màu sắc bạn có thể dùng cho background để áp dụng được vào làm các dự án <b>lập trình web</b>, giúp trang website hoàn thiện hơn.
+ 
+
+## **1. Màu sắc cho Text trong Bootstrap 4**
 
 Trong bootstrap có những class sau được sử dụng để làm màu sắc cho các chữ (text) như là .text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, .text-secondary, .text-white, .text-dark, .text-body (default body color/often black) and .text-light
 
@@ -46,9 +50,9 @@ Ví dụ như ta có các màu sau.
 ![Color](/images/post/boostrap/color.png){:class="img-responsive"}
 {: refdef}
 
-# **2. Màu sắc cho Background trong Bootstrap 4**
+## **2. Màu sắc cho Background trong Bootstrap 4**
 
-Để tạo màu cho backgroup chúng ta có các màu sắc sau đây : .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light. Cái này chỉ dùng cho màu background không sử dụng cho text được.
+Để tạo màu cho background chúng ta có các màu sắc sau đây : .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light. Cái này chỉ dùng cho màu background không sử dụng cho text được.
 
 <br>
 {% highlight html  linenos %}
