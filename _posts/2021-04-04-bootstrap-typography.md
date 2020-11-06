@@ -15,6 +15,7 @@ youtubeId: Ex3glZTCvlY
 ## **Giới thiệu nội dung bài viết**
 
 Cũng tương tự như các ngôn ngữ lập trình khác trong <b>lập trình web</b>, ngôn ngữ Bootstrap cũng có những thuộc tính để thiết lập cho các phần tử trong web.
+
 <br>
 Trong phạm vi bài viết này, anh sẽ chia sẻ với các bạn về thuộc tính <b>Typography</b> được sử dụng trong <b>lập trình web</b> Bootstrap. Bài viết lần lượt giới thiệu về các thẻ Heading, những mặc định có sẵn trong Bootstrap 4, và các thẻ small, mark, abbr, blockquote, dl được sử dụng trong Bootstrap 4. Trong mỗi phần anh có kèm theo hình ảnh minh hoạ cách làm cho mỗi phần để các bạn tham khảo thêm và dễ nắm bắt với những kiến thức anh chia sẻ trong bài.
 
