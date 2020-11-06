@@ -6,25 +6,29 @@ category: laptrinhweb
 tags: [bootstrap]
 summery: Grid
 image:
-description : Giới thiệu về Grid, hướng dẫn cách sử dụng Grid trong lập trình web.
+description : Trong lập trình web, một trong những thuộc tính giúp website trở nên responsive đó chính là thuộc tính hệ thống lưới Grid trong Bootstrap. Bài viết giúp hiểu rõ hơn về thuộc tính này là gì cũng như hướng dẫn để sử dụng được thành thạo trong quá trình làm các dự án lập trình web. Tìm hiểu về 5 Grid Class trong lập trình web Bootstrap gồm col, col-sm, col-md, col-lg, col-xl. Bên cạnh đó, hướng dẫn cách chia tỉ lệ và đưa ra ví dụ cấu trúc hệ thống lưới Grid trong quá trình lập trình web.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Grid</b> là gì? Các sử dụng nó trong lập trình website 
+Trong <b>lập trình web</b>, các lập trình viên thường rất quan tâm đến khả năng responsive trên các thiết bị khác nhau của website. Một trong những thuộc tính giúp website trở nên responsive đó chính là sử dụng <b>hệ thống lưới grid</b>.
 
-# **1. Grid là gì**
+<br>
+Để giúp các bạn hiểu hơn về thuộc tính này cũng như sử dụng được thành thạo trong quá trình làm các dự án <b>lập trình web</b>; trong bài chia sẻ này anh sẽ giải thích cho các bạn hiểu rõ được Grid trong Bootstrap là gì? Sau đó cùng tìm hiểu về 5 Grid Class trong <b>lập trình web</b> Bootstrap gồm col, col-sm, col-md, col-lg, col-xl. Bên cạnh đó, trong những chia sẻ dưới đây anh cũng sẽ hướng dẫn các bạn cách chia tỉ lệ và ví dụ cấu trúc hệ thống lưới Grid trong quá trình <b>lập trình web</b> Bootstrap.
+ 
 
-Grid là một hệ thống lưới nó chia trang web chúng ta thành 12 cột. Hầu hết các website sử dụng bootstrap đều sử dụng hệ thống lưới để làm layout cho trang web và bố trí các phần tử trong này. Hệ thống lưới giúp website trở nên responsive trên các thiết bị khác nhau. 
+## **1. Grid là gì**
+
+<b>Grid</b> là một hệ thống lưới nó chia trang web chúng ta thành 12 cột. Hầu hết các website sử dụng bootstrap đều sử dụng hệ thống lưới để làm layout cho trang web và bố trí các phần tử trong này. Hệ thống lưới giúp website trở nên responsive trên các thiết bị khác nhau. 
 
 {:refdef: style="text-align: center;"}
 ![Grid](/images/post/boostrap/grid.PNG){:class="img-responsive"}
 {: refdef}
 
-# **2. Grid Class**
+## **2. Grid Class**
 
 Trong grid nó hỗ trợ cho chúng ta 5 loại class để hiển thị trên những thiết bị khác nhau tuỳ theo kích thướt. 
 
@@ -47,7 +51,7 @@ Ví dụ dưới đây là cách sử dụng class vào trong thẻ html.
 {% endhighlight %}
 
 
-# **3 .Ví dụ cấu trúc hệ thống lưới Grid**
+## **3 .Ví dụ cấu trúc hệ thống lưới Grid**
 
 Ví dụ dưới đây ta có 1 dòng gồm có 2 div trong đó, ta chia tỉ lệ là div 1 chiếm 3 cột và div 2 chiếm 9 cột như sau.
 
@@ -62,7 +66,7 @@ Ví dụ dưới đây ta có 1 dòng gồm có 2 div trong đó, ta chia tỉ l
 
 Đầu tiên chúng ta tạo ra 1 dòng (<div class="row" </div>). Sau đó chúng ta thêm các cột mà chúng ta mong muốn vào và nhớ tổng số cột chúng ta mong muốn là bằng 12.
 
-Tiếp đến ta cấu hình col đầu tiên col-*-* . Dấu * thứ 1 là hiểun thị cho kích thướt màn hình chúng có thể là sm, md, lg or xl. Đấu * thứ 2 số lượng colum. Bây giờ chúng ta sẽ tạo ra 1 dòng có 12 cột hiển thị cho cho thiết bị lớn hơn 576px như sau
+Tiếp đến ta cấu hình col đầu tiên col-*-* . Dấu * thứ 1 là hiển thị cho kích thước màn hình chúng có thể là sm, md, lg or xl. Đấu * thứ 2 số lượng colume. Bây giờ chúng ta sẽ tạo ra 1 dòng có 12 cột hiển thị cho thiết bị lớn hơn 576px như sau
 <br>
 {% highlight html  linenos %}
 
@@ -73,9 +77,9 @@ Tiếp đến ta cấu hình col đầu tiên col-*-* . Dấu * thứ 1 là hi�
 
 {% endhighlight %}
 
-- Như vậy ta sẽ có div đầu tiên chiếm 3 cols và div thứ 2 chiếm 9 cols. (tổng số cột trong  trong row là 12 cols)
+- Như vậy ta sẽ có div đầu tiên chiếm 3 cols và div thứ 2 chiếm 9 cols. (tổng số cột trong row là 12 cols)
 
-- Nếu như chúng ta để cho bootstrap tự quản lý layout thì ta không cần thêm số lượng cột vào. Lúc này bootstrap sẽ tự chia các div với kích thướt bằng nhau.
+- Nếu như chúng ta để cho bootstrap tự quản lý layout thì ta không cần thêm số lượng cột vào. Lúc này bootstrap sẽ tự chia các div với kích thước bằng nhau.
 
 <br>
 {% highlight html  linenos %}
@@ -104,9 +108,9 @@ Nếu như ta chi có 2 div thì bootstrap sẽ lấy 100% chia cho 2 mỗi div 
 
 {% endhighlight %}
 
-# **4 .Chia tỉ lệ**
+## **4 .Chia tỉ lệ**
 
-- Chúng ta muốn chi tỉ lệ 25% cho div 1 và 75% cho div 2 trên tất cả các thiết bị (mobile, desktop, tivi, ipad) ta cấu hình như sau.
+- Chúng ta muốn chia tỉ lệ 25% cho div 1 và 75% cho div 2 trên tất cả các thiết bị (mobile, desktop, tivi, ipad) ta cấu hình như sau.
 
 <br>
 {% highlight html  linenos %}
