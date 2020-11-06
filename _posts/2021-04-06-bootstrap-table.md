@@ -6,17 +6,21 @@ category: laptrinhweb
 tags: [bootstrap]
 summery: Table
 image:
-description : Giới thiệu về table, hướng dẫn cách sử dụng table trong lập trình web.
+description : Khi lập trình web, một số các trang web cần một số dạng dữ liệu cần biểu diễn dưới dạng bảng. Lúc này đỏi hỏi các lập trình viên sẽ phải sử dụng thuộc tính bảng table trong Bootstrap. Bài viết này trình bày về thuộc tính bảng table, hướng dẫn cách thao tác với thuộc tính <b>bảng (table)</b> trong Bootstrap để áp dụng hiệu quả vào quá trình làm các dự án web, và cách làm với bảng như sử dụng striped Rows, tạo border, tạo hiệu ứng, xoá border, sử dụng màu sắc, header, responpsive.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>table</b> là gì? Các sử dụng nó trong lập trình website. 
+Tiếp nối các bài viết chia sẻ về các thuộc tính sử dụng trong <b>lập trình web</b> Bootstrap. Trong bài viết hôm nay, chủ đề anh sẽ trình bày cho các bạn là sử dụng thuộc tính <b>bảng (table)</b> trong Bootstrap. Như khi <b>lập trình web</b> các bạn có thể biết, một số các trang web có một số dạng dữ liệu cần biểu diễn dưới dạng bảng.
 
-# **1. Table trong Bootstrap 4**
+<br>
+Để giúp các bạn có thể nắm được cách thao tác với thuộc tính <b>bảng (table)</b> trong Bootstrap để áp dụng hiệu quả vào quá trình làm các dự án web, hôm nay anh sẽ hướng dẫn cụ thể cách làm với bảng như sử dụng striped Rows, tạo border, tạo hiệu ứng, xoá border, sử dụng màu sắc, header, responpsive.
+ 
+
+## **1. Table trong Bootstrap 4**
 
 Để sử dụng được table trong bootstrap chúng ta thêm class .table như sau
 
@@ -60,9 +64,9 @@ Ví dụ như ta có các màu sau.
 {% endhighlight %}
 
 
-# **2. Sử dụng Striped Rows trong Bootstrap 4**
+## **2. Sử dụng Striped Rows trong Bootstrap 4**
 
-Nếu chúng ta muốn trang trí các dòng với màu sắc khác nhau. Ví dụ như các dòng lẻ màu trắng và các dòng chẳn màu đà. Thì ta có thể dùng class .table-striped
+Nếu chúng ta muốn trang trí các dòng với màu sắc khác nhau. Ví dụ như các dòng lẻ màu trắng và các dòng chẵn màu đà. Thì ta có thể dùng class .table-striped
 
 <br>
 {% highlight html  linenos %}
@@ -106,7 +110,7 @@ Nếu chúng ta muốn trang trí các dòng với màu sắc khác nhau. Ví d�
 {: refdef}
 
 
-# **3. Tạo border trong table**
+## **3. Tạo border trong table**
 
 Chúng ta sử dụng class .table-bordered để tạo border cho table như sau
 
@@ -146,7 +150,7 @@ Chúng ta sử dụng class .table-bordered để tạo border cho table như sa
 
 {% endhighlight %}
 
-# **4. Tạo hiệu ứng cho các dòng trong table**
+## **4. Tạo hiệu ứng cho các dòng trong table**
 
 Chúng ta muốn khi con chuột người dùng di chuyển vào các dòng trên table thì mình làm hiệu ứng sáng cái dòng đó lên. Thì ta sử dụng class .table-hover
 
@@ -186,7 +190,7 @@ Chúng ta muốn khi con chuột người dùng di chuyển vào các dòng trê
 
 {% endhighlight %}
 
-# **5. Xoá border  trong table**
+## **5. Xoá border  trong table**
 
 Chúng ta sử dụng class .table-borderless để xoá border trong table
 
@@ -226,7 +230,7 @@ Chúng ta sử dụng class .table-borderless để xoá border trong table
 {% endhighlight %}
 
 
-# **6. Sử dụng màu sắc trong mỗi dòng  trong table**
+## **6. Sử dụng màu sắc trong mỗi dòng trong table**
 
 <br>
 {% highlight html  linenos %}
@@ -302,7 +306,7 @@ Chúng ta sử dụng class .table-borderless để xoá border trong table
 ![Color](/images/post/boostrap/tablecolor.png){:class="img-responsive"}
 {: refdef}
 
-# **7. Header trong table**
+## **7. Header trong table**
 
 Chúng ta sử dụng class .thead-dark để làm cho header của table có màu đen và .thead-light làm cho header của table có màu xám
 
@@ -369,9 +373,9 @@ Chúng ta sử dụng class .thead-dark để làm cho header của table có m�
 
 {% endhighlight %}
 
-# **8. Làm resonpsive table**
+## **8. Làm resonpsive table**
 
-Chúng ta sử dụng class .table-responsive để thêm thanh kéo khi table ở màn hình nhở, nếu ở màn hình bình thường thì sẽ không có thanh khéo xuất hiện. Table chúng ta sẽ hiển thị được nội dung trên các thiết bị khác nhau.
+Chúng ta sử dụng class .table-responsive để thêm thanh kéo khi table ở màn hình nhỏ, nếu ở màn hình bình thường thì sẽ không có thanh khéo xuất hiện. Table chúng ta sẽ hiển thị được nội dung trên các thiết bị khác nhau.
 
 <br>
 {% highlight html  linenos %}
