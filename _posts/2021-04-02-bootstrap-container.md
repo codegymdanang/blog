@@ -15,8 +15,10 @@ youtubeId: Ex3glZTCvlY
 ## **Giới thiệu nội dung bài viết**
 
 Trong quá trình <b>lập trình web</b>, chắc hẳn các bạn sẽ gặp phải tình huống muốn thiết lập độ dài cố định cho nội dung các phần tử trong website để nội dung được bố trí rõ ràng hơn. Từ đó giúp người dùng có những trải nghiệm tốt nhất khi sử dụng trang web của bạn.
+
 <br>
 Để giải quyết trường hợp này, lúc này các lập trình viên sẽ phải cần dùng đến thuộc tính <b>container</b> trong Bootstrap. Đó cũng chính là chủ đề hôm nay mà anh muốn chia sẻ với các bạn, sử dụng Container trong Bootstrap. Trước khi đi vào cụ thể cách sử dụng, anh sẽ giải thích, giới thiệu về 2 loại Bootstrap gồm container và container-fluid để các bạn hiểu được thuộc tính này là gì? Sau đó chúng ta sẽ lần lượt đi qua các phần hướng dẫn cách để sử dụng với Container như thiết lập độ dài cố định, độ dài tràn màn hình, cấu hình padding, border, color, responsive cho container.
+
 <br>
 Hi vọng những chia sẻ dưới đây cùng với những ví dụ minh hoạ cụ thể cho mỗi phần sẽ giúp các bạn dễ dàng nắm bắt được kiến thức này và áp dụng được quá trình <b>lập trình web</b> một cách hiệu quả nhất.
  
