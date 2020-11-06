@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [bootstrap]
 summery: Table
 image:
-description : Khi lập trình web, một số các trang web cần một số dạng dữ liệu cần biểu diễn dưới dạng bảng. Lúc này đỏi hỏi các lập trình viên sẽ phải sử dụng thuộc tính bảng table trong Bootstrap. Bài viết này trình bày về thuộc tính bảng table, hướng dẫn cách thao tác với thuộc tính <b>bảng (table)</b> trong Bootstrap để áp dụng hiệu quả vào quá trình làm các dự án web, và cách làm với bảng như sử dụng striped Rows, tạo border, tạo hiệu ứng, xoá border, sử dụng màu sắc, header, responpsive.
+description : Khi lập trình web, một số các trang web cần một số dạng dữ liệu cần biểu diễn dưới dạng bảng. Lúc này đỏi hỏi các lập trình viên sẽ phải sử dụng thuộc tính bảng table trong Bootstrap. Bài viết này trình bày về thuộc tính bảng table, hướng dẫn cách thao tác với thuộc tính bảng table trong Bootstrap để áp dụng hiệu quả vào quá trình làm các dự án web, và cách làm với bảng như sử dụng striped Rows, tạo border, tạo hiệu ứng, xoá border, sử dụng màu sắc, header, responpsive.
 youtubeId: Ex3glZTCvlY
 ---
 
