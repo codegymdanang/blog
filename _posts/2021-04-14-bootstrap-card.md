@@ -6,19 +6,26 @@ category: laptrinhweb
 tags: [bootstrap]
 summery: Card
 image:
-description : Giới thiệu về card, hướng dẫn cách sử dụng card trong lập trình web.
+description : Để tạo một hộp mà trong đó có thể bao gồm cả nội dung bên trong, màu sắc, header và footer trong lập trình web, các lập trình viên sẽ cần phải sử dụng thuộc tính Card trong Bootstrap. Bài viết dưới đầy sẽ giúp bạn hiểu được Card trong lập trình web là gì? Được sử dụng như thế nào? Trước hết bài viết sẽ giải thích các khái niệm về trong Bootstrap cũng như hướng dẫn cách thao tác với như cách thêm header, footer, background màu, title, text, link, ảnh, link cho Card cũng như cách để Overlay ảnh và tạo Column cho Card. Và cách làm với Card Desk và Card Group trong lập trình web.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>card</b> là gì? Các sử dụng nó trong lập trình website. 
+Khi thao tác với một số trang website trong <b>lập trình web</b>, đã bao giờ bạn muốn tạo một hộp mà trong đó có thể bao gồm cả nội dung bên trong, màu sắc, header và footer? Nếu bạn đang tìm kiếm một thuộc tính nào đó trong <b>lập trình web</b> để có thể đáp ứng được mong muốn đó của bạn, đó chính là thuộc tính <b>Card</b> trong Bootstrap.
 
-# **1. Card trong Bootstrap**
+<br>
+Cụ thể <b>Card trong lập trình web</b> là gì? Được sử dụng như thế nào? Trong những chia sẻ dưới đây anh sẽ giải thích các khái niệm về <b>Card</b> trong Bootstrap cũng như hướng dẫn cách thao tác với <b>Card</b> như cách thêm header, footer, background màu, title, text, link, ảnh, link cho Card cũng như cách để Overlay ảnh và tạo Column cho Card. Và cách làm với Card Desk và Card Group trong <b>lập trình web</b>.
 
-Card trong bootstrap làm một khung có border viền bên ngoài và nội dung bên trong được padding so với border. Một phần tử card bao gồm có header , footer, nội dung bên trong và màu sắc.
+<br>
+Với những chia sẻ đó, kèm theo các ví dụ minh hoạ cụ thể, anh hi vọng các bạn sẽ sớm nắm bắt được kiến thức lập trình web Bootstrap này. Tuy nhiên để có thể áp dụng thành thạo vào thực tế, các bạn nên vận dụng những kiến thức này vào thực hành thường xuyên. Việc thực hành liên tục sẽ giúp các bạn ghi nhớ kiến thức nhanh và lâu hơn.
+ 
+
+## **1. Card trong Bootstrap**
+
+<b>Card</b> trong bootstrap làm một khung có border viền bên ngoài và nội dung bên trong được padding so với border. Một phần tử card bao gồm có header , footer, nội dung bên trong và màu sắc.
 
 Ví dụ như chúng ta muốn tạo ra một hình Card như sau
 
@@ -38,7 +45,7 @@ Ví dụ như chúng ta muốn tạo ra một hình Card như sau
 {% endhighlight %}
 
 
-# **2. Header và footer Card trong Bootstrap**
+## **2. Header và footer Card trong Bootstrap**
 
 Để sử dụng header và footer chúng ta dùng class .card-header và class .card-footer
 
@@ -54,9 +61,9 @@ Ví dụ như chúng ta muốn tạo ra một hình Card như sau
 
 {% endhighlight %}
 
-# **3. Thêm backgroud màu cho Card**
+## **3. Thêm background màu cho Card**
 
-Để thêm màu nền cho card chúng ta sử dụng các class có sẳn như .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark và .bg-light
+Để thêm màu nền cho card chúng ta sử dụng các class có sẵn như .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark và .bg-light
 
 <br>
 {% highlight html  linenos %}
@@ -102,7 +109,7 @@ Ví dụ như chúng ta muốn tạo ra một hình Card như sau
 
 {% endhighlight %}
 
-# **4. Thêm title, text và link cho Card**
+## **4. Thêm title, text và link cho Card**
 
 - Chúng ta có thể thêm title, chữ và link liên kết giống như hình sau cho card
 
@@ -124,9 +131,9 @@ Ví dụ như chúng ta muốn tạo ra một hình Card như sau
 
 {% endhighlight %}
 
-# **5. Thêm ảnh cho Card**
+## **5. Thêm ảnh cho Card**
 
-Chúng ta thêm class .card-img-top hoặc .card-img-bottom trong thẻ img. Nên nhớ chúng ta nên thêm ảnh ở ngoài class .card-body để có kích thướt toàn màn hình
+Chúng ta thêm class .card-img-top hoặc .card-img-bottom trong thẻ img. Nên nhớ chúng ta nên thêm ảnh ở ngoài class .card-body để có kích thước toàn màn hình
 
 {:refdef: style="text-align: center;"}
 ![card1](/images/post/boostrap/card1.png){:class="img-responsive"}
@@ -145,9 +152,9 @@ Chúng ta thêm class .card-img-top hoặc .card-img-bottom trong thẻ img. Nê
 </div>
 {% endhighlight %}
 
-# **6. Thêm link cho toàn bộ Card**
+## **6. Thêm link cho toàn bộ Card**
 
-Chúng ta muốn click vào bất kỳ vị trí nào trên card cũng có thể dẫn đi một đường link khác chứ không phải nhất thiết click vào nút. Thì chúng ta dùng class .stretched-link khi đó chúng ta click vào bất kỳ vị trí nào trên card cũng được.
+Chúng ta muốn click vào bất kỳ vị trí nào trên card cũng có thể dẫn đi một đường link khác chứ không nhất thiết click vào nút. Thì chúng ta dùng class .stretched-link khi đó chúng ta click vào bất kỳ vị trí nào trên card cũng được.
 
 <br>
 {% highlight html  linenos %}
@@ -156,7 +163,7 @@ Chúng ta muốn click vào bất kỳ vị trí nào trên card cũng có thể
 
 {% endhighlight %}
 
-# **7. Overlay ảnh cho Card**
+## **7. Overlay ảnh cho Card**
 
 Chúng ta muốn ảnh đè lên trên text trong card như sau.
 
@@ -181,7 +188,7 @@ Thì lúc đó chúng ta sẽ sử dụng class .card-img-overlay
 
 {% endhighlight %}
 
-# **8. Column cho Card**
+## **8. Column cho Card**
 
 Để tạo được nhiều card như hình bên dưới giống như layout của pinterest thì ta sử dụng class .card-columns
 
@@ -226,9 +233,9 @@ Thì lúc đó chúng ta sẽ sử dụng class .card-img-overlay
 
 {% endhighlight %}
 
-# **9. Card Desk**
+## **9. Card Desk**
 
-Chúng ta muốn tạo ra nhiều card có cùng kích thướt chiều cao và chiều rộng thì ta sử dụng class .card-deck
+Chúng ta muốn tạo ra nhiều card có cùng kích thước chiều cao và chiều rộng thì ta sử dụng class .card-deck
 
 {:refdef: style="text-align: center;"}
 ![card5](/images/post/boostrap/card5.png){:class="img-responsive"}
@@ -262,7 +269,7 @@ Chúng ta muốn tạo ra nhiều card có cùng kích thướt chiều cao và 
 
 {% endhighlight %}
 
-# **10. Card Group**
+## **10. Card Group**
 
 Nó cũng tương tự như card desk nhưng sẽ không có khoảng cách trống giữa 2 cards. Chúng ta sử dụng class .card-group 
 
