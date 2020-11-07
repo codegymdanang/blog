@@ -6,17 +6,24 @@ category: laptrinhweb
 tags: [bootstrap]
 summery: List
 image:
-description : Giới thiệu về list, hướng dẫn cách sử dụng list trong lập trình web.
+description : Trong quá trình lập trình web, tuỳ mỗi website mà cần sử dụng đến thuộc tính List trong Bootstrap để thiết lập các phần tử tạo thành một danh sách. Trước hết bài viết giúp bạn hiểu rõ về thuộc tính danh sách List là gì? Sau đó sẽ chuyển sang hướng dẫn cách để làm việc với thuộc tính này như cách để highlight list, liên kết và disable các phần tử trong list. Cũng như cách làm sao để xoá border xung quanh các phần tử và hiển thị danh sách list theo chiều ngang, thao tác thêm màu sắc, badges cho các phần tử trong List khi lập trình web. 
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>list</b> là gì? Các sử dụng nó trong lập trình website. 
+Trong quá trình <b>lập trình web</b>, tuỳ thuộc mỗi website trong lĩnh vực, mục đích sử dụng mà trong đó cần sử dụng đến thuộc tính <b>List</b> trong Bootstrap để thiết lập các phần tử tạo thành một danh sách các phần tử như danh sách các sản phẩm, danh sách tên các khoá học, danh sách các thể loại phim, danh sách hàng hoá…
 
-# **1. List  trong Bootstrap 4**
+<br>
+Để giúp bạn hiểu rõ hơn về thuộc tính <b>danh sách (List)</b> trong <b>lập trình web</b> Bootstrap là gì và cách áp dụng nó vào <b>lập trình web</b> như thế nào? Trong bài viết hôm nay anh sẽ chia sẻ cho các bạn về chủ đề sử dụng <b>List</b> trong Bootstrap 4.
+
+<br>
+Trước khi sử dụng được bất kỳ cái gì, chúng ta cũng cần hiểu rõ về nó là gì? Vì vậy đầu tiên anh sẽ giới thiệu cho các bạn hiểu được thuộc tính <b>List</b> trong Bootstrap 4 là gì? Sau đó anh sẽ chuyển sang hướng dẫn cho các bạn cách để làm việc với thuộc tính này như cách để highlight list, liên kết và disable các phần tử trong list. Cũng như cách làm sao để xoá border xung quanh các phần tử, cách để hiển thị danh sách list theo chiều ngang và thêm màu sắc, badges cho các phần tử trong List khi các bạn <b>lập trình web</b>.  
+ 
+
+## **1. List  trong Bootstrap 4**
 
 Để tạo được list trong web thì chúng ta sử dụng thẻ ul và class .list-group như sau
 
@@ -36,9 +43,9 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>list</b
 
 {% endhighlight %}
 
-# **2. Hightlight List  trong Bootstrap 4**
+## **2. Highlight List trong Bootstrap 4**
 
-Để làm hightlight một phần tử trong list ta sử dụng class .active như sau.
+Để làm highlight một phần tử trong list ta sử dụng class .active như sau.
 
 {:refdef: style="text-align: center;"}
 ![list2](/images/post/boostrap/list2.png){:class="img-responsive"}
@@ -54,7 +61,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>list</b
 </ul> 
 {% endhighlight %}
 
-# **3. Liên kết trong list**
+## **3. Liên kết trong list**
 
 Chúng ta có thể tạo ra một list (danh sách) và mỗi phần tử trong danh sách sẽ link tới một địa chỉ URL. Chúng ta sử dụng thẻ div thay cho thẻ ul
 
@@ -69,9 +76,9 @@ Chúng ta có thể tạo ra một list (danh sách) và mỗi phần tử trong
 
 {% endhighlight %}
 
-# **4. Disable các phần tử trong list**
+## **4. Disable các phần tử trong list**
 
-Chúng ta có thể làm mờ đi các phần tử trong list không cho người dùng bấm vào bằng cách sử thuộc tính disabled
+Chúng ta có thể làm mờ đi các phần tử trong list không cho người dùng bấm vào bằng cách sử dụng thuộc tính disabled
 
 {:refdef: style="text-align: center;"}
 ![list3](/images/post/boostrap/list3.png){:class="img-responsive"}
@@ -89,7 +96,7 @@ Chúng ta có thể làm mờ đi các phần tử trong list không cho ngườ
 {% endhighlight %}
 
 
-# **5. Xoá border xung quanh các phần tử trong list**
+## **5. Xoá border xung quanh các phần tử trong list**
 
 Để tạo 1 list không có border chúng ta sử dụng class .list-group-flush. Chúng sẽ xoá đi border và góc tròn xung quanh list
 
@@ -105,7 +112,7 @@ Chúng ta có thể làm mờ đi các phần tử trong list không cho ngườ
 
 {% endhighlight %}
 
-# **6. Hiển thị danh sách list theo chiều ngang**
+## **6. Hiển thị danh sách list theo chiều ngang**
 
 Nếu chúng ta muốn danh sách hiển thị theo chiều ngang màn hình thì chúng ta sử dụng class .list-group-horizontal trong .list-group như sau
 
@@ -121,9 +128,9 @@ Nếu chúng ta muốn danh sách hiển thị theo chiều ngang màn hình th�
 
 {% endhighlight %}
 
-# **7.Thêm màu sắc cho các phần tử**
+## **7.Thêm màu sắc cho các phần tử**
 
-Chúng ta có thể sử dụng các class sau đây để tạo màu sách cho các phần tử trong list như : .list-group-item-success, list-group-item-secondary, list-group-item-info, list-group-item-warning, .list-group-item-danger, .list-group-item-primary, list-group-item-dark and list-group-item-light
+Chúng ta có thể sử dụng các class sau đây để tạo màu sắc cho các phần tử trong list như : .list-group-item-success, list-group-item-secondary, list-group-item-info, list-group-item-warning, .list-group-item-danger, .list-group-item-primary, list-group-item-dark and list-group-item-light
 
 {:refdef: style="text-align: center;"}
 ![list4](/images/post/boostrap/list4.png){:class="img-responsive"}
@@ -145,7 +152,7 @@ Chúng ta có thể sử dụng các class sau đây để tạo màu sách cho 
 
 {% endhighlight %}
 
-# **8. Thêm badges cho các phần tử**
+## **8. Thêm badges cho các phần tử**
 
 {:refdef: style="text-align: center;"}
 ![list5](/images/post/boostrap/list5.png){:class="img-responsive"}
