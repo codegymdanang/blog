@@ -6,17 +6,22 @@ category: laptrinhweb
 tags: [bootstrap]
 summery: Nav
 image:
-description : Giới thiệu về nav, hướng dẫn cách sử dụng nav trong lập trình web.
+description : Trong lập trình web, các lập trình viên sẽ sử dụng các lớp Nav trong Bootstrap 4 để tạo ra các kiểu Menu nằm ngang hay nằm dọc. Bài viết này sẽ hướng dẫn cách thao tác với các lớp Nav để làm các kiểu Menu trên. Đồng thời cũng hướng dẫn để các bạn sử dụng được Nav trong Bootstrap để tạo kiểu Tab, Tab Pills và Dynamic tab trong Bootstrap 4.
+
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>nav</b> là gì? Các sử dụng nó trong lập trình website. 
+Trong <b>lập trình web</b>, các lập trình viên sẽ sử dụng các lớp <b>Nav</b> trong Bootstrap 4 để tạo ra các kiểu Menu nằm ngang hay nằm dọc. Bài viết hôm nay, anh sẽ hướng dẫn các bạn cách thao tác với các lớp <b>Nav</b> để làm các kiểu Menu trên. Đồng thời anh cũng hướng dẫn để các bạn sử dụng được Nav trong Bootstrap để tạo kiểu Tab, Tab Pills và Dynamic tab trong Bootstrap 4.
 
-# **1. Nav Menu nằm ngang trong Bootstrap 4**
+<br>
+Hi vọng với những chia sẻ về cách thao tác với <b>Nav</b> trong Bootstrap 4 sẽ giúp các bạn áp dụng vào quá trình <b>lập trình web</b> để tạo ra các trang website hoàn thiện, thu hút và đáp ứng các nhu cầu của khách hàng.
+ 
+
+## **1. Nav Menu nằm ngang trong Bootstrap 4**
 
 Chúng ta muốn làm menu cho website thì có thể sử dụng class .nav trong các thẻ ul. Và theo sau đó là các class .nav-item trong các thẻ li. Nếu trong menu có thêm link tới một website khác thì dùng class .nav-link
 
@@ -58,7 +63,7 @@ Chúng ta muốn làm menu cho website thì có thể sử dụng class .nav tro
 {% endhighlight %}
 
 
-# **2. Nav Menu nằm dọc trong Bootstrap 4**
+## **2. Nav Menu nằm dọc trong Bootstrap 4**
 
 Chúng ta có thể làm các thanh menu nằm dọc bằng cách thêm class là .flex-column .
 
@@ -73,7 +78,7 @@ Chúng ta có thể làm các thanh menu nằm dọc bằng cách thêm class l�
 
 {% endhighlight %}
 
-# **3. Tab trong Bootstrap 4**
+## **3. Tab trong Bootstrap 4**
 
 Chúng ta sử dụng .nav-tab và .active để tạo các tab.
 
@@ -101,7 +106,7 @@ Chúng ta sử dụng .nav-tab và .active để tạo các tab.
 
 {% endhighlight %}
 
-# **4. Tab Pills trong Bootstrap 4**
+## **4. Tab Pills trong Bootstrap 4**
 
 Chúng ta sử dụng .nav-pills để có thể làm toggle các 
 
@@ -129,7 +134,7 @@ Chúng ta sử dụng .nav-pills để có thể làm toggle các
 
 {% endhighlight %}
 
-# **5. Dynamic tab trong Bootstrap 4**
+## **5. Dynamic tab trong Bootstrap 4**
 
 Chúng ta sử dụng data-toggle="table", .tab-pane và .tab-content để làm Dynamic Tab như sau.
 
