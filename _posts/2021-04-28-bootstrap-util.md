@@ -6,21 +6,28 @@ category: laptrinhweb
 tags: [bootstrap]
 summery: Util
 image:
-description : Giới thiệu về Util, hướng dẫn cách sử dụng Util trong lập trình web.
+description : Những chia sẻ dưới đây sẽ giúp các bạn hiểu được Util trong lập trình web với Bootstrap 4 là gì? Sau đó sẽ hướng dẫn cách thao tác với Util trong Bootstrap 4 bao gồm Cách tạo và thêm màu sắc border, tạo border có góc viền tròn cho các thành phần web. Đồng thời tìm hiểu cách sử dụng tính năng Float, cách để canh giữa trong Bootstrap cũng như cách như thế nào để thiết lập độ rộng, độ cao của các phần tử  trong Bootstrap. Cùng với đó là những hướng dẫn cách tạo hiệu ứng bóng đổ, Iframe Responsive, Positive Vị trí, Close Icon và những bước để ẩn hiển thị một thành phần web bất kì nào đó. 
+
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Util</b> là gì? Các sử dụng nó trong lập trình website. 
+Khi <b>lập trình web</b> với Bootstrap, trong Bootstrap 4 đã xây dựng sẵn một số thư viện và tính năng để trang trí web và các thành phần trong web.
 
-# **1. Util trong Bootstrap 4**
+<br>
+Trong những chia sẻ dưới đây, trước hết anh sẽ giúp các bạn hiểu được <b>Util</b> trong Bootstrap 4 là gì? Sau đó sẽ hướng dẫn cách thao tác với Util trong Bootstrap 4 bao gồm:
+<br>
+Cách tạo và thêm màu sắc border, tạo border có góc viền tròn cho các thành phần web. Đồng thời tìm hiểu cách sử dụng tính năng Float, cách để canh giữa trong Bootstrap cũng như cách như thế nào để thiết lập độ rộng, độ cao của các phần tử trong Bootstrap. Cùng với đó là những hướng dẫn cách tạo hiệu ứng bóng đổ, Iframe Responsive, Positive Vị trí, Close Icon và những bước để ẩn hiển thị một thành phần web bất kì nào đó trong quá trình các bạn làm các dự án <b>lập trình web</b>. 
+ 
+
+## **1. Util trong Bootstrap 4**
 
 Boostrap 4 đã xây dựng sẳn một số thư viện và tính năng để trang trí web và các thành phần trong web. Sau đây là những tính năng có sẳn
 
-# **2. Border trong Bootstrap 4**
+## **2. Border trong Bootstrap 4**
 
 Sử dụng class border để thêm hoặc xoá một border của một thành phần web
 
@@ -37,7 +44,7 @@ Sử dụng class border để thêm hoặc xoá một border của một thành
 {% endhighlight %}
 
 
-# **3. Thêm màu sắc cho Border trong Bootstrap 4**
+## **3. Thêm màu sắc cho Border trong Bootstrap 4**
 
 <br>
 {% highlight html  linenos %}
@@ -54,7 +61,7 @@ Sử dụng class border để thêm hoặc xoá một border của một thành
 
 {% endhighlight %}
 
-# **4. Border có góc viền tròn trong Bootstrap 4**
+## **4. Border có góc viền tròn trong Bootstrap 4**
 
 <br>
 {% highlight html  linenos %}
@@ -76,7 +83,7 @@ Sử dụng class border để thêm hoặc xoá một border của một thành
 ![borderround](/images/post/boostrap/borderround.png){:class="img-responsive"}
 {: refdef}
 
-# **5. Float Bootstrap 4**
+## **5. Float Bootstrap 4**
 
 Chúng ta có thể sử dụng float right bằng class .float-right, hay float left bằng class .float-left. Hoặc chúng ta muốn xoá  tính năng float đi thì dùng class  .clearfix
 
@@ -90,7 +97,7 @@ Chúng ta có thể sử dụng float right bằng class .float-right, hay float
 
 {% endhighlight %}
 
-# **6. Canh giữa trong Bootstrap 4**
+## **6. Canh giữa trong Bootstrap 4**
 
 Chúng ta sử dụng class .mx-auto để canh giữa cho các phần tử.
 
@@ -101,7 +108,7 @@ Chúng ta sử dụng class .mx-auto để canh giữa cho các phần tử.
 
 {% endhighlight %}
 
-# **7. Thiết lập độ rộng của các phần tử trong Bootstrap 4** 
+## **7. Thiết lập độ rộng của các phần tử trong Bootstrap 4** 
 
 Chúng ta có thể sử dụng class w-* . Trong đó * là phần trăm độ rộng mà phần tử web sẽ chiếm
 
@@ -116,7 +123,7 @@ Chúng ta có thể sử dụng class w-* . Trong đó * là phần trăm độ 
 
 {% endhighlight %}
 
-# **8. Thiết lập độ cao của các phần tử trong Bootstrap 4** 
+## **8. Thiết lập độ cao của các phần tử trong Bootstrap 4** 
 
 Tương tự như thiết lập độ rộng ta cũng có thể thiết lập độ cao cho các phần tử bằng class h-* . Trong đó * là phần trăm độ rộng sẽ chiếm.
 
@@ -133,7 +140,7 @@ Tương tự như thiết lập độ rộng ta cũng có thể thiết lập đ
 
 {% endhighlight %}
 
-# **9. Tạo hiệu ứng bóng đổ** 
+## **9. Tạo hiệu ứng bóng đổ** 
 
 <br>
 {% highlight html  linenos %}
@@ -145,7 +152,7 @@ Tương tự như thiết lập độ rộng ta cũng có thể thiết lập đ
 
 {% endhighlight %}
 
-# **10. Iframe Responsive** 
+## **10. Iframe Responsive** 
 
 Khi ta nhúng video và website ở một nguồn khác vào trang web mình. Mà mình muốn chúng responsive giống như trang web mình thì mình thêm class embed-responsive-item ở div cha và div con nơi chứa iframe mình thêm class .embed-responsive như sau
 
@@ -174,7 +181,7 @@ Khi ta nhúng video và website ở một nguồn khác vào trang web mình. M�
 
 {% endhighlight %}
 
-# **11. Ẩn hiện các thành phần web**
+## **11. Ẩn hiện các thành phần web**
 
 Chúng ta có thể ẩn hoặc hiện các thành phần của web bằng cách sử dụng class .visible hoặc .invisible 
 
@@ -186,7 +193,7 @@ Chúng ta có thể ẩn hoặc hiện các thành phần của web bằng cách
 
 {% endhighlight %}
 
-# **12. Position Vị trí**
+## **12. Position Vị trí**
 
 - Để đặt một phần tử cố định ở trên cùng của trang thì sử dụng class .fixed-top.
 
@@ -221,7 +228,7 @@ Chúng ta có thể ẩn hoặc hiện các thành phần của web bằng cách
 
 {% endhighlight %}
 
-# **13. Close Icon**
+## **13. Close Icon**
 
 Chúng ta có thể thêm nút có biểu tượng close (x) bằng class .close
 
