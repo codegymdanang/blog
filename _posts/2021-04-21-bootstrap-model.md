@@ -15,6 +15,8 @@ youtubeId: Ex3glZTCvlY
 ## **Giới thiệu nội dung bài viết**
 
 Trong quá trình làm <b>lập trình web</b>, thiết kế các trang website cho người dùng. Các bạn chắc hẳn sẽ cần dùng đến <b>Modal</b> trong Bootstrap, nó được sử dụng để hiển thị một dialog (hộp thoại) hay popup (cửa sổ hiện lên) trên website. Ví dụ như khi khách hàng truy cập vào trang website của bạn, bạn muốn khách hàng nhận được ngay thông báo về sản phẩm mới ra mắt của bạn hay chương trình sale,…Lúc này bạn sẽ sử dụng Modal để những thông báo này đảm bảo xuất hiện ngay khi khách hàng vào website của bạn.
+
+<br>
 Vậy để hiểu được <b>Modal</b> và cách sử dụng nó trong <b>lập trình web</b> như thế nào? Bài viết hôm nay anh sẽ lần lượt chia sẻ về Modal và hướng dẫn cho các bạn về cách tạo Modal trong Bootstrap 4. Sau khi biết được cách tạo Modal, chúng at sẽ tìm hiểu thêm với các thao tác khác với Modal như cách thêm hiệu ứng Modal, tăng kích thước Modal trong Bootstrap 4. Hay cách để bố trí Modal nằm giữa của màn hình và cách tạo Modal có thanh cuộn trong <b>lập trình web</b> để xử lí trường hợp nếu nội dung bên trong quá nhiều.
  
 
