@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Tiếp nối các bài viết chia sẻ về các thuộc tính sử dụng trong <b>lập trình web</b> Bootstrap. Trong bài viết hôm nay, chủ đề anh sẽ trình bày cho các bạn là sử dụng thuộc tính <b>bảng (table)</b> trong Bootstrap. Như khi <b>lập trình web</b> các bạn có thể biết, một số các trang web có một số dạng dữ liệu cần biểu diễn dưới dạng bảng.
+Tiếp nối các bài viết chia sẻ về các thuộc tính sử dụng trong <b>lập trình web</b> Bootstrap. Trong bài viết hôm nay, anh sẽ trình bày cho các bạn về chủ đề sử dụng thuộc tính <b>bảng (table)</b> trong Bootstrap. Khi <b>lập trình web</b>, thao tác với một số các trang website, một số các trang web có dạng dữ liệu cần biểu diễn dưới dạng bảng.
 
 <br>
 Để giúp các bạn có thể nắm được cách thao tác với thuộc tính <b>bảng (table)</b> trong Bootstrap để áp dụng hiệu quả vào quá trình làm các dự án web, hôm nay anh sẽ hướng dẫn cụ thể cách làm với bảng như sử dụng striped Rows, tạo border, tạo hiệu ứng, xoá border, sử dụng màu sắc, header, responpsive.
