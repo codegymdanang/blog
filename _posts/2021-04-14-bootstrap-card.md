@@ -19,6 +19,7 @@ Khi thao tác với một số trang website trong <b>lập trình web</b>, đã
 <br>
 Cụ thể <b>Card trong lập trình web</b> là gì? Được sử dụng như thế nào? Trong những chia sẻ dưới đây anh sẽ giải thích các khái niệm về <b>Card</b> trong Bootstrap cũng như hướng dẫn cách thao tác với <b>Card</b> như cách thêm header, footer, background màu, title, text, link, ảnh, link cho Card cũng như cách để Overlay ảnh và tạo Column cho Card. Và cách làm với Card Desk và Card Group trong <b>lập trình web</b>.
 
+
 <br>
 Với những chia sẻ đó, kèm theo các ví dụ minh hoạ cụ thể, anh hi vọng các bạn sẽ sớm nắm bắt được kiến thức lập trình web Bootstrap này. Tuy nhiên để có thể áp dụng thành thạo vào thực tế, các bạn nên vận dụng những kiến thức này vào thực hành thường xuyên. Việc thực hành liên tục sẽ giúp các bạn ghi nhớ kiến thức nhanh và lâu hơn.
  
