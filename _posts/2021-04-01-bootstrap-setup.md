@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [bootstrap]
 summery: Cài đặt bootstrap
 image:
-description : Giới thiệu về bootstrap, hướng dẫn cách sử dụng bootstrap trong lập trình web.
+description : Bootstrap đã trở thành một trong những ngôn ngữ lập trình web được sử dụng phổ biến hiện nay. Bài viết này sẽ giúp bạn hiểu được Bootstrap là gì? Và hướng dẫn cách cài đặt Bootstrap để sử dụng trong lập trình web. Đồng thời qua những chia sẻ trong bài viết, cũng sẽ giúp biết được ngôn ngữ lập trình này được ra đời nhằm mục đích gì, mang lại những lợi ích gì, tại sao lại dùng Bootstrap trong lập trình web? Đồng thời nắm được cách thao tác với ngôn ngữ lập trình này, cách làm sao để nhúng Bootstrap vào website hay cách để tạo web.
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -14,7 +14,11 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Bootstap</b> là gì? Các sử dụng nó trong lập trình website 
+Các bạn khi học <b>lập trình web</b> thường nghe nhắc đến thuật ngữ Bootstrap rất nhiều. Vậy Bootstrap là gì? Làm sao để <b>cài đặt Bootstrap</b> để sử dụng được? Nó được ra đời nhằm mục đích gì, mang lại những lợi ích gì, tại sao lại dùng Bootstrap trong <b>lập trình web</b>? Sau khi hiểu được khái niệm và ý nghĩa mà Bootstrap mang lại, các bạn lúc này chắc hẳn đã bắt đầu tò mò mong muốn biết cách thao tác với ngôn ngữ lập trình này, cách làm sao để nhúng Bootstrap vào website hay cách để tạo web.
+
+<br>
+Trong những chia sẻ ngay dưới đây, anh sẽ giúp các bạn giải đáp những thắc mắc trên và hướng dẫn cài đặt và sử dụng Bootstrap trong <b>lập trình web</b> cụ thể như thế nào thông qua các ví dụ minh hoạ kèm theo.
+ 
 
 ## **1. Boostrap là gì**
 
@@ -79,7 +83,7 @@ Boostrap sử dụng HTML elements và các thuộc tính Css nên yêu cầu HT
 
 Hiện nay số lượng người dùng điện thoại là rất lớn, nên website của mình cũng phải hiển thị được trên điện thoại. Chính vì vậy khi làm một website mình phải ưu tiên nó phải hiện thị được trên điện thoại trước.
 
-Chúng ta thêm thẻ meta trong the head để cấu hình
+Chúng ta thêm thẻ meta trong thẻ head để cấu hình
 
 <br>
 {% highlight html  linenos %}
