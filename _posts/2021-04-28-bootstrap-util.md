@@ -20,7 +20,7 @@ Khi <b>lập trình web</b> với Bootstrap, trong Bootstrap 4 đã xây dựng 
 <br>
 Trong những chia sẻ dưới đây, trước hết anh sẽ giúp các bạn hiểu được <b>Util</b> trong Bootstrap 4 là gì? Sau đó sẽ hướng dẫn cách thao tác với Util trong Bootstrap 4 bao gồm:
 <br>
-Cách tạo và thêm màu sắc border, tạo border có góc viền tròn cho các thành phần web. Đồng thời tìm hiểu cách sử dụng tính năng Float, cách để canh giữa trong Bootstrap cũng như cách như thế nào để thiết lập độ rộng, độ cao của các phần tử trong Bootstrap. Cùng với đó là những hướng dẫn cách tạo hiệu ứng bóng đổ, Iframe Responsive, Positive Vị trí, Close Icon và những bước để ẩn hiển thị một thành phần web bất kì nào đó trong quá trình các bạn làm các dự án <b>lập trình web</b>. 
+Cách tạo và thêm màu sắc border, tạo border có góc viền tròn cho các thành phần web, cách sử dụng tính năng Float, thao tác để canh giữa trong Bootstrap cũng như cách như thế nào để thiết lập độ rộng, độ cao của các phần tử trong Bootstrap. Cùng với đó là những hướng dẫn cách tạo hiệu ứng bóng đổ, Iframe Responsive, Positive Vị trí, Close Icon và những bước để ẩn hiển thị một thành phần web bất kì nào đó trong quá trình các bạn làm các dự án <b>lập trình web</b>. 
  
 
 ## **1. Util trong Bootstrap 4**
