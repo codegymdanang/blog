@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong quá trình <b>lập trình web</b>, một số website cần thiết kế thêm các <b>nút (button)</b> để tạo các sự lựa chọn khác nhau giúp tăng trải nghiệm và đáp ứng được đa dạng nhu cầu từ khách hàng. Ví dụ như khi bạn mua một chiếc áo, bạn sẽ muốn chọn lựa size và màu sắc cụ thể để lựa chọn được chiếc áo phù hợp nhất với bạn. Lúc này các lập trình viên cần thiết kế các nút (button) như size S, M,L, màu sắc trắng, xanh, đen…để khách hàng lựa chọn.
+Trong quá trình <b>lập trình web</b>, một số website cần thiết kế thêm các <b>nút (button)</b> để tạo các sự lựa chọn khác nhau giúp tăng trải nghiệm và đáp ứng được nhu cầu đa dạng từ khách hàng. Ví dụ như khi bạn mua một chiếc áo, bạn sẽ muốn chọn lựa size và màu sắc cụ thể để lựa chọn được chiếc áo phù hợp nhất với bạn. Lúc này các lập trình viên cần thiết kế các nút (button) như size S, M,L, màu sắc trắng, xanh, đen…để khách hàng lựa chọn.
 
 <br>
 Để giúp bạn hiểu rõ hơn về thuộc tính <b>nút (Button)</b> trong <b>lập trình web</b> Bootstrap là gì và cách áp dụng nó vào <b>lập trình web</b> như thế nào? Trong bài viết hôm nay anh sẽ chia sẻ cho các bạn về chủ đề sử dụng <b>Button</b> trong Bootstrap.
