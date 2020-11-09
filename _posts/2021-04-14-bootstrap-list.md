@@ -14,13 +14,13 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong quá trình <b>lập trình web</b>, tuỳ thuộc mỗi website trong lĩnh vực, mục đích sử dụng mà trong đó cần sử dụng đến thuộc tính <b>List</b> trong Bootstrap để thiết lập các phần tử tạo thành một danh sách các phần tử như danh sách các sản phẩm, danh sách tên các khoá học, danh sách các thể loại phim, danh sách hàng hoá…
+Trong quá trình <b>lập trình web</b>, khi thao tác cho một số trang website đòi hỏi bạn cần phải sử dụng đến thuộc tính <b>List</b> trong Bootstrap để thiết lập các phần tử tạo thành một danh sách các phần tử như danh sách các sản phẩm, danh sách tên các khoá học, danh sách các thể loại phim, danh sách hàng hoá…
 
 <br>
 Để giúp bạn hiểu rõ hơn về thuộc tính <b>danh sách (List)</b> trong <b>lập trình web</b> Bootstrap là gì và cách áp dụng nó vào <b>lập trình web</b> như thế nào? Trong bài viết hôm nay anh sẽ chia sẻ cho các bạn về chủ đề sử dụng <b>List</b> trong Bootstrap 4.
 
 <br>
-Trước khi sử dụng được bất kỳ cái gì, chúng ta cũng cần hiểu rõ về nó là gì? Vì vậy đầu tiên anh sẽ giới thiệu cho các bạn hiểu được thuộc tính <b>List</b> trong Bootstrap 4 là gì? Sau đó anh sẽ chuyển sang hướng dẫn cho các bạn cách để làm việc với thuộc tính này như cách để highlight list, liên kết và disable các phần tử trong list. Cũng như cách làm sao để xoá border xung quanh các phần tử, cách để hiển thị danh sách list theo chiều ngang và thêm màu sắc, badges cho các phần tử trong List khi các bạn <b>lập trình web</b>.  
+Như chúng ta cũng đã biết, trước khi sử dụng được bất kỳ cái gì, chúng ta cũng cần hiểu rõ về nó là gì? Vì vậy đầu tiên anh sẽ giới thiệu cho các bạn hiểu được thuộc tính <b>List</b> trong Bootstrap 4 là gì? Sau đó anh sẽ chuyển sang hướng dẫn cho các bạn cách để làm việc với thuộc tính này như cách để highlight list, liên kết và disable các phần tử trong list. Cũng như cách làm sao để xoá border xung quanh các phần tử, cách để hiển thị danh sách list theo chiều ngang và thêm màu sắc, badges cho các phần tử trong List khi các bạn <b>lập trình web</b>.  
  
 
 ## **1. List  trong Bootstrap 4**
