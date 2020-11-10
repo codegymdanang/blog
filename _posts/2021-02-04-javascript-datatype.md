@@ -12,15 +12,15 @@ youtubeId: Ex3glZTCvlY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>kiểu dữ liệu</b>là như thế nào?
 
-# **1. kiểu dữ liệu là gì**
+## **1. Kiểu dữ liệu là gì**
 
 Trong JavaScript ta có 2 loại kiểu dữ liệu là Primitive (String, number, Boolean, Null, và Undefined) và Non Primitive (Object, Date, Array). Chúng ta sẽ lần lượt đi qua các kiểu dữ liệu này.
 
-# **2. kiểu dữ liệu String**
+## **2. Kiểu dữ liệu String**
 
 Kiểu dữ liệu String thường chứa giá trị là chuỗi. Chúng ta có thể sử dụng dấu " " hoặc ' ' 
 
@@ -35,7 +35,7 @@ var str2 = 'Hello World';
 
 {% endhighlight %}
 
-- String là một kiểu dữ liệu đặt biệt vì nó gồm nhiều ký tự kết hợp lại như các em thấy chữ Hello là do các ký tự H , e ,l ,l ,o kết hợp lại với nhau. Do vậy ta có thể dể dàng lấy từng ký tự trong chuỗi Hello như sau
+- String là một kiểu dữ liệu đặt biệt vì nó gồm nhiều ký tự kết hợp lại như các em thấy chữ Hello là do các ký tự H , e ,l ,l ,o kết hợp lại với nhau. Do vậy ta có thể dễ dàng lấy từng ký tự trong chuỗi Hello như sau
 
 - Ví dụ
 
@@ -63,7 +63,7 @@ var str = 'Hello ' + "World " + 'from ' + 'TutorialsTeacher ';
 
 {% endhighlight %}
 
-- Sử dụng dấu ký tự đặt biệt trong chuỗi, như các em thấy dấu " và dấu ' là những ký tự đặt biệt. Nhưng nếu ta muốn sử dụng các ký tự đặt biệt trong chuỗi thì ta dù ký tự \ trước các ký tự đặt biệt
+- Sử dụng dấu ký tự đặc biệt trong chuỗi, như các em thấy dấu " và dấu ' là những ký tự đặc biệt. Nhưng nếu ta muốn sử dụng các ký tự đặc biệt trong chuỗi thì ta dùng ký tự \ trước các ký tự đặt biệt
 
 - Ví dụ
 
@@ -75,7 +75,7 @@ var str2 = 'This is \'simple\' string';
 
 {% endhighlight %}
 
-# **2. kiểu dữ liệu Number**
+## **3. Kiểu dữ liệu Number**
 
 Kiểu dữ liệu Number sẽ chứa đựng các số nguyên, số thập phân, kiểu hex hoặc octal
 
@@ -90,7 +90,7 @@ var octal = 030
 
 {% endhighlight %}
 
-# **3. kiểu dữ liệu Boolean**
+## **4. Kiểu dữ liệu Boolean**
 
 Kiểu Boolean chỉ chứa đúng 2 giá trị là đúng và sai (true hoặc false)
 
@@ -116,7 +116,7 @@ alert(5 == 5); // true
 
 {% endhighlight %}
 
-# **4. kiểu dữ liệu NULL**
+## **5. Kiểu dữ liệu NULL**
 
 Chúng ta sử dụng NULL để chỉ ra rằng biến này không chứa bất kỳ giá trị gì. Nó sẽ được gán giá trị sau. NULL có nghĩa là giá trị chưa được tạo ra cho biến.
 
@@ -131,7 +131,7 @@ alert(myVar); // null
 
 {% endhighlight %}
 
-# **5. kiểu dữ liệu Undefined** 
+## **6. Kiểu dữ liệu Undefined** 
 
 Biến có giá trị undefined có nghĩa là không có giá trị nào được gán cho nó trước khi sử dụng.
 
@@ -143,9 +143,9 @@ alert(myVar);// undefined
 
 {% endhighlight %}
 
-# **6. kiểu dữ liệu Object** 
+## **7. Kiểu dữ liệu Object** 
 
-Kiểu dữ liệu Object (đối tượng) cũng giống như các kiểu khác của javascript nhưng khác nhau ở chỗ Object này sẽ chứa đựng nhiều giá trị và phương thức
+Kiểu dữ liệu Object (đối tượng) cũng giống như các kiểu khác của Javascript nhưng khác nhau ở chỗ Object này sẽ chứa đựng nhiều giá trị và phương thức
 
 - Cách 1 :  Tạo Object Literal
 
@@ -216,9 +216,9 @@ person.getFullName(); // James Bond
 
 JavaScript sẽ trả về undefined if như ta truy cập các biến và phương thức nếu nó không tồn tại.
 
-# **6. kiểu dữ liệu Date** 
+## **8. Kiểu dữ liệu Date** 
 
-Javascript cung cấp cho chúng ta kiểu dữ liệu Date để xử lý các dữ liệu liên qua đến ngày tháng năm, giờ phút giây.
+Javascript cung cấp cho chúng ta kiểu dữ liệu Date để xử lý các dữ liệu liên quan đến ngày tháng năm, giờ phút giây.
 
 - Ví dụ như lấy ngày giờ hiện tại
 
@@ -232,7 +232,7 @@ var currentDate = new Date(); //current date
 
 {% endhighlight %}
 
-- Nếu chúng ta muốn làm nhiều tính toán hơn là sử dụng ngày hiện tại . Ta có thể tạo ra đối tượng ngày với các tham số ta muốn
+- Nếu chúng ta muốn làm nhiều tính toán hơn là sử dụng ngày hiện tại. Ta có thể tạo ra đối tượng ngày với các tham số ta muốn
 
 
 {% highlight javascript  linenos %}
