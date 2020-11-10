@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Như những bài chia sẻ của anh về kiến thức <b>lập trình web</b> HTML ở phần trước, ngôn ngữ HTML được sử dụng để tạo nên các định dạng, các kiểu phần tử, nội dung trong trang web. Về các quy định cho cách hiển thị các phần tử này trong trang web thì lúc này đòi hỏi cần sử dụng đến ngôn ngữ CSS. Như vậy có thể nói rằng hai ngôn ngữ <b>lập trình web CSS</b> và ngôn ngữ <b>lập trình web HTML<b> luôn đi cùng nhau trong quá trình chúng ta làm trang web.
+Như những bài chia sẻ của anh về kiến thức <b>lập trình web</b> HTML ở phần trước, ngôn ngữ HTML được sử dụng để tạo nên các định dạng, các kiểu phần tử, nội dung trong trang web. Về các quy định cho cách hiển thị các phần tử này trong trang web thì lúc này đòi hỏi cần sử dụng đến ngôn ngữ CSS. Như vậy có thể nói rằng hai ngôn ngữ <b>lập trình web CSS</b> và ngôn ngữ <b>lập trình web HTML</b> luôn đi cùng nhau trong quá trình chúng ta làm trang web.
 <br>
 Để tác động vào cách hiển thị của các phần tử HTML trong trang, chúng ta cần phải nhúng CSS vào HTML. Vậy có những cách nhúng nào? Bài viết hôm nay anh sẽ giới thiệu cho các bạn 3 cách để nhúng CSS vào HTML bao gồm sử dụng thẻ style, thông qua file riêng biệt, và cách nhúng CSS vào HTML trong một hàng. Bên cạnh đó anh sẽ chia sẻ thêm cách làm để các bạn có thể thêm comment chú thích trong <b>lập trình web CSS</b>.
 <br>
