@@ -20,7 +20,7 @@ Như trong những chia sẻ về Biến trong <b>lập trình web</b> JavaScrip
 Vậy <b>Mảng (Array)</b> trong ngôn ngữ lập trình JavaScript là gì? Các cách thao tác với Mảng như khai báo, lấy các phần tử trong Mảng, kiểm tra xem có bao nhiêu phần từ trong độ dài của Mảng và tìm hiểu các phương thức có sẵn trong Mảng để áp dụng vào khi sử dụng ngôn ngữ JavaScript trong <b>lập trình web</b>.
 
 <br>
-Bài viết hôm nay anh sẽ trình bày về chủ đề Mảng (JavaScript), hi vọng thông qua những chia sẻ trong bài viết sẽ giúp các bạn giải đáp được những thắc mắc trên cũng như vận dụng được vào thực hành.
+Bài viết hôm nay anh sẽ trình bày về chủ đề <b>Mảng</b> trong JavaScript, hi vọng thông qua những chia sẻ trong bài viết sẽ giúp các bạn giải đáp được những thắc mắc trên cũng như vận dụng được vào thực hành.
 
 
 ## **1. Mảng là gì**
