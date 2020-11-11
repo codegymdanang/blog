@@ -4,7 +4,7 @@ title: Javascript hoạt động như thế nào
 slug : javascript-hoat-dong-nhu-the-nao
 category: laptrinhjavascript
 tags: [javascript]
-summery: Prototype   
+summery: Javascript hoạt động như thế nào    
 image: /images/blog/feature_javascript.png
 description : Giới thiệu về cách hoạt động của Javascript. Hiểu được nguyên lý và các vận hành trong một chương trình Javascript
 youtubeId: 9VXk-38LkBo
