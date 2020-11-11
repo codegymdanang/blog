@@ -14,10 +14,10 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong bất kì ngôn ngữ <b>lập trình web</b> nào các dữ liệu cũng được chia ra các kiểu khác nhau để giúp các lập trình viên biết được mỗi giá trị thuộc kiểu dữ liệu nào và cách sử dụng đối với mỗi kiểu khi <b>lập trình web</b> cho phù hợp.
+Trong bất kì ngôn ngữ <b>lập trình web</b> nào các dữ liệu cũng được chia ra các kiểu khác nhau để giúp các lập trình viên biết được mỗi giá trị thuộc <b>kiểu dữ liệu</b> nào và cách sử dụng đối với mỗi kiểu khi <b>lập trình web</b> cho phù hợp.
 
 <br>
-Trong những chia sẻ tiếp theo dưới đây, anh sẽ lần lượt giải thích cho các bạn hiểu hơn về kiểu dữ liệu trong ngôn ngữ lập trình JavaScript là gì? Đồng thời anh sẽ trình bày và hướng dẫn cách làm việc với các kiểu dữ liệu bao gồm: Kiểu dữ liệu String, Number, Boolean, NULL, Undefined, Object, và Date. Nắm được những kiểu dữ liệu trên chắc chắn sẽ hỗ trợ cho quá trình code của bạn trở nên nhanh chóng và hiệu quả hơn khi tham gia vào các dự án <b>lập trình web</b> đấy.
+Trong những chia sẻ tiếp theo dưới đây, anh sẽ lần lượt giải thích cho các bạn hiểu hơn về <b>kiểu dữ liệu trong ngôn ngữ lập trình web</b> JavaScript là gì? Đồng thời anh sẽ trình bày và hướng dẫn cách làm việc với các <b>kiểu dữ liệu</b> bao gồm: Kiểu dữ liệu String, Number, Boolean, NULL, Undefined, Object, và Date. Nắm được những <b>kiểu dữ liệu</b> trên chắc chắn sẽ hỗ trợ cho quá trình code của bạn trở nên nhanh chóng và hiệu quả hơn khi tham gia vào các dự án <b>lập trình web</b> đấy.
 
 
 
