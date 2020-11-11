@@ -17,7 +17,7 @@ youtubeId: Ex3glZTCvlY
 
 Trong <b>lập trình web</b> với JavaScript, <b>Callback</b> được hiểu là việc truyền một function như một tham số đến một function khác và đợi để được gọi cho xử lí các vấn đề đồng bộ theo trình tự nhất định.
 
-Nếu các bạn vẫn cảm thấy khó hiểu với thuật ngữ này hay chưa biết cách làm như thế nào để áp dụng nó vào thực hành. Các bạn có thể đọc thêm những chia sẻ dưới đây của anh về Callback để hiểu rõ hơn. Trong bài viết anh sẽ giải thích cho các bạn hiểu được Callback là gì? Và hướng dẫn sử dụng Callback trong lập trình web thông qua 2 ví dụ minh hoạ ở cuối bài.
+Nếu các bạn vẫn cảm thấy khó hiểu với thuật ngữ này hay chưa biết cách làm như thế nào để áp dụng nó vào thực hành. Các bạn có thể đọc thêm những chia sẻ dưới đây của anh về <b>Callback</b> để hiểu rõ hơn. Trong bài viết anh sẽ giải thích cho các bạn hiểu được <b>Callback</b> là gì? Và hướng dẫn sử dụng <b>Callback trong lập trình web</b> thông qua 2 ví dụ minh hoạ ở cuối bài.
 
 
 ## **1. Callback là gì**
