@@ -16,7 +16,6 @@ youtubeId: Ex3glZTCvlY
 
 Trong ngành <b>lập trình web</b> hiện nay có 3 ngôn ngữ chính được lựa chọn sử dụng gồm HTML, CSS và JavaScript. Trong đó ngôn ngữ lập trình <b>JavaScript</b> đứng đầu bảng ngôn ngữ lập trình được sử dụng phổ biến nhất theo thống kê của Stack Overflow (2018) và GitHub Octoverse (2017). Khác với ngôn ngữ <b>lập trình Java</b> hoạt động một cách độc lập, JavaScript hoạt động cùng với các ngôn ngữ khác gồm HTML và CSS trên các trang website.
 
-<br>
 Để giúp các bạn hiểu rõ hơn về ngôn ngữ <b>lập trình web</b> JavaScript. Trong những chia sẻ dưới đây anh sẽ lần lượt <b>giới thiệu về JavaScript</b> là gì? Sau đó hướng dẫn cho các bạn cách để cài đặt môi trường cho JavaScript và cách làm với thẻ JavaScript cũng như giải đáp cho bạn thắc mắc về đặt file JS ở đâu trong HTML và làm sao để hiển thị Popup Message khi thao tác <b>lập trình web</b> với ngôn ngữ JavaScript.
 
 
