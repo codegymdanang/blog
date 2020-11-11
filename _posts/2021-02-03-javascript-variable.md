@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [javascript]
 summery: Biến   
 image: /images/blog/feature_javascript.png
-description : Trong ngành lập trình web hiện nay có 3 ngôn ngữ chính được lựa chọn sử dụng gồm HTML, CSS và JavaScript. Trong đó ngôn ngữ lập trình JavaScript đứng đầu bảng ngôn ngữ lập trình được sử dụng phổ biến nhất. Để hiểu rõ hơn về JavaScript. Trong những chia sẻ dưới đây, bài viết sẽ lần lượt giới thiệu cho các bạn hiểu được JavaScript là gì? Và hướng dẫn cách để cài đặt môi trường cho JavaScript cũng như cách làm với thẻ JavaScript, đặt file JS ở đâu trong HTML và làm sao để hiển thị Popup Message trong lập trình web với ngôn ngữ JavaScript.
+description : Trong lập trình web, thuộc tính Biến được sử dụng để lưu lại các giá trị. Việc lưu lại dưới dạng các biến sẽ rất thuận tiện nếu sau này các bạn muốn sử dụng các giá trị đó nhiều lần. Những chia sẻ dưới đây sẽ trình bày cho các bạn hiểu được Biến là gì? Hướng dẫn để các bạn thực hiện được cách khai báo Biến, đặt tên cho Biến và chia sẻ những ví dụ minh hoạ để giúp các bạn nắm bắt kiến thức lập trình web này hiệu quả hơn.
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -14,10 +14,11 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong ngành <b>lập trình web</b> hiện nay có 3 ngôn ngữ chính được lựa chọn sử dụng gồm HTML, CSS và JavaScript. Trong đó ngôn ngữ lập trình JavaScript đứng đầu bảng ngôn ngữ lập trình được sử dụng phổ biến nhất theo thống kê của Stack Overflow (2018) và GitHub Octoverse (2017). Khác với ngôn ngữ <b>lập trình Java</b> hoạt động một cách độc lập, JavaScript hoạt động cùng với các ngôn ngữ khác gồm HTML và CSS trên các trang website.
+Trong <b>lập trình web</b>, thuộc tính <b>Biến</b> được sử dụng để lưu lại các giá trị. Việc lưu lại dưới dạng các biến sẽ rất thuận tiện nếu sau này các bạn muốn sử dụng các giá trị đó nhiều lần. Những lúc như vầy các bạn chỉ cần gọi tên <b>Biến</b> thay vì phải lặp đi lặp lại các giá trị sẽ rất mất thời gian và tốn công sức.
 
 <br>
-Để giúp các bạn hiểu rõ hơn về ngôn ngữ <b>lập trình web</b> JavaScript. Trong những chia sẻ dưới đây anh sẽ lần lượt giới thiệu cho các bạn hiểu được JavaScript là gì? Sau đó hướng dẫn cho các bạn cách để cài đặt môi trường cho JavaScript và cách làm với thẻ JavaScript cũng như giải đáp cho bạn thắc mắc về đặt file JS ở đâu trong HTML và làm sao để hiển thị Popup Message khi thao tác <b>lập trình web</b> với ngôn ngữ JavaScript.
+Trong phạm vi bài viết hôm nay, anh sẽ trình bày cho các bạn hiểu được <b>Biến</b> là gì? Hướng dẫn để các bạn thực hiện được cách khai báo Biến, Đặt tên cho Biến và chia sẻ những ví dụ minh hoạ để giúp các bạn nắm bắt kiến thức <b>lập trình web</b> này hiệu quả hơn.  
+
 
 ## **1. Biến là gì**
 
