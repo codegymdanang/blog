@@ -12,13 +12,16 @@ youtubeId: Ex3glZTCvlY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Kế thừa</b> là như thế nào? 
+Ngôn ngữ <b>lập trình web</b> JavaScript là một ngôn ngữ lập trình hướng đối tượng (OOP), mà một OOP thì thường bao gồm các tính chất: tính đa hình, đóng gói, trừu tượng và kế thừa. Một trong những tính chất nổi trội đó chính là tính <b>kế thừa</b>.
 
-# **1. Kế thừa là gì**
+Trong những chia sẻ dưới đây anh sẽ giúp các bạn hiểu được tính <b>kế thừa</b> trong ngôn ngữ <b>lập trình web</b> JavaScript là gì. Đồng thời hướng dẫn cách sử dụng nó để áp dụng được vào quá trình thực hành. Bài viết có kèm theo ví dụ minh hoạ hoàn chỉnh về <b>tính kế thừa</b> để bạn tham khảo thêm trong quá trình học.
+ 
 
-Kế thừa là một khái niệm quan trọng trong lập trình hướng đối tượng. Một đối tượng kế thừa một đối tượng khác thì nó sẽ có thuộc tính và phương thức có sẳn của đối tượng mà nó kế thừa
+## **1. Kế thừa là gì**
+
+<b>Kế thừa</b> là một khái niệm quan trọng trong lập trình hướng đối tượng. Một đối tượng kế thừa một đối tượng khác thì nó sẽ có thuộc tính và phương thức có sẵn của đối tượng mà nó kế thừa.
 
 Trong Javascript, kế thừa được hỗ trợ khi ta dùng Prototype.
 
@@ -56,9 +59,9 @@ Student.prototype.constructor = Student
 
 {% endhighlight %}
 
-Chúng ta sử dụng Student.prototype để tạo ra đối tượng Persion
+Chúng ta sử dụng Student.prototype để tạo ra đối tượng Person
 
-# **2. Ví dụ hoàn chỉnh về kế thừa**
+## **2. Ví dụ hoàn chỉnh về kế thừa**
 
 {% highlight javascript  linenos %}
 
