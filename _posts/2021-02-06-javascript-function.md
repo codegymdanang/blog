@@ -6,21 +6,25 @@ category: laptrinhjavascript
 tags: [javascript]
 summery: Function   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về function trong Javascrip, cách hoạt động của function trong Javascript
+description : Trong ngôn ngữ lập trình web JavaScript có thuộc tính Function cho phép các bạn có thể đặt nhiều dòng code vào trong một function và sau đó có thể sử dụng nó nhiều lần khi cần. Cụ thể Function là gì? Và cách thao tác thuộc tính Function, hàm với tham số và cách để trả về kết quả trong Function khi lập trình web như thế nào? Những chia sẻ trong bài viết này sẽ lần lượt giải đáp những thắc mắc trên cho bạn.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>function</b>là như thế nào?
+Khi <b>lập trình web</b>, đã bao giờ các bạn gặp phải tình huống, bạn phải gõ lại một đoạn code nào đó lặp đi lặp lại mỗi khi cần dùng đến và bạn cảm thấy mất thời gian và công sức của bạn. Vậy bạn đã từng thắc mắc rằng có cách nào đề rút ngắn thời gian và tăng hiệu quả cho quá trình <b>lập trình web</b> hơn không chưa?
 
-# **1. function là gì**
+<br>
+Tin vui cho bạn là trong ngôn ngữ lập trình JavaScript có thuộc tính Function cho phép các bạn có thể đặt nhiều dòng code vào trong một function và sau đó có thể sử dụng nó nhiều lần khi cần. Cụ thể Function là gì? Và cách thao tác thuộc tính Function (hàm) với tham số và cách để trả về kết quả trong Function khi <b>lập trình web</b> như thế nào? Bài viết này sẽ trả lời những thắc mắc trên cho bạn.
 
-Trong Javascript một function cho phép chúng ta đặt nhiều dòng code ở trong nó. Chúng ta phải đặt tên cho một function và sử dụng nó nhiều lần nếu mình cần
 
-Để định nghĩa một function trong javascript chúng ta dùng từ khoá function
+## **1. Function là gì**
+
+Trong Javascript một function cho phép chúng ta đặt nhiều dòng code ở trong nó. Chúng ta phải đặt tên cho một function và sử dụng nó nhiều lần nếu mình cần.
+
+Để định nghĩa một function trong Javascript chúng ta dùng từ khoá function
 
 - Cú pháp
 
@@ -48,7 +52,7 @@ function ShowMessage() {
 ShowMessage(); // chúng ta gọi function
 {% endhighlight %}
 
-# **2. function với tham số**
+## **2. Function với tham số**
 
 Chúng ta có thể thêm 1 hoặc nhiều tham số vào trong function. Chỗ nào gọi function thì thêm đối số vào. Ví dụ ta có function là hiển thị tên, khi đối số truyền vào là firstName và lastName như thế nào thì mình hiển thị thông báo chào cho người dùng.
 
@@ -64,7 +68,7 @@ ShowMessage("Bill", "Gates");
 {% endhighlight %}
 
 
-# **3. Trả về kết quả trong function**
+## **3. Trả về kết quả trong function**
 
 Sau khi function làm việc có thể trả về hoặc không trả về kết quả. Để trả về kết quả chúng ta dùng từ khoá return như sau.
 
