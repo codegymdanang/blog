@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [javascript]
 summery: Kiểu dữ liệu   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về kiểu dữ liệu trong Javascrip, cách hoạt động của kiểu dữ liệu trong Javascript
+description : Trong bất kì ngôn ngữ lập trình web nào các dữ liệu cũng được chia ra các kiểu khác nhau để giúp các lập trình viên biết được mỗi giá trị thuộc kiểu dữ liệu nào và cách sử dụng đối với mỗi kiểu khi lập trình web cho phù hợp. Những chia sẻ tiếp theo dưới đây, bài viết sẽ lần lượt giải thích cho các bạn hiểu hơn về kiểu dữ liệu trong ngôn ngữ lập trình JavaScript là gì? Đồng thời cũng trình bày và hướng dẫn cách làm việc với các kiểu dữ liệu bao gồm Kiểu dữ liệu String, Number, Boolean, NULL, Undefined, Object, và Date.
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -14,7 +14,12 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>kiểu dữ liệu</b>là như thế nào?
+Trong bất kì ngôn ngữ <b>lập trình web</b> nào các dữ liệu cũng được chia ra các kiểu khác nhau để giúp các lập trình viên biết được mỗi giá trị thuộc kiểu dữ liệu nào và cách sử dụng đối với mỗi kiểu khi <b>lập trình web</b> cho phù hợp.
+
+<br>
+Trong những chia sẻ tiếp theo dưới đây, anh sẽ lần lượt giải thích cho các bạn hiểu hơn về kiểu dữ liệu trong ngôn ngữ lập trình JavaScript là gì? Đồng thời anh sẽ trình bày và hướng dẫn cách làm việc với các kiểu dữ liệu bao gồm: Kiểu dữ liệu String, Number, Boolean, NULL, Undefined, Object, và Date. Nắm được những kiểu dữ liệu trên chắc chắn sẽ hỗ trợ cho quá trình code của bạn trở nên nhanh chóng và hiệu quả hơn khi tham gia vào các dự án lập trình web đấy.
+
+
 
 ## **1. Kiểu dữ liệu là gì**
 
@@ -35,7 +40,7 @@ var str2 = 'Hello World';
 
 {% endhighlight %}
 
-- String là một kiểu dữ liệu đặt biệt vì nó gồm nhiều ký tự kết hợp lại như các em thấy chữ Hello là do các ký tự H , e ,l ,l ,o kết hợp lại với nhau. Do vậy ta có thể dễ dàng lấy từng ký tự trong chuỗi Hello như sau
+- String là một kiểu dữ liệu đặc biệt vì nó gồm nhiều ký tự kết hợp lại như các em thấy chữ Hello là do các ký tự H , e ,l ,l ,o kết hợp lại với nhau. Do vậy ta có thể dễ dàng lấy từng ký tự trong chuỗi Hello như sau
 
 - Ví dụ
 
