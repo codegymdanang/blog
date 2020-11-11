@@ -12,11 +12,14 @@ youtubeId: Ex3glZTCvlY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Prototype</b> là như thế nào? 
+Trong bài chia sẻ trước anh đã chia sẻ về tính kế thừa (inheritance) trong JavaScript, đây cũng chính là cách thức làm việc của một <b>Prototype</b> trong <b>lập trình web</b>.
 
-# **1. Prototype là gì**
+Trong phạm vi bài viết này, anh sẽ chia sẻ về <b>Prototype</b>. Hi vọng qua đó giúp các bạn hiểu được <b>Prototype</b> trong ngôn ngữ <b>lập trình web</b> JavaScript là gì? Cũng như học được cách sử dụng <b>Prototype trong lập trình web</b> như cách prototype gán giá trị.
+ 
+
+## **1. Prototype là gì**
 
 Javascript là ngôn ngữ động chúng ta có thể thêm thuộc tính mới với Object bất cứ lúc nào. Chúng ta hãy xem ví dụ sau
 
@@ -47,11 +50,11 @@ studObj1.age = 15;
 
 Tuy nhiên đối tượng studObj2 không có thuộc tính age, chính vì vậy khi get giá trị từ biến age là báo lỗi.
 
-Như vậy khi muốn thêm một thuộc tính mới và đối tượng có sẳn ta dùng Prototype.
+Như vậy khi muốn thêm một thuộc tính mới và đối tượng có sẵn ta dùng Prototype.
 
-Protype được cài đặt mặt đinh trong tất cả function và đối tượng của javascript. Được sử dụng để ta có thể lấy thêm và chỉnh sửa các giá trị trong đối tượng và function. 
+Protype được cài đặt mặt định trong tất cả function và đối tượng của Javascript. Được sử dụng để ta có thể lấy thêm và chỉnh sửa các giá trị trong đối tượng và function. 
 
- # **3. Prototype gán giá trị**
+ ## **2. Prototype gán giá trị**
 
 Như các em thấy ở ví dụ 1 biến age chỉ có ở đối tượng studObj1, có cách nào để nó có thể có cho tất cả các đối tượng khác được không. Trong trường hợp này là studObj2. Để làm được việc này ta khai báo như sau
 
@@ -72,7 +75,7 @@ alert(studObj2.age); // 15
 
 {% endhighlight %}
 
-Như vậy các em thấy ta có dòng Student.prototype.age = 15; để thêm giá trị age cho tất cả các đối tượng là Student. Bây giờ studObj2 không bị lỗi giống như ví dụ 1.
+Như các bạn thấy chúng ta có dòng Student.prototype.age = 15; để thêm giá trị age cho tất cả các đối tượng là Student. Bây giờ studObj2 không bị lỗi giống như ví dụ 1.
 
 
 
