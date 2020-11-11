@@ -6,17 +6,19 @@ category: laptrinhjavascript
 tags: [javascript]
 summery: Vòng lặp   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về vòng lặp trong Javascrip, cách hoạt động của vòng lặp trong Javascript
+description : Để nhằm giải quyết các vấn đề mắc phải trong những bài toán khi lập trình web, các lập trình viên sẽ sử dụng vòng lặp, loop. Tương tự như những ngôn ngữ lập trình khác, JavaScript cũng có những vòng lặp như for, while, do-while. Bài viết này sẽ giúp bạn hiểu thêm về vòng lặp, loop trong JavaScript là gì cũng như hướng dẫn cách thao tác với các vòng lặp trên thông qua những ví dụ minh hoạ trong bài.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>vòng lặp</b>là như thế nào?
+<b>Vòng lặp (Loop)</b> được xem là một trong những kiến thức lập trình cơ bản mà lập trình viên cần nắm. Tương tự như các ngôn ngữ lập trình khác, trong JavaScript cũng sử dụng các vòng lặp for, while, do-while để nhằm giải quyết các vấn đề mắc phải trong những bài toán khi <b>lập trình web</b>. Những vòng lặp này sẽ được thực hiện lặp lại nhiều lần cho tới khi các điều kiện không còn thoả mãn nữa.
 
-# **1. Vòng lặp for là gì**
+Vậy cách thao tác với <b>vòng lặp (Loop)</b> trong JavaScript có khác với các ngôn ngữ khác không? Trong bài viết này, anh sẽ lần lượt trình bày về vòng lặp for, while, do-while. Các bạn hãy cùng tìm hiểu đáp án cho câu hỏi trên thông qua những chia sẻ dưới đây của anh nhé. 
+
+## **1. Vòng lặp for là gì**
 
 Chúng ta sử dụng vòng lặp để thực hiện đi thực hiện lại những dòng code trong vòng lặp tới khi điều kiện không còn thoả mãn nữa.
 
@@ -47,7 +49,7 @@ for (var i = 0; i < 5; i++)
 }
 {% endhighlight %}
 
-Trong vòng lặp loop 3 thành phần có thể không cần thiết khai báo , mình chỉ cần khai báo giá trị initializer trước khi vòng lặp chạy vẫn được. Nhưng cách này anh khuyên không nên dùng vì gây khó hiểu
+Trong vòng lặp loop 3 thành phần có thể không cần thiết khai báo, mình chỉ cần khai báo giá trị initializer trước khi vòng lặp chạy vẫn được. Nhưng cách này anh khuyên không nên dùng vì gây khó hiểu
 
 {% highlight javascript  linenos %}
 
@@ -65,9 +67,9 @@ for (; ;) {
 }
 {% endhighlight %}
 
-# **2. Vòng lặp while là gì**
+## **2. Vòng lặp while là gì**
 
-Vòng lặp While sẽ thực hiện các dòng code ở trong nó cho đến khi điều kiện không thoả mãn. Khác với vòng lặp for ta biết trước số lần vòng lặp sẽ chạy còn vòng lặp while thì không biết trước
+Vòng lặp While sẽ thực hiện các dòng code ở trong nó cho đến khi điều kiện không thoả mãn. Khác với vòng lặp for ta biết trước số lần vòng lặp sẽ chạy còn vòng lặp while thì không biết trước.
 
 - Cú pháp
 
@@ -92,9 +94,9 @@ while(i < 5)
 }
 {% endhighlight %}
 
-# **3. Vòng lặp do-while là gì**
+## **3. Vòng lặp do-while là gì**
 
-Cũng giống như vòng lặp while. Vòng lặp do-while chạy cho đến khi điều kiện không còn đúng nữa. Khác ở vòng lặp while ở chỗ do-while luôn luôn chạy 1 lần dù có điều kiện có sai.
+Cũng giống như vòng lặp while. Vòng lặp do-while chạy cho đến khi điều kiện không còn đúng nữa. Khác ở vòng lặp while ở chỗ do-while luôn luôn chạy 1 lần dù có điều kiện sai.
 
 - Cú pháp
 
