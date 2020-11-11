@@ -17,7 +17,7 @@ youtubeId: Ex3glZTCvlY
 Khi <b>lập trình web</b>, đã bao giờ các bạn gặp phải tình huống, bạn phải gõ lại một đoạn code nào đó lặp đi lặp lại mỗi khi cần dùng đến và bạn cảm thấy mất thời gian và công sức của bạn. Vậy bạn đã từng thắc mắc rằng có cách nào đề rút ngắn thời gian và tăng hiệu quả cho quá trình <b>lập trình web</b> hơn không chưa?
 
 <br>
-Tin vui cho bạn là trong ngôn ngữ lập trình JavaScript có thuộc tính Function cho phép các bạn có thể đặt nhiều dòng code vào trong một function và sau đó có thể sử dụng nó nhiều lần khi cần. Cụ thể Function là gì? Và cách thao tác thuộc tính Function (hàm) với tham số và cách để trả về kết quả trong Function khi <b>lập trình web</b> như thế nào? Bài viết này sẽ trả lời những thắc mắc trên cho bạn.
+Tin vui cho bạn là trong ngôn ngữ lập trình JavaScript có thuộc tính <b>Function</b> cho phép các bạn có thể đặt nhiều dòng code vào trong một function và sau đó có thể sử dụng nó nhiều lần khi cần. Cụ thể Function là gì? Và cách thao tác thuộc tính Function (hàm) với tham số và cách để trả về kết quả trong <b>Function</b> khi <b>lập trình web</b> như thế nào? Bài viết này sẽ trả lời những thắc mắc trên cho bạn.
 
 
 ## **1. Function là gì**
