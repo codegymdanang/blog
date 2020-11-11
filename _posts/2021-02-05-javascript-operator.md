@@ -14,10 +14,10 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Khi <b>lập trình web</b>, bên cạnh sử dụng văn bản chúng ta sẽ cần dùng đến các kí tự, số học để dùng cho các phép toán học khác nhau như các phép tính, so sánh, logic và điều kiện. Để hỗ trợ các phép tính này, trong ngôn ngữ <b>lập trình web</b> JavaScript cung cấp cho chúng ta thuộc tính Toán tử.
+Khi <b>lập trình web</b>, bên cạnh sử dụng văn bản chúng ta sẽ cần dùng đến các kí tự, số học để dùng cho các phép toán học khác nhau như các phép tính, so sánh, logic và điều kiện. Để hỗ trợ các phép tính này, trong ngôn ngữ <b>lập trình web</b> JavaScript cung cấp cho chúng ta thuộc tính <b>Toán tử</b>.
 
 <br>
-Tiếp theo trong những chia sẻ dưới đây, anh sẽ giúp các bạn hiểu được toán tử trong JavaScript là gì? Và lần lượt hướng dẫn để các bạn sử dụng được các phép toán tử trong <b>lập trình web</b> bao gồm toán tử số học, toán gán, so sánh, toán tử logic và tam phân. Trong mỗi phép toán, anh có kèm theo ví dụ minh hoạ cụ thể, các bạn có thể tham khảo thêm để dễ dàng nắm bắt và áp dụng được vào thực hành hiệu quả hơn.  
+Tiếp theo trong những chia sẻ dưới đây, anh sẽ giúp các bạn hiểu được <b>toán tử</b> trong JavaScript là gì? Và lần lượt hướng dẫn để các bạn sử dụng được các phép <b>toán tử</b> trong <b>lập trình web</b> bao gồm toán tử số học, toán gán, so sánh, toán tử logic và tam phân. Trong mỗi phép toán, anh có kèm theo ví dụ minh hoạ cụ thể, các bạn có thể tham khảo thêm để dễ dàng nắm bắt và áp dụng được vào thực hành hiệu quả hơn.  
 
 
 ## **1. Toán tử là gì**
