@@ -6,22 +6,26 @@ category: laptrinhjavascript
 tags: [javascript]
 summery: Câu điều kiện   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về câu điều kiện trong Javascrip, cách hoạt động của câu điều kiện trong Javascript
+description : Tương tự như các ngôn ngữ lập trình web khác, JavaScript cũng cung cấp cho chúng ta các câu điều kiện để giải quyết các bài toán rẽ nhánh từ đó giúp quản lí luồng đi của chương trình trở nên hiệu quả hơn. Bài viết sẽ lần lượt trình bày các câu điều kiện If, Else, Else If và mệnh đề Switch sử dụng trong ngôn ngữ lập trình web JavaScript. Trong mỗi phần như vậy có kèm theo ví dụ minh hoạ cụ thể để các bạn có tham khảo thêm cho quá trình học và làm các dự án lập trình web sau này.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>câu điều kiện</b>là như thế nào?
+Tương tự như các ngôn ngữ <b>lập trình web</b> khác, JavaScript cũng cung cấp cho chúng ta các câu điều kiện để giải quyết các bài toán rẽ nhánh từ đó giúp quản lí luồng đi của chương trình trở nên hiệu quả hơn.
 
-# **1. Câu điều kiện là gì**
+<br>
+Vậy cách thao tác với các dạng câu điều kiện trong JavaScript có khác với các ngôn ngữ khác không? Trong bài viết này, anh sẽ lần lượt trình bày các câu điều kiện If, Else, Else If và mệnh đề Switch sử dụng trong ngôn ngữ lập trình web JavaScript. Các bạn hãy cùng tìm hiểu đáp án cho câu hỏi trên thông qua những chia sẻ dưới đây của anh nhé. 
 
-Javascript cung cấp cho chúng ta các câu điều kiện để quản lý luồng đi của chương trình. Chúng ta thường sử dụng các câu điều kiện if else và switch case trong lập trình
+
+## **1. Câu điều kiện là gì**
+
+Javascript cung cấp cho chúng ta các câu điều kiện để quản lý luồng đi của chương trình. Chúng ta thường sử dụng các câu điều kiện if else và switch case trong lập trình web.
 
 
-# **2. Câu điều kiện If**
+## **2. Câu điều kiện If**
 
 Chúng ta sử dụng câu điều kiện If nếu chúng ta muốn thực hiện các đoạn code dựa trên điều kiện ta đưa vào có thoả mãn hay không.
 
@@ -51,7 +55,7 @@ if( 1 < 0)
 
 {% endhighlight %}
 
-# **3. Câu điều kiện Else**
+## **3. Câu điều kiện Else**
 
 Chúng ta sử dụng Else để chạy những trường hợp không thoả mãn điều kiện If
 
@@ -85,7 +89,7 @@ else
 
 {% endhighlight %}
 
-# **4. Câu điều kiện Else If**
+## **4. Câu điều kiện Else If**
 
 Chúng ta sử dụng Else If khi chúng ta muốn sử dụng kiểm tra điều kiện có thoả mãn lần thứ 2 hay không sau khi if đã kiểm tra
 
@@ -120,9 +124,9 @@ else if(mySal < yourSal)
 
 {% endhighlight %}
 
-# **5. Mệnh đề Switch**
+## **5. Mệnh đề Switch**
 
-Mệnh đề switch cũng giống như If. Nó hữu ích khi chúng ta muốn thực thực thi một hoặc nhiều các khối lệnh dựa trên kết quả trả về
+Mệnh đề switch cũng giống như If. Nó hữu ích khi chúng ta muốn thực thi một hoặc nhiều các khối lệnh dựa trên kết quả trả về
 
 - Cú pháp
 
