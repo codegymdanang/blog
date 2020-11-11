@@ -6,23 +6,27 @@ category: laptrinhjavascript
 tags: [javascript]
 summery: Toán tử   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về toán tử trong Javascrip, cách hoạt động của toán tử trong Javascript
+description : Khi lập trình web, bên cạnh sử dụng văn bản chúng ta sẽ cần dùng đến các kí tự, số học để dùng cho các phép toán học khác nhau như các phép tính, so sánh, logic và điều kiện. Để hỗ trợ các phép tính này, trong ngôn ngữ lập trình web JavaScript cung cấp cho chúng ta thuộc tính Toán tử. Với những chia sẻ trong bài viết này sẽ giúp các bạn hiểu được toán tử trong JavaScript là gì? Và lần lượt hướng dẫn sử dụng các phép toán tử trong lập trình web bao gồm toán tử số học, toán gán, so sánh, toán tử logic và tam phân. Trong mỗi phép toán, có kèm theo ví dụ minh hoạ cụ thể để các bạn có thể tham khảo thêm.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>toán tử</b>là như thế nào?
+Khi <b>lập trình web</b>, bên cạnh sử dụng văn bản chúng ta sẽ cần dùng đến các kí tự, số học để dùng cho các phép toán học khác nhau như các phép tính, so sánh, logic và điều kiện. Để hỗ trợ các phép tính này, trong ngôn ngữ <b>lập trình web</b> JavaScript cung cấp cho chúng ta thuộc tính Toán tử.
 
-# **1. Toán tử là gì**
+<br>
+Tiếp theo trong những chia sẻ dưới đây, anh sẽ giúp các bạn hiểu được toán tử trong JavaScript là gì? Và lần lượt hướng dẫn để các bạn sử dụng được các phép toán tử trong <b>lập trình web</b> bao gồm toán tử số học, toán gán, so sánh, toán tử logic và tam phân. Trong mỗi phép toán, anh có kèm theo ví dụ minh hoạ cụ thể, các bạn có thể tham khảo thêm để dễ dàng nắm bắt và áp dụng được vào thực hành hiệu quả hơn.  
 
-Trong JavaScript hỗ trợ các phép tính toán học, so sánh, logic và điều kiện giúp cho chúng ta thực hiện các tính toán.
 
-# **2. Toán tử số số học**
+## **1. Toán tử là gì**
 
-Thực hiện các phép tính cộng , trừ, nhân, chia, mod
+Trong ngôn ngữ lập trình JavaScript hỗ trợ các phép tính toán học, so sánh, logic và điều kiện giúp cho chúng ta thực hiện các tính toán.
+
+## **2. Toán tử số số học**
+
+Thực hiện các phép tính cộng, trừ, nhân, chia, mod
 
 {% highlight javascript  linenos %}
 
@@ -44,7 +48,7 @@ x--; //returns 4
 
 {% endhighlight %}
 
-# **3. Toán  gán**
+## **3. Toán  gán**
 
 {% highlight javascript  linenos %}
 
@@ -64,7 +68,7 @@ x %= 2; //x would be 1
 
 {% endhighlight %}
 
-# **4. Toán tử so sánh**
+## **4. Toán tử so sánh**
 
 {% highlight javascript  linenos %}
 
@@ -93,7 +97,7 @@ a <= c; // returns true
 
 {% endhighlight %}
 
-# **5. Toán tử logic**
+## **5. Toán tử logic**
 
 {% highlight javascript  linenos %}
 
@@ -111,7 +115,7 @@ var a = 5, b = 10;
 
 {% endhighlight %}
 
-# **6. Toán tử tam phân**
+## **6. Toán tử tam phân**
 
 {% highlight javascript  linenos %}
 
