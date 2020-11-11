@@ -14,10 +14,10 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Tương tự như các ngôn ngữ <b>lập trình web</b> khác, JavaScript cũng cung cấp cho chúng ta các câu điều kiện để giải quyết các bài toán rẽ nhánh từ đó giúp quản lí luồng đi của chương trình trở nên hiệu quả hơn.
+Tương tự như các ngôn ngữ <b>lập trình web</b> khác, JavaScript cũng cung cấp cho chúng ta <b>các câu điều kiện</b> để giải quyết các bài toán rẽ nhánh từ đó giúp quản lí luồng đi của chương trình trở nên hiệu quả hơn.
 
 <br>
-Vậy cách thao tác với các dạng câu điều kiện trong JavaScript có khác với các ngôn ngữ khác không? Trong bài viết này, anh sẽ lần lượt trình bày các câu điều kiện If, Else, Else If và mệnh đề Switch sử dụng trong ngôn ngữ lập trình web JavaScript. Các bạn hãy cùng tìm hiểu đáp án cho câu hỏi trên thông qua những chia sẻ dưới đây của anh nhé. 
+Vậy cách thao tác với các dạng <b>câu điều kiện</b> trong JavaScript có khác với các ngôn ngữ khác không? Trong bài viết này, anh sẽ lần lượt trình bày các câu điều kiện If, Else, Else If và mệnh đề Switch sử dụng trong ngôn ngữ <b>lập trình web</b> JavaScript. Các bạn hãy cùng tìm hiểu đáp án cho câu hỏi trên thông qua những chia sẻ dưới đây của anh nhé. 
 
 
 ## **1. Câu điều kiện là gì**
