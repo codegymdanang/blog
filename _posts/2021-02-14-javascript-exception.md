@@ -15,6 +15,7 @@ youtubeId: Ex3glZTCvlY
 ## **Giới thiệu nội dung bài viết**
 
 Trong quá trình <b>lập trình web</b>, chắc hẳn sẽ có những lúc chương trình bạn làm ra bị dừng lại vì xảy ra lỗi trong code mình làm. Những lỗi này được gọi là <b>Ngoại lệ (Exception)</b> trong JavaScript. 
+<br>
 
 Trong bài viết hôm nay anh sẽ chia sẻ cho các bạn những <b>ngoại lệ (Exception)</b> thường xảy ra khi <b>lập trình web</b> với JavaScript như lỗi cú pháp, runtime error hay sai về logic. Cũng như cùng tìm hiểu về những đối tượng Error trong JavaScript gồm những gì? Nắm được những lỗi thường gặp này để các bạn sẽ chú ý hơn khi <b>lập trình web</b> và sau này khi xảy ra các lỗi thì sẽ biết do đâu để tìm cách khắc phục. Đồng thời trong những chia sẻ tiếp theo anh sẽ hướng dẫn cho các bạn các cách để bắt các <b>ngoại lệ</b> như sử dụng khối lệnh try-catch hay sử dụng throw ném ngoại lệ. Cuối cùng anh sẽ trình bày về khối lệnh finally trong JavaScript, đây là khối lệnh luôn chạy các dòng code cho dù có ngoại lệ hay không.
 
