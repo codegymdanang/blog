@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong <b>lập trình web</b>, thuộc tính <b>Biến</b> được sử dụng để lưu lại các giá trị. Việc lưu lại dưới dạng các biến sẽ rất thuận tiện nếu sau này các bạn muốn sử dụng các giá trị đó nhiều lần. Những lúc như vầy các bạn chỉ cần gọi tên <b>Biến</b> thay vì phải lặp đi lặp lại các giá trị sẽ rất mất thời gian và tốn công sức.
+Trong <b>lập trình web</b>, thuộc tính <b>Biến</b> được sử dụng để lưu lại các giá trị. Việc lưu lại dưới dạng các biến sẽ rất thuận tiện nếu sau này các bạn muốn sử dụng các giá trị đó nhiều lần. Những lúc như vậy các bạn chỉ cần gọi tên <b>Biến</b> thay vì phải lặp đi lặp lại các giá trị sẽ rất mất thời gian và tốn công sức.
 
 <br>
 Trong phạm vi bài viết hôm nay, anh sẽ trình bày cho các bạn hiểu được <b>Biến</b> là gì? Hướng dẫn để các bạn thực hiện được cách khai báo Biến, Đặt tên cho Biến và chia sẻ những ví dụ minh hoạ để giúp các bạn nắm bắt kiến thức <b>lập trình web</b> này hiệu quả hơn.  
