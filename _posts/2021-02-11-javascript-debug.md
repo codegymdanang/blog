@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [javascript]
 summery: Debug   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về Debug trong Javascrip, cách hoạt động của Debug trong Javascript
+description : Bài chia sẻ hướng dẫn cách để debug lỗi trong lập trình web với JavaScript. Bài viết sẽ lần lượt trình bày về các bước để giải quyết một bug, công cụ debug tìm bugs trong HTML, công cụ chỉnh sửa CSS và debug tìm bugs trong JS. Đặc biệt anh sẽ giới thiệu thêm cho các bạn những kĩ năng đặt câu hỏi trên google, nhóm facebook và forum để nhanh chóng nhận được những câu trả lời như mong muốn của bạn.
 youtubeId: vluehE10qAg
 ---
 
