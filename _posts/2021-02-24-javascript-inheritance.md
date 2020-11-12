@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [javascript]
 summery: Kế thừa   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về Kế thừa trong Javascrip, cách hoạt động của Kế thừa trong Javascript
+description : Ngôn ngữ lập trình web JavaScript là một ngôn ngữ lập trình hướng đối tượng OOP, mà một OOP thì thường bao gồm các tính chất: tính đa hình, đóng gói, trừu tượng và kế thừa. Một trong những tính chất nổi trội đó chính là tính kế thừa. Bài viết sẽ giúp bạn hiểu được tính kế thừa trong ngôn ngữ lập trình web JavaScript là gì. Đồng thời hướng dẫn cách sử dụng nó để áp dụng được vào quá trình thực hành. Bài viết có kèm theo ví dụ minh hoạ hoàn chỉnh về tính kế thừa để bạn tham khảo thêm trong quá trình học.
 youtubeId: Ex3glZTCvlY
 ---
 
