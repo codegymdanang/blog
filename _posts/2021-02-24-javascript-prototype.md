@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [javascript]
 summery: Prototype   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về Prototype trong Javascrip, cách hoạt động của Prototype trong Javascript
+description : Bài viết giới thiệu về Prototype trong Javascrip để bạn hiểu được Prototype trong lập trình web là gì? Cũng như hướng dẫn cho bạn học được cách sử dụng Prototype như cách prototype gán giá trị. Hiểu được cách thức làm việc của một Protype sẽ giúp quá trình lập trình web của bạn trở nên hiệu quả hơn.
 youtubeId: Ex3glZTCvlY
 ---
 
