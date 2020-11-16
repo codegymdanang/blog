@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>Box Model</b> là như thế nào?
+Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>Jquery</b> là như thế nào?
 
 
 # **1. Thêm Jquery vào website**
