@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: Cài đặt bootstrap
 image:
 description : Bootstrap đã trở thành một trong những ngôn ngữ lập trình web được sử dụng phổ biến hiện nay. Bài viết này sẽ giúp bạn hiểu được Bootstrap là gì? Và hướng dẫn cách cài đặt Bootstrap để sử dụng trong lập trình web. Đồng thời qua những chia sẻ trong bài viết, cũng sẽ giúp biết được ngôn ngữ lập trình này được ra đời nhằm mục đích gì, mang lại những lợi ích gì, tại sao lại dùng Bootstrap trong lập trình web? Đồng thời nắm được cách thao tác với ngôn ngữ lập trình này, cách làm sao để nhúng Bootstrap vào website hay cách để tạo web.
-youtubeId: Ex3glZTCvlY
+youtubeId: Tcp5jRYIbA4
 ---
 
 {% include toc.html %}
@@ -134,6 +134,8 @@ Chúng ta thêm thẻ meta trong thẻ head để cấu hình
 Tiếp đến chúng ta sẽ xây dựng các thành phần của website trong thẻ body. Trong các chủ đề tiếp theo anh sẽ hướng dẫn mọi người cách xây dựng các thành phần
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
