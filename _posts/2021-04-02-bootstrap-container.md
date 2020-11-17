@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: Container
 image:
 description : Trong lập trình web Bootstrap, để thiết lập độ dài cố định cho nội dung các phần tử trong website, các lập trình viên sẽ dùng thuộc tính Container. Bài viết này sẽ giúp các bạn hiểu được 2 loại thuộc tính Container trong Bootstrap gồm container và container-fluid là gì? Và hướng dẫn cách để các bạn sử dụng được Container trong lập trình web thông qua các hình ảnh ví dụ minh hoạ kèm theo như thiết lập độ dài cố định, độ dài tràn màn hình, cấu hình padding, border, color, responsive cho container.
-youtubeId: Ex3glZTCvlY
+youtubeId: 9jfnqDnzTqY
 ---
 
 {% include toc.html %}
@@ -110,4 +110,7 @@ Chúng ta có thể sử dung container-sm|md|lg|xl để tạo nên chức năn
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
