@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: Grid
 image:
 description : Trong lập trình web, một trong những thuộc tính giúp website trở nên responsive đó chính là thuộc tính hệ thống lưới Grid trong Bootstrap. Bài viết giúp hiểu rõ hơn về thuộc tính này là gì cũng như hướng dẫn để sử dụng được thành thạo trong quá trình làm các dự án lập trình web. Tìm hiểu về 5 Grid Class trong lập trình web Bootstrap gồm col, col-sm, col-md, col-lg, col-xl. Bên cạnh đó, hướng dẫn cách chia tỉ lệ và đưa ra ví dụ cấu trúc hệ thống lưới Grid trong quá trình lập trình web.
-youtubeId: Ex3glZTCvlY
+youtubeId: mmbJCJ8XnxU
 ---
 
 {% include toc.html %}
@@ -130,4 +130,7 @@ Nếu như ta chi có 2 div thì bootstrap sẽ lấy 100% chia cho 2 mỗi div 
 Như vậy div bg-success sẽ chiếm 25% (cái này là lấy 3/12 = 0.25). Còn div bg-warning sẽ là 75% (lấy 9/12 = 0.75)
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
