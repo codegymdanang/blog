@@ -4,10 +4,10 @@ title: Hướng dẫn tìm kiếm các phần tử HTML trong Jquery
 slug : huong-dan-tim-kiem-cac-phan-tu-html-trong-jquery
 category: laptrinhweb
 tags: [jquery]
-summery: Duyệt phần tử HTML 
+summery : Duyệt phần tử HTML 
 image: /images/blog/angular.png
-description : Sử dụng Jquery để duyệt qua các phẩn tử web.
-youtubeId: Ex3glZTCvlY
+description : Sử dụng Jquery để duyệt qua các phẩn tử web. Hướng dẫn tìm kiếm các phần tử web thông qua các selector
+youtubeId : Ex3glZTCvlY
 ---
 
 {% include toc.html %}
