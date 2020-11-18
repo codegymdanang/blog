@@ -1,12 +1,12 @@
 ---
 layout: course-jquery
-title: Sử dụng Jquery Ajax
-slug : su-dung-jquery-ajax
+title: Sử dụng Jquery Traverse
+slug : su-dung-jquery-traverse
 category: laptrinhweb
 tags: [jquery]
-summery: Ajax 
+summery: Traverse 
 image: /images/blog/angular.png
-description : Sử dụng Jquery ajax để thao tác các thành phần trên website như lấy nội dung, chỉnh sửa nội dung các phần tử trên website
+description : Sử dụng Jquery traverse để thao tác các thành phần trên website như lấy nội dung, chỉnh sửa nội dung các phần tử trên website
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -112,7 +112,7 @@ Chúng ta cũng có thể lấy hết các phần tử con bằng cách sử d�
 {% highlight javascript linenos %}
 
 $(document).ready(function(){
-  $("div").find("*");
+  $("div").find("");
 });
 
 {% endhighlight %
