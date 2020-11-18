@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: Màu sắc
 image:
 description : Sử dụng bất kì ngôn ngữ lập trình web nào thì trang website cũng cần phải bắt mắt, khiến thu hút khách hàng. Vì vậy thuộc tính màu sắc color là một trong những thuộc tính không thể thiếu trong quá trình lập trình web. Các lập trình viên có thể sử dụng được thuộc tính màu sắc color cả cho văn bản Text và nền background. Bài viết giới thiệu và hướng dẫn cách sử dụng những loại Class được sử dụng để làm màu sắc cho các chữ text, hay các màu sắc bạn có thể dùng cho background để áp dụng được vào làm các dự án lập trình web, giúp trang website hoàn thiện hơn.
-youtubeId: Ex3glZTCvlY
+youtubeId: pbWop0QDYPE
 ---
 
 {% include toc.html %}
@@ -76,4 +76,8 @@ Ví dụ như ta có các màu sau.
 
 {:refdef: style="text-align: center;"}
 ![Background Color](/images/post/boostrap/bgcolor.png){:class="img-responsive"}
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}

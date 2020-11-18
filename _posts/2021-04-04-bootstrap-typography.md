@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: Typography
 image:
 description : Bài viết trình bày về thuộc tính Typography, một trong những thuộc tính không thể thiếu khi làm các dự án lập trình web. Bài viết lần lượt giới thiệu về các thẻ Heading, những mặc định có sẵn trong Bootstrap 4, và các thẻ small, mark, abbr, blockquote, dl được sử dụng trong Bootstrap 4. Trong mỗi phần có kèm theo hình ảnh minh hoạ cách làm cho mỗi phần để tham khảo thêm và dễ nắm bắt với những kiến thức chia sẻ trong bài. 
-youtubeId: Ex3glZTCvlY
+youtubeId: Btxrh7GXdy0
 ---
 
 {% include toc.html %}
@@ -171,3 +171,6 @@ Milk
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
