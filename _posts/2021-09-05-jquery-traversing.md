@@ -1,13 +1,13 @@
 ---
 layout: course-jquery
-title: Hướng dẫn tìm kiếm các phần tử HTML trong Jquery
-slug : huong-dan-tim-kiem-cac-phan-tu-html-trong-jquery
+title: Sử dụng Jquery duyệt qua các phần tử 
+slug : su-dung-jquery-duyet-qua-phan-tu-web 
 category: laptrinhweb
 tags: [jquery]
-summery : Duyệt phần tử HTML 
+summery: Jquery Traverse
 image: /images/blog/angular.png
-description : Sử dụng Jquery để duyệt qua các phẩn tử web. Hướng dẫn tìm kiếm các phần tử web thông qua các selector
-youtubeId : Ex3glZTCvlY
+description : Sử dụng Sự kiện trong trong jquery làm các dự án làm web. Hướng dẫn Sử dụng sự kiện trong Jquery vào dự án web. 
+youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
