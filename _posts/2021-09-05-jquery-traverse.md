@@ -61,7 +61,7 @@ $(document).ready(function(){
   $("span").parents();
 });
 
-{% endhighlight %
+{% endhighlight %}
 
 - Sử dụng phương thức parentsUntil() để lấy hết tất cả phần tử cha mà nằm giữa 2 phần tử mà ta chọn. Ví dụ như ta muốn lấy tất cả phần tử cha nằm trong khoảng span và div
 
@@ -71,7 +71,7 @@ $(document).ready(function(){
   $("span").parentsUntil("div");
 });;
 
-{% endhighlight %
+{% endhighlight %}
 
 # **3. Jquery Traversing từ cha xuống con**
 
@@ -85,7 +85,7 @@ $(document).ready(function(){
   $("div").children();
 });
 
-{% endhighlight %
+{% endhighlight %}
 
 Chúng ta cũng có thể thêm tham số để lọc và tìm kiếm các phần tử con như sau. Ví dụ như anh muốn lấy tất cả phần tử p có class name tên là first
 
@@ -95,7 +95,7 @@ $(document).ready(function(){
   $("div").children("p.first");
 });
 
-{% endhighlight %
+{% endhighlight %}
 
 - Sử dụng phương thức find() để lấy tất cả các phần tử con
 
@@ -105,17 +105,17 @@ $(document).ready(function(){
   $("div").find("span");
 });
 
-{% endhighlight %
+{% endhighlight %}
 
 Chúng ta cũng có thể lấy hết các phần tử con bằng cách sử dụng dấu * như sau :
 
 {% highlight javascript linenos %}
 
 $(document).ready(function(){
-  $("div").find("");
+  $("div").find("*");
 });
 
-{% endhighlight %
+{% endhighlight %}
 
 # **4. Jquery Filter**
 
@@ -129,7 +129,7 @@ $(document).ready(function(){
   $("div").first();
 });
 
-{% endhighlight %
+{% endhighlight %}
 
 - Chúng ta sử dụng phương thức last để tìm phần tử cuối cùng. Ví dụ như tìm thẻ div cuối cùng
 
@@ -139,7 +139,7 @@ $(document).ready(function(){
   $("div").last();
 });
 
-{% endhighlight %
+{% endhighlight %}
 
  - Chúng ta sử dụng phương thức eq() để trả về phần tử tương ứng với vị trí index 
 
@@ -149,7 +149,7 @@ $(document).ready(function(){
   $("p").eq(1);
 });
 
-{% endhighlight %
+{% endhighlight %}
 
 - Sử dụng phương thức not để trả về các phần tử không match (không đúng) với điều kiện mình đưa ra
 
@@ -159,7 +159,7 @@ $(document).ready(function(){
   $("p").not(".intro");
 });
 
-{% endhighlight %
+{% endhighlight %}
 
 
 
