@@ -1,13 +1,12 @@
 ---
 layout: course-jquery
-title: Sử dụng Jquery duyệt qua các phần tử 
-slug : su-dung-jquery-duyet-qua-phan-tu-web 
+title: Sử dụng Jquery duyệt qua các phần tử
+slug : su-dung-jquery-duyet-qua-phan-tu-web
 category: laptrinhweb
 tags: [jquery]
 summery: Jquery Traverse
 image: /images/blog/angular.png
 description : Sử dụng Sự kiện trong trong jquery làm các dự án làm web. Hướng dẫn Sử dụng sự kiện trong Jquery vào dự án web. 
-youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
@@ -112,7 +111,7 @@ Chúng ta cũng có thể lấy hết các phần tử con bằng cách sử d�
 {% highlight javascript linenos %}
 
 $(document).ready(function(){
-  $("div").find("*");
+  $("div").find("");
 });
 
 {% endhighlight %
