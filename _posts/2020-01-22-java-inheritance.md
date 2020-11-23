@@ -9,6 +9,7 @@ tuong: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
 description : Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của lập trình hướng đối tượng Java, trong bài viết này trình bày về tính kế thừa, inheritance trong lập trình. Hướng dẫn thông qua các ví vụ minh hoạ và video demo để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình lập trình Java. Và mục đích, lợi ích của việc sử dụng tính kế thừa trong lập trình Java.
 youtubeId: MGWT_Y9Oi8I
+youtubeId1: B2Zx3wZoawk
 ---
 
 {% include toc.html %}
@@ -90,8 +91,15 @@ class Bicycle extends Vehicle {
 
 Như vậy khi chạy chương trình thì nó sẽ báo lỗi ở lớp Bicycle vì kế thừa lớp Vehicle. Chương trình sẽ thôgn báo cho chúng ta là lớp Bicycle không thể kế thừa lớp Vehicle được 
 
-## **3. Demo Kế thừa**
+## **3. Hướng dẫn cách tạo Kế thừa trong Java**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
+
+## **4. Tại sao lại sử dụng kế thừa. Mục đích sử dụng kế thừa trong lập trình**
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId1 %}
+{: refdef}
+
+
