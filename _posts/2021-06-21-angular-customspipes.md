@@ -6,22 +6,22 @@ category: laptrinhweb
 tags: [angular]
 summery: Tự tạo Pipes  
 image: /images/blog/angular.png
-description : Tự tạo Pipes trong dự án angular. Hướng dẫn Tự tạo Pipes  Pipes vào dự án Angular. Sử dụng tự tạo Pipes  vào dự án.
+description : Bên cạnh các Pipes có sẵn trong Angular như ngày, tiền tệ, số, phần trăm thì người dùng có thể tự viết một Pipe riêng để sử dụng. Bài viết sẽ hướng dẫn bạn cách tự tạo Pipes trong dự án Angular như Pipes hiển thị nhiệt độ. Đồng thời hướng dẫn cách để sử dụng những Pipes tự tạo đó vào dự án Angular. Bài viết đưa ra các hình ảnh ví dụ minh hoạ cho cú pháp thực hiện Customs Pipes trong Angular.
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Customs Pipes</b> là như thế nào? 
 
-# **1. Custom Pipes là gì**
+## **1. Custom Pipes là gì**
 
 Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiểu thị trên webiste. Ngoài các kiểu có sẳn định dạng cho ngày, tiền tệ, số thì ta có thể tự viết một pipe riêng.
 
 
-# **2. Tự tạo Pipes hiển thị nhiệt độ**
+## **2. Tự tạo Pipes hiển thị nhiệt độ**
 
 - Bước 1 : Chúng ta tạo file temp-convertor.pipe.ts
 
