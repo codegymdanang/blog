@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: NgIF  
 image: /images/blog/angular.png
-description : Thêm ngIf trong dự án angular. Hướng dẫn sử dụng ngIf vào dự án Angular. Hướng dẫn các tạo ngIf vào dự án.
+description : Trong Angular, NgIf là một trong những directive được lựa chọn sử dụng phổ biến nhất. Bài viết giúp bạn hiểu được NgIf trong Angular là gì? Cú pháp của NgIf trong Angular là gì? Đưa ra các ví dụ minh hoạ để hiểu được mục đích của NgIf trong Angular. Hướng dẫn để sử dụng phủ định, if else, then else trong NgIf. Kèm theo ví dụ cụ thể về sử dụng NgIf và NgModeal để lấy một giá trị true nào đó. 
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>ngIf</b> là như thế nào? 
 
-# **1. ngIf là gì**
+## **1. ngIf là gì**
 
 Chúng ta sử dụng ngIf để xoá hoặc thêm một phần tử trên web dựa vào điều kiện có thoả mãn hay không
 
@@ -43,7 +43,7 @@ Chúng ta sử dụng ngIf để xoá hoặc thêm một phần tử trên web d
 
 Sự khác nhau ở chổ ngIf sẽ xoá hoàn toàn phần tử web ra khỏi DOM . Còn hide thì không xoá hẳn phần tử đó ra khỏi DOM. Mặc dù trên giao diên ta thấy phần tử đó bị mất đi
 
-# **2. Sử dụng phủ định trong ngIf**
+## **2. Sử dụng phủ định trong ngIf**
 
 {% highlight html  linenos %}
 
@@ -53,7 +53,7 @@ Sự khác nhau ở chổ ngIf sẽ xoá hoàn toàn phần tử web ra khỏi D
 
 {% endhighlight %}
 
-# **3. Sử dụng if else trong ngIf**
+## **3. Sử dụng if else trong ngIf**
 
 {% highlight html  linenos %}
 
@@ -67,7 +67,7 @@ Sự khác nhau ở chổ ngIf sẽ xoá hoàn toàn phần tử web ra khỏi D
 
 {% endhighlight %}
 
-# **4. Sử dụng then else trong ngIf**
+## **4. Sử dụng then else trong ngIf**
 
 {% highlight html  linenos %}
 
@@ -86,7 +86,7 @@ Sự khác nhau ở chổ ngIf sẽ xoá hoàn toàn phần tử web ra khỏi D
 {% endhighlight %}
 
 
-# **5.Ví dụ ngIf**
+## **5.Ví dụ ngIf**
 
 Ta sẽ làm ví dụ về kiểm tra một check box có bị check hay không? Nếu check box bị check thì ta sẽ thay đổi giá trị.
 
