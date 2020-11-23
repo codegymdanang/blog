@@ -6,23 +6,23 @@ category: laptrinhweb
 tags: [angular]
 summery: Sử dụng Bootstrap   
 image: /images/blog/angular.png
-description : Sử dụng boostrap trong dự án angular. Hướng dẫn cài đặt bootstrap vào dự án Angular. Hướng dẫn các tạo một ứng dụng ANgular và nhúng Bootstrap vào dự án.
+description : Sử dụng boostrap trong dự án angular khi lập trình web. Hướng dẫn cài đặt bootstrap vào dự án Angular. Hướng dẫn cách tạo một ứng dụng Angular và nhúng Bootstrap vào dự án. Trình bày về cách thao tác để tạo ứng dụng Angular và sử dụng Bootstrap từ CDN và từ npm/
 youtubeId: 977WIZTAUv8
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Bootstrap vào dự án Angular</b> là như thế nào?
 
-# **1 Giới thiệu về Bootstrap**
+## **1 Giới thiệu về Bootstrap**
 
 Boostrap là là một framework opensource gồm có <b>html,css và javascript</b>. Chúng ta sử dụng bootstrap để làm trang web trở nên đẹp hơn. Chúng ta kết hợp với <b>angular</b> để tiết kiệm thời gian. Đồng thời Bootstrap đã dựng sẳn các chức năng hiển thị được trên mobile và các thành phần của web. Nên chúng ta chỉ sử dụng mà thôi.
 
 Ngoài Bootstrap thì còn có rất nhiều framework khác hỗ trợ chúng ta trong việc làm giao diện như <b>Polymer, material , ant design</b>. Tuỳ theo dự án mà ta có thể chọn framework tương ứng. Nhưng theo anh thấy 70% dự án web của anh đều dùng Bootstrap.
 
-# **2 Cài đặt bootstrap cho dự án**
+## **2 Cài đặt bootstrap cho dự án**
 
 Có 2 cách để mình có thể nhúng Boostrap vào dự án Angular.
 
