@@ -6,21 +6,21 @@ category: laptrinhweb
 tags: [angular]
 summery: Thêm Component Con   
 image: /images/blog/angular.png
-description : Thêm component con trong dự án angular. Hướng dẫn cách thêm component con vào dự án Angular. Hướng dẫn các tạo một ứng dụng component vào dự án.
+description : Trong Angular Framework của lập trình web, các component được sắp xếp theo lối kiến trúc component base, giống như dạng cây gồm cha, con và cháu. Bài viết sẽ lần lượt trình bày để giúp người đọc hiểu được Component trong Angular là gì? Sau đó cùng tìm hiểu về cách thực hiện cú pháp để tạo ra Component cũng như hướng dẫn các bước thao tác để thêm Component con vào một Component cha. Bài viết kèm theo những ví dụ minh hoạ cho các bước làm sẽ giúp bạn nắm được kĩ thuật này và áp dụng được vào thực hiện trong các dự án Angular.
 youtubeId: 5FD1SFJYLAo
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách thêm <b>component con</b> là như thế nào? Trong bài viết hôm nay chúng ta sẽ sử dụng Angular Cli để tạo ra component.
 
-# **1. Component là gì**
+## **1. Component là gì**
 
 Trong angular các component được sắp xếp theo kiến trúc component-base, nghĩa là mỗi component sẽ phụ trách một nhiệm vụ cụ thể. Ví dụ ta có nhiệm vụ là login, đăng ký, mua hàng, thì ta tạo ra 3 components mỗi component sẽ có một template html, class component và css riêng. Kiến trúc các component trong Angular giống như kiến trúc 1 cái cây. Gồm có cha, sau đó xuống con, xuống cháu.
 
-# **2. Cú pháp tạo Component**
+## **2. Cú pháp tạo Component**
 
 Chúng ta sử dụng cú pháp sau của Angular Cli để tạo ra component.
 
@@ -30,7 +30,7 @@ ng new childComponent
 
 {% endhighlight %}
 
-# **3. Thêm Component con**
+## **3. Thêm Component con**
 
 Để thêm 1 component con vào một component cha chúng ta thực hiện các bước sau. Trong ví dụ này ta sẽ tạo ra một component là khách hàng.
 
