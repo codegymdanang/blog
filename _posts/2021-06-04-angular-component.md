@@ -6,11 +6,11 @@ category: laptrinhweb
 tags: [angular]
 summery: Component   
 image: /images/blog/angular.png
-description : Sử dụng boostrap trong dự án angular. Hướng dẫn cài đặt bootstrap vào dự án Angular. Hướng dẫn các tạo một ứng dụng ANgular và nhúng Bootstrap vào dự án.
+description : Component là một trong những thành phần quan trọng của Angular sử dụng trong lập tình web. Nhằm giúp các bạn sử dụng được Angular Component, bài chia sẻ dưới đây là 1 video hướng dẫn chi tiết cho các bạn, bên cạnh giải thích và trình bày kiến thức lí thuyết, giảng viên có lấy ví dụ minh hoạ để hướng dẫn cho các bạn được dễ hiểu nhất. Như giới thiệu về thành phần của Component gồm những gì? Hướng dẫn cách trao đổi dữ liệu trong Angular gồm one way binding và two way binding và một số các tác vụ khác.
 youtubeId: 0734nF0B_BM
 ---
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Angular Component</b> là như thế nào?
 
