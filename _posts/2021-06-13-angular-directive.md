@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: Directive   
 image: /images/blog/angular.png
-description : Thêm Directive trong dự án angular. Hướng dẫn sử dụng Directive vào dự án Angular. Hướng dẫn các tạo Directive vào dự án.
+description : Directive trong Angular được sử dụng để thao tác, cập nhật các thành phần giao diện khi lập trình web. Angular Directive được chia 3 loại gồm Component  Directive, Structural Directive và Attribute Directive. Ngoài ra các lập trình viên cũng có thể tự tạo ra một directive riêng cho dự án gọi là Customs Directive. Bài viết trình bày để bạn hiểu được các khái niệm trên là gì và hướng dẫn cách để tạo, thêm và sử dụng Directive trong dự án Angular.
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Directive</b> là như thế nào? 
 
-# **1. Directive là gì**
+## **1. Directive là gì**
 
 Chúng ta sử dụng Directive để thao tác , cập nhật, thêm, xoá các thành phần giao diện trên web. Hay nói cách khác chúng ta thao tác với các element của DOM. Các nút, ảnh, text box, table mà ta thấy trên website được một đối tượng  DOM quản lý. DOM có nhiệm vụ vẽ ra các đối tượng này trên website để ta có thể thấy được.
 
@@ -26,11 +26,11 @@ Angular Directive được chia là 3 loại là
 - Structural Directive
 - Attribute Directive
 
-# **2. Component Directive là gì**
+## **2. Component Directive là gì**
 
 Component directive là ví dụ về khách hàng mà ta đã làm trong bài thêm component con và component cha ở [đây](https://levunguyen.com/laptrinhweb/2021/06/09/angular-add-child-component/)
 
-# **3. Structural Directive là gì**
+## **3. Structural Directive là gì**
 
 Chúng ta sử dụng Structure Directive để thay đổi layout của trang website bằng cách thêm hoặc xoá các thành phần trên web (DOM Elements).
 
@@ -74,7 +74,7 @@ Một số thẻ về Structurall Directive như
 
 {% endhighlight %}
 
-# **3. Attribute Directive là gì**
+## **4. Attribute Directive là gì**
 
 Attribue Directive được dùng để thay đổi sự hiển thị hoặc hành vi của một thành phần trên web.
 
@@ -98,7 +98,7 @@ Attribue Directive được dùng để thay đổi sự hiển thị hoặc hà
 
 {% endhighlight %}
 
-# **4. Customs Directive là gì**
+## **5. Customs Directive là gì**
 
 Ngoài các Directive có sẳn trong Angular chúng ta có thể tự tạo ra một directive riêng cho chính mình. Chúng ta sẽ xem bài sau về cách tạo một Directive riêng cho dự án.
 
