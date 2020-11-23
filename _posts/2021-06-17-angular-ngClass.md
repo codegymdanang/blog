@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: NgClass 
 image: /images/blog/angular.png
-description : Thêm NgClass trong dự án angular. Hướng dẫn sử dụng NgClass vào dự án Angular. Hướng dẫn các tạo NgClass vào dự án.
+description : Bài viết giúp hiểu được NgClass trong Angular là gì? Tìm hiểu NgClass được sử dụng với mục đích và trong trường hợp nào khi lập trình web. Hướng dẫn cách thực hiện cú pháp NgClass trong Angular cũng như cách thao tác NgClass với mảng, cập nhật giá trị css động, css động với array, css động với đối tượng. Ngoài ra còn kèm theo hình ảnh ví dụ minh hoạ về cách làm directive NgClass trong Angular.
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>ngClass</b> là như thế nào? 
 
-# **1. ngClass là gì**
+## **1. ngClass là gì**
 
 Chúng ta sử dụng ngClass để thêm hay xoá một css trong phần tử html.
 
@@ -32,7 +32,7 @@ Chúng ta sử dụng ngClass để thêm hay xoá một css trong phần tử h
 - expression : điều kiện và css được thêm vào
 
 
-# **2. Ví dụ ngClass**
+## **2. Ví dụ ngClass**
 
 Ví dụ ta có một số thuộc tính css được định nghĩa trong file component app.component.css như sau
 
@@ -52,7 +52,7 @@ Tiếp đến ta sẽ sử dụng nó trong file template html như sau
 
 {% endhighlight %}
 
-# **3. ngClass với mảng**
+## **3. ngClass với mảng**
 
 Chúng ta có thể khai báo dạng mảng css trong file template html như sau
 
@@ -62,7 +62,7 @@ Chúng ta có thể khai báo dạng mảng css trong file template html như sa
 
 {% endhighlight %}
 
-# **4. Cập nhật giá trị css động**
+## **4. Cập nhật giá trị css động**
 
 Ví dụ trong file component class ta có biến cssStringVar. Sau đó ta gán nó qua bên template html, như vậy khi giá trị cssStringVar thay đổi thì nó sẽ cập nhật giá trị đó bên template html
 
@@ -84,7 +84,7 @@ cssStringVar: string= 'red size20';
 
 {% endhighlight %}
 
-# **5. Cập nhật giá trị css động với array**
+## **5. Cập nhật giá trị css động với array**
 
 {% highlight javascript  linenos %}
 
@@ -104,7 +104,7 @@ cssArray:string[]=['red','size20'];
 
 {% endhighlight %}
 
-# **6. Cập nhật giá trị css động với đối tượng**
+## **6. Cập nhật giá trị css động với đối tượng**
 
 - Ví dụ ta có class tên là CssClass
 
