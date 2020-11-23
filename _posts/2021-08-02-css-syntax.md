@@ -7,7 +7,7 @@ tags: [css]
 summery: Cú pháp   
 image: /images/blog/angular.png
 description : Trình bày chủ đề Cú pháp trong lập trình web CSS. Nhằm giúp các bạn có thể hiểu và áp dụng được cách khai báo cú pháp trong CSS vào thực hành một cách hiệu quả nhất. Bài viết sẽ lần lượt giới thiệu thành phần của cú pháp bao gồm selector, thuộc tính và giá trị. Cách thao tác với bộ chọn thẻ TML, bộ chọn Class, ID, bộ chọn thuộc tính. Hướng dẫn cách chọn selector con, làm như thế nào để sử dụng nhiều CSS trong một style, CSS cho một nhóm selector. 
-youtubeId: Ex3glZTCvlY
+youtubeId: 1K8lGmOg4sg
 ---
 
 {% include toc.html %}
@@ -195,7 +195,9 @@ h1, h2, h3 {
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

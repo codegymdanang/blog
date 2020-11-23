@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: Button
 image:
 description : Trong quá trình lập trình web, một số website cần thiết kế thêm nút button để tạo các sự lựa chọn khác nhau giúp tăng trải nghiệm, đáp ứng được nhu cầu đa dạng từ khách hàng. Bài viết sẽ giúp bạn hiểu được về thuộc tính nút Button trong lập trình web Bootstrap là gì và cách áp dụng nó vào lập trình web như thế nào? Kèm theo những hình ảnh ví dụ minh hoạ chi tiết trong mỗi phần, sẽ hướng dẫn bạn cách thao tác với Button trong lập trình web Bootstrap như cách tạo border, kích thước cho button, active, disable, nhóm các button lại với nhau, hoặc nhóm các button cùng kích thước với nhau, hay sắp xếp các button theo hàng dọc và lồng button này vào một button khác. 
-youtubeId: Ex3glZTCvlY
+youtubeId: rxGCyB4I4CI
 ---
 
 {% include toc.html %}

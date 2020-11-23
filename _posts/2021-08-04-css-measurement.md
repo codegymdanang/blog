@@ -7,7 +7,7 @@ tags: [css]
 summery: Đơn vi đo  
 image: /images/blog/angular.png
 description : Những chia sẻ trong bài giúp hiểu rõ các đơn vị đó tuyệt đối và tương đối trong lập trình web CSS bao gồm đơn vị đo centimeters, ex, in, millimeters, pica, point, pixel và phần trăm, em. Với những ví dụ minh hoạ chi tiết kèm theo cho mỗi đơn vị đo, bài viết sẽ hướng dẫn được bạn cách khai báo với mỗi đơn vị đo trong lập trình web. 
-youtubeId: Ex3glZTCvlY
+youtubeId: tg1An_pzd9Q
 ---
 
 {% include toc.html %}
@@ -124,6 +124,9 @@ Ví dụ anh muốn khoảng cách của đoạn văn bản cách lề là 25 pi
 {% endhighlight %}
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

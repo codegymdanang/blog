@@ -7,7 +7,7 @@ tags: [css]
 summery: Padding 
 image: /images/blog/angular.png
 description : Trong lập trình web CSS, bên cạnh thiết lập khoảng cách giữa các phần tử HTML, thì lập trình viên cũng cần thiết lập khoảng cách giữa các nội dung trong một phần tử web. Để thực hiện được, ta sẽ sử dụng thuộc tính padding để canh chỉnh gồm có các giá trị padding bottom canh chỉnh dưới, padding top canh chỉnh trên, padding left canh chỉnh trái và padding right canh chỉnh phải. Bài viết giới thiệu về thuộc tính padding trong lập trình web là gì? Các giá trị có trong thuộc tính này cũng như đi sâu vào hướng dẫn cụ thể cách làm của mỗi giá trị. Đồng thời kèm theo ví dụ minh hoạ cách thao tác cụ thể để bạn dễ dàng nắm bắt và áp dụng vào quá trình làm việc với các dự án lập trình web.
-youtubeId: Ex3glZTCvlY
+youtubeId: A-xbE1qQ-NU
 ---
 
 {% include toc.html %}
@@ -176,6 +176,8 @@ Chúng ta sử dụng thuộc tính padding để canh trái, phải, trên dư�
 {: refdef}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 

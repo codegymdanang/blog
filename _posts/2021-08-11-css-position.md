@@ -7,7 +7,7 @@ tags: [css]
 summery: Position 
 image: /images/blog/angular.png
 description : Trong lập trình web, để đặt các phần tử web vô những vị trí mà chúng ta mong muốn để bố cục trang web rõ ràng hơn, nội dung dễ đọc hơn, trang web hoạt động tối ưu nhất. Chúng ta sẽ sử dụng thuộc tính position trong CSS. Bài viết này sẽ giúp các bạn hiểu được thuộc tính position trong lập trình web CSS là gì? Những vị trí nào chúng ta có thể sắp xếp phần tử web vào? Và cách làm như thế nào để thao tác với những vị trí relative, static, absolute, fix và sticky. Kèm theo các ví dụ minh hoạ cụ thể cách thao tác để hướng dẫn bạn thực hiện được những vị trí đó trong lập trình web.
-youtubeId: Ex3glZTCvlY
+youtubeId: z5Op9lHxrSA
 ---
 
 {% include toc.html %}
@@ -232,4 +232,6 @@ div.sticky {
 
 Trong ví dụ trên người dùng dù có kéo thanh scroll bar thì chữ I am sticky vẫn ở trên cùng và cố định cho dù người dùng có kéo thanh cuộn xuống.
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

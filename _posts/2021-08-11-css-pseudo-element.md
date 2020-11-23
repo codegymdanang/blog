@@ -7,7 +7,7 @@ tags: [css]
 summery: Pseudo Element 
 image: /images/blog/angular.png
 description : Trong lập trình web, nếu muốn tạo các hiệu ứng cho các phần tử trong HTML, chúng ta sẽ cần sử dụng thuộc tính Pseudo Element trong CSS. Sử dụng thuộc tính Pseudo Element giúp tạo ra các hiệu ứng như hiệu ứng đặc biệt cho chữ, dòng đầu tiên của văn bản, thêm nội dung vào trước hoặc sau một phần tử. Bài viết này sẽ giúp bạn hiểu rõ hơn về Pseudo Element là gì? Hướng dẫn cách sử dụng các giá trị trong thuộc tính Pseudo Element gồm first-line, first-letter, before, after trong CSS. Kèm theo các ví dụ minh hoạ cụ thể cách thao tác với mỗi giá trị trong bài viết sẽ giúp bạn áp dụng ngay vào thực hành và làm các dự án web.
-youtubeId: Ex3glZTCvlY
+youtubeId: BpEyoVI3erw
 ---
 
 {% include toc.html %}
@@ -159,5 +159,7 @@ Chúng ta sẽ thêm ảnh sau thẻ P như sau.
 ![pseudo-after](/images/post/css/pseudo-after.png){:class="img-responsive"}
 {: refdef}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 

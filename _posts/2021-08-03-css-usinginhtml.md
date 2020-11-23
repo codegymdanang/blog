@@ -7,7 +7,7 @@ tags: [css]
 summery: Sử dụng CSS trong HTML  
 image: /images/blog/angular.png
 description : Để tác động vào cách hiển thị của các phần tử HTML trong trang, chúng ta cần phải nhúng CSS vào HTML. Vậy có những cách nhúng nào? Bài viết sẽ giới thiệu và hướng dẫn 3 cách để nhúng CSS vào HTML trong lập trình web bao gồm sử dụng thẻ style, thông qua file riêng biệt, và cách nhúng CSS vào HTML trong một hàng. Bên cạnh đó chia sẻ cách để thêm comment chú thích trong lập trình web CSS. 
-youtubeId: Ex3glZTCvlY
+youtubeId: QntpkPKLAdU
 ---
 
 {% include toc.html %}
@@ -158,7 +158,9 @@ Chúng ta dùng /* để ghi chú thích các dòng code CSS như sau.
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

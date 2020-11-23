@@ -7,7 +7,7 @@ tags: [css]
 summery: Background  
 image: /images/blog/angular.png
 description : Sử dụng background trong trong dự án làm web. Hướng dẫn Sử dụng background trong CSS vào dự án web. 
-youtubeId: Ex3glZTCvlY
+youtubeId: upKW35gUYAk
 ---
 
 {% include toc.html %}
@@ -263,7 +263,9 @@ Trường hợp ngược lại nếu anh muốn background cũng cuộn theo n�
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

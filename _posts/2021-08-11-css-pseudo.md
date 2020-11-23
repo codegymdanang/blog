@@ -7,7 +7,7 @@ tags: [css]
 summery: Pseudo Class 
 image: /images/blog/angular.png
 description : Bài viết lần lượt đi qua các phần bao gồm giải thích cho các bạn hiểu được Pseudo Class là gì? Các hiệu ứng có thể sử dụng như link pseudo class, visited pseudo class, hover pseudo class, active pseudo class, focus pseudo class và cách tạo hiệu ứng phần tử con đầu tiên trong lập trình web CSS. Kèm theo các ví dụ minh hoạ hướng dẫn sử dụng đối với mỗi giá trị hiệu ứng trong lập trình web CSS.
-youtubeId: Ex3glZTCvlY
+youtubeId: Oqa5yXmGTc8
 ---
 
 {% include toc.html %}
@@ -182,7 +182,9 @@ Trong ví dụ này ta có thẻ div, bên trong nó có 2 thẻ P . Nhưng bây
 ![pseudo3](/images/post/css/pseudo3.png){:class="img-responsive"}
 {: refdef}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
