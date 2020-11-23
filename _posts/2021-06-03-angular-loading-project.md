@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: Cơ chế hoạt động của Angular   
 image: /images/blog/angular.png
-description : Angular hoạt động như thế nào. Giải thích cơ chế hoạt động của Angular
+description : Angular được xem là một trong những framework được sử dụng phổ biến nhất hiện nay trong lập trình giao diện web. Vậy cơ chế hoạt động của Angular được diễn ra như thế nào? Những chia sẻ dưới đây của bài viết bao gồm cấu trúc dự án Angular, load trang index.html đầu tiên, application entry point load, root module, component và chức năng của main.ts trong Angular, sẽ giúp các bạn giải đáp các thắc mắc trên về cơ chế hoạt động trong Angular. Trong mỗi phần có các ví dụ minh hoạ cụ thể kèm theo để người đọc có thể tham khảo thêm.
 youtubeId: 977WIZTAUv8
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>cơ chế hoạt động của Angular </b> là như thế nào?
 
-# **1- Cấu trúc dự án Angular**
+## **1- Cấu trúc dự án Angular**
 
 {% highlight javascript  linenos %}
 
@@ -93,7 +93,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>cơ ch
 + app-rounting.module.ts : file này dùng để điều hướng.
 
 
-# **2- Cơ chế hoạt động Angular**
+## **2- Cơ chế hoạt động Angular**
 
 Angular sẽ làm các bước sau đây để hiện thị trang home khi chúng ta chạy ng serve -o
 
@@ -104,7 +104,7 @@ Angular sẽ làm các bước sau đây để hiện thị trang home khi chún
 - Trong app.modules.ts ta load lên module cha component (root) hay còn gọi là root component. Trong dự án Angular ta sẽ có nhiều component. Mỗi component là 1 phần của view hiểu thị cho người dùng
 - Trong module component sẽ có các file html,css (view) lúc đó sẽ hiển thị trang web cho người dùng
 
-# **3- Load trang index.html đầu tiên**
+## **3- Load trang index.html đầu tiên**
 
 File index.html là file đầu tiên mà Angular sẽ gọi khi ứng dụng được triển khai. Nội dung file index.html như sau.
 
@@ -165,7 +165,7 @@ Như vậy ta thấy angular thêm vào 5 files javascript vào trong file index
 - vender.js : chứa các javascript của angular và thư viện bên thứ 3
 - main.js : các code của ứng dụng mình
 
-# **4- Application Entry Point load**
+## **4- Application Entry Point load**
 
 Sau khi index.html được load lên, tiếp tục các thư viện Angular, thư viện bên thứ 3 được load. Angular cần tìm file đầu tiên để load ứng dụng file này được gọi là Application Entry Point
 
@@ -210,7 +210,7 @@ Trong Angular thì file đó là main.ts. Chúng ta có thể tìm thấy nó �
  }
 {% endhighlight %}
 
-# **5- Chức năng main.ts**
+## **5- Chức năng main.ts**
 
 File main.ts có nội dung như sau.
 
@@ -234,7 +234,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 
 - Tiếp đến chugns ta thấy Angular import AppModule. AppModule là component cha của cả ứng dụng Angualr. Angular tổ chức code theo modules. Module cha có nhiều module con, module con có nhiều module cháu cứ như vậy mà kéo dài. Như vậy AppModule là module cha của ứng dụng Angular. Tât cả các ứng dụng angular phải có ít nhất 1 module cha để load lên đầu tiên ta gọi nó là root module. Sau dó đến các module con
 
-# **5- Root Module**
+## **6- Root Module**
 
 Như vậy angular sẽ load file AppModule đầu tiên. File AppModule mô tả sau đây.
 
@@ -293,7 +293,7 @@ export class AppModule { }
 
 - boostrap : chỉ ra component nào Angualr sẽ load lên khi Angular Module được load
 
-# **6- Component**
+## **7- Component**
 
 Trong Root Module chỗ boostrap : [AppComponent] ta nói cho Angular biết là phải load AppComponent lên. Thì Code Component được hiện thi như sau
 
