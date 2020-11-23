@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: NgSwitch   
 image: /images/blog/angular.png
-description : Thêm NgSwitch trong dự án angular. Hướng dẫn sử dụng NgSwitch vào dự án Angular. Hướng dẫn các tạo NgSwitch vào dự án.
+description : Trong Angular, NgSwitch là một trong những directive được lựa chọn sử dụng phổ biến nhất. Bài viết giúp bạn hiểu được NgSwitch trong Angular là gì? Cú pháp của NgSwitch trong Angular là gì? Đưa ra các ví dụ minh hoạ để hiểu được mục đích của NgSwitch trong Angular là dùng để thêm, xoá các phần tử trên website. Hướng dẫn để kiểm tra điều kiện bằng trong NgSwitch và chỉ ra nó được kết hợp với NgSwitchcase và NgSwitchDefault như thế nào trong Angular.
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>NgSwitch</b> là như thế nào? 
 
-# **1. NgSwitch là gì**
+## **1. NgSwitch là gì**
 
 Chúng ta sử dụng ngSwitch để thêm hoặc xoá các phần tử trên website. Nó thường được kết hợp dùng chung với ngSwitchcase và ngSwitchDefault. Nó tương tự như mệnh switch trong javascript.
 
@@ -36,7 +36,7 @@ Cú pháp của ngSwitch như sau
 {% endhighlight %}
 
 
-# **2. Ví dụ NgSwitch**
+## **2. Ví dụ NgSwitch**
 
 Ví dụ ta làm một ứng dụng web. Khi người dùng nhập vào số 1 ta in ra tiếng Anh là One, 2 là Two, 3 là Three , 4 là Four, 5 là Five. Nếu nhập vào số 8 thì sẽ hiện thì giá trị mặt định vì số 8 không rơi vào trường hợp switchcase nào cả nên nó sẽ nhảy vô switch case default.
 
@@ -71,7 +71,7 @@ export class AppComponent
 </div>
 {% endhighlight %}
 
-# **3. Kiểm tra điều kiện bằng trong ngSwitch**
+## **3. Kiểm tra điều kiện bằng trong ngSwitch**
 
 Trong ngSwitch nếu ta nhập chuỗi rỗng nó sẽ tương ứng với giá trị 0. Ví dụ dưới đây nếu ta không nhập giá trị gì cho biên num. Thì mặc định giá trị num sẽ là 0 và rơi vào trường hợp ngSwitchCase="0"
 
