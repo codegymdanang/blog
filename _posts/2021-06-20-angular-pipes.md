@@ -6,22 +6,22 @@ category: laptrinhweb
 tags: [angular]
 summery: Pipes  
 image: /images/blog/angular.png
-description : Thêm Pipes trong dự án angular. Hướng dẫn sử dụng Pipes vào dự án Angular. Hướng dẫn các tạo Pipes vào dự án.
+description : Khi lập trình web, để định dạng lại các kiểu hiển thị trên website người dùng sẽ phải sử dụng đến Angular Pipes. Bài viết dưới đây sẽ giúp hiểu được Pipes trong Angular là gì? Cách sử dụng Date Pipes, UpperCasePipe và LowerCasePipe, SlicePipe, DecimalPipe và NumberPipe, PercentePipe và CurrencyPipe trong Angular. Đồng thời đưa ra các hình ảnh ví dụ minh hoạ cú pháp thực hiện cho mỗi tác vụ trên của Pipes trong Angular.
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Pipes</b> là như thế nào? 
 
-# **1. Pipes là gì**
+## **1. Pipes là gì**
 
 Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiểu thị trên webiste. Ví dụ như kiểu ngày tháng chúng ta muốn hiển thị theo kiểu MM-DD-YYYY (01-01-1983) cho người dùng.
 
 
-# **2. Date Pipes là gì**
+## **2. Date Pipes là gì**
 
 Sử dụng để định dạng lại kiểu ngày tháng trên website.
 
@@ -47,7 +47,7 @@ date_expression | date[:format]
 - Không có pipe ta sẽ nhận được là : Sun May 24 2020 19:30:12 GMT +0720 (Hong Kong)
 - Có pipe thì sẽ được hiển thị là : May 24 2020
 
-# **3. UpperCasePipe & LowerCasePipe**
+## **3. UpperCasePipe & LowerCasePipe**
 
 Được sử dụng để viết hoa toàn bộ hoặc viết thường toàn bộ dữ liệu . Ví dụ như sau
 
@@ -70,7 +70,7 @@ export class AppComponent
  
 {% endhighlight %} 
 
-# **4. SlicePipe**
+## **4. SlicePipe**
 
 Dùng để cắt một chuổi từ vị trí muốn cắt đến vị trí kết thúc
 
@@ -93,7 +93,7 @@ export class AppComponent
 
 {% endhighlight %} 
 
-# **5. DecimalPipe và NumberPipe**
+## **5. DecimalPipe và NumberPipe**
 
 Dùng để format cho kiểu số và kiểu thập phân. Với cú pháp như sau
 
@@ -106,7 +106,7 @@ number_expression | number[:digitInfo]
 - number_expression : số mà mình cần format
 - number tên pipe
 
-# **6. PercentePipe**
+## **6. PercentePipe**
 
 Định dạnh số theo phần trăm
 
@@ -129,7 +129,7 @@ export class AppComponent
 
 {% endhighlight %} 
 
-# **7. CurrencyPipe**
+## **7. CurrencyPipe**
 
 Định dạng để sử dụng cho tiền tệ như USD, hay VNĐ
 
