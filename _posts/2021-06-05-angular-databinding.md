@@ -6,23 +6,23 @@ category: laptrinhweb
 tags: [angular]
 summery: Data Binding   
 image: /images/blog/angular.png
-description : Sử dụng data binding trong dự án angular. Hướng dẫn cài đặt data binding vào dự án Angular. Hướng dẫn các tạo một ứng dụng data binding vào dự án.
+description : Để trao đổi dữ liệu trong Angular khi lập trình web, cụ thể là đồng bộ giữa component và tầng view (template file html). Lập trình viên sẽ sử dụng kĩ thuật Data binding khi muốn cập nhật data ở cả hai. Data binding trong Angular framework gồm 2 nhóm là one way binding và two way binding. Bài viết dưới đây sẽ giới thiệu về Databinding trong Angular là gì? Đồng thời trình bày để người đọc hiểu được One way binding và Two way binding trong Angular là gì? Cách để thao tác với kĩ thuật data binding trong dự án Angular như thế nào?
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng data binding</b> là như thế nào?
 
-# **Data binding là gì**
+## **Data binding là gì**
 
 Databinding là kỷ thuật nơi dữ liệu được đồng bộ giữa component và tầng view (template file html). Ví dụ khi người dùng cập nhật data ở tầng view thì Angular cũng cập nhật giá trị đó ở component.
 
 Data binding trong Angular có thể chia ra làm 2 nhóm. Đó là one way binding (binding 1 chiều) và two way binding (binding 2 chiều).
 
-# **One way binding là gì**
+## **One way binding là gì**
 
 - One way binding thì dữ liệu được truyền 1 chiều. Có thể từ view sang component hoặc ngược lại từ component sang view.
 
@@ -111,7 +111,7 @@ export class AppComponent {
 
 {% endhighlight %}
 
-# **Two way binding là gì**
+## **Two way binding là gì**
 
 Binding 2 chiều có nghĩa là chúng ta thay đỗi dữ liệu từ component qua view và ngược lại từ view chúng ta thay đỗi dữ liệu. 
 
