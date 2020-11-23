@@ -8,7 +8,7 @@ summery: Tính đa hình
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
 description : Hiểu về tính đa hình trong lập trình hướng đối tượng trong lập trình? Giải thích các khái niệm về tính đa hình trong lập trình hướng đối tượng. Lợi ích của việc sử dụng lập tính đa hình.
-youtubeId: MGWT_Y9Oi8I
+youtubeId: 8SH9jP_BbVo
 ---
 
 {% include toc.html %}
@@ -62,3 +62,7 @@ class MyMainClass {
 ## **2. Tổng kết**
 
 Như vậy chúng ta thấy đa hình ở chỗ myAnimal.makeSound(); myPig.makeSound() ; myDog.makeSound(). Cũng là một phương thức makeSound() như nếu là con chó thì kết quả khác, con heo là kết quả khác
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
