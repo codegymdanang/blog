@@ -6,25 +6,25 @@ category: laptrinhweb
 tags: [angular]
 summery: Tạo dự án   
 image: /images/blog/angular.png
-description : Sử dụng angular cli tạo dự án angular. Hướng dẫn angular cli tạo dự án Angular. Hướng dẫn các tạo một ứng dụng angular cli.
+description : Bài viết trình bày về chủ đề Angular Cli dùng trong lập trình web. Trước hết bài viết sẽ giúp bạn hiểu được Angular Cli là gì? Sau đó giới thiệu cho các bạn cấu trúc của một dự án Angular sẽ bao gồm những gì. Đặc biệt, trong những chia sẻ dưới đây của bài viết sẽ hướng dẫn cách cài đặt Angular Cli và sử dụng angular cli để tạo dự án angular. Bài viết sẽ kèm theo các ví dụ minh hoạ chi tiết trong mỗi phần để người đọc tham khảo thêm và nắm bắt kiến thức này hiệu quả hơn.
 youtubeId: 977WIZTAUv8
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Angular Cli để tạo  dự án Angular</b> là như thế nào?
 
 
-# **1- Angular Cli là gì**
+## **1- Angular Cli là gì**
 
-Chúng ta sử dụng tool Angular Cli để giúp chúng ta tạo dự án một cách nhanh chóng. Nó tự động cấu hình các file và package của dự án angular cho chúng ta một cách tự động. Ngoài ra chúng ta sử dụng Angular Cli để tạo các components, directive hay service vào trong dự án có sẳn chỉ bằng 1 dòng lệnh.
+Chúng ta sử dụng tool Angular Cli để giúp chúng ta tạo dự án một cách nhanh chóng. Nó tự động cấu hình các file và package của dự án angular cho chúng ta một cách tự động. Ngoài ra chúng ta sử dụng Angular Cli để tạo các components, directive hay service vào trong dự án có sẵn chỉ bằng 1 dòng lệnh.
 
 
-# **2- Cài đặt Angular Cli**
+## **2- Cài đặt Angular Cli**
 
-- Bước 1 : Chúngt a cài Angular Cli bằng cách sử dụng lệnh npm install như sau. Lúc này nó sẽ lấy phiên bản mới nhất của Angular Cli
+- Bước 1 : Chúng ta cài Angular Cli bằng cách sử dụng lệnh npm install như sau. Lúc này nó sẽ lấy phiên bản mới nhất của Angular Cli
 
 {% highlight javascript  linenos %}
 
@@ -48,7 +48,7 @@ ng new HotelProject
 
 {% endhighlight %}
 
-Câu lệnh ở trên sẽ tự động tạo ra folder dự án Angular, lấy các thư viện angular và các thư viện phụ thuộc khác của dự án. Cài đặt và cấu hình typescript (ngôn ngữ dùng để lập trình angular), cuối cùng là cài đặt các thư viện liên quan đến việc testing cho dự án angular.
+Câu lệnh ở trên sẽ tự động tạo ra folder dự án Angular, lấy các thư viện Angular và các thư viện phụ thuộc khác của dự án. Cài đặt và cấu hình typescript (ngôn ngữ dùng để lập trình angular), cuối cùng là cài đặt các thư viện liên quan đến việc testing cho dự án angular.
 
 - Bước 3 : Chạy dự án angular bằng lệnh ng serve
 
@@ -73,7 +73,7 @@ ng serve -o
 
 {% endhighlight %}
 
-# **3- Cấu trúc dự án Angular**
+## **3- Cấu trúc dự án Angular**
 
 {% highlight javascript  linenos %}
 
@@ -118,7 +118,7 @@ ng serve -o
 
 {% endhighlight %}
 
-- Thư mục cha (root) gồm có cá thư mục con là e2e, node_module và src. Ngoài ra có thêm một số file cấu hình bên ngoài
+- Thư mục cha (root) gồm có các thư mục con là e2e, node_module và src. Ngoài ra có thêm một số file cấu hình bên ngoài
 
 - File .editorcongif : file này dùng để cấu hình nếu trình soạn thảo code chúng ta dùng là Visual Studio. Mình có thể thay đổi cấu hình tại đây
 
@@ -132,9 +132,9 @@ ng serve -o
 
 - package.json : file này chứa các thư viện cần thiết cho dự án angular, ngoài ra nếu ta thêm một thư viện bên thứ 3 vào thì khai báo trong này
 
-- tslint.js : dùng để kiểm tra code có chất lượng hay không, có dể đọc hay dể bảo trì không, có theo chuẩn không.
+- tslint.js : dùng để kiểm tra code có chất lượng hay không, có dễ đọc hay dễ bảo trì không, có theo chuẩn không.
 
-- thư mục e2e : chức các file liên quan đến việc testing. Angular sử dụng thư viên protractor để thực hiện automation test trên các trình duyệt.
+- thư mục e2e : chức các file liên quan đến việc testing. Angular sử dụng thư viện protractor để thực hiện automation test trên các trình duyệt.
 
 - thư mục node_modules : nơi chứa các thư viện và được download về cho dự án angular. Nó được quản lý bằng NPM có nghĩa là ta dùng NPM để xoá , thêm các thư viện
 
@@ -143,7 +143,7 @@ ng serve -o
 - thư mục app : angular cli tạo ra folder này giống như folder cha của ứng dụng. Angular cli tạo ra như một ví dụ mẫu để sau này ta tạo các component khác. Trong thư mục app thường có 
 
 + app.component.html : nơi chúng ta viết các files html. Là tầng view mà người dùng có thể thấy được
-+ app.component.ts (component class) : là file sử lý các nghiệp vụ nó giống như Controller bên Spring Web
++ app.component.ts (component class) : là file xử lý các nghiệp vụ nó giống như Controller bên Spring Web
 + app.component.css : chúng ta định nghĩa các css mà component sẽ dùng
 + app.component.ts : file này dùng cho việc testing (kiểm thử)
 + app.module.ts        : file dùng để cấu hình cho module app
