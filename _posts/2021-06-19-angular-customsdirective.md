@@ -6,21 +6,21 @@ category: laptrinhweb
 tags: [angular]
 summery: Customs Directive  
 image: /images/blog/angular.png
-description : Thêm Customs Directive trong dự án angular. Hướng dẫn sử dụng Customs Directive vào dự án Angular. Hướng dẫn các tạo Customs Directive vào dự án.
+description : Bên cạnh 3 loại directive có sẵn trong Angular, người dùng có thể tự tạo ra directive riêng như mong muốn để sử dụng, được gọi là customs directive. Bài viết giúp hiểu rõ hơn về Customs Directive, cú pháp của Customs Directive trong Angular. Đồng thời hướng dẫn cách để tự tạo Customs Directive trong Angular bao gồm cách thao tác để làm Directive giống Attribute Directive hoặc Directive giống Structural Directive. Và cách sử dụng Customs Directive vào các dự án Angular. Những chia sẻ trong bài bao gồm các hình ảnh minh hoạ các thao tác để thực hiện các tác vụ trên trong Angular.
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Customs Directive</b> là như thế nào? 
 
-# **1. Customs Directive là gì**
+## **1. Customs Directive là gì**
 
 Trong Angular có 3 loại directive là component, structural và attribute như ta thấy ở các bài trên. Đây là những directive có sẳn của Angular. Nhưng sẽ có những trường hợp những Directive này không phù hợp với mục đích bài toán của mình nên trong Angular cho phép chúng ta tự viết ra một directive riêng cho mình và sử dụng theo cách mình muốn.
 
- # **2. Tự tạo Directive giống Attribute Directive là gì**
+## **2. Tự tạo Directive giống Attribute Directive là gì**
 
  Trong ví dụ sau đây chúng ta tự tạo một attribute có tên là ttClass directive riêng cho mình. Sau đó template html sẽ thêm thuộc tính nào vào trong thẻ hmtl
 
@@ -96,7 +96,7 @@ Hàm ngOnIt() sẽ được gọi trong hàm này chúng ta dùng el để thêm
 
 ta thấy thẻ button sử dụng thuộc tính ttClass. Đây chính là directive chúng ta tự viết ra
 
- # **3. Tự tạo Directive giống Structural Directive là gì**
+## **3. Tự tạo Directive giống Structural Directive là gì**
 
 Chúng ta sẽ tự viết một directive giống như if else có tên là ttIf. 
 
