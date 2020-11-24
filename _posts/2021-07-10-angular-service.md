@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: Service   
 image: /images/blog/angular.png
-description : Sử dụng boostrap trong dự án angular. Hướng dẫn cài đặt bootstrap vào dự án Angular. Hướng dẫn các tạo một ứng dụng ANgular và nhúng Bootstrap vào dự án.
+description : Angular Service là những đoạn code có thể sử dụng nhiều lần từ các component khác nhau. Bài viết dưới đây sẽ giúp bạn hiểu rõ hơn về Service trong Angular cũng như mục đích và ưu điểm khi sử dụng Service trong Angular gồm những gì. Đồng thời hướng dẫn cách làm để tạo Service trong Angular và chỉ ra những nhược điểm và cách khắc phục trong một số trường hợp khi sử dụng Service trong Angular.
 youtubeId: dđ
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Angular Service</b> là như thế nào?
 
-# **1. Angular Service là gì**
+## **1. Angular Service là gì**
 
 Angular Service là những đoạn code mà ta có thể sử dụng nhiều lần từ các component khác nhau. Nó có chức năng sử dụng lại. Những đoạn code này sẽ thực hiện một nhiệm vụ cụ thể cho một ý định nào đó. 
 
@@ -31,7 +31,7 @@ Lợi thế của Service
 - Dể dàng debugs khi có vấn đề
 - Có thể được sử dụng lại ở nhiều module  
 
-# **2. Tạo Service như thế nào**
+## **2. Tạo Service như thế nào**
 
 Trong ví dụ này chúng ta sẽ tạo một Service lấy tất cả các sản phẩm. Component sẽ gọi service để lấy kết quả và hiển thị lên template html.
 
