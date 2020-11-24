@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: Truyền tham số cho webservice
 image: /images/blog/angular.png
-description : Hướng dẫnTruyền tham số cho webservice trong dự án Angular. Hiểu được cách truyền tham số cho webservicee trong dự án angular. Hiểu được mục đích của thư viện HTTP Client được sử dụng như thế nào để gọi các webservices.
+description : Bài viết giới thiệu để hiểu được truyền tham số cho webservice trong Angular là gì? Và ứng dụng của webservice trong Angular. Hướng dẫn các cách truyền tham số cho webservice như truyền param trên URL, truyền giá trị trên http header gọi webservice, cách thao tác send cookie. Đồng thời trình bày về cách làm như thế nào để bắt Errors ở component và service trong Angular.
 youtubeId: edYsCowgQq0
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách gọi <b>Truyền tham số cho webservice</b> bên ngoài ở trong dự án <b>Angualar</b> là như thế nào nhé.
 
-# **1. Truyền param trên URL**
+## **1. Truyền param trên URL**
 
 Khi mình gọi webservice bên ngoài, thì có nhiều webservice yêu cầu mình thêm dữ liệu trong body để truyền lên cho webservice. Để làm được việc này ta dùng đối tượng Http Param để truyền thêm giá trị.
 
@@ -60,7 +60,7 @@ this.httpClient.get<repos[]>(this.baseURL + 'users/' + userName + '/repos', {par
 
 {% endhighlight %}
 
-# **2. Truyền giá trị trên http header gọi webservice**
+## **2. Truyền giá trị trên http header gọi webservice**
 
 {% highlight javascript linenos %}
 
@@ -71,7 +71,7 @@ getPeopleWithHeaders(): Observable<Person[]> {
   }
 {% endhighlight %}
 
-# **3. Send Cookie**
+## **3. Send Cookie**
 
 Chúng ta sử dụng tham số withCredentials=true cho request để gửi cookie
 
@@ -103,7 +103,7 @@ getReposWithCookies(userName: string): Observable<repos[]> {
 
 {% endhighlight %}
 
-# **4. Bắt Errors ở Component**
+## **4. Bắt Errors ở Component**
 
 {% highlight javascript linenos %}
 
@@ -149,7 +149,7 @@ Trong trường hợp lỗi chúng ta sẽ xử lý trong hàm error
 
 {% endhighlight %}
 
-# **5. Bắt Errors ở Service**
+## **5. Bắt Errors ở Service**
 
 Ngoài bắt lỗi ở Component chúng ta có thực hiện bắt lỗi ở Service. Chúng ta sử dụng hàm catchError.
 
