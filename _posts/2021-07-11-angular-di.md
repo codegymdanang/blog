@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: Dependency Injection   
 image: /images/blog/angular.png
-description : Sử dụng Dependency Injection trong dự án angular. Hướng dẫn cài đặt Dependency Injection vào dự án Angular.
+description : Dependency Injection là một phần quan trọng trong bộ core của Angular. Dependency Injection giúp nhúng service vào component hoặc giữa các service với nhau. Trong những chia sẻ dưới đây sẽ giúp bạn hiểu rõ hơn về Dependency Injection là gì? Dependency Injection Framework, 5 thành phần chính và cơ chế hoạt động của Dependency trong Angular. Đồng thời hướng dẫn cách để nhúng 1 service này vào 1 service khác và sử dụng ngModule để đăng kí dependency trong Angular. Bài viết có những ví dụ minh hoạ cụ thể cho từng bước làm của mỗi phần để người đọc dễ dàng tham khảo thêm.
 youtubeId: dđ
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Dependency Injection</b> là như thế nào?
 
-# **1. Dependency Injection là gì**
+## **1. Dependency Injection là gì**
 
 Dependency Injection là một phần quan trọng trong bộ core của Angular. Sử dụng cơ chế Dependency Injection giúp chúng ta có thể nhúng service vào các component hoặc các service với nhau.
 
@@ -57,7 +57,7 @@ export class AppComponent
 Cách này có rất nhiều hạn chế mà anh nêu lên trong phần cuối của bài Service và thực tế thì không ai dùng cả. Như vậy ta phải thay đổi cách nhúng ServiceProduct vào Component theo cơ chế Dependency Injection 
 
 
-# **2. Dependency Injection Framework**
+## **2. Dependency Injection Framework**
 
 Có 5 thành phần chính trong Angular Dependency Injection Framework
 
@@ -125,7 +125,7 @@ constructor(private productService:ProductService){
 
 {% endhighlight %}  
 
-# **2. Nhúng 1 Service vào 1 Service khác**
+## **3. Nhúng 1 Service vào 1 Service khác**
 
 Trong ví dụ dưới đây ta sẽ nhúng Service Log vào Service Product. Service Log chỉ làm nhiệm vụ ghi log.
 
@@ -203,7 +203,7 @@ import { Product } from './product';
 
 {% endhighlight %} 
 
-# **3. Sử dụng ngModule để đăng ký dependency**
+## **4. Sử dụng ngModule để đăng ký dependency**
 
 Ngoài cách đăng ký service trong thuộc tính providers trong Component. Chúng ta có thể đăng ký trong ngModule.
 
