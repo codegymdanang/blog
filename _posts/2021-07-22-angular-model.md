@@ -6,11 +6,11 @@ category: laptrinhweb
 tags: [angular]
 summery: Model   
 image: /images/blog/angular.png
-description : Sử dụng boostrap trong dự án angular. Hướng dẫn cài đặt bootstrap vào dự án Angular. Hướng dẫn các tạo một ứng dụng ANgular và nhúng Bootstrap vào dự án.
+description : Bài chia sẻ trình bày về chủ đề Model trong Angular. Từ đó giúp hiểu được khái niệm Model trong Angular là gì? Hướng dẫn cách sử dụng Model trong Angular bao gồm cách khai báo với Class và Interface. Và nắm được sự khác nhau giữa Class và Interface, biết khi nào nên sử dụng Class hay Interface vào các dự án Angular. Đồng thời trong bài có kèm theo ví dụ hướng dẫn demo sử dụng model trong một dự án Angular. 
 youtubeId: Ex3glZTCvlY
 ---
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Angular Model</b> là như thế nào?
 
