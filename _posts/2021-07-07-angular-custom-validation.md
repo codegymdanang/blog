@@ -6,22 +6,22 @@ category: laptrinhweb
 tags: [angular]
 summery: Custom Validation   
 image: /images/blog/angular.png
-description : Sử dụng Custom Validation trong dự án angular. Hướng dẫn cài đặt Custom Validation vào dự án Angular. Hướng dẫn các tạo một ứng dụng Custom Validation.
+description : Customs Validation là những validator được tự tạo bởi người dùng được sử dụng cho các dự án Angular ngoài những validator được hỗ trợ có sẵn trong Angular như required, minlength, maxlength, pattern và email. Bài viết dưới đây sẽ hướng dẫn bạn cách sử dụng Custom Validator trong Angular như thế nào cho hiệu quả, và cách thực hiện code hoàn chỉnh cho component class và template html trong Angular. Mỗi phần của bài viết kèm theo những ví dụ minh hoạ cú pháp thực hiện từng bước của custom validation vào dự án Angular.
 youtubeId: 
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>Custom Validation</b> là như thế nào?
 
-# **1.Custom Validation là gì**
+## **1.Custom Validation là gì**
 
 Angular hỗ trợ một số validator như required, min length, max length, pattern và email như ta đã xem ở bài trước. Ngoài những validator có sẳn của Angular ta hoàn toàn có thể tự tạo một validator cho dự án của mình.
 
 
-# **2.Sử dụng Validator như thế nào**
+## **2.Sử dụng Validator như thế nào**
 
 Giả sử ta có form trong file template html như sau.
 
@@ -127,7 +127,7 @@ Thêm validator vào form như sau
   })
 {% endhighlight %}
 
-# **3. Code hoàn chỉnh cho component class**
+## **3. Code hoàn chỉnh cho component class**
 
 {% highlight javascript linenos %}
 
@@ -159,7 +159,7 @@ export class AppComponent {
 }
 {% endhighlight %}
 
-# **4. Code hoàn chỉnh cho template html**
+## **4. Code hoàn chỉnh cho template html**
 
 {% highlight javascript linenos %}
 
