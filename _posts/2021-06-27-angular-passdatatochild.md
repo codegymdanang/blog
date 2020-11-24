@@ -6,23 +6,23 @@ category: laptrinhweb
 tags: [angular]
 summery: Truyền data cho component con  
 image: /images/blog/angular.png
-description : Truyền dữ liệu từ component cha xuống component con trong dự án angular. Hướng dẫn cách truyền dữ liệu từ cha xuống con  trong dự án Angular. 
+description : Khi lập trình web với framework Angular luôn phát sinh việc truyền dữ liệu giữa các component. Trong đó có kiểu truyền dữ liêu từ cha xuống con và từ con lên cha. Bài viết này sẽ giúp bạn hiểu được những khái niệm truyền dữ liệu này. Đồng thời hướng dẫn cách sử dụng đối với các tác vụ gồm truyền dữ liệu từ cha xuống con thông qua component, đặt tên cho thuộc tính truyền từ cha xuống con, sử dụng Onchange và Input Setter cũng như trình bày về cách làm để phát hiện khi nào có sự thay đổi từ cha trong Angular Component. 
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách  <b>truyền dữ liệu từ component cha xuống con</b> là như thế nào? 
 
-# **1.Truyền dữ liệu từ cha xuống con là gì**
+## **1.Truyền dữ liệu từ cha xuống con là gì**
 
 Trong Angular để truyền dữ liệu từ component cha xuống các component con thì ta sử dụng annotaion @Input 
 
 Trong dự án Angular component cha sẽ giao tiếp với component con thông qua thuộc tính properties. Annotation @Input được sử dụng để nhận các giá trị từ properties từ cha xuống con.
 
-# **2.Ví dụ truyền dữ liệu từ cha xuống con**
+## **2.Ví dụ truyền dữ liệu từ cha xuống con**
 
 Trong ví dụ hôm nay chúng ta sẽ truyền giá trị từ component cha xuống con. Giá trị ta truyền xuống là biến đếm (count) sẽ được truyền từ component cha xuống component con để hiển thị.
 
@@ -118,7 +118,7 @@ Dòng tiếp theo ta nhúng component con vào component cha thông qua thẻ ch
 
 {% endhighlight %} 
 
-# **3. Truyền dữ liệu từ cha xuống con thống qua component**
+## **3. Truyền dữ liệu từ cha xuống con thống qua component**
 
 Ngoài cách nhận dữ liệu bằng cách sử dụng annotation @input ở trên
 
@@ -144,7 +144,7 @@ export class ChildComponent {}
 
 {% endhighlight %}
 
-# **4. Đặt tên cho thuộc tính truyền từ cha xuống con**
+## **4. Đặt tên cho thuộc tính truyền từ cha xuống con**
 
 Chúng ta có thể đặt tên biến count là MyCount như sau trong component class của lớp con
 
@@ -165,14 +165,14 @@ Sau đó ở lớp cha ta truyền xuống bằng tên của Input như sau
 
 {% endhighlight %}
 
-# **5. Phát hiện khi nào có sự thay đổi từ cha**
+## **5. Phát hiện khi nào có sự thay đổi từ cha**
 
 Ngoài việc truyền data từ component cha xuống cho con. Thì lớp còn cần phải biết thêm khi nào giá trị của lớp cha thay đổi để nó có thể cập nhật lại. Có 2 cách để có thể phát hiện ra khi input thay đổi là
 
 - Sử dụng phương thức OnChanges trong vòng đời của một component
 - Sử dụng Setter
 
-# **6. Sử dụng OnChange**
+## **6. Sử dụng OnChange**
 
 ngOnChanges được dùng để Angular phát hiện ra khi nào giá trị thay đổi. Chúng ta sẽ cập nhật thêm component con phương thức ngOnChanges() để khi component cha thay đổi giá trị thì component con sẽ cập nhật giá trị
 
@@ -236,7 +236,7 @@ ngOnChanges(changes: SimpleChanges) {
 
 Method ngOnchanges sẽ nhận được các sự thay đổi trên properties của component cha và chuyển đổi nó thành object SimpleChanges. Đối tượng SimpleChanges chứa đựng key là tên của thuộc tính và giá trị là đối tượng SimpleChanges. Có được đối tượng SimpleChanges ta có thể lấy được giá trị hiện tại, giá trị trước khi thay đổi. Từ đó ta sẽ cập nhật lại giao diện dựa trên các giá trị ta có.
 
-# **7. Sử dụng Input Setter**
+## **7. Sử dụng Input Setter**
 
 Chúng ta có thể sử dụng getter và setter để phát hiện ra sự thay đổi.
 
