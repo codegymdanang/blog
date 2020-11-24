@@ -128,7 +128,7 @@ Tiếp đến chúng ta thêm meta data là @Component cho class component. Chú
 
 {% endhighlight %}
 
-- Bước 3 : Như vậy component khách hàng chúng ta đã sẳn sàng. Chúng ta cần phải khai báo nó trong app.module.ts để sử dụng
+- Bước 3 : Như vậy component khách hàng chúng ta đã sẵn sàng. Chúng ta cần phải khai báo nó trong app.module.ts để sử dụng
 
 {% highlight html  linenos %}
 
