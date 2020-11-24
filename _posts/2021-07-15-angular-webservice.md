@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: Angular gọi Webservice
 image: /images/blog/angular.png
-description : Hướng dẫn gọi webservice trong dự án Angular. Hiểu được cách gọi web service trong dự án angular. Hiểu được mục đích của thư viện HTTP Client được sử dụng như thế nào để gọi các webservices.
+description : Những chia sẻ dưới đây giúp người đọc hiểu được như thế nào là gọi webservice để lấy kết quả từ webservice và hiển thị dữ liệu lên trong ứng dụng Angular. Bài viết lần lượt mô tả mục đích của thư viện Http Client được sử dụng như thế nào để gọi các webservice. Sau đó trình bày cụ thể qua từng bước làm từ khai báo thư viện Http Client, đến hướng dẫn sử dụng Http Client để gọi webservice và làm sao để hiển thị dữ liệu lên trang website. Bài viết bao gồm hình ảnh ví dụ minh hoạ các bước làm và 1 video hướng dẫn thao tác làm chi tiết cuối bài để nắm được luồng đi của một ứng dụng Angular khi gọi các webservice từ bên ngoài.
 youtubeId: edYsCowgQq0
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách gọi <b>Web Service</b> bên ngoài ở trong dự án <b>Angualar</b> là như thế nào nhé.
 
-# **1 Mô tả mục đích ví dụ**
+## **1 Mô tả mục đích ví dụ**
 
 Hôm nay chúng ta sẽ viết một ứng dụng hiển thị danh sách các nhân viên trong công ty ABC vào trong ứng dụng Angular của mình. Công ty ABC sẽ cung câp cho chúng ta một webservice. Khi gọi webservice này thì ta sẽ nhận được một đối tượng json. Trong đối tượng Json này sẽ chứa danh sách nhân viên công ty ABC. Khi đã nhận được kết quả trả về từ webservice của công ty ABC thì mình sẽ hiển kết quả đó ra cho bên view. 
 
@@ -31,7 +31,7 @@ Nếu các em copy đường link này và gõ trên trình duyệt mình sẽ n
 Mục đích của chúng ta là từ <b>Angular gọi webservice</b> lấy kết quả từ webservice và hiển thị dữ liệu lên trong ứng dụng Angular
 
 <br>
-# **2 Bước 1 : Khai báo thư viện HttpClient**
+## **2 Bước 1 : Khai báo thư viện HttpClient**
 
 Để gọi được webservice ở bên ngoài thì Angular cung cấp cho chúng ta thư viện <b>HttpClient</b>, mình dùng nó để gọi các service bên ngoài. Việc đầu tiên là mình sẽ khai báo nó trong file app.module.ts như sau
 
@@ -55,7 +55,7 @@ export class AppModule { }
 - Chúng ta import HttpClientModule từ @angular/common/http
 - Trong @NgModule chúng ta import nó vào dự án imports: [ HttpClientModule]
 
-# **3 Bước 2 : sử HttpClient gọi webservice**
+## **3 Bước 2 : sử HttpClient gọi webservice**
 
 Trong bài này chúng ta tạo một file tên là employee.service.ts với nội dung như sau.
 
@@ -103,7 +103,7 @@ export class EmployeeService {
 
 - Trên đây là anh dùng phương thức get. Ngoài ra mình có thể dùng các phương thức khác như Post, Put , Delete
 
-# **4 Bước 4 : Hiển thị dữ liệu lên trang web**
+## **4 Bước 4 : Hiển thị dữ liệu lên trang web**
 
 Ví dụ như anh sẽ tạo ra một component tên là employee. Trong component này anh sẽ có 3 files. File đầu tiên là employee.component.css dùng để trang trí cho trang web, employee.component.html dùng để hiển thị trang web cho người dùng. Và file cuối cùng là employee.component.ts . Trong file này anh sẽ nhúng service tên EmployeeService ở trên vào như sau.
 
