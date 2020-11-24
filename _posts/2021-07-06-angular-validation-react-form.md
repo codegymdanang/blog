@@ -6,22 +6,22 @@ category: laptrinhweb
 tags: [angular]
 summery: Validation React Form   
 image: /images/blog/angular.png
-description : Sử dụng Validation React Form trong dự án angular. Hướng dẫn cài đặt Validation React Form vào dự án Angular. Hướng dẫn các tạo một ứng dụng Validation React Form.
+description : Để kiểm tra lại các định dạng trong React Form trong Angular có đúng hay không, người dùng cần sử dụng Validator. Bài viết này giúp bạn hiểu rõ hơn về Validation React Form trong Angular là gì? Cùng tìm hiểu về một số Validator được hỗ trợ sẵn trong Angular như require, minlength, maxlength, pattern, email validator. Đồng thời hướng dẫn cách áp dụng Validator thông qua ví dụ minh hoạ thao tác thực hiện cú pháp để kiểm tra lại FormControl, FormGroup hoặc FormArray. Ngoài ra hướng dẫn cách để thực hiện được Code Validator trong Angular.
 youtubeId: 
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>Validation React Form</b> là như thế nào?
 
-# **1.Validator là gì**
+## **1.Validator là gì**
 
 Chúng ta sử dụng Validator để kiểm tra xem FormControl, FormGroup hoặc FormArray trong React Form có đúng định dạng và yêu cầu của chúng ta hay không, nếu không thì nó sẽ trả về cho chúng ta danh sách lỗi.
 
 
-# **2.Sử dụng Validator như thế nào**
+## **2.Sử dụng Validator như thế nào**
 
 Chúng ta thêm validator ở tham số thứ 2 của FormControl, FormGroup hoặc FormArray trong component class.
 
@@ -33,7 +33,7 @@ firstname: new FormControl('',[Validators.required]),
 
 Angular hỗ trợ sẳn một số Validator như require, minlenth, maxlength,pattern,email validator cho chúng ta. Trong ví dụ sau đây chúng ta sẽ sử dụng nó để kiểm tra giá trị người dùng nhập vào.
 
-# **3.Ví dụ sử dụng Validator như thế nào**
+## **3.Ví dụ sử dụng Validator như thế nào**
 
 Chúng ta sẽ viết ví dụ kiểm tra đăng ký của người dùng. Giả sử chúng ta có contacForm model như sau
 
@@ -200,7 +200,7 @@ Cách này thì nó báo rất chung chung. Nên chúng ta muốn thông báo fi
   </div>
 {% endhighlight %} 
 
-# **4.Code Validator**
+## **4.Code Validator**
 
 Chúng ta có file component class là app.component.ts
 
