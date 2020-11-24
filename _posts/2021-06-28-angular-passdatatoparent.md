@@ -6,21 +6,21 @@ category: laptrinhweb
 tags: [angular]
 summery: Truyền data từ component con lên cha  
 image: /images/blog/angular.png
-description : Truyền dữ liệu từ component con lên component cha trong dự án angular. Hướng dẫn cách truyền dữ liệu từ component con lên component cha  trong dự án Angular. 
+description : Khi lập trình web với framework Angular luôn phát sinh việc truyền dữ liệu giữa các component. Trong đó có kiểu truyền dữ liêu từ component con lên component cha. Bài viết này sẽ giúp bạn hiểu được khái niệm truyền dữ liệu này. Đồng thời hướng dẫn 3 cách để truyền dữ liệu lên component cha từ component con bao gồm truyền dữ liệu từ con lên cha qua sự kiện, qua biến cục bộ, qua ViewChild. Trong những chia sẻ dưới đây có kèm theo những hình ảnh ví dụ minh hoạ cho các thao tác, cú pháp thực hiện đối với mỗi cách truyền dữ liệu trên. 
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách  <b>component con lên component cha</b> là như thế nào? 
 
-# **1.Truyền dữ liệu từ component con lên component cha**
+## **1.Truyền dữ liệu từ component con lên component cha**
 
 Chúng ta có 3 cách để truyền dữ liệu lên component cha từ component con. Chúng ta sẽ lần luợt đi qua các cách.
 
-# **2.Ví dụ truyền dữ liệu từ con lên cha qua sự kiện**
+## **2.Ví dụ truyền dữ liệu từ con lên cha qua sự kiện**
 
 Trong ví dụ sau ta sẽ truyền giá trị từ component con qua component cha thông qua sự kiện. Trong component con ta sẽ sử dụng EventBinding để lắng nghe sự thay đổi data từ component con.
 
@@ -118,7 +118,7 @@ countChangedHandler(count: number) {
   }
 {% endhighlight %}
 
-# **3.Ví dụ truyền dữ liệu từ con lên cha qua biến cục bộ**
+## **3.Ví dụ truyền dữ liệu từ con lên cha qua biến cục bộ**
 
 Chúng ta có lớp component con như sau. Chúng ta xoá đi input, output và event emitter
 
@@ -183,7 +183,7 @@ Bầy giờ chúng ta sử dụng biến local template child để gọi các m
 
 {% endhighlight %}
 
-# **4.Ví dụ truyền dữ liệu từ con lên cha qua ViewChild**
+## **4.Ví dụ truyền dữ liệu từ con lên cha qua ViewChild**
 
 Chúng ta có thể nhúng instance của component con vào cha thông qua annotation @ViewChild. Dựa vào ViewChild component cha có thể gọi được các phương thức và thuộc tính của component cha.
 
