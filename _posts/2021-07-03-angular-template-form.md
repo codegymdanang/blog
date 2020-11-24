@@ -6,11 +6,11 @@ category: laptrinhweb
 tags: [angular]
 summery: Template Form   
 image: /images/blog/angular.png
-description : Sử dụng boostrap trong dự án angular. Hướng dẫn cài đặt bootstrap vào dự án Angular. Hướng dẫn các tạo một ứng dụng ANgular và nhúng Bootstrap vào dự án.
+description : Template Driven Form và Model Driven Form là 2 cách tạo form được sử dụng trong Angular. Trong phạm vi bài viết này sẽ trình bày về cách tạo form bằng Template Driven trong Angular. Bài viết là một video giới thiệu và hướng dẫn cách làm chi tiết từng bước thông qua project thực tế, giúp bạn áp dụng được cách lấy giao diện form trên Bootstrap để sử dụng, chỉnh sửa cho giao diện trang web. Hướng dẫn cách khai báo biến trên thẻ form cũng như cú pháp của thẻ form trong Angular và cách khai báo NgModel kết hợp thuộc tính name để map được dữ liệu trên giao diện trên template xuống file TS. Hướng dẫn cách làm để template form nhận được thông tin dữ liệu mà bạn muốn edit. 
 youtubeId: _-NDwzWcQFE
 ---
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Angular Template Form</b> là như thế nào?
 
