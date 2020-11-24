@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [angular]
 summery: Sử dụng Bootstrap   
 image: /images/blog/angular.png
-description : Sử dụng boostrap trong dự án angular khi lập trình web. Hướng dẫn cài đặt bootstrap vào dự án Angular. Hướng dẫn cách tạo một ứng dụng Angular và nhúng Bootstrap vào dự án. Trình bày về cách thao tác để tạo ứng dụng Angular và sử dụng Bootstrap từ CDN và từ npm/
+description : Sử dụng boostrap trong dự án angular khi lập trình web. Hướng dẫn cài đặt bootstrap vào dự án Angular. Hướng dẫn cách tạo một ứng dụng Angular và nhúng Bootstrap vào dự án. Trình bày cụ thể các bước về cách thao tác để tạo ứng dụng Angular và sử dụng Bootstrap từ CDN và từ npm.
 youtubeId: 977WIZTAUv8
 ---
 
@@ -18,7 +18,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử d
 
 ## **1 Giới thiệu về Bootstrap**
 
-Boostrap là là một framework opensource gồm có <b>html,css và javascript</b>. Chúng ta sử dụng bootstrap để làm trang web trở nên đẹp hơn. Chúng ta kết hợp với <b>angular</b> để tiết kiệm thời gian. Đồng thời Bootstrap đã dựng sẳn các chức năng hiển thị được trên mobile và các thành phần của web. Nên chúng ta chỉ sử dụng mà thôi.
+Boostrap là là một framework opensource gồm có <b>html,css và javascript</b>. Chúng ta sử dụng bootstrap để làm trang web trở nên đẹp hơn. Chúng ta kết hợp với <b>angular</b> để tiết kiệm thời gian. Đồng thời Bootstrap đã hỗ trợ sẵn các chức năng hiển thị được trên mobile và các thành phần của web. Nên chúng ta chỉ sử dụng mà thôi.
 
 Ngoài Bootstrap thì còn có rất nhiều framework khác hỗ trợ chúng ta trong việc làm giao diện như <b>Polymer, material , ant design</b>. Tuỳ theo dự án mà ta có thể chọn framework tương ứng. Nhưng theo anh thấy 70% dự án web của anh đều dùng Bootstrap.
 
@@ -112,7 +112,7 @@ npm install --save bootstrap jquery
 
 ## **Tổng kết**
 
-Hầu hết các ứng dụng ngày nay đều sử dụng Bootstrap để làm <b>frontend</b>, tuy nhiên ngoài Boostrap thì mình còn có nhiều framework làm frontend khác nữa. Ưu điểm mạnh nhất các framework này là dể sử dụng và tiết kiệm thời gian để phát triển.
+Hầu hết các ứng dụng ngày nay đều sử dụng Bootstrap để làm <b>frontend</b>, tuy nhiên ngoài Boostrap thì mình còn có nhiều framework làm frontend khác nữa. Ưu điểm mạnh nhất các framework này là dễ sử dụng và tiết kiệm thời gian để phát triển.
 
 
 <br>
