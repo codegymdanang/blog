@@ -18,7 +18,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử d
 
 ## **Data binding là gì**
 
-Databinding là kỷ thuật nơi dữ liệu được đồng bộ giữa component và tầng view (template file html). Ví dụ khi người dùng cập nhật data ở tầng view thì Angular cũng cập nhật giá trị đó ở component.
+Databinding là kỹ thuật nơi dữ liệu được đồng bộ giữa component và tầng view (template file html). Ví dụ khi người dùng cập nhật data ở tầng view thì Angular cũng cập nhật giá trị đó ở component.
 
 Data binding trong Angular có thể chia ra làm 2 nhóm. Đó là one way binding (binding 1 chiều) và two way binding (binding 2 chiều).
 
@@ -113,9 +113,9 @@ export class AppComponent {
 
 ## **Two way binding là gì**
 
-Binding 2 chiều có nghĩa là chúng ta thay đỗi dữ liệu từ component qua view và ngược lại từ view chúng ta thay đỗi dữ liệu. 
+Binding 2 chiều có nghĩa là chúng ta thay đổi dữ liệu từ component qua view và ngược lại từ view chúng ta thay đổi dữ liệu. 
 
-2 way biding thì hữu dụng khi mình làm form. Chúng ta sử dụng ngModel để thực hiện việc binding 2 chiều.
+2 way binding thì hữu dụng khi mình làm form. Chúng ta sử dụng ngModel để thực hiện việc binding 2 chiều.
 
 {% highlight html  linenos %}
 
