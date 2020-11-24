@@ -8,7 +8,7 @@ summery: Tính trừu tượng
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
 description : Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của lập trình hướng đối tượng Java, trong bài viết này trình bày về tính trừu tượng trong lập trình, hướng dẫn thông qua các ví vụ minh hoạ để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình lập trình Java. Và mục đích, lợi ích của việc sử dụng tính trừu tượng trong lập trình Java.
-youtubeId: MGWT_Y9Oi8I
+youtubeId: Ent5wZgF1VM
 ---
 
 {% include toc.html %}
@@ -59,4 +59,6 @@ class MyMainClass {
 Như vậy ta thấy lớp Animal có phương thức abstract là animalSound. Người sử dụng chỉ biết có phương thức đó thôi còn nội dung code bên trong cài đặt như thế nào thì không biết. Các em có thể tưởng tượng trong ví dụ Facebook ở trên của anh. cái hàm  abstract void animalSound() tương ứng với việc là Facebook cho mình cái link và mình nhúng vào, còn nội dung bên trong thì mình không biết. Như vậy phương thức animalSound() ở lớp Animal giúp che giấu đi những code quan trọng và chỉ để lớp con của nó cài đặt những code thực thi. Người dùng chỉ biết gọi hàm animalSound và nhận kết quả.
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
