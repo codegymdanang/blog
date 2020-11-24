@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: Vòng đời của component
 image: /images/blog/angular.png
-description : Vòng đời của component trong dự án angular. Hướng dẫn vòng đời của component  trong dự án Angular. 
+description : Trong Angular, một component hay một directive sẽ có một vòng đời từ lúc tạo ra, bị thay đổi và phá huỷ. Tuy nhiên ta có thể viết code can thiệp vào những giai đoạn này của vòng đời component. Bài viết dưới đây trình bày tổng quan về chủ đề vòng đời của component trong Angular và hướng dẫn sử dụng các phương thức method dùng trong vòng đời component gồm ngOnChanges, ngOninit, ngOnDoCheck, ngAfterContentlnit, ngAfterContentChecked, ngAfterViewlnit, ngAfterViewChecked, ngOnDestroy. Đồng thời đưa ra các ví dụ minh hoạ cho cú pháp thực hiện cụ thể của mỗi method trên trong các giai đoạn của vòng đời Component trong dự án Angular. 
 youtubeId: 0734nF0B_BM
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Vòng đời của component</b> trong Angular là như thế nào? 
 
-# **1.Vòng đời của component**
+## **1.Vòng đời của component**
 
 Vòng đời của một component hay một directive trong Angular tính từ lúc nó được tạo ra, nó bị thay đổi và bị phá huỷ. Hiểu được vòng đời của component ta có thể viết code can thiệp trong quá trình component hay direct được tạo ra, được cập nhật và phá huỷ.
 
@@ -33,7 +33,7 @@ Angular cung cấp cho chúng ta một số phương thức về vòng đời c�
 - ngAfterViewChecked
 - ngOnDestroy
 
-# **1. ngOnChanges**
+## **2. ngOnChanges**
 
 Phương thức ngOnChanges được gọi khi component phát hiện có giá trị được binding vào component băng phương pháp Input properties. Để nhận biết được giá trị binding thì ngOnChange quản lý đối tượng SimpleChanege. Chúng ta sử dụng @Input trong bài truyền giá trị từ cha xuống con là một ví dụ
 
@@ -145,7 +145,7 @@ ngOnChanges(changes: SimpleChanges) {
 Xử lý nghiệp vụ trong hàm ngOnChange cho phù hợp với yêu cầu của chúng ta.
 
 
-# **2. ngOninit**
+## **3. ngOninit**
 
 Phương thức NgOninit được gọi, khi component được tạo lần đầu tiên. Chúng ta được chạy  sau khi hàm constructor và hàm ngOnchange được thực hiện.
 
@@ -199,7 +199,7 @@ ngOnInit() {
 
 {% endhighlight %} 
 
-# **3. ngOnDoCheck**
+## **4. ngOnDoCheck**
 
 Phương thức ngOnDoCheck được gọi mỗi khi nó phát hiện ra có sự thay đổi dữ liệu ở component.
 
@@ -289,7 +289,7 @@ ngDoCheck() {
         }
 {% endhighlight %} 
 
-# **4. ngAfterContentInit**
+## **5. ngAfterContentInit**
 
 Phương thức này được gọi sau khi component được khởi tạo thành công
 
@@ -303,7 +303,7 @@ class MyComponent implements AfterContentInit {
 }
 {% endhighlight %} 
 
-# **5. ngAfterContentChecked**
+## **6. ngAfterContentChecked**
 
 {% highlight javascript linenos %}
 
@@ -317,7 +317,7 @@ class MyComponent implements AfterContentChecked {
 }
 {% endhighlight %} 
 
-# **6. ngAfterViewInit**
+## **7. ngAfterViewInit**
 
 Nó tượng tự nhưg ngAfterContentInit but nó được gọi khi component và các component con của nó được khởi tạo thành công. Chỉ được gọi 1 lần sau khi ngAfterContentChecked 
 
@@ -331,7 +331,7 @@ class MyComponent implements AfterViewInit {
 }
 {% endhighlight %} 
 
-# **7. ngAfterViewChecked**
+## **8. ngAfterViewChecked**
 
 Phương thức này được gọi sau khi các view component cha  và các view của component con được kiểm tra xong.
 
@@ -345,7 +345,7 @@ class MyComponent implements AfterViewChecked {
 }
 {% endhighlight %} 
 
-# **8. ngOnDestroy**
+## **9. ngOnDestroy**
 
 Phương thức ngOnDestroy được gọi trước khi component hoặc directive bị phá huỷ bởi Angular
 
