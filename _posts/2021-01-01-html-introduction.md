@@ -7,7 +7,7 @@ tags: [html]
 summery: HTML là gì   
 image: /images/blog/angular.png
 description : Bài viết giúp người học lập trình web HTLM hiểu được tổng quát HTML là gì? Tìm hiểu về các thẻ HTML cơ bản trong lập trình web bao gồm thẻ title, base, link và style. Và hướng dẫn các bạn sử dụng HTML vào các dự án làm web cũng như cách thao tác với các cú pháp để khai báo thẻ HTML trong lập trình web trở nên hiệu quả hơn. 
-youtubeId: Ex3glZTCvlY
+youtubeId: oyrmITXjKxQ
 ---
 
 {% include toc.html %}
@@ -199,5 +199,7 @@ Chúng ta sử dụng thẻ style để trang trí cho website. Chúng ta có th
 Trong các bài tiếp theo anh sẽ giới thiệu thêm các thẻ HTML để xây dựng nên một website.
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 

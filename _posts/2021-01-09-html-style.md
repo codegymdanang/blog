@@ -7,7 +7,7 @@ tags: [html]
 summery: Style   
 image: /images/blog/angular.png
 description : Trình bày về các thuộc tính style trong lập trình web HTML. Hướng dẫn cú pháp để khai báo thuộc tính Style, cách thao tác với màu nền cho trang web, màu sắc và font chữ, thiết lập kích thước chữ cũng như cách để canh giữa cho chữ và đoạn văn bản. Chỉ ra các thuộc tính style quan trọng được sử dụng trong lập trình web HTML như background color, color, font-family, font-size, text-align.
-youtubeId: Ex3glZTCvlY
+youtubeId: hHj3BRgTTvQ
 ---
 
 {% include toc.html %}
@@ -121,7 +121,9 @@ Chúng ta sử dụng thuột tính text-align để canh giữa cho văn bản
 
 Chúng ta sử dụng <b>thuột tính style trong các thành phân của HTML</b> nhằm trang trí cho website trở nên đẹp hơn. Chúng ta sử dụng background-color để tạo ra màu nền cho website và các phần tử web. Sử dụng color để tạo màu cho các chữ. Sử dụng font-family để thiết lập kiểu font. Sử dụng font-size để thiết lập kích thướt nội dung trong website và text-align để canh giữa các đoạn văn bản.
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

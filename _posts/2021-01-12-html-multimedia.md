@@ -7,7 +7,7 @@ tags: [html]
 summery: Media
 image: /images/blog/angular.png
 description : Sử dụng các media như âm thanh, hình ảnh, video để nhúng vào trong HTML trong lập trình web
-youtubeId: Ex3glZTCvlY
+youtubeId: 56tXo8Y6N88
 ---
 
 {% include toc.html %}
@@ -92,7 +92,9 @@ Thuộc tính controls sẽ giúp ta hiển thị các nút play, pause âm than
 {% endhighlight %} 
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

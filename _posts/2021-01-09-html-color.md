@@ -1,13 +1,13 @@
 ---
 layout: course-html
-title: Sử dụng màu sắc trong HTML   
+title: Sử dụng màu sắc trong HTML
 slug : su-dung-mau-sac-trong-html
 category: laptrinhweb
 tags: [html]
-summery: Màu sắc   
+summery: Màu sắc
 image: /images/blog/angular.png
 description : Hướng dẫn được cho các người học lập trình web HTML cách sử dụng màu sắc trong HTML. Trình bày chi tiết 3 cách để thêm màu sắc vào website bao gồm dùng tên màu sắc, dùng bảng mã hex codes hoặc sử dụng RGB làm giá trị của thuộc tính màu sắc. Bài viết cũng sẽ chia sẻ cách thay đổi background của website bằng thuộc tính bgcolor. 
-youtubeId: Ex3glZTCvlY
+youtubeId: AXZHAqTUDWs
 ---
 
 {% include toc.html %}
@@ -192,7 +192,9 @@ Mặc định các background màu nền của website đều là màu trắng. 
 </html>
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

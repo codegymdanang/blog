@@ -7,7 +7,7 @@ tags: [html]
 summery: Thuộc tính   
 image: /images/blog/angular.png
 description : Nhằm giúp người học lập trình web HTML dễ dàng tìm kiếm và tra cứu các thuộc tính trong thẻ HTML để phục vụ cho việc học và làm việc với các dự án lập trình web. Bài chia sẻ dưới đây sẽ trình bày và hướng dẫn cách sử dụng các thuộc tính trong thẻ HTML bao gồm thuộc tính chính (id , title, class và style) và thuộc tính lang.  Với những chia sẻ lí thuyết có kèm theo các ví dụ minh hoạ cho mỗi thuộc tính trong thẻ HTML trong bài viết. Người học lập trình web HTML có thể  hiểu và tự tin sử dụng được vào quá trình làm các dự án lập trình web HTML. 
-youtubeId: Ex3glZTCvlY
+youtubeId: didAiE6TrQo
 ---
 
 {% include toc.html %}
@@ -148,7 +148,9 @@ Thuộc tính lang giúp chúng ta khai báo là ngôn ngữ chính hiển thị
 {% endhighlight %} 
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

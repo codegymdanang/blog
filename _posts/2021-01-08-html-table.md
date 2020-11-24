@@ -7,7 +7,7 @@ tags: [html]
 summery: Table   
 image: /images/blog/angular.png
 description : Trình bày và hướng dẫn các cách sử dụng phổ biến và quan trọng của thẻ tạo bảng table trong lập trình web HTML bao gồm cách làm thế nào để tạo bảng, tiêu đề bảng, khoảng cách dòng và cột, trộn các dòng, cột cũng như cách thiết lập chiều cao, chiều dài và header, footer cho bảng. Để thao tác với bảng table trong HTML, chúng ta sẽ sử dụng các thẻ và các thuộc tính như thẻ table, thẻ tr, thẻ td, thẻ th, thuộc tính cellpadding, cellspacing, thuộc tính colspan, rowspan, width, height, thuộc tính caption, thead, toddy. 
-youtubeId: Ex3glZTCvlY
+youtubeId: lg-_fm6LpMM
 ---
 
 {% include toc.html %}
@@ -293,7 +293,9 @@ Chúng ta sử dụng thead để tạo header trong table, tbody để chỉ n�
 ![table6](/images/post/html/table6.png){:class="img-responsive"}
 {: refdef}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

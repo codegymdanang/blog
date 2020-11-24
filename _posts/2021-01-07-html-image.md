@@ -7,7 +7,7 @@ tags: [html]
 summery: Hình Ảnh   
 image: /images/blog/angular.png
 description : Trình bày và hướng dẫn các cách sử dụng phổ biến và quan trọng của thẻ hình ảnh img trong lập trình web HTML bao gồm chèn ảnh vào văn bản, thêm kích thước, tạo border, canh chỉnh cho hình ảnh và cách thêm đường link vào hình ảnh. Để sử dụng thẻ hình ảnh image trong HTML, chúng ta sẽ sử dụng các thẻ và các thuộc tính như thẻ img, thẻ a, thuộc tính src, alt, width, height, border, align, href.
-youtubeId: Ex3glZTCvlY
+youtubeId: G4vpFXXMS00
 ---
 
 {% include toc.html %}
@@ -149,7 +149,9 @@ Chúng ta có thể thêm đường link vào ảnh. Khi người dùng click v�
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

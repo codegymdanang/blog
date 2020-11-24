@@ -7,7 +7,7 @@ tags: [html]
 summery: Cụm từ   
 image: /images/blog/angular.png
 description : Bài viết giới thiệu và hướng dẫn cách thao tác thông qua các ví dụ minh hoạ kèm theo trong bài. Nhằm giúp các bạn sử dụng được các thẻ cụm từ phrasal trong lập trình web HTML bao gồm các thẻ em, mark, strong, abbr, blockquote, code và thẻ address. Trong đó, mỗi thẻ có chức năng khác nhau như nhấn mạnh, highlight, in đậm, gạch dưới hay trích dẫn văn bản, hiển thị địa chỉ hay nhúng source code của các ngôn ngữ vào html. 
-youtubeId: Ex3glZTCvlY
+youtubeId: LOKdU1QaJEA
 ---
 
 {% include toc.html %}
@@ -193,7 +193,9 @@ Chúng ta sử dụng thẻ address để hiển thị địa chỉ như sau
 
 {% endhighlight %} 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

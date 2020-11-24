@@ -7,7 +7,7 @@ tags: [html]
 summery: Formatting   
 image: /images/blog/angular.png
 description : Nằm trong chuỗi các bài viết chia sẻ về lập trình web HTML từ cơ bản tới nâng cao, bài viết này sẽ tiếp theo giới thiệu đến các bạn về các định dạng text trong HTML. Trong bài cũng sẽ hướng dẫn các bạn, những người học lập trình web HTML cách thao tác như thể nào với các định dạng bao gồm hiển thị chữ đậm, nghiêng, gạch chân, gạch ngang đoạn text, monospace chữ, superscript chữ, chèn thêm chữ, sử dụng chữ to, chữ nhỏ hơn, và cách để nhóm các thẻ lại với nhau trong lập trình web HTML.
-youtubeId: Ex3glZTCvlY
+youtubeId: G4A__MjSbBc
 ---
 
 {% include toc.html %}
@@ -322,4 +322,6 @@ Chúng ta sử dụng thẻ div hoặc span để nhóm các thẻ lại với n
 ![formating11](/images/post/html/formating11.png){:class="img-responsive"}
 {: refdef}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

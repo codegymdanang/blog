@@ -7,7 +7,7 @@ tags: [html]
 summery: Block và Inline   
 image: /images/blog/angular.png
 description : Sử dụng thuộc tính display mặc định Block và Inline trong lập trình web HTML nhằm mục đích để các thẻ có thể được hiển thị lên website. Bài viết sẽ giới thiệu về Block và Inline trong HTML, và hướng dẫn thao tác được các thẻ phổ biến sử dụng thuộc tính Block và Inline trong lập trình web HTML bao gồm thẻ DIV và thẻ Span. Sự khác nhau giữa 2 thẻ này trong HTML để từ đó biết được khi nào thì dùng thẻ DIV, khi nào thì dùng thẻ Span cho phù hợp trong lập trình web HTML.
-youtubeId: Ex3glZTCvlY
+youtubeId: O9RZL1S8MkU
 ---
 
 {% include toc.html %}
@@ -134,7 +134,9 @@ Thẻ Span thì sử dụng thuộc tính inline. Nó là một container như k
 Chúng ta có 2 cách để hiện thị các thẻ HTMl lên website là block và inline. Block được sử dụng để nhóm các thành phần web khác lại với nhau thành một khối và nó bắt đầu bằng một dòng mới. Inline thì không bắt đầu bằng một dòng mới mà nó chỉ có tác dụng một phần nào đó trong text hay trong đoạn văn. DIV mặc định là sử dụng giá trị Block còn Span là giá trị inline
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
