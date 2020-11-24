@@ -6,17 +6,17 @@ category: laptrinhweb
 tags: [angular]
 summery: Http Client   
 image: /images/blog/angular.png
-description : Sử dụng Http Client trong dự án angular. Hướng dẫn cài đặt Http Client vào dự án Angular.
+description : Http Client trong Angular được sử dụng để gọi các service bên ngoài. Bài viết dưới đây sẽ trình bày cụ thể hơn về Http Client được sử dụng trong Angular như thế nào, các bước thực hiện khai báo với Http Client bao gồm những bước nào thông qua các ví dụ minh hoạ cụ thể cho từng cú pháp thực hiện của mỗi phần. Đồng thời bài viết cũng hướng dẫn sử dụng Observable trong Angular từ thư viện RxJS để quản lí các dữ liệu bất đồng bộ. 
 youtubeId: dđ
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Http Client</b> là như thế nào?
 
-# **1. Http Client là gì**
+## **1. Http Client là gì**
 
 Chúng ta sử dụng Http Client để gọi các service bên ngoài. Ví dụ như ứng dụng angular gọi các webservice của Spring. Hoặc chúng ta sử dụng các webservice của bên thứ 3. Chúng ta sử dụng thư viện HTTP Client để gọi các webservice này
 
@@ -66,7 +66,7 @@ public getData() {
 }
 {% endhighlight %}
 
-# **2. Sử dụng Observable**
+## **2. Sử dụng Observable**
 
 Chúng ta sử dụng Obserable trong angular để quản lý các dữ liệu bất đồng bộ. Anh ví dụ như mình gọi một webservice ở bên ngoài, sau khi kết thúc thì nó trả về đối tượng Obserable cho mình.
 
