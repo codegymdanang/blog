@@ -8,7 +8,7 @@ summery: Util
 image:
 description : Những chia sẻ dưới đây sẽ giúp các bạn hiểu được Util trong lập trình web với Bootstrap 4 là gì? Sau đó sẽ hướng dẫn cách thao tác với Util trong Bootstrap 4 bao gồm Cách tạo và thêm màu sắc border, tạo border có góc viền tròn cho các thành phần web. Đồng thời tìm hiểu cách sử dụng tính năng Float, cách để canh giữa trong Bootstrap cũng như cách như thế nào để thiết lập độ rộng, độ cao của các phần tử  trong Bootstrap. Cùng với đó là những hướng dẫn cách tạo hiệu ứng bóng đổ, Iframe Responsive, Positive Vị trí, Close Icon và những bước để ẩn hiển thị một thành phần web bất kì nào đó. 
 
-youtubeId: Ex3glZTCvlY
+youtubeId: S-lnDJLR3i8
 ---
 
 {% include toc.html %}
@@ -238,4 +238,6 @@ Chúng ta có thể thêm nút có biểu tượng close (x) bằng class .close
  <button type="button" class="close">&times;</button>
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: List
 image:
 description : Trong quá trình lập trình web, tuỳ mỗi website mà cần sử dụng đến thuộc tính List trong Bootstrap để thiết lập các phần tử tạo thành một danh sách. Trước hết bài viết giúp bạn hiểu rõ về thuộc tính danh sách List là gì? Sau đó sẽ chuyển sang hướng dẫn cách để làm việc với thuộc tính này như cách để highlight list, liên kết và disable các phần tử trong list. Cũng như cách làm sao để xoá border xung quanh các phần tử và hiển thị danh sách list theo chiều ngang, thao tác thêm màu sắc, badges cho các phần tử trong List khi lập trình web. 
-youtubeId: Ex3glZTCvlY
+youtubeId: _N3ARNqBfII
 ---
 
 {% include toc.html %}
@@ -174,7 +174,9 @@ Chúng ta có thể sử dụng các class sau đây để tạo màu sắc cho 
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

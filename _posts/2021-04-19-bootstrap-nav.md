@@ -8,7 +8,7 @@ summery: Nav
 image:
 description : Trong lập trình web, các lập trình viên sẽ sử dụng các lớp Nav trong Bootstrap 4 để tạo ra các kiểu Menu nằm ngang hay nằm dọc. Bài viết này sẽ hướng dẫn cách thao tác với các lớp Nav để làm các kiểu Menu trên. Đồng thời cũng hướng dẫn để các bạn sử dụng được Nav trong Bootstrap để tạo kiểu Tab, Tab Pills và Dynamic tab trong Bootstrap 4.
 
-youtubeId: Ex3glZTCvlY
+youtubeId: rP0qARCQYHM
 ---
 
 {% include toc.html %}
@@ -167,7 +167,9 @@ Chúng ta sử dụng data-toggle="table", .tab-pane và .tab-content để làm
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

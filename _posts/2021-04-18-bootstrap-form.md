@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: Form
 image:
 description : Khi làm các trang website, trong quá trình lập trình web các lập trình viên cần tạo các form để khách hàng nhập input vào. Bài viết này sẽ giúp bạn hiểu được Form trong Bootstrap là gì? Cách sử dụng các dạng Form trong lập trình web. Cụ thể bài viết chia sẻ cho các bạn 2 dạng form sử dụng trong Bootstrap 4 gồm Staked Form, Form tràn màn hình và Inline Form, Form trên cùng 1 dòng. Ngoài ra trong bài viết, anh cũng sẽ hướng dẫn cách làm để tạo dạng Form Validation trong Bootstrap 4.
-youtubeId: Ex3glZTCvlY
+youtubeId: SYRETlwJIN8
 ---
 
 {% include toc.html %}
@@ -144,4 +144,8 @@ Chúng ta có thể thêm điều kiện để kiểm tra nếu người dùng k
 
 {:refdef: style="text-align: center;"}
 ![validation form](/images/post/boostrap/validationform.png){:class="img-responsive"}
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}

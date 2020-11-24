@@ -188,3 +188,6 @@ Chúng ta có thể nhóm các button lại với nhau trên cùng kích thướ
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

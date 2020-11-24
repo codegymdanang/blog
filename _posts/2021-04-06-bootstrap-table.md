@@ -388,7 +388,9 @@ Chúng ta sử dụng class .table-responsive để thêm thanh kéo khi table �
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

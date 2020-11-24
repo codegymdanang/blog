@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: Modal
 image:
 description : Trong lập trình web để hiển thị một dialog, hộp thoại hay popup, cửa sổ hiện lên trên website, các lập trình viên sẽ sử dụng Modal trong Bootstrap. Bài viết này sẽ giúp hiểu được Modal trong lập trình web là gì? Đồng thời hướng dẫn cách để tạo được Modal trong Bootstrap 4. Sau khi biết được cách tạo Modal, sẽ tìm hiểu thêm về các thao tác khác với Modal như cách thêm hiệu ứng Modal, tăng kích thước Modal trong Bootstrap 4. Hay cách để bố trí Modal nằm giữa của màn hình và cách tạo Modal có thanh cuộn trong lập trình web để xử lí trường hợp nếu nội dung bên trong quá nhiều.
-youtubeId: Ex3glZTCvlY
+youtubeId: naJuL7en_VU
 ---
 
 {% include toc.html %}
@@ -133,7 +133,9 @@ Chúng ta có thể thêm scrollbar vào bằng việc sử dụng class .modal-
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

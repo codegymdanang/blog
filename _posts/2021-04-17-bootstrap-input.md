@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: Input
 image:
 description : Bài viết chia sẻ về chủ đề thuộc tính Input trong Bootstrap dùng áp dụng vào lập trình web. Để giúp các bạn hiểu hơn về thuộc tính này, trước hết bài viết sẽ giải thích, giới thiệu để hiểu được Input trong Bootstrap 4 là gì? Sau đó cùng lần lượt đi qua những hướng dẫn để thao tác với thuộc tính Input trong lập trình web gồm textarea, checkbox, radio, select list trong Bootstrap 4. Cũng như hướng dẫn cách làm để tăng kích thước cho input trong form, và cách để tạo input group, cách kết hợp input group với checkbox hay input group với button.
-youtubeId: Ex3glZTCvlY
+youtubeId: 6QVqc3iMjxo
 ---
 
 {% include toc.html %}
@@ -291,4 +291,6 @@ Chúng ta có thể kết hợp Input Group và Button
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

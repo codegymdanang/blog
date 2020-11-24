@@ -7,7 +7,7 @@ tags: [bootstrap]
 summery: Card
 image:
 description : Để tạo một hộp mà trong đó có thể bao gồm cả nội dung bên trong, màu sắc, header và footer trong lập trình web, các lập trình viên sẽ cần phải sử dụng thuộc tính Card trong Bootstrap. Bài viết dưới đầy sẽ giúp bạn hiểu được Card trong lập trình web là gì? Được sử dụng như thế nào? Trước hết bài viết sẽ giải thích các khái niệm về trong Bootstrap cũng như hướng dẫn cách thao tác với như cách thêm header, footer, background màu, title, text, link, ảnh, link cho Card cũng như cách để Overlay ảnh và tạo Column cho Card. Và cách làm với Card Desk và Card Group trong lập trình web.
-youtubeId: Ex3glZTCvlY
+youtubeId: UnPH-g4w4Hc
 ---
 
 {% include toc.html %}
@@ -304,3 +304,7 @@ Nó cũng tương tự như card desk nhưng sẽ không có khoảng cách tr�
 </div>
 
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
