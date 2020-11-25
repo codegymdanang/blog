@@ -14,11 +14,11 @@ youtubeId: edYsCowgQq0
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách gọi <b>Web Service</b> bên ngoài ở trong dự án <b>Angualar</b> là như thế nào nhé.
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách gọi <b>Web Service</b> bên ngoài ở trong dự án <b>Angualar</b> là như thế nào nhé.
 
 ## **1 Mô tả mục đích ví dụ**
 
-Hôm nay chúng ta sẽ viết một ứng dụng hiển thị danh sách các nhân viên trong công ty ABC vào trong ứng dụng Angular của mình. Công ty ABC sẽ cung câp cho chúng ta một webservice. Khi gọi webservice này thì ta sẽ nhận được một đối tượng json. Trong đối tượng Json này sẽ chứa danh sách nhân viên công ty ABC. Khi đã nhận được kết quả trả về từ webservice của công ty ABC thì mình sẽ hiển kết quả đó ra cho bên view. 
+Hôm nay chúng ta sẽ viết một ứng dụng hiển thị danh sách các nhân viên trong công ty ABC vào trong ứng dụng Angular của mình. Công ty ABC sẽ cung cấp cho chúng ta một webservice. Khi gọi webservice này thì ta sẽ nhận được một đối tượng json. Trong đối tượng Json này sẽ chứa danh sách nhân viên công ty ABC. Khi đã nhận được kết quả trả về từ webservice của công ty ABC thì mình sẽ hiển thị kết quả đó ra cho bên view. 
 
 Sau đây là webservice của công ty ABC : http://dummy.restapiexample.com/api/v1/employees
 Nếu các em copy đường link này và gõ trên trình duyệt mình sẽ nhận được file json sau
@@ -105,7 +105,7 @@ export class EmployeeService {
 
 ## **4 Bước 4 : Hiển thị dữ liệu lên trang web**
 
-Ví dụ như anh sẽ tạo ra một component tên là employee. Trong component này anh sẽ có 3 files. File đầu tiên là employee.component.css dùng để trang trí cho trang web, employee.component.html dùng để hiển thị trang web cho người dùng. Và file cuối cùng là employee.component.ts . Trong file này anh sẽ nhúng service tên EmployeeService ở trên vào như sau.
+Ví dụ như anh sẽ tạo ra một component tên là employee. Trong component này anh sẽ có 3 files. File đầu tiên là employee.component.css dùng để trang trí cho trang web, employee.component.html dùng để hiển thị trang web cho người dùng. Và file cuối cùng là employee.component.ts. Trong file này anh sẽ nhúng service tên EmployeeService ở trên vào như sau.
 
 {% highlight java linenos %}
 import { Component, OnInit} from "@angular/core";
@@ -140,14 +140,14 @@ export class EmployeeComponent {
 }
 {% endhighlight %}
 
-- Chúng ta nhúng EmployeeService và trong Controller import { EmployeeService } from "../employee.service";
+- Chúng ta nhúng EmployeeService vào trong Controller import { EmployeeService } from "../employee.service";
 - Chúng ta Inject (nhúng) employeeService vào trong Controller thông qua constructor  private employeeService: EmployeeService
 - Tiếp đến chúng ta gọi webservice : this.employeeService.displayAllEmployee(). Khi gọi xong webservice thì chúng ta sẽ nhận được đối tượng Json gồm danh sách các nhân viên. Tiếp đó ta gán kết quả này vào biến employees.
 - Chúng ta sẽ truyền dữ liệu từ biến employees qua cho file  employee.component.html và hiển thị kết quả ra cho người dùng.
 
  **Kết luận**
 
- Đây chỉ là ví dụ đơn giản để các em nắm được luồng đi của một ứng dụng Angular khi gọi các webservice từ bên ngoài. Trong thực tế thì anh còn kết hợp thêm nhiều thư viện khác nữa anh hy vọng bài viết sau anh sẽ nói rõ hơn. Các em có thể xem qua một số keywork như <b>ReactRX , Obserable, subcribe , unsubcribe </b>. Và tham khảo thêm bài viết sau (đây)[https://www.learnrxjs.io/]
+Đây chỉ là ví dụ đơn giản để các em nắm được luồng đi của một ứng dụng Angular khi gọi các webservice từ bên ngoài. Trong thực tế thì anh còn kết hợp thêm nhiều thư viện khác nữa, trong bài viết sau anh sẽ nói rõ hơn. Các em có thể xem qua một số keywork như <b>ReactRX , Obserable, subcribe , unsubcribe </b>. Và tham khảo thêm bài viết sau (đây)[https://www.learnrxjs.io/]
 
 <br>
 ### Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
