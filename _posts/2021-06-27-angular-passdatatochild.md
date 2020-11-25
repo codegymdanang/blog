@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [angular]
 summery: Truyền data cho component con  
 image: /images/blog/angular.png
-description : Khi lập trình web với framework Angular luôn phát sinh việc truyền dữ liệu giữa các component. Trong đó có kiểu truyền dữ liêu từ cha xuống con và từ con lên cha. Bài viết này sẽ giúp bạn hiểu được những khái niệm truyền dữ liệu này. Đồng thời hướng dẫn cách sử dụng đối với các tác vụ gồm truyền dữ liệu từ cha xuống con thông qua component, đặt tên cho thuộc tính truyền từ cha xuống con, sử dụng Onchange và Input Setter cũng như trình bày về cách làm để phát hiện khi nào có sự thay đổi từ cha trong Angular Component. 
+description : Khi lập trình web với framework Angular luôn phát sinh việc truyền dữ liệu giữa các component. Trong đó có kiểu truyền dữ liệu từ cha xuống con và từ con lên cha. Bài viết này sẽ giúp bạn hiểu được những khái niệm truyền dữ liệu này. Đồng thời hướng dẫn cách sử dụng đối với các tác vụ gồm truyền dữ liệu từ cha xuống con thông qua component, đặt tên cho thuộc tính truyền từ cha xuống con, sử dụng Onchange và Input Setter cũng như trình bày về cách làm để phát hiện khi nào có sự thay đổi từ cha trong Angular Component. 
 youtubeId: 0734nF0B_BM
 ---
 
@@ -14,11 +14,11 @@ youtubeId: 0734nF0B_BM
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách  <b>truyền dữ liệu từ component cha xuống con</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách <b>truyền dữ liệu từ component cha xuống con</b> là như thế nào? 
 
 ## **1.Truyền dữ liệu từ cha xuống con là gì**
 
-Trong Angular để truyền dữ liệu từ component cha xuống các component con thì ta sử dụng annotaion @Input 
+Trong Angular để truyền dữ liệu từ component cha xuống các component con thì ta sử dụng annotaion @Input.
 
 Trong dự án Angular component cha sẽ giao tiếp với component con thông qua thuộc tính properties. Annotation @Input được sử dụng để nhận các giá trị từ properties từ cha xuống con.
 
@@ -43,7 +43,7 @@ export class ChildComponent {
 
 {% endhighlight %} 
 
-Đầu tiên chúng ta import annotation @Input từ thư viện angular core
+Đầu tiên chúng ta import annotation @Input từ thư viện angular core.
 
 {% highlight javascript linenos %}
 
@@ -71,7 +71,7 @@ export class ChildComponent {
 
 {% endhighlight %} 
 
-- Bước 2 : Từ component cha ta sẽ truyền giá trị count xuống component con thông qua thuộc tính  <child-component [count]=Counter></child-component>. Code của lớp cha như sau
+- Bước 2 : Từ component cha ta sẽ truyền giá trị count xuống component con thông qua thuộc tính  <child-component [count]=Counter></child-component>. Code của lớp cha như sau:
 
 {% highlight javascript linenos %}
 
@@ -118,9 +118,9 @@ Dòng tiếp theo ta nhúng component con vào component cha thông qua thẻ ch
 
 {% endhighlight %} 
 
-## **3. Truyền dữ liệu từ cha xuống con thống qua component**
+## **3. Truyền dữ liệu từ cha xuống con thông qua component**
 
-Ngoài cách nhận dữ liệu bằng cách sử dụng annotation @input ở trên
+Ngoài cách nhận dữ liệu bằng cách sử dụng annotation @input ở trên.
 
 {% highlight javascript linenos %}
 
@@ -130,7 +130,7 @@ export class ChildComponent {
 
 {% endhighlight %}
 
-Ta có thể khai báo input trong thẻ component meta data vẫn có kết quả như nhau. Ví dụ đoạn code sau
+Ta có thể khai báo input trong thẻ component meta data vẫn có kết quả như nhau. Ví dụ đoạn code sau:
 
 {% highlight javascript linenos %}
 
@@ -146,7 +146,7 @@ export class ChildComponent {}
 
 ## **4. Đặt tên cho thuộc tính truyền từ cha xuống con**
 
-Chúng ta có thể đặt tên biến count là MyCount như sau trong component class của lớp con
+Chúng ta có thể đặt tên biến count là MyCount như sau trong component class của lớp con.
 
 {% highlight javascript linenos %}
 
@@ -156,7 +156,7 @@ export class ChildComponent {
 
 {% endhighlight %}
 
-Sau đó ở lớp cha ta truyền xuống bằng tên của Input như sau
+Sau đó ở lớp cha ta truyền xuống bằng tên của Input như sau:
 
 {% highlight html linenos %}
 
@@ -167,14 +167,14 @@ Sau đó ở lớp cha ta truyền xuống bằng tên của Input như sau
 
 ## **5. Phát hiện khi nào có sự thay đổi từ cha**
 
-Ngoài việc truyền data từ component cha xuống cho con. Thì lớp còn cần phải biết thêm khi nào giá trị của lớp cha thay đổi để nó có thể cập nhật lại. Có 2 cách để có thể phát hiện ra khi input thay đổi là
+Ngoài việc truyền data từ component cha xuống cho con. Thì lớp còn cần phải biết thêm khi nào giá trị của lớp cha thay đổi để nó có thể cập nhật lại. Có 2 cách để có thể phát hiện ra khi input thay đổi là:
 
-- Sử dụng phương thức OnChanges trong vòng đời của một component
-- Sử dụng Setter
+- Sử dụng phương thức OnChanges trong vòng đời của một component.
+- Sử dụng Setter.
 
 ## **6. Sử dụng OnChange**
 
-ngOnChanges được dùng để Angular phát hiện ra khi nào giá trị thay đổi. Chúng ta sẽ cập nhật thêm component con phương thức ngOnChanges() để khi component cha thay đổi giá trị thì component con sẽ cập nhật giá trị
+ngOnChanges được dùng để Angular phát hiện ra khi nào giá trị thay đổi. Chúng ta sẽ cập nhật thêm component con phương thức ngOnChanges() để khi component cha thay đổi giá trị thì component con sẽ cập nhật giá trị.
 
 {% highlight javascript linenos %}
 
@@ -201,7 +201,7 @@ export class ChildComponent implements OnChanges {
 }
 {% endhighlight %}
 
-Đầu tiên chúng ta import các thư việc cần vào
+Đầu tiên chúng ta import các thư việc cần vào.
 
 {% highlight javascript linenos %}
 
@@ -209,7 +209,7 @@ import { Component, Input, OnChanges, SimpleChanges, SimpleChange  } from '@angu
  
 {% endhighlight %}
 
-Tiếp đến chúng ta thay thêm class OnChanges vào
+Tiếp đến chúng ta thay thêm class OnChanges vào.
 
 {% highlight javascript linenos %}
 
@@ -217,7 +217,7 @@ export class ChildComponent implements OnChanges {
  
 {% endhighlight %}
 
-Chúng ta viết thêm method ngOnChanges
+Chúng ta viết thêm method ngOnChanges.
 
 {% highlight javascript linenos %}
 
@@ -240,7 +240,7 @@ Method ngOnchanges sẽ nhận được các sự thay đổi trên properties c
 
 Chúng ta có thể sử dụng getter và setter để phát hiện ra sự thay đổi.
 
-Trong component con ta tạo một biến tên count
+Trong component con ta tạo một biến tên count.
 
 {% highlight javascript linenos %}
 
@@ -248,7 +248,7 @@ private count = 0;
 
 {% endhighlight %}
 
-Chúng ta tạo getter và setter cho biến count và thêm annotation @Input trên phương thức như sau
+Chúng ta tạo getter và setter cho biến count và thêm annotation @Input trên phương thức như sau:
 
 {% highlight javascript linenos %}
 
