@@ -18,9 +18,9 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>
 
 ## **1. NgSwitch là gì**
 
-Chúng ta sử dụng ngSwitch để thêm hoặc xoá các phần tử trên website. Nó thường được kết hợp dùng chung với ngSwitchcase và ngSwitchDefault. Nó tương tự như mệnh switch trong javascript.
+Chúng ta sử dụng ngSwitch để thêm hoặc xoá các phần tử trên website. Nó thường được kết hợp dùng chung với ngSwitchcase và ngSwitchDefault. Nó tương tự như mệnh đề switch trong javascript.
 
-Cú pháp của ngSwitch như sau
+Cú pháp của ngSwitch như sau:
 
 {% highlight html  linenos %}
 
@@ -38,7 +38,7 @@ Cú pháp của ngSwitch như sau
 
 ## **2. Ví dụ NgSwitch**
 
-Ví dụ ta làm một ứng dụng web. Khi người dùng nhập vào số 1 ta in ra tiếng Anh là One, 2 là Two, 3 là Three , 4 là Four, 5 là Five. Nếu nhập vào số 8 thì sẽ hiện thì giá trị mặt định vì số 8 không rơi vào trường hợp switchcase nào cả nên nó sẽ nhảy vô switch case default.
+Ví dụ ta làm một ứng dụng web. Khi người dùng nhập vào số 1 ta in ra tiếng Anh là One, 2 là Two, 3 là Three , 4 là Four, 5 là Five. Nếu nhập vào số 8 thì sẽ hiển thị giá trị mặt định vì số 8 không rơi vào trường hợp switchcase nào cả nên nó sẽ nhảy vô switch case default.
 
 {% highlight javascript  linenos %}
 
@@ -73,7 +73,7 @@ export class AppComponent
 
 ## **3. Kiểm tra điều kiện bằng trong ngSwitch**
 
-Trong ngSwitch nếu ta nhập chuỗi rỗng nó sẽ tương ứng với giá trị 0. Ví dụ dưới đây nếu ta không nhập giá trị gì cho biên num. Thì mặc định giá trị num sẽ là 0 và rơi vào trường hợp ngSwitchCase="0"
+Trong ngSwitch nếu ta nhập chuỗi rỗng nó sẽ tương ứng với giá trị 0. Ví dụ dưới đây nếu ta không nhập giá trị gì cho biến num. Thì mặc định giá trị num sẽ là 0 và rơi vào trường hợp ngSwitchCase="0"
 
 {% highlight html  linenos %}
 
