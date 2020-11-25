@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [angular]
 summery: React Form   
 image: /images/blog/angular.png
-description : Ngoài cách tạo form bằng Template Driven Form, người dùng còn có sự lựa chọn khác là dùng React Form trong Angular hay còn gọi là Model Driven Form. Bài viết dưới đây sẽ giúp hiểu được Reactive Form trong Angular và các khái niệm như Final Template HTML, FormGroup, FormArray, FormControl là gì? Cách sử dụng React Form trong dự án Angular được thực hiện như thế nào? Bên cạnh đó trình bày và hướng dẫn sử dụng các dạng form trên thông qua những ví dụ minh hoạ cụ thể cú pháp thực hiện từng bước.
+description : Ngoài cách tạo form bằng Template Driven Form, người dùng còn có sự lựa chọn khác là dùng React Form trong Angular hay còn gọi là Model Driven Form. Bài viết dưới đây sẽ giúp hiểu được Reactive Form trong Angular và các khái niệm như Final Template HTML, FormGroup, FormArray, FormControl là gì? Cách sử dụng React Form trong dự án Angular được thực hiện như thế nào? Bên cạnh đó bài viết cũng trình bày và hướng dẫn sử dụng các dạng form trên thông qua những ví dụ minh hoạ cụ thể cú pháp thực hiện từng bước.
 youtubeId: 
 ---
 
@@ -18,11 +18,11 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>React 
 
 ## **1.React Form là gì**
 
-Chúng ta sử dụng React Form để xây dựng cấu trúc của 1 form trong component class. Chúng ta sử dụng Form Groups , Form Controls và From Array để xây dựng lên một form.
+Chúng ta sử dụng React Form để xây dựng cấu trúc của 1 form trong component class. Chúng ta sử dụng Form Groups, Form Controls và From Array để xây dựng lên một form.
 
 ## **2.Sử dụng Reactive From như thế nào**
 
-Bước 1 : Chúng ta sử import ReactiveFormsModule vào NgModule
+Bước 1 : Chúng ta sử dụng import ReactiveFormsModule vào NgModule
 
 {% highlight javascript linenos %}
 
@@ -57,7 +57,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms'
 
 {% endhighlight %} 
 
-Chúng ta tạo FromGroup. FromGroup được sử dụng để tạo các form control. Form control là các input , button mà ta thấy trên giao diện form.
+Chúng ta tạo FromGroup. FromGroup được sử dụng để tạo các form control. Form control là các input, button mà ta thấy trên giao diện form.
 
 {% highlight javascript linenos %}
 
@@ -206,7 +206,7 @@ Bước 6 : Submit form, chúng ta sử dụng ngSubmit
 
 ## **4. Sử dụng FormGroup**
 
-Chúng ta sử dụng FormGroup để nhóm các control cùng với nhau. Ví dụ như ta có field là address (địa chỉ) trong địa chỉ có các thuộc tính như city, street, pincode. Thì ta có thể nhóm các thuộc tính đó lại trong Address như sau
+Chúng ta sử dụng FormGroup để nhóm các control cùng với nhau. Ví dụ như ta có field là address (địa chỉ) trong địa chỉ có các thuộc tính như city, street, pincode. Thì ta có thể nhóm các thuộc tính đó lại trong Address như sau:
 
 
 {% highlight javascript linenos %}
@@ -226,7 +226,7 @@ contactForm = new FormGroup({
 })
 {% endhighlight %} 
 
-- Chúng ta sử dụng trong template html như sau
+- Chúng ta sử dụng trong template html như sau:
 
 {% highlight html linenos %}
 
