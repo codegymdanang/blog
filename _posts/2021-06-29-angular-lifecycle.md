@@ -35,9 +35,9 @@ Angular cung cấp cho chúng ta một số phương thức về vòng đời c�
 
 ## **2. ngOnChanges**
 
-Phương thức ngOnChanges được gọi khi component phát hiện có giá trị được binding vào component băng phương pháp Input properties. Để nhận biết được giá trị binding thì ngOnChange quản lý đối tượng SimpleChanege. Chúng ta sử dụng @Input trong bài truyền giá trị từ cha xuống con là một ví dụ
+Phương thức ngOnChanges được gọi khi component phát hiện có giá trị được binding vào component bằng phương pháp Input properties. Để nhận biết được giá trị binding thì ngOnChange quản lý đối tượng SimpleChanege. Chúng ta sử dụng @Input trong bài truyền giá trị từ cha xuống con là một ví dụ.
 
-Ví dụ sau ta có component cha truyền giá trị message xuống cho component con (child-component) thông qua properties sau đó component con sẽ dùng @Input để nhận giá trị và binding vào component
+Ví dụ sau ta có component cha truyền giá trị message xuống cho component con (child-component) thông qua properties sau đó component con sẽ dùng @Input để nhận giá trị và binding vào component.
 
 {% highlight javascript linenos %}
 
@@ -74,7 +74,7 @@ export class AppComponent {
 
 {% endhighlight %} 
 
-Chúng ta có component con với nội dung nhu sau
+Chúng ta có component con với nội dung như sau:
 
 {% highlight javascript linenos %}
 
@@ -114,7 +114,7 @@ export class ChildComponent implements OnChanges, OnInit {
 }
 {% endhighlight %} 
 
-Đầu tiên chúng ta import thư viện từ angular core như sau
+Đầu tiên chúng ta import thư viện từ angular core như sau:
 
 {% highlight javascript linenos %}
 
@@ -189,7 +189,7 @@ export class ChildComponent implements OnInit {
 
 {% endhighlight %} 
 
-Cuối cùng chúng ta viết code trong phương thức ngOnInit để can thiệt vào lúc component được tạo ra
+Cuối cùng chúng ta viết code trong phương thức ngOnInit để can thiệp vào lúc component được tạo ra
 
 {% highlight javascript linenos %}
 
@@ -333,7 +333,7 @@ class MyComponent implements AfterViewInit {
 
 ## **8. ngAfterViewChecked**
 
-Phương thức này được gọi sau khi các view component cha  và các view của component con được kiểm tra xong.
+Phương thức này được gọi sau khi các view component cha và các view của component con được kiểm tra xong.
 
 {% highlight javascript linenos %}
 
