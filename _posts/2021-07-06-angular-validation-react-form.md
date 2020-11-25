@@ -31,11 +31,11 @@ firstname: new FormControl('',[Validators.required]),
 
 {% endhighlight %} 
 
-Angular hỗ trợ sẳn một số Validator như require, minlenth, maxlength,pattern,email validator cho chúng ta. Trong ví dụ sau đây chúng ta sẽ sử dụng nó để kiểm tra giá trị người dùng nhập vào.
+Angular hỗ trợ sẵn một số Validator như require, minlenth, maxlength,pattern,email validator cho chúng ta. Trong ví dụ sau đây chúng ta sẽ sử dụng nó để kiểm tra giá trị người dùng nhập vào.
 
 ## **3.Ví dụ sử dụng Validator như thế nào**
 
-Chúng ta sẽ viết ví dụ kiểm tra đăng ký của người dùng. Giả sử chúng ta có contacForm model như sau
+Chúng ta sẽ viết ví dụ kiểm tra đăng ký của người dùng. Giả sử chúng ta có contacForm model như sau:
 
 {% highlight javascript linenos %}
 
@@ -63,7 +63,7 @@ Chúng ta sử dụng thuộc tính novalidate trong thẻ form để làm việ
 <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" novalidate>
  
 {% endhighlight %} 
-- Bước 2 : Thêm các Validator có sẳn trong Angular
+- Bước 2 : Thêm các Validator có sẵn trong Angular
 
 Chúng ta muốn người dùng bắt buộc phải điền vào firstname, thì chúng ta sử dụng require
 
@@ -105,7 +105,7 @@ email:new FormControl('',[Validators.email,Validators.required]),
 
 {% endhighlight %} 
 
-Chúng ta có contact-form sau khi thêm các validator như sau
+Chúng ta có contact-form sau khi thêm các validator như sau:
 
 {% highlight javascript linenos %}
 
@@ -125,7 +125,7 @@ Chúng ta có contact-form sau khi thêm các validator như sau
 
 {% endhighlight %} 
 
-- Bước 3 : Disable chứ năng submit button
+- Bước 3 : Disable chức năng submit button
 
 Nếu người dùng điền không đúng giá trị như ta mong muốn thì nút submit sẽ mờ đi không click được.
 
@@ -185,7 +185,7 @@ Chúng ta hiển thị First Name is not Valid
   </div>
 {% endhighlight %} 
 
-Cách này thì nó báo rất chung chung. Nên chúng ta muốn thông báo first name là bắt buộc nhập và min length phải là 10. Chúng ta sử dụng cách thông báo sau
+Cách này thì nó báo rất chung chung. Nên chúng ta muốn thông báo first name là bắt buộc nhập và min length phải là 10. Chúng ta sử dụng cách thông báo sau:
 
 {% highlight javascript linenos %}
 
