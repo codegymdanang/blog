@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [angular]
 summery: Http Client   
 image: /images/blog/angular.png
-description : Http Client trong Angular được sử dụng để gọi các service bên ngoài. Bài viết dưới đây sẽ trình bày cụ thể hơn về Http Client được sử dụng trong Angular như thế nào, các bước thực hiện khai báo với Http Client bao gồm những bước nào thông qua các ví dụ minh hoạ cụ thể cho từng cú pháp thực hiện của mỗi phần. Đồng thời bài viết cũng hướng dẫn sử dụng Observable trong Angular từ thư viện RxJS để quản lí các dữ liệu bất đồng bộ. 
+description : Http Client trong Angular được sử dụng để gọi các service bên ngoài. Bài viết dưới đây sẽ trình bày cụ thể hơn về Http Client được sử dụng trong Angular như thế nào, các bước thực hiện khai báo với Http Client bao gồm những bước nào, trong bài có các ví dụ minh hoạ cụ thể cho từng cú pháp thực hiện của mỗi phần. Đồng thời bài viết cũng hướng dẫn sử dụng Observable trong Angular từ thư viện RxJS để quản lí các dữ liệu bất đồng bộ. 
 youtubeId: dđ
 ---
 
@@ -18,11 +18,11 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Http Cl
 
 ## **1. Http Client là gì**
 
-Chúng ta sử dụng Http Client để gọi các service bên ngoài. Ví dụ như ứng dụng angular gọi các webservice của Spring. Hoặc chúng ta sử dụng các webservice của bên thứ 3. Chúng ta sử dụng thư viện HTTP Client để gọi các webservice này
+Chúng ta sử dụng Http Client để gọi các service bên ngoài. Ví dụ như ứng dụng angular gọi các webservice của Spring. Hoặc chúng ta sử dụng các webservice của bên thứ 3. Chúng ta sử dụng thư viện HTTP Client để gọi các webservice này.
 
-Để sử dụng được HTTP Client ta làm các bước sau
+Để sử dụng được HTTP Client ta làm các bước sau:
 
-Bước 1.  khai báo HttpClientModule trong app.module 
+Bước 1.  Khai báo HttpClientModule trong app.module 
 
 {% highlight javascript linenos %}
 
@@ -68,11 +68,11 @@ public getData() {
 
 ## **2. Sử dụng Observable**
 
-Chúng ta sử dụng Obserable trong angular để quản lý các dữ liệu bất đồng bộ. Anh ví dụ như mình gọi một webservice ở bên ngoài, sau khi kết thúc thì nó trả về đối tượng Obserable cho mình.
+Chúng ta sử dụng Obserable trong Angular để quản lý các dữ liệu bất đồng bộ. Anh ví dụ như mình gọi một webservice ở bên ngoài, sau khi kết thúc thì nó trả về đối tượng Obserable cho mình.
 
 Obserable quản lý các đối tượng subscribes, khi có một sự thay đổi thì Obserable sẽ thông báo đến các subscribers của mình. 
 
-Trong angular chúng ta sử dụng Obserable từ thư viện RxJS. Thư viện này cung cấp cho chúng ta một số phương thức như map , filter, take, merge kết quả của webservice gọi về.
+Trong Angular chúng ta sử dụng Obserable từ thư viện RxJS. Thư viện này cung cấp cho chúng ta một số phương thức như map , filter, take, merge kết quả của webservice gọi về.
 
 Anh sẽ có ví dụ sau, chức năng của anh sẽ hiển thị thông tin của company ra cho người dùng. Từ Angular anh sẽ gọi ra một webservice bên ngoài. Sau khi nhận được kết quả anh sẽ hiển thị lên cho người dùng. 3 từ khoá quan trọng là Obserable , Subscribe và RxJS sẽ được sử dụng trong ví dụ này.
 
@@ -109,7 +109,7 @@ import { Observable } from 'rxjs';
 
 {% endhighlight %}
 
-Tiếp đến chúng ta gọi webservice bên ngoài tại phương thức getInfoCompany. Phương thức này sau khi gọi xong sẽ trả về kết qủa là đối tượng Obserable
+Tiếp đến chúng ta gọi webservice bên ngoài tại phương thức getInfoCompany. Phương thức này sau khi gọi xong sẽ trả về kết quả là đối tượng Obserable
 
 {% highlight javascript linenos %}
 
