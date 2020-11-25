@@ -14,7 +14,7 @@ youtubeId: 5FD1SFJYLAo
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách thêm <b>component con</b> là như thế nào? Trong bài viết hôm nay chúng ta sẽ sử dụng Angular Cli để tạo ra component.
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách thêm <b>component con</b> là như thế nào? Trong bài viết hôm nay chúng ta sẽ sử dụng Angular Cli để tạo ra component.
 
 ## **1. Component là gì**
 
@@ -52,9 +52,9 @@ export class Customer {
 
 Chúng ta sử dụng từ khoá export để các component khác có thể sử dụng được class component khách hàng của chúng ta. Nếu không có Angular sẽ báo lỗi khi sử dụng component khách hàng.
 
-Sau khi chạy câu lệnh ng new Customer bằng Angular Cli. Nó sẽ tạo cho ta 1 folder tên customer ở dưới folder app. Trong folder này có các file để cấu hình 1 component. Chúng ta sẽ cấu hình theo từng bước như sau
+Sau khi chạy câu lệnh ng new Customer bằng Angular Cli. Nó sẽ tạo cho ta 1 folder tên customer ở dưới folder app. Trong folder này có các file để cấu hình 1 component. Chúng ta sẽ cấu hình theo từng bước như sau:
 
-- Bước 1 : Chỉnh sửa file customer.component.ts. Đây là file class component chứa data Customer ở trên. Chúng ta tạo sẳn 5 khách hàng
+- Bước 1 : Chỉnh sửa file customer.component.ts. Đây là file class component chứa data Customer ở trên. Chúng ta tạo sẵn 5 khách hàng.
 
 {% highlight javascript  linenos %}
 
@@ -79,7 +79,7 @@ export class CustomerListComponent
 }
 {% endhighlight %}
 
-Đầu tiền chúng ta import các module cần thiết của angular và import thêm model customer vào để sử dụng
+Đầu tiền chúng ta import các module cần thiết của angular và import thêm model customer vào để sử dụng.
 
 {% highlight javascript  linenos %}
 
@@ -88,7 +88,7 @@ import { Customer } from './customer';
 
 {% endhighlight %}
 
-Tiếp đến chúng ta thêm meta data là @Component cho class component. Chúng ta mô tả các thành phần trong @Component như selector tên gì, tìm kiếm file html template ở đâu
+Tiếp đến chúng ta thêm meta data là @Component cho class component. Chúng ta mô tả các thành phần trong @Component như selector tên gì, tìm kiếm file html template ở đâu.
 
 {% highlight javascript  linenos %}
 
@@ -99,7 +99,7 @@ Tiếp đến chúng ta thêm meta data là @Component cho class component. Chú
 
 {% endhighlight %}
 
-- Bước 2 : Tạo file template html(view) để hiển thị kết quả. file này ta có tên giống như tên trong templateUrl là customer.component.html. Chúng ta sẽ hiển thị danh sách 5 khách hàng
+- Bước 2 : Tạo file template html(view) để hiển thị kết quả. file này ta có tên giống như tên trong templateUrl là customer.component.html. Chúng ta sẽ hiển thị danh sách 5 khách hàng.
 
 {% highlight html  linenos %}
 
@@ -128,7 +128,7 @@ Tiếp đến chúng ta thêm meta data là @Component cho class component. Chú
 
 {% endhighlight %}
 
-- Bước 3 : Như vậy component khách hàng chúng ta đã sẵn sàng. Chúng ta cần phải khai báo nó trong app.module.ts để sử dụng
+- Bước 3 : Như vậy component khách hàng chúng ta đã sẵn sàng. Chúng ta cần phải khai báo nó trong app.module.ts để sử dụng.
 
 {% highlight html  linenos %}
 
@@ -154,7 +154,7 @@ export class AppModule { }
 
 {% endhighlight %}
 
-Đầu tiên chúng ta import Customer component vào 
+Đầu tiên chúng ta import Customer component vào.
 
 {% highlight html  linenos %}
 
@@ -162,7 +162,7 @@ import {CustomerComponent} from './customer-list.component';
 
 {% endhighlight %}
 
-Sau đó khai báo nó trong Angular module
+Sau đó khai báo nó trong Angular module.
 
 {% highlight html  linenos %}
 
@@ -173,7 +173,7 @@ declarations: [
 
 {% endhighlight %}
 
-- Bước 4 : Nhúng component khách hàng vào component cha. Anh ví dụ mình có component cha là app.component.html giờ ta muốn nhúng component khách hàng vào trong component cha là app component ta làm như sau
+- Bước 4 : Nhúng component khách hàng vào component cha. Anh ví dụ mình có component cha là app.component.html giờ ta muốn nhúng component khách hàng vào trong component cha là app component ta làm như sau:
 
 {% highlight html  linenos %}
 
