@@ -14,11 +14,11 @@ youtubeId: 0734nF0B_BM
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Pipes</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Pipes</b> là như thế nào? 
 
 ## **1. Pipes là gì**
 
-Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiểu thị trên webiste. Ví dụ như kiểu ngày tháng chúng ta muốn hiển thị theo kiểu MM-DD-YYYY (01-01-1983) cho người dùng.
+Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiển thị trên webiste. Ví dụ như kiểu ngày, tháng chúng ta muốn hiển thị theo kiểu MM-DD-YYYY (01-01-1983) cho người dùng.
 
 
 ## **2. Date Pipes là gì**
@@ -33,8 +33,8 @@ date_expression | date[:format]
 
 {% endhighlight %} 
 
-- date_expression là đối tượng ngày hoặc là một kiểu số
-- data : tên của pipe sẽ được dùng để định dạng dữ liệu
+- date_expression là đối tượng ngày hoặc là một kiểu số.
+- data : tên của pipe sẽ được dùng để định dạng dữ liệu.
 
 {% highlight js linenos %}
 
@@ -49,7 +49,7 @@ date_expression | date[:format]
 
 ## **3. UpperCasePipe & LowerCasePipe**
 
-Được sử dụng để viết hoa toàn bộ hoặc viết thường toàn bộ dữ liệu . Ví dụ như sau
+Được sử dụng để viết hoa toàn bộ hoặc viết thường toàn bộ dữ liệu. Ví dụ như sau:
 
 {% highlight javascript linenos %}
 
@@ -72,7 +72,7 @@ export class AppComponent
 
 ## **4. SlicePipe**
 
-Dùng để cắt một chuổi từ vị trí muốn cắt đến vị trí kết thúc
+Dùng để cắt một chuỗi từ vị trí muốn cắt đến vị trí kết thúc.
 
 {% highlight javascript linenos %}
 
@@ -95,7 +95,7 @@ export class AppComponent
 
 ## **5. DecimalPipe và NumberPipe**
 
-Dùng để format cho kiểu số và kiểu thập phân. Với cú pháp như sau
+Dùng để format cho kiểu số và kiểu thập phân. Với cú pháp như sau:
 
 {% highlight javascript linenos %}
 
