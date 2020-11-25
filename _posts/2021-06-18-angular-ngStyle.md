@@ -14,13 +14,13 @@ youtubeId: 0734nF0B_BM
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>ngStyle</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>ngStyle</b> là như thế nào? 
 
 ## **1. ngStyle là gì**
 
-Chúng ta sử dụng ngStyle có thể tạo nhiều thuộc tính css trong phần tử html. Các đều kiện sẽ được đánh giá lúc chương trình đang chạy và gán giá trị vào trong thẻ html.
+Chúng ta sử dụng ngStyle có thể tạo nhiều thuộc tính css trong phần tử html. Các điều kiện sẽ được đánh giá lúc chương trình đang chạy và gán giá trị vào trong thẻ html.
 
-- Cú pháp ngIf như sau
+- Cú pháp ngIf như sau:
 
 {% highlight html  linenos %}
 
