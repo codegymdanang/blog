@@ -14,11 +14,11 @@ youtubeId: 977WIZTAUv8
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Bootstrap vào dự án Angular</b> là như thế nào?
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Bootstrap vào dự án Angular</b> là như thế nào?
 
 ## **1 Giới thiệu về Bootstrap**
 
-Boostrap là là một framework opensource gồm có <b>html,css và javascript</b>. Chúng ta sử dụng bootstrap để làm trang web trở nên đẹp hơn. Chúng ta kết hợp với <b>angular</b> để tiết kiệm thời gian. Đồng thời Bootstrap đã hỗ trợ sẵn các chức năng hiển thị được trên mobile và các thành phần của web. Nên chúng ta chỉ sử dụng mà thôi.
+Boostrap là một framework opensource gồm có <b>html,css và javascript</b>. Chúng ta sử dụng bootstrap để làm trang web trở nên đẹp hơn. Chúng ta kết hợp với <b>angular</b> để tiết kiệm thời gian. Đồng thời Bootstrap đã hỗ trợ sẵn các chức năng hiển thị được trên mobile và các thành phần của web. Nên chúng ta chỉ sử dụng mà thôi.
 
 Ngoài Bootstrap thì còn có rất nhiều framework khác hỗ trợ chúng ta trong việc làm giao diện như <b>Polymer, material , ant design</b>. Tuỳ theo dự án mà ta có thể chọn framework tương ứng. Nhưng theo anh thấy 70% dự án web của anh đều dùng Bootstrap.
 
@@ -33,15 +33,15 @@ Sự khác nhau giữa CDN và npm là nếu chúng ta dùng CDN thì chúng ta 
 
 ## **3 Tạo ứng dụng Angular và sử dụng Bootstrap từ CDN**
 
-- Bước 1 : Cài đặt Angular CLI
+- Bước 1 : Cài đặt Angular CLI.
 
 npm install -g @angular/cli
 
-- Bước 2 : Tạo dự án bằng angular
+- Bước 2 : Tạo dự án bằng angular.
 
 ng new angular-bootstrap-demo
 
-- Bước 3 : Nhúng Bootstrap vào trong file index.html 
+- Bước 3 : Nhúng Bootstrap vào trong file index.html .
 
 Chúng ta nhúng đường link bootstrap cdn và jquery vào phần header. Như vậy ta có thể sử dụng được bootstrap.
 Đường link đó chúng ta lấy  [tại đây ](https://www.bootstrapcdn.com/)
@@ -80,19 +80,19 @@ Chúng ta nhúng đường link bootstrap cdn và jquery vào phần header. Nh�
 
 ## **4 Tạo ứng dụng Angular và sử dụng Bootstrap từ npm**
 
-- Bước 1 : Cài đặt Angular CLI
+- Bước 1 : Cài đặt Angular CLI.
 
 npm install -g @angular/cli
 
-- Bước 2 : Tạo dự án bằng angular
+- Bước 2 : Tạo dự án bằng angular.
 
 ng new angular-bootstrap-demo
 
-- Bước 3 : Cài đặt bootstrap và jquery bằng lệnh npm
+- Bước 3 : Cài đặt bootstrap và jquery bằng lệnh npm.
 
 npm install --save bootstrap jquery
 
-- Bước 4 : Nhúng bootstrap và <b>jquery</b>. Mở file angular.json và thêm vào đường dẫn tới file bootstrap và jquery mà mình vừa dùng npm để lôi về dự án
+- Bước 4 : Nhúng bootstrap và <b>jquery</b>. Mở file angular.json và thêm vào đường dẫn tới file bootstrap và jquery mà mình vừa dùng npm để lôi về dự án.
 
 {% highlight json linenos %}
 "architect": {
