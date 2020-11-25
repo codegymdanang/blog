@@ -14,13 +14,13 @@ youtubeId: 0734nF0B_BM
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>NgFor</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>NgFor</b> là như thế nào? 
 
 ## **1. NgFor là gì**
 
 Chúng ta sử dụng ngFor để duyệt qua các tập hợp dữ liệu như array, list. Sau đó ta tạo các thành phần web tương ứng với mỗi vòng lặp.
 
-Cú pháp của ngFor như sau
+Cú pháp của ngFor như sau:
 
 {% highlight html  linenos %}
 
@@ -37,7 +37,7 @@ Cú pháp của ngFor như sau
 
 ## **2. Sử dụng NgFor**
 
-Ví dụ sau ta sẽ hiển thị danh sách các bộ films. Ta có component class như sau
+Ví dụ sau ta sẽ hiển thị danh sách các bộ films. Ta có component class như sau:
 
 {% highlight javascript  linenos %}
 
@@ -74,7 +74,7 @@ class Movie {
 }
 {% endhighlight %}
 
-Chúng ta sử dụng ngFor để duyệt qua từng bộ phim trong mảng movides ở file html như sau
+Chúng ta sử dụng ngFor để duyệt qua từng bộ phim trong mảng movides ở file html như sau:
 
 {% highlight html  linenos %}
 
@@ -90,7 +90,7 @@ Chúng ta sử dụng ngFor để duyệt qua từng bộ phim trong mảng movi
 
  ## **3. Sử dụng NgFor mảng trong mảng**
 
- Ví dụ ta có danh sách các nhân viên, trong mỗi nhân viên lại có danh sách các skills
+ Ví dụ ta có danh sách các nhân viên, trong mỗi nhân viên lại có danh sách các skills.
 
 {% highlight javascript  linenos %}
 
@@ -150,7 +150,7 @@ Chúng ta sử dụng ngFor để duyệt qua từng bộ phim trong mảng movi
 
  ## **4. Sử dụng Index**
 
- Chúng ta có thể sử dụng biến local index trong ngFor để xem số thứ tự của mỗi phần tử trong mảng
+ Chúng ta có thể sử dụng biến local index trong ngFor để xem số thứ tự của mỗi phần tử trong mảng.
 
 {% highlight html  linenos %}
 
