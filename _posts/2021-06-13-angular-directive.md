@@ -14,13 +14,13 @@ youtubeId: 0734nF0B_BM
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Directive</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Directive</b> là như thế nào? 
 
 ## **1. Directive là gì**
 
-Chúng ta sử dụng Directive để thao tác , cập nhật, thêm, xoá các thành phần giao diện trên web. Hay nói cách khác chúng ta thao tác với các element của DOM. Các nút, ảnh, text box, table mà ta thấy trên website được một đối tượng  DOM quản lý. DOM có nhiệm vụ vẽ ra các đối tượng này trên website để ta có thể thấy được.
+Chúng ta sử dụng Directive để thao tác, cập nhật, thêm, xoá các thành phần giao diện trên web. Hay nói cách khác chúng ta thao tác với các element của DOM. Các nút, ảnh, text box, table mà ta thấy trên website được một đối tượng DOM quản lý. DOM có nhiệm vụ vẽ ra các đối tượng này trên website để ta có thể thấy được.
 
-Angular Directive được chia là 3 loại là 
+Angular Directive được chia là 3 loại gồm:
 
 - Component Directive
 - Structural Directive
@@ -36,7 +36,7 @@ Chúng ta sử dụng Structure Directive để thay đổi layout của trang w
 
 Một số thẻ về Structurall Directive như
 
-- ngFor : dùng để lặp lại các phần HTML cho mỗi item. Nó giống như vòng lặp for. Mỗi lần lập nó sẽ chạy lại các đoạn code trong vòng lặp
+- ngFor : dùng để lặp lại các phần HTML cho mỗi item. Nó giống như vòng lặp for. Mỗi lần lặp nó sẽ chạy lại các đoạn code trong vòng lặp
 
 {% highlight html  linenos %}
 
@@ -50,7 +50,7 @@ Một số thẻ về Structurall Directive như
 
 {% endhighlight %}
 
-- ngSwitch : chúng ta dùng để quyết định thêm hoặc xoá các thành phần của web phụ thuộc vào điều kiện có thảo mản hay không. Chúng ta thường dùng chung với ngSwitchCase và ngSwitchDefault
+- ngSwitch : chúng ta dùng để quyết định thêm hoặc xoá các thành phần của web phụ thuộc vào điều kiện có thoả mãn hay không. Chúng ta thường dùng chung với ngSwitchCase và ngSwitchDefault
 
 {% highlight html  linenos %}
 
@@ -80,7 +80,7 @@ Attribue Directive được dùng để thay đổi sự hiển thị hoặc hà
 
 - ngModel : được sử dụng cho việc binding 2 chiều như ta đã học trong bài databinding
 
-- ngClass : được sử dụng để thêm hoặc xoas một class của một thành phần web
+- ngClass : được sử dụng để thêm hoặc xoá một class của một thành phần web
 
 {% highlight html  linenos %}
 
@@ -100,7 +100,7 @@ Attribue Directive được dùng để thay đổi sự hiển thị hoặc hà
 
 ## **5. Customs Directive là gì**
 
-Ngoài các Directive có sẳn trong Angular chúng ta có thể tự tạo ra một directive riêng cho chính mình. Chúng ta sẽ xem bài sau về cách tạo một Directive riêng cho dự án.
+Ngoài các Directive có sẵn trong Angular chúng ta có thể tự tạo ra một directive riêng cho chính mình. Chúng ta sẽ xem bài sau về cách tạo một Directive riêng cho dự án.
 
 
 
