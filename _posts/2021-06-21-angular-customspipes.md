@@ -14,11 +14,11 @@ youtubeId: 0734nF0B_BM
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Customs Pipes</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>Customs Pipes</b> là như thế nào? 
 
 ## **1. Custom Pipes là gì**
 
-Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiểu thị trên webiste. Ngoài các kiểu có sẳn định dạng cho ngày, tiền tệ, số thì ta có thể tự viết một pipe riêng.
+Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiển thị trên webiste. Ngoài các kiểu có sẵn định dạng cho ngày, tiền tệ, số thì ta có thể tự viết một pipe riêng.
 
 
 ## **2. Tự tạo Pipes hiển thị nhiệt độ**
@@ -59,7 +59,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 {% endhighlight %} 
 
-Tiếp theo ta định nghĩa annotation pipe và đặt tiên là tempConverter
+Tiếp theo ta định nghĩa annotation pipe và đặt tên là tempConverter
 
 {% highlight javascript linenos %}
 
