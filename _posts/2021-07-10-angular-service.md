@@ -23,12 +23,12 @@ Angular Service là những đoạn code mà ta có thể sử dụng nhiều l�
 Chúng ta sử dụng service cho những mục đích
 
 - Những nhiệm vụ độc lập của component như ghi log, gọi api từ bên ngoài vv
-- Chia sẽ code logic hoặc data để các component có thể dùng chung
+- Chia sẻ code logic hoặc data để các component có thể dùng chung
 
 Lợi thế của Service
 
-- Dể dàng thực hiện các việc test cho component và service
-- Dể dàng debugs khi có vấn đề
+- Dễ dàng thực hiện các việc test cho component và service
+- Dễ dàng debugs khi có vấn đề
 - Có thể được sử dụng lại ở nhiều module  
 
 ## **2. Tạo Service như thế nào**
@@ -154,9 +154,9 @@ this.productService=new ProductService();
 
 Trong thực tế thì anh không làm như vậy vì nó có rất nhiều khuyết điểm
 
-- Service product dính chặt vào component. Sau này có thay đổi ProductService chúng ta phải cập nhật code ở nhiều nơi , nhiều components mà đang sử dụng nó. Như vậy tính uyển chuyển sẽ không có.
+- Service product dính chặt vào component. Sau này có thay đổi ProductService chúng ta phải cập nhật code ở nhiều nơi, nhiều components mà đang sử dụng nó. Như vậy tính uyển chuyển sẽ không có.
 
-- Nếu anh muốn thay ProductService bằng một Service khác thì anh phải search trong tất cả component nơi sử dụng ProductService để thay đổi. Khả năng bảo trì rất khó
+- Nếu anh muốn thay ProductService bằng một Service khác thì anh phải search trong tất cả component nơi sử dụng ProductService để thay đổi. Khả năng bảo trì rất khó.
 
 - Khó khăn trong việc test các chức năng của ProductService.
 
