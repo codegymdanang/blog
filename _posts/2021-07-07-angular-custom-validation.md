@@ -6,7 +6,7 @@ category: laptrinhweb
 tags: [angular]
 summery: Custom Validation   
 image: /images/blog/angular.png
-description : Customs Validation là những validator được tự tạo bởi người dùng được sử dụng cho các dự án Angular ngoài những validator được hỗ trợ có sẵn trong Angular như required, minlength, maxlength, pattern và email. Bài viết dưới đây sẽ hướng dẫn bạn cách sử dụng Custom Validator trong Angular như thế nào cho hiệu quả, và cách thực hiện code hoàn chỉnh cho component class và template html trong Angular. Mỗi phần của bài viết kèm theo những ví dụ minh hoạ cú pháp thực hiện từng bước của custom validation vào dự án Angular.
+description : Custom Validation là những validator được tự tạo bởi người dùng, được sử dụng cho các dự án Angular ngoài những validator được hỗ trợ có sẵn trong Angular như required, minlength, maxlength, pattern và email. Bài viết dưới đây sẽ hướng dẫn bạn cách sử dụng Custom Validator trong Angular như thế nào cho hiệu quả, và cách thực hiện code hoàn chỉnh cho component class và template html trong Angular. Mỗi phần của bài viết kèm theo những ví dụ minh hoạ cú pháp thực hiện từng bước của custom validation vào dự án Angular.
 youtubeId: 
 ---
 
@@ -14,11 +14,11 @@ youtubeId:
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>Custom Validation</b> là như thế nào?
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách <b>Custom Validation</b> là như thế nào?
 
 ## **1.Custom Validation là gì**
 
-Angular hỗ trợ một số validator như required, min length, max length, pattern và email như ta đã xem ở bài trước. Ngoài những validator có sẳn của Angular ta hoàn toàn có thể tự tạo một validator cho dự án của mình.
+Angular hỗ trợ một số validator như required, min length, max length, pattern và email như ta đã xem ở bài trước. Ngoài những validator có sẵn của Angular ta hoàn toàn có thể tự tạo một validator cho dự án của mình.
 
 
 ## **2.Sử dụng Validator như thế nào**
@@ -84,7 +84,7 @@ import { AbstractControl, ValidationErrors } from '@angular/forms'
 
 ValidatorError chức cặp key và value. Key là tên của rule chúng ta muốn sử dụng và value có thể làm bất cứ cái gì.
 
-Trong ví dụ sau chúng ta kiểu tra giá trị của control có phải là số hay không. Để kiểm tra số ta dùng hàm isNaN. Đồng thời kiểm tra giá trị nhỏ hơn hay bằng 10. Nếu cả 2 điều kiện là đúng thì trả về null.
+Trong ví dụ sau chúng ta kiểm tra giá trị của control có phải là số hay không. Để kiểm tra số ta dùng hàm isNaN. Đồng thời kiểm tra giá trị nhỏ hơn hay bằng 10. Nếu cả 2 điều kiện là đúng thì trả về null.
 
 {% highlight javascript linenos %}
 
