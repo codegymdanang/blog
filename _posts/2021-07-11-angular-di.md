@@ -20,7 +20,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Depende
 
 Dependency Injection là một phần quan trọng trong bộ core của Angular. Sử dụng cơ chế Dependency Injection giúp chúng ta có thể nhúng service vào các component hoặc các service với nhau.
 
-Như ta thấy ở ví dụ bài Service. Ta nhúng Service vào Component bằng cách tạo new đối tượng ProductService trong constructor như sau
+Như ta thấy ở ví dụ bài Service. Ta nhúng Service vào Component bằng cách tạo new đối tượng ProductService trong constructor như sau:
 
 
 {% highlight javascript linenos %}
@@ -71,11 +71,11 @@ Có 5 thành phần chính trong Angular Dependency Injection Framework
 
 - Injector : quản lý việc nhúng các đối tượng Dependency vào các consumer
 
-Cơ chế hoạt động của Dependency như sau
+Cơ chế hoạt động của Dependency như sau:
 
 - Dependency đăng ký với Provider
 
-- Sau đó Angular Provider sẽ nhúng các dependecy vào các module consumer tương ứng.
+- Sau đó Angular Provider sẽ nhúng các dependency vào các module consumer tương ứng.
 
 - Consumer sẽ khởi tạo các đối tượng Dependency thông qua constructor.
 
@@ -144,7 +144,7 @@ export class LoggerService {
 
 {% endhighlight %}  
 
-Chúng ta sử dụng @Injectable cho những service nào mà chúng ta có ý định nhúng vào. Đây dạng như một quy định chung cho các service để chúng ta có thể phân biệt mục đích của các class. 
+Chúng ta sử dụng @Injectable cho những service nào mà chúng ta có ý định nhúng vào. Đây như một quy định chung cho các service để chúng ta có thể phân biệt mục đích của các class. 
 
 - Chúng ta tạo lớp ProductService
 
@@ -207,7 +207,7 @@ import { Product } from './product';
 
 Ngoài cách đăng ký service trong thuộc tính providers trong Component. Chúng ta có thể đăng ký trong ngModule.
 
-Để đảm bảo dependecy được nhúng vào toàn bộ ứng dụng Angular, chúng ta khai Provider ở root module.
+Để đảm bảo dependency được nhúng vào toàn bộ ứng dụng Angular, chúng ta khai Provider ở root module.
 
 Đầu tiên chúng ta xoá thuộc tính provider trong AppComponent
 
