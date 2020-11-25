@@ -30,7 +30,7 @@ Chúng ta sử dụng ngIf để xoá hoặc thêm một phần tử trên web d
 
 {% endhighlight %}
 
-- Chúng ta có thể sử dụng thuộc tính hide để làm đều tương tự như sau
+- Chúng ta có thể sử dụng thuộc tính hide để làm điều tương tự như sau:
 
 {% highlight html  linenos %}
 
@@ -41,7 +41,7 @@ Chúng ta sử dụng ngIf để xoá hoặc thêm một phần tử trên web d
 
 {% endhighlight %}
 
-Sự khác nhau ở chổ ngIf sẽ xoá hoàn toàn phần tử web ra khỏi DOM . Còn hide thì không xoá hẳn phần tử đó ra khỏi DOM. Mặc dù trên giao diên ta thấy phần tử đó bị mất đi
+Sự khác nhau ở chổ ngIf sẽ xoá hoàn toàn phần tử web ra khỏi DOM. Còn hide thì không xoá hẳn phần tử đó ra khỏi DOM. Mặc dù trên giao diên ta thấy phần tử đó bị mất đi.
 
 ## **2. Sử dụng phủ định trong ngIf**
 
@@ -163,7 +163,7 @@ Tiếp đến ta có file template html như sau
 </p>
 {% endhighlight %}
 
-Chúng ta sử dụng ngIf và sử dụng ngModel để lấy giá trị của showMe. Nếu true thì ta sẽ show ra dòng chữ  ShowMe is checked còn ngược lại là ShowMe is unchecked
+Chúng ta sử dụng ngIf và sử dụng ngModel để lấy giá trị của showMe. Nếu true thì ta sẽ show ra dòng chữ ShowMe is checked còn ngược lại là ShowMe is unchecked.
 
 
 
