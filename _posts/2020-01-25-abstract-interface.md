@@ -8,8 +8,7 @@ summery: Abstract và Interface
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_interfaces_vs_abstract.png
 description : Bài viết làm rõ về khái niệm Interface là gì ? Abstract là gì? Phân biệt sự khác nhau giữa Abstract và Interface trong lập trình Java. Khi nào dùng Abstract, khi nào dùng Interface trong quá trình lập trình Java. Ngoài ra, hướng dẫn cách tạo Abstract và Interface trong lập trình hướng đối tượng Java. Có các ví dụ minh hoạ trong mỗi phần và video tổng kết cuối bài giúp bạn nắm vững kiến thức và áp dụng ngay vào thao tác, thực hành đối với Abstract và Interface.
-youtubeId1 : hxTH18XG4qs
-youtubeId2 : kfQ7O7Fky8U
+youtubeId1 : KlFL4HlLaVM
 ---
 
 {% include toc.html %}
@@ -119,15 +118,9 @@ Bảng dưới đây sẽ giúp các em có cái nhìn rõ hơn về <b>sự kh�
 - Tăng cường tính bảo mật . Người dùng chỉ có thể thấy được method nhưng không thấy được nội dung code bên trong
 
 <br>
-## **6. Cách tạo abstract trong lập trình Java**  
+## **6. Phân biệt Abstract và Interface**  
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId1 %}
 </center>
 
-<br>
-## **7. Demo tạo interface trong lập trình Java**  
-
-<center>
-{% include youtubePlayer.html id=page.youtubeId2 %}
-</center>
