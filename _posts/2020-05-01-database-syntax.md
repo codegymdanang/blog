@@ -51,7 +51,7 @@ Mysql không phân biệt chữ hoa chữ thường chúng ta viết select thì
 
 Câu lệnh SQL được chia ra thành 4 loại DDL, DML, DCL và TCL 
 
-- Data Definition Language (DDL) : Các câu lệnh định nghĩa cấu trúc để lưu trữ dữ liệu.
+- Data Definition Language (DDL) : Các câu lệnh định nghĩa cấu trúc để lưu trữ dữ liệu. Chúng ta sử dụng các câu lệnh này để tạo, sửa, xoá các database hoặc các table trong database.
 
 + CREATE to create a new table or database.
 + ALTER for alteration.
@@ -65,7 +65,7 @@ Câu lệnh SQL được chia ra thành 4 loại DDL, DML, DCL và TCL
 + DELETE to delete a row.
 + MERGE for merging two rows or two tables.
 
-- Data Control Language (DCL): Các câu lệnh dùng để quản lý permission trong cơ sở dử liệu
+- Data Control Language (DCL): Các câu lệnh dùng để quản lý permission (phân quyền) trong cơ sở dử liệu
 + Grant : gán quyền cho user
 + Revoke : xoá quyên cho user
 
