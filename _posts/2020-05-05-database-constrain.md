@@ -200,10 +200,6 @@ CREATE TABLE Persons (
 
 
 
-{:refdef: style="text-align: center;"}
-{% include youtubePlayer.html id=page.youtubeId1 %}
-{: refdef}
-
 
 
 
