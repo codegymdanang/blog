@@ -49,7 +49,7 @@ SELECT * FROM Customers;
 
 Mysql không phân biệt chữ hoa chữ thường chúng ta viết select thì cũng giống như SELECT. Sau mỗi câu lệnh SQL thì ta sử dụng dấu ; để kết thúc câu lệnh.
 
-Câu lệnh SQL được chia ra thành 3 loại DDL , DML và DCL 
+Câu lệnh SQL được chia ra thành 4 loại DDL, DML, DCL và TCL 
 
 - Data Definition Language (DDL) : Các câu lệnh định nghĩa cấu trúc để lưu trữ dữ liệu.
 
@@ -66,6 +66,10 @@ Câu lệnh SQL được chia ra thành 3 loại DDL , DML và DCL
 + MERGE for merging two rows or two tables.
 
 - Data Control Language (DCL): Các câu lệnh dùng để quản lý permission trong cơ sở dử liệu
++ Grant : gán quyền cho user
++ Revoke : xoá quyên cho user
+
+- TCL : là các câu lệnh dùng cho việc thao tác với Transaction trong database
 
 + COMMIT to permanently save.
 + ROLLBACK to undo the change.
