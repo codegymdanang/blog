@@ -12,13 +12,13 @@ youtubeId: Ex3glZTCvlY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Tuple</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>Tuple</b> là như thế nào? 
 
-# **1. Tuple là gì**
+## **1. Tuple là gì**
 
-Chúng ta sử dụng Tuple để chứa 2 hoăc nhiều gía trị có kiểu dữ liệu khác nhau, ví dụ như có thể chứa string và number trong ví dụ sau.
+Chúng ta sử dụng Tuple để chứa 2 hoăc nhiều giá trị có kiểu dữ liệu khác nhau, ví dụ như có thể chứa string và number trong ví dụ sau.
 
 {% highlight javascript  linenos %}
 
@@ -30,9 +30,9 @@ var employee: [number, string] = [1, "Steve"];
 
 {% endhighlight %}
 
-# **2. Tuple chứa nhiều giá trị**
+## **2. Tuple chứa nhiều giá trị**
 
-Tuple có the chứa nhiều giá trị có kiểu dữ liệu khác nhau như sau
+Tuple có thể chứa nhiều giá trị có kiểu dữ liệu khác nhau như sau:
 
 {% highlight javascript  linenos %}
 
@@ -45,9 +45,9 @@ user = [1, "Steve", true, 20, "Admin"];// initialize tuple variable
 {% endhighlight %}
 
 
-# **3. Tuple Array**
+## **3. Tuple Array**
 
-Chúng ta có thể sử dụng một mảng Tuple 
+Chúng ta có thể sử dụng một mảng Tuple:
 
 {% highlight javascript  linenos %}
 
@@ -56,7 +56,7 @@ employee = [[1, "Steve"], [2, "Bill"], [3, "Jeff"]];
 
 {% endhighlight %}
 
-Chúng ta truy cập mảng tuple như sau
+Chúng ta truy cập mảng Tuple như sau:
 
 {% highlight javascript  linenos %}
 
@@ -66,9 +66,9 @@ employee[1]; // returns "Steve"
 
 {% endhighlight %}
 
-# **4. Thêm phần tử vào Tuple**
+## **4. Thêm phần tử vào Tuple**
 
-Chúng ta sử dụng push để thêm phần tử cho tuple
+Chúng ta sử dụng push để thêm phần tử cho Tuple.
 
 {% highlight javascript  linenos %}
 
@@ -78,9 +78,9 @@ console.log(employee); //Output: [1, 'Steve', 2, 'Bill']
 
 {% endhighlight %}
 
-# **5. Các phương thức hỗ trợ trong Tuple**
+## **5. Các phương thức hỗ trợ trong Tuple**
 
-Tuple cũng giống như Array, chúng ta có thể sử dụng các method có sẳn trong Array cho tuple như pop, push, concat etc
+Tuple cũng giống như Array, chúng ta có thể sử dụng các method có sẵn trong Array cho Tuple như pop, push, concat etc.
 
 {% highlight javascript  linenos %}
 
