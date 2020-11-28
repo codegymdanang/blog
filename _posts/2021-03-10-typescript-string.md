@@ -12,13 +12,13 @@ youtubeId: 3r74IFfylVE
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>String</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>String</b> là như thế nào? 
 
-# **1. String là gì**
+## **1. String là gì**
 
-Chúng ta sử dụng String khi chúng ta chứa các giá trị là chữ. Chúng ta có thể sử dụng dấu ' hoặc " để tạo ra chuỗi
+Chúng ta sử dụng String khi chúng ta chứa các giá trị là chữ. Chúng ta có thể sử dụng dấu ' hoặc " để tạo ra chuỗi.
 
 {% highlight javascript  linenos %}
 
@@ -28,7 +28,7 @@ let employeeName:string = "John Smith";
 
 {% endhighlight %}
 
-# **2. Method charAt**
+## **2. Method charAt**
 
 {% highlight javascript  linenos %}
 
@@ -39,7 +39,7 @@ str.charAt(2); // returns 'l'
 
 {% endhighlight %}
 
-# **3. Method concat**
+## **3. Method concat**
 
 {% highlight javascript  linenos %}
 
@@ -51,7 +51,7 @@ str1.concat(' Mr. ', 'Bond'); // returns 'Hello Mr. Bond'
 
 {% endhighlight %}
 
-# **4. Method indexOf**
+## **4. Method indexOf**
 
 {% highlight javascript  linenos %}
 
@@ -65,7 +65,7 @@ str.indexOf('t', 1); // returns 9
 
 {% endhighlight %}
 
-# **5. Method replace**
+## **5. Method replace**
 
 {% highlight javascript  linenos %}
 
@@ -78,7 +78,7 @@ str1.replace(/Hello/gi, 'Hi'); // returns 'Hi TypeScript'
 
 {% endhighlight %}
 
-# **6. Method split**
+## **6. Method split**
 
 {% highlight javascript  linenos %}
 
@@ -92,7 +92,7 @@ str1.split(',', 1) // returns [ 'Apple']
 
 {% endhighlight %}
 
-# **7. Method toUpperCase**
+## **7. Method toUpperCase**
 
 {% highlight javascript  linenos %}
 
