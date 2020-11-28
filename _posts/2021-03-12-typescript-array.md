@@ -12,13 +12,13 @@ youtubeId: Ex3glZTCvlY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Array</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>Array</b> là như thế nào? 
 
-# **1. Array là gì**
+## **1. Array là gì**
 
-Chúng ta sử dụng Array để chứa nhiều giá trị . Typescript Array cũng giống như của JavaScript chúng ta có thể tạo nó bằng [ ] hoặc đối tượng Array
+Chúng ta sử dụng Array để chứa nhiều giá trị. Typescript Array cũng giống như của JavaScript chúng ta có thể tạo nó bằng [ ] hoặc đối tượng Array.
 
 {% highlight javascript  linenos %}
 
@@ -30,7 +30,7 @@ ids = [23, 34, 100, 124, 44];
 
 {% endhighlight %}
 
-Array có thể chức đụng các phần tử khác kiểu dữ liệu
+Array có thể chứa đựng các phần tử khác kiểu dữ liệu.
 
 {% highlight javascript  linenos %}
 
@@ -39,9 +39,9 @@ let values: (string | number)[] = ['Apple', 2, 'Orange', 3, 4, 'Banana'];
 let values: Array<string | number> = ['Apple', 2, 'Orange', 3, 4, 'Banana']; 
 {% endhighlight %}
 
-# **2. Truy cập các phần tử trong Array**
+## **2. Truy cập các phần tử trong Array**
 
-Chúng ta sử dụng Index (vị trí) để truy cập các phần tử trong Array
+Chúng ta sử dụng Index (vị trí) để truy cập các phần tử trong Array.
 
 {% highlight javascript  linenos %}
 
@@ -53,9 +53,9 @@ fruits[3]; // returns undefined
 
 {% endhighlight %}
 
-# **3. Duyệt các phần tử trong Array**
+## **3. Duyệt các phần tử trong Array**
 
-Chúng ta có thể dùng vòng lặp để duyệt qua mảng
+Chúng ta có thể dùng vòng lặp để duyệt qua mảng.
 
 {% highlight javascript  linenos %}
 
@@ -73,9 +73,9 @@ for(var i = 0; i < fruits.length; i++)
 
 {% endhighlight %}
 
-# **4. Các phương thức hỗ trợ trong Array**
+## **4. Các phương thức hỗ trợ trong Array**
 
-Array có sẳn các phương thức giúp chúng ta lấy các phần tử, thêm các phần tử, filter, sort các phần tử vv trong mảng
+Array có sẵn các phương thức giúp chúng ta lấy các phần tử, thêm các phần tử, filter, sort các phần tử vv trong mảng.
 
 {% highlight javascript  linenos %}
 
