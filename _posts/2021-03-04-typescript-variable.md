@@ -12,17 +12,17 @@ youtubeId: ttKo2gO-BCE
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>biến</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>biến</b> là như thế nào? 
 
-# **1. Biến là gì**
+## **1. Biến là gì**
 
-TypeScript tuân thủ các đặt biến giống như JavaScript. Biến có thể được khai báo bởi các từ khoá như var, let và const.
+TypeScript tuân thủ cách đặt biến giống như JavaScript. Biến có thể được khai báo bởi các từ khoá như var, let và const.
 
-Từ khoá var trong typescript có chứa năng và phạm vi giống như javascript
+Từ khoá var trong Typescript có chức năng và phạm vi giống như Javascript.
 
-Từ khoá let được giới thiệu trong phiên bản mới nhất của JS (ES6). Trong phiên bản mới ES6 giới thiệu 2 từ khoá mới là let và const để khắc phục những bất cập trong khai báo biến với var
+Từ khoá let được giới thiệu trong phiên bản mới nhất của JS (ES6). Trong phiên bản mới ES6 giới thiệu 2 từ khoá mới là let và const để khắc phục những bất cập trong khai báo biến với var.
 
 Ví dụ khai báo biến với từ khoá let
 
@@ -34,7 +34,7 @@ let employeeName:string = "John";
 
 {% endhighlight %}
 
-Từ khoá let được khai báo giống như cú pháp của var. Nhưng không giống như từ khoá var, khi ta khai báo let thì phạm vi truy cập của nó chỉ ở trong một khối lệnh. Xem ví dụ mô ta dưới đây. Ta có hàm letDeclaration
+Từ khoá let được khai báo giống như cú pháp của var. Nhưng không giống như từ khoá var, khi ta khai báo let thì phạm vi truy cập của nó chỉ ở trong một khối lệnh. Xem ví dụ mô tả dưới đây. Ta có hàm letDeclaration
 
 {% highlight javascript  linenos %}
 
@@ -63,7 +63,7 @@ letDeclaration();
 
 {% endhighlight %}
 
-Như ta thấy dòng lệnh  console.log(num3); sẽ bị lỗi vì num3 phạm vi của nó chỉ hoặt động trong khối lệnh if mà thôi
+Như ta thấy dòng lệnh console.log(num3); sẽ bị lỗi vì num3 phạm vi của nó chỉ hoặt động trong khối lệnh if mà thôi
 
 {% highlight javascript  linenos %}
 
@@ -75,11 +75,11 @@ Như ta thấy dòng lệnh  console.log(num3); sẽ bị lỗi vì num3 phạm 
 
 Cũng giống như console.log(num4). Giá trị num4 chỉ có tác dụng trong khối lệnh while mà thôi. Ra ngoài khối lệnh while thì không còn tác dụng
 
-# **2. Lợi thế của let hơn var là gì**
+## **2. Lợi thế của let hơn var là gì**
 
 - Các biến let phải được khai báo trước khi sử dụng, còn var ta có thể sử dụng trước và khai báo sau (hositing)
 
-Trong ví dụ sau typescript sẽ thông báo lỗi nếu chúng ta sử dụng biên num1 mà không khai báo. Còn Javascript thì vẫn cho phép.
+Trong ví dụ sau typescript sẽ thông báo lỗi nếu chúng ta sử dụng biến num1 mà không khai báo. Còn Javascript thì vẫn cho phép.
 
 {% highlight javascript  linenos %}
 
@@ -109,9 +109,9 @@ let NuM:number = 8;// Compiler Error: Cannot redeclared block-scoped variable 'N
 
 Chúng ta sử dụng let hơn là var vì nó giúp ta hạn chế được những lỗi khi chương trình đang chạy. Nó giúp chúng ta viết code chặt chẽ hơn, dễ đọc và bảo trì code hơn.
 
-# **3. Sử dụng Const**
+## **3. Sử dụng Const**
 
-Biến const thì được khai báo giống như let và var về cú pháp. Điểm khác biệt của const là giá trị của biến const là không thay đổi được nó là một hằng số.
+Biến const thì được khai báo giống như let và var về cú pháp. Điểm khác biệt của const là giá trị của biến const là không thay đổi được, nó là một hằng số.
 
 {% highlight javascript  linenos %}
 
@@ -120,7 +120,7 @@ num = 200; //Compiler Error: Cannot assign to 'num' because it is a constant or 
 
 {% endhighlight %}
 
-Biến sử dụng const phải khởi tạo giá trị ngay từ lúc ban đầu
+Biến sử dụng const phải khởi tạo giá trị ngay từ lúc ban đầu.
 
 {% highlight javascript  linenos %}
 
@@ -129,7 +129,7 @@ num = 100;
 
 {% endhighlight %}
 
-Chúng ta có thể sử dụng const để thay đổi các thuộc tính bên trong của đối tượng, nhưng không thay đổi được cấu trúc của đổi tượng
+Chúng ta có thể sử dụng const để thay đổi các thuộc tính bên trong của đối tượng, nhưng không thay đổi được cấu trúc của đổi tượng.
 
 {% highlight javascript  linenos %}
 
@@ -149,11 +149,11 @@ playerCodes = {     //Compiler Error: Cannot assign to playerCodes because it is
 }; 
 {% endhighlight %}
 
-# **4. Data Mofifier**
+## **4. Data Mofifier**
 
 Trong TypeScript chúng ta có 3 loại access modifier là public, private và protected.
 
-- Khi một biến hay một phương thức khai báo public thì nó sẽ được truy cập ở bất kỳ đâu
+- Khi một biến hay một phương thức khai báo public thì nó sẽ được truy cập ở bất kỳ đâu.
 
 {% highlight javascript  linenos %}
 
@@ -168,7 +168,7 @@ emp.empName = "Swati";
 
 {% endhighlight %}
 
-- Khi một biến hay một phương thức khai báo private thì nó sẽ được access chỉ trong Class đó và không được truy cập từ bên ngoài
+- Khi một biến hay một phương thức khai báo private thì nó sẽ được access chỉ trong Class đó và không được truy cập từ bên ngoài.
 
 {% highlight javascript  linenos %}
 
@@ -183,7 +183,7 @@ emp.empName = "Swati";//OK
 
 {% endhighlight %}
 
-- Khi một biến hay một phương thức khai báo protected thì nó sẽ được truy cập thông qua kế thừa cha và con
+- Khi một biến hay một phương thức khai báo protected thì nó sẽ được truy cập thông qua kế thừa cha và con.
 
 {% highlight javascript  linenos %}
 
@@ -212,7 +212,7 @@ empObj.empCode; //Compiler Error
 {% endhighlight %}
 
 <br>
-# **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+## **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
