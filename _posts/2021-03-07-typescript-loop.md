@@ -12,13 +12,13 @@ youtubeId: soiEapMFxIU
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>vòng lặp</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>vòng lặp</b> là như thế nào? 
 
-# **1. Vòng lặp for**
+## **1. Vòng lặp for**
 
-Typescript hỗ trợ cho chúng ta 3 loại vòng lặp for là forloop , for of loop và for in loop
+Typescript hỗ trợ cho chúng ta 3 loại vòng lặp for là forloop, for of loop và for in loop.
 
 - Vòng lặp for Loop
 
@@ -43,9 +43,9 @@ for (let i = 0; i < 3; i++) {
 
 {% endhighlight %}
 
-- Vòng lăp for of Loop
+- Vòng lặp for of Loop
 
-Dùng để trả lại từng phần tử của tập hợp. Nó tiện hơn vòng lặp for . Vì vòng lặp for trả về index, dựa vào index ta mới lấy được phần tử. 
+Dùng để trả lại từng phần tử của tập hợp. Nó tiện hơn vòng lặp for. Vì vòng lặp for trả về index, dựa vào index ta mới lấy được phần tử. 
 
 Ví dụ
 
@@ -59,9 +59,9 @@ for (var val of arr) {
 
 {% endhighlight %}
 
-- Vòng lăp for in Loop
+- Vòng lặp for in Loop
 
-Duyệt qua các phần tử của mảng và trả về vị trí index của các phần tử trong mảng
+Duyệt qua các phần tử của mảng và trả về vị trí index của các phần tử trong mảng.
 
 {% highlight javascript  linenos %}
 
@@ -75,9 +75,9 @@ for (var index in arr) {
 
 {% endhighlight %}
 
-# **2. Vòng lặp While**
+## **2. Vòng lặp While**
 
-Nó cũng tương tự nguyên lý vòng lặp while bên javascript. Kiểm tra điều kiện trước khi chạy các dòng code trong while
+Nó cũng tương tự nguyên lý vòng lặp while bên Javascript. Kiểm tra điều kiện trước khi chạy các dòng code trong while.
 
 Cú pháp
 
@@ -103,9 +103,9 @@ while (i < 4) {
 {% endhighlight %}
 
 
-# **3. Vòng lặp doWhile**
+## **3. Vòng lặp doWhile**
 
-Vòng lặp dowhile thì mình chạy các câu lệnh trong do trước sau đó kiểm tra điều kiện. Vòng lặp dowhile ít nhất chạy 1 lần cho dù điều kiện không thoả mản. 
+Vòng lặp dowhile thì mình chạy các câu lệnh trong do trước sau đó kiểm tra điều kiện. Vòng lặp dowhile ít nhất chạy 1 lần cho dù điều kiện không thoả mãn. 
 
 Cú pháp
 
