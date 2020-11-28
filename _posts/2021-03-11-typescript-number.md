@@ -12,13 +12,13 @@ youtubeId: Ex3glZTCvlY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Number</b> là như thế nào? 
 
-# **1. Number là gì**
+## **1. Number là gì**
 
-Chúng ta sử dụng Number khi chúng ta chứa các giá trị là số học. Tất cả Number được chứa đựng theo dạng thập phân. Number có thể là Decimal (10), Hex(16), hoặc Octal (18)
+Chúng ta sử dụng Number khi chúng ta chứa các giá trị là số học. Tất cả Number được chứa đựng theo dạng thập phân. Number có thể là Decimal (10), Hex(16), hoặc Octal (18).
 
 {% highlight javascript  linenos %}
 
@@ -34,7 +34,7 @@ console.log(fourth); // 57
 
 {% endhighlight %}
 
-# **2. Method toExponential**
+## **2. Method toExponential**
 
 {% highlight javascript  linenos %}
 
@@ -61,7 +61,7 @@ myNumber.toFixed(4); //returns 10.8788
 
 {% endhighlight %}
 
-# **4. Method toLocaleString**
+## **4. Method toLocaleString**
 
 {% highlight javascript  linenos %}
 
@@ -73,7 +73,7 @@ myNumber.toLocaleString('ar-EG'); // returns 10667.987 in Arebic
 
 {% endhighlight %}
 
-# **5. Method toPrecision**
+## **5. Method toPrecision**
 
 {% highlight javascript  linenos %}
 
@@ -86,7 +86,7 @@ myNumber.toPrecision(4); // returns 10.57
 
 {% endhighlight %}
 
-# **6. Method toString**
+## **6. Method toString**
 
 {% highlight javascript  linenos %}
 
@@ -100,7 +100,7 @@ myNumber.toString(36); // returns '3f'
 
 {% endhighlight %}
 
-# **7. Method ValueOf**
+## **7. Method ValueOf**
 
 {% highlight javascript  linenos %}
 
