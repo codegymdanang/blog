@@ -12,13 +12,13 @@ youtubeId: ufziMUA9ERY
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>câu điều kiện</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>câu điều kiện</b> là như thế nào? 
 
-# **1. Câu điều kiện tử if-else**
+## **1. Câu điều kiện tử if-else**
 
-Cũng tương tự như javascript. Câu lệnh if else trong Typescript cũng giống như cú pháp và cách sử dụng trong JS.
+Cũng tương tự như Javascript. Câu lệnh if else trong Typescript cũng giống như cú pháp và cách sử dụng trong JS.
 
 
 {% highlight javascript  linenos %}
@@ -51,9 +51,9 @@ x > y? console.log('x is greater than y.'): console.log('x is less than or equal
 
 {% endhighlight %}
 
-# **2. Câu điều kiện tử switch**
+## **2. Câu điều kiện tử switch**
 
-Trong Typescript cũng tương tự cách dùng switch như trong javascrip hay java.
+Trong Typescript cũng tương tự cách dùng switch như trong Javascrip hay Java.
 
 {% highlight javascript  linenos %}
 
@@ -88,7 +88,7 @@ switch (day) {
 
 {% endhighlight %}
 
-- Trong Typescript chúng ta cũng có thể sử dụng expression trong điều kiện như sau
+- Trong Typescript chúng ta cũng có thể sử dụng expression trong điều kiện như sau:
 
 {% highlight javascript  linenos %}
 
@@ -110,7 +110,7 @@ switch (x-y) {
 
 
 <br>
-# **3. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+## **3. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
