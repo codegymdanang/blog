@@ -9,7 +9,7 @@ tuong: /images/blog/java.png
 featureImage: /images/post/javacore/feature_oop.png
 description : Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của lập trình hướng đối tượng Java, trong bài viết này trình bày về tính kế thừa, inheritance trong lập trình. Hướng dẫn thông qua các ví vụ minh hoạ và video demo để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình lập trình Java. Và mục đích, lợi ích của việc sử dụng tính kế thừa trong lập trình Java.
 youtubeId: MGWT_Y9Oi8I
-youtubeId1: B2Zx3wZoawk
+youtubeId1: GkJiWwKZB9o
 ---
 
 {% include toc.html %}
