@@ -7,20 +7,20 @@ tags: [spring-core]
 summery: Tạo dự án bằng Gradle 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Hướng dẫn tạo dự án Spring bằng gradle. Demo cách tạo dự án spring bằng gradle trong lập trình spring
+description : Bài viết hướng dẫn cách sử dụng Gradle để tạo dự án trong Spring. Trước hết bài viết giúp hiểu được thuật ngữ Gradle trong Spring là gì? Khi nào sử dụng? Giống và khác nhau giữa Gradle và Maven trong Spring là gì? Ở những chia sẻ tiếp theo bài viết trình bày về cách khai báo dependency trong Gradle của ngôn ngữ lập trình Spring. Ngoài ra bài viết có kèm theo một video hướng dẫn thông qua những ví dụ code demo giúp bạn tham khảo để áp dụng được công cụ Gradle vào làm việc với các dự án lập trình.
 youtubeId: dzBSaNL40yk
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>Gradle</b> là gì ?
+Chào các em, chủ đề hôm nay chúng ta sẽ tìm hiểu về <b>Gradle</b> trong Spring.
 
 <br>
 ## **1. Gradle là gì ?**
 
-Gradle là tool dùng để build các dự án Java. Cũng tương tự như Maven chúng ta sử dụng gradle để quản lý thư viện và build dự án. Hiện nay chúng ta có thể dùng Gradle để build các dự án về web, mobile.
+Gradle là tool dùng để build các dự án Java. Cũng tương tự như Maven chúng ta sử dụng gradle để quản lí thư viện và build dự án. Hiện nay chúng ta có thể dùng Gradle để build các dự án về web, mobile.
 
 ## **2. Khai báo dependency trong Gradle**
 
@@ -56,7 +56,7 @@ dependencies {
 }
 {% endhighlight %}
 
-Khác với Maven nó sử dụng XML để khai báo các dependency. Ở gradle chúng ta khai báo dạng như định dạng Json. Các thư viện sử dụng trong dự án được bỏ vào thẻ dependecies 
+Khác với Maven nó sử dụng XML để khai báo các dependency. Ở gradle chúng ta khai báo dạng như định dạng Json. Các thư viện sử dụng trong dự án được bỏ vào thẻ dependecies. 
 
 <br>
 ## **3. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
