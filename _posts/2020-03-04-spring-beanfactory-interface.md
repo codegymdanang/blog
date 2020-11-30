@@ -7,32 +7,32 @@ tags: [spring-core]
 summery: Bean Factory 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Sử dụng Bean Factory trong lập trình Spring. Hiểu được Cấu hình Bean Factory là gì. Hướng dẫn sử dụng Bean Factory trong lập trình Spring.
+description : Bài viết trình bày về chủ đề BeanFactory Interface trong Spring. Những chia sẻ trong bài viết sẽ giúp hiểu được thuật ngữ BeanFactory Interface là gì? Hướng dẫn cách để tạo dự án Maven trong Spring, thao tác để thêm các thư viện Spring vào Maven và tìm hiểu về cấu hình HelloWorld Spring Bean bằng Java, cấu hình Metadata cho HelloWorld Spring Java. Trong bài viết cũng trình bày về cách tạo Spring Container và thao tác để lấy đối tượng bean HelloWorld và gọi phương thức trong lập trình Spring.
 youtubeId: 0n8_2yG5F7I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn , chắc hẳn bạn cảm thấy khó hiểu về <b>Bean Factory</b> ? Có phải bạn không rõ khái niệm của nó trong lập trình?
+Chào bạn, chắc hẳn bạn cảm thấy khó hiểu về <b>Bean Factory</b>? Có phải bạn không rõ khái niệm của nó trong lập trình?
 
 <br>
-# **1 .BeanFactory Interface là gì**
+## **1 .BeanFactory Interface là gì**
 
 BeanFactory Interface cung cấp cho chúng ta các cách để quản lý các đối tượng trong Spring IOC Container.
 
-Spring beans là những đối tượng java và được quản lý bởi Spring IoC Container. Spring IoC Container có nhiệm vị khởi tạo, cấu hình, quản lý các beans này. Từ các lớp java bình thường chúng thêm các Meta data để mô tả cho lớp này. Dự vào meta data này mà Spring IoC có thể tạo chúng thành những beans.
+Spring beans là những đối tượng java và được quản lý bởi Spring IoC Container. Spring IoC Container có nhiệm vụ khởi tạo, cấu hình, quản lí các beans này. Từ các lớp java bình thường chúng thêm các Meta data để mô tả cho lớp này. Dựa vào meta data này mà Spring IoC có thể tạo chúng thành những beans.
 
-BeanFactory quản lý bean, tạo bean khi clien cần. 
-
-
-# **2 .Tạo dự án Maven**
+BeanFactory quản lí bean, tạo bean khi client cần. 
 
 
+## **2 .Tạo dự án Maven**
 
 
-# **3 .Thêm các thư viện Spring vào Maven**
+
+
+## **3 .Thêm các thư viện Spring vào Maven**
 
 {% highlight xml linenos %}
 
@@ -75,7 +75,7 @@ BeanFactory quản lý bean, tạo bean khi clien cần.
 
 {% endhighlight %}
 
-# **4 .Cấu hình HelloWorld Spring Bean bằng Java**
+## **4 .Cấu hình HelloWorld Spring Bean bằng Java**
 
 {% highlight java linenos %}
 
@@ -94,7 +94,7 @@ public class HelloWorld {
 }
 {% endhighlight %}
 
-# **5 .Cấu hình Metadata cho HelloWorld Spring Java**
+## **5 .Cấu hình Metadata cho HelloWorld Spring Java**
 
 - Như bài 1 giới thiệu về Spring IOC container ta có thể dùng XML để tạo các bean. 
 
@@ -114,7 +114,7 @@ public class HelloWorld {
 {% endhighlight %}
 
 
-# **6 .Tạo Spring Container**
+## **6 .Tạo Spring Container**
 
 {% highlight java linenos %}
 
@@ -129,9 +129,9 @@ public class Application {
 
 {% endhighlight %}
 
-# **6 .Lấy đối tượng bean HelloWorld và gọi phương thức**
+## **7 .Lấy đối tượng bean HelloWorld và gọi phương thức**
 
-- Chúng ta sử dụng phương thức getBean để lây đối tượng bean từ container
+- Chúng ta sử dụng phương thức getBean để lất đối tượng bean từ container.
 
 {% highlight java linenos %}
 
