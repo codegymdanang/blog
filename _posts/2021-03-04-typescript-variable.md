@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Biến   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về biến trong Typescrip, cách hoạt động của biến trong Typescrip
+description : Trình bày về cách khai báo biến trong TypeScript. Lần lượt giới thiệu và giải thích khái niệm biến trong TypeScript là gì? Lợi thế của let hơn var trong TypeScript là gì? Đồng thời hướng dẫn cách sử dụng Const trong ngôn ngữ lập trình TypeScript và 3 loại access modifier gồm public, private và protected dùng trong lập trình TypeScript. Bài viết kèm theo các ví dụ minh hoạ và video demo hướng dẫn chi tiết cách làm giúp bạn áp dụng được vào thực hành và làm việc thực tế với các dự án lập trình web.
 youtubeId: ttKo2gO-BCE
 ---
 
