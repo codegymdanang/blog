@@ -6,17 +6,17 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Interface   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về Interface trong Typescrip, cách hoạt động của Interface trong Typescrip
+description : Bài viết giới thiệu về Interface trong TypeScript. Trước hết những chia sẻ dưới đây sẽ giúp bạn hiểu được thuật ngữ Interface trong ngôn ngữ lập trình TypoScript là gì? Tiếp theo sẽ lần lượt trình bày về Interface định nghĩa cấu trúc cho Function và Interface định nghĩa cấu trúc cho Array. Ngoài ra bài viết cũng giới thiệu các tham số tuỳ chọn, tham số chỉ được phép đọc và tính kế thừa Interface trong TypeScript. Bên cạnh đó ở những chia sẻ cuối bài sẽ tìm hiểu về Implement Interface và Generic trong Interface của ngôn ngữ lập trình TypeSccript. Mỗi phần của bài viết có kèm theo các ví dụ minh hoạ cụ thể.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Interface</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>Interface</b> là như thế nào? 
 
-# **1. Interface là gì**
+## **1. Interface là gì**
 
 Chúng ta sử dụng Interface để định nghĩa một cấu trúc mà bất cứ Class nào khi sử dụng nó đều phải tuân thủ các biến và phương thức có trong interface. Chúng ta sử dụng từ khoá interface để tạo.
 
@@ -32,7 +32,7 @@ interface IPerson {
 
 {% endhighlight %}
 
-Ví dụ ta có đối tượng customer sử dụng cấu trúc IPerson, thì lớp customer phải định nghĩa 2 thuộc tính firstName, lastName và phương thức sayHi giống như Interface
+Ví dụ ta có đối tượng customer sử dụng cấu trúc IPerson, thì lớp customer phải định nghĩa 2 thuộc tính firstName, lastName và phương thức sayHi giống như Interface.
 
 {% highlight javascript  linenos %}
 
@@ -61,7 +61,7 @@ console.log(employee.lastName);
 
 Như vậy ta thấy Interface giống như định nghĩa một kiểu cấu trúc cho các Class sử dụng nó.
 
-# **2. Interface định nghĩa cấu trúc cho function**
+## **2. Interface định nghĩa cấu trúc cho function**
 
 TypeScript Interface cũng dùng để định nghĩa kiểu của function.
 
@@ -90,9 +90,9 @@ kvp(2, 'Steve'); //Output: updateKeyValue: key = 2, value = Steve
 
 Ta khai báo let kvp: KeyValueProcessor = addKeyValue. Nghĩa là hàm addKeyValue sẽ sử dụng cấu trúc function của interface KeyValueProcessor gồm có 2 tham số truyền vào là kiểu number và String.
 
-# **3. Interface định nghĩa cấu trúc cho Array**
+## **3. Interface định nghĩa cấu trúc cho Array**
 
-Interface cũng có thể dùng định nghĩa cấu trúc cho mảng như sau
+Interface cũng có thể dùng định nghĩa cấu trúc cho mảng như sau:
 
 {% highlight javascript  linenos %}
 
@@ -114,9 +114,9 @@ strArr["JS"] = "JavaScript";
 
 {% endhighlight %}
 
-# **4. Tham số tuỳ chọn**
+## **4. Tham số tuỳ chọn**
 
-Trong interface chúng ta có thể cho phép một số thuộc tính hoặc phương thức có thể được có hoặc không có trong class sử dụng nó. Bằng cách sử dụng dấu ? như sau
+Trong interface chúng ta có thể cho phép một số thuộc tính hoặc phương thức có thể được có hoặc không có trong class sử dụng nó. Bằng cách sử dụng dấu ? như sau:
 
 {% highlight javascript  linenos %}
 
@@ -139,9 +139,9 @@ let empObj2:IEmployee = {    // OK
 
 {% endhighlight %} 
 
-# **5. Tham số chỉ được phép đọc**
+## **5. Tham số chỉ được phép đọc**
 
-Trong Interface sẽ có những thuộc tính mà ta chỉ cho phép class dùng nó được đọc mà không được thay đổi giá trị. Ta sử dụng từ khoá readonly như sau
+Trong Interface sẽ có những thuộc tính mà ta chỉ cho phép class dùng nó được đọc mà không được thay đổi giá trị. Ta sử dụng từ khoá readonly như sau:
 
 {% highlight javascript  linenos %}
 
@@ -157,9 +157,9 @@ personObj.SSN = '333666888'; // Compiler Error
 
 {% endhighlight %}
 
-# **6. Kế thừa Interface**
+## **6. Kế thừa Interface**
 
-Chúng ta có thể kế thừa một hoặc nhiều interface để sử dụng lại. Mình sẽ dùng từ khoá extends như sau
+Chúng ta có thể kế thừa một hoặc nhiều interface để sử dụng lại. Mình sẽ dùng từ khoá extends như sau:
 
 {% highlight javascript  linenos %}
 
@@ -180,9 +180,9 @@ let empObj:IEmployee = {
 
 {% endhighlight %}
 
-# **7. Implement Interface**
+## **7. Implement Interface**
 
-Cũng giống như các ngôn ngữ lập trình khác. TypeScript Interface cũng cho phép một class cài đặt nó. Chúng ta sử dụng từ khoá implements
+Cũng giống như các ngôn ngữ lập trình khác. TypeScript Interface cũng cho phép một class cài đặt nó. Chúng ta sử dụng từ khoá implements.
 
 {% highlight javascript  linenos %}
 
@@ -210,9 +210,9 @@ let emp = new Employee(1, "Steve");
 
 {% endhighlight %}
 
-# **8. Generic trong Interface**
+## **8. Generic trong Interface**
 
-Chúng ta cũng có thể tạo một Interface có kiểu Generic trong TypeScript như sau.
+Chúng ta cũng có thể tạo một Interface có kiểu Generic trong TypeScript như sau:
 
 {% highlight javascript  linenos %}
 
