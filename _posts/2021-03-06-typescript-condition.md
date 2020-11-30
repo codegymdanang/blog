@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Câu Điều kiện   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về câu điều kiện trong Typescrip, cách hoạt động của câu điều kiện trong Typescrip
+description : Giới thiệu về mệnh đề điều kiện trong TypeScript. Tìm hiểu và hướng dẫn để sử dụng được các câu điều kiện tử If-Else, câu điều kiện tử Switch dùng trong ngôn ngữ lập trình web TypeScript. Bài viết chia sẻ kèm theo những ví dụ minh hoạ cụ thể cách hoạt động cho mỗi loại điều kiện và video hướng dẫn sử dụng mệnh đề điều kiện trong lập trình web với TypeScript hiệu quả hơn.
 youtubeId: ufziMUA9ERY
 ---
 
