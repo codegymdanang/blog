@@ -6,23 +6,23 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Function   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về function trong Typescrip, cách hoạt động của function trong Typescrip
+description : Trình bày về thuộc tính Function trong TypeScript, giúp hiểu được thuật ngữ Function trong TypeScript là gì? Tìm hiểu về 2 dạng Function trong TypeScript bao gồm name, tên và anonymous, không tên. Giới thiệu thêm về Arrow Function hay còn gọi là Lambda trong TypeScript. Ngoài ra hướng dẫn cách sử dụng tham số Rest trong TypeScript và cách thức hoạt động của Function trong TypeScript thông qua những ví dụ minh hoạ cho cú pháp thực hiện.  
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>function</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>function</b> là như thế nào? 
 
-# **1. Function là gì**
+## **1. Function là gì**
 
-Function là một khối lệnh trong đó có nhiều dòng lệnh. Function là một phần quan trọng trong JS vì JS là lập trình theo dạng function (chức năng). Trong Typescript có 2 dạng function là name (tên) và anonymous (không tên)
+Function là một khối lệnh trong đó có nhiều dòng lệnh. Function là một phần quan trọng trong JS vì JS là lập trình theo dạng function (chức năng). Trong Typescript có 2 dạng function là name (tên) và anonymous (không tên).
 
 - Name Function 
 
-Chúng ta khai báo function cũng giống như javascript sử dụng từ khoá function
+Chúng ta khai báo function cũng giống như Javascript sử dụng từ khoá function.
 
 {% highlight javascript  linenos %}
 
@@ -34,7 +34,7 @@ display(); //Output: Hello TypeScript
 
 {% endhighlight %}
 
-Ta có thể truyền tham số và trả dữ liệu về trong function như sau
+Ta có thể truyền tham số và trả dữ liệu về trong function như sau:
 
 {% highlight javascript  linenos %}
 
@@ -60,7 +60,7 @@ greeting(); //Output: Hello TypeScript!
 
 {% endhighlight %}
 
-Function không tên cũng có thể truyền tham số và kiểu trả về
+Function không tên cũng có thể truyền tham số và kiểu trả về:
 
 {% highlight javascript  linenos %}
 
@@ -91,7 +91,7 @@ Greet('Hi','Bill','Gates'); //Compiler Error: Expected 2 arguments, but got 3.
 
 - Tham số có giá trị mặc định
 
-Ta có thể tạo ra giá trị mặc định cho tham số, trong trường hợp giá trị của tham số  không có, thì tham số sẽ lấy giá trị mặc định
+Ta có thể tạo ra giá trị mặc định cho tham số, trong trường hợp giá trị của tham số không có, thì tham số sẽ lấy giá trị mặc định.
 
 {% highlight javascript  linenos %}
 
@@ -105,7 +105,7 @@ Greet('Bill'); //OK, returns "Hello Bill!"
 
 {% endhighlight %}
 
-# **2. Arrow Function là gì**
+## **2. Arrow Function là gì**
 
 Function Arrow được sử dụng cho anonymous function. Chúng có tên gọi khác trong các ngôn ngữ khác là lambda.
 
@@ -117,7 +117,7 @@ Function Arrow được sử dụng cho anonymous function. Chúng có tên gọ
 
 {% endhighlight %}
 
-Chúng ta sử dung arrow function => thì chúng ta không dùng từ khoá function nữa.
+Chúng ta sử dụng arrow function => thì chúng ta không dùng từ khoá function nữa.
 
 {% highlight javascript  linenos %}
 
@@ -129,7 +129,7 @@ sum(10, 20); //returns 30
 
 {% endhighlight %}
 
-Function Arrow ở trên khi biên dịch qua Javascript thì sẽ như sau
+Function Arrow ở trên khi biên dịch qua Javascript thì sẽ như sau:
 
 {% highlight javascript  linenos %}
 
@@ -138,7 +138,7 @@ var sum = function (x, y) {
 }
 {% endhighlight %}
 
-- Arrow function không có tham số truyền vào được viết như sau
+- Arrow function không có tham số truyền vào được viết như sau:
 
 {% highlight javascript  linenos %}
 
@@ -148,7 +148,7 @@ Print(); //Output: Hello TypeScript
 
 {% endhighlight %}
 
-- Chúng ta có thể sử dụng arrow function trong class như sau.
+- Chúng ta có thể sử dụng arrow function trong class như sau:
 
 {% highlight javascript  linenos %}
 
@@ -168,7 +168,7 @@ emp.display();
 
 {% endhighlight %}
 
-# **3. Tham số Rest**
+## **3. Tham số Rest**
 
 Một function có thể có 1 hoặc nhiều tham số. Sẽ có những trường hợp ta không biết được sẽ truyền bao nhiêu tham số trong function. Để giải quyết vấn đề này TypeScript cung cấp cho chung ta tham số Rest với khai báo là 3 dấu ... trong function.
 
@@ -202,7 +202,7 @@ Greet("Hello");// returns "Hello !"
 
 {% endhighlight %}
 
-- Như 2 ví dụ trên ta đặt ... ở cuối function mới hợp lệ, nếu ta đặt ... ở đầu sẽ báo lỗi
+- Như 2 ví dụ trên ta đặt ... ở cuối function mới hợp lệ, nếu ta đặt ... ở đầu sẽ báo lỗi.
 
 {% highlight javascript  linenos %}
 
