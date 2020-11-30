@@ -6,23 +6,23 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Class   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về Class trong Typescrip, cách hoạt động của Class trong Typescrip
+description : Bài viết nhằm hướng dẫn để người đọc sử dụng được thuộc tính Class trong TypeScript. Trong đó, những chia sẻ dưới đây sẽ lần lượt giúp bạn hiểu được thuật ngữ Class trong TypeScript là gì? Constructor là gì? Kế thừa là gì? Tìm hiểu các thành phần của một Class gồm những gì? Đồng thời hướng dẫn cách để cài đặt được Interface và sử dụng Overide Method trong Class, Abstract Class cũng như Generic Class trong TypeScript. Trong mỗi phần, bài viết chia sẻ kèm theo các ví dụ minh hoạ cách làm giúp người đọc hiểu được cách thức hoạt động của Class trong TypeScript và dễ dàng áp dụng được thuộc tính này vào thực hành.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Class</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>Class</b> là như thế nào? 
 
-# **1. Class là gì**
+## **1. Class là gì**
 
-Cũng giống như các ngôn ngữ lập trình Java, C# trong typescript cũng hỗ trợ Class. 
+Cũng giống như các ngôn ngữ lập trình Java, C#. Trong Typescript cũng hỗ trợ Class. 
 
 Một Class thì gồm các phần như constructor, thuộc tính và phương thức. 
 
-Ví dụ một class Employee trong typescript
+Ví dụ một class Employee trong Typescript
 
 {% highlight javascript  linenos %}
 
@@ -42,7 +42,7 @@ class Employee {
 
 {% endhighlight %}
 
-- Khi chương trình compile nó sẽ dịch ra Javascript như sau
+- Khi chương trình compile nó sẽ dịch ra Javascript như sau:
 
 {% highlight javascript  linenos %}
 
@@ -59,9 +59,9 @@ var Employee = (function () {
 
 {% endhighlight %}
 
-# **2. Constructor là gì**
+## **2. Constructor là gì**
 
-Constructor là một hàm đặt biệt nó được gọi khi chúng ta tạo đối tượng. Constructor được khai báo bằng từ khoá constructor
+Constructor là một hàm đặc biệt nó được gọi khi chúng ta tạo đối tượng. Constructor được khai báo bằng từ khoá constructor.
 
 {% highlight javascript  linenos %}
 
@@ -89,7 +89,7 @@ class Employee {
 
 {% endhighlight %}
 
-- Để tạo một đối tượng từ Class ta sử dụng toán tử new
+- Để tạo một đối tượng từ Class ta sử dụng toán tử new.
 
 {% highlight javascript  linenos %}
 
@@ -108,9 +108,9 @@ let emp = new Employee(100,"Steve");
 
 {% endhighlight %}
 
-# **3. Kế thừa là gì**
+## **3. Kế thừa là gì**
 
-Cũng giống như Java và C# chúng ta có thể kế thừa trong TypeScript thông qua từ khoá extends
+Cũng giống như Java và C# chúng ta có thể kế thừa trong TypeScript thông qua từ khoá extends.
 
 {% highlight javascript  linenos %}
 
@@ -140,9 +140,9 @@ emp.displayName(); // Name = Bill, Employee Code = 100
 
 {% endhighlight %}
 
-# **4. Cài đặt Interface**
+## **4. Cài đặt Interface**
 
-Chúng ta có thể implements một hoặc nhiều Interface cho Class. Ví dụ Class Employee sau đây
+Chúng ta có thể implements một hoặc nhiều Interface cho Class. Ví dụ Class Employee sau đây.
 
 {% highlight javascript  linenos %}
 
@@ -177,7 +177,7 @@ emp.display(); //Compiler Error: Property 'display' does not exist on type 'IEmp
 
 {% endhighlight %}
 
-# **5. Overide Method Trong Class**
+## **5. Overide Method Trong Class**
 
 Chúng ta có thể overide lại method của lớp cha giống như trong Java.
 
@@ -226,7 +226,7 @@ mercObj.run();  // A Mercedes started A Mercedes-Benz GLA is moving at 150 mph!
 hondaObj.run(); // A Honda started A Honda City is moving at 100 mph!
 {% endhighlight %}
 
-# **6. Abstract Class**
+## **6. Abstract Class**
 
 Typescript sử dụng từ khoá abstract để ta biến một class thành một abstract class. Một abstract class có thể có một hoặc nhiều phương thức abstract hoặc biến.
 
@@ -268,7 +268,7 @@ let emp2: Person = emp.find('Steve');
 
 Class mà extends một abstract class phải bắt buộc sử dụng từ khoá super trong constructor của mình.
 
-# **7. Generic Class**
+## **7. Generic Class**
 
 TypeScript cũng hỗ trợ Generic như các ngôn ngữ lập trình Java và C#.
 
