@@ -7,23 +7,23 @@ tags: [spring-core]
 summery: Cấu hình IOC qua Java 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Sử dụng Cấu hình IOC qua Java trong lập trình Spring. Hiểu được Cấu hình IOC qua Java là gì. Hướng dẫn sử dụng Cấu hình IOC qua Java trong lập trình Spring.
+description : Những chia sẻ trong bài viết giúp hiểu được Spring IOC bằng Java trong lập trình là gì? Cấu hình Spring IOC qua Java là gì? Ngoài ra qua bài viết người đọc sẽ biết được cách để tạo dự án Maven, thao tác để thêm các thư viện Spring vào Maven. Đồng thời được tìm hiểu về cấu hình HelloWorld Spring Bean bằng Java, cấu hình Metadata Java và được hướng dẫn để tạo Spring Container và cách lấy đối tượng bean HelloWorld và gọi phương thức trong lập trình Spring.
 youtubeId: 0n8_2yG5F7I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Cấu hình IOC qua Java</b> ? Có phải bạn không rõ khái niệm của nó trong lập trình?
+Chào bạn, chắc hẳn bạn cảm thấy khó hiểu về <b>Cấu hình IOC qua Java</b>? Có phải bạn không rõ khái niệm của nó trong lập trình?
 
 <br>
-# **1 .Tạo dự án Maven**
+## **1 .Tạo dự án Maven**
 
 
 
 
-# **2 .Thêm các thư viện Spring vào Maven**
+## **2 .Thêm các thư viện Spring vào Maven**
 
 {% highlight xml linenos %}
 
@@ -66,7 +66,7 @@ Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Cấu hình IOC 
 
 {% endhighlight %}
 
-# **3 .Cấu hình HelloWorld Spring Bean bằng Java**
+## **3 .Cấu hình HelloWorld Spring Bean bằng Java**
 
 {% highlight java linenos %}
 
@@ -85,9 +85,9 @@ public class HelloWorld {
 }
 {% endhighlight %}
 
-# **4 .Cấu hình Metadata Java**
+## **4 .Cấu hình Metadata Java**
 
-- Như bài 1 giới thiệu về Spring IOC container ta có thể dùng code Java để tạo các bean. Code Java bình thường như bước 3 chỉ là 1 lớp java thường để trở thành bean thì ta phải thêm các cấu hình bằng annotaion @ như sau:
+- Như bài 1 giới thiệu về Spring IOC container ta có thể dùng code Java để tạo các bean. Code Java bình thường như bước 3 chỉ là 1 lớp java thường, để trở thành bean thì ta phải thêm các cấu hình bằng annotaion @ như sau:
 
 {% highlight java linenos %}
 
@@ -108,9 +108,9 @@ public class AppConfig {
 }
 {% endhighlight %}
 
-- Chúng ta sử dụng @Congiguration và @Bean. Khi container load lên nó sẽ nhận biết các annotation @ này để tạo bean (đối tượng)
+- Chúng ta sử dụng @Congiguration và @Bean. Khi container load lên nó sẽ nhận biết các annotation @ này để tạo bean (đối tượng).
 
-# **5 .Tạo Spring Container**
+## **5 .Tạo Spring Container**
 
 {% highlight java linenos %}
 
@@ -126,9 +126,9 @@ public class Application {
 
 {% endhighlight %}
 
-# **6 .Lấy đối tượng bean HelloWorld và gọi phương thức**
+## **6 .Lấy đối tượng bean HelloWorld và gọi phương thức**
 
-- Chúng ta sử dụng phương thức getBean để lây đối tượng bean từ container
+- Chúng ta sử dụng phương thức getBean để lấy đối tượng bean từ container.
 
 {% highlight java linenos %}
 
