@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Number   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về Number trong Typescrip, cách hoạt động của Number trong Typescrip
+description : Tìm hiểu về Number trong ngôn ngữ lập trình TypeScript. Trước hết, bài viết giới thiệu khái niệm thuộc tính Number trong TyperScript là gì? Sau đó lần lượt trình bày về Methoad toExponential, Method toFixed, Method toLocaleString, Method toPrecision, Method toString, Method toString, Method ValueOf trong TypeScript. Ở mỗi phần trên, bài viết chia sẻ những hình ảnh minh hoạ cho cú pháp thực hiện sẽ giúp người đọc hiểu được các khái niệm và biết được cách sử dụng thuộc tính Number vào lập trình đạt được tối ưu nhất.
 youtubeId: Ex3glZTCvlY
 ---
 
