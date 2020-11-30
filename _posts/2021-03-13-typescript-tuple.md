@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Tuple   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về Tuple trong Typescrip, cách hoạt động của Tuple trong Typescrip
+description : Tuple trong TypeScript là gì? Cách sử dụng Tuple trong TypeScript như thế nào? Những thắc mắc trên sẽ được giải đáp trong bài viết này. Những chia sẻ dưới đây cũng sẽ giúp bạn nắm được thêm về Tuple chứa nhiều giá trị và Tuple Array trong TypeScript. Đồng thời, bài viết cũng hướng dẫn cách làm để thêm được phần tử vào Tuple và tìm hiểu về các phương thức hỗ trợ trong Tuple của ngôn ngữ lập trình TypeScript. Những ví dụ minh hoạ cụ thể trong mỗi phần sẽ giúp làm rõ hơn các chia sẻ lí thuyết và giúp người đọc nhanh chóng áp dụng được vào thực hành.
 youtubeId: Ex3glZTCvlY
 ---
 
