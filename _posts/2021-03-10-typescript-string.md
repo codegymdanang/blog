@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: String   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về String trong Typescrip, cách hoạt động của String trong Typescrip
+description : Giới thiệu và hướng dẫn sử dụng về String trong TypeScript. Tìm hiểu String trong TypeScript là gì? Bên cạnh đó cũng trình bày về Method charAt, Method concat, Method indexOf, Method replace, Method split và Methoad toUpperCase được sử dụng trong ngôn ngữ lập trình TypeScript. Bài viết chia sẻ kèm theo những ví dụ minh hoạ cho các thao tác thực hiện của mỗi phương thức sẽ giúp người đọc hiểu được và thực hiện được khi làm việc với các dự án lập trình web.
 youtubeId: 3r74IFfylVE
 ---
 
