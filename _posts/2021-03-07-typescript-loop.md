@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Vòng lặp   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về vòng lặp trong Typescrip, cách hoạt động của vòng lặp trong Typescrip
+description : Tìm hiểu về vòng lặp và cách sử dụng vòng lặp trong ngôn ngữ lập trình TypeScript. Bài viết lần lượt trình bày về vòng lặp for, While, doWhile áp dụng trong ngôn ngữ lập trình TypeScript. Trong những chia sẻ trong bài, có kèm theo những ví dụ mình hoạ cụ thể cú pháp thực hiện của mỗi vòng lặp để người đọc áp dụng được vào thực tế khi lập trình web.
 youtubeId: soiEapMFxIU
 ---
 
