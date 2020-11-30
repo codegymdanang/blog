@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Array   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về Array trong Typescrip, cách hoạt động của Array trong Typescrip
+description : Những chia sẻ trong bài viết nhằm giúp người đọc hiểu được thuộc tính Array, Mảng trong ngôn ngữ lập trình TypeScript là gì? Hướng dẫn cách làm để truy cập vào các phần tử trong Array, Mảng của TypeScript. Cũng như cách thao tác như thế nào để duyệt các phần tử trong Array, Mảng. Bên cạnh đó, giới thiệu cho người đọc về các phương thức hỗ trợ được sử dụng trong Array khi lập trình với ngôn ngữ TypeScript. Bài viết với những chia sẻ kèm theo các ví dụ minh hoạ cách làm sẽ giúp người đọc sử dụng được Array trong TypeScript hiệu quả nhất.
 youtubeId: Ex3glZTCvlY
 ---
 
