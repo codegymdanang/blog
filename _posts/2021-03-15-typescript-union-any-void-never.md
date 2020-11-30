@@ -6,17 +6,17 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Union Any Void Never   
 image: /images/blog/feature_javascript.png
-description : Giới thiệu về Union Any Void Never trong Typescrip, cách hoạt động của Union Any Void Never trong Typescrip
+description : Những thuật ngữ Union, Any, Void, Never được sử dụng trong ngôn ngữ lập trình TypeScript sẽ được giải thích và làm rõ trong bài viết. Bên cạnh đó, bài viết cũng sẽ giúp người đọc nắm được mục đích sử dụng và biết khi nào nên sử dụng loại nào cho phù hợp. Ngoài ra với những ví dụ minh hoạ cụ thể cho từng bước làm, cú pháp thực hiện mỗi loại trong bài viết, sẽ hướng dẫn cho người đọc sử dụng được Union Any Void Never trong TypeScript đạt được hiệu quả nhất.
 youtubeId: Ex3glZTCvlY
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Union Any Void Never</b> là như thế nào? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>Union Any Void Never</b> là như thế nào? 
 
-# **1. Union là gì**
+## **1. Union là gì**
 
 Cho phép chúng ta sử dụng nhiều kiểu dữ liệu cho một biến. 
 
@@ -52,7 +52,7 @@ displayType(true); //Compiler Error: Argument of type 'true' is not assignable t
 
 {% endhighlight %}
 
-# **3. Any là gì**
+## **2. Any là gì**
 
 Any sử dụng khi ta không biết kiểu dữ liệu là gì. Thường được sử dụng khi chúng ta gọi một webservice bên ngoài hoặc dịch vụ của nhà phát triển thứ 3.
 
@@ -64,7 +64,7 @@ something = true;
 
 {% endhighlight %}
 
-Đoạn code trên sẽ được dịch ra Javascript như sau khi compile
+Đoạn code trên sẽ được dịch ra Javascript như sau khi compile.
 
 {% highlight javascript  linenos %}
 
@@ -74,7 +74,7 @@ something = true;
 
 {% endhighlight %}
 
-Chúng ta có thể tạo mảng với any như sau
+Chúng ta có thể tạo mảng với any như sau:
 
 {% highlight javascript  linenos %}
 
@@ -84,9 +84,9 @@ console.log(arr); //Output: [ 'John', 212, true, 'Smith' ]
 
 {% endhighlight %}
 
-# **4. Void là gì**
+## **3. Void là gì**
 
-Cũng giống như Java void được sử dụng để thông báo function không trả về kiểu dữ liệu gì
+Cũng giống như Java, void được sử dụng để thông báo function không trả về kiểu dữ liệu gì.
 
 {% highlight javascript  linenos %}
 
@@ -99,9 +99,9 @@ console.log(speech); //Output: undefined
 
 {% endhighlight %}
 
-# **5. Never là gì**
+## **4. Never là gì**
 
-TypeScript có một kiểu dữ liệu mới là never có nghĩa giá trị đó sẽ không xảy ra. Nerver được sử dụng khi ta chắn chắn việc gì đó không xảy ra . Ví dụ sau chúng ta viết functino nó sẽ không bao giờ trả về lỗi vì while luôn true nên vòng lặp while chạy vô hạn không bao giờ bị lỗi
+TypeScript có một kiểu dữ liệu mới là never có nghĩa giá trị đó sẽ không xảy ra. Nerver được sử dụng khi ta chắc chắn việc gì đó không xảy ra. Ví dụ sau chúng ta viết function nó sẽ không bao giờ trả về lỗi vì while luôn true nên vòng lặp while chạy vô hạn không bao giờ bị lỗi.
 
 {% highlight javascript  linenos %}
 
