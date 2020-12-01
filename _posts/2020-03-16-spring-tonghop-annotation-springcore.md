@@ -7,19 +7,19 @@ tags: [spring-core]
 summery: Các Annotation Spring Core
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Tổng hợp các Annotation trong lập trình Spring. Hướng dẫn sử dụng  Annotation trong lập trình Spring.
+description : Bài viết chia sẻ tổng hợp các Annotation được sử dụng trong ngôn ngữ lập trình Spring bao gồm @Autowire Annotation, @Bean Annotation, @Qualifier Annotation, @Require Annotation, @Value Annotation, @Lazy Annotation, @Primary Annotation, @Scope Annotation, @Import Annotation và PropertySource trong Spring. Trong những chia sẻ dưới đây của bài viết, người đọc sẽ lần lượt được giới thiệu và hướng dẫn sử dụng các Annotation trên thông qua các ví dụ minh hoạ cụ thể.
 youtubeId: 0n8_2yG5F7I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn, Trong bài viết hôm nay chúng ta sẽ tổng hợp các  annotation trong Spring Core
+Chào bạn, trong bài viết hôm nay chúng ta sẽ tổng hợp các Annotation trong Spring Core.
 
-# **1. @Autowire Annotation**
+## **1. @Autowire Annotation**
 
-Sử dụng để nhúng các bean vào bean cần dùng. Có thể nhúng qua Constructor , Setter và biến
+Sử dụng để nhúng các Bean vào Bean cần dùng. Có thể nhúng qua Constructor, Setter và Biến.
 
 - Constructor
 
@@ -68,9 +68,9 @@ public class CustomerController {
 {% endhighlight %}
 
 
-# **2. @Bean Annotation**
+## **2. @Bean Annotation**
 
-- Sử dụng để tạo các bean trong ứng dụng Spring
+- Sử dụng để tạo các Bean trong ứng dụng Spring.
 
 {% highlight java linenos %}
 
@@ -89,9 +89,9 @@ public class Application {
 }
 {% endhighlight %}
 
-# **3. @Qualifier Annotation**
+## **3. @Qualifier Annotation**
 
-- Khi có nhiều Bean có cùng kiểu dữ liệu thì @Qualifier giúp chúng ta xát định nó là kiểu gì. Ví dụ như ta có 2 loại gửi tin nhắn là Email và SMS cùng implements 1 interface là Message Service. Chúng ta sử dụng @Qualifier để xát định đó là lại Email hay SMS vì chúng cùng 1 kiểu Message Service
+- Khi có nhiều Bean có cùng kiểu dữ liệu thì @Qualifier giúp chúng ta xác định nó là kiểu gì. Ví dụ như ta có 2 loại gửi tin nhắn là Email và SMS cùng implements 1 interface là Message Service. Chúng ta sử dụng @Qualifier để xác định đó là loại Email hay SMS vì chúng cùng 1 kiểu Message Service.
 
 {% highlight java linenos %}
 
@@ -153,9 +153,9 @@ public class MessageProcessorImpl implements MessageProcessor {
 }
 {% endhighlight %}
 
-# **4. @Require Annotation**
+## **4. @Require Annotation**
 
-Sử dụng @Require thường dùng ở phương thức setter nhầm bắt buộc phải nhúng giá trị vào
+Sử dụng @Require thường dùng ở phương thức Setter nhằm bắt buộc phải nhúng giá trị vào.
 
 {% highlight java linenos %}
 
@@ -166,9 +166,9 @@ void setColor(String color) {
 
 {% endhighlight %}
 
-# **5. @Value Annotation**
+## **5. @Value Annotation**
 
-Được sử dụng để lấy giá trị từ file properties
+Được sử dụng để lấy giá trị từ file properties.
 <br>
 {% highlight java linenos %}
 
@@ -178,9 +178,9 @@ private String defaultAppName;
 
 {% endhighlight %}
 
-# **6. @Lazy Annotation**
+## **6. @Lazy Annotation**
 
-Sử dụng @Lazy để ngăn Spring IoC tạo bean, chỉ tạo khi mình cần.
+Sử dụng @Lazy để ngăn Spring IoC tạo Bean, chỉ tạo khi mình cần.
 
 {% highlight java linenos %}
 
@@ -201,9 +201,9 @@ public class AppConfig {
 
 {% endhighlight %}
 
-# **7. @Primary Annotation**
+## **7. @Primary Annotation**
 
-Khi nhiều bean có cùng một kiểu (type). Chúng ta có quyền ưu tiên cho bean nào được load lên đầu tiên
+Khi nhiều Bean có cùng một kiểu (type). Chúng ta có quyền ưu tiên cho Bean nào được load lên đầu tiên.
 
 {% highlight java linenos %}
 
@@ -229,9 +229,9 @@ class Biker {
 
 {% endhighlight %}
 
-# **7. @Scope Annotation**
+## **8. @Scope Annotation**
 
-Dùng để nói lên phạm vi tồn tại của một bean. 
+Dùng để nói lên phạm vi tồn tại của một Bean. 
 
 {% highlight java linenos %}
 
@@ -247,7 +247,7 @@ public class TwitterMessageService implements MessageService {
 
 {% endhighlight %}
 
-# **8. @Import Annotation**
+## **9. @Import Annotation**
 
 Dùng để nhúng 1 hoặc nhiều file configure lại với nhau.
 
@@ -273,9 +273,9 @@ public class ConfigB {
 }
 {% endhighlight %}
 
-# **8. PropertySource**
+## **10. PropertySource**
 
-Dùng để nạp các file properties từ bên ngoài vào bean
+Dùng để nạp các file properties từ bên ngoài vào Bean.
 
 {% highlight java linenos %}
 
