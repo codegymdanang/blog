@@ -7,7 +7,7 @@ tags: [spring-core]
 summery: Lazy Annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Hiều cấu hình Lazy Annotation trong lập trình Spring. Hướng dẫn sử dụng Lazy Annotation trong lập trình Spring.
+description : Qua những chia sẻ trong bài viết người đọc hiểu được tổng quan về @Lazy Annotation, một thành phần trong Spring Core Framework. Bên cạnh đó biết được khi nào nên dùng Annotation @Lazy trong lập trình Spring. Trong những chia sẻ tiếp theo của bài viết sẽ hướng dẫn người đọc thao tác để tạo Maven, Java Class, 2 Beans Class cũng như chạy Test trong lập trình Spring. Kèm theo trong những chia sẻ đó là các ví dụ minh hoạ cụ thể từng cú pháp để thực hiện.
 youtubeId: 0n8_2yG5F7I
 ---
 
@@ -15,17 +15,17 @@ youtubeId: 0n8_2yG5F7I
 
 # **Giới thiệu nội dung bài viết**
 
-Chào bạn, Trong bài viết hôm nay chúng ta sẽ nói cách sử dụng annotation Lazy để cấu hình cho dự án Spring.
+Chào bạn, trong bài viết hôm nay chúng ta sẽ nói cách sử dụng Annotation Lazy để cấu hình cho dự án Spring.
  
 
-# **1. Giới thiệu @Lazy Annotation**
+## **1. Giới thiệu @Lazy Annotation**
 
-Mặc định khi Spring IoC bật lên (start) nó sẽ tạo các beans mà ta khai báo. Tuy nhiên chúng ta hoàn toàn có thể nói cho Spring IoC không khởi tạo các bean ngay mà khởi tạo khi ta cần dùng thông qua annotaion @Lazy.
+Mặc định khi Spring IoC bật lên (start) nó sẽ tạo các Beans mà ta khai báo. Tuy nhiên chúng ta hoàn toàn có thể nói cho Spring IoC không khởi tạo các Bean ngay mà khởi tạo khi ta cần dùng thông qua Annotaion @Lazy.
 
-Chúng ta hãy xem ví dụ sau
+Chúng ta hãy xem ví dụ sau.
 
 
-# **2. Tạo maven**
+## **2. Tạo Maven**
 
 
 {% highlight xml linenos %}
@@ -69,9 +69,9 @@ Chúng ta hãy xem ví dụ sau
 
 {% endhighlight %}
 
-# **3. Tạo java class**
+## **3. Tạo Java Class**
 
-- Trong ví dụ hôm nay chúng ta tạo 2 beans là Bean1 và Bean2
+- Trong ví dụ hôm nay chúng ta tạo 2 Beans là Bean1 và Bean2.
 <br>
 {% highlight java linenos %}
 
@@ -105,9 +105,9 @@ public class SecondBean {
 {% endhighlight %}
 
 
-# **4. Tạo 2 beans class**
+## **4. Tạo 2 Beans Class**
 
-- Chú ý trong class Configure này anh sử dụng annotation @Lazy cho Bean1. Như vậy khi Spring IoC khởi động Bean1 sẽ chưa được tạo ngay mà Bean2 tạo trước
+- Chú ý trong Class Configure này anh sử dụng Annotation @Lazy cho Bean1. Như vậy khi Spring IoC khởi động Bean1 sẽ chưa được tạo ngay mà Bean2 tạo trước.
 
 <br>
 {% highlight java linenos %}
@@ -132,7 +132,7 @@ public class AppConfig {
 }
 {% endhighlight %}
 
-# **5. Chạy Test**
+## **5. Chạy Test**
 
 <br>
 {% highlight java linenos %}
@@ -150,8 +150,8 @@ public class Application {
 
 {% endhighlight %}
 
-- Kết quả sẽ in ra là :  Bean2 , Bean 1
-Như vậy ta thấy Bean1 chỉ được gọi khi cần, và chỉ được tạo lên khi cần thông qua @Lazy
+- Kết quả sẽ in ra là :  Bean2 , Bean 1.
+Như vậy ta thấy Bean1 chỉ được gọi khi cần, và chỉ được tạo lên khi cần thông qua @Lazy.
 
 
 
