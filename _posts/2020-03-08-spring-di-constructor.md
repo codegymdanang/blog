@@ -7,25 +7,25 @@ tags: [spring-core]
 summery: Nhúng DI bằng Constructor 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Sử dụng nhúng DI bằng Constructor trong lập trình Spring. Hiểu được nhúng DI bằng Constructor là gì. Hướng dẫn sử dụng nhúng DI bằng Constructor trong lập trình Spring.
+description : Bài viết giới thiệu về cách nhúng DI, Dependency Injection bằng Constructor trong Spring. Cụ thể trong những chia sẻ của bài viết sẽ trình bày về cơ chế nhúng bean phụ thuộc thông qua hàm khởi tạo (Constructor) của đối tượng. Bao gồm hướng dẫn cách sử dụng Maven Pom, Email Service,  Client Service và Testing trong lập trình Spring. Ở mỗi phần bài viết chia sẻ kèm theo những ví dụ hướng dẫn cú pháp thực hiện sẽ giúp người đọc hiểu được và áp dụng được thao tác nhúng DI bằng Constructor trong lập trình Spring.
 youtubeId: 0n8_2yG5F7I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Nhúng DI bằng Constructor</b> là gì đúng không?
+Chào bạn, chắc hẳn bạn cảm thấy khó hiểu về <b>Nhúng DI bằng Constructor</b> là gì đúng không?
 
 
 <br>
-# **1 .Dependency Injection thông qua cơ chế Constructor**
+## **1 .Dependency Injection thông qua cơ chế Constructor**
 
 Ngoài cơ chế  DI thông qua setter như bài post trước, Spring IOC container cũng hỗ trợ cơ chế nhúng bean phụ thuộc thông qua hàm khởi tạo (Constructor) của đối tượng.
 
 
 <br>
-# **2 .Maven Pom**
+## **2 .Maven Pom**
 
 - Ví dụ mình có file maven pom như sau cho dự án.
 
@@ -61,9 +61,9 @@ Ngoài cơ chế  DI thông qua setter như bài post trước, Spring IOC conta
 {% endhighlight %}
 
 <br>
-# **3 .Email Service**
+## **3 .Email Service**
 
-- Chúng ta sử dụng annotaion @Service để khi IoC container nó quyét qua thì nó sẽ tạo đối tượng (bean) EmailService trong container để quản lý.
+- Chúng ta sử dụng annotaion @Service để khi IoC container nó quét qua thì nó sẽ tạo đối tượng (bean) EmailService trong container để quản lí.
 
 {% highlight java linenos %}
 
@@ -80,9 +80,9 @@ public class EmailService implements MessageService{
 
 
 <br>
-# **4 .Client Service**
+## **4 .Client Service**
 
-- Chúng ta thêm annotaion @Autowire phía trên của hàm khởi tại ClientService. Khi Spring IOC quyét qua ClientService nó sẽ nhúng EmailService bean có sẳn trong container của nó vào cho ClientService dùng
+- Chúng ta thêm annotaion @Autowire phía trên của hàm khởi tạo ClientService. Khi Spring IOC quét qua ClientService nó sẽ nhúng EmailService bean có sẵn trong container của nó vào cho ClientService dùng.
 
 {% highlight java linenos %}
 
@@ -108,11 +108,11 @@ public class ClientService {
 {% endhighlight %}
 
 
-# **5 .Testing**
+## **5 .Testing**
 
 - Chúng ta sẽ tạo file cấu hình tên là AppConfiguration và annotaion là @Configure. File này có nhiệm vụ tương tự như file xml confire ở bài trước. 
 
-- Có một annotation quan trọng là @ComponentScan là ta chỉ ra thư mục mà ta đặt file EmailService và ClientService ở đâu để Spring IOC sẽ chui vào đó và quyét 2 class này để tạo bean và nhúng bean.
+- Có một annotation quan trọng là @ComponentScan là ta chỉ ra thư mục mà ta đặt file EmailService và ClientService ở đâu để Spring IOC sẽ chui vào đó và quét 2 class này để tạo bean và nhúng bean.
 
 {% highlight java linenos %}
 
