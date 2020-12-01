@@ -4,7 +4,7 @@ title: Phạm vi hoạt động của Bean
 slug : pham-vi-hoat-dong-cua-bean
 category: laptrinhspring
 tags: [spring-core]
-summery: Nhúng DI bằng Constructor 
+summery: Phạm vi hoạt động của bean 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Bài viết giới thiệu về cách nhúng DI, Dependency Injection bằng Constructor trong Spring. Cụ thể trong những chia sẻ của bài viết sẽ trình bày về cơ chế nhúng bean phụ thuộc thông qua hàm khởi tạo (Constructor) của đối tượng. Bao gồm hướng dẫn cách sử dụng Maven Pom, Email Service,  Client Service và Testing trong lập trình Spring. Ở mỗi phần bài viết chia sẻ kèm theo những ví dụ hướng dẫn cú pháp thực hiện sẽ giúp người đọc hiểu được và áp dụng được thao tác nhúng DI bằng Constructor trong lập trình Spring.
