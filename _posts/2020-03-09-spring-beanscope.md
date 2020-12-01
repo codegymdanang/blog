@@ -1,13 +1,13 @@
 ---
 layout: course-spring-core
-title: Phạm vi hoạt động của bean trong Spring
-slug : pham-vi-hoat-dong-bean-trong-spring
+title: Phạm vi hoạt động của Bean
+slug : pham-vi-hoat-dong-cua-bean
 category: laptrinhspring
 tags: [spring-core]
-summery: Bean Scope
-imagspringages/blog/spring.png
+summery: Nhúng DI bằng Constructor 
+image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Sử dụng Bean Scope trong lập trình Spring. Hiểu được Bean Scope là gì. Hướng dẫn sử dụng Bean Scope trong lập trình Spring.
+description : Bài viết giới thiệu về cách nhúng DI, Dependency Injection bằng Constructor trong Spring. Cụ thể trong những chia sẻ của bài viết sẽ trình bày về cơ chế nhúng bean phụ thuộc thông qua hàm khởi tạo (Constructor) của đối tượng. Bao gồm hướng dẫn cách sử dụng Maven Pom, Email Service,  Client Service và Testing trong lập trình Spring. Ở mỗi phần bài viết chia sẻ kèm theo những ví dụ hướng dẫn cú pháp thực hiện sẽ giúp người đọc hiểu được và áp dụng được thao tác nhúng DI bằng Constructor trong lập trình Spring.
 youtubeId: 0n8_2yG5F7I
 ---
 
@@ -15,7 +15,7 @@ youtubeId: 0n8_2yG5F7I
 
 # **Giới thiệu nội dung bài viết**
 
-Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Bean Scoper</b> là gì đúng không? Trong bài viết hôm nay chúng ta sẽ nói qua 6 phạm vi (scope) của một bean được tạo ra trong container.
+Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Bean Scope (Phạm vi hoạt động của Bean) </b> là gì đúng không? Trong bài viết hôm nay chúng ta sẽ nói qua 6 phạm vi (scope) của một bean được tạo ra trong container.
 
 Có bao giờ bạn tự hỏi các beans (đối tượng) được tạo ra như thế nào không và khi nào nó được tạo ra trong container. Các scope dưới đây sẽ mô tả rõ.
 
