@@ -7,22 +7,22 @@ tags: [spring-core]
 summery: Import Annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Hiều cấu hình Import Annotation trong lập trình Spring. Hướng dẫn sử dụng Import Annotation trong lập trình Spring.
+description : Nhằm giúp người đọc hiểu và áp dụng được Annotation Import trong lập trình Spring. Bài viết lần lượt giới thiệu để bạn hiểu được @Import Annotation trong Spring là gì? Khi nào thì được sử dụng trong Spring? Đồng thời trong những chia sẻ tiếp theo của bài viết, người đọc sẽ được hướng dẫn để sử dụng import bằng XML và sử dụng import bằng Annotation khi lập trình Spring như thế nào cho hiệu quả.
 youtubeId: 0n8_2yG5F7I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn, Trong bài viết hôm nay chúng ta sẽ nói cách sử dụng annotation Import để cấu hình cho dự án Spring.
+Chào bạn, trong bài viết hôm nay chúng ta sẽ nói cách sử dụng Annotation Import để cấu hình cho dự án Spring.
  
 
-# **1. Giới thiệu @Import Annotation**
+## **1. Giới thiệu @Import Annotation**
 
-Chúng ta sử dụng annotation Import khi muốn có một hoặc nhiều class cấu hình sẽ được import (nhúng vào) class.
+Chúng ta sử dụng Annotation Import khi muốn có một hoặc nhiều Class cấu hình sẽ được import (nhúng vào) Class.
 
-# **2. Sử dụng import bằng XML**
+## **2. Sử dụng import bằng XML**
 
 Ví dụ ta có file xml sau là web.xml. Trong file web.xml này ta muốn nhúng các file xml khác là spring-common.xml, spring-dao.xml và spring-beans. 
 
@@ -44,7 +44,7 @@ Thì ta dùng thẻ <import>
 {% endhighlight %}
 
 
-# **2. Sử dụng import bằng annotation**
+## **3. Sử dụng import bằng annotation**
 
 {% highlight java linenos %}
 
