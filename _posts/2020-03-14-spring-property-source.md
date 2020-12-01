@@ -7,22 +7,22 @@ tags: [spring-core]
 summery: PropertySource Annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Hiều cấu hình PropertySource Annotation trong lập trình Spring. Hướng dẫn sử dụng PropertySource Annotation trong lập trình Spring.
+description : Với những chia sẻ trong bài viết, người đọc sẽ nắm được tổng quan về @PropertySource Annotation trong lập trình Spring. Cùng với đó, với những ví dụ minh hoạ được đưa ra trong bài viết sẽ hướng dẫn người đọc cách thực hiện để load nhiều file configure trong Spring và cách thức để sử dụng @Value khi lập trình Spring.
 youtubeId: 0n8_2yG5F7I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn, Trong bài viết hôm nay chúng ta sẽ nói cách sử dụng annotation PropertySource để cấu hình cho dự án Spring.
+Chào bạn, trong bài viết hôm nay chúng ta sẽ nói cách sử dụng Annotation PropertySource để cấu hình cho dự án Spring.
  
 
-# **1. Giới thiệu @PropertySource Annotation**
+## **1. Giới thiệu @PropertySource Annotation**
 
-Chúng ta sử dụng annotation PropertySource để đọc các giá trị từ file và gán vào các thuộc tính trong Bean. Anh lấy ví dụ như trong dự án chúng ta thường có 1 file cấu hình database trong file này chúng ta điền tham số của database như username và password. Sau đó trong Class Java bean chúng ta chỉ cần lấy giá trị lưu đó từ file ra thông qua annotation @Value hoặc @Eviroment. 
+Chúng ta sử dụng Annotation PropertySource để đọc các giá trị từ file và gán vào các thuộc tính trong Bean. Anh lấy ví dụ như trong dự án chúng ta thường có 1 file cấu hình database trong file này chúng ta điền tham số của database như username và password. Sau đó trong Class Java bean chúng ta chỉ cần lấy giá trị lưu đó từ file ra thông qua Annotation @Value hoặc @Eviroment. 
 
-Trong thực tế chúng ta không điền thẳng giá trị user name và password trực tiếp trong code mà phải tạo 1 file riêng chứa các thông tin này. Sau đó dùng @PropertySource để load thông tin ra
+Trong thực tế chúng ta không điền thẳng giá trị user name và password trực tiếp trong code mà phải tạo 1 file riêng chứa các thông tin này. Sau đó dùng @PropertySource để load thông tin ra.
 
 - Giả sử ta có 1 file tên config.properties
 
@@ -72,9 +72,9 @@ public class ProperySourceDemo implements InitializingBean {
 
 {% endhighlight %}
 
-# **2. Load nhiều file configure**
+## **2. Load nhiều file configure**
 
-Chúng ta có thể load nhiều file properties cùng một lúc nếu dự án có nhiều file properties
+Chúng ta có thể load nhiều file properties cùng một lúc nếu dự án có nhiều file properties.
 <br>
 {% highlight java linenos %}
 
@@ -89,9 +89,9 @@ Chúng ta có thể load nhiều file properties cùng một lúc nếu dự án
 
 {% endhighlight %}
 
-# **3. Sử dụng @Value**
+## **3. Sử dụng @Value**
 
-Ngoài cách sử dụng đối tượng Enviroment, ta có thể sử dụng @Value để lấy giá trị trong file properties. Cách này thì anh hay dùng
+Ngoài cách sử dụng đối tượng Enviroment, ta có thể sử dụng @Value để lấy giá trị trong file properties. Cách này thì anh hay dùng.
 
 {% highlight java linenos %}
 
