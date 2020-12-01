@@ -7,25 +7,25 @@ tags: [spring-core]
 summery: Configure Annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Hiều cấu hình Configure Annotation trong lập trình Spring. Hướng dẫn sử dụng Configure Annotation trong lập trình Spring.
+description : Qua những chia sẻ trong bài viết người đọc hiểu được tổng quan về @Configure Annotation, một thành phần trong Spring Core Framework. Bên cạnh đó biết được khi nào nên dùng annotation @Configuration trong lập trình Spring. Trong những chia sẻ tiếp theo của bài viết sẽ hướng dẫn cách để khai báo @Configure Annotation sử dụng trong lập trình Spring như thế nào để đạt được hiệu quả. Trong bài viết cũng có chia sẻ kèm theo các ví dụ minh hoạ cú pháp và cách thực hiện.
 youtubeId: 0n8_2yG5F7I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào bạn, trong bài viết hôm nay chúng ta sẽ nói cách sử dụng annotation Configure để cấu hình cho dự án Spring.
+Chào bạn, trong bài viết hôm nay chúng ta sẽ nói cách sử dụng Annotation Configure để cấu hình cho dự án Spring.
  
-# **1. Giới thiệu @Configure Annotation**
+## **1. Giới thiệu @Configure Annotation**
 
-Spring @Configuration là một thành phần trong spring core framework. @Configuration annotation chỉ ra rằng trong class đó có @Bean. Vì vậy khi Spring IoC quyét qua các Class mà có annotation là @Configuration nó sẽ hiểu trong Class đó có khai báo một số bean và vào đó tạo các bean
+Spring @Configuration là một thành phần trong Spring Core Framework. @Configuration Annotation chỉ ra rằng trong Class đó có @Bean. Vì vậy khi Spring IoC quét qua các Class mà có Annotation là @Configuration nó sẽ hiểu trong Class đó có khai báo một số bean và vào đó tạo các bean.
 
-Thường những cấu hình file cấu hình dự án mình sẽ dùng annotation @Configuration để đánh dấu cho Spring IoC biết.
+Thường những cấu hình file cấu hình dự án mình sẽ dùng Annotation @Configuration để đánh dấu cho Spring IoC biết.
 
-# **2. Khai báo @Configure Annotation**
+## **2. Khai báo @Configure Annotation**
 
-- Chúng ta sử dụng annotation @Configuration để đánh dấu là Class đó là Class dùng để cấu hình và có các bean cấu hình trong đó.
+- Chúng ta sử dụng Annotation @Configuration để đánh dấu là Class đó là Class dùng để cấu hình và có các bean cấu hình trong đó.
 
 {% highlight java linenos %}
 
