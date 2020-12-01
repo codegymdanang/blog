@@ -7,22 +7,22 @@ tags: [spring-core]
 summery: Cấu hình qua annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Hiều cấu hình spring thông qua annotation trong lập trình Spring. Hiểu . Hướng dẫn sử dụng cấu hình dự án thông qua annotation trong lập trình Spring.
+description : Bài viết trình bày về chủ đề Annotation để cấu hình cho dự án Spring. Qua những chia sẻ trong bài viết, người đọc biết được ưu điểm khi sử dụng Annotation trong Spring. Đồng thời được hướng dẫn cách khai báo để bật chức năng auto wire bean trong Spring. Và tìm hiểu về một số Annitation được sử dụng phổ biến trong Spring như Annotation @Requires, Annotation @Autowire, Annotation @Primary, Annotation @Qualifier, Annotation @PostConstruct và Annotation @PreDestroy. Cùng với đó là những ví dụ trong mỗi Annitation của ngôn ngữ lập trình Spring giúp áp dụng được các Annotation vào lập trình được hiệu quả hơn.
 youtubeId: 0n8_2yG5F7I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào ban, Trong bài viết hôm nay chúng ta sẽ nói cách sử dụng annotation để cấu hình cho dự án Spring.
+Chào bạn, trong bài viết hôm nay chúng ta sẽ nói cách sử dụng Annotation để cấu hình cho dự án Spring.
 
-Kể từ version Spring 2.5 trở đi chúng ta có thể cấu hình các DI bằng cách sử dụng các annotaion thay cho cấu hình bằng file XML. Chúng ta dùng annotation thay cho cấu hình XML vì cấu hình XML khá cồng kềnh dài dòng và phức tạp. 
+Kể từ version Spring 2.5 trở đi chúng ta có thể cấu hình các DI bằng cách sử dụng các Annotaion thay cho cấu hình bằng file XML. Chúng ta dùng Annotation thay cho cấu hình XML vì cấu hình XML khá cồng kềnh, dài dòng và phức tạp. 
 
 
-# **1. Bật chức năng auto wire bean**
+## **1. Bật chức năng auto wire bean**
 
-Chức năng autowire (nhúng bean phụ thuộc DI) không bật lên mặc định mà chúng ta phải khai báo và bật nó lên trước khi sử dụng các annotation để nhúng các bean. Để bật chức năng này lên ta khai báo như sau
+Chức năng autowire (nhúng bean phụ thuộc DI) không bật lên mặc định mà chúng ta phải khai báo và bật nó lên trước khi sử dụng các Annotation để nhúng các bean. Để bật chức năng này lên ta khai báo như sau:
 
 <br>
 {% highlight xml linenos %}
@@ -46,9 +46,9 @@ Chức năng autowire (nhúng bean phụ thuộc DI) không bật lên mặc đ�
 
 - Chúng ta khai báo <context:annotation-config/>. Khi chức năng này được bật lên chúng ta có thể nhúng các giá trị vào thuộc tính, phương thức và constructor của các bean phụ thuộc vào Class mà ta mong muốn.
 
-- Spring cung cấp một số annotation sau
+- Spring cung cấp một số Annotation sau.
 
-# **2. Annotation @Required**
+## **2. Annotation @Required**
 
 @Required annotation nói rằng các method set phải bắt buộc phải nhúng bean phụ thuộc vào.
 
@@ -73,9 +73,9 @@ public class EmailClient {
 {% endhighlight %}
 
 
-# **3. Annotation @Autowire**
+## **3. Annotation @Autowire**
 
-Chúng ta sử dụng @Autowire để nhúng một bean phụ thuộc vào bean. Có thể nhúng qua constructor , setter hoặc qua các biến.
+Chúng ta sử dụng @Autowire để nhúng một bean phụ thuộc vào bean. Có thể nhúng qua constructor, setter hoặc qua các biến.
 
 - Nhúng qua constructor
 
@@ -123,11 +123,11 @@ class Car {
 
 {% endhighlight %}
 
-# **4. Annotation @Primary**
+## **4. Annotation @Primary**
 
-Sử dụng @Primary khi ta có nhiều beans cùng kiểu dữ liệu và ta muốn ưu tiên một kiểu nào nào đó. Trong ví dụ dưới đây ta viết 1 chương trình gửi thư. Có 2 dịch vụ gửi thư là Facebook và Email. 
+Sử dụng @Primary khi ta có nhiều beans cùng kiểu dữ liệu và ta muốn ưu tiên một kiểu nào đó. Trong ví dụ dưới đây ta viết 1 chương trình gửi thư. Có 2 dịch vụ gửi thư là Facebook và Email. 
 
-Cả 2 services FacebookMessageService và EmailMessageService cùng cài đặt chung 1 interface MessageService. Như vậy ta có 2 bean FacebookMessageService và EmailMessageService có cùng kiểu dữ liệu là MessageService. Vậy cái nào sẽ được ưu tiên đầu tiên. Chúng ta sẽ đi tiếp ví dụ sau
+Cả 2 services FacebookMessageService và EmailMessageService cùng cài đặt chung 1 interface MessageService. Như vậy ta có 2 bean FacebookMessageService và EmailMessageService có cùng kiểu dữ liệu là MessageService. Vậy cái nào sẽ được ưu tiên đầu tiên. Chúng ta sẽ đi tiếp ví dụ sau.
 
 - Tạo file pom cấu hình cho dự án
 <br>
@@ -217,9 +217,9 @@ public class EmailMessageService implements MessageService {
 
 Như vậy ta thấy rằng cả 2 service FacebookMessageService và EmailMessageService cùng implement 1 interface là MessageService.
 
-Nhưng ta thấy lớp EmailMessageService có thêm annotation là @Primary ở đây.
+Nhưng ta thấy lớp EmailMessageService có thêm Annotation là @Primary ở đây.
 
-- Bật chế độ cấu Annotation 
+- Bật chế độ cấu hình Annotation 
 
 <br>
 {% highlight java linenos %}
@@ -254,9 +254,9 @@ public class Application {
 Kết quả là : gửi bằng email được in ra. Bởi vì khi ta gọi getBean(MessageService.class) nó sẽ ưu tiên EmailMessageService vì lớp này có annotation là @Primary. Nên nó ưu tiên dùng thằng này, mặc dù EmailMessageService và FacebookMessageService cùng kiểu dữ liệu là MessageService
 
 
-# **5. Annotation @Qualifier**
+## **5. Annotation @Qualifier**
 
-Chúng ta sử dụng @Qualifier để xát định chính xát loại dữ liệu nào được đưa vào. Như các em thấy ví dụ @Primary chúng ta có EmailMessageService và FacebookMessageService có cùng 1 kiểu dữ liệu là MessageService. Vì chúng cùng kiểu nên khi nhúng bean vào thì Spring IoC không biết nên nhúng cái nào là đúng. Nên để giúp Spring IoC nhúng đúng bean ta cần thì ta dùng @Qualifier để chỉ ra bean nhúng vào chính là EmailMessageService hay FacebookMessageService
+Chúng ta sử dụng @Qualifier để xác định chính xác loại dữ liệu nào được đưa vào. Như các em thấy ví dụ @Primary chúng ta có EmailMessageService và FacebookMessageService có cùng 1 kiểu dữ liệu là MessageService. Vì chúng cùng kiểu nên khi nhúng bean vào thì Spring IoC không biết nên nhúng cái nào là đúng. Nên để giúp Spring IoC nhúng đúng bean thì ta cần dùng @Qualifier để chỉ ra bean nhúng vào chính là EmailMessageService hay FacebookMessageService
 
 {% highlight java linenos %}
 
@@ -271,7 +271,7 @@ private MessageService facebookMessageService;
 {% endhighlight %}
 
 
-# **5. @PostConstruct and @PreDestroy**
+## **6. @PostConstruct and @PreDestroy**
 
 Trong bài vòng đời của bean. Chúng ta sử dụng InitializingBean, DisposableBean để can thiệp vào bean lúc tạo và phá huỷ. Ngoài cách đó chúng ta có thể sử dụng annotation @PostConstruct and @PreDestroy
 
