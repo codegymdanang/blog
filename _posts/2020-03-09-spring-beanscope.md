@@ -7,26 +7,26 @@ tags: [spring-core]
 summery: Phạm vi hoạt động của bean 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Bài viết giới thiệu về cách nhúng DI, Dependency Injection bằng Constructor trong Spring. Cụ thể trong những chia sẻ của bài viết sẽ trình bày về cơ chế nhúng bean phụ thuộc thông qua hàm khởi tạo (Constructor) của đối tượng. Bao gồm hướng dẫn cách sử dụng Maven Pom, Email Service,  Client Service và Testing trong lập trình Spring. Ở mỗi phần bài viết chia sẻ kèm theo những ví dụ hướng dẫn cú pháp thực hiện sẽ giúp người đọc hiểu được và áp dụng được thao tác nhúng DI bằng Constructor trong lập trình Spring.
+description : Bài viết trình bày về chủ đề Bean Scope hay còn gọi là phạm vi hoạt động của Bean trong Spring. Người đọc sẽ được lần lượt tìm hiểu về các Scope gồm Singleton Scope, Prototype Scope, Request Session Application và WebSocket Scope, Request Scope, Session Scope và Application Scope trong lập trình Spring. Trong mỗi loại Scope, bài viết chia sẻ kèm theo những hình ảnh ví dụ minh hoạ cú pháp thực hiện giúp tham khảo và áp dụng được vào thực hành hiệu quả hơn.
 youtubeId: 0n8_2yG5F7I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào ban , chắc hẳn bạn cảm thấy khó hiểu về <b>Bean Scope (Phạm vi hoạt động của Bean) </b> là gì đúng không? Trong bài viết hôm nay chúng ta sẽ nói qua 6 phạm vi (scope) của một bean được tạo ra trong container.
+Chào bạn, chắc hẳn bạn cảm thấy khó hiểu về <b>Bean Scope (Phạm vi hoạt động của Bean) </b> là gì đúng không? Trong bài viết hôm nay chúng ta sẽ trình bày về 6 phạm vi (Scope) của một Bean được tạo ra trong container.
 
-Có bao giờ bạn tự hỏi các beans (đối tượng) được tạo ra như thế nào không và khi nào nó được tạo ra trong container. Các scope dưới đây sẽ mô tả rõ.
+Có bao giờ bạn tự hỏi các Beans (đối tượng) được tạo ra như thế nào và khi nào nó được tạo ra trong container không? Các Scope dưới đây sẽ giúp giải đáp thắc mắc này của bạn.
 
 
-# **1 .Singleton Scope**
+## **1 .Singleton Scope**
 
-- Khi một bean được khai báo là Singleton thì bean đó là duy nhất trong Spring IoC và được share cho tất cả các beans khác nếu cần sử dụng nó. Như vậy ta chỉ cần tạo 1 bean duy nhất và sử dụng cho toàn hệ thống. Anh lấy ví dụng mình có 1 bean về connect database thì mình chỉ tạo 1 lần duy nhất. Các bean khác muốn dùng thì nhúng vào chứ không phải mình có 10 beans khác nhau dùng bean connect database thì mình tạo 10 bean database trong Spring IoC.
+- Khi một Bean được khai báo là Singleton thì Bean đó là duy nhất trong Spring IoC và được share cho tất cả các Beans khác nếu cần sử dụng nó. Như vậy ta chỉ cần tạo một Bean duy nhất và sử dụng cho toàn hệ thống. Anh lấy ví dụ mình có 1 Bean về connect database thì mình chỉ tạo một lần duy nhất. Các Bean khác muốn dùng thì nhúng vào chứ không phải mình có 10 Beans khác nhau dùng Bean Connect Database thì mình tạo 10 Bean Database trong Spring IoC.
 
-- Scope mặc định khi một bean được tạo ra là Singleton
+- Scope mặc định khi một Bean được tạo ra là Singleton.
 
-- Định nghĩa Scope Singletion bằng XML
+- Định nghĩa Scope Singletion bằng XML.
 
 
 {% highlight xml linenos %}
@@ -38,7 +38,7 @@ Có bao giờ bạn tự hỏi các beans (đối tượng) được tạo ra nh
 
 {% endhighlight %}
 
-- Định nghĩa Scope Singleton bằng Java base
+- Định nghĩa Scope Singleton bằng Java base.
 
 {% highlight java linenos %}
 
@@ -54,11 +54,11 @@ public class AppConfiguration {
 
 {% endhighlight %}
 
-# **2 .Prototype Scope**
+## **2 .Prototype Scope**
 
-Khác với Singleton scope, bean (đối) sẽ được tạo ra mới mỗi khi có một yêu cầu tạo bean. Như vậy mỗi lần gọi tới bean mà có scope là Prototype thì nó sẽ tạo ra một đối tượng (bean) trong Spring IoC container.
+Khác với Singleton Scope, Bean (đối tượng) sẽ được tạo ra mới mỗi khi có một yêu cầu tạo Bean. Như vậy mỗi lần gọi tới Bean mà có Scope là Prototype thì nó sẽ tạo ra một đối tượng (Bean) trong Spring IoC container.
 
-- Định nghĩa Scope Singletion bằng XML
+- Định nghĩa Scope Singletion bằng XML.
 
 
 {% highlight xml linenos %}
@@ -67,7 +67,7 @@ Khác với Singleton scope, bean (đối) sẽ được tạo ra mới mỗi kh
 
 {% endhighlight %}
 
-- Định nghĩa Scope Singleton bằng Java base
+- Định nghĩa Scope Singleton bằng Java base.
 
 {% highlight java linenos %}
 
@@ -83,11 +83,11 @@ public class AppConfiguration {
 
 {% endhighlight %}
 
-# **3 .Request Session Application và WebSocket Scope**
+## **3 .Request Session Application và WebSocket Scope**
 
-Những scope như request, session, application và websocket thì chỉ có tồn tại ở những ứng dụng là web application. Nếu ta sử dụng ở những ứng dụng Spring độc lập thì sẽ nhận được thông báo lỗi IllegalExection unknow bean scope vì ứng dụng này không phải là ứng dụng web nên không có scope nêu trên.
+Những Scope như Request, Session, Application và Websocket thì chỉ có tồn tại ở những ứng dụng là Web Application. Nếu ta sử dụng ở những ứng dụng Spring độc lập thì sẽ nhận được thông báo lỗi IllegalExection unknow bean scope vì ứng dụng này không phải là ứng dụng web nên không có Scope nêu trên.
 
-Để sử dụng được các scope trên thì chúng ta phải configure (cấu hình) dự án web thêm một vài thông số như thêm SpringDispatchServlet vào file cấu hình trong file web.xml trước khi sử dụng các scope trên
+Để sử dụng được các Scope trên thì chúng ta phải Configure (cấu hình) dự án web thêm một vài thông số như thêm SpringDispatchServlet vào file cấu hình trong file web.xml trước khi sử dụng các Scope trên.
 
 {% highlight xml linenos %}
 
@@ -107,9 +107,9 @@ Những scope như request, session, application và websocket thì chỉ có t�
 {% endhighlight %}
 
 
-# **4 .Request Scope**
+## **4 .Request Scope**
 
-- Cấu hình request scope cho XML
+- Cấu hình Request Scope cho XML.
 
 {% highlight xml linenos %}
 
@@ -117,7 +117,7 @@ Những scope như request, session, application và websocket thì chỉ có t�
 
 {% endhighlight %}
 
-- Cấu hình request scope cho Java
+- Cấu hình Request Scope cho Java.
 
 {% highlight java linenos %}
 
@@ -129,12 +129,12 @@ public class LoginAction {
 
 {% endhighlight %}
 
-- Spring Container sẽ tạo bean(đối tương) LoginAction mới khi có một request(yêu cầu) từ ngừoi dùng. Sau khi request(yêu cầu) xử lý xong thì bean sẽ bị xoá đi
+- Spring Container sẽ tạo bean (đối tượng) LoginAction mới khi có một request (yêu cầu) từ người dùng. Sau khi Request (yêu cầu) xử lý xong thì Bean sẽ bị xoá đi.
 
 
-# **5 .Session Scope**
+## **5 .Session Scope**
 
-Scope session sẽ tồn tại chừng nào sesion ở HTTP. Nó sẽ bị xoá đi khỏi Spring IoC khi session ở web bị xoá hoặc hết hiệu lực
+Scope Session sẽ tồn tại chừng nào Sesion ở HTTP. Nó sẽ bị xoá đi khỏi Spring IoC khi Session ở Web bị xoá hoặc hết hiệu lực.
 
 {% highlight xml linenos %}
 
@@ -142,7 +142,7 @@ Scope session sẽ tồn tại chừng nào sesion ở HTTP. Nó sẽ bị xoá 
 
 {% endhighlight %}
 
-- Cấu hình request scope cho Java
+- Cấu hình Request Scope cho Java
 
 {% highlight java linenos %}
 
@@ -154,9 +154,9 @@ public class UserPreferences {
 
 {% endhighlight %}
 
-# **5 .Application Scope**
+## **6 .Application Scope**
 
-Ápplication scope được tạo một lần cho toàn bộ ứng dụng web application. Application scope được chứa đựng như một ServletContext nó cũng gần tương tự như Singleton scope nhưng nó là singleton cho từng ServeletContext.
+Application Scope được tạo một lần cho toàn bộ ứng dụng Web Application. Application Scope được chứa đựng như một ServletContext, nó cũng gần tương tự như Singleton Scope nhưng nó là Singleton cho từng ServeletContext.
 
 {% highlight xml linenos %}
 
@@ -164,7 +164,7 @@ public class UserPreferences {
 
 {% endhighlight %}
 
-- Cấu hình request scope cho Java
+- Cấu hình Request Scope cho Java
 
 {% highlight java linenos %}
 
