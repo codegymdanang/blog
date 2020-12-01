@@ -7,28 +7,28 @@ tags: [spring-core]
 summery: Vòng đời Bean
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
-description : Hiều vòng đời Bean trong lập trình Spring. Hiểu được Bean Lifecycle là gì. Hướng dẫn sử dụng Bean Lifecycle trong lập trình Spring.
+description : Bài viết trình bày về vòng đời của một bean được tạo ra và phá huỷ trong Spring container. Người đọc lần lượt được tìm hiểu về 2 phương phức được sử dụng để can thiệp vào vòng đời của bean trong Spring gồm InitializingBean và DisposableBean. Tiếp theo được hướng dẫn sử dụng cấu hình project và cấu hình pom và được hiểu rõ hơn vòng đời bean trong Spring thông qua ví dụ bean database trước khi khởi tạo và phá huỷ trong Spring được đề cập đến ở cuối bài viết.
 youtubeId: 0n8_2yG5F7I
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
 Chào bạn, trong bài viết hôm nay chúng ta sẽ nói qua vòng đời của một bean được tạo ra và phá huỷ trong Spring container.
 
-# **1 .InitializingBean and DisposableBean**
+## **1 .InitializingBean and DisposableBean**
 
 Trong Spring chúng ta có thể sử dụng InitializingBean and DisposableBean để can thiệp khi bean (đối tượng) được tạo ra và huỷ đi trong Spring IoC container. 
 
-- Các beans mà cài đặt InitializingBean mình có thể can thiệp vào quá trình tạo bean bằng việc thêm các thay đổi trong hàm afterPropertiesSet() mà InitializingBean cung cấp cho mình
+- Các beans mà cài đặt InitializingBean mình có thể can thiệp vào quá trình tạo bean bằng việc thêm các thay đổi trong hàm afterPropertiesSet() mà InitializingBean cung cấp cho mình.
 
-- Các beans mà cài đặt DisposableBean mình có thể can thiệt vào quá trình bean bị huỷ bằng cách thêm các dòng code vào phương thức destroy() mà DisposableBean cung cấp
+- Các beans mà cài đặt DisposableBean chúng ta có thể can thiệp vào quá trình bean bị huỷ bằng cách thêm các dòng code vào phương thức destroy() mà DisposableBean cung cấp.
 
-# **2 .Cấu hình project**
+## **2 .Cấu hình project**
 
 
-# **3 .Cấu hình pom**
+## **3 .Cấu hình pom**
 
 <br>
 {% highlight xml linenos %}
@@ -71,7 +71,7 @@ Trong Spring chúng ta có thể sử dụng InitializingBean and DisposableBean
 
 {% endhighlight %}
 
-# **4 .Ví dụ bean Database trước khi khởi tạo và huỷ**
+## **4 .Ví dụ bean Database trước khi khởi tạo và phá huỷ**
 
 <br>
 {% highlight java linenos %}
