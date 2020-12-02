@@ -6,23 +6,23 @@ category: database
 tags: [database]
 summery: Kiểu dữ liệu    
 image: /images/blog/database.png
-description : Trình bày kiểu dữ liệu của database. Hướng dẫn cách sử dụng kiểu dữ liệu trong database
+description : Bài viết trình bày về các kiểu dữ liệu được sử dụng trong Database. Trong những chia sẻ của bài viết, người đọc sẽ lần lượt được tìm hiểu và hướng dẫn sử dụng cụ thể từng kiểu dữ liệu khác nhau, nắm được định dạng của mỗi kiểu dữ liệu. Bao gồm từ kiểu dữ liệu chuỗi, kiểu dữ liệu số, kiểu dữ liệu ngày trong Database. Ở cuối bài viết chia sẻ kèm theo một video hướng dẫn cách thao tác thông qua ví dụ code demo.
 youtubeId: 5tAE8qXPFts
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chúng ta sẽ nói về chủ đề kiểu dữ liệu trong database là gì nhé ?
+Chào các em, hôm nay chúng ta sẽ nói về chủ đề kiểu dữ liệu trong Database là gì nhé?
 
-# **1. Kiểu dữ liệu**
+## **1. Kiểu dữ liệu**
 
-Mỗi column(cột) trong database điều có kiểu dữ liệu để lưu trữ thông tin về đối tượng. Kiểu dữ liệu có thể lưu trong các cột có thể là kiểu số, chữ , tiền tệ hoặc ngày tháng v.v
+Mỗi Column (cột) trong Database đều có kiểu dữ liệu để lưu trữ thông tin về đối tượng. Kiểu dữ liệu có thể lưu trong các cột có thể là kiểu số, chữ, tiền tệ hoặc ngày tháng, v.v.
 
-Trong database có 3 kiểu dữ liệu chính là chuỗi, số và ngày tháng
+Trong Database có 3 kiểu dữ liệu chính là chuỗi, số và ngày, tháng.
 
-# **2. Kiểu dữ liệu chuỗi**
+## **2. Kiểu dữ liệu chuỗi**
 
 {:class="table table-bordered"}
 |  Kiểu dữ liệu  					|  Mô tả											    	|
@@ -40,7 +40,7 @@ Trong database có 3 kiểu dữ liệu chính là chuỗi, số và ngày thán
 |	LongText						| chứa kiểu string chứa đến 4,294,967,295 ký tự				|
 |	LongBlob						| chứa đến 4,294,967,295 bytes dữ liệu						|
 
-# **3. Kiểu dữ liệu số**
+## **3. Kiểu dữ liệu số**
 
 {:class="table table-bordered"}
 |  Kiểu dữ liệu  					|  Mô tả											    	|
@@ -57,20 +57,20 @@ Trong database có 3 kiểu dữ liệu chính là chuỗi, số và ngày thán
 |	FLOAT(p)						| chứa kiểu dạng tiền tệ như $2.1. p là tổng con số sau dấu . |
 |	DOUBLE(p)						| nếu p là từ 0 -> 24 là kiểu float còn từ 25->53 là DOUBLE | 
 
-# **4. Kiểu dữ liệu ngày**
+## **4. Kiểu dữ liệu ngày**
 
 {:class="table table-bordered"}
 |  Kiểu dữ liệu  					|  Mô tả											    	|
 |---								|---														|
-|	DATE							| Kiểu ngày với đinh danh là YYYY-MM-DD						|
+|	DATE							| Kiểu ngày với định dạng là YYYY-MM-DD						|
 |	DATETIME						| Kiểu ngày và giờ với định dạng Format: YYYY-MM-DD hh:mm:ss|
 |	TIMESTAMP 						| Kiểu định dạng YYYY-MM-DD hh:mm:ss cho giờ hiện tại của hệ thống |
 |	TIME 							| Định dạng  hh:mm:ss										|
-|	YEAR							| Đinh đạng 4 chữ số từ năm 1901 to 2155
+|	YEAR							| Đinh dạng 4 chữ số từ năm 1901 to 2155
 
 
 <br>
-# **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+## **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
