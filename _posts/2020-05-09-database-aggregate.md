@@ -6,17 +6,17 @@ category: database
 tags: [database]
 summery: Hàm tổng hợp    
 image: /images/blog/database.png
-description : Trình bày các hàm tổng hợp trong database. Hướng dẫn cách sử dụng các hàm tổng hợp trong database
+description : Những chia sẻ trong bài viết nhằm giúp người đọc hiểu và áp dụng được các hàm tổng hợp trong Database. Tác giả lần lượt giới thiệu kết hợp hướng dẫn cú pháp thực hiện cụ thể thông qua các ví dụ. Bao gồm các nội dung, SQL Limit để chỉ số dòng được trả về, SQL Min và Max để lấy ra những kết quả có giá thấp nhất và cao nhất, SQL Count AVG SUM để đếm số lượng kết quả trả về.
 youtubeId: tKLOuvrHCNw
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chúng ta sẽ nói về các hàm tổng hợp trong database là gì nhé ?
+Chào các em, hôm nay chúng ta sẽ nói về các hàm tổng hợp trong Database là gì nhé?
 
-- Ví dụ ta có table sau đây
+- Ví dụ ta có Table sau đây:
 
 {:class="table table-bordered"}
 |  CustomerName                     |  ContactName      |   Address                     |   City        |   PostalCode  |   Country     |
@@ -28,7 +28,7 @@ Chào các em, hôm nay chúng ta sẽ nói về các hàm tổng hợp trong da
 |Berglunds snabbköp                 |Christina Berglund |Berguvsvägen 8                 |   Luleå       |   S-958 22    |   Sweden      |
 
 
-# **1. SQL Limit**
+## **1. SQL Limit**
 
 Chúng ta sử dụng Limit để chỉ rõ số dòng sẽ được trả về.
 
@@ -63,7 +63,7 @@ SELECT TOP 50 PERCENT * FROM Customers;
 
 {% endhighlight %}
 
-- Chúng ta có thể kết hợp mệnh đề where vào trong câu truy vấn
+- Chúng ta có thể kết hợp mệnh đề Where vào trong câu truy vấn
 
 <br>
 {% highlight sql linenos %}
@@ -74,7 +74,7 @@ LIMIT 3;
 
 {% endhighlight %}
 
-# **2. SQL Min và Max**
+## **2. SQL Min và Max**
 
 - Cú pháp
 <br>
@@ -95,7 +95,7 @@ WHERE condition;
 
 {% endhighlight %}
 
-- Ví dụ lấy ra những kết quả có giá thấp nhất
+- Ví dụ lấy ra những kết quả có giá trị thấp nhất
 
 <br>
 {% highlight sql linenos %}
@@ -105,7 +105,7 @@ FROM Products;
 
 {% endhighlight %}
 
-- Ví dụ lấy ra những kết quả có giá cao nhất
+- Ví dụ lấy ra những kết quả có giá trị cao nhất
 <br>
 {% highlight sql linenos %}
 
@@ -114,9 +114,9 @@ FROM Products;
 
 {% endhighlight %}
 
-# **3. SQL Count AVG SUM**
+## **3. SQL Count AVG SUM**
 
-Chúng ta sử dụng Count để đếm số lượng kết quả trả về
+Chúng ta sử dụng Count để đếm số lượng kết quả trả về.
 
 - Cú pháp
 
@@ -129,7 +129,7 @@ WHERE condition;
 
 {% endhighlight %}
 
-- Ví dụ đến số lượng sản phẩm có là bao nhiêu
+- Ví dụ đếm số lượng sản phẩm hiện có là bao nhiêu
 
 <br>
 {% highlight sql linenos %}
@@ -139,7 +139,7 @@ FROM Products;
 
 {% endhighlight %}
 
-Chúng ta sử dụng AVG để lấy giá trị trung bình
+Chúng ta sử dụng AVG để lấy giá trị trung bình.
 
 - Cú pháp
 
@@ -151,7 +151,7 @@ FROM table_name
 WHERE condition; 
 {% endhighlight %}
 
-- Ví dụ lấy giá trung bình của tổng sản phẩm
+- Ví dụ lấy giá trị trung bình của tổng sản phẩm
 
 <br>
 {% highlight sql linenos %}
@@ -159,7 +159,7 @@ SELECT AVG(Price)
 FROM Products;
 {% endhighlight %}
 
-Chúng ta sử dụng Sum để tính tổng
+Chúng ta sử dụng Sum để tính tổng.
 
 - Cú pháp
 
