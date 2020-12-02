@@ -6,19 +6,19 @@ category: database
 tags: [database]
 summery: Toán tử Like    
 image: /images/blog/database.png
-description : Trình bày các sql like trong database. Hướng dẫn cách sử dụng  sql like trong database
+description : Những chia sẻ trong bài viết đề cập đến chủ đề toán tử Like trong Database. Trong đó tác giả lần lượt trình bày về phép toán tử Like, IN, BETWEEN và cách định danh một cái tên cho Table hoặc Column thông qua từ khoá AS. Ở mỗi phép toán tử, tác giả đưa ra các hình ảnh minh hoạ cho cú pháp thực hiện. Từ đó giúp người đọc hiểu được và áp dụng được toán tử Like trong lập trình Database hiệu quả hơn.
 youtubeId: tKLOuvrHCNw
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chúng ta sẽ nói về sql like trong database là gì nhé ?
+Chào các em, hôm nay chúng ta sẽ nói về SQL Like trong Database là gì nhé?
 
-# **1. Toán tử Like**
+## **1. Toán tử Like**
 
-Toán tử Like hay được sử dụng chung với các mệnh để where để tìm các dữ liệu dự trên một điều kiện được định dạng trước.
+Toán tử Like hay được sử dụng chung với các mệnh để Where để tìm các dữ liệu dựa trên một điều kiện được định dạng trước.
 
 - Cú pháp 
 <br>
@@ -30,7 +30,7 @@ WHERE columnN LIKE pattern;
 
 {% endhighlight %}
 
-Ví dụ toán tử like sử dụng % và _
+Ví dụ toán tử Like sử dụng % và _
 
 - % có nghĩa là 0 hoặc nhiều ký tự
 - _ chỉ là 1 ký tự
@@ -41,11 +41,11 @@ Ví dụ toán tử like sử dụng % và _
 |---								|---											|
 |	WHERE CustomerName LIKE 'a%'	| tìm các giá trị bắt đầu bằng chữ a theo sau là chữ gì cũng được	|
 |	WHERE CustomerName LIKE '%a'	| chữ cuối phải là chữ a trước đó chữ gì cũng được |
-|	WHERE CustomerName LIKE '%or%'	| bắt buột chữ ở giữa là chữ or trước đó hoặc sau đó chữ gì cũng được |
+|	WHERE CustomerName LIKE '%or%'	| bắt buộc chữ ở giữa là chữ or trước đó hoặc sau đó chữ gì cũng được |
 |	WHERE CustomerName LIKE '_r%'	| chữ r bắt buộc phải nằm ở vị trí thứ 2							|
-|	WHERE CustomerName LIKE 'a_%'	| chữ đầu tiền là chữ a và tối thiểu 2 ký tự |
-|	WHERE CustomerName LIKE 'a__%'	| chữ đầu tiền là chữ a và tối thiểu 3 ký tự |
-|	WHERE ContactName LIKE 'a%o'	| bắt đầu là chử a và kết thúc là chữ o |
+|	WHERE CustomerName LIKE 'a_%'	| chữ đầu tiên là chữ a và tối thiểu 2 ký tự |
+|	WHERE CustomerName LIKE 'a__%'	| chữ đầu tiên là chữ a và tối thiểu 3 ký tự |
+|	WHERE ContactName LIKE 'a%o'	| bắt đầu là chữ a và kết thúc là chữ o |
 
 
 - Ví dụ tìm tất cả tên khách hàng bắt đầu là chữ a
@@ -68,9 +68,9 @@ WHERE CustomerName LIKE '%a';
 
 {% endhighlight %}
 
-# **2. Toán tử IN**
+## **2. Toán tử IN**
 
-Chúng ta sử dụng toán tử IN để kiểm tra nhiều giá trị trong mệnh đề WHERE
+Chúng ta sử dụng toán tử IN để kiểm tra nhiều giá trị trong mệnh đề WHERE.
 
 - Cú pháp
 <br>
@@ -82,7 +82,7 @@ WHERE column_name IN (value1, value2, ...);
 
 {% endhighlight %}
 
-- Ví dụ tìm tất cả khách hàng có Country là Germany hoặc France hoặc UK
+- Ví dụ tìm tất cả khách hàng có Country là Germany hoặc France hoặc UK.
 
 <br>
 {% highlight sql linenos %}
@@ -92,7 +92,7 @@ WHERE Country IN ('Germany', 'France', 'UK');
 
 {% endhighlight %}
 
-# **3. Toán tử BETWEEN**
+## **3. Toán tử BETWEEN**
 
 Chúng ta sử dụng toán tử Between để kiểm tra điều kiện trong 1 range (khoảng).
 
@@ -127,9 +127,9 @@ WHERE Price NOT BETWEEN 10 AND 20;
 
 {% endhighlight %}
 
-# **4. Định danh**
+## **4. Định danh**
 
-Chúng ta muốn tạo một cái tên cho table hoặc column của chúng ta thông qua từ khoá AS
+Chúng ta muốn tạo một cái tên cho Table hoặc Column của chúng ta thông qua từ khoá AS.
 
 - Cú pháp
 
