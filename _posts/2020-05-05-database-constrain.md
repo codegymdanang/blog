@@ -6,20 +6,20 @@ category: database
 tags: [database]
 summery: Ràng buộc dữ liệu    
 image: /images/blog/database.png
-description : Trình bày ràng buộc dữ liệu trong database. Hướng dẫn cách sử dụng ràng buộc dữ liệu  trong database
+description : Để hiểu được ràng buộc dữ liệu trong Database là gì? Trong những chia sẻ của bài viết sẽ lần lượt trình bày về mục đích của việc ràng buộc dữ liệu và khi nào thì sử dụng ràng buộc dữ liệu trong Database. Tiếp theo đó người đọc sẽ được hướng dẫn sử dụng các Constraint như Constraint NOT NULL, Constraint Unique, Constraint Khoá chính, Khoá phụ, Constraint Check, Constraint Default, Constraint Index và Constraint Auto Increment. Với những chia sẻ trên kèm theo các ví dụ minh hoạ trong mỗi Constraint sẽ giúp người đọc sử dụng được ràng buộc dữ liệu trong lập trình Database.
 youtubeId: 0QGO3bKB1So
 youtubeId1: CXM_oGBqza4
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chúng ta sẽ nói về chủ đề ràng buộc dữ liệu trong database là gì nhé ?
+Chào các em, hôm nay chúng ta sẽ nói về chủ đề ràng buộc dữ liệu trong Database là gì nhé?
 
-# **1. Ràng buộc dữ liệu**
+## **1. Ràng buộc dữ liệu**
 
-Chúng ta sử dụng ràng buộc dữ liệu khi tạo ra bảng hoặc chỉnh sửa bảng. Anh lấy ví dụ khi mình có trường dữ liệu là số điện thoại và mình muốn trường đó không được phép rỗng thì mình sẽ sử dụng từ khoá constraint để bắt buộc người dùng phải nhận vào
+Chúng ta sử dụng ràng buộc dữ liệu khi tạo ra bảng hoặc chỉnh sửa bảng. Anh lấy ví dụ khi mình có trường dữ liệu là số điện thoại và mình muốn trường đó không được phép rỗng thì mình sẽ sử dụng từ khoá Constraint để bắt buộc người dùng phải nhập vào.
 
 - Cú pháp
 
@@ -36,9 +36,9 @@ CREATE TABLE table_name (
 {% endhighlight %}
 
 
-# **2. Constraint NOT NULL**
+## **2. Constraint NOT NULL**
 
-- Ví dụ sau ta ràng buộc trường ID là không được NULL
+- Ví dụ dưới đây ta ràng buộc trường ID là không được NULL
 
 <br>
 {% highlight sql linenos %}
@@ -62,7 +62,7 @@ MODIFY Age int NOT NULL;
 
 {% endhighlight %}
 
-# **3. Constraint Unique**
+## **3. Constraint Unique**
 
 Khi mình muốn dữ liệu của trường đó là duy nhất không bị trùng.
 
@@ -79,9 +79,9 @@ CREATE TABLE Persons (
 
 {% endhighlight %}
 
-# **4. Constraint Khoá chính**
+## **4. Constraint Khoá chính**
 
-Ta sử dụng từ khoá PRIMARY KEY để ràng buộc trường ID là khoá chính. Dữ liệu là duy nhất và không được trùng lặp. Trong table luôn luôn phải có 1 khoá chính.
+Ta sử dụng từ khoá PRIMARY KEY để ràng buộc trường ID là khoá chính. Dữ liệu là duy nhất và không được trùng lặp. Trong Table luôn luôn phải có 1 khoá chính.
 
 <br>
 {% highlight sql linenos %}
@@ -96,9 +96,9 @@ CREATE TABLE Persons (
 
 {% endhighlight %}
 
-# **5. Constraint Khoá phụ**
+## **5. Constraint Khoá phụ**
 
-Ta sử dụng từ khoá FOREIGN KEY để khai báo khoá phụ và dùng để tham chiếu tới một bảng khác
+Ta sử dụng từ khoá FOREIGN KEY để khai báo khoá phụ và dùng để tham chiếu tới một bảng khác.
 
 <br>
 {% highlight sql linenos %}
@@ -112,9 +112,9 @@ CREATE TABLE Orders (
 ); 
 {% endhighlight %}
 
-# **6. Constraint Check**
+## **6. Constraint Check**
 
-Anh lấy ví dụ mình muốn kiểm tra trường Age phải lớn hơn 18 mới cho phép được nhập vào table. Nếu nhỏ hơn 18 thì không được. Chúng ta dùng từ khoá Check để làm việc này.
+Anh lấy ví dụ mình muốn kiểm tra trường Age phải lớn hơn 18 mới cho phép được nhập vào Table. Nếu nhỏ hơn 18 thì không được. Chúng ta dùng từ khoá Check để làm việc này.
 
 <br>
 {% highlight sql linenos %}
@@ -129,7 +129,7 @@ CREATE TABLE Persons (
 
 {% endhighlight %}
 
-# **7. Constraint Default**
+## **7. Constraint Default**
 
 Khi ta muốn tạo một giá trị mặc định cho một trường. Ví dụ anh muốn đặt giá trị mặc định cho trường City là Sandnes nếu người dùng không nhập giá trị vào thì sẽ lấy giá trị Sandnes.
 
@@ -146,9 +146,9 @@ CREATE TABLE Persons (
 
 {% endhighlight %}
 
-# **8. Constraint Index**
+## **8. Constraint Index**
 
-Sử dụng Index để đánh các chỉ mục của table. Index giống như trang mục lục của một cuốn sách. Dựa vào Index thì dể tìm kiếm thông tin hơn. Hãy tưởng tượng cuốn sách có 1000 trang. Nhờ vào index thì chúng ta có thể dể dàng tìm kiếm tới phần cần tìm trong cuốn sách.
+Sử dụng Index để đánh các chỉ mục của Table. Index giống như trang mục lục của một cuốn sách. Dựa vào Index thì dễ tìm kiếm thông tin hơn. Hãy tưởng tượng cuốn sách có 1000 trang. Nhờ vào Index thì chúng ta có thể dễ dàng tìm kiếm tới phần cần tìm trong cuốn sách hơn.
 
 - Cú pháp
 
@@ -178,9 +178,9 @@ DROP INDEX index_name;
 
 {% endhighlight %}
 
-# **9. Constraint Auto Increment**
+## **9. Constraint Auto Increment**
 
-Chúng ta sử dụng từ khoá Auto Increment để tăng tự động giá trị cho một trường trong bảng. Trường này thường là khoá chính. Tăng tự động có nghĩa là lúc đầu giá trị nó là 1. Khi ta thêm một dòng mới thì tự động trường đó tằng giá trị lên 2. Ta hoàn toàn có thể chỉnh sửa bước nhảy đơn vị tăng tự động.
+Chúng ta sử dụng từ khoá Auto Increment để tăng tự động giá trị cho một trường trong bảng. Trường này thường là khoá chính. Tăng tự động có nghĩa là lúc đầu giá trị nó là 1. Khi ta thêm một dòng mới thì tự động trường đó tăng giá trị lên 2. Ta hoàn toàn có thể chỉnh sửa bước nhảy đơn vị tăng tự động.
 
 {% highlight sql linenos %}
 
