@@ -10,6 +10,9 @@ description : Bài viết trình bày về thiết kế Database. Trong đó, t�
 youtubeId: Thx8bBqIY28
 ---
 
+
+{% include toc.html %}
+
 ## **Giới thiệu nội dung bài viết**
 
 Chào các bạn, chắc hẳn sẽ có lúc các bạn gặp phải những khó khăn trong việc <b>tối ưu hoá dữ liệu trong Database</b> một vài lần rồi nhỉ? Các bạn không biết mình nên
