@@ -6,21 +6,21 @@ category: database
 tags: [database]
 summery: Stored Procedure    
 image: /images/blog/database.png
-description : Trình bày Stored Procedure trong database là gì . Hướng dẫn cách sử dụng Stored Procedure trong database
+description : Những chia sẻ trong bài viết giúp hiểu được thuật ngữ Stored Procedure trong Database. Người đọc cũng sẽ được hướng dẫn cú pháp để tạo Stored Procedure trong Database thông qua các ví dụ cụ thể được đưa ra trong bài. Ngoài ra, bài viết cũng trình bày về Stored Procedure với tham số và Stored Procedure với nhiều tham số sử dụng trong Database. Từ đó áp dụng được Stored Procedure trong lập trình Database hiệu quả hơn.
 youtubeId: mxYQUIMJ5Aw
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chúng ta sẽ nói về chủ đề Stored Procedure trong database là gì nhé ?
+Chào các em, hôm nay chúng ta sẽ nói về chủ đề Stored Procedure trong Database là gì nhé?
 
-# **1. Stored Procedure**
+## **1. Stored Procedure**
 
-Cũng giống như lập trình vậy, chúng ta có thể tạo các phương thức các hàm trong SQL khai báo tên hàm các đối số. Sau đó chúng ta có thể gọi hàm và nhận lấy giá trị
+Cũng giống như lập trình vậy, chúng ta có thể tạo các phương thức các hàm trong SQL khai báo tên hàm các đối số. Sau đó chúng ta có thể gọi hàm và nhận lấy giá trị.
 
-- Cú pháp tạo stored procedure
+- Cú pháp tạo Stored Procedure
 
 <br>
 {% highlight sql linenos %}
@@ -32,7 +32,7 @@ GO;
 
 {% endhighlight %}
 
-- Chạy hay thực thi 1 stored procedure
+- Chạy hay thực thi một Stored Procedure
 
 <br>
 {% highlight sql linenos %}
@@ -53,7 +53,7 @@ EXEC procedure_name;
 |Berglunds snabbköp					|Christina Berglund	|Berguvsvägen 8					|	Luleå		|	S-958 22	|	Sweden		|
 
 
-- Chúng ta tạo 1 stored procedure có tên là SelectAllCustomers
+- Chúng ta tạo một Stored Procedure có tên là SelectAllCustomers
 
 <br>
 {% highlight sql linenos %}
@@ -72,11 +72,11 @@ GO;
 EXEC SelectAllCustomers;
 {% endhighlight %}
 
-# **2. Stored Procedure với tham số**
+## **2. Stored Procedure với tham số**
 
-Giống như phương thức (hàm) trong lập trình, thì phướng thức có tham số thì stored procedure cũng có tham số
+Giống như phương thức (hàm) trong lập trình, phướng thức có tham số thì Stored Procedure cũng có tham số.
 
-- Ví dụ tạo một stored procedure có tham số city 
+- Ví dụ tạo một Stored Procedure có tham số city 
 
 <br>
 {% highlight sql linenos %}
@@ -87,7 +87,7 @@ SELECT * FROM Customers WHERE City = @City
 GO;
 {% endhighlight %}
 
-- Chúng ta thực thi stored procedure và truyền tham số city là London vào
+- Chúng ta thực thi Stored Procedure và truyền tham số city là London vào
 
 
 <br>
@@ -97,7 +97,7 @@ EXEC SelectAllCustomers @City = 'London';
 
 {% endhighlight %}
 
-# **3. Stored Procedure với nhiều tham số**
+## **3. Stored Procedure với nhiều tham số**
 
 <br>
 {% highlight sql linenos %}
