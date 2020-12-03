@@ -6,23 +6,23 @@ category: database
 tags: [database]
 summery: View    
 image: /images/blog/database.png
-description : Trình bày view trong database là gì . Hướng dẫn cách sử dụng view trong database
+description : Trước khi đi vào hướng dẫn sử dụng View trong Database cụ thể như thế nào gồm cách thao tác để tạo View, Update View và xoá View trong Database. Tác giả sẽ giới thiệu cho người đọc hiểu được khái niệm View trong Database là gì. Sau đó sẽ hướng dẫn cú pháp thực hiện với View trong lập trình Database thông qua các ví dụ minh hoạ trong bài.
 youtubeId: mxYQUIMJ5Aw
 ---
 
 {% include toc.html %}
 
-# **Giới thiệu nội dung bài viết**
+## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chúng ta sẽ nói về chủ đề Stored Procedure trong database là gì nhé ?
+Chào các em, hôm nay chúng ta sẽ nói về chủ đề Stored Procedure trong Database là gì nhé?
 
-# **1. Tạo View**
+## **1. Tạo View**
 
-View là một dạng table giả hay table ảo không phải table thiệt. Mình thường tạo ra các table ảo để truy vấn dữ liệu cho nhanh.
+View là một dạng Table giả hay Table ảo, không phải là Table thật. Mình thường tạo ra các Table ảo để truy vấn dữ liệu cho nhanh.
 
-Thông thường khi câu truy vấn lặp đi lặp lại nhiều lần ta thường tạo 1 View cho câu truy vấn đó.
+Thông thường khi câu truy vấn lặp đi lặp lại nhiều lần ta thường tạo một View cho câu truy vấn đó.
 
-- Cú pháp tạo VIEW
+- Cú pháp tạo View
 
 <br>
 {% highlight sql linenos %}
@@ -34,7 +34,7 @@ WHERE condition;
 
 {% endhighlight %}
 
-- Ví dụ ta tạo view sau
+- Ví dụ tạo View dưới đây
 
 <br>
 {% highlight sql linenos %}
@@ -46,7 +46,7 @@ WHERE Country = 'Brazil';
 
 {% endhighlight %}
 
-- Chúng ta thực thi câu lệnh để chạy VIEW
+- Chúng ta thực thi câu lệnh để chạy View
 
 <br>
 {% highlight sql linenos %}
@@ -56,7 +56,7 @@ SELECT * FROM [Brazil Customers];
 {% endhighlight %}
 
 
-- Ví dụ tạo view để xem sản phảm và giá trong bảng sản phẩm
+- Ví dụ tạo View để xem sản phẩm và giá trong bảng sản phẩm
 
 <br>
 {% highlight sql linenos %}
@@ -69,7 +69,7 @@ WHERE Price > (SELECT AVG(Price) FROM Products);
 {% endhighlight %}
 
 
-# **2. Update View**
+## **2. Update View**
 
 - Cú pháp
 
@@ -94,7 +94,7 @@ WHERE Country = 'Brazil';
 
 {% endhighlight %}
 
-# **3. Xoá View**
+## **3. Xoá View**
 
 - Cú pháp
 
