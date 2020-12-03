@@ -17,14 +17,18 @@ bắt đầu từ đâu khi xây dựng một <b>Database</b> và làm thế nà
 
 <br>
 ## **Tại sao phải cần chuẩn hoá dữ liệu**
+
 Để hiểu tại sao phải chuẩn hoá dữ liệu thì ta sẽ trả lời chuẩn hoá dữ liệu giúp được gì cho ta.
 
 <br>
 1. Chuẩn hoá dữ liệu giúp ta giảm bớt sự dư thừa dữ liệu trong Database, giúp chương trình chaỵ nhanh hơn, quản lí trở nên dễ dàng hơn.
+
+<br>
 Anh lấy một ví dụ. Công ty Amazon nhờ team chúng ta xây dựng một ứng dụng kho hàng để quản lí sản phẩm. Nếu chúng ta thiết kế không theo các bước chuẩn hoá chắc chắn 100% chúng ta sẽ tạo ra các Tables và các Column mà dữ liệu sẽ trùng lặp không cần thiết.
 Vậy các em hãy tưởng tượng một ngày ở Amazon cả hàng triệu sản phẩm được nhập kho thì lượng dữ liệu bị dư thừa là bao nhiêu.
 Trong khi Database có kích thước giới hạn. Đồng thời khi ta truy vấn dữ liệu cũng sẽ làm cho câu Query chậm đi. Tiếp đến khi mình bảo trì sẽ gặp khó khăn vì không biết dữ liệu thừa đó xoá đi có ảnh hưởng gì đến các chức năng khác không?
 
+<br>
 2. Giảm bớt các lỗi xảy ra khi thực hiện các câu lệnh truy vấn xuống Database như Insert , Update , Delete do dư thừa dữ liệu gây ra.
 <br>
 
