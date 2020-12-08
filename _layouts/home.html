@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="học lập trình, lập trình java , lập trình spring, hướng dẫn học lập , tự học lập trình ">
-  <meta name="keywords" content="java, spring, lập trình web ">
+    <meta name="keywords" content="java, spring, lập trình web ">
 
 	<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="{{site.blog_title}}" />
 	<title>{{site.blog_title}}</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -19,8 +19,10 @@
 	<link rel="stylesheet" href='{{ "/css/style.css" | prepend: site.baseurl }}' >
 	<link rel="stylesheet" href='{{ "/css/themify-icons.css" | prepend: site.baseurl }}' >
 
-
+	<script  src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/1.0.0/lunr.min.js"></script>
 	<script src='{{"/js/jquery-1.12.1.min.js"  | prepend: site.baseurl }}'></script>
+	<script src='{{"/js/search.js"  | prepend: site.baseurl }}'> </script>
+
 	<!-- bootstrap js -->
 	<script src='{{"/js/bootstrap.min.js"  | prepend: site.baseurl }}' ></script>
 	<!-- custom js -->
@@ -70,24 +72,24 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class='relatedposts'>
-							<h4> Lời nói đầu </h4>
+							<h4>Tìm kiếm</h4>
 						</div>
 					</div>
 					<div class="row">
-						<div class="post-container">
-							Chào mừng các bạn đến với blog của anh. Trong Blog này anh tổng hợp lại các kỷ thuật lập trình,
-							các thư viện, frameworks và các kỷ năng mềm mà anh đã trải qua trong suốt 15 năm làm nghề lập trình.
-							<br><br>
+						<div class="row justify-content-between" style="margin-bottom:10px">
+					        <div style="text-align: center;width:100%"> 
+					      			 <form action="get" id="site_search" style="display: inline-block; margin-left: auto;margin-right: auto text-align: left;">
+					          
+					                    <input style="font-size:20px;width:420px" type="text" id="search_box">
+					                    <input style="font-size:20px" type="submit" value="Tìm kiếm">
+					                
+					      			</form>
 
-							Đến với Blog này, anh sẽ truyền đạt lại tất cả các kiến thức từ frontend , backend, devops , testing, qui trình
-							mà anh đã áp dụng thành công trong các dự án của anh cho các em.
-							<br><br>
-
-							Ngoài các blogs về kỷ thuật thì anh cũng viết các bài về kỷ năng mềm , nhằm giúp các em có định hướng tốt khi đi làm
-							đồng thời những kiến thức này sẽ là nền móng để các em phát triển bản thân trong tương lai.
-							<br><br>
-							<h2 style="text-align:center">Chúc các em sẽ thành công trên con đường trở thành lập trình viên giỏi trong tương lai.</h2>
-						</div>
+					      			<ul id="search_results" style="text-align: center;"></ul>
+								     </div>    
+					           
+					            
+					        </div>
 					</div>
 				</div>
 				<!-- Công nghệ Java -->
