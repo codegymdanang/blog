@@ -1,5 +1,5 @@
 ---
-layout: course-jquery
+layout: course-manual-testing
 title: Kiểm thử phần mềm là gì
 slug : kiem-thu-phan-mem-la-gi
 category: testing
