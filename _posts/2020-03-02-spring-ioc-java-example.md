@@ -8,7 +8,7 @@ summery: Cấu hình IOC bằng Java
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Những chia sẻ trong bài viết giúp hiểu được Spring IOC bằng Java trong lập trình là gì? Cấu hình Spring IOC qua Java là gì? Ngoài ra qua bài viết người đọc sẽ biết được cách để tạo dự án Maven, thao tác để thêm các thư viện Spring vào Maven. Đồng thời được tìm hiểu về cấu hình HelloWorld Spring Bean bằng Java, cấu hình Metadata Java và được hướng dẫn để tạo Spring Container và cách lấy đối tượng bean HelloWorld và gọi phương thức trong lập trình Spring.
-youtubeId: 0n8_2yG5F7I
+youtubeId: es6lpPFNTSw
 ---
 
 {% include toc.html %}
@@ -149,7 +149,9 @@ public class Application {
 - Kết quả ta nhận được là text : Hello World
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
