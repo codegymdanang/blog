@@ -4,7 +4,7 @@ title: Các loại tài liệu trong thử phần mềm
 slug : cac-loai-tai-lieu-trong-kiem-thu-phan-mem
 category: testing
 tags: [manual]
-summery: Các loại kiểm thử
+summery: Tài liệu kiểm thử
 image: /images/blog/angular.png
 description : Chúng ta sẽ đi qua các loại tài liệu cần có trong một dự án phần mềm. Hiều được test plan, test scenario, test case và cách quản lý các tài liệu trong team kiểm thử 
 youtubeId: 9HtpQKzQh6s

@@ -4,7 +4,7 @@ title: Phân biệt manual và automation testing
 slug : phan-biet-manual-va-automation-testing
 category: testing
 tags: [manual]
-summery: Các loại kiểm thử
+summery: Manual vs Automation
 image: /images/blog/angular.png
 description : Phân biệt sự khác nhau giữa manual testing và automation testing. Có hơn 150 loại kiểm thử mà tester sẽ dùng để test các ứng dụng. Nó bao gồm Unit Test, Integration Test, System Test, Sanity Test ngoài ra còn hơn 100 loại test khác để test hiệu năng và bảo mật. 
 youtubeId: cTm7pboQB2Y
