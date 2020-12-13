@@ -1,10 +1,10 @@
 ---
 layout: course-spring-core
-title: Ví dụ cấu hình Spring IOC bằng XML 
+title: Cấu hình IOC bằng XML 
 slug : vi-du-cau-hinh-spring-ioc-bang-xml
 category: laptrinhspring
 tags: [spring-core]
-summery: Cấu hình IOC  XML bằng
+summery: Cấu hình IOC bằng XML 
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Những chia sẻ trong bài viết giúp hiểu được Spring IOC bằng XML trong lập trình là gì? Ngoài ra qua bài viết người đọc sẽ biết được cách để tạo dự án Maven, thao tác để thêm các thư viện Spring vào Maven. Đồng thời được tìm hiểu về cấu hình HelloWorld Spring Bean bằng Java, cấu hình Metadata Java và được hướng dẫn để tạo Spring Container và cách lấy đối tượng bean HelloWorld và gọi phương thức trong lập trình Spring. 
