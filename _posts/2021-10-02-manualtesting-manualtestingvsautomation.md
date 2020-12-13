@@ -17,7 +17,7 @@ youtubeId: cTm7pboQB2Y
 Chào các bạn,hôm nay anh sẽ trình bày chủ đề về <b> phân biệt manual testing và automation testing</b> sẽ được sử dụng trong phát triển phần mềm. Nó hơn 150 loại kiểm thử mà tester sẽ dùng để test các ứng dụng. Nó bao gồm Unit Test, Integration Test, System Test, Sanity Test ngoài ra còn hơn 100 loại test khác để test hiệu năng và bảo mật.
 
 
-## **1. Phân biệt manual testing và automation testing**
+## **1. Video hướng dẫn phân biệt manual testing và automation testing**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}

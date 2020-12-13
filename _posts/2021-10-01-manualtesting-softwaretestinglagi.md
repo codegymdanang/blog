@@ -17,7 +17,7 @@ youtubeId: ZRbD7bWEPU4
 Chào các bạn,hôm nay anh sẽ trình bày chủ đề về <b> kiểm thử phần mềm </b> là gì trong quy trình phát triển phần mềm. Tại sao công việc kiểm thử lại quan trọng như vậy.
 
 
-## **1. Kiểm thử là gì**
+## **1. Video về kiểm thử là gì**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}

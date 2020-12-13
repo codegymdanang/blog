@@ -17,7 +17,7 @@ youtubeId: 9HtpQKzQh6s
 Chào các bạn,hôm nay anh sẽ trình bày chủ đề về <b> các loại tài liệu </b> sẽ được sử dụng trong phát triển phần mềm. Nó hơn 150 loại kiểm thử mà tester sẽ dùng để test các ứng dụng. Hiều được test plan, test scenario, test case và cách quản lý các tài liệu trong team kiểm thử. 
 
 
-## **1. Các loại tài liệu cần có trong kiểm thử phần mềm**
+## **1. Video Hướng dẫn các loại tài liệu cần có trong kiểm thử phần mềm**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}

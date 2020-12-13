@@ -17,7 +17,7 @@ youtubeId: DPPaD4HjxeA
 Chào các bạn,hôm nay anh sẽ trình bày chủ đề về <b> các loại kiểm thử </b> sẽ được sử dụng trong phát triển phần mềm. Nó hơn 150 loại kiểm thử mà tester sẽ dùng để test các ứng dụng. Nó bao gồm Unit Test, Integration Test, System Test, Sanity Test ngoài ra còn hơn 100 loại test khác để test hiệu năng và bảo mật.
 
 
-## **1. Các loại kiểm thử phần mềm**
+## **1. Video hướng dẫn các loại kiểm thử phần mềm**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
