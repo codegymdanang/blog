@@ -4,7 +4,7 @@ title: Agile Testing trong kiểm thử phần mềm
 slug : su-dung-agile-testing-trong-kiem-thu
 category: testing
 tags: [manual]
-summery: Test Link
+summery: Agile Testing
 image: /images/blog/angular.png
 description : Hướng dẫn áp dụng Agile Testing vào quản lý các công việc trong qui trình phát triển phần mềm Agile.
 Hiểu được Tester trong qui trình Scrum cần làm những việc gì?
