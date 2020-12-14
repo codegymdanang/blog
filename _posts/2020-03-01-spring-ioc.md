@@ -8,7 +8,7 @@ summery: Spring IOC Container
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Trình bày về IOC Container, một phần quan trọng của Spring. Giới thiệu để hiểu được Spring IOC Container là gì? Đóng vai trò gì và quan trọng như thế nào trong ngôn ngữ lập trinh Spring. Những chia sẻ trong bài viết cũng sẽ hướng dẫn cách làm để khởi tạo Spring Container và thao tác lấy được beans từ SpringContainer bằng ApplicationContext và lấy beans từ SpringContainer bằng BeanFactory trong Spring để đạt được hiệu quả nhất.
-youtubeId: 7trrzJBM5bg
+youtubeId: ZR1byA2nXBo
 ---
 
 {% include toc.html %}
