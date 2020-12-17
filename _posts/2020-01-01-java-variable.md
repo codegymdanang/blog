@@ -8,7 +8,7 @@ summery: Biến
 image: /images/blog/java.png
 
 description : Bài viết cung cấp thông tin chi tiết về Biến trong lập trình Java, giúp bạn hiểu rõ Biến là gì? Có các loại Biến nào trong ngôn ngữ lập trình Java? Đồng thời với các ví dụ cụ thể trong bài viết giúp bạn tiếp cận kiến thức lập trình Java căn bản này dễ dàng hơn và nhanh chóng áp dụng vào thực hành.
-youtubeId: fR05ShUphxA
+youtubeId: pSXIbAwBZ4k
 ---
 
 {% include toc.html %}
@@ -112,7 +112,9 @@ System.out.println(x + y + z);
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

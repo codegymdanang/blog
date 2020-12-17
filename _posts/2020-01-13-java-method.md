@@ -8,7 +8,7 @@ summery: Method
 image: /images/blog/java.png
 
 description : Phương thức, Method trong ngôn ngữ lập trình Java là gì? Cách khai báo Method trong ngôn ngữ lập trình Java? Truyền tham số trong Method Java được tiến hành như thế nào? Kết quả của một phương thức đã được xử lí xong sẽ được trả về bằng cách nào? Cách ghi đè phương thức và lợi ích của việc nạp chồng các phương thức trong Java? Bài viết sẽ giúp bạn giải đáp các thắc mắc trên. Đồng thời hướng dẫn bạn cách thao tác Method trong ngôn ngữ lập trình hướng đối tượng Java thông qua các ví dụ chi tiết trong mỗi phần.
-youtubeId: fR05ShUphxA
+youtubeId: U-7EE2LZhOk
 ---
 
 {% include toc.html %}
@@ -185,7 +185,8 @@ public static void main(String[] args) {
 
 {% endhighlight %}
 
-
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 

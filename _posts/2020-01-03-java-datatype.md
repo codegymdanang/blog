@@ -8,7 +8,7 @@ summery: Kiểu dữ liệu
 image: /images/blog/java.png
 
 description : Kiểu dữ liệu trong lập trình hướng đối tượng Java là gì? Có các loại kiểu dữ liệu nào trong ngôn ngữ lập trình Java? Cụ thể mỗi kiểu và cách áp dụng mỗi kiểu dữ liệu vào làm chương trình Java như thế nào? Bài viết sẽ giúp giải đáp tất cả các thắc mắc trên cho bạn. Nắm vững và phân biệt rõ ràng mỗi kiểu dữ liệu cũng giúp bạn biết nên lựa chọn kiểu dữ liệu nào phù hợp nhất khi viết các chương trình Java.
-youtubeId: fR05ShUphxA
+youtubeId: BzpnGB52Y6I
 ---
 
 {% include toc.html %}
@@ -168,5 +168,7 @@ Student student = new Student()
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 

@@ -8,7 +8,7 @@ summery: Mảng
 image: /images/blog/java.png
 
 description : Mảng,Array trong ngôn ngữ lập trình Java là gì? Cách lấy và cập nhật giá trị phần tử trong mảng thông qua vị trí index? Cách duyệt qua các phần tử của mảng? Độ dài của mảng? Tìm hiểu hơn về mảng nhiều chiều. Bài viết sẽ lần lượt đi qua các phần trên, cùng với các ví dụ cụ thể trong bài sẽ hướng dẫn bạn cách thao tác với Mảng trong lập trình Java. Từ đó giúp áp dụng ngay vào trong thực hành. 
-youtubeId: fR05ShUphxA
+youtubeId: yZ5lQwSFl4A
 ---
 
 {% include toc.html %}
@@ -126,6 +126,8 @@ public class MyClass {
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 

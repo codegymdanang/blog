@@ -7,7 +7,7 @@ tags: [java core]
 summery: If Else  
 image: /images/blog/java.png
 description : Bài viết cung cấp kiến thức về mệnh đề điều kiện if else được tạo ra trong lập trình Java. If Else dùng để kiểm tra một điều kiện nào đó có đúng hay không. Các biểu thức điều kiện sẽ trả về 2 giá trị TRUE hoặc FALSE. Cụ thể trong đó gồm các câu lệnh điều kiện If, Else, If Else, If Else rút gọn. Cú pháp thực hiện mỗi câu lệnh điều kiện là khác nhau. Các câu lệnh của các câu điều kiện được đặt trong dấu ngoặc nhọn.
-youtubeId: fR05ShUphxA
+youtubeId: 0zkm4Km8d-A
 ---
 
 {% include toc.html %}
@@ -130,7 +130,9 @@ String result = (time < 18) ? "Good day." : "Good evening.";
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
