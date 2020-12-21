@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Ngoại lệ   
 image: /images/blog/feature_javascript.png
 description : Trong lập trình web, những vấn đề phát sinh trong quá trình chương trình chạy thì được gọi là Ngoại lệ, Exception. Bài viết này sẽ giúp bạn hiểu rõ hơn về những ngoại lệ, Exception thường xảy ra trong lập trình web như lỗi cú pháp, runtime error hay sai về logic. Đồng thời cũng được tìm hiểu về những đối tượng Error trong JavaScript gồm những gì? Bên cạnh đó bài viết cũng hướng dẫn cho các bạn các cách để bắt các ngoại lệ như sử dụng khối lệnh try catch hay sử dụng throw ném ngoại lệ. Cuối cùng anh sẽ trình bày về khối lệnh finally trong JavaScript, đây là khối lệnh luôn chạy các dòng code cho dù có ngoại lệ hay không.
-youtubeId: Ex3glZTCvlY
+youtubeId: tjHeAggd5-k
 ---
 
 {% include toc.html %}
@@ -138,6 +138,9 @@ Khối lệnh finally là trường hợp đặc biệt ta có thể dùng hoặ
 {% endhighlight %}
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

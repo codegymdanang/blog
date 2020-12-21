@@ -8,7 +8,7 @@ summery: Callback
 image: /images/blog/feature_javascript.png
 description : Trong lập trình web với JavaScript, Callback được hiểu là việc truyền một function như một tham số đến một function khác và đợi để được gọi cho xử lí các vấn đề đồng bộ theo trình tự nhất định. Những chia sẻ trong bài viết này sẽ giải thích cho các bạn hiểu rõ hơn về Callback. Và hướng dẫn các bạn cách để sử dụng Callback trong lập trình web thông qua 2 ví dụ minh hoạ ở cuối bài.
 
-youtubeId: Ex3glZTCvlY
+youtubeId: YFedotkotLs
 ---
 
 {% include toc.html %}
@@ -93,5 +93,8 @@ Như vậy callback mình sử dụng như làm tuần tự các công việc m�
 
 Tóm lại chúng ta sử dụng callback khi chúng ta muốn các công việc được xử lý đồng bộ theo trình tự nhất định.
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 

@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Mảng   
 image: /images/blog/feature_javascript.png
 description : Trong lập trình web với ngôn ngữ lập trình JavaScript, khi muốn lưu cho nhiều hơn 1 giá trị thì lúc này chúng ta sẽ sử dụng đến thuộc tính Mảng Array. Vậy Mảng Array trong ngôn ngữ lập trình JavaScript là gì? Các cách thao tác với Mảng như khai báo, lấy các phần tử trong Mảng, kiểm tra xem có bao nhiêu phần từ trong độ dài của Mảng và tìm hiểu các phương thức có sẵn trong Mảng để áp dụng vào thực hành. Tất cả những thắc mắc trên sẽ được giải đáp thông qua nhưng chia sẻ trong bài viết này.
-youtubeId: Ex3glZTCvlY
+youtubeId: 9Dw1NuJrVJs
 ---
 
 {% include toc.html %}
@@ -131,6 +131,8 @@ Array có hỗ trợ sẵn các phương thức để thao tác với các phầ
 + push là thêm 1 phần tử vào mảng 
 + slice cắt mảng      
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 

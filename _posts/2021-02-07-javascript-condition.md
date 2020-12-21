@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Câu điều kiện   
 image: /images/blog/feature_javascript.png
 description : Tương tự như các ngôn ngữ lập trình web khác, JavaScript cũng cung cấp cho chúng ta các câu điều kiện để giải quyết các bài toán rẽ nhánh từ đó giúp quản lí luồng đi của chương trình trở nên hiệu quả hơn. Bài viết sẽ lần lượt trình bày các câu điều kiện If, Else, Else If và mệnh đề Switch sử dụng trong ngôn ngữ lập trình web JavaScript. Trong mỗi phần như vậy có kèm theo ví dụ minh hoạ cụ thể để các bạn có tham khảo thêm cho quá trình học và làm các dự án lập trình web sau này.
-youtubeId: Ex3glZTCvlY
+youtubeId: JT7ZT_jCeoo
 ---
 
 {% include toc.html %}
@@ -177,7 +177,9 @@ switch (a) {
 - Chúng ta sử dụng break để thoát khỏi mệnh đề Switch.
 - Chúng ta có từ khoá default , nếu như không rơi vào case 1,2,3,4 thì trường hợp default sẽ chạy.
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Kiểu dữ liệu   
 image: /images/blog/feature_javascript.png
 description : Trong bất kì ngôn ngữ lập trình web nào các dữ liệu cũng được chia ra các kiểu khác nhau để giúp các lập trình viên biết được mỗi giá trị thuộc kiểu dữ liệu nào và cách sử dụng đối với mỗi kiểu khi lập trình web cho phù hợp. Những chia sẻ tiếp theo dưới đây, bài viết sẽ lần lượt giải thích cho các bạn hiểu hơn về kiểu dữ liệu trong ngôn ngữ lập trình JavaScript là gì? Đồng thời cũng trình bày và hướng dẫn cách làm việc với các kiểu dữ liệu bao gồm Kiểu dữ liệu String, Number, Boolean, NULL, Undefined, Object, và Date.
-youtubeId: Ex3glZTCvlY
+youtubeId: sRdmK_AC_Mw
 ---
 
 {% include toc.html %}
@@ -271,3 +271,6 @@ var date8 = new Date("3/2/2015"); // MM-dd-YYYY
 {% endhighlight %}
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

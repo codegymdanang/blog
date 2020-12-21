@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Function   
 image: /images/blog/feature_javascript.png
 description : Trong ngôn ngữ lập trình web JavaScript có thuộc tính Function cho phép các bạn có thể đặt nhiều dòng code vào trong một function và sau đó có thể sử dụng nó nhiều lần khi cần. Cụ thể Function là gì? Và cách thao tác thuộc tính Function, hàm với tham số và cách để trả về kết quả trong Function khi lập trình web như thế nào? Những chia sẻ trong bài viết này sẽ lần lượt giải đáp những thắc mắc trên cho bạn.
-youtubeId: Ex3glZTCvlY
+youtubeId: GRkXbRNZUhs
 ---
 
 {% include toc.html %}
@@ -83,7 +83,9 @@ var result = Sum(10,20); // returns 30
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

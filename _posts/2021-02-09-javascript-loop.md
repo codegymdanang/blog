@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Vòng lặp   
 image: /images/blog/feature_javascript.png
 description : Để nhằm giải quyết các vấn đề mắc phải trong những bài toán khi lập trình web, các lập trình viên sẽ sử dụng vòng lặp, loop. Tương tự như những ngôn ngữ lập trình khác, JavaScript cũng có những vòng lặp như for, while, do-while. Bài viết này sẽ giúp bạn hiểu thêm về vòng lặp, loop trong JavaScript là gì cũng như hướng dẫn cách thao tác với các vòng lặp trên thông qua những ví dụ minh hoạ trong bài.
-youtubeId: Ex3glZTCvlY
+youtubeId: kTYBIZHV6pE
 ---
 
 {% include toc.html %}
@@ -122,7 +122,9 @@ do{
 } while(i < 5)
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
