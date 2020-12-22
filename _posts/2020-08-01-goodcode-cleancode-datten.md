@@ -7,7 +7,7 @@ tags: [goodcode]
 summery: Qui tắc đặt tên
 image: /images/blog/quality-code.png
 description : Clean Code cách đặt tên trong lập trình lập trình. Hiều clean code là gì, hướng dẫn cách đặt tên đúng trong học lập trình.
-youtubeId: aSDKxAUqcTc
+youtubeId: tu0j17CaTAg
 ---
 
 {% include toc.html %}
@@ -261,3 +261,7 @@ Như vậy để tăng thêm ý nghĩa cho từ state là nói về địa chỉ
 # **Tóm tắt**
 
 Trên đây là 10 cách đặt tên biết có ý nghĩa. Nếu chúng ta tuân thủ các bước này thì code của chúng ta sẽ sạch sẽ hơn. Người đọc dể hiểu hơn, từ đó dẫn đến việc duy trì ,phát triển sản phẩm dể dàng hơn.
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
