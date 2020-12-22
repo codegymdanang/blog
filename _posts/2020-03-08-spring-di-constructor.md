@@ -8,7 +8,7 @@ summery: Nhúng DI bằng Constructor
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Bài viết giới thiệu về cách nhúng DI, Dependency Injection bằng Constructor trong Spring. Cụ thể trong những chia sẻ của bài viết sẽ trình bày về cơ chế nhúng bean phụ thuộc thông qua hàm khởi tạo (Constructor) của đối tượng. Bao gồm hướng dẫn cách sử dụng Maven Pom, Email Service,  Client Service và Testing trong lập trình Spring. Ở mỗi phần bài viết chia sẻ kèm theo những ví dụ hướng dẫn cú pháp thực hiện sẽ giúp người đọc hiểu được và áp dụng được thao tác nhúng DI bằng Constructor trong lập trình Spring.
-youtubeId: 0n8_2yG5F7I
+youtubeId: nOIBogYy6Gg
 ---
 
 {% include toc.html %}
@@ -136,3 +136,6 @@ public class TestApplication {
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
