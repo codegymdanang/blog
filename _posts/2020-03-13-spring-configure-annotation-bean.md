@@ -8,7 +8,7 @@ summery: Configure Annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Qua những chia sẻ trong bài viết người đọc hiểu được tổng quan về @Configure Annotation, một thành phần trong Spring Core Framework. Bên cạnh đó biết được khi nào nên dùng annotation @Configuration trong lập trình Spring. Trong những chia sẻ tiếp theo của bài viết sẽ hướng dẫn cách để khai báo @Configure Annotation sử dụng trong lập trình Spring như thế nào để đạt được hiệu quả. Trong bài viết cũng có chia sẻ kèm theo các ví dụ minh hoạ cú pháp và cách thực hiện.
-youtubeId: 0n8_2yG5F7I
+youtubeId: GxyOqgu7Ru4
 ---
 
 {% include toc.html %}
@@ -62,7 +62,9 @@ public class Application {
 </beans>
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

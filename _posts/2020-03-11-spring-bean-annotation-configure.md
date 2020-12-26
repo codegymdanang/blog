@@ -8,7 +8,7 @@ summery: Cấu hình qua annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Bài viết trình bày về chủ đề Annotation để cấu hình cho dự án Spring. Qua những chia sẻ trong bài viết, người đọc biết được ưu điểm khi sử dụng Annotation trong Spring. Đồng thời được hướng dẫn cách khai báo để bật chức năng auto wire bean trong Spring. Và tìm hiểu về một số Annitation được sử dụng phổ biến trong Spring như Annotation @Requires, Annotation @Autowire, Annotation @Primary, Annotation @Qualifier, Annotation @PostConstruct và Annotation @PreDestroy. Cùng với đó là những ví dụ trong mỗi Annitation của ngôn ngữ lập trình Spring giúp áp dụng được các Annotation vào lập trình được hiệu quả hơn.
-youtubeId: 0n8_2yG5F7I
+youtubeId: WyVuLJVu4k4
 ---
 
 {% include toc.html %}
@@ -315,7 +315,9 @@ public class DatabaseInitiaizer {
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
