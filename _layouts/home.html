@@ -45,24 +45,6 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
-				<div class="row">
-					
-					
-					<div style="text-align: center;width:100%"> 
-					      			 <form action="get" id="site_search" style="display: inline-block; margin-left: auto;margin-right: auto text-align: left;">
-					          
-					                    <input style="font-size:20px;width:420px" type="text" id="search_box">
-					                    <input style="font-size:20px" type="submit" value="Tìm kiếm">
-					                
-					      			</form>
-
-					      			<ul id="search_results" style="text-align: center;"></ul>
-					</div>    
-					           
-					            
-					        
-					
-				</div>
 				<!-- Công nghệ Java -->
 				<div class="row">
 					<div class="row">
@@ -357,6 +339,8 @@
 								<li><a href="https://www.facebook.com/groups/danangagiledeveloper/"><i class="ti-facebook"></i></a></li>
                 				<li><a href="https://www.youtube.com/channel/UC8VjQlFZWLrB-Nq7pQ0zGgA"><i class="ti-youtube"></i></a></li>
                 				<li><a href="https://github.com/levunguyen"><i class="ti-github"></i></a></li>
+                				<li><a href='{{"/search" | prepend: site.baseurl }}'><i class="ti-search"></i></a></li>
+                				
 							</ul>
 						</div>
 					</div>
@@ -423,9 +407,9 @@
 
 </body>
 
-	<script  src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/1.0.0/lunr.min.js"></script>
+
 	<script src='{{"/js/jquery-1.12.1.min.js"  | prepend: site.baseurl }}'></script>
-	<script src='{{"/js/search.js"  | prepend: site.baseurl }}'> </script>
+
 
 	<!-- bootstrap js -->
 	<script src='{{"/js/bootstrap.min.js"  | prepend: site.baseurl }}' ></script>
