@@ -8,7 +8,7 @@ summery: Lazy Annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Qua những chia sẻ trong bài viết người đọc hiểu được tổng quan về @Lazy Annotation, một thành phần trong Spring Core Framework. Bên cạnh đó biết được khi nào nên dùng Annotation @Lazy trong lập trình Spring. Trong những chia sẻ tiếp theo của bài viết sẽ hướng dẫn người đọc thao tác để tạo Maven, Java Class, 2 Beans Class cũng như chạy Test trong lập trình Spring. Kèm theo trong những chia sẻ đó là các ví dụ minh hoạ cụ thể từng cú pháp để thực hiện.
-youtubeId: 0n8_2yG5F7I
+youtubeId: GSPQAAc4OAw
 ---
 
 {% include toc.html %}
@@ -153,7 +153,9 @@ public class Application {
 - Kết quả sẽ in ra là :  Bean2 , Bean 1.
 Như vậy ta thấy Bean1 chỉ được gọi khi cần, và chỉ được tạo lên khi cần thông qua @Lazy.
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

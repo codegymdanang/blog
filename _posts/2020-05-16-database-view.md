@@ -7,7 +7,7 @@ tags: [database]
 summery: View    
 image: /images/blog/database.png
 description : Trước khi đi vào hướng dẫn sử dụng View trong Database cụ thể như thế nào gồm cách thao tác để tạo View, Update View và xoá View trong Database. Tác giả sẽ giới thiệu cho người đọc hiểu được khái niệm View trong Database là gì. Sau đó sẽ hướng dẫn cú pháp thực hiện với View trong lập trình Database thông qua các ví dụ minh hoạ trong bài.
-youtubeId: mxYQUIMJ5Aw
+youtubeId: QZHScccM500
 ---
 
 {% include toc.html %}
@@ -114,4 +114,7 @@ DROP VIEW [Brazil Customers];
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
