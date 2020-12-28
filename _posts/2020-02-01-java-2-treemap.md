@@ -8,7 +8,7 @@ summery: TreeMap
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
 description : TreeMap trong lập trình Java là gì? Nó hoạt động như thế nào? Các phương thức của lớp TreeMap trong lập trình Java. Các thao tác cơ bản với TreeMap như cách tạo một TreeMap, xoá một phần tử trong TreeMap. Hay cách thực hiện với SortedMap như thế nào? Hãy cùng tìm hiểu những thông tin trên qua bài viết này nhé. Với những chia sẻ lí thuyết kèm theo ví dụ minh hoạ, bài viết sẽ giúp bạn áp dụng ngay TreeMap vào thực hành lập trình.
-youtubeId: 5C2OqlhiYsg
+youtubeId: phukxjGGHrM
 ---
 
 {% include toc.html %}
@@ -104,7 +104,9 @@ class TreeMap4{
 - Phương thức tailMap sẽ trả về cho chúng ta những key có giá trị lớn hoặc bằng 102
 - Phương thức subMap sẽ trả về cho chúng ta những key nằm giữa 100 và 102.
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

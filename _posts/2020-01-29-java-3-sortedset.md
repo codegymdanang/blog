@@ -8,7 +8,7 @@ summery: SortedSet
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
 description : Trong bài này, anh sẽ trình bày về SortedSet trong lập trình Java. Trước hết cần tìm hiểu SortedSet, tập hợp SortedSet là gì? Các phương thức có trong SortedSet. Hướng dẫn cách thêm và xoá một phần tử khỏi SortedSet. Hay cách làm như thế nào đế lấy phần tử đầu tiên hay cuối cùng trong SortedSet. Áp dụng được từ những chia sẻ trong bài viết để giải quyết các vấn đề khác bao gồm duyệt, sắp xếp các phần tử SortedSet. Cũng như cách để lấy các phần tử đầu và sau của SortedSet trong lập trình hướng đối tượng Java.
-youtubeId: SkajVxpYq7k
+youtubeId: mwrlKKqmiSw
 ---
 
 {% include toc.html %}
@@ -151,6 +151,9 @@ SortedSet tailSet = sortedSet.tailSet("c");
 
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

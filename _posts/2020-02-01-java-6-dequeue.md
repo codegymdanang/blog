@@ -8,7 +8,7 @@ summery: Deque
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
 description : Deque là gì? Các phương thức có trong Deque và cách sử dụng Deque trong lập trình java
-youtubeId: 5C2OqlhiYsg
+youtubeId: 40-g3gUkOSI
 ---
 
 {% include toc.html %}
@@ -270,6 +270,9 @@ for(String element : deque) {
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

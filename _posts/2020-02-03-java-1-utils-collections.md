@@ -8,7 +8,7 @@ summery: Tiện ích Collections
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
 description : Hướng dẫn để sử dụng được Collections trong lập trình Java. Bài viết hướng dẫn cách sử dụng các phương thức được xây dựng sẵn trong Collections. Nhằm phục vụ trong quá trình làm việc với các tập hợp trong lập trình Java. Trong bài phạm vi bài viết này, anh sẽ giới thiệu những phương thức được sử dụng phổ biến nhất hiện nay trong lập trình Java. Bao gồm phương thức addAll, BinarySearch, Copy, Reverse, Shuffle, Sort, ReplaceAll.
-youtubeId: GXQn39fU2Kg
+youtubeId: O27sRb15ktk
 ---
 
 {% include toc.html %}
@@ -163,6 +163,9 @@ boolean replacedAny = source.replaceAll(source, "A", "C");
 - Kết quả ta nhận được sẽ là C,B,C
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

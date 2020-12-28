@@ -8,7 +8,7 @@ summery: Equal và Hashcode
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
 description : Equal và Hashcode là gì? Các phương thức có trong Equal và Hashcode và cách sử dụng Equal và Hashcode trong lập trình java
-youtubeId: 5C2OqlhiYsg
+youtubeId: hJwK_NvKZHE
 ---
 
 {% include toc.html %}
@@ -137,7 +137,9 @@ Khi ta tạo một đối tượng thì đối tượng đó sẽ được lưu 
 
 - Như vậy hashcode không phải là địa chỉ vùng nhớ chứa đối tượng mà nó là một thành phần để tạo ra hashcode.
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

@@ -8,7 +8,7 @@ summery: Iterator
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_collection.png
 description : Bài viết chia sẻ về Iterator trong lập trình Java. Trình bày, giải thích các khái niệm Iterator trong học lập trình hướng đối tượng Java. Hướng dẫn sử dụng Iterator duyệt qua các tập hợp như List , Vector , Set , Queue, Deque, Map trong ngôn ngữ lập trình Java. Kèm theo các ví dụ minh hoạ sẽ giúp các bạn hiểu rõ và có thể áp dụng ngay vào lập trình.
-youtubeId: 5C2OqlhiYsg
+youtubeId: kTwPqAjtu74
 ---
 
 {% include toc.html %}
@@ -106,7 +106,9 @@ public class MyClass {
 - Trong ví dụ trên chúng ta tạo ra một ArrayList chứa các số 12,8,2,23. Sau đó chúng ta duyệt qua các phần tử trong tập hợp này. Nếu phần tử nhỏ hơn 10 thì ta sẽ xoá phần tử đó ra khỏi tập hợp thông qua phương thức it.remove().
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
