@@ -8,7 +8,7 @@ summery: Nhúng DI bằng Setter
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Nhúng DI, Dependency Injection bằng Setter trong Spring là gì? Những chia sẻ trong bài viết sẽ giúp hiểu được khái niệm này. Đồng thời qua bài viết người đọc sẽ được hướng dẫn cách làm đề nhúng Dependency Injection, DI thông qua cơ chế Setter. Bao gồm cách sử dụng Maven Pom, Email Service, Client Service và Testing trong lập trình Spring. Bài viết kèm theo các ví dụ hướng dẫn cụ thể cú pháp thực hiện của mỗi phương thức Setter để người đọc tham khảo thêm.
-youtubeId: 0n8_2yG5F7I
+youtubeId: Cdc8QPX1bzA
 ---
 
 {% include toc.html %}
@@ -139,3 +139,6 @@ public class TestApplication {
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

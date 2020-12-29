@@ -8,7 +8,7 @@ summery: Vòng đời Bean
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Bài viết trình bày về vòng đời của một bean được tạo ra và phá huỷ trong Spring container. Người đọc lần lượt được tìm hiểu về 2 phương phức được sử dụng để can thiệp vào vòng đời của bean trong Spring gồm InitializingBean và DisposableBean. Tiếp theo được hướng dẫn sử dụng cấu hình project và cấu hình pom và được hiểu rõ hơn vòng đời bean trong Spring thông qua ví dụ bean database trước khi khởi tạo và phá huỷ trong Spring được đề cập đến ở cuối bài viết.
-youtubeId: 0n8_2yG5F7I
+youtubeId: s6FrBKxigqk
 ---
 
 {% include toc.html %}
@@ -126,6 +126,9 @@ public class DatabaseInitiaizer implements InitializingBean, DisposableBean {
 {% endhighlight %}
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
