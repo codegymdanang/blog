@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Biến   
 image: /images/blog/feature_javascript.png
 description : Trong lập trình web, thuộc tính Biến được sử dụng để lưu lại các giá trị. Việc lưu lại dưới dạng các biến sẽ rất thuận tiện nếu sau này các bạn muốn sử dụng các giá trị đó nhiều lần. Những chia sẻ dưới đây sẽ trình bày cho các bạn hiểu được Biến là gì? Hướng dẫn để các bạn thực hiện được cách khai báo Biến, đặt tên cho Biến và chia sẻ những ví dụ minh hoạ để giúp các bạn nắm bắt kiến thức lập trình web này hiệu quả hơn.
-youtubeId: Ex3glZTCvlY
+youtubeId: PANgh7fOv-Y
 ---
 
 {% include toc.html %}
@@ -81,7 +81,9 @@ var $value="sonoo";
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

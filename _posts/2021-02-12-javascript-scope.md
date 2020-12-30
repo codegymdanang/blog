@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Scope   
 image: /images/blog/feature_javascript.png
 description : Bài viết trình bày về Scope hay còn gọi là phạm vi truy cập trong lập trình web. Những chia sẻ trong bài sẽ giúp các bạn lần lượt tìm hiểu về 2 loại Scope trong JavaScript là Global, phạm vi toàn cục và Local, phạm vi nhất định. Đồng thời trình bày cho các bạn về Hoisting biến và Hoisting function trong ngôn ngữ lập trình web JavaScript là gì? Trong mỗi phần sẽ có các ví dụ minh hoạ kèm theo để hướng dẫn cụ thể cách sử dụng cho các bạn dễ dàng nắm bắt và áp dụng được vào thực hành trong lập trình web hiệu quả hơn.
-youtubeId: Ex3glZTCvlY
+youtubeId: YoXuyu1Ys4g
 ---
 
 {% include toc.html %}
@@ -156,4 +156,6 @@ function Sum(val1, val2)
 }
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
