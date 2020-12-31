@@ -14,7 +14,7 @@ youtubeId: QZHScccM500
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chúng ta sẽ nói về chủ đề Stored Procedure trong Database là gì nhé?
+Chào các em, hôm nay chúng ta sẽ nói về chủ đề View trong Database là gì nhé?
 
 ## **1. Tạo View**
 
