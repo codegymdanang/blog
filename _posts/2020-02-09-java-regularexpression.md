@@ -8,7 +8,7 @@ summery: Regular Expression
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_exception.png
 description : Sử dụng Regular Expression trong lập trình Java. Tại sao chúng ta cần sử dụng Regular Expression vào trong lập trình? Hướng dẫn sử dụng Regular Expression.
-youtubeId: ZCZiGJqQino
+youtubeId: uVFLG50n0yQ
 ---
 
 {% include toc.html %}

@@ -8,7 +8,7 @@ summery: Object
 image: /images/blog/java.png
 
 description : Trong bài viết này, chúng ta sẽ được tìm hiểu về đối tượng Object, lớp Class trong ngôn ngữ lập trình Java là gì? Sự khác nhau giữa đối tượng và lớp trong Java? Cách tạo lớp và đối tượng, các hàm khởi tạo trong Java? Thuộc tính và cách thao tác với các thuộc tính của mỗi đối tượng như thế nào? Cũng như phương thức của mỗi đối tượng hoạt động làm sao?
-youtubeId: fR05ShUphxA
+youtubeId: N-tFo_LiCLs
 ---
 
 {% include toc.html %}
@@ -187,6 +187,9 @@ public class Car {
 {% endhighlight %}
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

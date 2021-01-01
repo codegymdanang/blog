@@ -8,7 +8,7 @@ summery: Strings
 image: /images/blog/java.png
 
 description : Trong ngôn ngữ lập trình Java, String (chuỗi) là một kiểu dữ liệu đặc biệt, về cơ bản nó là một đối tượng chứa nhiều phương thức để xử lí các nhiệm vụ bao gồm lấy độ dài chuỗi, chuyển hoá chữ thành chữ hoa và chữ thường, trả về vị trí một kí tự trong chuỗi, nối hai chuỗi lại với nhau, hiển thị các giá trị đặc biệt. Cụ thể mỗi phương thức được thao tác như thế nào với String trong ngôn ngữ Java sẽ được làm rõ thông qua các hình ảnh ví dụ cụ thể trong bài viết.
-youtubeId: fR05ShUphxA
+youtubeId: uiulyU1yJq4
 ---
 
 {% include toc.html %}
@@ -149,4 +149,6 @@ String z = x + y;   // z là chuỗi 1020
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
