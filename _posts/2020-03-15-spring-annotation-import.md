@@ -8,7 +8,7 @@ summery: Import Annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Nhằm giúp người đọc hiểu và áp dụng được Annotation Import trong lập trình Spring. Bài viết lần lượt giới thiệu để bạn hiểu được @Import Annotation trong Spring là gì? Khi nào thì được sử dụng trong Spring? Đồng thời trong những chia sẻ tiếp theo của bài viết, người đọc sẽ được hướng dẫn để sử dụng import bằng XML và sử dụng import bằng Annotation khi lập trình Spring như thế nào cho hiệu quả.
-youtubeId: 0n8_2yG5F7I
+youtubeId: NgTrEKBfTjU
 ---
 
 {% include toc.html %}
@@ -80,7 +80,9 @@ public class Web {
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
