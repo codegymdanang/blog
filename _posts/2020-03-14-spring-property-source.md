@@ -8,7 +8,7 @@ summery: PropertySource Annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_di.png
 description : Với những chia sẻ trong bài viết, người đọc sẽ nắm được tổng quan về @PropertySource Annotation trong lập trình Spring. Cùng với đó, với những ví dụ minh hoạ được đưa ra trong bài viết sẽ hướng dẫn người đọc cách thực hiện để load nhiều file configure trong Spring và cách thức để sử dụng @Value khi lập trình Spring.
-youtubeId: 0n8_2yG5F7I
+youtubeId: uIzp7XPH8qQ
 ---
 
 {% include toc.html %}
@@ -138,7 +138,9 @@ public class ProperySourceDemo implements InitializingBean {
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
