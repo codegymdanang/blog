@@ -7,7 +7,7 @@ tags: [database]
 summery: Cú pháp    
 image: /images/blog/database.png
 description : Để giúp người đọc sử dụng được cú pháp trong Database hiệu quả. Bài viết sẽ trình bày kèm theo ví dụ minh hoạ lần lượt về Database Table và SQL Statement. Ngoài ra qua những chia sẻ trong bài viết, người đọc sẽ được tìm hiểu về 4 loại câu lệnh SQL được sử dụng trong Database gồm DDL, DML, DCL và TCL.
-youtubeId: tKLOuvrHCNw
+youtubeId: -JU78YAfF7o
 ---
 
 {% include toc.html %}
@@ -76,6 +76,8 @@ Câu lệnh SQL được chia ra thành 4 loại DDL, DML, DCL và TCL.
 + SAVEPOINT to save temporarily.
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
