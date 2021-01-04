@@ -7,7 +7,7 @@ tags: [javascript]
 summery: OOP   
 image: /images/blog/feature_javascript.png
 description : Hầu hết các ngôn ngữ lập trình web hiện nay đều có tính hướng đối tượng, OOP trong đó bao gồm cả ngôn ngữ lập trình JavaScript. Những chia sẻ trong bài viết này sẽ đi sâu vào giải thích giúp cho bạn hiểu rõ hơn về tính hướng đối tượng trong lập trình web với JavaScript và Object là gì? Đồng thời tìm hiểu về Constructor và định nghĩa phương thức trong ngôn ngữ lập trình hướng đối tượng JavaScript. 
-youtubeId: Ex3glZTCvlY
+youtubeId: -VKr_JxgnXM
 ---
 
 {% include toc.html %}
@@ -150,7 +150,9 @@ Chúng ta tạo constructor của class Employee với từ khoá là constructo
 
 Khi ta gọi var emp = new Employee() thì 2 giá trị id và name đã có sẵn giá trị là 101 và Martin
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

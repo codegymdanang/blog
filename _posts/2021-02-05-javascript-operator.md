@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Toán tử   
 image: /images/blog/feature_javascript.png
 description : Khi lập trình web, bên cạnh sử dụng văn bản chúng ta sẽ cần dùng đến các kí tự, số học để dùng cho các phép toán học khác nhau như các phép tính, so sánh, logic và điều kiện. Để hỗ trợ các phép tính này, trong ngôn ngữ lập trình web JavaScript cung cấp cho chúng ta thuộc tính Toán tử. Với những chia sẻ trong bài viết này sẽ giúp các bạn hiểu được toán tử trong JavaScript là gì? Và lần lượt hướng dẫn sử dụng các phép toán tử trong lập trình web bao gồm toán tử số học, toán gán, so sánh, toán tử logic và tam phân. Trong mỗi phép toán, có kèm theo ví dụ minh hoạ cụ thể để các bạn có thể tham khảo thêm.
-youtubeId: Ex3glZTCvlY
+youtubeId: DfvK2Tsl4bM
 ---
 
 {% include toc.html %}
@@ -125,7 +125,9 @@ var c = a > b? a : b; // value of c would be 10
 var d = a > b? b : a; // value of d would be 5
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

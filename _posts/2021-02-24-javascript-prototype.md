@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Prototype   
 image: /images/blog/feature_javascript.png
 description : Bài viết giới thiệu về Prototype trong Javascrip để bạn hiểu được Prototype trong lập trình web là gì? Cũng như hướng dẫn cho bạn học được cách sử dụng Prototype như cách prototype gán giá trị. Hiểu được cách thức làm việc của một Protype sẽ giúp quá trình lập trình web của bạn trở nên hiệu quả hơn.
-youtubeId: Ex3glZTCvlY
+youtubeId: v4mF3I65CV8
 ---
 
 {% include toc.html %}
@@ -77,7 +77,9 @@ alert(studObj2.age); // 15
 
 Như các bạn thấy chúng ta có dòng Student.prototype.age = 15; để thêm giá trị age cho tất cả các đối tượng là Student. Bây giờ studObj2 không bị lỗi giống như ví dụ 1.
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
