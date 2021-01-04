@@ -7,7 +7,7 @@ tags: [javascript]
 summery: Javascript là gì   
 image: /images/blog/feature_javascript.png
 description : Trong lập trình web, ngôn ngữ lập trình JavaScript được xem là một trong những ngôn ngữ được sử dụng phổ biến nhất hiện nay. Với những chia sẻ trong bài viết sẽ giúp hiểu rõ về ngôn ngữ này thông qua giới thiệu về JavaScript là gì? Đồng thời hướng dẫn để cài đặt môi trường cho JavaScript và cách làm với thẻ JavaScript cũng như giải đáp thắc mắc về đặt file JS ở đâu trong HTML và làm sao để hiển thị Popup Message khi thao tác lập trình web với ngôn ngữ JavaScript.
-youtubeId: Ex3glZTCvlY
+youtubeId: 3-VE-e-0RMY
 ---
 
 {% include toc.html %}
@@ -138,7 +138,9 @@ if (tenure != null) {
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
