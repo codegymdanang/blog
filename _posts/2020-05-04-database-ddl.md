@@ -6,7 +6,7 @@ category: database
 tags: [database]
 summery: Câu lệnh DDL    
 image: /images/blog/database.png
-description : Người đọc được tìm hiểu về chủ đề các câu lệnh cấu trúc DDL trong Database. Bài viết lần lượt trình bày theo các phần từ giới thiệu tổng quan các câu lệnh DLL, cho đến hướng dẫn sử dụng các câu lệnh DLL để tạo Database, xoá Database, tạo bảng, xoá bảng, xoá hết dữ liệu trong bảng và thao tác để chỉnh sửa lại bảng trong lập trình Database. Trong phần cuối, tác giả cung cấp một video code demo giúp người đọc hiểu rõ hơn về các câu lệnh cấu trúc DLL trong Database.
+description : Người đọc được tìm hiểu về chủ đề các câu lệnh cấu trúc DDL trong Database. Bài viết lần lượt trình bày theo các phần từ giới thiệu tổng quan các câu lệnh DDL, cho đến hướng dẫn sử dụng các câu lệnh DDL để tạo Database, xoá Database, tạo bảng, xoá bảng, xoá hết dữ liệu trong bảng và thao tác để chỉnh sửa lại bảng trong lập trình Database. Trong phần cuối, tác giả cung cấp một video code demo giúp người đọc hiểu rõ hơn về các câu lệnh cấu trúc DDL trong Database.
 youtubeId: w7GoXo5PIvI
 ---
 
