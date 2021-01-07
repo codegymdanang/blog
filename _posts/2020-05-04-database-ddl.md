@@ -1,10 +1,10 @@
 ---
 layout: course-relationaldatabase
-title: Các câu lệnh cấu trúc DLL trong database
-slug : cac-cau-lenh-cau-truc-dll-trong-database
+title: Các câu lệnh cấu trúc DDL trong database
+slug : cac-cau-lenh-cau-truc-ddl-trong-database
 category: database
 tags: [database]
-summery: Câu lệnh DLL    
+summery: Câu lệnh DDL    
 image: /images/blog/database.png
 description : Người đọc được tìm hiểu về chủ đề các câu lệnh cấu trúc DLL trong Database. Bài viết lần lượt trình bày theo các phần từ giới thiệu tổng quan các câu lệnh DLL, cho đến hướng dẫn sử dụng các câu lệnh DLL để tạo Database, xoá Database, tạo bảng, xoá bảng, xoá hết dữ liệu trong bảng và thao tác để chỉnh sửa lại bảng trong lập trình Database. Trong phần cuối, tác giả cung cấp một video code demo giúp người đọc hiểu rõ hơn về các câu lệnh cấu trúc DLL trong Database.
 youtubeId: w7GoXo5PIvI
@@ -16,7 +16,7 @@ youtubeId: w7GoXo5PIvI
 
 Chào các em, hôm nay chúng ta sẽ nói về chủ đề các câu lệnh DLL trong Database là gì nhé?
 
-## **1. Các câu lệnh DLL**
+## **1. Các câu lệnh DDL**
 
 Data Definition Language (DDL): Các câu lệnh định nghĩa cấu trúc để lưu trữ dữ liệu. Chúng ta sử dụng các câu lệnh này dùng cho việc thao tác trên Database (cơ sở dữ liệu), Table (bảng), các trường (cols).
 
