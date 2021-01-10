@@ -8,7 +8,8 @@ summery: Generation Identifier
 image: /images/blog/spring.png
 
 description : Hiểu nguyên lý của Auto generation, identity generation, sequence generation và table generation trong lập trình Spring. Hướng dẫn cách cấu hình các generation trong dự án spring.
-youtubeId: WNfuVJptPnQ
+youtubeId: ewuf9UN9aFY
+youtubeId1: oZ6BhOTOjoU
 ---
 
 {% include toc.html %}
@@ -197,3 +198,15 @@ public class Product {
 # **6. Kết luận**
 
 Chúng ta có 4 loại generator chúng trả về kết quả gần như nhau nhưng khác nhau ở cơ chế thực hiện của database  
+
+# **7. Demo Part 1**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+# **8. Demo Part 2**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId1 %}
+{: refdef}
