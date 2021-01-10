@@ -26,9 +26,8 @@ Cũng giống như lập trình vậy, chúng ta có thể tạo các phương t
 {% highlight sql linenos %}
 
 CREATE PROCEDURE procedure_name
-AS
+BEGIN
 sql_statement
-GO;
 
 {% endhighlight %}
 
@@ -37,7 +36,7 @@ GO;
 <br>
 {% highlight sql linenos %}
 
-EXEC procedure_name; 
+CALL procedure_name; 
 
 {% endhighlight %}
 
