@@ -7,7 +7,7 @@ tags: [database]
 summery: Stored Procedure    
 image: /images/blog/database.png
 description : Những chia sẻ trong bài viết giúp hiểu được thuật ngữ Stored Procedure trong Database. Người đọc cũng sẽ được hướng dẫn cú pháp để tạo Stored Procedure trong Database thông qua các ví dụ cụ thể được đưa ra trong bài. Ngoài ra, bài viết cũng trình bày về Stored Procedure với tham số và Stored Procedure với nhiều tham số sử dụng trong Database. Từ đó áp dụng được Stored Procedure trong lập trình Database hiệu quả hơn.
-youtubeId: mxYQUIMJ5Aw
+youtubeId: ReeqgvOL4-w
 ---
 
 {% include toc.html %}
@@ -111,6 +111,9 @@ GO;
 EXEC SelectAllCustomers @City = 'London', @PostalCode = 'WA1 1DP'; 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
