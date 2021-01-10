@@ -28,6 +28,7 @@ Cũng giống như lập trình vậy, chúng ta có thể tạo các phương t
 CREATE PROCEDURE procedure_name
 BEGIN
 sql_statement
+END;
 
 {% endhighlight %}
 
@@ -58,9 +59,9 @@ CALL procedure_name;
 {% highlight sql linenos %}
 
 CREATE PROCEDURE SelectAllCustomers
-AS
+BEGIN
 SELECT * FROM Customers
-GO;
+END;
 {% endhighlight %}
 
 - Chúng ta thực thi
@@ -68,7 +69,7 @@ GO;
 <br>
 {% highlight sql linenos %}
 
-EXEC SelectAllCustomers;
+CALL SelectAllCustomers;
 {% endhighlight %}
 
 ## **2. Stored Procedure với tham số**
@@ -81,9 +82,9 @@ Giống như phương thức (hàm) trong lập trình, phướng thức có tha
 {% highlight sql linenos %}
 
 CREATE PROCEDURE SelectAllCustomers @City nvarchar(30)
-AS
+BEGIN
 SELECT * FROM Customers WHERE City = @City
-GO;
+END;
 {% endhighlight %}
 
 - Chúng ta thực thi Stored Procedure và truyền tham số city là London vào
@@ -92,7 +93,7 @@ GO;
 <br>
 {% highlight sql linenos %}
 
-EXEC SelectAllCustomers @City = 'London'; 
+CALL SelectAllCustomers @City = 'London'; 
 
 {% endhighlight %}
 
@@ -101,14 +102,14 @@ EXEC SelectAllCustomers @City = 'London';
 <br>
 {% highlight sql linenos %}
 CREATE PROCEDURE SelectAllCustomers @City nvarchar(30), @PostalCode nvarchar(10)
-AS
+BEGIN
 SELECT * FROM Customers WHERE City = @City AND PostalCode = @PostalCode
-GO;
+END;
 {% endhighlight %}
 
 <br>
 {% highlight sql linenos %}
-EXEC SelectAllCustomers @City = 'London', @PostalCode = 'WA1 1DP'; 
+CALL SelectAllCustomers @City = 'London', @PostalCode = 'WA1 1DP'; 
 {% endhighlight %}
 
 {:refdef: style="text-align: center;"}
