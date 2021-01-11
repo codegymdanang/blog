@@ -8,7 +8,7 @@ summery: AOP Pointcut
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springaop.png
 description : Sử dụng AOP Pointcut trong lập trình spring. Hiểu cơ chế hoạt động của AOP Pointcut thông qua các  ví dụ thực tế.
-youtubeId: WNfuVJptPnQ
+youtubeId: fb5xxs3Matc
 ---
 
 {% include toc.html %}
@@ -259,3 +259,8 @@ Bước 1 : Tạo RegexpMethodPointcutAdvisor
 	<property name="advice" ref="hackAroundMethodBeanAdvice" />
 </bean>
 {% endhighlight %}
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
