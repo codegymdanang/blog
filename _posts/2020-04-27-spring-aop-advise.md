@@ -8,7 +8,7 @@ summery: AOP Advise
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springaop.png
 description : Sử dụng AOP Advise trong lập trình spring. Hiểu cơ chế hoạt động của AOP Advise thông qua các  ví dụ thực tế.
-youtubeId: WNfuVJptPnQ
+youtubeId: ELLDQ3g6WEs
 ---
 
 {% include toc.html %}
@@ -582,5 +582,7 @@ public class PublishingAspect {
 }
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
