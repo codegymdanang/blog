@@ -8,7 +8,7 @@ summery: AOP Annotation
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_springaop.png
 description : Sử dụng AOP Annotation trong lập trình spring. Hiểu cơ chế hoạt động của AOP Annotation thông qua các  ví dụ thực tế.
-youtubeId: WNfuVJptPnQ
+youtubeId: B-Ck0Eaz5Ws
 ---
 
 {% include toc.html %}
@@ -414,7 +414,9 @@ public class EmployeeAnnotationAspect {
 }
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
