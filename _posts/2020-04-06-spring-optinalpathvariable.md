@@ -7,7 +7,7 @@ tags: [spring-web]
 summery: Optional Path Variable
 image: /images/blog/spring.png
 description : Hiểu được Optional Path Variable trong lập trình dự án Spring. Hướng dẫn sử dụng Optional PathVariable trong lập trình Spring. Kết hợp Option PathVariable cùng với các annotaion khác trong dự án.
-youtubeId: WNfuVJptPnQ
+youtubeId: piHjy2UqcOg
 ---
 
 {% include toc.html %}
@@ -89,3 +89,7 @@ public Article getDefaultArticle() {
     //...
 }
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
