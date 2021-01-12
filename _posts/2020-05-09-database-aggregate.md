@@ -54,14 +54,6 @@ LIMIT 3;
 
 {% endhighlight %}
 
-- Chúng ta có thể sử dụng %. Ví dụ mình muốn lấy 50% số dòng
-
-<br>
-{% highlight sql linenos %}
-
-SELECT TOP 50 PERCENT * FROM Customers;
-
-{% endhighlight %}
 
 - Chúng ta có thể kết hợp mệnh đề Where vào trong câu truy vấn
 
