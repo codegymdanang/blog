@@ -7,7 +7,7 @@ tags: [database]
 summery: Hàm tổng hợp    
 image: /images/blog/database.png
 description : Những chia sẻ trong bài viết nhằm giúp người đọc hiểu và áp dụng được các hàm tổng hợp trong Database. Tác giả lần lượt giới thiệu kết hợp hướng dẫn cú pháp thực hiện cụ thể thông qua các ví dụ. Bao gồm các nội dung, SQL Limit để chỉ số dòng được trả về, SQL Min và Max để lấy ra những kết quả có giá thấp nhất và cao nhất, SQL Count AVG SUM để đếm số lượng kết quả trả về.
-youtubeId: tKLOuvrHCNw
+youtubeId: 8Lkf4xegRX4
 ---
 
 {% include toc.html %}
@@ -174,7 +174,9 @@ FROM OrderDetails;
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

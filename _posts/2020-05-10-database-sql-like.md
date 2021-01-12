@@ -7,7 +7,7 @@ tags: [database]
 summery: Toán tử Like    
 image: /images/blog/database.png
 description : Những chia sẻ trong bài viết đề cập đến chủ đề toán tử Like trong Database. Trong đó tác giả lần lượt trình bày về phép toán tử Like, IN, BETWEEN và cách định danh một cái tên cho Table hoặc Column thông qua từ khoá AS. Ở mỗi phép toán tử, tác giả đưa ra các hình ảnh minh hoạ cho cú pháp thực hiện. Từ đó giúp người đọc hiểu được và áp dụng được toán tử Like trong lập trình Database hiệu quả hơn.
-youtubeId: tKLOuvrHCNw
+youtubeId: sddaOVSUZ-A
 ---
 
 {% include toc.html %}
@@ -151,5 +151,7 @@ FROM Customers;
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
