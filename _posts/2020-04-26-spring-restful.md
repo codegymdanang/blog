@@ -8,7 +8,7 @@ summery: Restful
 image: /images/blog/spring.png
 featureImage: /images/post/javacore/feature_webservice.png
 description : Sử dụng restful webservice trong lập trình. Hiểu cơ chế hoạt động của restfull webservice thông qua các  ví dụ thực tế. Phân biệt được sự khác nhau của website và webservice và khi nào thì mình dùng webservice trong lập trình java.
-youtubeId: WNfuVJptPnQ
+youtubeId: n_vFY52n0g0
 ---
 
 {% include toc.html %}
@@ -143,3 +143,8 @@ public class BookController {
 # **4. Kết luận?**
 
 Ngày nay thì đa số các ứng dụng webservice đều là Restfull cả . Vì nó có nhiều ưu điểm hơn các loại khác như Web Service dựa trên SOAP và WSDL. Đồng thời REST để bảo trì và mở rộng.
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
