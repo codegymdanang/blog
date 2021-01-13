@@ -4,7 +4,7 @@ title: Sử dụng Rest Param trong ES6
 slug : su-dung-rest-param-trong-es6
 category: laptrinhjavascript
 tags: [es6]
-summery:  Giá trị mặc định cho tham số
+summery:  Tham số rest
 image: /images/blog/feature_javascript.png
 description : Trình bày về cách cách sử dụng rest param của ES6. Lần lượt giới thiệu và giải thích khái niệm rest param trong phương thức của ES6 là gì? 
 
