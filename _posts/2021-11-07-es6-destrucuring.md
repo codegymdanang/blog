@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [es6]
 summery:  Destructuring
 image: /images/blog/feature_javascript.png
-description : Trình bày về cách cách sử dụngDestructuring của ES6. Lần lượt giới thiệu và giải thích khái niệm Destructuring trong của ES6 là gì? 
+description : Trình bày về cách cách sử dụng Destructuring của ES6. Lần lượt giới thiệu và giải thích khái niệm Destructuring trong của ES6 là gì? 
 
 youtubeId: ttKo2gO-BCE
 ---
