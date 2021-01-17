@@ -150,7 +150,9 @@ car.speedUp(50); // undefined
 {% endhighlight %}
 
 
-Khi chương trình chạy đến hàm setTimeout và khi ta console.log thì nhận giá trị speed là undefine. Như vậy this.speed trong hàm console.log của phương thức setTimeout không thể lấy được giá trị tham số speed trong hàm speedUp. Các em có thể đọc thêm phần shadows trong javascript để hiểu thêm vì sao biến speed lại bị undefine.
+Khi chương trình chạy đến hàm setTimeout và khi ta console.log thì nhận giá trị speed là undefine. Như vậy this.speed trong hàm console.log của phương thức setTimeout không thể lấy được giá trị tham số speed trong hàm speedUp. Cái này là do phạm vi biến speed chỉ không thể truy cập và thấy được ở hàm console.log.
+
+Các em có thể đọc kỹ hơn ở bài viết phạm vi của biến gồm global, local, lexical scope etc. Cái ví dụ ở trên là thuộc vào phạm vi lexical scope.
 
 Chúng ta sẽ sửa lại code ở trên bằng cách khai báo thêm biến let self = this trước khi thực hiện gọi hàm setTimeout như sau
 
