@@ -4,7 +4,7 @@ title: Khi nào không nên dùng Arrow function trong ES6
 slug : khi-nao-khong-nen-dung-arrow-function
 category: laptrinhjavascript
 tags: [es6]
-summery: Không nên dùng Arrow function
+summery: Khi nào nên dùng Arrow
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta không nên dùng  Arrow function của ES6. Lần lượt giới thiệu và và đi qua các ví dụ về các trường hợp không nên dùng nó.
 
