@@ -53,47 +53,47 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
   + Thuật toán tìm kiếm nhị phân.
   + Thuật toán sắp xếp.
 
-2. Kiến thức về framework (ví dụ như học Spring Framework của Java)
-  + Mô tả luồng đi của một ứng dụng MVC [Trả lời](https://levunguyen.com/laptrinhspring/2020/02/01/springmvc/)
+2. Kiến thức về framework (ví dụ như học Spring Framework của Java). Các câu trả lời trong [đây](https://levunguyen.com/hoc-lap-trinh-spring-web/)
+  + Mô tả luồng đi của một ứng dụng MVC 
   + IoC là gì
-  + Dependency Injection là gì ? [Trả lời](https://levunguyen.com/laptrinhspring/2020/03/06/dependency-injection/)
-  + Giải thích các annotation @Controller , @Service , @Repository , @Autowire.  [Trả lời](https://levunguyen.com/laptrinhspring/2020/03/16/spring-core-annotation-collection/)
+  + Dependency Injection là gì ?
+  + Giải thích các annotation @Controller , @Service , @Repository , @Autowire. 
   + Databinding
   + Formatter và Converter dùng làm gì?
-  + JPA là gì ? [Trả lời](https://levunguyen.com/laptrinhspring/2020/04/13/spring-jpa/)
-  + Webservice là gì? [Trả lời](https://levunguyen.com/laptrinhspring/2020/04/24/webservice/)
-  + Maven dùng để làm gì? [Trả lời](https://levunguyen.com/laptrinhspring/2020/03/02/create-maven-project/)
-  + ORM mapping là gì? [Trả lời](https://levunguyen.com/laptrinhspring/2020/04/13/spring-jpa/)
+  + JPA là gì ?
+  + Webservice là gì? 
+  + Maven dùng để làm gì? 
+  + ORM mapping là gì? 
   + Phân biệt @NotNull,@NotEmpty và @NotBlank
   + Sự khác nhau của session và cookie. 
   + Mô hình MVC là gì?
   + Cơ chế hoạt động FrontController
   + Làm sao để bảo mật trong lập trình.
-  + Sự khác nhau giữa get và post. [Trả lời](https://levunguyen.com/laptrinhspring/2020/04/23/phuong-thuc-http/)
-  + Spring Security hoạt động như thế nào. [Trả lời](https://levunguyen.com/laptrinhspring/2020/04/21/spring-security/)
-  + Json Web Token là gì? [Trả lời](https://levunguyen.com/laptrinhspring/2020/04/25/json-web-token/)
-  + Restful webservice là gì ? [Trả lời](https://levunguyen.com/laptrinhspring/2020/04/25/json-web-token/)
+  + Sự khác nhau giữa get và post. 
+  + Spring Security hoạt động như thế nào. 
+  + Json Web Token là gì?
+  + Restful webservice là gì ?
 
-3. Kiến thức về Database
+3. Kiến thức về Database. Các câu trả lời trong [đây](https://levunguyen.com/co-so-du-lieu-mysql/)
   + Database là gì?
   + Trong database có các quan hệ nào?
   + SQL là gì ?
-  + Khoá chính là gì? [Trả lời](https://levunguyen.com/database/2020/05/05/database-constraints/)
+  + Khoá chính là gì? 
   + Khoá ngoại là gì?
   + Composite key là gì?
   + Unique là gì ?
-  + Giải thích các rule chuẩn hoá dữ liệu.[Trả lời](https://levunguyen.com/database/2020/05/25/chuan-hoa-du-lieu/)
-  + Sự khác nhau truncate , delete , drop. [Trả lời](https://levunguyen.com/database/2020/05/04/database-dll/)
-  + Sự khác nhau having và where [Trả lời](https://levunguyen.com/database/2020/05/12/database-group-having/)
+  + Giải thích các rule chuẩn hoá dữ liệu.
+  + Sự khác nhau truncate , delete , drop. 
+  + Sự khác nhau having và where 
   + Transaction là gì?
-  + Phân biệt toán tử joins. [Trả lời](https://levunguyen.com/database/2020/05/11/database-joins/)
-  + View là gì?[Trả lời](https://levunguyen.com/database/2020/05/16/database-view/)
+  + Phân biệt toán tử joins. 
+  + View là gì?
   + Index là gì? 
-  + Stored procedure là gì?[Trả lời](https://levunguyen.com/database/2020/05/15/stored-procedure/)
-  + Các câu lệnh DLL là gì?[Trả lời](https://levunguyen.com/database/2020/05/04/database-dll/)
-  + Các câu lệnh DML là gì?[Trả lời](https://levunguyen.com/database/2020/05/07/database-sql-dml/)
+  + Stored procedure là gì?
+  + Các câu lệnh DLL là gì?
+  + Các câu lệnh DML là gì?
 
-4. Kiến thức về frontend
+4. Kiến thức về frontend. Các em xem lại khoá học HTML và CSS
   + HTML dùng để làm gì ?
   + CSS dùng để làm gì ?
   + Bootstrap dùng để làm gì ?
@@ -102,7 +102,7 @@ Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị 
   + Modelbox là gì ?
   + Responsive là gì ? Làm sao để làm được Responsive.
 
-5. Kiến thức về Angular
+5. Kiến thức về Angular. Các em xem lại khoá học Angular
   + Cơ chế hoạt động của Angular
   + Component là gì?
   + Databinding là gì?
