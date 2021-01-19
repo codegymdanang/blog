@@ -4,7 +4,7 @@ title: Sử dụng Symbol trong ES6
 slug : su-dung-symbol-assign-trong-es6
 category: laptrinhjavascript
 tags: [es6]
-summery: Object assign
+summery: Symbol
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  dùng  symbol của ES6. Lần lượt giới thiệu và và đi qua các ví dụ về symbol  được sử dụng trong ES6.
 
