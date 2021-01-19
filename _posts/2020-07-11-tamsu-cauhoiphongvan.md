@@ -32,24 +32,24 @@ Trong vòng này các bạn sẽ được công ty đưa cho bài test để ki�
 Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị là team lead của dự án. Thông thường các anh/chị sẽ hỏi các kiến thức từ cơ bản đến nâng cao. <b>Các câu hỏi phỏng vấn lập trình</b> mà các anh chị thường hay hỏi
 
 1. Kiến thức Java nền tảng
-  + Lập trình hướng đối tượng là gì? [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/14/lap-trinh-huong-doi-tuong/)
-  + Các tính chất của lập trình hướng đối tượng ? [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/14/lap-trinh-huong-doi-tuong/)
-  + While và doWhile khác nhau như thế nào ?[Trả lời](https://levunguyen.com/laptrinhjava/2020/01/10/loop/)
-  + Hỏi về cách hoạt động của các collection Framework như list , map , set , queue , stack.[Trả lời](https://levunguyen.com/laptrinhjava/2020/02/03/cau-truc-du-lieu/)
-  + Phân biệt ArrayList , Linkedlist và Vector. [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/30/array-arraylist/)
-  + Sự khác nhau giữa ArrayList và Array.[Trả lời](https://levunguyen.com/laptrinhjava/2020/01/30/array-arraylist/)
-  + Sự khác nhau giữa Linkedlist với Arraylist.[Trả lời](https://levunguyen.com/laptrinhjava/2020/01/31/cai-dat-linkedlist/)
-  + Sự khác nhau của Set và List.[Trả lời](https://levunguyen.com/laptrinhjava/2020/02/03/cau-truc-du-lieu/)
+  + Lập trình hướng đối tượng là gì? [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/14/lap-trinh-huong-doi-tuong-trong-lap-trinh-java/)
+  + Các tính chất của lập trình hướng đối tượng ? [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/14/lap-trinh-huong-doi-tuong-trong-lap-trinh-java/)
+  + While và doWhile khác nhau như thế nào ?[Trả lời](https://levunguyen.com/laptrinhjava/2020/01/10/su-dung-vong-lap-trong-lap-trinh-java/)
+  + Hỏi về cách hoạt động của các collection Framework như list , map , set , queue , stack.[Trả lời](https://levunguyen.com/laptrinhjava/2020/02/03/su-dung-cac-tap-hop-trong-lap-trinh-java/)
+  + Phân biệt ArrayList , Linkedlist và Vector. 
+  + Sự khác nhau giữa ArrayList và Array.[Trả lời](https://levunguyen.com/laptrinhjava/2020/02/03/su-dung-cac-tap-hop-trong-lap-trinh-java/)
+  + Sự khác nhau giữa Linkedlist với Arraylist.[Trả lời](https://levunguyen.com/laptrinhjava/2020/02/03/su-dung-cac-tap-hop-trong-lap-trinh-java/)
+  + Sự khác nhau của Set và List.[Trả lời](https://levunguyen.com/laptrinhjava/2020/02/03/su-dung-cac-tap-hop-trong-lap-trinh-java/)
   + Sự khác nhau giữa override và overload.
-  + Phân biệt các kiểu dữ liệu trong java. Khác nhau thế nào ?[Trả lời](https://levunguyen.com/laptrinhjava/2020/01/03/kieu-du-lieu/)
-  + Phân biệt sự khác nhau của các access modifier [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/18/access-modifier/)
-  + Generic là gì? Cho ví dụ minh hoạ? Tại sao dùng Generic. [Trả lời](https://levunguyen.com/laptrinhjava/2020/02/04/generic-la-gi/)
-  + Sự khác nhau giữa abstract class và Interface. [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/25/su-khac-nhau-giua-abstract-interface/)
+  + Phân biệt các kiểu dữ liệu trong java. Khác nhau thế nào ?[Trả lời](https://levunguyen.com/laptrinhjava/2020/01/03/kieu-du-lieu-trong-lap-trinh-java/)
+  + Phân biệt sự khác nhau của các access modifier [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/18/su-dung-access-modifier-trong-lap-trinh-java/)
+  + Generic là gì? Cho ví dụ minh hoạ? Tại sao dùng Generic. [Trả lời](https://levunguyen.com/laptrinhjava/2020/02/04/su-dung-generic-trong-ngon-ngu-lap-trinh-java/)
+  + Sự khác nhau giữa abstract class và Interface. [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/25/phan-biet-abstract-interface-trong-hoc-lap-trinh-java/)
   + Ngoại lệ (Exception là gì) ? Phân biệt check và uncheck exception.
-  [Trả lời](https://levunguyen.com/laptrinhjava/2020/02/06/ngoai-le/)
-  + Tham trị và tham chiếu là gì? [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/17/tham-tri-va-tham-chieu/)
-  + Bộ nhớ Heap và Stack.[Trả lời](https://levunguyen.com/laptrinhjava/2020/01/16/bo-nho-heap-va-stack/)
-  + Sư khác nhau giữa Object và Class là gì ? [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/15/java-object/)
+  [Trả lời](https://levunguyen.com/laptrinhjava/2020/02/06/su-dung-ngoai-le-trong-ngon-ngu-lap-trinh-java/)
+  + Tham trị và tham chiếu là gì? [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/17/tham-tri-va-tham-chieu-trong-lap-trinh-java/)
+  + Bộ nhớ Heap và Stack.[Trả lời](https://levunguyen.com/laptrinhjava/2020/01/16/bo-nho-heap-va-stack-trong-lap-trinh-java/)
+  + Sư khác nhau giữa Object và Class là gì ? [Trả lời](https://levunguyen.com/laptrinhjava/2020/01/15/doi-tuong-trong-lap-trinh-java/)
   + Thuật toán tìm kiếm nhị phân.
   + Thuật toán sắp xếp.
 
