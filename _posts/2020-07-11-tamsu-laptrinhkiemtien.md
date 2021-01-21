@@ -23,7 +23,7 @@ Chào các bạn, chắc hẳn bạn sẽ thắc mắc <b>lập trình viên</b>
 ![smartdev](/images/post/softskills/smartdev.jpg){:class="img-responsive"}
 {: refdef}
 
-Sau khi ra trường hầu hết các em phải kiếm được một công ty phù hợp với năng lực của mình. Đồng thời năm đầu tiên chúng ta lựa chọn môi trường có thể phát triển bản thân, môi trường mà ta học hỏi được nhiều kinh nghiệm <b>học lập trình</b>. Chứ đừng vì chỗ này trả lương cao hơn chỗ kia, đừng để tiền bạc chi phối khả năng phát triển bản thân. Trường hợp có công ty trả lương cao và ở đó mình học được nhiều kỷ thuật thì mình nên chọn. Còn như công ty mà trả lương cao nhưng môi trường phát triển không có thì mình không nên vào đấy, mà có thể chọn công ty trả lương thấp nhưng cho mình lại nhiều kiến thức, nhiều kinh nghiệm trực chiến dự án. Như vậy là mình đã có một nguồn thu nhập ổn định hàng.
+Sau khi ra trường hầu hết các em phải kiếm được một công ty phù hợp với năng lực của mình. Đồng thời năm đầu tiên chúng ta lựa chọn môi trường có thể phát triển bản thân, môi trường mà ta học hỏi được nhiều kinh nghiệm <b>học lập trình</b>. Chứ đừng vì chỗ này trả lương cao hơn chỗ kia, đừng để tiền bạc chi phối khả năng phát triển bản thân. Trường hợp có công ty trả lương cao và ở đó mình học được nhiều kỹ thuật thì mình nên chọn. Còn như công ty mà trả lương cao nhưng môi trường phát triển không có thì mình không nên vào đấy, mà có thể chọn công ty trả lương thấp nhưng cho mình lại nhiều kiến thức, nhiều kinh nghiệm trực chiến dự án. Như vậy là mình đã có một nguồn thu nhập ổn định hàng.
 
 <br>
 # **2. Nguồn thu nhập 2-Làm freelancer ngoài thời gian ở công ty**
@@ -87,4 +87,4 @@ Cái này thì kiếm tiền khá lâu , không phải ngày một ngày hai là
 Qua 10 cách kiếm tiền trên anh hy vọng mọi người sẽ thấy được làm lập trình viên thì mình có rất nhiều cơ hội để kiếm tiền. Nhưng để làm được điều đó mọi người phải giỏi về nghề lập trình của mình. Phải chao chút từng dòng code , học hỏi không ngừng các kỹ thuật các công nghệ. Đó là lý do vì sao anh nói trong cách kiếm tiền số một là hãy chọn công ty mà mình phát triển được bản thân hơn là công ty trả lương cao mà mình càng ngày càng tụt lùi.
 
 Các em muốn biết học lập trình bắt đầu từ đâu thì đọc bài này nhé
-[click bài này](https://levunguyen.com/career/2020/05/11/hoc-lap-trinh-bat-dau-tu-dau/)
+[click bài này](https://levunguyen.com/career/2020/07/11/hoc-lap-trinh-bat-dau-tu-dau/)
