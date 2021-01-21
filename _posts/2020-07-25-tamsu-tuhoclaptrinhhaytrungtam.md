@@ -68,7 +68,7 @@ Nếu một trung tâm tốt thì mình cũng không ngại chuyện học phí.
 <br>
 # **Kết luận**
 
-Tự <b>học lập trình</b> hay <b>học lập trình</b> tại trung tâm đều được cả, quan trọng mình phải xem kiến thức, khả năng của mình đang ở đâu. Nếu mình chưa có kiến thức gì trong linh vực này thì anh khuyên các em nên chọn trung tâm để theo học. Nếu mình có căn bản rồi thì chỉ cần tìm sư phụ nhờ sư phụ chỉ dạy các công nghệ sau đó mình có thể mua khoá học và tự thực hành là được. 
+Tự <b>học lập trình</b> hay <b>học lập trình</b> tại trung tâm đều được cả, quan trọng mình phải xem kiến thức, khả năng của mình đang ở đâu. Nếu mình chưa có kiến thức gì trong lĩnh vực này thì anh khuyên các em nên chọn trung tâm để theo học. Nếu mình có căn bản rồi thì chỉ cần tìm sư phụ nhờ sư phụ chỉ dạy các công nghệ sau đó mình có thể mua khoá học và tự thực hành là được. 
 
-Học lập trình là một lựa chọn đúng trên con đường ổn định sự nghiệp. Các em có thể xem thêm mức lương của nghành IT tại [đây](https://levunguyen.com/career/2020/05/04/xu-huong-nghanh-lap-trinh/)
+Học lập trình là một lựa chọn đúng trên con đường ổn định sự nghiệp. Các em có thể xem thêm mức lương của ngành IT tại [đây](https://levunguyen.com/career/2020/07/04/xu-huong-nganh-lap-trinh/)
 
