@@ -36,7 +36,7 @@ Có một nghịch lý khi anh là nhà tuyển dụng và các HR công ty khá
 - Bước 3 : Định giá bản thân
 	+ Đối chiếu skills mà mình ghi trong bước 1 và skills được lấy từ nhà tuyển dụng ở bước 2. 
 	+ Sau đó so sánh mình đã đủ các skills mà doanh nghiệp cần chưa.
-	+ Xem nhà tuyển dụng offer (đề nghị) công việc đó là bao nhiêu tiền. Lúc này mình dự vào đó mà xem mình đáng giá bao nhiêu
+	+ Xem nhà tuyển dụng offer (đề nghị) công việc đó là bao nhiêu tiền. Lúc này mình dựa vào đó mà xem mình đáng giá bao nhiêu
 
 Thông thường mức lương ở các vùng như Hồ Chí Minh hoặc Hà Nội sẽ cao hơn ở Đà Nẵng tầm 1.5 lần. Ví dụ như fresher ở Đà Nẵng là 5 tr thì ở trong Hồ Chí Minh hoặc Hà Nội là 7tr5.
 
@@ -56,7 +56,7 @@ Trước khi đi phỏng vấn các em phải tìm hiểu kỹ về công ty ứ
 
 Thông thường các em sẽ thấy các nhà tuyển dụng offer (mức lương) theo khoảng cố định. Ví dụ như tin đăng tuyển fresher Java với mức lương là 5 -> 10 triệu. 
 
-Khi gặp trường hợp này trong tin tuyển dụng các em phải xát định 1 con số cho chính mình. Con số này phải làm cho mình vui và nếu có được nhận thì cũng happy với nó. Anh lấy ví dụ khi nhà tuyển dụng nói 5tr -> 10tr mà các em trả lời tuỳ vào công ty thì chắc chắn các công ty sẽ chọn mức 5tr. Khi vào công ty rồi thì các em sẽ cảm thấy không happy, và ước gì mình nói giá cao hơn rồi dẫn tới làm việc không hiệu quả. Như vậy phải xác  định ngay con số mà mình cảm thấy ok là được. Sẽ có nhiều trường hợp đưa chọn con số cuối cùng là 10 triệu thì lúc này phải xem mình có xứng đáng không ? Nếu cảm thấy không an tâm thì nên chọn 8 triệu để có cơ hội đi làm. 
+Khi gặp trường hợp này trong tin tuyển dụng các em phải xác định 1 con số cho chính mình. Con số này phải làm cho mình vui và nếu có được nhận thì cũng happy với nó. Anh lấy ví dụ khi nhà tuyển dụng nói 5tr -> 10tr mà các em trả lời tuỳ vào công ty thì chắc chắn các công ty sẽ chọn mức 5tr. Khi vào công ty rồi thì các em sẽ cảm thấy không happy, và ước gì mình nói giá cao hơn rồi dẫn tới làm việc không hiệu quả. Như vậy phải xác  định ngay con số mà mình cảm thấy ok là được. Sẽ có nhiều trường hợp đưa chọn con số cuối cùng là 10 triệu thì lúc này phải xem mình có xứng đáng không ? Nếu cảm thấy không an tâm thì nên chọn 8 triệu để có cơ hội đi làm. 
 
 <br>
 # **4. Không nói dối**
