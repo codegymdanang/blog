@@ -1,5 +1,5 @@
 ---
-layout: course-softskill
+layout: course-tamsu
 title: Lập trình viên freelancer bắt đầu từ đâu
 slug : lap-trinh-vien-freelancer-bat-dau-tu-dau
 category: career
