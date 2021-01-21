@@ -18,7 +18,7 @@ Chào các em, nếu các em mong muốn trở thành <b>lập trình web</b> th
 
 # **1. Lập trình viên web là làm gì**
 
-Khi nghe từ lập trình web thì hầu như mọi người sẽ nghĩ tới việc làm hoặc xây dựng một website. Nhưng trong ngành lập trình từ lập trình viên web còn mang nhiều ý nghĩa hơn. Ngoài việc xây dựng website thì lập trình viên web còn có nhiệm vụ phân tích và tham mưa ý tưởng cho khách hàng nhằm bảo đảm nội dung, hình ảnh, cấu trúc phù hợp với mục đích của yêu cầu.
+Khi nghe từ lập trình web thì hầu như mọi người sẽ nghĩ tới việc làm hoặc xây dựng một website. Nhưng trong ngành lập trình từ lập trình viên web còn mang nhiều ý nghĩa hơn. Ngoài việc xây dựng website thì lập trình viên web còn có nhiệm vụ phân tích và tham mưu ý tưởng cho khách hàng nhằm bảo đảm nội dung, hình ảnh, cấu trúc phù hợp với mục đích của yêu cầu.
 
 Một lập trình viên web thì làm các công việc như
 
@@ -53,11 +53,11 @@ Một nguồn thu nhập nữa là từ freelancer các dự án online. Hiện 
 
 - Lập trình web (web developement) không nhất thiết phải biết thiết kế web (web design).
 
-Một trong những ngộ nhận là mọi người hay nghĩ là lập trình viên web thì đồng nghĩa với thiết kế web (web design). Lập trình web là mình chuyển đổi những gì mà những desinger thiết kế ra thành những tính năng trên website. Ví dụ designer sẽ thiết kế màn hình Login thì lúc đó web development sẽ phát triển tính năng login thực tế trên website và nó tương tác được với người dùng.
+Một trong những ngộ nhận là mọi người hay nghĩ là lập trình viên web thì đồng nghĩa với thiết kế web (web design). Lập trình web là mình chuyển đổi những gì mà những designer thiết kế ra thành những tính năng trên website. Ví dụ designer sẽ thiết kế màn hình Login thì lúc đó web development sẽ phát triển tính năng login thực tế trên website và nó tương tác được với người dùng.
 
 - Lập trình web không phải chỉ làm một việc là coding
 
-Lập trình viên web sẽ không chỉ coding mà hằng ngày họ phải đi cộng tác với các desingers, người làm nội dung, và những người khác trong team để hoàn thành công việc. Họ cũng phải phân tích tốc độ website, tối ưu website thực hiện những cải tiến giúp sản phẩm chạy tốt hơn. Họ cũng làm việc trực tiếp với khách hàng để đưa ra những ý kiến giúp khách hàng và sản phẩm tốt lên
+Lập trình viên web sẽ không chỉ coding mà hằng ngày họ phải đi cộng tác với các designer, người làm nội dung, và những người khác trong team để hoàn thành công việc. Họ cũng phải phân tích tốc độ website, tối ưu website thực hiện những cải tiến giúp sản phẩm chạy tốt hơn. Họ cũng làm việc trực tiếp với khách hàng để đưa ra những ý kiến giúp khách hàng và sản phẩm tốt lên
 
 # **5. Học lập trình web bắt đầu từ đâu**
 
@@ -75,7 +75,7 @@ Thông thường mất 1 năm nếu các em học hết các công nghệ ở tr
 
 # **6. Kết luận**
 
-Trên đây là các kinh nghiệm của anh về việc trở thành một lập trình viên web. Lập trình viên web thì thường làm những công việc gì và mình cần lộ trình học như thế nào cho hợp lý. Lập trình web khá dể dàng tìm được các công việc trong ngành phần mềm vì bất cứ sản phẩm nào thời nay đều phải chạy được trên web.
+Trên đây là các kinh nghiệm của anh về việc trở thành một lập trình viên web. Lập trình viên web thì thường làm những công việc gì và mình cần lộ trình học như thế nào cho hợp lý. Lập trình web khá dễ dàng tìm được các công việc trong ngành phần mềm vì bất cứ sản phẩm nào thời nay đều phải chạy được trên web.
 
 
 
