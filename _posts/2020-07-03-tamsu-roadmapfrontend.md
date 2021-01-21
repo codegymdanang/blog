@@ -1,5 +1,5 @@
 ---
-layout: course-softskill
+layout: course-tamsu
 title: Con đường trở thành lập trình viên frontend
 slug : lo-trinh-tro-thanh-lap-trinh-vien-frontend
 category: career
