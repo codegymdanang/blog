@@ -1,5 +1,5 @@
 ---
-layout: course-softskill
+layout: course-tamsu
 title: Cách deal lương khi phỏng vấn
 slug : cach-deal-luong-khi-phong-van
 category: career
