@@ -46,7 +46,7 @@ Trải qua hơn 10 năm trong ngành phần mềm anh đã trải qua hầu hế
 <br>
 # **Chương 4-Học tiếng Anh như thế nào**
 
-Như các em thấy lợi ích của việc có tiếng Anh trong người sẽ giúp mình nâng cao được kỷ thuật lập trình , cơ hội giao lưu với thế giới bên ngoài và thăng tiến trong sự nghiệp. Vậy học tiếng anh như thế nào ?
+Như các em thấy lợi ích của việc có tiếng Anh trong người sẽ giúp mình nâng cao được kỹ thuật lập trình , cơ hội giao lưu với thế giới bên ngoài và thăng tiến trong sự nghiệp. Vậy học tiếng anh như thế nào ?
 
 Theo kinh nghiệm của anh chỉ có 2 điều nếu các em làm tốt thì tiếng anh sẽ tốt. Thứ nhất phải trang bị cho mình vốn từ vựng thật nhiều. Thật ra cái khó của tiếng anh chính là từ vựng. Nếu không có từ vựng mình chẳng biết phải nói gì giống như trường hợp anh khi tốt nghiệp phổ thông xong. Vốn liếng từ vựng hầu như không có nên chẳng biết nói gì? Khi anh học ở trường RMIT thì anh đặt ra mục tiêu là 1 ngày học 5 từ vựng mới. Tiếp đến là đọc truyện tiếng Anh. Lúc đầu mình có thể được các truyện dài 100 trang trở lại, sau này tăng dần lên 200,300 trang. Khi đọc các câu truyện đó nếu gặp từ vựng chưa học thì ghi lại và học. Khi đã đến một level ngon là có thể được được cuốn truyện 300 trang thì tiếp tục đọc các tờ báo bbcnews (online) thường trên các trang bccnews có rất nhiều từ vựng mà người nước ngoài hay dùng vì nó là từ phổ thông họ hay dùng. Nên nếu không biết từ nào thì ghi lại và học.
 
@@ -60,4 +60,4 @@ Trong lập trình thì quan trọng nhất là khả năng đọc  tiếng anh 
 Tiếng Anh thật sự rất quan trọng trong sự nghiệp của một lập trình viên. Nó giúp chúng ta nâng cao tay nghề , đồng thời mở ra cho chúng ta vô số con đường thành công khác. Hy vọng các em đầu tư thêm thời gian cho việc học tiếng Anh của mình
 
 Các em muốn biết học lập trình bắt đầu từ đâu thì đọc bài này nhé
-[click bài này](https://levunguyen.com/career/2020/05/11/hoc-lap-trinh-bat-dau-tu-dau/)
+[click bài này](https://levunguyen.com/career/2020/07/11/hoc-lap-trinh-bat-dau-tu-dau/)
