@@ -27,7 +27,7 @@ Chào các em, hôm nay sẽ chia sẻ những kinh nghiệm của anh đứng t
 Trong vòng này các bạn sẽ được công ty đưa cho bài test để kiểm tra kiến thức về lập trình , tư duy logic , và tiếng anh . Trong đó bài thi kiến thức về lập trình là những câu trắc nghiệm tổng kết lại các kiến thức xoay quanh về nền tảng lập trình (java core), web (html,css,js) , database. Nói tóm lại kiến thức sẽ được kiểm tra từ front end đến backend và database .
 
 <br>
-### Vòng 2 : Phỏng vấn kỷ thuật trực tiếp với đội ngũ team lead tại công ty.
+### Vòng 2 : Phỏng vấn kỹ thuật trực tiếp với đội ngũ team lead tại công ty.
 
 Trong vòng này các em sẽ được gặp trực tiếp với các anh/chị là team lead của dự án. Thông thường các anh/chị sẽ hỏi các kiến thức từ cơ bản đến nâng cao. <b>Các câu hỏi phỏng vấn lập trình</b> mà các anh chị thường hay hỏi
 
