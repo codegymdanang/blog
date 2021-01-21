@@ -15,7 +15,7 @@ youtubeId: r2w7in6xMB4
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, chắc hẳn bạn sẽ thắc mắc <b>học lập trình nên bắt đầu như thế nào</b>? Cần có những yếu tố gì để giúp mình trở thành một lập trình viên. Hôm nay anh sẽ chia sẽ cho các bạn chuẩn bị <b>học lập trình nên trang bị những gì</b>?
+Chào các bạn, chắc hẳn bạn sẽ thắc mắc <b>học lập trình nên bắt đầu như thế nào</b>? Cần có những yếu tố gì để giúp mình trở thành một lập trình viên. Hôm nay anh sẽ chia sẻ cho các bạn chuẩn bị <b>học lập trình nên trang bị những gì</b>?
 
 <br>
 # **1. Định nghĩa đam mê về lập trình**
@@ -48,7 +48,7 @@ Bước 1 : Đầu tiên chúng ta xác định là sẽ <b>học code</b> phầ
 
 Sau khi đã qua các bài tập cơ bản về html,css,javascript rồi thì các bạn có thể tham khảo tiếp các môn <b>học code</b> tiếp các công nghệ được anh ghi ra tại [đây](https://levunguyen.com/career/2020/05/14/con-duong-tro-thanh-lap-trinh-vien-frontend/)
 
-Bước 2 : Chọn công nghệ để làm phần backend (backend là những thứ mình không thấy được, như ví dụ điện thoại ở trên thì ta thấy những chiếc điện thoại mà mắt mình thấy được là do ở đâu mà có). Thông thường thì mình nên chọn <b>học lập trình Java</b> làm ngôn ngữ để học phần backend. Nhưng ở giai đoạn này mình đã có kiến thức (từ vựng, cầu trúc ở phần frontend) nên khi học Java mình chỉ thay đổi từ vựng (từ khoá về ngôn ngữ đó) khác đi một chút xí, còn về nguyên lý các ngôn ngữ lập trình na ná nhau. Chính vì vậy nếu mình học tốt Javascript thì các ngôn ngữ khác như : Java , Ruby , Python , PHP, .Net (đây chính là các ngôn ngữ lập trình) đều rất đơn giản
+Bước 2 : Chọn công nghệ để làm phần backend (backend là những thứ mình không thấy được, như ví dụ điện thoại ở trên thì ta thấy những chiếc điện thoại mà mắt mình thấy được là do ở đâu mà có). Thông thường thì mình nên chọn <b>học lập trình Java</b> làm ngôn ngữ để học phần backend. Nhưng ở giai đoạn này mình đã có kiến thức (từ vựng, cấu trúc ở phần frontend) nên khi học Java mình chỉ thay đổi từ vựng (từ khoá về ngôn ngữ đó) khác đi một chút xí, còn về nguyên lý các ngôn ngữ lập trình na ná nhau. Chính vì vậy nếu mình học tốt Javascript thì các ngôn ngữ khác như : Java , Ruby , Python , PHP, .Net (đây chính là các ngôn ngữ lập trình) đều rất đơn giản
 
 Sau khi đã qua các bài tập cơ bản về java rồi thì các bạn có thể tham khảo tiếp các môn <b>học code</b> tiếp theo tại [đây](https://levunguyen.com/career/2020/05/14/con-duong-tro-thanh-lap-trinh-vien-java/)
 
