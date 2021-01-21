@@ -18,9 +18,9 @@ Chào các bạn, chắc hẳn bạn rất thích <b>lập trình</b> và mong m
 
 # **1. Khó khăn của sinh viên hiện nay**
 
-Các bạn sinh viên hiện nay khi ra trường thường phải được đào tạo lại các công nghệ mà công ty tuyển dụng nơi mà mình làm việc. Thông thường các bạn phải trải qua giai đoạn đào tạo 6 tháng tại công ty thì mới làm được việc và trở thành một <b>lập trình viên</b> tại công ty. Nguyên nhân do các bạn chưa tiếp cận được công nghệ mới trong quá trình ngồi trên ghế nhà trường dẫn đến bở ngỡ khi đi làm.
+Các bạn sinh viên hiện nay khi ra trường thường phải được đào tạo lại các công nghệ mà công ty tuyển dụng nơi mà mình làm việc. Thông thường các bạn phải trải qua giai đoạn đào tạo 6 tháng tại công ty thì mới làm được việc và trở thành một <b>lập trình viên</b> tại công ty. Nguyên nhân do các bạn chưa tiếp cận được công nghệ mới trong quá trình ngồi trên ghế nhà trường dẫn đến bỡ ngỡ khi đi làm.
 
-Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang đi học trên trường thì cũng phải thường xuyên cập nhật công nghệ mới ngoài kiến thức nhà trường đã trang bị cho các em để trở thành một <b>lập trình viên</b> giỏi đáp ứng nhu cầu nhà tuyển dụng. Sau đây anh sẽ đưa ra một list các trang web mà có thể giúp mình tiến nhanh trên việc <b>tự học lập trình</b>. Ngoài ra các em có thể tham khảo thêm tại [đây](https://levunguyen.com/career/2020/06/14/con-duong-tro-thanh-lap-trinh-vien-frontend/) lộ trình phát triển của lập trình viên cần học những gì ở frontend. Hoặc lộ trình học để trở thành backend tại [đây](https://levunguyen.com/career/2020/06/14/con-duong-tro-thanh-lap-trinh-vien-java/)
+Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang đi học trên trường thì cũng phải thường xuyên cập nhật công nghệ mới ngoài kiến thức nhà trường đã trang bị cho các em để trở thành một <b>lập trình viên</b> giỏi đáp ứng nhu cầu nhà tuyển dụng. Sau đây anh sẽ đưa ra một list các trang web mà có thể giúp mình tiến nhanh trên việc <b>tự học lập trình</b>. Ngoài ra các em có thể tham khảo thêm tại [đây](https://levunguyen.com/career/2020/07/03/lo-trinh-tro-thanh-lap-trinh-vien-frontend/) lộ trình phát triển của lập trình viên cần học những gì ở frontend. Hoặc lộ trình học để trở thành backend tại [đây](https://levunguyen.com/career/2020/07/02/lo-trinh-tro-thanh-lap-trinh-vien-java/)
 
 1- Các khoá học online miễn phí
 + Stackoverflow.com
@@ -46,7 +46,7 @@ Trong thời đại 4.0 đang diễn ra thì các bạn cũng phải cập nhậ
 
 1- BlockChain
 
-Trong năm 2009 chắc các em đã nghe nhiều về đồng tiền BigCoin. Thì nó chính là một sản phẩm dựa trên công nghệ Blockchain. Công nghệ Blockchain ra đời giúp cho việc bảo mật trở nên tốt và an toàn hơn. Hiện nay các ngành như ngân hàng, bệnh viện, vận chuyển cũng đã chuẩn bị sử dụng blockchain để xây dựng các sản phẩm cho mình. Các em có thể tham khảo thêm về một trong những ngôn ngữ lập trình blogchain tại [đây](https://solidity.readthedocs.io/en/v0.6.10/)
+Trong năm 2009 chắc các em đã nghe nhiều về đồng tiền BigCoin. Thì nó chính là một sản phẩm dựa trên công nghệ Blockchain. Công nghệ Blockchain ra đời giúp cho việc bảo mật trở nên tốt và an toàn hơn. Hiện nay các ngành như ngân hàng, bệnh viện, vận chuyển cũng đã chuẩn bị sử dụng blockchain để xây dựng các sản phẩm cho mình. Các em có thể tham khảo thêm về một trong những ngôn ngữ lập trình Blockchain tại [đây](https://solidity.readthedocs.io/en/v0.6.10/)
 
 
 2- Devops
@@ -57,7 +57,7 @@ Hiện nay các công ty IT đang rất cần các bạn Devops trong công ty �
 
 3- AI (Machine Learning)
 
-Hiện nay các ứng dụng mới đều sử dụng Trí tuệ nhân tạo vào các chức năng sản phẩm của mình. Anh lấy ví dụ như ứng dụng nhận diện khuôn mặt. Chỉ cần mình dùng camera quyét qua khuôn mặt sẽ biết được mình là ai. Một số ứng dụng ví điện tử khi mình thanh toán mua hàng, mình có thể chụp khuôn mặt mình vào để nhận diện mình là chủ nhân của ví diện tử thì lúc đó giao dịch mới thành công. Nên thời gian sắp tới Python sẽ là ngôn ngữ được sử dụng nhiều nhất trong tương lai để làm AL.
+Hiện nay các ứng dụng mới đều sử dụng Trí tuệ nhân tạo vào các chức năng sản phẩm của mình. Anh lấy ví dụ như ứng dụng nhận diện khuôn mặt. Chỉ cần mình dùng camera quyét qua khuôn mặt sẽ biết được mình là ai. Một số ứng dụng ví điện tử khi mình thanh toán mua hàng, mình có thể chụp khuôn mặt mình vào để nhận diện mình là chủ nhân của ví điện tử thì lúc đó giao dịch mới thành công. Nên thời gian sắp tới Python sẽ là ngôn ngữ được sử dụng nhiều nhất trong tương lai để làm AL.
 
 4- Data Science
 
