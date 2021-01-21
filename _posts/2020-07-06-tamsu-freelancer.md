@@ -41,7 +41,7 @@ Khi đăng ký là thành viên của các hệ thống các em có thể đi bi
 
 # **3. Thu nhập của Freelancer**
 
-Đây là mức lương mà team freelancer của anh đã từng làm với khách hàng trong năm 2019. Sau này thì mức giá này đã giảm đi vì có rất nhiều freelancer ở nhiều quốc gia cũng tham gia. Không những ở Việt Nam mà Brasil hoặc Malaysia cũng đã nhảy vào làm freelancer và giá của họ thì cũng ngang Việt Nam nhưng ưu điểm là họ nói tiếng Anh tốt hơn mình nên dể nhận được dự án hơn. Chính vì vậy mà mình đang mất giá trên thị trường do có nhiều đối thủ cạnh tranh
+Đây là mức lương mà team freelancer của anh đã từng làm với khách hàng trong năm 2019. Sau này thì mức giá này đã giảm đi vì có rất nhiều freelancer ở nhiều quốc gia cũng tham gia. Không những ở Việt Nam mà Brasil hoặc Malaysia cũng đã nhảy vào làm freelancer và giá của họ thì cũng ngang Việt Nam nhưng ưu điểm là họ nói tiếng Anh tốt hơn mình nên dễ nhận được dự án hơn. Chính vì vậy mà mình đang mất giá trên thị trường do có nhiều đối thủ cạnh tranh
 
 - Level junior (Tuần làm 5 ngày)
 	+ 8 USD/hour
