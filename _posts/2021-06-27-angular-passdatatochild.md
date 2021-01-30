@@ -7,7 +7,7 @@ tags: [angular]
 summery: Truyền data cho component con  
 image: /images/blog/angular.png
 description : Khi lập trình web với framework Angular luôn phát sinh việc truyền dữ liệu giữa các component. Trong đó có kiểu truyền dữ liệu từ cha xuống con và từ con lên cha. Bài viết này sẽ giúp bạn hiểu được những khái niệm truyền dữ liệu này. Đồng thời hướng dẫn cách sử dụng đối với các tác vụ gồm truyền dữ liệu từ cha xuống con thông qua component, đặt tên cho thuộc tính truyền từ cha xuống con, sử dụng Onchange và Input Setter cũng như trình bày về cách làm để phát hiện khi nào có sự thay đổi từ cha trong Angular Component. 
-youtubeId: 0734nF0B_BM
+youtubeId: jS5C83hMi3o
 ---
 
 {% include toc.html %}
@@ -262,7 +262,9 @@ get count(): number { return this.count; }
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
