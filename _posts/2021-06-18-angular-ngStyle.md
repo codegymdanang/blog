@@ -7,7 +7,7 @@ tags: [angular]
 summery: NgStyle 
 image: /images/blog/angular.png
 description : NgStyle Directive trong Angular được sử dụng để tạo nhiều thuộc tính css trong phần tử HTML. Bài viết dưới đây trước hết sẽ giúp hiểu được NgStyle trong Angular là gì? Sau đó lần lượt hướng dẫn cách sử dụng NgStyle vào dự án Angular bao gồm NgStyle thay đổi style động, NgStyle nhiều thuộc tính và NgStyle sử dụng đối tượng khi thao tác với framework Angular trong lập trình web. Trong những chia sẻ có kèm theo các ví dụ minh hoạ cách thực hiện mỗi bước cho mỗi phần trong bài.
-youtubeId: 0734nF0B_BM
+youtubeId: Nbds7xIPa00
 ---
 
 {% include toc.html %}
@@ -92,5 +92,7 @@ styleClass: StyleClass = new StyleClass();
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
