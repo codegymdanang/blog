@@ -7,7 +7,7 @@ tags: [angular]
 summery: Pipes  
 image: /images/blog/angular.png
 description : Khi lập trình web, để định dạng lại các kiểu hiển thị trên website người dùng sẽ phải sử dụng đến Angular Pipes. Bài viết dưới đây sẽ giúp hiểu được Pipes trong Angular là gì? Cách sử dụng Date Pipes, UpperCasePipe và LowerCasePipe, SlicePipe, DecimalPipe và NumberPipe, PercentePipe và CurrencyPipe trong Angular. Đồng thời đưa ra các hình ảnh ví dụ minh hoạ cú pháp thực hiện cho mỗi tác vụ trên của Pipes trong Angular.
-youtubeId: 0734nF0B_BM
+youtubeId: AOZ0_At_l90
 ---
 
 {% include toc.html %}
@@ -152,3 +152,6 @@ export class AppComponent
 
 {% endhighlight %} 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
