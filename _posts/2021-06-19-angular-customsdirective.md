@@ -7,7 +7,7 @@ tags: [angular]
 summery: Customs Directive  
 image: /images/blog/angular.png
 description : Bên cạnh 3 loại directive có sẵn trong Angular, người dùng có thể tự tạo ra directive riêng như mong muốn để sử dụng, được gọi là customs directive. Bài viết giúp hiểu rõ hơn về Customs Directive, cú pháp của Customs Directive trong Angular. Đồng thời hướng dẫn cách để tự tạo Customs Directive trong Angular bao gồm cách thao tác để làm Directive giống Attribute Directive hoặc Directive giống Structural Directive. Và cách sử dụng Customs Directive vào các dự án Angular. Những chia sẻ trong bài bao gồm các hình ảnh minh hoạ các thao tác để thực hiện các tác vụ trên trong Angular.
-youtubeId: 0734nF0B_BM
+youtubeId: _-jAE1b1VTQ
 ---
 
 {% include toc.html %}
@@ -188,7 +188,9 @@ Show Me
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
