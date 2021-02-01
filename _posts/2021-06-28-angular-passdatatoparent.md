@@ -7,7 +7,7 @@ tags: [angular]
 summery: Truyền data từ component con lên cha  
 image: /images/blog/angular.png
 description : Khi lập trình web với framework Angular luôn phát sinh việc truyền dữ liệu giữa các component. Trong đó có kiểu truyền dữ liệu từ component con lên component cha. Bài viết này sẽ giúp bạn hiểu được khái niệm truyền dữ liệu này. Đồng thời hướng dẫn 3 cách để truyền dữ liệu lên component cha từ component con bao gồm truyền dữ liệu từ con lên cha qua sự kiện, qua biến cục bộ, qua ViewChild. Trong những chia sẻ dưới đây có kèm theo những hình ảnh ví dụ minh hoạ cho các thao tác, cú pháp thực hiện đối với mỗi cách truyền dữ liệu trên. 
-youtubeId: 0734nF0B_BM
+youtubeId: dhfTSCMNIZ0
 ---
 
 {% include toc.html %}
@@ -251,7 +251,9 @@ increment() {
   }
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
