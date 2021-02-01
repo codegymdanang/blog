@@ -7,7 +7,7 @@ tags: [angular]
 summery: Tự tạo Pipes  
 image: /images/blog/angular.png
 description : Bên cạnh các Pipes có sẵn trong Angular như ngày, tiền tệ, số, phần trăm thì người dùng có thể tự viết một Pipe riêng để sử dụng. Bài viết sẽ hướng dẫn bạn cách tự tạo Pipes trong dự án Angular như Pipes hiển thị nhiệt độ. Đồng thời hướng dẫn cách để sử dụng những Pipes tự tạo đó vào dự án Angular. Bài viết đưa ra các hình ảnh ví dụ minh hoạ cho cú pháp thực hiện Customs Pipes trong Angular.
-youtubeId: 0734nF0B_BM
+youtubeId: VY1TjHZPJ68
 ---
 
 {% include toc.html %}
@@ -156,7 +156,9 @@ export class AppModule { }
 
 {% endhighlight %} 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
