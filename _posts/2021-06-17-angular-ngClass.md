@@ -7,7 +7,7 @@ tags: [angular]
 summery: NgClass 
 image: /images/blog/angular.png
 description : Bài viết giúp hiểu được NgClass trong Angular là gì? Tìm hiểu NgClass được sử dụng với mục đích và trong trường hợp nào khi lập trình web. Hướng dẫn cách thực hiện cú pháp NgClass trong Angular cũng như cách thao tác NgClass với mảng, cập nhật giá trị css động, css động với array, css động với đối tượng. Ngoài ra còn kèm theo hình ảnh ví dụ minh hoạ về cách làm directive NgClass trong Angular.
-youtubeId: 0734nF0B_BM
+youtubeId: X45e7CHu8lA
 ---
 
 {% include toc.html %}
@@ -135,7 +135,9 @@ cssClass: CssClass = new CssClass();
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
