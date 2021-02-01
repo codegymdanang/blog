@@ -1,8 +1,43 @@
+<style>
+    .containerYT {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .containerYT img {
+        width: 100%;
+        height: auto;
+    }
+
+    .containerYT .btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .containerYT .btn:hover {
+        background-color: black;
+    }
+</style>
+
 <div class="youtube-wrapper">
 
-    <a href="https://www.youtube.com/watch?v={{ include.id }}" target="_blank" >
-        Click Xem Demo <br> <img src="http://i3.ytimg.com/vi/{{ include.id }}/maxresdefault.jpg" />
-    </a>
-
+    <div class="containerYT">
+        <a href="https://www.youtube.com/watch?v={{ include.id }}" target="_blank" >
+            <img src="http://i3.ytimg.com/vi/{{ include.id }}/maxresdefault.jpg" style="width:100%" />
+        </a>
+        <button class="btn">Play</button>
+    </div>
 
 </div>
