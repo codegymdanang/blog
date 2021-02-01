@@ -4,10 +4,10 @@ title: Sử dụng Directive ngIf trong Angular
 slug : su-dung-directive-ngif-trong-angular
 category: laptrinhweb
 tags: [angular]
-summery: NgIF  
+summery: NgIF
 image: /images/blog/angular.png
 description : Trong Angular, NgIf là một trong những directive được lựa chọn sử dụng phổ biến nhất. Bài viết giúp bạn hiểu được NgIf trong Angular là gì? Cú pháp của NgIf trong Angular là gì? Đưa ra các ví dụ minh hoạ để hiểu được mục đích của NgIf trong Angular. Hướng dẫn để sử dụng phủ định, if else, then else trong NgIf. Kèm theo ví dụ cụ thể về sử dụng NgIf và NgModeal để lấy một giá trị true nào đó. 
-youtubeId: 0734nF0B_BM
+youtubeId: dVwdaTKaO20
 ---
 
 {% include toc.html %}
@@ -165,7 +165,9 @@ Tiếp đến ta có file template html như sau
 
 Chúng ta sử dụng ngIf và sử dụng ngModel để lấy giá trị của showMe. Nếu true thì ta sẽ show ra dòng chữ ShowMe is checked còn ngược lại là ShowMe is unchecked.
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
