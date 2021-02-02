@@ -7,7 +7,7 @@ tags: [angular]
 summery: React Form   
 image: /images/blog/angular.png
 description : Ngoài cách tạo form bằng Template Driven Form, người dùng còn có sự lựa chọn khác là dùng React Form trong Angular hay còn gọi là Model Driven Form. Bài viết dưới đây sẽ giúp hiểu được Reactive Form trong Angular và các khái niệm như Final Template HTML, FormGroup, FormArray, FormControl là gì? Cách sử dụng React Form trong dự án Angular được thực hiện như thế nào? Bên cạnh đó bài viết cũng trình bày và hướng dẫn sử dụng các dạng form trên thông qua những ví dụ minh hoạ cụ thể cú pháp thực hiện từng bước.
-youtubeId: 
+youtubeId: A319lJcK9NA
 ---
 
 {% include toc.html %}
@@ -358,3 +358,7 @@ Ta có lớp template html sau app.component.html
  
 
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
