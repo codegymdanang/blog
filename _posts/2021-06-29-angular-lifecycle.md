@@ -7,7 +7,7 @@ tags: [angular]
 summery: Vòng đời của component
 image: /images/blog/angular.png
 description : Trong Angular, một component hay một directive sẽ có một vòng đời từ lúc tạo ra, bị thay đổi và phá huỷ. Tuy nhiên ta có thể viết code can thiệp vào những giai đoạn này của vòng đời component. Bài viết dưới đây trình bày tổng quan về chủ đề vòng đời của component trong Angular và hướng dẫn sử dụng các phương thức method dùng trong vòng đời component gồm ngOnChanges, ngOninit, ngOnDoCheck, ngAfterContentlnit, ngAfterContentChecked, ngAfterViewlnit, ngAfterViewChecked, ngOnDestroy. Đồng thời đưa ra các ví dụ minh hoạ cho cú pháp thực hiện cụ thể của mỗi method trên trong các giai đoạn của vòng đời Component trong dự án Angular. 
-youtubeId: 0734nF0B_BM
+youtubeId: 2VCU1cojRek
 ---
 
 {% include toc.html %}
@@ -401,7 +401,9 @@ ngOnDestroy() {
   }
 {% endhighlight %} 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
