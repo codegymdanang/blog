@@ -7,7 +7,7 @@ tags: [angular]
 summery: Dependency Injection   
 image: /images/blog/angular.png
 description : Dependency Injection là một phần quan trọng trong bộ core của Angular. Dependency Injection giúp nhúng service vào component hoặc giữa các service với nhau. Trong những chia sẻ dưới đây sẽ giúp bạn hiểu rõ hơn về Dependency Injection là gì? Dependency Injection Framework, 5 thành phần chính và cơ chế hoạt động của Dependency trong Angular. Đồng thời hướng dẫn cách để nhúng 1 service này vào 1 service khác và sử dụng ngModule để đăng kí dependency trong Angular. Bài viết có những ví dụ minh hoạ cụ thể cho từng bước làm của mỗi phần để người đọc dễ dàng tham khảo thêm.
-youtubeId: dđ
+youtubeId: Kq6O3lijT4Q
 ---
 
 {% include toc.html %}
@@ -265,3 +265,7 @@ Chúng ta sẽ thấy dòng Provider như sau
 providers: [ProductService,LoggerService],
 
 {% endhighlight %} 
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
