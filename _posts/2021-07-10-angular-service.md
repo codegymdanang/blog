@@ -7,7 +7,7 @@ tags: [angular]
 summery: Service   
 image: /images/blog/angular.png
 description : Angular Service là những đoạn code có thể sử dụng nhiều lần từ các component khác nhau. Bài viết dưới đây sẽ giúp bạn hiểu rõ hơn về Service trong Angular cũng như mục đích và ưu điểm khi sử dụng Service trong Angular gồm những gì. Đồng thời hướng dẫn cách làm để tạo Service trong Angular và chỉ ra những nhược điểm và cách khắc phục trong một số trường hợp khi sử dụng Service trong Angular.
-youtubeId: dđ
+youtubeId: XbjWaPBpbNs
 ---
 
 {% include toc.html %}
@@ -162,6 +162,9 @@ Trong thực tế thì anh không làm như vậy vì nó có rất nhiều khuy
 
 Những vấn đề này sẽ được giải quyết trong bài Dependency Injection
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
