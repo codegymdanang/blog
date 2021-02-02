@@ -7,7 +7,7 @@ tags: [angular]
 summery: Http Client   
 image: /images/blog/angular.png
 description : Http Client trong Angular được sử dụng để gọi các service bên ngoài. Bài viết dưới đây sẽ trình bày cụ thể hơn về Http Client được sử dụng trong Angular như thế nào, các bước thực hiện khai báo với Http Client bao gồm những bước nào, trong bài có các ví dụ minh hoạ cụ thể cho từng cú pháp thực hiện của mỗi phần. Đồng thời bài viết cũng hướng dẫn sử dụng Observable trong Angular từ thư viện RxJS để quản lí các dữ liệu bất đồng bộ. 
-youtubeId: dđ
+youtubeId: Ci9OAgmXFyc
 ---
 
 {% include toc.html %}
@@ -197,7 +197,9 @@ Sau khi nhận được kết quả từ Obserable chúng ta gán biến local  
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
