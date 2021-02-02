@@ -7,7 +7,7 @@ tags: [angular]
 summery: Angular gọi Webservice
 image: /images/blog/angular.png
 description : Những chia sẻ dưới đây giúp người đọc hiểu được như thế nào là gọi webservice để lấy kết quả từ webservice và hiển thị dữ liệu lên trong ứng dụng Angular. Bài viết lần lượt mô tả mục đích của thư viện Http Client được sử dụng như thế nào để gọi các webservice. Sau đó trình bày cụ thể qua từng bước làm từ khai báo thư viện Http Client, đến hướng dẫn sử dụng Http Client để gọi webservice và làm sao để hiển thị dữ liệu lên trang website. Bài viết bao gồm hình ảnh ví dụ minh hoạ các bước làm và 1 video hướng dẫn thao tác làm chi tiết cuối bài để nắm được luồng đi của một ứng dụng Angular khi gọi các webservice từ bên ngoài.
-youtubeId: edYsCowgQq0
+youtubeId: 9jWYghNUWIk
 ---
 
 {% include toc.html %}
@@ -151,4 +151,6 @@ export class EmployeeComponent {
 
 <br>
 ### Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
