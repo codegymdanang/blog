@@ -117,4 +117,6 @@ Hầu hết các ứng dụng ngày nay đều sử dụng Bootstrap để làm 
 
 <br>
 ### Nào chúng ta hãy xem video hướng dẫn dưới đây nhé.
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
