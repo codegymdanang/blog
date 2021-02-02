@@ -7,7 +7,7 @@ tags: [angular]
 summery: Truyền tham số cho webservice
 image: /images/blog/angular.png
 description : Bài viết giới thiệu để hiểu được truyền tham số cho webservice trong Angular là gì? Và ứng dụng của webservice trong Angular. Hướng dẫn các cách truyền tham số cho webservice như truyền param trên URL, truyền giá trị trên http header gọi webservice. Đồng thời hướng dẫn cách thao tác để send cookie và trình bày về cách làm như thế nào để bắt Errors ở component và service trong Angular.
-youtubeId: edYsCowgQq0
+youtubeId: SeqzwhmM_P4
 ---
 
 {% include toc.html %}
@@ -171,7 +171,9 @@ getRepos(userName: string): Observable<repos[]> {
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
