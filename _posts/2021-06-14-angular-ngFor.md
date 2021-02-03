@@ -7,7 +7,7 @@ tags: [angular]
 summery: NgFor   
 image: /images/blog/angular.png
 description : Giải thích được Directive NgFor trong Angular là gì? Tìm hiểu cú pháp của NgFor trong Angular. Hướng dẫn cách để tạo, thêm NgFor cũng như cách sử dụng NgFor vào dự án Angular như sử dụng 2 vòng NgFor, sử dụng NgFor mảng trong mảng, sử dụng Index, định dạng format dòng chẵn lẻ trong table và cách để lấy phần tử đầu và cuối trong mảng. Bài viết có kèm theo hình ảnh ví dụ minh hoạ cụ thể cách thao tác cho mỗi phần.
-youtubeId: 0734nF0B_BM
+youtubeId: nspfUGvho28
 ---
 
 {% include toc.html %}
@@ -190,7 +190,9 @@ Chúng ta sử dụng ngFor để duyệt qua từng bộ phim trong mảng movi
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
