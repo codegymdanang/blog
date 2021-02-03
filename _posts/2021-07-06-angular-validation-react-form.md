@@ -7,7 +7,7 @@ tags: [angular]
 summery: Validation React Form   
 image: /images/blog/angular.png
 description : Để kiểm tra lại các định dạng trong React Form trong Angular có đúng hay không, người dùng cần sử dụng Validator. Bài viết này giúp bạn hiểu rõ hơn về Validation React Form trong Angular là gì? Cùng tìm hiểu về một số Validator được hỗ trợ sẵn trong Angular như require, minlength, maxlength, pattern, email validator. Đồng thời hướng dẫn cách áp dụng Validator thông qua ví dụ minh hoạ thao tác thực hiện cú pháp để kiểm tra lại FormControl, FormGroup hoặc FormArray. Ngoài ra hướng dẫn cách để thực hiện được Code Validator trong Angular.
-youtubeId: 
+youtubeId: i4H0BZXOMog
 ---
 
 {% include toc.html %}
@@ -442,5 +442,8 @@ Chúng ta có file template html app.component.html
 {% endhighlight %}
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
