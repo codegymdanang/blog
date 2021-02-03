@@ -7,7 +7,7 @@ tags: [angular]
 summery: NgSwitch   
 image: /images/blog/angular.png
 description : Trong Angular, NgSwitch là một trong những directive được lựa chọn sử dụng phổ biến nhất. Bài viết giúp bạn hiểu được NgSwitch trong Angular là gì? Cú pháp của NgSwitch trong Angular là gì? Đưa ra các ví dụ minh hoạ để hiểu được mục đích của NgSwitch trong Angular là dùng để thêm, xoá các phần tử trên website. Hướng dẫn để kiểm tra điều kiện bằng trong NgSwitch và chỉ ra nó được kết hợp với NgSwitchcase và NgSwitchDefault như thế nào trong Angular.
-youtubeId: 0734nF0B_BM
+youtubeId: CEc4M_dfHyw
 ---
 
 {% include toc.html %}
@@ -84,3 +84,7 @@ Trong ngSwitch nếu ta nhập chuỗi rỗng nó sẽ tương ứng với giá 
       <div *ngSwitchDefault>This is Default 2</div>
     </div>
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
