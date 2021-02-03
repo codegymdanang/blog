@@ -7,7 +7,7 @@ tags: [angular]
 summery: Data Binding   
 image: /images/blog/angular.png
 description : Để trao đổi dữ liệu trong Angular khi lập trình web, cụ thể là đồng bộ giữa component và tầng view (template file html). Lập trình viên sẽ sử dụng kĩ thuật Data binding khi muốn cập nhật data ở cả hai. Data binding trong Angular framework gồm 2 nhóm là one way binding và two way binding. Bài viết dưới đây sẽ giới thiệu về Databinding trong Angular là gì? Đồng thời trình bày để người đọc hiểu được One way binding và Two way binding trong Angular là gì? Cách để thao tác với kĩ thuật data binding trong dự án Angular như thế nào?
-youtubeId: 0734nF0B_BM
+youtubeId: 970pNI_ioaE
 ---
 
 {% include toc.html %}
@@ -148,6 +148,9 @@ export class AppComponent {
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
