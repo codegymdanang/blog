@@ -7,7 +7,7 @@ tags: [angular]
 summery: Custom Validation   
 image: /images/blog/angular.png
 description : Custom Validation là những validator được tự tạo bởi người dùng, được sử dụng cho các dự án Angular ngoài những validator được hỗ trợ có sẵn trong Angular như required, minlength, maxlength, pattern và email. Bài viết dưới đây sẽ hướng dẫn bạn cách sử dụng Custom Validator trong Angular như thế nào cho hiệu quả, và cách thực hiện code hoàn chỉnh cho component class và template html trong Angular. Mỗi phần của bài viết kèm theo những ví dụ minh hoạ cú pháp thực hiện từng bước của custom validation vào dự án Angular.
-youtubeId: 
+youtubeId: OzSpfRO-AcM
 ---
 
 {% include toc.html %}
@@ -176,3 +176,6 @@ export class AppComponent {
 {% endhighlight %}
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
