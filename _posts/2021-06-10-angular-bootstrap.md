@@ -7,7 +7,7 @@ tags: [angular]
 summery: Sử dụng Bootstrap   
 image: /images/blog/angular.png
 description : Sử dụng boostrap trong dự án angular khi lập trình web. Hướng dẫn cài đặt bootstrap vào dự án Angular. Hướng dẫn cách tạo một ứng dụng Angular và nhúng Bootstrap vào dự án. Trình bày cụ thể các bước về cách thao tác để tạo ứng dụng Angular và sử dụng Bootstrap từ CDN và từ npm.
-youtubeId: 977WIZTAUv8
+youtubeId: 11MbwJMT4WA
 ---
 
 {% include toc.html %}
