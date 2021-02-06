@@ -95,7 +95,7 @@ Trong <b>lập trình Java</b>, chúng ta sử dụng toán tử để thực hi
 
 
 {:refdef: style="text-align: center;"}
-{% include online-editor.html codeid=page.codeid %}
+{% include online-editor.html iddeidd=page.codeid %}
 {: refdef}
 
 
