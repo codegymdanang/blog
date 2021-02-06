@@ -8,7 +8,7 @@ summery: Toán tử
 image: /images/blog/java.png
 description :Bài viết Toán tử này nằm trong loạt bài chia sẻ về kiến thức lập trình Java. Các bài chia sẻ đi từ cơ bản đến các kiến thức nâng cao. Toán tử trong lập trình Java hướng đối tượng là một trong những kiến thức Java căn bản cần nắm. Vậy cụ thể có bao nhiêu nhóm Toán tử, mỗi nhóm bao gồm những loại nào? Trong lập trình Java có tất cả 5 nhóm Toán tử: toán tử số học, số gán, so sánh, logic và bit; trong đó tuỳ mỗi nhóm mà có số lượng loại khác nhau.
 youtubeId: jDR0dwYp8n4
-codeid : 2X1r
+codeid :2X1r
 ---
 
 {% include toc.html %}
