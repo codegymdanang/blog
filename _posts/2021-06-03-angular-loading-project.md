@@ -7,7 +7,7 @@ tags: [angular]
 summery: Cơ chế hoạt động của Angular   
 image: /images/blog/angular.png
 description : Angular được xem là một trong những framework được sử dụng phổ biến nhất hiện nay trong lập trình giao diện web. Vậy cơ chế hoạt động của Angular được diễn ra như thế nào? Những chia sẻ dưới đây của bài viết bao gồm cấu trúc dự án Angular, load trang index.html đầu tiên, application entry point load, root module, component và chức năng của main.ts trong Angular, sẽ giúp các bạn giải đáp các thắc mắc trên về cơ chế hoạt động trong Angular. Trong mỗi phần có các ví dụ minh hoạ cụ thể kèm theo để người đọc có thể tham khảo thêm.
-youtubeId: 977WIZTAUv8
+youtubeId: XbW0BBjeB38
 ---
 
 {% include toc.html %}
@@ -333,7 +333,9 @@ Như vậy thẻ app-root này sẽ chứa đựng giao diện của html của 
 
 Như vậy khi chạy ng -server -o ta sẽ thấy được giao diện HTML được định nghĩa trong templateURL là file app.component.html
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
