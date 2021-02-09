@@ -94,10 +94,6 @@ Trong <b>lập trình Java</b>, chúng ta sử dụng toán tử để thực hi
 {: refdef}
 
 
-{:refdef: style="text-align: center;"}
-{% include online-editor.html language=page.languageid %}
-{: refdef}
-
 
 
 
