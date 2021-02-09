@@ -3,8 +3,13 @@ const executeCodeBtn = document.querySelector('.editor__run');
 const resetCodeBtn = document.querySelector('.editor__reset');
 
 // Setup Ace
+
+
 let codeEditor = ace.edit("editorCode");
+
+/*
 let defaultCode = 'console.log("Hello World!")';
+
 
 let editorLib = {
     init() {
@@ -28,6 +33,7 @@ let editorLib = {
         codeEditor.setValue(defaultCode);
     }
 }
+*/
 
 // Events
 executeCodeBtn.addEventListener('click', () => {
@@ -47,4 +53,6 @@ resetCodeBtn.addEventListener('click', () => {
     codeEditor.setValue(defaultCode);
 })
 
+/*
 editorLib.init();
+*/
