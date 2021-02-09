@@ -5,7 +5,7 @@ const resetCodeBtn = document.querySelector('.editor__reset');
 // Setup Ace
 
 
-let codeEditor = ace.edit("editorCode");
+
 
 /*
 let defaultCode = 'console.log("Hello World!")';
@@ -38,7 +38,7 @@ let editorLib = {
 // Events
 executeCodeBtn.addEventListener('click', () => {
     // Get input from the code editor
-    const userCode = codeEditor.getValue();
+    const userCode = editor.getValue();
 
     // Run the user code
     try {
@@ -50,7 +50,7 @@ executeCodeBtn.addEventListener('click', () => {
 
 resetCodeBtn.addEventListener('click', () => {
     // Clear ace editor
-    codeEditor.setValue(defaultCode);
+    editor.setValue(defaultCode);
 })
 
 /*
