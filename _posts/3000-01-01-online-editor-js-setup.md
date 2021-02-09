@@ -3,7 +3,7 @@ layout: online-editor-js
 title: Tạo ứng dụng reactjs 
 slug : tao-ung-dung-reactjs
 category: laptrinhjavascript
-tags: [online-editor-js]
+tags: [editor-js]
 summery: Tạo ứng dụng 
 image: /images/blog/feature_javascript.png
 description : Trình bày về cách tạo một ứng dụng reactjs bằng tool create react app. Hiểu được cách cài đặt các công cụ để chạy được ứng dụng reactjs. Hiểu
