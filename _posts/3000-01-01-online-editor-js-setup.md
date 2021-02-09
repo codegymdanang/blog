@@ -11,12 +11,7 @@ description : Trình bày về cách khai báo biến trong ES6. Lần lượt g
 youtubeId: ttKo2gO-BCE
 ---
 
-<div id="editor">function foo(items)
-{
-    var x = "All this is syntax highlighted";
-    return x;
-}
-</div>
+GIAS TI
 
 
 
