@@ -2,7 +2,7 @@
 layout: online-editor-js
 title: Tạo ứng dụng reactjs 
 slug : tao-ung-dung-reactjs
-category: laptrinhjavascript
+category: online-editor-js-cat
 tags: [editor-js]
 summery: Tạo ứng dụng 
 image: /images/blog/feature_javascript.png
