@@ -1,5 +1,5 @@
 ---
-layout: course-es6
+layout: course-reactjs
 title: Tạo ứng dụng reactjs 
 slug : tao-ung-dung-reactjs
 category: laptrinhjavascript
