@@ -1,13 +1,13 @@
 ---
 layout: online-editor-js
-title: Tạo ứng dụng reactjs 
-slug : tao-ung-dung-reactjs
+title: Khai báo biến bằng từ khoá let
+slug : khai-bao-bien-bang-tu-khoa-let
 category: online-editor-js-cat
-tags: [editor-js]
-summery: Tạo ứng dụng 
+tags: [es6]
+summery: Khai báo biến với let
 image: /images/blog/feature_javascript.png
-description : Trình bày về cách tạo một ứng dụng reactjs bằng tool create react app. Hiểu được cách cài đặt các công cụ để chạy được ứng dụng reactjs. Hiểu
-được nodejs và npm được sử dụng trong dự án react js.
+description : Trình bày về cách khai báo biến trong ES6. Lần lượt giới thiệu và giải thích khái niệm biến trong ES6 là gì? Lợi thế của let hơn var trong ES6 là gì?
+
 youtubeId: ttKo2gO-BCE
 ---
 
