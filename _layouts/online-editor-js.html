@@ -26,6 +26,7 @@
 			right: 0;
 			bottom: 0;
 			left: 0;
+			height: 200px;
 		}
 	</style>
 
@@ -187,8 +188,8 @@
 <script src='{{"/js/ace/ace.js"  | prepend: site.baseurl }}'  type="text/javascript" charset="utf-8"></script>
 <script>
 	var editor = ace.edit("editor");
-	editor.setTheme("ace/theme/github");
-	 editor.session.setMode("ace/mode/javascript");
+	editor.setTheme("ace/theme/monokai");
+	editor.session.setMode("ace/mode/javascript");
 </script>
 
 <!-- custom js -->
