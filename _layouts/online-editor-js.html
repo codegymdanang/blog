@@ -178,29 +178,8 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-lg-2 col-sm-2" style="display: table;font-size: medium;padding: 0px;line-height: 40px;">
-			<div>
-				<span style="background: #fde3db; display: block; color: red; font-size: large;text-align: center"> Angular </span>
-			</div>
-			<div >
 
-				<div class="relatedpost">
-					<ul style="list-style-type:decimal;">
-						{% assign sorted = site.categories.online-editor-js-cat | reverse %}
-						{% for post in  sorted %}
-						{% if post.tags contains 'editor-js' %}
-						<li>
-							<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
-						</li>
-						{% endif %}
-						{% endfor %}
-					</ul>
-				</div>
-
-			</div>
-		</div>
-
-		<div class="col-lg-7 col-sm-7" style="border:5px solid #fde3db">
+		<div class="col-lg-9 col-sm-9" style="border:5px solid #fde3db">
 			<div id='page'>
 				<div style="width:100%;text-align:center;padding-top: 30px"> <img src="{{ page.featureImage }}"></div>
 				<h1 style="margin-top: 0px;padding-top: 0px;font-size: 50px;color:red">{{page.title}}</h1>

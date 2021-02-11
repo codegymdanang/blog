@@ -58,7 +58,7 @@ function getEditorCode() {
 
     let ifrw = resultFrame.contentWindow ? resultFrame.contentWindow : resultFrame.contentDocument.document ? resultFrame.contentDocument.document : resultFrame.contentDocument;
     ifrw.document.open();
-    ifrw.contentWindow.targetFunction(userCode);
+    ifrw.contentWindow.userCode;
     ifrw.document.close();
     resultFrame.contentWindow.document.body.style.wordWrap = 'break-word';
 }
