@@ -48,6 +48,7 @@ editor.removeLines(2);
 function getEditorCode() {
     let resultFrame = document.getElementById('resultFrame');
     let userCode = editor.getValue();
+    let userCodeHTML = editor.getSession().getValue();
 
     // Run the user code
    // try {
@@ -58,6 +59,7 @@ function getEditorCode() {
 
     let ifrw = resultFrame.contentWindow ? resultFrame.contentWindow : resultFrame.contentDocument.document ? resultFrame.contentDocument.document : resultFrame.contentDocument;
     ifrw.document.open();
+    ifrw.document.write(userCodeHTML);
     ifrw.document.close();
     resultFrame.contentWindow.document.body.style.wordWrap = 'break-word';
 }
