@@ -18,145 +18,9 @@
 	<link rel="stylesheet" href='{{ "/css/style.css" | prepend: site.baseurl }}' >
 
 	<link rel="stylesheet" href='{{ "/css/pygments-3024-night.css" | prepend: site.baseurl }}' >
-
-	<style type="text/css" media="screen">
-		* {
-			box-sizing: border-box;
-			margin: 0px;
-			padding: 0px;
-		}
-
-		@media only screen and (max-width:560px){
-			#parent{
-				display:block !important;
-
-			}
-			#left{
-				width:100% !important;
-				display: block;
-			}
-			#right{
-				display:block;
-				flex:none !important;
-				width:100% !important;
-			}
-			#bar{
-				display: none !important;
-			}
-			#result_heading{
-				display:none;
-			}
-
-		}
-		#parent {
-			position: absolute;
-			/* top: 140px; */
-			bottom: 0px;
-			width: 100%;
-			top: 143px;
-			/* background-color: seagreen; */
-			display: flex;
-		}
-
-		#left {
-			height: 100%;
-			width: 50%;
-			border: 1px solid #d5d5d5;
-		}
-
-		#bar {
-			width: 4px;
-			height: 100%;
-			background-color: #f1f1f1;
-			cursor: w-resize;
-		}
-
-		#right {
-			height: 100%;
-			width: 50%;
-			flex: 1;
-			border: 1px solid #d5d5d5;
-			/* background-color: springgreen; */
-		}
-
-		#editor {
-			width: 100%;
-			height: 100%;
-		}
-
-		#frameWrapper {
-			width: 100%;
-			height: 100%;
-		}
-
-		#resultFrame {
-			width: 100%;
-			height: 100%;
-		}
-
-
-		#editor-options {
-			height: 43px;
-			font-family: Arial,Helvetica,sans-serif;
-
-			/* border-left: 1px solid #d5d5d5;
-            border-top: 1px solid #d5d5d5;
-            border-right: 1px solid #d5d5d5; */
-			/* background-color: red; */
-
-		}
-
-		.word-breaker {
-			word-wrap: break-word;
-		}
-
-		#editor-options-left {
-			float: left;
-			width: 100%;
-			height: 100%;
-			background-color: #f1f1f1;
-			padding: 3px 15px;
-			/* background-color: seagreen; */
-		}
-
-		#editor-options-right {
-			float: right;
-			width: 30%;
-			text-align: left;
-			height: 100%;
-			background-color: #f1f1f1;
-			/* background-color: sienna; */
-		}
-		#result-span{
-			line-height: 40px;
-			font-size: 24px;
-		}
-		.action-btns{
-			border: none;
-			outline: none;
-			cursor: pointer;
-			line-height: 34px;
-
-			background-color: #4a90e2;
-			border-radius: 2px;
-			box-shadow: 0 1px 2px 0 rgba(0,0,0,.5);
-			/* margin-right: 5px; */
-			padding-left: 3px;
-			/* margin:5px; */
-			color: white;
-			font-size: 16px;
-			font-weight: 400;
-			padding-right: 3px;
-			margin-right: 8px;
-		}
-		.action-btns:hover{
-			background-color: #2a6fc3;
-		}
-		#run-btn{
-			width: 80px;
-			text-align: center;
-		}
-	</style>
+	<link rel="stylesheet" href="https://www.jqueryscript.net/demo/Creating-A-JSFiddle-Like-Code-Editor-with-jQuery-ACE-Editor-Cloud-Edit/css/cloudEdit.css">
+	<link rel="stylesheet" href="https://www.jqueryscript.net/demo/Creating-A-JSFiddle-Like-Code-Editor-with-jQuery-ACE-Editor-Cloud-Edit/css/contextMenu.css">
+	<link rel="stylesheet" href="https://www.jqueryscript.net/css/jquerysctipttop.css">
 
 
 	{% seo %}
@@ -180,64 +44,46 @@
 	<div class="row">
 
 		<div class="col-lg-9 col-sm-9" style="border:5px solid #fde3db">
-			<div id='page'>
-				<div style="width:100%;text-align:center;padding-top: 30px"> <img src="{{ page.featureImage }}"></div>
-				<h1 style="margin-top: 0px;padding-top: 0px;font-size: 50px;color:red">{{page.title}}</h1>
-				<div class="post-meta">
-					<div class="post-meta-content" style="text-align: right">
-								<span class="post-auhor-date">
-									<span>
-										<a class="post-author">nguyen.le</a>
-									</span>,
-									<a  class="post-date">
-										{{ post.date | date: "%B %d, %Y"}}
-									</a>
-								</span>
-								<span class="post-readtime">
-									<i class="icon icon-clock"></i> 15 min <span>read</span> </span>
-						</span>
+
+			<section style="margin-top:150px;">
+				<h1>jQuery Cloud Edit Example</h1>
+				<div class="btnGroup">
+					<a class="btn" id="previewToggle" href="#!" title="Enlarge Preview">Preview</a>
+					<a class="btn" id="clear" href="#!" title="Click to clear all">Clear</a>
+					<a class="btn" id="download" href="#!" title="Download">Download</a>
+					<!--       <a class="btn" id="run" href="#!" title="Run">Run</a> -->
+					<a class="btn" id="htmlToggle" href="#!" title="Toggle HTML">Toggle HTML</a>
+					<a class="btn" id="cssToggle" href="#!" title="Toggle CSS">Toggle CSS</a>
+					<a class="btn" id="jsToggle" href="#!" title="Toggle JS">Toggle JS</a>
+					<a class="btn btn-hidden" id="consoleToggle" href="#!" title="Toggle Console">Toggle Console</a>
+				</div>
+				<div class="windowGroup">
+					<div class="window html">
+						<pre id="html"></pre>
+						<span class="windowLabel" id="htmlLabel">HTML</span>
+					</div>
+					<div class="window css">
+						<pre id="css"></pre>
+						<span class="windowLabel" id="cssLabel">CSS</span>
+					</div>
+					<div class="window js">
+						<pre id="js"></pre>
+						<span class="windowLabel" id="jsLabel">JavaScript/jQuery 1.x</span>
 					</div>
 				</div>
-
-				<div id="contentPost">
-					{% if content == "" %}
-					<div> JavaScript Editor Online </div>
-
-					<div class="idewrapper">
-						<div id="editor-options">
-							<div id="editor-options-left">
-								<a href="https://programmersportal.com/" title="programmersportal.com"><i class="fa fa-home" style="font-size: 26px;margin-right: 10px;color: #004dd1 ;"></i></a>
-
-								<button title="Switch to Dark Mode" onclick="setDarkMode()" class="action-btns" style="width: 90px;">Dark Mode</button>
-								<button title="Switch to Light Mode" onclick="setLightMode()" class="action-btns" style="width: 90px;">Light Mode</button>
-								<button title="Run Program" onclick="getEditorCode()" class="action-btns" id="run-btn"> <i class="fa fa-play"></i> Run</button>
-							</div>
-
-
-						</div>
-						<div id="parent">
-							<div id="left">
-								<div id="editor">
-									<h1>Hello World!!!</h1>
-								</div>
-							</div>
-
-							<div id="bar" title="Resize">
-
-							</div>
-							<div id="right">
-								<div id="frameWrapper">
-									<iframe src="" id="resultFrame" frameborder="0"></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					{% endif %}
-					{{content}}
+				<div class="console">
+					<pre id="console"></pre>
+					<span class="windowLabel" id="consoleLabel">Console [right-click to clear]</span>
 				</div>
+				<div class="preview">
+					<iframe id="iframe"></iframe>
+					<span class="windowLabel" id="iframeLabel">Preview</span>
+					<span class="windowLabel" id="iframeClose">X</span>
+				</div>
+			</section>
 
-			</div>
+
+
 		</div>
 		<div class="col-lg-3 col-sm-3">
 			<div>
@@ -299,14 +145,19 @@
 <!-- bootstrap js -->
 <script src='{{"/js/bootstrap.min.js"  | prepend: site.baseurl }}' ></script>
 
+<script src="https://www.jqueryscript.net/demo/Creating-A-JSFiddle-Like-Code-Editor-with-jQuery-ACE-Editor-Cloud-Edit/js/autoprefixer.js" ></script>
 
 <script src='{{"/js/ace/ace.js"  | prepend: site.baseurl }}'  type="text/javascript" charset="utf-8"></script>
 
+<script src="https://www.jqueryscript.net/demo/Creating-A-JSFiddle-Like-Code-Editor-with-jQuery-ACE-Editor-Cloud-Edit/js/jquery.ui.position.min.js" ></script>
+
+<script src="https://www.jqueryscript.net/demo/Creating-A-JSFiddle-Like-Code-Editor-with-jQuery-ACE-Editor-Cloud-Edit/js/contextMenu.min.js" ></script>
+
+<script src="https://www.jqueryscript.net/demo/Creating-A-JSFiddle-Like-Code-Editor-with-jQuery-ACE-Editor-Cloud-Edit/js/cloudEdit.min.js
+" ></script>
+
 
 <!-- custom js -->
-<script src='{{"/js/js-editor.js"  | prepend: site.baseurl }}'> </script>
-
-
 
 
 
