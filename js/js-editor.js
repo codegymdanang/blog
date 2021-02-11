@@ -47,11 +47,18 @@ editor.removeLines(2);
 
 function getEditorCode() {
     let resultFrame = document.getElementById('resultFrame');
-    let userCode = editor.getSession().getValue();
+    let userCode = editor.getValue();
+
+    // Run the user code
+   // try {
+    //    new Function(userCode)();
+   // } catch (err) {
+   //     console.error(err);
+   // }
 
     let ifrw = resultFrame.contentWindow ? resultFrame.contentWindow : resultFrame.contentDocument.document ? resultFrame.contentDocument.document : resultFrame.contentDocument;
     ifrw.document.open();
-    ifrw.document.write(userCode);
+    ifrw.contentWindow.targetFunction(userCode);
     ifrw.document.close();
     resultFrame.contentWindow.document.body.style.wordWrap = 'break-word';
 }
