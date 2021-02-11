@@ -94,10 +94,6 @@
 			height: 100%;
 		}
 
-		#ads-container {
-			height: 100px;
-			/* background-color: aqua; */
-		}
 
 		#editor-options {
 			height: 43px;
@@ -228,35 +224,35 @@
 					{% if content == "" %}
 					<div> Editor Online </div>
 
+					<div class="idewrapper">
+						<div id="editor-options">
+							<div id="editor-options-left">
+								<a href="https://programmersportal.com/" title="programmersportal.com"><i class="fa fa-home" style="font-size: 26px;margin-right: 10px;color: #004dd1 ;"></i></a>
 
-					<div id="editor-options">
-						<div id="editor-options-left">
-							<a href="https://programmersportal.com/" title="programmersportal.com"><i class="fa fa-home" style="font-size: 26px;margin-right: 10px;color: #004dd1 ;"></i></a>
+								<button title="Switch to Dark Mode" onclick="setDarkMode()" class="action-btns" style="width: 90px;">Dark Mode</button>
+								<button title="Switch to Light Mode" onclick="setLightMode()" class="action-btns" style="width: 90px;">Light Mode</button>
+								<button title="Run Program" onclick="getEditorCode()" class="action-btns" id="run-btn"> <i class="fa fa-play"></i> Run</button>
+							</div>
 
-							<button title="Switch to Dark Mode" onclick="setDarkMode()" class="action-btns" style="width: 90px;">Dark Mode</button>
-							<button title="Switch to Light Mode" onclick="setLightMode()" class="action-btns" style="width: 90px;">Light Mode</button>
-							<button title="Run Program" onclick="getEditorCode()" class="action-btns" id="run-btn"> <i class="fa fa-play"></i> Run</button>
-						</div>
-
-
-					</div>
-					<div id="parent">
-						<div id="left">
-							<div id="editor">
-								<script type="text/plain" style="display: block;" id="ace-1">
-								<h1>Hello World!!!</h1></script></div>
-						</div>
-
-						<div id="bar" title="Resize">
 
 						</div>
-						<div id="right">
-							<div id="frameWrapper">
-								<iframe src="" id="resultFrame" frameborder="0"></iframe>
+						<div id="parent">
+							<div id="left">
+								<div id="editor">
+									<script type="text/plain" style="display: block;" id="ace-1">
+									<h1>Hello World!!!</h1></script></div>
+							</div>
+
+							<div id="bar" title="Resize">
+
+							</div>
+							<div id="right">
+								<div id="frameWrapper">
+									<iframe src="" id="resultFrame" frameborder="0"></iframe>
+								</div>
 							</div>
 						</div>
 					</div>
-
 
 					{% endif %}
 					{{content}}
