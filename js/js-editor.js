@@ -51,14 +51,14 @@ function getEditorCode() {
 
     // Run the user code
    // try {
-    //    new Function(userCode)();
+       let callnewFunction = new Function(userCode)();
    // } catch (err) {
    //     console.error(err);
    // }
 
     let ifrw = resultFrame.contentWindow ? resultFrame.contentWindow : resultFrame.contentDocument.document ? resultFrame.contentDocument.document : resultFrame.contentDocument;
     ifrw.document.open();
-    ifrw.contentWindow.userCode;
+    ifrw.contentWindow.callnewFunction();
     ifrw.document.close();
     resultFrame.contentWindow.document.body.style.wordWrap = 'break-word';
 }
