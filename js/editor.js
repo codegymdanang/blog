@@ -1,58 +1,81 @@
-// Retrieve Elements
-const executeCodeBtn = document.querySelector('.editor__run');
-const resetCodeBtn = document.querySelector('.editor__reset');
-
-// Setup Ace
+var left = document.getElementById('left');
+var right = document.getElementById('right');
+var bar = document.getElementById('bar');
 
 
-
-
-/*
-let defaultCode = 'console.log("Hello World!")';
-
-
-let editorLib = {
-    init() {
-        // Configure Ace
-
-        // Theme
-        codeEditor.setTheme("ace/theme/dreamweaver");
-
-        // Set language
-        codeEditor.session.setMode("ace/mode/javascript");
-
-        // Set Options
-        codeEditor.setOptions({
-            fontFamily: 'Inconsolata',
-            fontSize: '12pt',
-            enableBasicAutocompletion: true,
-            enableLiveAutocompletion: true,
-        });
-
-        // Set Default Code
-        codeEditor.setValue(defaultCode);
-    }
+const drag = (e) => {
+    e.preventDefault();
+    document.selection ? document.selection.empty() : window.getSelection().removeAllRanges();
+    left.style.width = (e.pageX - bar.offsetWidth / 3) + 'px';
+    editor.resize();
+    console.log(window.innerWidth);
+    console.log(left.style.width);
+    console.log(right.style.width);
+    console.log(bar.offsetWidth);
 }
-*/
 
-// Events
-executeCodeBtn.addEventListener('click', () => {
-    // Get input from the code editor
-    const userCode = editor.getValue();
-
-    // Run the user code
-    try {
-        new Function(userCode)();
-    } catch (err) {
-        console.error(err);
-    }
+bar.addEventListener('mousedown', () => {
+    document.addEventListener('mousemove', drag);
 });
 
-resetCodeBtn.addEventListener('click', () => {
-    // Clear ace editor
-    editor.setValue(defaultCode);
-})
+bar.addEventListener('mouseup', () => {
 
-/*
-editorLib.init();
-*/
+    document.removeEventListener('mousemove', drag);
+});
+
+var editor = ace.edit("editor", {
+    wrap: true
+});
+// editor.setTheme("ace/theme/cobalt");
+editor.session.setMode("ace/mode/html");
+
+editor.setOptions({
+    fontSize: '13pt'
+    // useWrapMode:true,
+    // indentedSoftWrap:false
+
+})
+editor.setAutoScrollEditorIntoView(true);
+editor.setShowPrintMargin(false);
+editor.removeLines(1);
+editor.removeLines(2);
+
+
+
+// editor.getSession().setUserWrapMode(true);
+
+
+function getEditorCode() {
+    let resultFrame = document.getElementById('resultFrame');
+    let userCode = editor.getSession().getValue();
+
+    let ifrw = resultFrame.contentWindow ? resultFrame.contentWindow : resultFrame.contentDocument.document ? resultFrame.contentDocument.document : resultFrame.contentDocument;
+    ifrw.document.open();
+    ifrw.document.write(userCode);
+    ifrw.document.close();
+    resultFrame.contentWindow.document.body.style.wordWrap = 'break-word';
+}
+
+
+window.onload = function () {
+    if (localStorage.getItem('theme')) {
+        editor.setTheme(localStorage.getItem('theme'));
+    } else {
+        editor.setTheme('');
+        localStorage.setItem('theme', '');
+    }
+    // left.style.width = (window.innerWidth / 2 - bar.offsetWidth / 2) + 'px';
+    // right.style.width = (window.innerWidth - left.style.width) + 'px';
+    getEditorCode();
+
+}
+
+function setDarkMode() {
+    editor.setTheme("ace/theme/cobalt");
+    localStorage.setItem('theme', 'ace/theme/cobalt')
+}
+
+function setLightMode() {
+    editor.setTheme('');
+    localStorage.setItem('theme', '');
+}

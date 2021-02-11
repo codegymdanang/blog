@@ -20,13 +20,145 @@
 	<link rel="stylesheet" href='{{ "/css/pygments-3024-night.css" | prepend: site.baseurl }}' >
 
 	<style type="text/css" media="screen">
-		#editor {
+		* {
+			box-sizing: border-box;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		@media only screen and (max-width:560px){
+			#parent{
+				display:block !important;
+
+			}
+			#left{
+				width:100% !important;
+				display: block;
+			}
+			#right{
+				display:block;
+				flex:none !important;
+				width:100% !important;
+			}
+			#bar{
+				display: none !important;
+			}
+			#result_heading{
+				display:none;
+			}
+
+		}
+		#parent {
 			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			height: 200px;
+			/* top: 140px; */
+			bottom: 0px;
+			width: 100%;
+			top: 143px;
+			/* background-color: seagreen; */
+			display: flex;
+		}
+
+		#left {
+			height: 100%;
+			width: 50%;
+			border: 1px solid #d5d5d5;
+		}
+
+		#bar {
+			width: 4px;
+			height: 100%;
+			background-color: #f1f1f1;
+			cursor: w-resize;
+		}
+
+		#right {
+			height: 100%;
+			width: 50%;
+			flex: 1;
+			border: 1px solid #d5d5d5;
+			/* background-color: springgreen; */
+		}
+
+		#editor {
+			width: 100%;
+			height: 100%;
+		}
+
+		#frameWrapper {
+			width: 100%;
+			height: 100%;
+		}
+
+		#resultFrame {
+			width: 100%;
+			height: 100%;
+		}
+
+		#ads-container {
+			height: 100px;
+			/* background-color: aqua; */
+		}
+
+		#editor-options {
+			height: 43px;
+			font-family: Arial,Helvetica,sans-serif;
+
+			/* border-left: 1px solid #d5d5d5;
+            border-top: 1px solid #d5d5d5;
+            border-right: 1px solid #d5d5d5; */
+			/* background-color: red; */
+
+		}
+
+		.word-breaker {
+			word-wrap: break-word;
+		}
+
+		#editor-options-left {
+			float: left;
+			width: 100%;
+			height: 100%;
+			background-color: #f1f1f1;
+			padding: 3px 15px;
+			/* background-color: seagreen; */
+		}
+
+		#editor-options-right {
+			float: right;
+			width: 30%;
+			text-align: left;
+			height: 100%;
+			background-color: #f1f1f1;
+			/* background-color: sienna; */
+		}
+		#result-span{
+			line-height: 40px;
+			font-size: 24px;
+		}
+		.action-btns{
+			border: none;
+			outline: none;
+			cursor: pointer;
+			line-height: 34px;
+
+			background-color: #4a90e2;
+			border-radius: 2px;
+			box-shadow: 0 1px 2px 0 rgba(0,0,0,.5);
+			/* margin-right: 5px; */
+			padding-left: 3px;
+			/* margin:5px; */
+			color: white;
+			font-size: 16px;
+			font-weight: 400;
+			padding-right: 3px;
+			margin-right: 8px;
+		}
+		.action-btns:hover{
+			background-color: #2a6fc3;
+		}
+		#run-btn{
+			width: 80px;
+			text-align: center;
 		}
 	</style>
 
@@ -95,18 +227,35 @@
 				<div id="contentPost">
 					{% if content == "" %}
 					<div> Editor Online </div>
-					
 
-					<div id="editor">
-						function foo(items) {
-   							var x = "All this is syntax highlighted";
-   							return x;
-						}
+
+					<div id="editor-options">
+						<div id="editor-options-left">
+							<a href="https://programmersportal.com/" title="programmersportal.com"><i class="fa fa-home" style="font-size: 26px;margin-right: 10px;color: #004dd1 ;"></i></a>
+
+							<button title="Switch to Dark Mode" onclick="setDarkMode()" class="action-btns" style="width: 90px;">Dark Mode</button>
+							<button title="Switch to Light Mode" onclick="setLightMode()" class="action-btns" style="width: 90px;">Light Mode</button>
+							<button title="Run Program" onclick="getEditorCode()" class="action-btns" id="run-btn"> <i class="fa fa-play"></i> Run</button>
+						</div>
+
+
 					</div>
+					<div id="parent">
+						<div id="left">
+							<div id="editor">
+								<script type="text/plain" style="display: block;" id="ace-1">
+								<h1>Hello World!!!</h1></script></div>
+						</div>
 
+						<div id="bar" title="Resize">
 
-					<button class="editor__btn editor__run">Run ></button>
-                    <button class="editor__btn editor__reset">Reset ></button>
+						</div>
+						<div id="right">
+							<div id="frameWrapper">
+								<iframe src="" id="resultFrame" frameborder="0"></iframe>
+							</div>
+						</div>
+					</div>
 
 
 					{% endif %}
@@ -186,11 +335,7 @@
 
 
 <script src='{{"/js/ace/ace.js"  | prepend: site.baseurl }}'  type="text/javascript" charset="utf-8"></script>
-<script>
-	var editor = ace.edit("editor");
-	editor.setTheme("ace/theme/monokai");
-	editor.session.setMode("ace/mode/javascript");
-</script>
+
 
 <!-- custom js -->
 <script src='{{"/js/editor.js"  | prepend: site.baseurl }}'> </script>
