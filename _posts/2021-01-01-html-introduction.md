@@ -119,7 +119,7 @@ Thẻ base được sử dụng với mục đích tất cả các trang đườ
 
    <head>
       <title>HTML Base Tag Example</title>
-      <base href = "https://www.tutorialspoint.com/" />
+      <base href = "https://levunguyen.com/" />
    </head>
 
    <body>
@@ -147,7 +147,7 @@ Thẻ link dùng để liên kết tài liệu HTML với những tài liệu b�
 
    <head>
       <title>HTML link Tag Example</title>
-      <base href = "https://www.tutorialspoint.com/" />
+      <base href = "https://levunguyen.com/" />
       <link rel = "stylesheet" type = "text/css" href = "/css/style.css">
    </head>
 	
@@ -172,7 +172,7 @@ Chúng ta sử dụng thẻ style để trang trí cho website. Chúng ta có th
 
    <head>
       <title>HTML style Tag Example</title>
-      <base href = "https://www.tutorialspoint.com/" />
+      <base href = "https://levunguyen.com/" />
       
       <style type = "text/css">
          .myclass {
@@ -198,8 +198,27 @@ Chúng ta sử dụng thẻ style để trang trí cho website. Chúng ta có th
 
 Trong các bài tiếp theo anh sẽ giới thiệu thêm các thẻ HTML để xây dựng nên một website.
 
+## **8. Xem Demo Video**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
+
+## **9. Thực hành online và source code**
+
+{:refdef: style="text-align: left;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: right;"}
+<a href=""> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
+
+
+
+
+
+
+
+
 
