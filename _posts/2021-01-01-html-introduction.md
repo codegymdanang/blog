@@ -211,7 +211,7 @@ Trong các bài tiếp theo anh sẽ giới thiệu thêm các thẻ HTML để 
 {: refdef}
 
 {:refdef: style="text-align: center;"}
-<a href="" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+<a href="https://github.com/levunguyen/HTML" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}
 
 

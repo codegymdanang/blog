@@ -322,6 +322,21 @@ Chúng ta sử dụng thẻ div hoặc span để nhóm các thẻ lại với n
 ![formating11](/images/post/html/formating11.png){:class="img-responsive"}
 {: refdef}
 
+## **10. Video Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
+
+## **11. Thực hành online và source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/HTML-Formatting" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
+
+
+

@@ -121,12 +121,22 @@ Chúng ta sử dụng thuột tính text-align để canh giữa cho văn bản
 
 Chúng ta sử dụng <b>thuột tính style trong các thành phân của HTML</b> nhằm trang trí cho website trở nên đẹp hơn. Chúng ta sử dụng background-color để tạo ra màu nền cho website và các phần tử web. Sử dụng color để tạo màu cho các chữ. Sử dụng font-family để thiết lập kiểu font. Sử dụng font-size để thiết lập kích thướt nội dung trong website và text-align để canh giữa các đoạn văn bản.
 
+## **8. Video Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
 
+## **9. Thực hành online và source code**
 
+{:refdef: style="text-align: center;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/HTML-Style" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 
 

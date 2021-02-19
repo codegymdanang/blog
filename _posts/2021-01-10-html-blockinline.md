@@ -133,13 +133,22 @@ Thẻ Span thì sử dụng thuộc tính inline. Nó là một container như k
 
 Chúng ta có 2 cách để hiện thị các thẻ HTMl lên website là block và inline. Block được sử dụng để nhóm các thành phần web khác lại với nhau thành một khối và nó bắt đầu bằng một dòng mới. Inline thì không bắt đầu bằng một dòng mới mà nó chỉ có tác dụng một phần nào đó trong text hay trong đoạn văn. DIV mặc định là sử dụng giá trị Block còn Span là giá trị inline
 
+## **7. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
 
+## **8. Thực hành online và source code**
 
+{:refdef: style="text-align: center;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/HTML-Block-Inline" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 
 

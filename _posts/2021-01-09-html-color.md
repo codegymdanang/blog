@@ -192,11 +192,21 @@ Mặc định các background màu nền của website đều là màu trắng. 
 </html>
 {% endhighlight %}
 
+## **6. Video Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **7. Thực hành online và source code**
 
+{:refdef: style="text-align: center;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/HTML-Color" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 
 
