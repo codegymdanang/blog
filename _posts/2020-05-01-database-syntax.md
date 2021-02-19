@@ -75,9 +75,14 @@ Câu lệnh SQL được chia ra thành 4 loại DDL, DML, DCL và TCL.
 + ROLLBACK to undo the change.
 + SAVEPOINT to save temporarily.
 
+## **3. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **4. Source code**
 
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Database-Mysql" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}

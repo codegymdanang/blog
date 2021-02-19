@@ -150,8 +150,14 @@ SELECT CustomerID AS ID, CustomerName AS Customer
 FROM Customers; 
 {% endhighlight %}
 
+## **5. Demo Video**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **6. Source Code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Database-Mysql" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}

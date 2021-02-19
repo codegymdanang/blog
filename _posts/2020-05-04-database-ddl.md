@@ -204,12 +204,16 @@ MODIFY COLUMN Email varchar(255);
 {% endhighlight %}
 
 <br>
-## **8. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+## **8. Demo Video**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **9. Source Code**
 
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Database-Mysql" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 

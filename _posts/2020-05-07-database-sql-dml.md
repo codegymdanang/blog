@@ -333,12 +333,17 @@ DELETE FROM Customers;
 
 {% endhighlight %}
 
+## **12. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **13. Source Code**
 
-
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Database-Mysql" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 
 

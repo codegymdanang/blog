@@ -42,5 +42,14 @@ Là quá trình phân tích chia bảng thành những bảng nhỏ hơn dựa v
 <b>Có 4 dạng chuẩn hoá dữ liệu</b>: 1NF, 2NF, 3NF, 4NF, và dạng BCNF (Boyce Codd Normal Form) .
 
 <br>
-## **Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé.**
+
+## **1. Demo Video**
+
 {% include youtubePlayer.html id=page.youtubeId %}
+
+
+## **2. Source Code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Database-Mysql" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}

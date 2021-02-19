@@ -14,9 +14,14 @@ youtubeId: mxYQUIMJ5Aw
 
 Chào các em, hôm nay chúng ta sẽ nói về chủ đề Trigger trong Database là gì nhé?
 
-
-## **Hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+## **1. Demo Video**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **2. Source Code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Database-Mysql" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}
