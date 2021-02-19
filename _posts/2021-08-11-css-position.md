@@ -232,6 +232,18 @@ div.sticky {
 
 Trong ví dụ trên người dùng dù có kéo thanh scroll bar thì chữ I am sticky vẫn ở trên cùng và cố định cho dù người dùng có kéo thanh cuộn xuống.
 
+## **7. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **8. Thực hành online và source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/CSS-Fundamental" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

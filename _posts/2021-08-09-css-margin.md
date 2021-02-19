@@ -167,11 +167,21 @@ Sử dụng để canh chỉnh ở phần bên phải của phần tử web. Ch�
 ![margin5](/images/post/css/margin5.png){:class="img-responsive"}
 {: refdef}
 
+## **7. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **8. Thực hành online và source code**
 
+{:refdef: style="text-align: center;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/CSS-Fundamental" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 
 

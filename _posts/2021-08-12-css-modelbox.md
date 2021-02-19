@@ -93,12 +93,23 @@ div {
 
 - Như vậy chiều rộng đúng sẽ là : 320px + 10px (padding trái) + 10 px (padding phải) + 5 px (border trái) + 5px (border phải) = 350 px. 
 
+
+## **3. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
 
+## **4. Thực hành online và source code**
 
+{:refdef: style="text-align: center;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/CSS-Fundamental" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 
 
