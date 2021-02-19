@@ -153,10 +153,17 @@ public class Application {
 - Kết quả sẽ in ra là :  Bean2 , Bean 1.
 Như vậy ta thấy Bean1 chỉ được gọi khi cần, và chỉ được tạo lên khi cần thông qua @Lazy.
 
+## **6. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **7. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Configure-annotation" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 
 

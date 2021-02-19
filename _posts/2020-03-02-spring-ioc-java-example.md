@@ -148,10 +148,15 @@ public class Application {
 
 - Kết quả ta nhận được là text : Hello World
 
+## **7. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **8. Source code**
 
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Configuration-IOC-by-Java" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
