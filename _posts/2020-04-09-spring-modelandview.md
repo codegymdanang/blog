@@ -121,8 +121,14 @@ public ModelAndView get(@RequestParam("name") String name) {
 4. ModelAndView là sự kết hợp của 2 mục đích  ModelMap and View . Nó cho phép controller trả về 1 giá trị bao gồm Model và View .  
 
 <br>
-# **6. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+# **6. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **7. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Spring-ModelAndView" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

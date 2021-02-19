@@ -167,6 +167,15 @@ Chúng ta sử dụng <b>@EmbeddedId</b> để dánh dấu cặp key trở thàn
 
 Các em có thể dùng một trong 2 cách trên khi gặp mối quan hệ nhiều nhiều đều giải quyết được vấn đề. Thông thường anh hay dùng cách thứ 2 (CompositeKey) vì code dể quản lý và thay đổi . Ví dụ như a muốn thêm vô vài trường trong table trung gian thì  quản lý rất dể.
 
+## **6. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+
+## **7. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/ManyToMany" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

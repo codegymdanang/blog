@@ -15,8 +15,16 @@ youtubeId: GPEG3t7dPn0
 
 Chào các em , hôm nay anh sẽ giới thiệu với các bạn cách sử dụng <b>Entity Manager trong lập trình Spring</b> để truy vấn dữ liệu trong database
 
-# **Hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+
+
+## **1. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **2. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Spring-Entity-Manager" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

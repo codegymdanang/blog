@@ -225,6 +225,14 @@ public interface ProductRepository extends PagingAndSortingRepository<Product, I
 }
 {% endhighlight %}
 
+## **8. Video Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **9. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Spring-JPA" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

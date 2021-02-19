@@ -152,6 +152,14 @@ lấy  ra địa chỉ và ngược lại.
 
 Để hiểu thêm về <b>mappedBy</b> còn có chức năng nào mới không thì các bạn có thể đọc bài viết tiếp theo nhé.
 
+## **4. Video Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **5. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/OneToOne" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

@@ -174,7 +174,14 @@ Chúng ta sẽ lưu giỏ hàng và các sản phẩm xuống database theo các
 
 Như vậy chúng ta sử dụng annotaion @OneToMany và @ManyToOne để thực hiện việc liên kết giữa hai entity với nhau. Trong lập trình sẽ có những lúc khi ta có thể query từ Cart lấy ra tất cả các dòng dữ liệu Items trong Cart đó hoặc sẽ có những trường hợp ngược lại là từ những Items trong Cart đó ta có thể lấy được Cart đó là gì thông qua các Item. Đó chính là Bidirectional chúng ta có thể query Cart lấy Item hoặc query ngược từ Item ra Cart. Để làm được việc này thì ta phải sử dụng @JoinColumn và MappedBy để thực hiện Bidriectional 
 
+## **4. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **5. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/OneToMany" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

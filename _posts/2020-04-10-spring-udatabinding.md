@@ -15,7 +15,14 @@ youtubeId: xL0gy1mpdTc
 
 Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn về cách sử dụng <b>Databinding trong lập trình Spring</b> để hiển thị tầng view cho người dùng. Mọi người xem video sau nhé
 
+## **1. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **2. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Spring-Data-Binding" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

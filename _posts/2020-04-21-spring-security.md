@@ -396,13 +396,15 @@ Mọi ngừoi có thể lấy trực tiếp từ github của anh trong folder v
 Như vậy là mình đã xong cấu hình cho Spring security . Phần quan trong nhất  chính là bước 4. Nới mình cấu
 hình và phân quyền trong Spring Security .
 
-<br>
-# **Source Code**
-Source Code mọi người tải về từ [đây](https://github.com/levunguyen/java-spring-security-database)
 
-<br>
-### Mọi người có thể xem thêm lý thuyết tại đây nhé
+## **8. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **9. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Spring-JPA" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

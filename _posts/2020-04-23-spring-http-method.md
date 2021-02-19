@@ -87,6 +87,17 @@ Mình dùng <b>phương thức post</b> khi các thông tin truyền lên server
 Tuỳ vào hành động mà client mong muốn là gì thì mình sẽ chọn phương thức cho đúng. Thông thường mình có thể dùng POST cho cả việc tạo mới, update, delete đều được nhưng không nên khuyến khích dùng. Post chỉ dùng cho tạo , Get dùng cho xem thông tin, PUT dùng cho cập nhật và Delete dùng cho việc xoá. Chỉ cần nắm được như vậy thì mình đã okie rồi.
 
 
-# **7. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
+# **7. Video Demo**
 
 {% include youtubePlayer.html id=page.youtubeId %}
+
+## **8. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Restful-Thymeleaf" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
+
+
+
+
+
