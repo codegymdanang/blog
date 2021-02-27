@@ -20,6 +20,15 @@ Mời các bạn cùng xem video code demo về cách sử dụng <b>LinkedList 
 
 Và bây giờ, mời các bạn cùng xem video code demo về cách sử dụng LinkedList trong lập trình Java dưới đây để hiểu rõ hơn nhé.
 
+## **1. Video Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **2. Source code**
+
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-ArrayList" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

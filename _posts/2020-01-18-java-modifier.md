@@ -126,8 +126,15 @@ Việc sự dụng đúng scope (phạm vi) của biến rất quan trọng tron
 định của mình , đồng thời ai cũng thấy và sẽ thay đổi được giá trị của biến
 
 <br>
-## Video demo  
+## **9. Video Demo**  
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **10. Source code**
+
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Access-Modifier" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

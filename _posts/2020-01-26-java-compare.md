@@ -15,7 +15,14 @@ youtubeId: 1Ej9GJdhE98
 
 Đối với những ai từng làm việc về <b>lập trình Java</b>, đều nghe đề cập tới 2 thuật ngữ <b>Comparable</b> và <b>Comparator</b> trong Interface. Cụ thể, Comparable và Comparator là gì? Tính chất, cách sử dụng của mỗi Interface này như thế nào? Và sự khác nhau giữa hai giao diện này là gì? Khi nào nên dùng Comparable, khi nào dùng Comparator trong <b>lập trình Java</b>? Bài viết với video hướng dẫn bài học dưới đây sẽ lần lượt giải đáp những điều các bạn còn thắc mắc về kiến thức Java nâng cao này.
 
+## **1. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **2. Source Code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Comparable-And-Comparator" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

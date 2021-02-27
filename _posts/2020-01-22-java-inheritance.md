@@ -97,9 +97,14 @@ Như vậy khi chạy chương trình thì nó sẽ báo lỗi ở lớp Bicycle
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
-## **4. Tại sao lại sử dụng kế thừa. Mục đích sử dụng kế thừa trong lập trình**
+## **4. Demo Video**
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId1 %}
 {: refdef}
 
+## **5. Source code**
 
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Inheritance" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}

@@ -19,6 +19,14 @@ Khái niệm <b>Ép kiểu trong ngôn ngữ lập trình Java</b> được hi�
 - Ép kiểu ngầm định
 
 
+## **1. Video Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **2. Source Code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Implicit-And-Explicit" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

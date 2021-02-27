@@ -77,9 +77,15 @@ class MyMainClass {
 - Để đảm bảo tính bảo mật.
 - Chúng ta chỉ đưa ra những thông tin cần thiết và che giấu những thông tin quan trọng.
 
-## **3. Cách tạo abstract trong Java**  
+## **3. Demo Video**  
 
 <center>
 {% include youtubePlayer.html id=page.youtubeId1 %}
 </center>
 
+## **4. Source code**
+
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Abstract" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
