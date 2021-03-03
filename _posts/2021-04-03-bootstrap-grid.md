@@ -129,8 +129,18 @@ Nếu như ta chi có 2 div thì bootstrap sẽ lấy 100% chia cho 2 mỗi div 
 
 Như vậy div bg-success sẽ chiếm 25% (cái này là lấy 3/12 = 0.25). Còn div bg-warning sẽ là 75% (lấy 9/12 = 0.75)
 
+## **5. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **6. Thực hành và Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Bootstrap" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}

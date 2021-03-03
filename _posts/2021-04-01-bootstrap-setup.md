@@ -133,9 +133,19 @@ Chúng ta thêm thẻ meta trong thẻ head để cấu hình
 
 Tiếp đến chúng ta sẽ xây dựng các thành phần của website trong thẻ body. Trong các chủ đề tiếp theo anh sẽ hướng dẫn mọi người cách xây dựng các thành phần
 
+## **5. Video demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
 
+## **6. Thực hành và Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Bootstrap" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}

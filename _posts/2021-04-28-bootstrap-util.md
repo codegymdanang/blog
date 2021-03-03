@@ -238,6 +238,18 @@ Chúng ta có thể thêm nút có biểu tượng close (x) bằng class .close
  <button type="button" class="close">&times;</button>
 {% endhighlight %}
 
+## **14. Video demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **15. Thực hành và Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Bootstrap" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}
