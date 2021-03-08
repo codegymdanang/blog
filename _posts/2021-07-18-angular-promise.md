@@ -14,6 +14,15 @@ youtubeId: xeIb4xbjxb8
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Promise </b> là như thế nào?
 
+## **1. Video demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **2. Source code**
+
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Angular-Promise" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

@@ -359,6 +359,15 @@ Ta có lớp template html sau app.component.html
 
 {% endhighlight %}
 
+## **6. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **7. Source code**
+
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Angular-ReactForm" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

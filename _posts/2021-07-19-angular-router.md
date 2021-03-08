@@ -14,6 +14,15 @@ youtubeId: JV0MCJ37bLI
 
 Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>sử dụng Angular Router </b> là như thế nào?
 
+## **1. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **2. Source code**
+
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Angular-Router" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

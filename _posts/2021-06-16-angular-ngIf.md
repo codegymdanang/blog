@@ -165,11 +165,17 @@ Tiếp đến ta có file template html như sau
 
 Chúng ta sử dụng ngIf và sử dụng ngModel để lấy giá trị của showMe. Nếu true thì ta sẽ show ra dòng chữ ShowMe is checked còn ngược lại là ShowMe is unchecked.
 
+## **6. Video Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **7. Source code**
 
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Angular-Template-Form" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 
 
 
