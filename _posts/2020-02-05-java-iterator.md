@@ -105,11 +105,17 @@ public class MyClass {
 
 - Trong ví dụ trên chúng ta tạo ra một ArrayList chứa các số 12,8,2,23. Sau đó chúng ta duyệt qua các phần tử trong tập hợp này. Nếu phần tử nhỏ hơn 10 thì ta sẽ xoá phần tử đó ra khỏi tập hợp thông qua phương thức it.remove().
 
+## **2. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **3. Source code**
 
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Iterator" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 

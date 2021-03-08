@@ -187,9 +187,15 @@ HashMap duy trì không có thứ tự, trong khi TreeMap duy trì thứ tự t�
 
 Set chỉ chứa giá trị, trong khi Map chứa cặp key và value.
 
-<br>
-Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé .
+## **18. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **19. Source code**
+
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Collections" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

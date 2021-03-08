@@ -23,11 +23,18 @@ Bây giờ chúng ta hãy xem video cách làm nhé
 
 ## **Video demo tạo Regular Expression  trong Java**
 
+## **1. Video Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **2. Source code**
 
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Regular-Expression" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 
 

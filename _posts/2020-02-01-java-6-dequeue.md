@@ -270,10 +270,17 @@ for(String element : deque) {
 
 {% endhighlight %}
 
+## **7. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **8. Source code**
 
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Deque" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 

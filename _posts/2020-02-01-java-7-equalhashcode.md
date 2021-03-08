@@ -137,9 +137,16 @@ Khi ta tạo một đối tượng thì đối tượng đó sẽ được lưu 
 
 - Như vậy hashcode không phải là địa chỉ vùng nhớ chứa đối tượng mà nó là một thành phần để tạo ra hashcode.
 
+## **3. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **4. Source code**
 
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Equal-HashCode" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 

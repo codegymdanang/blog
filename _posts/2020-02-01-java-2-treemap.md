@@ -104,10 +104,16 @@ class TreeMap4{
 - Phương thức tailMap sẽ trả về cho chúng ta những key có giá trị lớn hoặc bằng 102
 - Phương thức subMap sẽ trả về cho chúng ta những key nằm giữa 100 và 102.
 
+## **5. Demo Video**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **6. Source code**
 
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Java-Tree-Map" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 
