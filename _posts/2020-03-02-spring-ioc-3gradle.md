@@ -59,8 +59,14 @@ dependencies {
 Khác với Maven nó sử dụng XML để khai báo các dependency. Ở gradle chúng ta khai báo dạng như định dạng Json. Các thư viện sử dụng trong dự án được bỏ vào thẻ dependecies. 
 
 <br>
-## **3. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+## **4. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **5. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Gradle" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

@@ -90,6 +90,14 @@ public Article getDefaultArticle() {
 }
 {% endhighlight %}
 
+## **4. Video Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **5. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Optional-PathVariable" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}

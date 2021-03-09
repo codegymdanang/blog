@@ -59,8 +59,20 @@ Như các em thấy các ứng dụng ngày nay khi muốn vào ứng dụng th�
 
 
 <br>
-# **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+# **5. Demo Video**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
+
+## **6. Source code Cookie**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/codegymdanang/CGDN-SpringBoot-Cookie" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
+
+## **7. Source code Session**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/codegymdanang/CGDN-SpringBoot-SessionAttribute" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
 {: refdef}
