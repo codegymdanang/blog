@@ -150,9 +150,15 @@ public class Application {
 
 - Kết quả ta nhận được là text : Hello World
 
+## **8. Demo Video**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
+## **9. Source code**
+
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Bean-Factory" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 

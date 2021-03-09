@@ -138,12 +138,18 @@ public class ProperySourceDemo implements InitializingBean {
 
 {% endhighlight %}
 
+## **4. Vdieo Demo**
+
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
 
+## **5. Source code**
 
+{:refdef: style="text-align: center;"}
+<a href="https://github.com/levunguyen/Property-Source-Annotation" target="_blank"> ![Sourcecode ](/images/icon/githubsource.png){:class="img-responsive"} </a>
+{: refdef}
 
 
 
