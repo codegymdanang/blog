@@ -102,6 +102,10 @@ export default App;
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react_jsx_wrapper.jpeg){:class="img-responsive"}
+{: refdef}
+
 + Javascript Expression
 
 Chúng ta có thể thực hiện các phép tính trong JSX thông qua cách sử dụng {} như sau.
@@ -123,6 +127,10 @@ export default App;
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react_jsx_expression.jpeg){:class="img-responsive"}
+{: refdef}
+
 Chúng ta không thể sử dụng if else bên trong JSX mà thay vào đó là sử dụng cú pháp ? của if else như sau.
 
 {% highlight javascript  linenos %}
@@ -142,6 +150,10 @@ class App extends React.Component {
 export default App;
 
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react_jsx_ternary_expression.jpeg){:class="img-responsive"}
+{: refdef}
 
 + Styling màu sắc hoặc kích thước giống như việc sử dụng css trong html thì chúng ta sử dụng render như sau. Trong ví dụ này anh demo là inline css, còn trong thực tế mình sẽ có 1 file css riêng. Ví dụ như anh muốn thẻ H1 có màu đỏ
 
@@ -165,6 +177,10 @@ class App extends React.Component {
 export default App;
 
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react_jsx_inline_style.jpeg){:class="img-responsive"}
+{: refdef}
 
 + Convension khi sử dụng JSX như sau :
 - Đối với các thẻ HTML thì chúng ta sử dụng chữ thường ví dụ như h1, div
