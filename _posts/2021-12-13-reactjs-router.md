@@ -4,7 +4,7 @@ title: Sử dụng router trong reactjs
 slug : su-dung-router-trong-reactjs
 category: laptrinhjavascript
 tags: [reactjs]
-summery: Keys
+summery: Router
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  hiểu về router trong react. Lần lượt giới thiệu và và đi qua các ví dụ về router được sử dụng trong reactjs.
 
