@@ -58,6 +58,10 @@ export default App;
 
 Chúng ta có một mảng data là rỗng trong state. Mỗi lần chúng ta click trên button, giá trị trong state sẽ cập nhật. Nếu chúng ta click 5 lần thì chúng ta sẽ thêm 5 giá trị "setState" vào mảng data.
 
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react-component-api-set-state.jpeg){:class="img-responsive"}
+{: refdef}
+
 ## **2. Force Update**
 
 Thỉnh thoảng chúng ta muốn cập nhật component thì mình sẽ sử dụng phương thức forceUpdate.
@@ -88,6 +92,10 @@ export default App;
 {% endhighlight %}
 
 Chúng ta set giá trị số ngẫu nhiên sẽ được cập nhật mỗi lần nút button được click.
+
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react-component-api-force-update.jpeg){:class="img-responsive"}
+{: refdef}
 
 ## **3. Find Dom Node**
 
@@ -124,7 +132,9 @@ export default App;
 
 Màu sắc của thẻ myDiv sẽ chuyển sang màu xanh mỗi lần chúng ta click vô button
 
-
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react-component-api-find-dom-node.jpeg){:class="img-responsive"}
+{: refdef}
 
 
 

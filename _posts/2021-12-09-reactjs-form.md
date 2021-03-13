@@ -128,7 +128,9 @@ ReactDOM.render(<App/>, document.getElementById('app'));
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react-forms-complex.jpeg){:class="img-responsive"}
+{: refdef}
 
 
 

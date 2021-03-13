@@ -60,6 +60,10 @@ export default App;
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react_props_example.jpeg){:class="img-responsive"}
+{: refdef}
+
 ## **2. Default Props**
 
 Chúng ta có thể set giá trị mặc định cho component thông qua constructor như sau
@@ -98,6 +102,10 @@ import App from './App.jsx';
 ReactDOM.render(<App/>, document.getElementById('app'));
 
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react_props_default_example.jpeg){:class="img-responsive"}
+{: refdef}
 
 ## **3. State và Props**
 
@@ -159,7 +167,11 @@ ReactDOM.render(<App/>, document.getElementById('app'));
 
 {% endhighlight %}
 
-Chúng ta cũng nhận được kết quả tương tự như ví dụ 1 và 2 tuy nhiên có một điểm khác biệt trong ví dụ 3 là giá trị của chúng ta xuất phát và tạo ra được đến từ State. Nếu chúng ta muốn cập nhập giá trị thì chúng ta sẽ phải thay đổi trong State
+Chúng ta cũng nhận được kết quả tương tự như ví dụ 1 và 2 tuy nhiên có một điểm khác biệt trong ví dụ 3 là giá trị của chúng ta xuất phát và tạo ra được đến từ State. Nếu chúng ta muốn cập nhập giá trị thì chúng ta sẽ phải thay đổi trong State.
+
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react_props_state_example.jpeg){:class="img-responsive"}
+{: refdef}
 
 ## **4. Kiểm tra giá trị trong Props**
 

@@ -124,7 +124,9 @@ setTimeout(() => {
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react-component-lifecycle-initial-screen.jpeg){:class="img-responsive"}
+{: refdef}
 
 
 

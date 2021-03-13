@@ -78,7 +78,9 @@ ReactDOM.render(<App />, document.getElementById('app'));
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react_state_simple.jpeg){:class="img-responsive"}
+{: refdef}
 
 
 

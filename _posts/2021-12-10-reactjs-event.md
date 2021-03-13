@@ -55,6 +55,9 @@ export default App;
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react-events-simple.jpeg){:class="img-responsive"}
+{: refdef}
 
 Chúng ta chạy chương trình trong file main.js như sau.
 

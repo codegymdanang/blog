@@ -81,6 +81,11 @@ ReactDOM.render(<App />, document.getElementById('app'));
 
 {% endhighlight %}
 
+
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react_components_stateless.jpeg){:class="img-responsive"}
+{: refdef}
+
 ## **2. Stateful là gì**
 
 Trong ví dự stateless chúng ta không khởi tạo hoặc thêm giá trị cho các component. Trong ví dụ dưới đây chúng ta khởi tạo dữ liệu và gán giá trị cho các component. Ví dụ sau anh sẽ render dữ liệu cho một table.
@@ -173,7 +178,9 @@ ReactDOM.render(<App/>, document.getElementById('app'));
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react_components_statefull.jpeg){:class="img-responsive"}
+{: refdef}
 
 
 
