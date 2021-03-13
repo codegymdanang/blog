@@ -126,6 +126,9 @@ ReactDOM.render(<App/>, document.getElementById('app'));
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+![reactjs ](/images/post/reactjs/react-events-child-data.jpeg){:class="img-responsive"}
+{: refdef}
 
 
 
