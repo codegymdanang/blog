@@ -19,10 +19,10 @@ Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> f
 
 Trong khái niệm Flux có 4 thành phần mà chúng ta phải nhớ 
 
-1) Action : là nới chúng ta dispatch các sự kiện.
-2) Dispatcher : Đây là trái tim của ứng dụng. Tất cả dữ liệu được dispatch và gửi xuống các stores
-3) Store : Nới chúng ta lưu trữ, cập nhật state dữ liệu
-4) View : Dùng để nhận data từ store và render ra giao diện
+1) Action : là nới chúng ta dispatch các sự kiện. <br>
+2) Dispatcher : Đây là trái tim của ứng dụng. Tất cả dữ liệu được dispatch và gửi xuống các stores <br>
+3) Store : Nới chúng ta lưu trữ, cập nhật state dữ liệu <br>
+4) View : Dùng để nhận data từ store và render ra giao diện <br>
 
 {:refdef: style="text-align: center;"}
 ![reactjs ](/images/post/reactjs/react-flux-concept-image.jpeg){:class="img-responsive"}
