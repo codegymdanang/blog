@@ -53,7 +53,7 @@ Ví dụ như ta chạy command uname -a . Ta sẽ nhận được kết quả l
 
 Từ kết quả trên chúng ta thấy được rằng hệ điều hành linux của chúng là version 4.2.0-27
 
- ## **2. Bước 2**
+## **2. Bước 2**
 
 Chúng ta cần phải cập nhật OS với phiên bản cuối cùng bằng cách thực hiện comand apt-get. Phương thức này sẽ cài đặt các package từ mạng về hệ thống Linux của chúng ta
 
@@ -82,7 +82,7 @@ sudo apt-get update
 
 Command ở trên sẽ download tât cả các thư viện mới nhất về hệ thống linux của chúng ta.
 
- ## **3. Bước 3**
+## **3. Bước 3**
 
 Chúng ta cần phải cài đặt các certificate để có thể download một số package cần thiết cho Docker. Chúng ta thực hiện command sau đây để cài đặt các certificate.
 
@@ -96,7 +96,7 @@ sudo apt-get install apt-transport-https ca-certificates
 ![reactjs ](/images/post/docker/necessary_docker_packages.jpeg){:class="img-responsive"}
 {: refdef}
 
- ## **4. Bước 4**
+## **4. Bước 4**
 
 Chúng ta sẽ cài đặt GPG key để đảm bảo cho việc cài đặt các thư viện mã hoá khi chúng ta cài đặt các thư viện trong docker.
 
@@ -106,7 +106,7 @@ Command dưới đây sẽ download key với ID là 58118E89F3A912897C070ADBF76
 ![reactjs ](/images/post/docker/new_pgp_key.jpeg){:class="img-responsive"}
 {: refdef}
 
- ## **5. Bước 5**
+## **5. Bước 5**
 
 Phụ thuộc vào phiên bản của Ubuntu mà các em sẽ thêm những website liên quan của docker vào file docker.list trong apt package manager. Khi chúng ta download một thư viện nào từ docker thì OS chúng ta tự động biết cần docker site nào để lấy về.
 
@@ -135,7 +135,7 @@ echo "deb https://apt.dockerproject.org/repo ubuntu-trusty main”
 ![reactjs ](/images/post/docker/docker_list.jpeg){:class="img-responsive"}
 {: refdef}
 
- ## **6. Bước 6**
+## **6. Bước 6**
 
 Cập nhật các thư viện trên hệ thống OS của chúng ta thông qua lệnh apt-get update.
 
@@ -143,7 +143,7 @@ Cập nhật các thư viện trên hệ thống OS của chúng ta thông qua l
 ![reactjs ](/images/post/docker/apt_get_update_command.jpeg){:class="img-responsive"}
 {: refdef}
 
- ## **7. Bước 7**
+## **7. Bước 7**
 
 Chúng ta kiểm tra các package đang trỏ tới đúng repository hay không thông qua câu lệnh apt-cache command
 
@@ -159,7 +159,7 @@ Chúng ta sẽ nhận được kết quả là đang link tới
 ![reactjs ](/images/post/docker/apt_get_update_command1.jpeg){:class="img-responsive"}
 {: refdef}
 
- ## **8. Bước 8**
+## **8. Bước 8**
 
 Đảm bảo rằng các package trong hệ thống được cập nhật 100% done
 
@@ -167,7 +167,7 @@ Chúng ta sẽ nhận được kết quả là đang link tới
 ![reactjs ](/images/post/docker/packages_updation.jpeg){:class="img-responsive"}
 {: refdef}
 
- ## **9. Bước 9**
+## **9. Bước 9**
 
 Chúng ta bắt đầu cài đặt docker thông qua command sudo apt-get install –y docker-engine. Chúng ta gõ lệnh sau để cài đặt
 
@@ -183,7 +183,7 @@ Nó sẽ cài đặt và download docker từ website và cài đặt nó trên 
 ![reactjs ](/images/post/docker/docker_engine.jpeg){:class="img-responsive"}
 {: refdef}
 
- ## **10. Kiểm tra phiên bản docker**
+## **10. Kiểm tra phiên bản docker**
 
 Chúng ta sứ dụng command docker version để xem phiên bản docker của chúng ta vừa cài đặt là phiên bản bao nhiêu.
 
@@ -193,7 +193,7 @@ sudo docker version
 
 {% endhighlight %}
 
- ## **11. Xem thông tin của Docker**
+## **11. Xem thông tin của Docker**
 
 Để xem thông tin của docker chúng ta sử dụng command docker info như sau.
 
