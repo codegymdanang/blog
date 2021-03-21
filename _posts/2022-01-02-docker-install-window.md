@@ -1,5 +1,5 @@
 ---
-layout: course-reactjs
+layout: course-docker
 title: Cài đặt docker trên window
 slug : cai-dat-docker-tren-window
 category: devops

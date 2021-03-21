@@ -1,5 +1,5 @@
 ---
-layout: course-reactjs
+layout: course-docker
 title: Cài đặt docker trên ubuntu
 slug : cai-dat-docker-tren-ubuntu
 category: devops
