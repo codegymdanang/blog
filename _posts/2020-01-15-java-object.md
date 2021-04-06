@@ -39,7 +39,7 @@ public class MyClass {
 
 ## **3. Tạo một Object**
 
-- Từ 1 class chúng ta tạo ra Object thông qua từ khoá new
+- Từ 1 class chúng ta tạo ra Object thông qua từ khóa new
 <br>
 {% highlight java  %}
 
@@ -99,7 +99,7 @@ public class Car {
 
 ## **6. Hàm khởi tạo constructor có tham số**
 
-Hàm khởi tạo có thể có tham số truyền vào để khởi tạo một số giá trị có sẳn ban đầu cho đối tượng
+Hàm khởi tạo có thể có tham số truyền vào để khởi tạo một số giá trị có sẵn ban đầu cho đối tượng
 <br>
 {% highlight java  %}
 
