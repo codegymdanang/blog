@@ -20,7 +20,7 @@ Chào các em, hôm nay anh sẽ giới thiệu với các em về cách sử d�
 <br>
 ## **1. Phương thức addAll**
 
-Chúng ta sử dụng phương thức addAll để add một hoặc nhiều phần tử vào trong một list có sẳn như sau
+Chúng ta sử dụng phương thức addAll để add một hoặc nhiều phần tử vào trong một list có sẵn như sau
 
 {% highlight java linenos %}
 
@@ -57,7 +57,7 @@ System.out.println(index);
 <br>
 ## **3. Phương thức Copy**
 
-Chúng ta sử dụng phưogn thức Copy để copy tất cả các giá trị từ một list vào một list khác.
+Chúng ta sử dụng phương thức Copy để copy tất cả các giá trị từ một list vào một list khác.
 
 {% highlight java linenos %}
 
@@ -88,7 +88,7 @@ Collections.reverse(list);
 
 {% endhighlight %}
 
-- Kết qủa in ra sẽ là 3,2,1
+- Kết quả in ra sẽ là 3,2,1
 
 <br>
 ## **5. Phương thức shuffle**
@@ -147,7 +147,7 @@ Collections.sort(list);
 <br>
 ## **7. Phương thức ReplaceAll**
 
-Chúng ta sử dụng ReplaceAll để thay thế các phần tử có sẳn trong List bằng một phần tử khác.
+Chúng ta sử dụng ReplaceAll để thay thế các phần tử có sẵn trong List bằng một phần tử khác.
 
 {% highlight java linenos %}
 

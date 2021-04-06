@@ -27,8 +27,8 @@ Khi bạn làm các chương trình ngôn ngữ <b>lập trình Java</b>, chắc
 - Runtime : khoản thời gian chương trình chạy.
 - Java Heap Memory : Vùng nhớ Heap trong Java.
 - Java Stack Memory: Vùng nhớ Stack trong Java.
-- JVM : máy ảo Java Vitural Machine để chạy các chương trình Java.
-- Object : là đối tượng được khởi tạo từ khoá new từ một class. Ví dụ Persion persion = new Person().
+- JVM : máy ảo Java Virtual Machine để chạy các chương trình Java.
+- Object : là đối tượng được khởi tạo từ khóa new từ một class. Ví dụ Persion persion = new Person().
 
 <br>
 ## **2 Heap và Stack**
@@ -45,7 +45,7 @@ JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc qu
 
 - <b>Bộ nhớ Heap</b> là bộ nhớ được sử dụng ở runtime (Khi chương trình đang  chạy) để lưu các Objects(các đối   tượng) . Bất cứ khi nào ở đâu trong chương trình của bạn khi bạn tạo Object thì nó sẽ được lưu trong Heap (thực thi toán tử new).
 - Các objects trong Heap đều được truy cập bởi tất cả các các nơi trong ứng dụng, bởi các threads khác nhau.
-- Thời gian sống của object phụ thuộc vào chương  trình <b>Garbage Collector</b> (GC ) của java. Khi một object bị null hoặc không tham chiếu tới một đối tượng nào thì GC sẽ xoá nó khỏi bộ nhớ.
+- Thời gian sống của object phụ thuộc vào chương  trình <b>Garbage Collector</b> (GC ) của java. Khi một object bị null hoặc không tham chiếu tới một đối tượng nào thì GC sẽ xóa nó khỏi bộ nhớ.
 - Dung lượng sử dụng của Heap sẽ tăng giảm phụ thuộc vào Objects sử dụng.
 - Dung lượng Heap thường lớn hơn Stack.
 
@@ -56,7 +56,7 @@ JVM sẽ chia bộ nhớ  này thành 2 vùng nhớ Heap và Stack cho việc qu
 - Các biến local bao gồm loại nguyên thuỷ (primitive) và loại tham chiếu tới đối tượng trong heap (reference) khai báo trong hàm, hoặc đối số được truyền vào hàm, thường có thời gian sống ngắn.
 - Bộ  nhớ stack thường nhỏ.
 - Cơ chế hoạt động thức của <b>Stack</b> là những phương thức , biến chạy sau thì sẽ bị giải phóng đầu .
-- Khi hàm được gọi thì một vùng nhớ được tạo ra trong stack và lưu các biến trong hàm đó. Khi hàm thực hiện xong, khối bộ nhớ cho hàm sẽ bị xoá, và giải phóng bộ nhớ trong stack.
+- Khi hàm được gọi thì một vùng nhớ được tạo ra trong stack và lưu các biến trong hàm đó. Khi hàm thực hiện xong, khối bộ nhớ cho hàm sẽ bị xóa, và giải phóng bộ nhớ trong stack.
 <br>
 
 - Ví dụ về <b>bộ nhớ Heap</b> và <b>bộ nhớ Stack</b>
@@ -93,7 +93,7 @@ tượng Memory bên Heap.
 - Dòng 5  mem.foo() thì phương thức foo() được tạo ra ở dòng 5. Phương thức foo này là nằm trong phương thức main . Như ta thấy bên bộ nhớ Stack
 Hình chữ nhật bự nhất bao ở ngoài là hàm main () . Bên trong hàm main là bộ nhớ phương thức foo. Khi chương trình chạy xong thì bộ nhớ foo() sẽ
 được giải phóng trước sau đó mới đến main.
-- Dòng 6 private void foo() thì hàm foo()  được lưu trong bộ nhó Stack.
+- Dòng 6 private void foo() thì hàm foo() được lưu trong bộ nhớ Stack.
 - Dòng 7 String str = param.toString() . Trong java String là kiểu đặc biệt . Nó là kiểu Object và được quản lý bởi String Pool riêng. Chính vì vậy nó được lưu bên Heap.
 
 <br>

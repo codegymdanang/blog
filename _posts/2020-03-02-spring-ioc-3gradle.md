@@ -20,7 +20,7 @@ Chào các em, chủ đề hôm nay chúng ta sẽ tìm hiểu về <b>Gradle</b
 <br>
 ## **1. Gradle là gì ?**
 
-Gradle là tool dùng để build các dự án Java. Cũng tương tự như Maven chúng ta sử dụng gradle để quản lí thư viện và build dự án. Hiện nay chúng ta có thể dùng Gradle để build các dự án về web, mobile.
+Gradle là tool dùng để build các dự án Java. Cũng tương tự như Maven chúng ta sử dụng gradle để quản lý thư viện và build dự án. Hiện nay chúng ta có thể dùng Gradle để build các dự án về web, mobile.
 
 ## **2. Khai báo dependency trong Gradle**
 
@@ -56,7 +56,7 @@ dependencies {
 }
 {% endhighlight %}
 
-Khác với Maven nó sử dụng XML để khai báo các dependency. Ở gradle chúng ta khai báo dạng như định dạng Json. Các thư viện sử dụng trong dự án được bỏ vào thẻ dependecies. 
+Khác với Maven nó sử dụng XML để khai báo các dependency. Ở gradle chúng ta khai báo dạng như định dạng Json. Các thư viện sử dụng trong dự án được bỏ vào thẻ dependencies. 
 
 <br>
 ## **4. Video Demo**

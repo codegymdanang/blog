@@ -15,7 +15,7 @@ youtubeId: 1DHqG41Uxew
 
 ## **Giới thiệu nội dung bài viết**
 
-Với những bạn đang tìm hiểu về <b>lập trình Java</b>, hẳn các bạn đã từng nghe tới khái niệm <b>tính đa hình</b>. Nếu bạn đang còn phân vân chưa hiểu rõ khái niệm này hay cách thao tác nó trong quá trình viết các chương trình <b>lập trình hướng đối tượng Java</b>. Thì bài viết dưới đây sẽ giúp bạn. Thông qua những chia sẻ lí thuyết kèm theo ví dụ minh hoạ bạn sẽ hiểu tính đa hình là gì? Thao tác thực hiện và lợi ích tính đa hình trong <b>ngôn ngữ lập trình Java</b> mang lại như thế nào?.
+Với những bạn đang tìm hiểu về <b>lập trình Java</b>, hẳn các bạn đã từng nghe tới khái niệm <b>tính đa hình</b>. Nếu bạn đang còn phân vân chưa hiểu rõ khái niệm này hay cách thao tác nó trong quá trình viết các chương trình <b>lập trình hướng đối tượng Java</b>. Thì bài viết dưới đây sẽ giúp bạn. Thông qua những chia sẻ lý thuyết kèm theo ví dụ minh hoạ bạn sẽ hiểu tính đa hình là gì? Thao tác thực hiện và lợi ích tính đa hình trong <b>ngôn ngữ lập trình Java</b> mang lại như thế nào?.
 
 <br>
 ## **1. Tính đa hình trong lập trình hướng đối tượng Java là gì**
@@ -24,7 +24,7 @@ Với những bạn đang tìm hiểu về <b>lập trình Java</b>, hẳn các 
 
 Anh lấy ví dụ như mình có lớp cha là Animal (động vật), trong lớp Animal thì mình sẽ có phương thức là makeSound() (tiếng kêu của động vật). Giả sử mình có 4 lớp con là Pig (lợn), Cat (mèo), Dog (chó), Bird (chim). Tất cả chúng đều là động vật cả nên chúng sẽ kế thừa các phương thức makeSound và các thuộc tính của lớp cha Animal. Nhưng ở phương thức makeSound ở mỗi loài động vật khác nhau. Ví dụ như con Pig kết quả của hàm makeSound sẽ cho ra tiếng kêu ủn ỉn, con Cat thì hàm makeSound là meo meo, con chó thì hàm makeSound là gâu gâu. Như vậy chúng ta thấy tính đa hình ở chỗ. Cũng là phương thức makeSound nhưng trong ngữ cảnh là con Mèo thì ta sẽ viết code riêng để xử lý tiếng kêu con mèo và trả về kết quả là tiếng kêu con mèo. Còn nếu ngữ cảnh là con Dog thì ta viết code xử lý cho con chó và trả về tiếng kêu con chó.
 
-Trong lập trình cũng vậy mình sử dụng tính đa hình để có thể giúp mình viết ít code lại và dòng code mình sẽ dể dàng mở rộng sau này.
+Trong lập trình cũng vậy mình sử dụng tính đa hình để có thể giúp mình viết ít code lại và dòng code mình sẽ dễ dàng mở rộng sau này.
 
 {% highlight java linenos %}
 class Animal {

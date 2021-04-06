@@ -71,7 +71,7 @@ Trong <b>lập trình Java</b>, chúng ta sử dụng toán tử để thực hi
 |  Toán tử		  	 		|  Ví dụ		            		|   Mô tả											|
 |---	                 	|---	                        	|---	     	    								|
 | &&			         	|	x < 5 &&  x < 10				| 	trả về true nếu cả 2 mệnh đề cùng đúng 			|
-| \|\|						|	x < 5 || x < 4					|	trả về truế nếu 1 trong 2 mệnh đề là đúng		|
+| \|\|						|	x < 5 || x < 4					|	trả về true nếu 1 trong 2 mệnh đề là đúng		|
 | !							|	!(x < 5 && x < 10) 				|	phủ định lại giá trị trong  kết quả 			|
 
 ## **5.  Toán tử Bit**

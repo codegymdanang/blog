@@ -47,7 +47,7 @@ Khi chúng ta thay đổi các giá trị của đối tượng, thì không ả
 - Ở ví dụ trên ta thấy rất rõ giá trị của biến  someValue
 - Ở hàm main chúng ta khai báo nó là giá trị 7 . Sau đó ta gọi hàm process(int value) và truyền giá trị 7 vào.
 - Mặc dù ta gián lại giá trị someValue = 10 . Nhưng khi kết thúc hàm process thì giá trị someValue là bằng 7 chứ không phải là 10.
-- Bởi vì chúng ta chỉ thao tác với giá trị copy chứ không phải giá trị gốc , nên ta gán someVaule = 10 là gián cho giá trị copy = 10.
+- Bởi vì chúng ta chỉ thao tác với giá trị copy chứ không phải giá trị gốc , nên ta gán someValue = 10 là gián cho giá trị copy = 10.
 - Như vậy dù trong hàm process(int value ) ta có thay đổi giá trị như thế nào đi chăng nữa thì lúc thoát ra khỏi hàm process(int value) giá trị
 gốc vẫn không thay đổi .
 
@@ -55,11 +55,11 @@ gốc vẫn không thay đổi .
 ![Tham trị](/images/post/javacore/passbyvalue2.png){:class="img-responsive"}
 {: refdef}
 
-Sau khi hàm process(int value) thực hiện xong nhiệm vụ của mình , thì sẽ bị giải phóng đi , trả lại bộ nhớ cho chương trình , giá trị clone
+Sau khi hàm process(int value) thực hiện xong nhiệm vụ của mình, thì sẽ bị giải phóng đi, trả lại bộ nhớ cho chương trình, giá trị clone
 (copy) cũng được giải phóng trả lại bộ nhớ.
 
 <br>
-## **3. Truyền tham  chiếu**
+## **3. Truyền tham chiếu**
 
 <b>Tham chiếu</b> Pass by reference. Ngược lại với Pass by value, giá trị gốc sẽ bị thay đổi <b>Pass-by-reference</b> là khi bạn thay đổi biến trong hàm cũng làm ngoài hàm bị ảnh hưởng.
 Nó giống như bạn truyền đúng địa chỉ của biến đó vào hàm.
@@ -68,7 +68,7 @@ Nó giống như bạn truyền đúng địa chỉ của biến đó vào hàm.
 ![Tham trị](/images/post/javacore/passbyreference.png){:class="img-responsive"}
 {: refdef}
 
-Trong trường hợp này hàm process(int &value) trỏ thằng tới địa chỉ vùng nhớ nơi lưu giá trị 7. Như vậy khi ta thay đổi giá trị trong hàm nó thay
+Trong trường hợp này hàm process(int &value) trỏ thẳng tới địa chỉ vùng nhớ nơi lưu giá trị 7. Như vậy khi ta thay đổi giá trị trong hàm nó sẽ thay
 đổi luôn giá trị khác .
 
 <br>

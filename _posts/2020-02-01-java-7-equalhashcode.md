@@ -44,7 +44,7 @@ boolean removed = list.remove("123");
 
 {% endhighlight %}
 
-- Ở ví dụ trên thì list sẽ duyệt qua các phần tử sau đó thực thi phép so sánh nếu tham số truyền vào (123) có bằng với từng phần tử trong tập hợp không. Nếu bằng thì nó xoá đi.
+- Ở ví dụ trên thì list sẽ duyệt qua các phần tử sau đó thực thi phép so sánh nếu tham số truyền vào (123) có bằng với từng phần tử trong tập hợp không. Nếu bằng thì nó xóa đi.
 
 - Ở 2 ví dụ trên ta thấy tham số truyền vào là một chuỗi nên chúng ta có thể so sánh là String.equals. Nhưng nếu như ta truyền là đối tượng thì sao. Lúc này chúng ta sẽ tự viết ra cách mà so sánh các đối tượng. Ví dụ như anh muốn so sánh 2 đối tượng Employee có bằng nhau hay không.
 
@@ -79,7 +79,7 @@ public class Employee {
 
 - Ngoài cách so sánh bằng employeeID chúng ta có thể hoàn toàn so sánh bằng firstName hoặc lastName.
 
-Như vậy equals được sử dụng trong tập hợp để so sánh các phần tử nhằm mục đích kiểm tra phần tử có tồn tại hay chưa hoặc mình muốn xoá nó ra khỏi tập hợp.
+Như vậy equals được sử dụng trong tập hợp để so sánh các phần tử nhằm mục đích kiểm tra phần tử có tồn tại hay chưa hoặc mình muốn xóa nó ra khỏi tập hợp.
 
 ## **2. HashCode trong lập trình Java là gì**
 

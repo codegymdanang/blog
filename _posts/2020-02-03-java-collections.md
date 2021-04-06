@@ -94,7 +94,7 @@ Trong một Deque, tất cả các phần tử mới có thể được chèn v�
 <br>
 ## **7. Map**
 
-Là một đối tượng ánh xạ mỗi key tương úng với một giá trị. <b>Map</b> không thể chứa giá trị trùng lặp. Mỗi key có thể ánh xạ đến nhiều nhất một giá trị.
+Là một đối tượng ánh xạ mỗi key tương ứng với một giá trị. <b>Map</b> không thể chứa giá trị trùng lặp. Mỗi key có thể ánh xạ đến nhiều nhất một giá trị.
 
 {% highlight java linenos %}
 Map<Integer, String> hashMap = new HashMap<>();
@@ -109,7 +109,7 @@ Map<Integer, String> hashMap = new HashMap<>();
 <br>
 ## **8. Phân biệt Collection vs Collections**
 
-- <b>Collections trong java</b> là kiến trúc để lưu trữ và thao tác tới nhóm các đối tượng. Tất cả các hoạt động mà bạn thực hiện trên một dữ liệu như tìm kiếm, phân loại, chèn, xóa,... có thể được thực hiện bởi Java Collections.
+- <b>Collections trong java</b> là kiến trúc để lưu trữ và thao tác với nhóm các đối tượng. Tất cả các hoạt động mà bạn thực hiện trên một dữ liệu như tìm kiếm, phân loại, chèn, xóa,... có thể được thực hiện bởi Java Collections.
 
 - <b>Java Collection</b> cung cấp nhiều interface (Set, List, Queue, Deque vv) và các lớp (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet vv).
 
@@ -117,13 +117,13 @@ Map<Integer, String> hashMap = new HashMap<>();
 ## **9. Sự khác nhau  Array và ArrayList**
 
 1. Array
-    * là fix size , cố định số lượng phần tử trong mảng
+    * là fix size, cố định số lượng phần tử trong mảng
     * Có thể lưu trữ dữ liệu kiểu nguyên thủy và đối tượng.
     * Tốc độ lưu trữ và thao tác nhanh hơn.
     * Chỉ có thuộc tính length
 
 2. ArrayList
-    * Số lượng phần tử co giản được
+    * Số lượng phần tử co giãn được
     * Chỉ có thể lưu trữ dữ liệu kiểu đối tượng. Kể từ Java 5, kiểu nguyên thủy được tự động chuyển đổi trong các đối tượng được gọi là auto-boxing.
     * Tốc độ lưu trữ vào thao tác chậm hơn.
     * Có nhiều phương thức để thao tác với dữ liệu.
@@ -132,7 +132,7 @@ Map<Integer, String> hashMap = new HashMap<>();
 ## **10. Sự khác nhau Set và List**
 
 * List các phần tử có thể trùng lặp
-* Set các phần tử không trung lặp
+* Set các phần tử không trùng lặp
 
 <br>
 ## **11. Sự khác nhau ArrayList và Vector**

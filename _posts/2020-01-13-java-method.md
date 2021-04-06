@@ -15,7 +15,7 @@ youtubeId: U-7EE2LZhOk
 
 ## **Giới thiệu nội dung bài viết**
 
-<b>Phương thức, Method trong ngôn ngữ lập trình Java</b> là gì? Cách khai báo Method trong <b>ngôn ngữ lập trình Java</b>? Truyền tham số trong Method Java được tiến hành như thế nào? Kết quả của một phương thức đã được xử lí xong sẽ được trả về bằng cách nào? Cách ghi đè phương thức và lợi ích của việc nạp chồng các phương thức trong Java? Bài viết sẽ giúp bạn giải đáp các thắc mắc trên. Đồng thời hướng dẫn bạn cách thao tác Method trong <b>ngôn ngữ lập trình hướng đối tượng Java</b> thông qua các ví dụ chi tiết trong mỗi phần.
+<b>Phương thức, Method trong ngôn ngữ lập trình Java</b> là gì? Cách khai báo Method trong <b>ngôn ngữ lập trình Java</b>? Truyền tham số trong Method Java được tiến hành như thế nào? Kết quả của một phương thức đã được xử lý xong sẽ được trả về bằng cách nào? Cách ghi đè phương thức và lợi ích của việc nạp chồng các phương thức trong Java? Bài viết sẽ giúp bạn giải đáp các thắc mắc trên. Đồng thời hướng dẫn bạn cách thao tác Method trong <b>ngôn ngữ lập trình hướng đối tượng Java</b> thông qua các ví dụ chi tiết trong mỗi phần.
 
 
 ## **1. Method trong ngôn ngữ lập trình Java là gì**
@@ -61,7 +61,7 @@ public class MyClass {
 
 {% endhighlight %}
 
-- Như vậy các em thấy trong hàm main chúng ta gọi myMethod() để gọi phương thức. Khi chương trình chạy hàm main sẽ chạy trước. Nó sẽ thực thi dòng code myMethod(). Sau đó nó thực thi các dòng code trong phương thức myMethod và in ra dòng I just got exectute
+- Như vậy các em thấy trong hàm main chúng ta gọi myMethod() để gọi phương thức. Khi chương trình chạy hàm main sẽ chạy trước. Nó sẽ thực thi dòng code myMethod(). Sau đó nó thực thi các dòng code trong phương thức myMethod và in ra dòng I just got execute.
 
 ## **4. Gọi Method nhiều lần**
 
@@ -129,7 +129,7 @@ public class MyClass {
 
 ## **7. Trả về kết quả trong phương thức**
 
-Khi một phương thức xử lý công việc xong thì nó phải trả về một kết quả cho nơi gọi nó. Chúng ta sử dụng từ khoá return để trả lại kết quả trong phương thức
+Khi một phương thức xử lý công việc xong thì nó phải trả về một kết quả cho nơi gọi nó. Chúng ta sử dụng từ khóa return để trả lại kết quả trong phương thức
 
 {% highlight java  %}
 

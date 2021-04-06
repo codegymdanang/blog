@@ -86,7 +86,7 @@ System.out.println(firstName + " " + lastName);
 
 ## **6. String hiển thị các giá trị đặt biệt**
 
-- Dùng để hiển thị các ký tự như đấu 1 nháy, 2 nháy. Ví dụ khi ta biến sau 
+- Dùng để hiển thị các ký tự như dấu 1 nháy, 2 nháy. Ví dụ khi ta biến sau 
 
 {% highlight java  %}
 
@@ -102,7 +102,7 @@ String txt = "le vu\" nguyen";
 
 {% endhighlight %}
 
-Ngoài ra String hỗ trợ các ký tự đặt biệt khác như
+Ngoài ra String hỗ trợ các ký tự đặc biệt khác như
 
 - \n : dùng để xuống dòng.
 
