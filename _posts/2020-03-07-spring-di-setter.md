@@ -64,7 +64,7 @@ Anh sẽ giải thích thông qua ví dụ sau. Giả sử chúng ta viết chư
 <br>
 ## **3 .Email Service**
 
-- Chúng ta sử dụng annotaion @Service để khi IoC container nó quét qua thì nó sẽ tạo đối tượng (bean) EmailService trong container để quản lí.
+- Chúng ta sử dụng annotation @Service để khi IoC container nó quét qua thì nó sẽ tạo đối tượng (bean) EmailService trong container để quản lý.
 
 {% highlight java linenos %}
 
@@ -86,7 +86,7 @@ public class EmailService implements MessageService{
 - Chúng ta sử dụng @Component để khi Ioc container quét qua thì nó tạo đối tượng ClientService.
 - Trong ClientService ta có khai báo đối tượng emailService nhưng tại thời điểm này nó là null. 
 - Để Spring IoC có thể nhúng đối tượng email service ở bước 3 vào biến emailService thì ta có
-hàm setMessageService(MessageService emailService) và được thêm annotaion là @Autowire. 
+hàm setMessageService(MessageService emailService) và được thêm annotation là @Autowire. 
 Điều này có nghĩa là khi Spring IOC quét qua lớp ClientService nó thấy trong ClientService có annotation @Autowire cho EmailService thì nó hiểu là sẽ nhúng đối tượng EmailService có trong container của nó vào cho đối tượng ClientService.
 - Nó nhúng vào dựa vào cơ chế tên giống nhau. Như các em thấy ở bước 3 nó sẽ tạo ra bean có tên là EmailService. Trong class Client Service cũng có EmailService nên nó sẽ lấy đối tượng có tên là EmailService trong container của nó mà nhúng vào cho lớp EmailService thông qua hàm set.
 
@@ -113,7 +113,7 @@ public class ClientService {
 
 ## **5 .Testing**
 
-- Chúng ta sẽ tạo file cấu hình tên là AppConfiguration và annotaion là @Configure. File này có nhiệm vụ tương tự như file xml confire ở bài trước. 
+- Chúng ta sẽ tạo file cấu hình tên là AppConfiguration và annotation là @Configure. File này có nhiệm vụ tương tự như file xml config ở bài trước. 
 
 - Có một annotation quan trọng là @ComponentScan là ta chỉ ra thư mục mà ta đặt file EmailService và ClientService ở đâu để Spring IOC sẽ chui vào đó và quét 2 class này để tạo bean và nhúng bean.
 
