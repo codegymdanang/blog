@@ -27,7 +27,7 @@ Trong <b>lập trình Java</b> chúng ta có 2 loại kiểu dữ liệu đó l�
 - Kiểu nguyên thuỷ bao gồm có các loại sau. Ứng với mỗi loại kiểu dữ liệu bộ nhớ sẽ cấp phát vùng nhớ tương ứng
 
 {:class="table table-bordered"}
-|  kiểu dữ liệu		  	 	|  kích thướt		            |   khoảng giá trị	|
+|  kiểu dữ liệu		  	 	|  kích thước		            |   khoảng giá trị	|
 |---	                 	|---	                        |---	     	    |
 | byte			         	|	1 byte						| từ -128 đến 127	|
 | short						|	2 bytes						| từ -32.768 đến 32.676	|	
