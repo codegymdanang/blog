@@ -104,7 +104,7 @@ public class HelloWorld {
 
 {% endhighlight %}
 
-- Chúng ta khai báo xml tên bean và đặt cho nó định danh là id=helloworl, sau đó chỉ đường dẫn tới file java com.levunguyen.spring.ioc như sau : <bean id="helloWorld" class="com.levunguyen.spring.ioc">
+- Chúng ta khai báo xml tên bean và đặt cho nó định danh là id=helloworld, sau đó chỉ đường dẫn tới file java com.levunguyen.spring.ioc như sau : <bean id="helloWorld" class="com.levunguyen.spring.ioc">
 
 - Gán giá trị cho thuộc tính message trong lớp HelloWorld.
 
