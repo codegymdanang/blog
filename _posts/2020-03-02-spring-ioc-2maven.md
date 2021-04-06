@@ -40,7 +40,7 @@ Ngoài việc quản lý thư viện và version của thư viện. Thì mình d
 {% endhighlight %}
 
 Như vậy để nhúng một thư viện vào dự án ta cần biết 4 thông tin sau của thư viện.
-1- GroudID : thông thường mình đặt tên công ty hay nhóm phát triển ra thư viện đó. Anh ví dụ như facebook phát triển thư viện có tính năng login thì groudId sẽ là facebook.com. Hoặc nếu các em tự tạo ra thư viện riêng cho mình thì có thể đặt groupId là com.name (trong đó name là tên của mình).
+1- GroupID : thông thường mình đặt tên công ty hay nhóm phát triển ra thư viện đó. Anh ví dụ như facebook phát triển thư viện có tính năng login thì groudId sẽ là facebook.com. Hoặc nếu các em tự tạo ra thư viện riêng cho mình thì có thể đặt groupId là com.name (trong đó name là tên của mình).
 
 2- artifactId : thông thường sẽ là tên của project. Anh ví dụ như nếu mình phát triển 1 webservice là cổng thanh toán điện tử cho các ứng dụng khác có thể dùng cái của mình, mình có thể lấy tên là  payment-api.
 
@@ -131,7 +131,7 @@ Repository của maven tại đây : https://mvnrepository.com/
 
 Chúng ta chỉ tìm kiếm thư viện mong muốn. Sau đó ta search thì nó sẽ hiện cho chúng ta danh sách các thư viện và thẻ dependency mong muốn.
 
-Ví dụ như mình search từ khoá facebook api để lấy các thư viện facebook về thì mình sẽ nhận được kết quả như sau. Mình chỉ cần copy và dán vào file pom là xong. Khi ứng dụng mình build bằng maven. Thì nó sẽ lên maven repository và download gói spring-social-facebook.jar về máy của mình và nhúng vô dự án của mình.
+Ví dụ như mình search từ khoá facebook api để lấy các thư viện facebook về thì mình sẽ nhận được kết quả như sau. Mình chỉ cần copy và dán vào file pom là xong. Khi ứng dụng mình build bằng maven. Thì nó sẽ lên maven repository và download gói spring-social-facebook.jar về máy của mình và nhúng vào dự án của mình.
 
 
 
@@ -143,7 +143,7 @@ Trong các dự án của mình anh sẽ build một hệ thống local tên <b>
 <br>
 ## **5. Kết luận**
 
-Hầu hết các dự án Java đều sử dụng <b>maven</b> để quản lý thư viện, xây dựng quy trình build dự án và triển khai dự án một cách tự động. Nhờ có maven mà việc quản lý thư viện trong dự án trở nên dể dàng và linh hoạt hơn. Ngoài maven thì chúng ta còn có thể sử dụng những công cụ khác tương tự như gradle hoặc Ivy.
+Hầu hết các dự án Java đều sử dụng <b>maven</b> để quản lý thư viện, xây dựng quy trình build dự án và triển khai dự án một cách tự động. Nhờ có maven mà việc quản lý thư viện trong dự án trở nên dễ dàng và linh hoạt hơn. Ngoài maven thì chúng ta còn có thể sử dụng những công cụ khác tương tự như gradle hoặc Ivy.
 
 <br>
 ## **6. Và bây giờ, các bạn hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
