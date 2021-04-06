@@ -22,7 +22,7 @@ Chào bạn, chắc hẳn bạn cảm thấy khó hiểu về <b>Bean Factory</b
 
 BeanFactory Interface cung cấp cho chúng ta các cách để quản lý các đối tượng trong Spring IOC Container.
 
-Spring beans là những đối tượng java và được quản lý bởi Spring IoC Container. Spring IoC Container có nhiệm vụ khởi tạo, cấu hình, quản lí các beans này. Từ các lớp java bình thường chúng thêm các Meta data để mô tả cho lớp này. Dựa vào meta data này mà Spring IoC có thể tạo chúng thành những beans.
+Spring beans là những đối tượng java và được quản lý bởi Spring IoC Container. Spring IoC Container có nhiệm vụ khởi tạo, cấu hình, quản lý các beans này. Từ các lớp java bình thường chúng thêm các Meta data để mô tả cho lớp này. Dựa vào meta data này mà Spring IoC có thể tạo chúng thành những beans.
 
 BeanFactory quản lí bean, tạo bean khi client cần. 
 
@@ -131,7 +131,7 @@ public class Application {
 
 ## **7 .Lấy đối tượng bean HelloWorld và gọi phương thức**
 
-- Chúng ta sử dụng phương thức getBean để lất đối tượng bean từ container.
+- Chúng ta sử dụng phương thức getBean để lấy đối tượng bean từ container.
 
 {% highlight java linenos %}
 
