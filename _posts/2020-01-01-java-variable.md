@@ -15,13 +15,13 @@ youtubeId: pSXIbAwBZ4k
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong ngôn ngữ lập trình nói chung và <b>ngôn ngữ lập trình Java</b> nói riêng. <b>Biến</b> là một trong những kiến thức nền tảng mà mỗi người học cần trang bị cho bản thân. Tuy nhiên hiện nay vẫn còn hạn chế các trang cung cấp các kiến thức lập trình Java căn bản này một cách đầy đủ và thiết thực cho người học. Vì vậy đó chính là lí do bài viết này ra đời, với mục đích nhằm giúp các bạn có thêm nguồn tham khảo trong quá trình học. Bài viết cung cấp kiến thức về <b>Biến trong lập trình Java</b>, giúp bạn hiểu rõ Biến là gì? Có các loại Biến nào trong <b>ngôn ngữ lập trình Java</b>? Đồng thời với các ví dụ cụ thể trong bài viết giúp bạn tiếp cận <b>kiến thức lập trình Java cơ bản</b> này dễ dàng hơn và nhanh chóng áp dụng vào thực hành.
+Trong ngôn ngữ lập trình nói chung và <b>ngôn ngữ lập trình Java</b> nói riêng. <b>Biến</b> là một trong những kiến thức nền tảng mà mỗi người học cần trang bị cho bản thân. Tuy nhiên hiện nay vẫn còn hạn chế các trang cung cấp các kiến thức lập trình Java căn bản này một cách đầy đủ và thiết thực cho người học. Vì vậy đó chính là lý do bài viết này ra đời, với mục đích nhằm giúp các bạn có thêm nguồn tham khảo trong quá trình học. Bài viết cung cấp kiến thức về <b>Biến trong lập trình Java</b>, giúp bạn hiểu rõ Biến là gì? Có các loại Biến nào trong <b>ngôn ngữ lập trình Java</b>? Đồng thời với các ví dụ cụ thể trong bài viết giúp bạn tiếp cận <b>kiến thức lập trình Java cơ bản</b> này dễ dàng hơn và nhanh chóng áp dụng vào thực hành.
 
 
 <br>
 ## **1. Biến trong lập trình java là gì**
 
-Trong <b>lập trình Java</b> chúng ta sử dụng biến để lưu lại giá trị để thao tác. Anh lấy ví dụ mình muốn phát triển chương trình quản lý sinh viên thì các giá trị của sinh viên như tên, tuổi, địa chỉ và mã số sinh viên thì mình cần có một cái để lưu lại cho chương trình sử lý. Cái mà lưu lại các giá trị đó gọi là biến.
+Trong <b>lập trình Java</b> chúng ta sử dụng biến để lưu lại giá trị để thao tác. Anh lấy ví dụ mình muốn phát triển chương trình quản lý sinh viên thì các giá trị của sinh viên như tên, tuổi, địa chỉ và mã số sinh viên thì mình cần có một cái để lưu lại cho chương trình xử lý. Cái mà lưu lại các giá trị đó gọi là biến.
 
 ## **2. Các loại biến trong ngôn ngữ lập trình java**
 
@@ -35,7 +35,7 @@ Trong <b>lập trình Java</b> ta có các loại biến sau.
 
 ## **3. Khai báo biến trong lập trình java**
 
-Chúng ta khai báo biến với cú pháp như sau
+Chúng ta khai báo biến với cú pháp như sau:
 
 {% highlight java  %}
 
@@ -73,7 +73,7 @@ System.out.println(myNum);
 
 {% endhighlight %}
 
-Biến được gán với từ khoá final thì giá trị sẽ không được thay đổi và gán giá trị mới. Trong ví dụ bên dưới anh tạo biến num với từ khoá final và gán giá trị là 15. Nếu anh gán lại giá trị 20 thì sẽ xảy ra lỗi, vì final là từ khoá mình dùng khai báo khi muốn giá trị đó là không thể thay đổi.
+Biến được gán với từ khóa final thì giá trị sẽ không được thay đổi và gán giá trị mới. Trong ví dụ bên dưới anh tạo biến num với từ khóa final và gán giá trị là 15. Nếu anh gán lại giá trị 20 thì sẽ xảy ra lỗi, vì final là từ khoá mình dùng khai báo khi muốn giá trị đó là không thể thay đổi.
 
 {% highlight java  %}
 
