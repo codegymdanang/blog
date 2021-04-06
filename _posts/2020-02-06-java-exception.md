@@ -66,7 +66,7 @@ Lúc này mình phải dự đoán cái hàm viết phương thức rút tiền 
 
 - Error : là tất cả những lỗi được bắt từ JMV (Máy ảo Java). Ví dụ như Error OutOfMemory hoặc chia một số cho 0.Các em có thể tìm hiểu thêm về bộ nhớ của chương trình tại [đây](https://levunguyen.com/laptrinhjava/2020/04/07/phan-biet-bo-nho-heap-va-stack/) .
 
-- Excepton : là cha của tất cả class Check Exception. Mình khai báo một Class và kế thừa Class Exception.
+- Exception : là cha của tất cả class Check Exception. Mình khai báo một Class và kế thừa Class Exception.
 {% highlight java linenos %}
 public class MyDepositException extends Exception {
 
@@ -89,7 +89,7 @@ private void wrapException(String input) throws MyDepositException {
 }
 {% endhighlight %}
 
-- <b>Exception Runtime</b> : là cha của tất cả các class Uncheck. Anh khai báo một Class và kế thừa RuntimeExcepton. Những lỗi này thường xảy ra khi chương trình đang chạy.
+- <b>Exception Runtime</b> : là cha của tất cả các class Uncheck. Anh khai báo một Class và kế thừa RuntimeException. Những lỗi này thường xảy ra khi chương trình đang chạy.
 
 {% highlight java linenos %}
 public class MyDepositRuntimeException extends RuntimeException {
@@ -139,7 +139,7 @@ private void wrapException(String input) {
 
 - Trong các <b>ngôn ngữ lập trình Java</b> khi một <b>ngoại lệ</b> xảy ra ,mình dùng từ khoá <b>throw</b> hoặc <b>throws</b> để ném ngoại lệ đó ra.
 
-- Trong <b>lập trình Java</b> mình có thể dùng từ khoá throws bên cạnh tên method để ném ngoại lệ. Ví dụ như public void deposit(int depositAmount) throws Exception . Phương thức nào
+- Trong <b>lập trình Java</b> mình có thể dùng từ khoá throws bên cạnh tên method để ném ngoại lệ. Ví dụ như public void deposit(int depositAmount) throws Exception. Phương thức nào
 mà gọi method deposit phải bắt lại ngoại lệ và xử lý . Để bắt ngoại lệ thì mình dùng khối <b>try</b>, <b>catch</b>, <b>finally</b> lệnh để bắt ngoại lệ bắt từ hàm deposit ném ra
 
 - Ngoài cách dùng <b>Throws</b> ta có thể dùng <b>throw new Exception</b>  bên trong method như ví dụ dưới  đây .
@@ -163,7 +163,7 @@ public void deposit(int depositAmount) throws Exception {
 <br>
 ## **6. Bắt ngoại lệ bằng try catch**
 
-Chúng ta sử dụng từ khoá <b>try</b>, <b>catch</b> để bắt ngoại lệ và xử lý. Nếu chúng ta không bắt ngoại lệ lại và sử lý thì chương trình có nguy cơ bị đứng. Hoặc nghiêm trọng hơn là ứng dụng bị chết và không chạy được. Nhờ sử dụng try catch mà ta có thể sử lý ngoại lệ giúp chương trình tiếp tục chạy.
+Chúng ta sử dụng từ khoá <b>try</b>, <b>catch</b> để bắt ngoại lệ và xử lý. Nếu chúng ta không bắt ngoại lệ lại và xử lý thì chương trình có nguy cơ bị đứng. Hoặc nghiêm trọng hơn là ứng dụng bị chết và không chạy được. Nhờ sử dụng try catch mà ta có thể sử lý ngoại lệ giúp chương trình tiếp tục chạy.
 
 {% highlight java linenos %}
 public int getPlayerScore(String playerFile) {
