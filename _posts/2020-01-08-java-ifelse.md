@@ -18,7 +18,7 @@ Chào các em. Hôm nay chủ đề của chúng ta sẽ về <b>If Else trong l
 
 Trong <b>ngôn ngữ lập trình hướng đối tượng Java</b> hỗ trợ ta các câu lệnh điều kiện. Mà điều kiện dựa vào các điều kiện mà ta đưa vào để thực hiện các yêu cầu của bài toán
 
-- If : kiểm tra nếu đều kiện đúng, ta thực hiện các câu lệnh trong khối lệnh if.
+- If : kiểm tra nếu điều kiện đúng, ta thực hiện các câu lệnh trong khối lệnh if.
 - Else : kiểm tra điều kiện và  thực hiện các khối lệnh ngược lại với điều kiện
 - Else If : tạo thêm một điều kiện mới nếu điều kiện trước đó là false
 - Switch  : gồm nhiều điều kiện if và else
@@ -47,7 +47,7 @@ if (x > y) {
 
 ## **2. Mệnh đề Else**
 
-- Sử dụng Else để thực thi các dòng code bên trong nó nếu đều kiện là sai
+- Sử dụng Else để thực thi các dòng code bên trong nó nếu điều kiện là sai
 
 {% highlight java  %}
 
