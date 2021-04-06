@@ -21,7 +21,7 @@ Tại sao chúng ta cần Spring IOC Container? Và cuối cùng là lợi ích 
 <br>
 ## **1 .Spring IOC Container**
 
-Trong tất cả các dự án Spring thì Spring IOC Container là trái tim của Spring. Nó có nhiệm vụ quản lý vòng đời của bean (các đối tượng trong dự án spring), khởi tạo, cấu hình, và tương tác giữa các bean trong ứng dụng Spring. Mình có thể cấu hình Spring IOC bằng XML, Java code hoặc quan Java annotaion.
+Trong tất cả các dự án Spring thì Spring IOC Container là trái tim của Spring. Nó có nhiệm vụ quản lý vòng đời của bean (các đối tượng trong dự án spring), khởi tạo, cấu hình, và tương tác giữa các bean trong ứng dụng Spring. Mình có thể cấu hình Spring IOC bằng XML, Java code hoặc quan Java annotation.
 
 Spring framework hỗ trợ 2 loại container là BeanFactory container và ApplicationContext container. Giúp chúng ta có thể khởi tạo và quản lý các beans (đối tượng) trong Spring.
 
@@ -51,7 +51,7 @@ ApplicationContext context = new ClassPathXmlApplicationContext("applicationCont
 
 {% endhighlight %}
 
-## **3 .Lấy beans từ SpringContainer bằng ApplicationContext**
+## **3 .Lấy beans từ Spring Container bằng ApplicationContext**
 
 Spring Container là nơi chứa đựng tất cả các beans (đối tượng) của ứng dụng trong 1 chương trình. Mỗi bean sẽ có 1 cái tên riêng. Dựa vào cái tên đó ta có thể lấy được đối tượng tương ứng với tên.
 
@@ -67,7 +67,7 @@ HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 
 - Bước 2 : ta sử dụng phương thức context.getBean("bean name") lúc này container sẽ trả lại cho mình 1 đối tượng như mình muốn context.getBean("helloWorld");
 
-## **4 .Lấy beans từ SpringContainer bằng BeanFactory**
+## **4 .Lấy beans từ Spring Container bằng BeanFactory**
 
 {% highlight java linenos %}
 
