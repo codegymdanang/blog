@@ -24,7 +24,7 @@ Trong bài viết hôm nay, anh sẽ chia sẻ về <b>Abstract</b>. Cụ thể 
 <br>
 ## **1. Abstract trong lập trình Java là gì**
 
-<b>Trừu tượng trong lập trình Java</b> có nghĩa là tuyến trình che giấu đi những chi tiết quan trọng và chỉ hiển thị những thông tin cần thiết cho người sử dụng. Để thực hiện được tính trừu tượng chúng ta sử dụng từ khoá abstract hoặc interface. Trong bài này anh sẽ giới thiệu về các sử dụng abstract. Chúng ta có thể áp dụng từ khoá abstract cho class hoặc method. Khi áp dụng abstract cho class thì chúng ta không thể tạo đối tượng từ lớp abstract được. Abstract method chỉ được sử dụng và khai báo trong abstract class. Abstract method sẽ không có phần thân (code thực thi). Phần thân code thực thi sẽ được viết bởi lớp con kế thừa abstract class.
+<b>Trừu tượng trong lập trình Java</b> có nghĩa là tuyến trình che giấu đi những chi tiết quan trọng và chỉ hiển thị những thông tin cần thiết cho người sử dụng. Để thực hiện được tính trừu tượng chúng ta sử dụng từ khoá abstract hoặc interface. Trong bài này anh sẽ giới thiệu về cách sử dụng abstract. Chúng ta có thể áp dụng từ khoá abstract cho class hoặc method. Khi áp dụng abstract cho class thì chúng ta không thể tạo đối tượng từ lớp abstract được. Abstract method chỉ được sử dụng và khai báo trong abstract class. Abstract method sẽ không có phần thân (code thực thi). Phần thân code thực thi sẽ được viết bởi lớp con kế thừa abstract class.
 
 - Abstract class Animal ví dụ sau đây dùng từ khoá abstract. Chú ý chúng ta không thể tạo đối tượng Animal ani = new Animal() được.
 
