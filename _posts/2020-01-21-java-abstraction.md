@@ -15,7 +15,7 @@ youtubeId: 8vYpMzAoz2E
 
 ## **Giới thiệu nội dung bài viết**
 
-Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của <b>lập trình hướng đối tượng Java</b>, bao gồm tính đa hình, tính đóng gói, tính trừu tượng, và tính kế thừa. Trong bài viết này sẽ trình bày về tính trừu tượng trong lập trình, hướng dẫn thông qua các ví vụ minh hoạ để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình <b>ngôn ngữ lập trình Java</b>. Và mục đích, lợi ích của việc sử dụng <b>tính trừu tượng trong lập trình Java</b>.
+Tiếp nối chuỗi các bài viết chia sẻ về các đặc tính của <b>lập trình hướng đối tượng Java</b>, bao gồm tính đa hình, tính đóng gói, tính trừu tượng, và tính kế thừa. Trong bài viết này sẽ trình bày về tính trừu tượng trong lập trình, hướng dẫn thông qua các ví dụ minh hoạ để bạn hiểu hơn và áp dụng được tính chất này vào khi viết các chương trình <b>ngôn ngữ lập trình Java</b>. Và mục đích, lợi ích của việc sử dụng <b>tính trừu tượng trong lập trình Java</b>.
 
 <br>
 ## **1.  Tính trừu tượng trong lập trình hướng đối tượng Java là gì**
@@ -56,7 +56,7 @@ class MyMainClass {
 
 <br>
 
-Như vậy ta thấy lớp Animal có phương thức abstract là animalSound. Người sử dụng chỉ biết có phương thức đó thôi còn nội dung code bên trong cài đặt như thế nào thì không biết. Các em có thể tưởng tượng trong ví dụ Facebook ở trên của anh. cái hàm  abstract void animalSound() tương ứng với việc là Facebook cho mình cái link và mình nhúng vào, còn nội dung bên trong thì mình không biết. Như vậy phương thức animalSound() ở lớp Animal giúp che giấu đi những code quan trọng và chỉ để lớp con của nó cài đặt những code thực thi. Người dùng chỉ biết gọi hàm animalSound và nhận kết quả.
+Như vậy ta thấy lớp Animal có phương thức abstract là animalSound. Người sử dụng chỉ biết có phương thức đó thôi còn nội dung code bên trong cài đặt như thế nào thì không biết. Các em có thể tưởng tượng trong ví dụ Facebook ở trên của anh. Các hàm  abstract void animalSound() tương ứng với việc là Facebook cho mình cái link và mình nhúng vào, còn nội dung bên trong thì mình không biết. Như vậy phương thức animalSound() ở lớp Animal giúp che giấu đi những code quan trọng và chỉ để lớp con của nó cài đặt những code thực thi. Người dùng chỉ biết gọi hàm animalSound và nhận kết quả.
 
 
 {:refdef: style="text-align: center;"}
