@@ -20,7 +20,7 @@ Như các ngôn ngữ lập trình hướng đối tượng khác, ngôn ngữ <
 <br>
 ## **1. Tính đóng gói trong lập trình hướng đối tượng Java là gì**
 
-Tính đóng gói đảm bảo rằng dữ liệu nhạy cảm và quan trọng sẽ bị ẩn đi từ người dùng. Để làm được tính đóng gói ẩn dữ liệu quan trọng thì ta sử dụng từ khoá private cho các thuộc tính và cung cấp phương thức get và set cho các đối tượng khác muốn cập nhật giá trị hoặc lấy giá trị.
+Tính đóng gói đảm bảo rằng dữ liệu nhạy cảm và quan trọng sẽ bị ẩn đi từ người dùng. Để làm được tính đóng gói ẩn dữ liệu quan trọng thì ta sử dụng từ khóa private cho các thuộc tính và cung cấp phương thức get và set cho các đối tượng khác muốn cập nhật giá trị hoặc lấy giá trị.
 
 Trong ví dụ dưới đây ta muốn biến name là không được truy cập trực tiếp mà phải thông qua get và set method. Phương thức get sẽ trả về giá trị của biến name còn phương thức set sẽ gán giá trị mới cho biến name.
 <br>
