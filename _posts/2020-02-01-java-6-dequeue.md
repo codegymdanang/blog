@@ -181,9 +181,9 @@ String lastElement = deque.getLast();
 
 {% endhighlight %}
 
-## **5. Xoá một phần tử trong Deque**
+## **5. Xóa một phần tử trong Deque**
 
-Để xoá các phần tử trong Deque chúng ta có thể sử dụng phương thức remove, removeFirst, removeLast, poll, pollFirst, pollLast
+Để xóa các phần tử trong Deque chúng ta có thể sử dụng phương thức remove, removeFirst, removeLast, poll, pollFirst, pollLast
 
 - Sử dụng remove
 
