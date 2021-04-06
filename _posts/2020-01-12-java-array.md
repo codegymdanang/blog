@@ -62,7 +62,7 @@ System.out.println(cars[0]);
 
 ## **4. Độ dài của mảng**
 
-- Để lấy được kích thướt của mảng chứa bao nhiêu phần tử ta dùng phương thức length
+- Để lấy được kích thước của mảng chứa bao nhiêu phần tử ta dùng phương thức length
 
 {% highlight java  %}
 
@@ -70,7 +70,7 @@ String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 
 System.out.println(cars.length);
 
-// kích thước sẽ là 4. Mảng có chứ 4 phần tử
+// kích thước sẽ là 4. Mảng có chứa 4 phần tử
 
 {% endhighlight %}
 
@@ -98,7 +98,7 @@ for (String i : cars) {
 
 ## **6. Mảng nhiều chiều**
 
-- Mảng nhiều chiều hay còn gọi là mảng của mảng chứ một hoặc nhiều mảng.
+- Mảng nhiều chiều hay còn gọi là mảng của mảng chứa một hoặc nhiều mảng.
 
 - Khai báo mảng nhiều chiều bằng dấu [][]. Trong ví dụ này là mảng 2 chiều
 
