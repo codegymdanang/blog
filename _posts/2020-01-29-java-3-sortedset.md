@@ -15,7 +15,7 @@ youtubeId: mwrlKKqmiSw
 
 ## **Giới thiệu nội dung bài viết**
 
-Chủ đề hôm nay anh chọn để chia sẻ cho các bạn sẽ về <b>SortedSet trong lập trình Java</b>. Đây được xem là một trong những kiến thức lập trình Java căn bản mà bất cứ một lập trình viên Java nào cũng cần nắm vững. Trước hết chúng ta cần tìm hiểu SortedSet, tập hợp SortedSet là gì? Sau đó, cùng tìm hiểu các phương thức có trong SortedSet. Anh sẽ hướng dẫn các bạn cách thêm và xoá một phần tử khỏi SortedSet. Hay cách làm như thế nào đế lấy phần tử đầu tiên hay cuối cùng trong SortedSet. Áp dụng được từ những chia sẻ trong bài viết để giải quyết các vấn đề khác bao gồm duyệt, sắp xếp các phần tử SortedSet. Cũng như cách để lấy các phần tử đầu và sau của SortedSet trong <b>lập trình hướng đối tượng Java</b>.
+Chủ đề hôm nay anh chọn để chia sẻ cho các bạn sẽ về <b>SortedSet trong lập trình Java</b>. Đây được xem là một trong những kiến thức lập trình Java căn bản mà bất cứ một lập trình viên Java nào cũng cần nắm vững. Trước hết chúng ta cần tìm hiểu SortedSet, tập hợp SortedSet là gì? Sau đó, cùng tìm hiểu các phương thức có trong SortedSet. Anh sẽ hướng dẫn các bạn cách thêm và xóa một phần tử khỏi SortedSet. Hay cách làm như thế nào để lấy phần tử đầu tiên hay cuối cùng trong SortedSet. Áp dụng được từ những chia sẻ trong bài viết để giải quyết các vấn đề khác bao gồm duyệt, sắp xếp các phần tử SortedSet. Cũng như cách để lấy các phần tử đầu và sau của SortedSet trong <b>lập trình hướng đối tượng Java</b>.
 
 ## **1. SortedSet trong lập trình Java là gì**
 
@@ -95,7 +95,7 @@ SortedSet sortedSet = new TreeSet(comparator);
 
 {% endhighlight %}
 
-- Khi chúng ta duyệt qua các phần tử trong TreeSet mặt định nó sẽ duyệt từ nhỏ đến lớn. Chúng ta cũng có thể nói TreeSet duyệt ngược lại từ lớn đến nhỏ thông qua phương thức descendingIterator như sau
+- Khi chúng ta duyệt qua các phần tử trong TreeSet mặc định nó sẽ duyệt từ nhỏ đến lớn. Chúng ta cũng có thể nói TreeSet duyệt ngược lại từ lớn đến nhỏ thông qua phương thức descendingIterator như sau
 
  {% highlight java linenos %}
 
