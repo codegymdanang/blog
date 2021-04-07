@@ -232,7 +232,7 @@ public class EmployeeService {
 
 Ta có EmployeeAspect sử dụng annotation @Aspect trong đó ta định nghĩa phương thức nào cần hook trước khi chạy. Trong ví dụ này chúng ta áp dụng khi chạy phương thức getName
 
-- Một Aspect Class sẽ được đánh dấu băng @Aspect
+- Một Aspect Class sẽ được đánh dấu bằng @Aspect
 - Annotation @Before được sử dụng để chạy trước khi method getName được gọi
 
 
@@ -307,7 +307,7 @@ public class EmployeeAspectJoinPoint {
 	public void loggingAdvice(JoinPoint joinPoint){
 		System.out.println("Before running loggingAdvice on method="+joinPoint.toString());
 		
-		System.out.println("Agruments Passed=" + Arrays.toString(joinPoint.getArgs()));
+		System.out.println("Arguments Passed=" + Arrays.toString(joinPoint.getArgs()));
 
 	}
 	
