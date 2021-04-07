@@ -63,7 +63,7 @@ Ngoài cơ chế  DI thông qua setter như bài post trước, Spring IOC conta
 <br>
 ## **3 .Email Service**
 
-- Chúng ta sử dụng annotaion @Service để khi IoC container nó quét qua thì nó sẽ tạo đối tượng (bean) EmailService trong container để quản lí.
+- Chúng ta sử dụng annotation @Service để khi IoC container nó quét qua thì nó sẽ tạo đối tượng (bean) EmailService trong container để quản lý.
 
 {% highlight java linenos %}
 
@@ -82,7 +82,7 @@ public class EmailService implements MessageService{
 <br>
 ## **4 .Client Service**
 
-- Chúng ta thêm annotaion @Autowire phía trên của hàm khởi tạo ClientService. Khi Spring IOC quét qua ClientService nó sẽ nhúng EmailService bean có sẵn trong container của nó vào cho ClientService dùng.
+- Chúng ta thêm annotation @Autowire phía trên của hàm khởi tạo ClientService. Khi Spring IOC quét qua ClientService nó sẽ nhúng EmailService bean có sẵn trong container của nó vào cho ClientService dùng.
 
 {% highlight java linenos %}
 
@@ -110,7 +110,7 @@ public class ClientService {
 
 ## **5 .Testing**
 
-- Chúng ta sẽ tạo file cấu hình tên là AppConfiguration và annotaion là @Configure. File này có nhiệm vụ tương tự như file xml confire ở bài trước. 
+- Chúng ta sẽ tạo file cấu hình tên là AppConfiguration và annotation là @Configure. File này có nhiệm vụ tương tự như file xml confire ở bài trước. 
 
 - Có một annotation quan trọng là @ComponentScan là ta chỉ ra thư mục mà ta đặt file EmailService và ClientService ở đâu để Spring IOC sẽ chui vào đó và quét 2 class này để tạo bean và nhúng bean.
 
