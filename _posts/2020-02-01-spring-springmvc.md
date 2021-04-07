@@ -112,15 +112,15 @@ Ví dụ sử dụng Java Confiure.
 
 ControllerClassNameHandlerMapping hiện nay không được hỗ trợ trong version Spring 5.
 
-Chúng ta hoàn toàn có thể cấu hình cách mà URL mapping vào controller theo tên hay theo đường dẩn để mapping vào controller tương ứng.
+Chúng ta hoàn toàn có thể cấu hình cách mà URL mapping vào controller theo tên hay theo đường dẫn để mapping vào controller tương ứng.
 
 
-4. Sau khi vào controller tương ứng thì từ controller ta gọi services, service gọi repository, repository sẽ sử dung tầng persisten để thao tác với database lấy dữ liệu .
+4. Sau khi vào controller tương ứng thì từ controller ta gọi services, service gọi repository, repository sẽ sử dụng tầng persistent để thao tác với database lấy dữ liệu .
 và chuyển hoá dữ liệu trong database thành model và trả ngược lại cho controller.
 
-5. Controller sẽ trả về tên view (tên trang web  ) và model cho Dispatchervleter.
+5. Controller sẽ trả về tên view (tên trang web  ) và model cho Dispatcherletter.
 
-6. DispatcherServlet sẽ dự vào tên view mà controler trả về . Nó sẽ đi tìm trang view (thymeleaf,jsp) tương ứng dựa vào việc ta cấu hình View Reolver mà Dispatcher biết phải tìm thấy trang view ở đâu đồng thời truyền model để trang view hiểu thị dữ liệu. Kết quả cuối cùng là ta có một trang website hoàn chỉnh có HTML và dữ liệu. Chúng ta có thể cấu hình tầng view có thể trả về dạng html, jsp , hoặc xml hoặc json như sau
+6. DispatcherServlet sẽ dựa vào tên view mà controller trả về . Nó sẽ đi tìm trang view (thymeleaf,jsp) tương ứng dựa vào việc ta cấu hình Viewresolver mà Dispatcher biết phải tìm thấy trang view ở đâu đồng thời truyền model để trang view hiểu thị dữ liệu. Kết quả cuối cùng là ta có một trang website hoàn chỉnh có HTML và dữ liệu. Chúng ta có thể cấu hình tầng view có thể trả về dạng html, jsp , hoặc xml hoặc json như sau
 
 {% highlight java linenos %}
 @Bean
@@ -135,7 +135,7 @@ và chuyển hoá dữ liệu trong database thành model và trả ngược l�
 
 Chúng ta sử dụng <b>internalResourceViewResolver</b> để cấu hình nơi nào chúng ta đặt các cái view (/WEB-INF/view/). Trang kết quả trả về là html,xml, hoạc jsp (bean.setSuffix(".jsp").
 
-7. Cuối cùng <b>DispatchServlet</b> gửi lại kết quả trang web cho client. Như vậy chúng ta thấy trang web được sinh ra ở phía server sau đó nó mới được gửi lại cho người dùng.
+7. Cuối cùng <b>DispatcherServlet</b> gửi lại kết quả trang web cho client. Như vậy chúng ta thấy trang web được sinh ra ở phía server sau đó nó mới được gửi lại cho người dùng.
 
 <br>
 # **2. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
