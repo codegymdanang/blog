@@ -19,8 +19,8 @@ Chào các em ,chủ đề hôm nay chúng ta sẽ nói về <b>Spring Optional 
 <br>
 # **1. PathVariable dùng để làm gì**
 
-Như các em đã thấy trong bài <b>RequestMaping</b> anh viết lần trước tại [đây](https://levunguyen.com/laptrinhspring/2020/04/15/phan-biet-request-param-va-path-variable/). Chúng ta sử dụng
-<b>@PathVariable</b> để mapping URI mà người dùng nhập trên trình duyệt vào Controller tưng ứng.
+Như các em đã thấy trong bài <b>RequestMapping</b> anh viết lần trước tại [đây](https://levunguyen.com/laptrinhspring/2020/04/15/phan-biet-request-param-va-path-variable/). Chúng ta sử dụng
+<b>@PathVariable</b> để mapping URI mà người dùng nhập trên trình duyệt vào Controller tương ứng.
 
 Ví dụ anh có một controller có phương thức là getArticle sau.
 
@@ -66,7 +66,7 @@ public Article getArticle(@PathVariable Optional<Integer> optionalArticleId) {
 }
 {% endhighlight %}
 
-Ở ví dụ trên ta sử dụng Optional<Integer> optiontalArticleId để mapping giá trị id từ request url của người dùng
+Ở ví dụ trên ta sử dụng Optional<Integer> optiotalArticleId để mapping giá trị id từ request url của người dùng
 
 Nếu ta có request là /article/123 thì mình gán giá trị 123 vô tham số optiontalArticleId
 
@@ -75,7 +75,7 @@ Nếu ta có request là /article thì optiontalArticleId sẽ là null. Khi s�
 <br>
 # **3. Kết luận**
 
-Mình không nên sử dụng @RequestMapping(value = {"/article", "/article/{id}"}") cho cùng môt method vì nó dể gây ra nhầm lẫn. Tốt nhất 1 request nên được xử lý bởi môt method.
+Mình không nên sử dụng @RequestMapping(value = {"/article", "/article/{id}"}") cho cùng một method vì nó dễ gây ra nhầm lẫn. Tốt nhất 1 request nên được xử lý bởi một method.
 Ta có thể tách ra như sau
 
 {% highlight java  linenos %}
