@@ -62,7 +62,7 @@ Header bao gồm hai phần chính: loại token (mặc định là JWT - Thông
 }
 
 
-- Payload là phần sẽ chứa nội dungserver (dữ liệu) ta truyền lên server . Ngoài ra nó còn chứa đựng các thông tin về tokien như ngày hết hạn , ngày sinh ra token ,subject, etc.
+- Payload là phần sẽ chứa nội dung server (dữ liệu) ta truyền lên server. Ngoài ra nó còn chứa đựng các thông tin về tolkien như ngày hết hạn, ngày sinh ra token,subject, etc.
 
 Payload chứa các claims. Claims là một các biểu thức về một thực thể (chẳng hạn user) và một số metadata phụ trợ. metadata là bắt buộc, số còn lại nên tuân theo để JWT hợp lệ và đầy đủ thông tin: iss (issuer), iat (issued-at time) exp (expiration time), sub (subject), aud (audience), jti (Unique Identifier cho JWT, Can be used to prevent the JWT from being replayed. This is helpful for a one time use token
 
@@ -74,7 +74,7 @@ HMACSHA256(
   base64UrlEncode(payload),
 secret)
 
-- Trong đó từ secret là cái đặt biệt quan trọng, chỉ một số người được biết giá trị này. Nó được kết hợp với các thuật toán để cho ra một token bảo mật. Ví dụ trong trường hợp xấu nhất header và payload bị lội thì secret chính là giá trị không phải ai cũng biết mà giải mã. Nó giúp cho token được tạo ra thêm một lớp bảo mật. Tăng tính an toàn cho token. Chính vì đặt điểm này nên token rất được sử dụng nhiều trong các ứng dụng.
+- Trong đó từ secret là cái đặc biệt quan trọng, chỉ một số người được biết giá trị này. Nó được kết hợp với các thuật toán để cho ra một token bảo mật. Ví dụ trong trường hợp xấu nhất header và payload bị lỗi thì secret chính là giá trị không phải ai cũng biết mà giải mã. Nó giúp cho token được tạo ra thêm một lớp bảo mật. Tăng tính an toàn cho token. Chính vì đặc điểm này nên token được sử dụng nhiều trong các ứng dụng.
 
 Các em có thể kiểm tra token tại trang web sau https://jwt.io
 
@@ -82,11 +82,11 @@ Các em có thể kiểm tra token tại trang web sau https://jwt.io
 
 Khi người dùng đăng nhập vào hệ thống. Trong trường hợp này anh đang chọn là người dùng nhập đúng username và password. Khi server đã kiểm tra là ok thì lúc đó server sẽ tạo ra một dãy token ví dụ như eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuZ3V5ZW4iLCJleHAiOjE1Njg3NTAxMTEsImlhdCI6MTU2ODczMjExMX0.mPuurljzpycuyy0d_B0GNVPBz7SEpPCPIoGGy2lUVgJ9rLlRJkDCdG2vwkXITUsJ4dnU5IF178yXv34izGPcpw
 
-<b>Dãy token này là duy nhất và không bị trùng lập</b>. Đồng thời không thể dịch ngược lại được các thông tin mà đã mã hoá. Sau đó server sẽ gửi trả token này về lại cho client.
+<b>Dãy token này là duy nhất và không bị trùng lặp</b>. Đồng thời không thể dịch ngược lại được các thông tin mà đã mã hoá. Sau đó server sẽ gửi trả token này về lại cho client.
 
 Tất các các hành động khác của client sau khi login thành công. Thì khi gọi một hành động nào trên server thì client sẽ gửi kèm thêm một thông tin token nữa lên server.
 
-Ở phía server sau khi nhận được token gửi lên từ client thì server sẽ kiểm tra xem token đó có hợp lệ hay không. Nếu hacker hoặc một ai đó sửa chuổi token ở trên thì server sẽ nhận biết được là token đó không hợp lệ và không thực hiện. 
+Ở phía server sau khi nhận được token gửi lên từ client thì server sẽ kiểm tra xem token đó có hợp lệ hay không. Nếu hacker hoặc một ai đó sửa chuỗi token ở trên thì server sẽ nhận biết được là token đó không hợp lệ và không thực hiện. 
 
 Hoặc sẽ có những trường hợp token hết hạn thì lúc đó client phải bắt buộc đăng nhập lại để nhận lại token mới từ server.
 
