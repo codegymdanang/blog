@@ -15,17 +15,17 @@ youtubeId: ljyqbIo4jbk
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn, hôm nay anh sẽ trình bày kỷ thuật để <b>kiểm tra dữ liệu (Spring Validation)</b> người dùng nhập vào có đúng như định dạng mình mong muốn không ? Nếu
+Chào các bạn, hôm nay anh sẽ trình bày kỹ thuật để <b>kiểm tra dữ liệu (Spring Validation)</b> người dùng nhập vào có đúng như định dạng mình mong muốn không ? Nếu
 không đúng định dạng mình sẽ thông báo lỗi cho người dùng? Trong Spring thì mình dùng các cách nào để kiểm tra dữ liệu người dùng truyền lên là hợp lệ.
 
 <br>
 # **1. Tại sao cần kiểm tra và ràng buộc dữ liệu**
 
-Cái quý giá và quan trọng nhất đối với một phần mềm đó chính là dữ liệu, thông tin về dữ liệu. Như các e thấy facebook hay google họ nắm
-dữ một lượng người dùng khá lớn , dự vào nguồn dữ liệu đó họ sẽ phát triển các kế hoạch dài hạn và tăng doanh thu cho công ty . Chính vì vậy
+Cái quý giá và quan trọng nhất đối với một phần mềm đó chính là dữ liệu, thông tin về dữ liệu. Như các em thấy facebook hay google họ nắm
+giữ một lượng người dùng khá lớn, dựa vào nguồn dữ liệu đó họ sẽ phát triển các kế hoạch dài hạn và tăng doanh thu cho công ty. Chính vì vậy
 nắm được dữ liệu sẽ là yếu tố quyết định cho sự thành công. Để đảm bảo dữ liệu phải nhập đúng định dạng ví dụ như ngày tháng năm phải theo
 chuẩn la dd/MM/YYYY hoặc trường dữ liệu bắt buộc người dùng nhập vào thì ta sử dụng <b>Spring Validation</b> để làm việc đó. Khi người dùng nhập
-sai định dạnh mình yêu cầu thì mình thông báo lỗi để người dùng nhập lại.
+sai định dạng chúng ta yêu cầu thì hệ thống thông báo lỗi để người dùng nhập lại.
 
 <br>
 # **2. Hướng dẫn cách làm**
@@ -44,7 +44,7 @@ sai định dạnh mình yêu cầu thì mình thông báo lỗi để người 
 
 {% endhighlight %}
 
-- Bước 2 : Thiết  ràng buộc dữ liệu trong Entiry
+- Bước 2 : Thiết lập ràng buộc dữ liệu trong Entity
 
 {% highlight java linenos %}
 @Entity
@@ -65,7 +65,7 @@ public class User {
 }
 {% endhighlight %}
 
-Như ta thấy mình sử dụng các annotaion có sẳng như <b>@NotBlank</b> để ràng buộc không được phép rỗng cho giá trị name.
+Như ta thấy mình sử dụng các annotation có sẵn như <b>@NotBlank</b> để ràng buộc không được phép rỗng cho giá trị name.
 
 <br>
 - Bước 3 : Sử dụng trong controller
@@ -87,8 +87,8 @@ public class UserController {
 }
 {% endhighlight %}
 
-Như ta thấy trong đoạn code trên ta sử dụng <b>@Valid</b> để kiểm tra dữ liệu người dùng truyền lên có thảo mảng điều kiện ta thiết lập trong Entiry User không ?
-Khi tham số trong controller có annotation @Valid nó sẽ tự động bật chế độ kiểm tra dữ liệu theo chuẩn JSR 380 cái mà cài đặt chứa năng kiểm tra
+Như ta thấy trong đoạn code trên ta sử dụng <b>@Valid</b> để kiểm tra dữ liệu người dùng truyền lên có thảo mảng điều kiện ta thiết lập trong Entity User không ?
+Khi tham số trong controller có annotation @Valid nó sẽ tự động bật chế độ kiểm tra dữ liệu theo chuẩn JSR 380 cái mà cài đặt chức năng kiểm tra
 trong thư viện Hibernate Validator để kiểm tra giá trị.
 
 <br>
@@ -110,7 +110,7 @@ public Map<String, String> handleValidationExceptions(
 {% endhighlight %}
 
 <br>
-# **4. Một số annotaion thường dùng để kiểm tra dữ liệu**
+# **4. Một số annotation thường dùng để kiểm tra dữ liệu**
 
 - @NotNull – kiểm tra giá trị null
 - @AssertTrue – kiểm tra giá trị thuộc tính là true 
@@ -185,7 +185,7 @@ public class AuthorValidator implements ConstraintValidator<Author, String> {
 
 # **6. Tổng kết**
 
-Chúng ta có thể sử dụng các annotaion sẳn có hoặc có thể tự định nghĩa một cái cho phù hợp với ứng dụng của mình.
+Chúng ta có thể sử dụng các annotation sẵn có hoặc có thể tự định nghĩa một cái cho phù hợp với ứng dụng của mình.
 
 # **Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn**
 
