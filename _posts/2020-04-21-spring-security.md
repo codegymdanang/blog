@@ -22,7 +22,7 @@ bạn đang quan tâm trong thực tế mình sẽ áp dụng như thế nào ? 
 <br>
 # **1. Demo mục đích bài hướng dẫn hôm nay**
 
-Kết thúc bài giảng hôm nay các em sẽ làm được ứng dụng phân quyền tuỳ thuộc vào user đăng nhập vào hệ thống là user hay admin mà ta cho phép họ
+Kết thúc bài giảng hôm nay các em sẽ làm được ứng dụng phân quyền tùy thuộc vào user đăng nhập vào hệ thống là user hay admin mà ta cho phép họ
 vào trang web tương ứng. Ví dụ.  
 
 - Trang Home thì ai vào cũng được .
@@ -38,8 +38,8 @@ vào trang web tương ứng. Ví dụ.
 
 - <b>Authentication</b> : Khi nói về authentication là ta nói về chức năng đăng nhập vào hệ thống. Authentication nghĩa là bạn có phải là người dùng của hệ thống hay không.
 
-- <b>Authorization</b> : Khi nói về authorization ta nói về quyền hạn được phép làm gì ? Trong ví dụ trên mình có user và admin . Bước đầu tiên họ phải authentication .
-xát thực mình là user trong hệ thống . Tiếp đến tuỳ vào role của mình là admin hay user mà mình chỉ có quyền truy cập một số trang nhất định thuộc thẩm quyền của mình.
+- <b>Authorization</b> : Khi nói về authorization ta nói về quyền hạn được phép làm gì? Trong ví dụ trên mình có user và admin. Bước đầu tiên họ phải authentication.
+Xác thực mình là user trong hệ thống. Tiếp đến tuỳ vào role của mình là admin hay user mà mình chỉ có quyền truy cập một số trang nhất định thuộc thẩm quyền của mình.
 
 <br>
 # **3. Hướng dẫn xây dựng ứng dụng Spring Security**
@@ -64,17 +64,17 @@ Mình dùng database để lưu <b>thông tin người dùng</b> và <b>role</b>
 
 Như vậy để làm ứng dụng <b>spring security</b> mình sẽ lưu user name và quyền vào trong database. Anh sẽ giải thích ý nghĩa của từng bảng.
 
-1. Table APP_USER  dùng để lưu thông tin username và passwor . Khi người dùng đăng nhập họ truyền user name và password vào form sau đó code của mình sẽ query
-trong databaPPse xem là username và password có đúng như trong database không ?d Bước này chính là authentication.
+1. Table APP_USER  dùng để lưu thông tin username và password. Khi người dùng đăng nhập họ truyền user name và password vào form sau đó code của mình sẽ query
+trong database xem là username và password có đúng như trong database không ?d Bước này chính là authentication.
 
-2. Table APP_ROLE dùng để xát định xem user sau khi login thành công thì được phép vào những trang nào . Ví dụ admin vào được 2 trang user và admin page . Nhưng
+2. Table APP_ROLE dùng để xác định xem user sau khi login thành công thì được phép vào những trang nào . Ví dụ admin vào được 2 trang user và admin page . Nhưng
 user chỉ được phép vào 1 trang là user page.
 
-3. Table USER_ROLE là table dùng để nối 2 bảng APP_USER và APP_ROLE , nó được dùng để cho phép 1 user có thể có nhiều quyền. Ví dụ như admin có thể vào cả 2 trang user và admin .
+3. Table USER_ROLE là table dùng để nối 2 bảng APP_USER và APP_ROLE, nó được dùng để cho phép 1 user có thể có nhiều quyền. Ví dụ như admin có thể vào cả 2 trang user và admin .
 
 4. Tạo database thôi nào. Anh có viết script tạo cấu trúc database và tạo dữ liệu user và admin tại đây.
-Mọi người copy về và chạy script này trong workbench để tạo dữ liệu nhé .
-https://github.com/codegymdanang/CGDN-SpringBoot-SpringSecurity .
+Mọi người copy về và chạy script này trong workbench để tạo dữ liệu nhé.
+https://github.com/codegymdanang/CGDN-SpringBoot-SpringSecurity.
 
 Nếu chạy script xong thì mình sẽ có 2 users sau :
 + username : dbuser1  -  Password : 123
@@ -149,8 +149,8 @@ Khi người dùng click vào nút submit thì action mình dùng là /j_spring_
 #### Bước 4. Tạo file WebSecurityConfig để cấu hình  cho Spring security .
 
 Các bạn có thể tìm thấy file đó ở github ở trên trong thư mục configure/WebSecurityConfig.
-File WebSecurityConfig sẽ kế thừa <b>WebSecurityConfigurerAdapter</b> để mình tuỳ chỉnh các cấu hình security cho ứng dụng của mình.
-Giờ a sẽ giải thích nhiệm vụ của các method.
+File WebSecurityConfig sẽ kế thừa <b>WebSecurityConfigurerAdapter</b> để mình tùy chỉnh các cấu hình security cho ứng dụng của mình.
+Giờ anh sẽ giải thích nhiệm vụ của các method.
 
 1. Method mà chúng ta xem xét đầu tiên là : protected void configure(HttpSecurity http) throws Exception .
 
@@ -183,13 +183,13 @@ Giờ a sẽ giải thích nhiệm vụ của các method.
                 .loginProcessingUrl("/j_spring_security_check") // Bạn còn nhớ bước 3 khi tạo form login thì action của nó là j_spring_security_check giống ở
                 .loginPage("/login")//
                 .defaultSuccessUrl("/userAccountInfo")//đây Khi đăng nhập thành công thì vào trang này. userAccountInfo sẽ được khai báo trong controller để hiển thị trang view tương ứng  
-                .failureUrl("/login?error=true")// Khi đăng nhật sai username và password thì nhập lại
+                .failureUrl("/login?error=true")// Khi đăng nhập sai username và password thì nhập lại
                 .usernameParameter("username")// tham số này nhận từ form login ở bước 3 có input  name='username'
                 .passwordParameter("password")// tham số này nhận từ form login ở bước 3 có input  name='password'
                 // Cấu hình cho Logout Page. Khi logout mình trả về trang
                 .and().logout().logoutUrl("/logout").logoutSuccessUrl("/logoutSuccessful");
 
-        // Cấu hình Remember Me . Ở form login bước 3, ta có 1 nút remember me. Nếu người dùng tick vào đó ta sẽ dung cookie lưu lại trong 24h
+        // Cấu hình Remember Me. Ở form login bước 3, ta có 1 nút remember me. Nếu người dùng tick vào đó ta sẽ dùng cookie lưu lại trong 24h
 
         http.authorizeRequests().and() //
                 .rememberMe().tokenRepository(this.persistentTokenRepository()) //
@@ -246,7 +246,7 @@ Khi user login vào hệ thống ta sẽ query xuống database để kiểm tra
         // đầu tiên mình query xuống database xem có user  đó không  
         AppUser appUser = this.appUserDAO.findUserAccount(userName);
 
-        //Nếu khong tìm thấy User thì mình thông báo lỗi
+        //Nếu không tìm thấy User thì mình thông báo lỗi
         if (appUser == null) {
             System.out.println("User not found! " + userName);
             throw new UsernameNotFoundException("User " + userName + " was not found in the database");
@@ -387,14 +387,14 @@ public class AppUserDAO {
 {% endhighlight %}
 
 <br>
-##### Bước 8 . Tạo các trang view cần thiết để hiện thị
-Mọi ngừoi có thể lấy trực tiếp từ github của anh trong folder view.
+##### Bước 8. Tạo các trang view cần thiết để hiện thị
+Mọi người có thể lấy trực tiếp từ github của anh trong folder view.
 
 <br>
 ##### Bước 9. Chạy ứng dụng
 
-Như vậy là mình đã xong cấu hình cho Spring security . Phần quan trong nhất  chính là bước 4. Nới mình cấu
-hình và phân quyền trong Spring Security .
+Như vậy là mình đã xong cấu hình cho Spring security. Phần quan trọng nhất chính là bước 4, nơi mình cấu
+hình và phân quyền trong Spring Security.
 
 
 ## **8. Video Demo**
