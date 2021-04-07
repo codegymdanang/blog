@@ -172,7 +172,75 @@ sudo docker kill 07b0b6f434fe
 ![reactjs ](/images/post/docker/docker_kill.jpeg){:class="img-responsive"}
 {: refdef}
 
-## **12. Vòng đời của một container**
+## **12. Docker Attach**
+
+Chúng ta sử dụng lệnh docker attach để kết nối terminal mà ta đang dùng tới một container đang chạy. Cái này giống như việc mình sử dụng terminal ssh vào server.
+
+Trong ví dụ dưới đây chúng ta start container đang chạy tên là topdemo
+
+{% highlight javascript  linenos %}
+
+docker run -d --name topdemo ubuntu /usr/bin/top -b
+
+
+{% endhighlight %}
+
+Sau đó chúng ta connect tới container topdemo bằng lệnh docker attach
+
+{% highlight javascript  linenos %}
+
+
+docker attach topdemo
+
+{% endhighlight %}
+
+## **13. Docker DeAttach**
+
+Khi mình muốn chạy container ở chế độ ngầm định (không cần hiển thị output của container đang chạy lên terminal). Chúng ta sẽ sử dụng command --detach và viết tắt là -d.
+
+Ví dụ như mình muốn chạy container có Image centos sau ở dạng ngầm định.
+
+{% highlight javascript  linenos %}
+
+
+docker run -d centos 
+
+{% endhighlight %}
+
+## **13. Xem log trong container**
+
+Để xem được log khi container đang chạy chngs ta sử dụng câu lệnh docker logs. Trong câu lệnh này chúng ta có thể thêm tham số tails để hiển thị số dòng cần xem. Ví dụ sau đây anh muốn xem 1000 dòng logs của container 64d5f93bc97c
+
+{% highlight javascript  linenos %}
+
+
+docker logs --tail=1000 64d5f93bc97c
+
+{% endhighlight %}
+
+
+Để theo dõi lịch sử chạy của container thì chúng ta sử dụng tham số --follow hoặc -f
+
+{% highlight javascript  linenos %}
+
+docker logs -f 64d5f93bc97c
+
+{% endhighlight %}
+
+## **14. Chạy lệnh trong container đang chạy**
+
+Để chạy được lệnh trong container đang chạy chúng ta sử dụng câu lệnh exec.
+
+{% highlight javascript  linenos %}
+
+docker exec -i -t 64d5f93bc97c /bin/bash
+
+{% endhighlight %}
+
+- -i : giữ cho sdin được mở <br>
+- -t : terminal <br>
+
+## **15. Vòng đời của một container**
 
 
 {:refdef: style="text-align: center;"}
