@@ -1,6 +1,6 @@
 ---
 layout: course-spring-web
-title: Tổng hợp các Anotation trong Spring web
+title: Tổng hợp các Annotation trong Spring web
 slug : tong-hop-cac-annotation-trong-spring-web
 category: laptrinhspring
 tags: [spring-web]
@@ -22,7 +22,7 @@ Trong bài hôm nay chúng ta sẽ đi qua các annotation thường xuyên đư
 
 # **2 @Congiguration**
 
-Được sử dụng để chỉ ra rằng class khai báo sử dụng annotation <b>@Configuration</b> sẽ khai báo một hoặc nhiều @Bean method trong class đó. Những class khai báo với @Configuration sẽ được Spring container quản lý và tạo bean trong lúc chương trình đang chạy. Thông thường các bean cấu hình cho dự án ta để trong này. Ví dụ cấu hình themeleaf, đa ngôn ngữ , và nhiều cấu hình khác cho ứng dụng.   
+Được sử dụng để chỉ ra rằng class khai báo sử dụng annotation <b>@Configuration</b> sẽ khai báo một hoặc nhiều @Bean method trong class đó. Những class khai báo với @Configuration sẽ được Spring container quản lý và tạo bean trong lúc chương trình đang chạy. Thông thường các bean cấu hình cho dự án ta để trong này. Ví dụ cấu hình thymeleaf, đa ngôn ngữ , và nhiều cấu hình khác cho ứng dụng.   
 
 {% highlight java linenos %}
 @Configuration
@@ -89,7 +89,7 @@ public class Computer {
 <br>
 # **5. @ComponentScan**
 
-Chúng ta sử dụng <b>@ComponentScan</b> để thông báo  Spring Container biết phải vào package nào trong dự án để quyét các <b>Annotation</b> và tạo <b>Bean</b>. Như ví dụ bên dưới. Spring sẽ quyét tất cả các file trong pakage levunguyen.spring. Tìm các Class có annotation để tạo bean và các <b>@autowire</b> để nhúng bean ở trong container vào các Class sử dụng autowire
+Chúng ta sử dụng <b>@ComponentScan</b> để thông báo Spring Container biết phải vào package nào trong dự án để quét các <b>Annotation</b> và tạo <b>Bean</b>. Như ví dụ bên dưới. Spring sẽ quét tất cả các file trong package levunguyen.spring. Tìm các Class có annotation để tạo bean và các <b>@autowire</b> để nhúng bean ở trong container vào các Class sử dụng autowire
 
 {% highlight java linenos %}
 @ComponentScan(basePackages = "levunguyen.spring ")
@@ -102,7 +102,7 @@ public class SpringComponentScanApp {
 <br>
 # **6. @Component**
 
-Khi một class được đánh dấu là <b>@Component</b> thì sẽ được tạo thành 1 bean. Khi Spring start thì nó quyét qua các annotation có dánh dấu là @Component thì nó sẽ tạo bean cho class đó.
+Khi một class được đánh dấu là <b>@Component</b> thì sẽ được tạo thành 1 bean. Khi Spring start thì nó quét qua các annotation có đánh dấu là @Component thì nó sẽ tạo bean cho class đó.
 Ví dụ ta có class Contact và ta đánh dấu nó là @Component thì Spring khi đọc qua class này nó sẽ tạo 1 bean có tên là contact trong container của nó. Nếu có class nào dùng thì nó sẽ nhúng bean này vào. Dùng @component là để tạo ra một bean
 
 {% highlight java linenos %}
@@ -140,7 +140,7 @@ Sử dụng để khai báo với Spring đọc các cấu hình trong file reso
 <br>
 # **8. @Service**
 
-Nếu một class được đánh dấu là <b>@Service</b> thì nó là kiểu đặt biệt cuả @Component. Nó được dùng để xử lý các nghiệp vụ của ứng dụng. Ví dụ như kế toán thì có nghiệp vụ là kiểm tra chi, quản lý thu. Lớp BookServiceImpl dưới đây được đánh dấu là @Service thì nó sẽ phụ trách xử lý các vấn đề liên quan đến nghiệp vụ.
+Nếu một class được đánh dấu là <b>@Service</b> thì nó là kiểu đặt biệt của @Component. Nó được dùng để xử lý các nghiệp vụ của ứng dụng. Ví dụ như kế toán thì có nghiệp vụ là kiểm tra chi, quản lý thu. Lớp BookServiceImpl dưới đây được đánh dấu là @Service thì nó sẽ phụ trách xử lý các vấn đề liên quan đến nghiệp vụ.
 
 {% highlight java linenos %}
 @Service
@@ -164,7 +164,7 @@ public class BookDaoImpl implements BookDao {
 <br>
 # **10. @Autowire**
 
-Tự động nhúng các  bean được Spring Container sinh ra vào Class có khai báo <b>@Autowire</b>. Khi Spring nó sẽ tìm kiếm bean có tên là BookDao trong container của nó ,sau đó nhúng (hoặc tiêm) vào lớp BookServiceImple. Đây chính là cơ chế <b>DI</b> (depedency injection) . Khi Spring bắt đầu chạy nó sẽ quyét qua các lớp có sử dụng annotation để tạo bean đồng thời nó cũng quyét bên trong các bean xem có khai báo @Autowire không nếu có nó sẽ tìm kiếm bean tương ứng mà nó quản lý và nhúng vào.
+Tự động nhúng các  bean được Spring Container sinh ra vào Class có khai báo <b>@Autowire</b>. Khi Spring nó sẽ tìm kiếm bean có tên là BookDao trong container của nó ,sau đó nhúng (hoặc tiêm) vào lớp BookServiceImple. Đây chính là cơ chế <b>DI</b> (dependency injection). Khi Spring bắt đầu chạy nó sẽ quét qua các lớp có sử dụng annotation để tạo bean đồng thời nó cũng quét bên trong các bean xem có khai báo @Autowire không nếu có nó sẽ tìm kiếm bean tương ứng mà nó quản lý và nhúng vào.
 
 {% highlight java linenos %}
 @Service
@@ -185,13 +185,13 @@ public class BookServiceImpl implements BookService {
 
 Khi bean được tạo ra thì nó có nhiều scope khác nhau. <b>@Scope</b> ở đây là phạm vi bean được sinh và và bị phá huỷ dưới sự quản lý của Spring Container. Khi bean được sinh ra nó có 5 scope (phạm vi được sử dụng)
 
-- singleton : đây là scope mặc định của 1 bean khi được sinh ra. Nếu ta không khai báo scope cụ thể thì bean sẽ lấy singleton scope. Singleton bean có nghĩ là bean chỉ tạo ra 1 lần và được sử dụng trong container . Chỉ duy nhất 1 bean tồn tại trong container
-- prototype : ngược lại với singleton ta muốn có nhiều bean (đối tượng) thì ta sử dụng scope prototype
-- Request : Bean được sinh ra thông qua các request http (yêu cầu) từ người dùng. Chỉ được dùng trong các ứng dụng web
-- Session : Bean được sinh ra thông qua các  http session
-- Global-session : Bean được sinh ra thông qua các request http (yêu cầu) từ người dùng. Chỉ được dùng trong các ứng dụng web
+- singleton : đây là scope mặc định của 1 bean khi được sinh ra. Nếu ta không khai báo scope cụ thể thì bean sẽ lấy singleton scope. Singleton bean có nghĩa là bean chỉ tạo ra 1 lần và được sử dụng trong container. Chỉ duy nhất 1 bean tồn tại trong container.
+- prototype : ngược lại với singleton ta muốn có nhiều bean (đối tượng) thì ta sử dụng scope prototype.
+- Request : Bean được sinh ra thông qua các request http (yêu cầu) từ người dùng. Chỉ được dùng trong các ứng dụng web.
+- Session : Bean được sinh ra thông qua các  http session.
+- Global-session : Bean được sinh ra thông qua các request http (yêu cầu) từ người dùng. Chỉ được dùng trong các ứng dụng web.
 
-Ví du sử dụng @Scope với phạm vi là request
+Ví dụ sử dụng @Scope với phạm vi là request
 
 {% highlight java linenos %}
 @Component
@@ -281,7 +281,7 @@ Ví dụ : Khi ta nhập vào url là http://localhost:8080/method3 thì nó s�
 <br>
 # **15. @PathVariable**
 
-<b>@PathVariable<b> được sử dụng để xử lý những URI động, có một hoặc nhiều paramter trên URI.
+<b>@PathVariable<b> được sử dụng để xử lý những URI động, có một hoặc nhiều parameter trên URI.
 
 Ví dụ bên dưới khi người dùng gõ vào là http://localhost:8080/test2/10/nguyen.
 
@@ -320,7 +320,7 @@ public String getFoos(@RequestParam String id) {
 <br>
 # **17. @ModelAttribute**
 
-Một trong những annotaion quan trọng trong Spring đó là <b>@ModelAttribute</b>. Chúng ta sử dụng ModelAttribute như một cầu nối giữa Controller và View. Từ Controller chúng ta truyền các dữ liệu qua cho View thông qua ModelAttribute. Từ View chúng ta sẽ sử dụng Themeleaf để đọc các dữ liệu từ model và hiển thị ra cho người dùng.
+Một trong những annotation quan trọng trong Spring đó là <b>@ModelAttribute</b>. Chúng ta sử dụng ModelAttribute như một cầu nối giữa Controller và View. Từ Controller chúng ta truyền các dữ liệu qua cho View thông qua ModelAttribute. Từ View chúng ta sẽ sử dụng Thymeleaf để đọc các dữ liệu từ model và hiển thị ra cho người dùng.
 
 Tầng View chúng ta sử dụng model để lấy các giá trị từ người dùng và gắn vào thuộc tính modelAttribute.
 
@@ -355,7 +355,7 @@ Tầng View chúng ta sử dụng model để lấy các giá trị từ ngườ
 
 được sử dụng để lấy các giá trị mà người dùng gửi lên server mà các giá trị đó được chứa trong phần thân (body) của request
 
-Ví dụ như mình request sau gửi lên server dữ liệu (sendInfo) là một json gồm có tên,địa bằng method post và dữ liệu được gửi trong phần thân của request . Để nhận được dữ liệu json này từ clien thì chúng ta dùng <b>@RequestBody</b> trong method để lấy kết quả.  
+Ví dụ như mình request sau gửi lên server dữ liệu (sendInfo) là một json gồm có tên, địa chỉ bằng method post và dữ liệu được gửi trong phần thân của request. Để nhận được dữ liệu json này từ client thì chúng ta dùng <b>@RequestBody</b> trong method để lấy kết quả.  
 
 {% highlight java linenos %}
 
@@ -409,7 +409,7 @@ public  @ResponseBody String helloWorld() {
 <br>
 # **20. @RequestHeader và @ResponseHeader**
 
-<b>@RequestHeader</b> được sử dụng khi ta muốn lấy dữ liệu được truyền bằng Header của một request (yêu cầu từ clien)
+<b>@RequestHeader</b> được sử dụng khi ta muốn lấy dữ liệu được truyền bằng Header của một request (yêu cầu từ client)
 
 Ví dụ sau ta truyền thêm biến my-number trong phần header của request gửi lên server. @RequestHeader được khai báo trong phương thức doubleNumber có nhiệm vụ lấy giá trị từ header truyền vào biên
 
