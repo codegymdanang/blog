@@ -62,7 +62,7 @@ Trong <b>Spring</b> thì thường mình  hay sử trong các dự án Java đư
 <br>
 # **3. JPA là gì ?**
 
-<b>JPA</b> viết tắc của từ Java Persitent API . Tầng Persistent có nhiệm vụ thao  tác với database như query lấy dữ liệu , lưu dữ liệu
+<b>JPA</b> viết tắt của từ Java Persitent API . Tầng Persistent có nhiệm vụ thao  tác với database như query lấy dữ liệu , lưu dữ liệu
 xuống database . JPA cung cấp cho mình cơ chế ORM mapping các bảng, column , mối quan hệ trong database thành các lớp java và đồng
 thời cung cấp cho mình các method cần thiết để thao tác  dữ liệu trong database.
 
@@ -76,7 +76,7 @@ thời cung cấp cho mình các method cần thiết để thao tác  dữ li�
 1. Như ta thấy ở hình trên, đó chính là luồng đi của một ứng dụng . Bắt đầu khi người dùng gửi request lên server.
 2. Khi request vào Dispatcher nó sẽ đưa đến Controller tương ứng để xử lý request
 3. Từ Controller nó sẽ gọi xuống Service để thực hiện các nghiệp vụ cần thiết
-4. Từ tầng Service nó gọi tầng Persisten (Trong các dự án mình sử dụng JPA) để thực hiện các thao tác xuống database và trả kết quả về
+4. Từ tầng Service nó gọi tầng Persistence (Trong các dự án mình sử dụng JPA) để thực hiện các thao tác xuống database và trả kết quả về
 
 <br>
 # **5. Hướng dẫn sử dụng JPA thông qua ví dụ**
@@ -112,7 +112,7 @@ spring.datasource.password=abc
 {% endhighlight %}
 <br>
 
-#### Bước 3 - Chuẩn bị entiry . Mapping  table Department trong database thành các class Java
+#### Bước 3 - Chuẩn bị entity. Mapping  table Department trong database thành các class Java
 
 {% highlight java linenos %}
 @Data
