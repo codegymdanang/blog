@@ -21,7 +21,7 @@ Chào các em ,chủ để hôm nay chúng ta sẽ tìm hiểu về <b>Restful w
 <br>
 # **1. Website là gì ?**
 
-Trước tiên chúng ta sẽ tìm hiểu <b>webstie</b> là gì? Anh ví dụ khi mọi người nhập vào đường link https://lazada.com  mình sẽ nhận được website như sau:
+Trước tiên chúng ta sẽ tìm hiểu <b>website</b> là gì? Anh ví dụ khi mọi người nhập vào đường link https://lazada.com  mình sẽ nhận được website như sau:
 
 {:refdef: style="text-align: center;"}
 ![Lazada](/images/post/spring/lazada.png){:class="img-responsive"}
@@ -31,9 +31,9 @@ Trước tiên chúng ta sẽ tìm hiểu <b>webstie</b> là gì? Anh ví dụ k
 
 - Client (website) gửi một yêu cầu (request) lên con server. Trong trường hợp này người dùng gõ vào trình duyệt là https://lazada.com và yêu cầu server sẽ trả về website bao gồm html,css,ảnh, và dữ liệu)  
 
-- Khi server nhận được request từ phía client . Nó sẽ chuẩn bị resource (trong trường hợp này là html và dữ liệu ) đúng như yêu cầu client. Sau khi client nhận được resouce (html,css,js,data) thì lúc đó hiển thị lên cho người dùng thấy được trang home hoàn chỉnh.
+- Khi server nhận được request từ phía client. Nó sẽ chuẩn bị resource (trong trường hợp này là html và dữ liệu ) đúng như yêu cầu client. Sau khi client nhận được resource (html,css,js,data) thì lúc đó hiển thị lên cho người dùng thấy được trang home hoàn chỉnh.
 
-- Đây chính là luồng đi của ứng dụng website . Client yêu cầu (request) server trả về một resouce mà mình mong muốn. Resource ở đây có thể là html , một cái ảnh hay một cái file.
+- Đây chính là luồng đi của ứng dụng website. Client yêu cầu (request) server trả về một resource mà mình mong muốn. Resource ở đây có thể là html , một cái ảnh hay một cái file.
 
 <br>
 # **2. Webservice là gì ?**
@@ -62,22 +62,22 @@ Thông thường server sẽ trả dữ liệu dựa trên 2 dạng là <b>XML</
 {% endhighlight %}
 
 <br>
-# **3. Restfull webservice là gì?**
+# **3. Restful webservice là gì?**
 
 <b>REST</b> là viết tắt của từ (REpresentational State Transfer ). Anh lấy ví dụ về lazada . Khi mình vào click vô xem chi tiết của một sản phẩm thì mình sẽ thấy thông tin của nó gồm mô tả , giá , số lượng. Như vậy khi client gửi request (yêu cầu) lên server để lấy thông tin về sản phẩm. Ví dụ backend là mình viết bằng Spring (java) thì lúc đó Controller sẽ gọi các services để lấy dữ liệu và kết quả của các service trả về là một đối tượng Product (có thuộc tính mô tả, giá , số lượng). Tuy nhiên ta sẽ không trả về đối tượng Product cho client ngay mà đối tượng Product đó sẽ được chuyển đổi thành dạng Json hoặc XML rồi gửi về cho client.
 
 Sự chuyển đổi đó gọi là  REpresentational State Transfer. Representational có nghĩa là hiển thị kiểu json hay xml. State có nghĩa là trạng thái của dữ liệu từ Object Java mình chuyển sang trạng thái khác để truyền đi. Transfer nghĩa là động tác chuyển đổi dữ liệu Object sang kiểu định dạng mới là json hay xml . Nói tóm lại ta chuyển đổi trạng thái dữ liệu từ object sang kiểu json hay xml để client có thể nhận được data.
 
-<b>Restfull Webservice</b>  là một dạng webservice viết theo chuẩn REST. REST quy định các quy tắc để bạn làm ra một webservice . Nó chú trọng vào việc lấy resouce (tài nguyên) như là data, image , files từ server trả về client thông qua protocal http.
+<b>Restful Webservice</b>  là một dạng webservice viết theo chuẩn REST. REST quy định các quy tắc để bạn làm ra một webservice . Nó chú trọng vào việc lấy resource (tài nguyên) như là data, image , files từ server trả về client thông qua protocol http.
 
-Bất kỳ một ứng dụng nào cũng thực hiện thao tác CRUD (tạo,đọc,sửa,xoá) dữ liệu. Rest đặt ra một quy tắc mà các lập trình viên muốn xát định rõ ý định của mình thông qua các phương thức http.
+Bất kỳ một ứng dụng nào cũng thực hiện thao tác CRUD (tạo, đọc, sửa, xóa) dữ liệu. Rest đặt ra một quy tắc mà các lập trình viên muốn xác định rõ ý định của mình thông qua các phương thức http.
 
 - Khi lấy dữ liệu, đọc dữ liệu từ server thì phương thức request mình dụng là <b>Get</b>
 - Khi tạo mới một resource thì  phương thức  request là <b>Post</b>
 - Khi cập nhật giá trị thì   phương thức  request là <b>Update</b>
 - Khi xoá một giá trị thì  phương thức  request là <b>Delete</b>
 
-Ví dụ sau là một Restfull của Spring . Ta định nghĩa các <b>@GetMapping</b> tương ứng với method request là GET.
+Ví dụ sau là một Restful của Spring . Ta định nghĩa các <b>@GetMapping</b> tương ứng với method request là GET.
 <b>@PostMapping</b> ứng với request là http Post. <b>@DeleteMapping</b> ứng với request có http là DELETE. Và <b>@PutMapping</b> ứng với request Update.
 
 {% highlight java  linenos %}
@@ -142,7 +142,7 @@ public class BookController {
 <br>
 # **4. Kết luận?**
 
-Ngày nay thì đa số các ứng dụng webservice đều là Restfull cả . Vì nó có nhiều ưu điểm hơn các loại khác như Web Service dựa trên SOAP và WSDL. Đồng thời REST để bảo trì và mở rộng.
+Ngày nay thì đa số các ứng dụng webservice đều là Restful cả . Vì nó có nhiều ưu điểm hơn các loại khác như Web Service dựa trên SOAP và WSDL. Đồng thời REST để bảo trì và mở rộng.
 
 ## **5. Video Demo**
 
