@@ -20,7 +20,7 @@ Chào bạn, trong bài viết hôm nay chúng ta sẽ nói cách sử dụng An
 
 ## **1. Giới thiệu @Lazy Annotation**
 
-Mặc định khi Spring IoC bật lên (start) nó sẽ tạo các Beans mà ta khai báo. Tuy nhiên chúng ta hoàn toàn có thể nói cho Spring IoC không khởi tạo các Bean ngay mà khởi tạo khi ta cần dùng thông qua Annotaion @Lazy.
+Mặc định khi Spring IoC bật lên (start) nó sẽ tạo các Beans mà ta khai báo. Tuy nhiên chúng ta hoàn toàn có thể nói cho Spring IoC không khởi tạo các Bean ngay mà khởi tạo khi ta cần dùng thông qua Annotation @Lazy.
 
 Chúng ta hãy xem ví dụ sau.
 
