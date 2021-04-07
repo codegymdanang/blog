@@ -278,7 +278,7 @@ Trong bài vòng đời của bean. Chúng ta sử dụng InitializingBean, Disp
 {% highlight java linenos %}
 
 @Component
-public class DatabaseInitiaizer {
+public class DatabaseInitializer {
 
     private List < User > listOfUsers = new ArrayList < > ();
 
