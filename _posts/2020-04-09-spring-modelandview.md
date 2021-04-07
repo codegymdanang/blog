@@ -20,7 +20,7 @@ Chào bạn, trong bài viết hôm nay anh sẽ giới thiệu cho các bạn p
 # **1. Model là gì**
 
 Chúng ta sử dụng Interface <b>Model</b> để truyền dữ liệu từ Controller sang View để hiển thị .
-Spring cho phép chúng ta sử dụng Model như là một tham số trong method của Controller nên chúng ta dể dàng lấy , chỉnh sử dữ liệu
+Spring cho phép chúng ta sử dụng Model như là một tham số trong method của Controller nên chúng ta dễ dàng lấy, chỉnh sửa dữ liệu
 để truyền qua cho View.
 
 Như vậy model như là một cầu nối dữ liệu giữa Controller và View. Tầng view có nhiệm vụ hiển thị dữ liệu ra cho người dùng và dữ liệu đó được controller truyền sang cho view. View sẽ kết hợp dữ liệu thô từ controller với <b>HTML,CSS,JS</b> để cho ra một trang web đẹp và hoàn chỉnh.
@@ -55,7 +55,7 @@ Như vây tầng view chúng ta có thể lấy data truyền từ model như sa
 <br>
 
 
-Chúng ta sử dụng <b>${greeting.name}</b> để lấy giá trị bên controller gửi qua. Đây là cách đọc giá trị từ controller qua view bằng kỷ thuật Themeleaf sử dụng cú pháp ${} . Ngoài Themeleaf chúng ta còn nhiều kỷ thuật khác như Velocity, Jstl ect.
+Chúng ta sử dụng <b>${greeting.name}</b> để lấy giá trị bên controller gửi qua. Đây là cách đọc giá trị từ controller qua view bằng kỹ thuật Thymeleaf sử dụng cú pháp ${} . Ngoài Thymeleaf chúng ta còn nhiều kỹ thuật khác như Velocity, Jstl ect.
 
 
 <br>
@@ -116,7 +116,7 @@ public ModelAndView get(@RequestParam("name") String name) {
 # **5. Sự khác nhau giữa các model**
 
 1. Model là một interface trong khi đó ModelMap là một Class.
-2. Model là một  interface nó chứa đựng 4 phương thức addAttribute và một phương thức  merAttribute .
+2. Model là một  interface nó chứa đựng 4 phương thức addAttribute và một phương thức  mergeAttribute .
 3. ModelMap cài đặt lớp  Map interface. Nên nó thêm các phương thức của Map.
 4. ModelAndView là sự kết hợp của 2 mục đích  ModelMap and View . Nó cho phép controller trả về 1 giá trị bao gồm Model và View .  
 
