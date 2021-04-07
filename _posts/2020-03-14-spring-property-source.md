@@ -28,7 +28,7 @@ Trong thực tế chúng ta không điền thẳng giá trị user name và pass
 
 
 {% highlight java linenos %}
-jdbc.driver = com.myslq.driver
+jdbc.driver = com.mysql.driver
 jdbc.url    = http://localhost:3306/example
 jdbc.user   = test
 jdbc.password = test
@@ -37,7 +37,7 @@ jdbc.password = test
 
 - Chúng ta sẽ dùng @PropertySource để load file config.properties. Sau đó sử dụng lấy các giá trị.
 
-- Chúng ta khai báo 1 đối tượng Enviroment. Nếu muốn lấy giá trị jdbc drive nào ta chỉ cần dùng phương thức env.getProperty("jdbc.driver")
+- Chúng ta khai báo 1 đối tượng Environment. Nếu muốn lấy giá trị jdbc driver nào ta chỉ cần dùng phương thức env.getProperty("jdbc.driver")
 
 <br>
 {% highlight java linenos %}
@@ -91,7 +91,7 @@ Chúng ta có thể load nhiều file properties cùng một lúc nếu dự án
 
 ## **3. Sử dụng @Value**
 
-Ngoài cách sử dụng đối tượng Enviroment, ta có thể sử dụng @Value để lấy giá trị trong file properties. Cách này thì anh hay dùng.
+Ngoài cách sử dụng đối tượng Environment, ta có thể sử dụng @Value để lấy giá trị trong file properties. Cách này thì anh hay dùng.
 
 {% highlight java linenos %}
 
@@ -138,7 +138,7 @@ public class ProperySourceDemo implements InitializingBean {
 
 {% endhighlight %}
 
-## **4. Vdieo Demo**
+## **4. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
