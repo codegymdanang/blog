@@ -37,16 +37,16 @@ Anh lấy ví dụ như anh có một ứng dụng là Ví điện tử. Trong �
 
 Như vậy các em thấy anh sử dụng hàm System.out.println trong hàm isPaymentSuccess để log lại các đoạn code đang chạy. Như vậy nó có 2 nhược điểm sau
 - Thứ 1 giả sử như anh có 50 files giống như payment thì anh phải ghi 100 dòng system out.
-- Thứ 2 như các em thấy hàm isPayment thì nên tập trung vào việc thanh toán không nên làm các việc như log. Nhưng vậy là vị phạm nguyên tắt của lập trình một method chỉ nên làm một việc duy nhất
-- Thứ 3 sau này anh muốn sử lại nội dung của log thì anh phải vào từng file để sửa.
+- Thứ 2 như các em thấy hàm isPayment thì nên tập trung vào việc thanh toán không nên làm các việc như log. Như vậy là vi phạm nguyên tắc của lập trình một method chỉ nên làm một việc duy nhất.
+- Thứ 3 sau này anh muốn sửa lại nội dung của log thì anh phải vào từng file để sửa.
 
-Để khắc phục những nhược điểm này chúng ta sử dụng AOP. Chúng ta sẽ move tất cả log (system.out.println) ra một file riêng, trong method isPaymentSuccess chúng ta chỉ có những dòng code cho thanh toán không có hàm system.out.println và chúng ta sẽ sử dụng kỷ thuật nhúng log (system.out.println) vào method isPaymentSuccess bằng AOP. Như vậy chúng ta thấy rằng trong hàm isPaymentSuccess chỉ tập trung vào việc thanh toán không quan tâm tới việc log.
+Để khắc phục những nhược điểm này chúng ta sử dụng AOP. Chúng ta sẽ move tất cả log (system.out.println) ra một file riêng, trong method isPaymentSuccess chúng ta chỉ có những dòng code cho thanh toán không có hàm system.out.println và chúng ta sẽ sử dụng kỹ thuật nhúng log (system.out.println) vào method isPaymentSuccess bằng AOP. Như vậy chúng ta thấy rằng trong hàm isPaymentSuccess chỉ tập trung vào việc thanh toán không quan tâm tới việc log.
 
-Trong làm dự án cũng vậy, anh chia dự án ra nhiều module như đăng ký, đăng nhập, thanh toán. Những module này chỉ làm nhiệm vụ của nó. Còn việc log lại thì anh viết một module riêng sau đó dùng AOP để nhúng vào các method cần ghi log. Như vậy nó giải quyết được vấn đề mỗi module làm 1 việc duy nhất, khi cần thay đổi gì về log anh chỉ cần vô module log mà sửa chứ không phải như cách 1 là vào tất cả các file trong dự án sửa lại.
+Trong làm dự án cũng vậy, anh chia dự án ra nhiều module như đăng ký, đăng nhập, thanh toán. Những module này chỉ làm nhiệm vụ của nó. Còn việc log lại thì anh viết một module riêng sau đó dùng AOP để nhúng vào các method cần ghi log. Như vậy nó giải quyết được vấn đề mỗi module làm 1 việc duy nhất, khi cần thay đổi gì về log anh chỉ cần vào module log mà sửa chứ không phải như cách 1 là vào tất cả các file trong dự án sửa lại.
 
 # **2. Spring AOP Advise**
 
-Hôm nay chúng ta sẽ sử dụng Spring AOP Advise cho ví dụ của mình. Trong ví dụ hôm nay chúng ta sẽ viết một class là CustomerService có các phương thức là hiển thị name và url của khách hàng. Mình sẽ áp dụng AOP trong CustomerService. Nghĩa là trước khi hàm hiển thị name và url chạy thì mình sẽ ghi log nội dụng trước khi hàm đó thực thi.
+Hôm nay chúng ta sẽ sử dụng Spring AOP Advise cho ví dụ của mình. Trong ví dụ hôm nay chúng ta sẽ viết một class là CustomerService có các phương thức là hiển thị name và url của khách hàng. Mình sẽ áp dụng AOP trong CustomerService. Nghĩa là trước khi hàm hiển thị name và url chạy thì mình sẽ ghi log nội dung trước khi hàm đó thực thi.
 
 Trong AOP hỗ trợ cho chúng ta 4 laoij Advise
 
@@ -154,7 +154,7 @@ Customer website : https://levunguyen.com
 
 Bây giờ ta mong muốn trước khi phương thức printName và printURL chạy thì ta ghi log lại trước khi các hàm đó thực thi. Chúng ta sẽ implements MethodBeforeAdvice để làm việc này, 
 
-- Bước 1.  ta tạo ra lớp HackBeforeMethod như sau 
+- Bước 1.  Tạo lớp HackBeforeMethod như sau 
 
 {% highlight java  linenos %}
 
@@ -519,7 +519,7 @@ HijackAroundMethod : Throw exception hacked!
 {% endhighlight %}
 
 
-Trên đây là anh hướng dẫn nguyên lý của Spring AOP cho mọi người nắm thông qua cấu hình XML. Hiện nay thì các dự án của anh không dùng XML nữa mà thay vào đó là dùng annotaion @Aspect , @Before , 
+Trên đây là anh hướng dẫn nguyên lý của Spring AOP cho mọi người nắm thông qua cấu hình XML. Hiện nay thì các dự án của anh không dùng XML nữa mà thay vào đó là dùng annotation @Aspect , @Before , 
 @After như cấu hình dưới đây. Mọi người nên sử dụng nó trong các dự án của SpringBoot. Anh sẽ viết một bài về SpringBoot AOP sau này. Mục đích hôm nay anh muốn mọi người hiểu và cách hoạt động của AOP là như thế nào.
 
 Trong spring boot thì mình bật chức năng đó lên như sau
