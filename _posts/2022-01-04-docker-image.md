@@ -15,7 +15,7 @@ youtubeId: ttKo2gO-BCE
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> Docker Image <b>. Trong Docker mọi thứ đều dựa trên image. Anh ví dụ như anh muốn cài mysql vào máy mình thì trước hết anh sẽ lên docker hub gõ lệnh docker run image của mysql về máy. Sau đó chạy lệnh để start mysql lên dựa vào image.
+Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> Docker Image </b>. Trong Docker mọi thứ đều dựa trên image. Anh ví dụ như anh muốn cài mysql vào máy mình thì trước hết anh sẽ lên docker hub gõ lệnh docker run image của mysql về máy. Sau đó chạy lệnh để start mysql lên dựa vào image.
 
 Nếu các em đã từng ghost win thì các em sẽ thấy chúng ta có 1 image của win. Sau đó chúng ta giải nén (bung) nó ra nhiều máy khác nhau. Khi giải nén xong thì tất cả các máy tính đều có chung 1 cấu hình. 
 

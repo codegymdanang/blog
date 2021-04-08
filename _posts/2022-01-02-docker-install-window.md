@@ -15,7 +15,7 @@ youtubeId: ttKo2gO-BCE
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> cài đặt Docker <b> trên Window. 
+Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> cài đặt Docker </b> trên Window. 
 
 Để cài đặt docker cho window chúng ta cần phải có cấu hình máy tính là chạy windows 10, 64 bit. Đồng thời Ram tối thiểu là 2GB.
 

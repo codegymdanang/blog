@@ -15,7 +15,7 @@ youtubeId: ttKo2gO-BCE
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> Docker Hub <b> 
+Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> Docker Hub </b> 
 Docker Hub là một dịch vụ lưu trữ các docker trên Cloud. Chúng ta có thể download các docker image ở trên mạng và sử dụng trên máy tính của chúng ta. Ví dụ như để cài đặt mysql thay vì anh phải download file mysql trên trang chủ mysql thì bây giờ anh chỉ gõ command để lấy image mysql từ Docker Hub về và cài đặt.
 
 Trong phát triển phần mềm thì chúng ta thường tạo và upload các file docker image lên những Docker Hub của công ty sau đó các dev sẽ lên đây lấy về.

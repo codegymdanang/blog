@@ -15,7 +15,7 @@ youtubeId: ttKo2gO-BCE
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> cài đặt Docker <b> trên ubuntu. 
+Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> cài đặt Docker </b> trên ubuntu. 
 
 ## **1. Bước 1**
 

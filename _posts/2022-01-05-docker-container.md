@@ -15,7 +15,7 @@ youtubeId: ttKo2gO-BCE
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> Docker Container <b>. Chúng ta đã có Image nhưng cái này vẫn chưa chạy được. Ví dụ như mình đã download mysql Image về thì đó chỉ là bước ban đầu. Để chạy được mysql thì chúng ta phải run lệnh docker run để tạo ra một container của mysql. Lúc này chúng ta mới có thể tạo các kết nối đến mysql.
+Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> Docker Container </b>. Chúng ta đã có Image nhưng cái này vẫn chưa chạy được. Ví dụ như mình đã download mysql Image về thì đó chỉ là bước ban đầu. Để chạy được mysql thì chúng ta phải run lệnh docker run để tạo ra một container của mysql. Lúc này chúng ta mới có thể tạo các kết nối đến mysql.
 
 ## **1. Chạy docker container**
 
