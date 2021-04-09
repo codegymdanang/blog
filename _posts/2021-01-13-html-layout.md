@@ -54,12 +54,12 @@ Thông thường 1 website thường có 4 phần trên.
 
 Để làm bố cục của một website như trên ta có 4 phương pháp làm :
 + Chúng ta có thể sử dụng css framework
-+ Chúng ta có thể sử dụng thuột tính CSS float để bố cục các thành phần
++ Chúng ta có thể sử dụng thuộc tính CSS float để bố cục các thành phần
 + Chúng ta có thể sử dụng CSS flex
 + Chúng ta có thể sử dụng CSS Grid
 
 
-- Để tạo được trang web có giao diện như blog của anh gồm 4 thành phần thì các em có thể sử dụng CSS framework là Bootstrap. Để tìm hiểu về bootstrap các em có thể coi các bài viêt tại [đây](https://levunguyen.com/hoc-lap-trinh-bootstrap/)
+- Để tạo được trang web có giao diện như blog của anh gồm 4 thành phần thì các em có thể sử dụng CSS framework là Bootstrap. Để tìm hiểu về bootstrap các em có thể coi các bài viết tại [đây](https://levunguyen.com/hoc-lap-trinh-bootstrap/)
 
 
 - Dùng thuộc tính float để tạo bố cục như hình sau
@@ -293,7 +293,7 @@ footer {
 
 ## **4. Kết luận**
 
-Trong thực tế làm website thì anh hay sử dụng CSS Framework là Bootstrap để xây dựng bố cục và các thành phần của website. Vì mình chỉ cần sử dụng lại các thư viện có sẳn của Framework giúp phát triển website nhanh hơn.
+Trong thực tế làm website thì anh hay sử dụng CSS Framework là Bootstrap để xây dựng bố cục và các thành phần của website. Vì mình chỉ cần sử dụng lại các thư viện có sẵn của Framework giúp phát triển website nhanh hơn.
 
 
 
