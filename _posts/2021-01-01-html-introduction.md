@@ -14,7 +14,7 @@ youtubeId: oyrmITXjKxQ
 
 ## **Giới thiệu nội dung bài viết**
 
-<b>HTML</b> ra đời đóng góp vai trò lớn vào sự phát triển của lĩnh vực Công nghệ thông tin nói chung và ngành <b>lập trình web</b> nói riêng, cũng như mang lại những giá trị ý nghĩa cho người dùng toàn cầu. Vậy HTML là gì? Cách sử dụng nó như thế nào? Bài viết dưới đây sẽ giúp người học <b>lập trình web HTLM</b> giải đáp được những thắc mắc trên. Chúng ta sẽ cùng tìm hiểu về các <b>thẻ HTML</b> cơ bản trong <b>lập trình web</b> bao gồm thẻ title, base, link và style. Và hướng dẫn các bạn sử dụng HTML vào các dự án làm web cũng như cách thao tác với các cú pháp để khai báo thẻ <b>HTML trong lập trình web</b> trở nên hiệu quả hơn.  
+<b>HTML</b> ra đời đóng góp vai trò lớn vào sự phát triển của lĩnh vực Công nghệ thông tin nói chung và ngành <b>lập trình web</b> nói riêng, cũng như mang lại những giá trị ý nghĩa cho người dùng toàn cầu. Vậy HTML là gì? Cách sử dụng nó như thế nào? Bài viết dưới đây sẽ giúp người học <b>lập trình web HTML</b> giải đáp được những thắc mắc trên. Chúng ta sẽ cùng tìm hiểu về các <b>thẻ HTML</b> cơ bản trong <b>lập trình web</b> bao gồm thẻ title, base, link và style. Và hướng dẫn các bạn sử dụng HTML vào các dự án làm web cũng như cách thao tác với các cú pháp để khai báo thẻ <b>HTML trong lập trình web</b> trở nên hiệu quả hơn.  
 
 ## **1. HTML là gì**
 
@@ -65,7 +65,7 @@ Như vậy ta có thẻ mở HTML là \< h1 \> và thẻ đóng html là \< \/h1
 
 - !Doctype html : Dòng này dùng để khai báo phiên bản HTML mà ta sử dụng. Khi khai báo như trên chúng ta thông báo là đang dùng phiên bản mới nhất là 5. Khi sử dụng phiên bản mới nhất của HTML thì chúng ta có thêm nhiều chức năng mới của HTML. HTML có rất nhiều phiên bản từ 1.0, 2.x, 3.x , 4.x và phiên bản mới nhất là 5.
 
-- hmlt 	: Thẻ này dùng để khai báo bắt đầu một trang HTML. Nó bao gồm các thẻ head và body của tài liệu HTML
+- html 	: Thẻ này dùng để khai báo bắt đầu một trang HTML. Nó bao gồm các thẻ head và body của tài liệu HTML
 
 - head 	: Sử dụng để ghi các thông tin về tài liệu HTML nó bao gồm các thể title và meta
 
