@@ -21,7 +21,7 @@ Bài viết dưới đây sẽ hướng dẫn cho các bạn biết được cá
 
 ## **1. Thuộc tính Style trong HTML**
 
-Chúng ta sử dụng thuộc tính style trong các thành phần web để thêm màu sắc, font chữ và kích thướt cho các thành phần web giúp trang web trở nên đẹp hơn.
+Chúng ta sử dụng thuộc tính style trong các thành phần web để thêm màu sắc, font chữ và kích thước cho các thành phần web giúp trang web trở nên đẹp hơn.
 
 Ví dụ chúng ta sử dụng thuộc tính style trong thẻ p như sau. Ta sẽ thấy các chữ trong thẻ p sẽ được in màu xanh, đỏ
 
@@ -55,7 +55,7 @@ Ví dụ chúng ta sử dụng thuộc tính style trong thẻ p như sau. Ta s�
 
 - tagname : là tên các thành phần web có thể là thẻ p, div và các thẻ khác
 - style   : ta khai báo thuộc tính style sẽ được sử dụng trong thẻ HTML
-- property và value : ta khai báo thuộc tính và giá trị cho thuộc tính đó. Ở ví dụ trên ta có <p style="color:red;"> nghĩa là ta khai báo màu sắc các chữ trong thẻ p sẽ có màu đỏ. Hoặc <p style="font-size:50px > nghĩa là kích thướt chữ sẽ là 15px.
+- property và value : ta khai báo thuộc tính và giá trị cho thuộc tính đó. Ở ví dụ trên ta có <p style="color:red;"> nghĩa là ta khai báo màu sắc các chữ trong thẻ p sẽ có màu đỏ. Hoặc <p style="font-size:50px > nghĩa là kích thước chữ sẽ là 15px.
 
 
 ## **3. Màu nền cho trang web**
@@ -86,7 +86,7 @@ Chúng ta có thể thay đổi màu sắc cho chữ bằng cách sử dụng th
 
 ## **5. Sử dụng font chữ**
 
-Để thiết lập font chữ ta sử dụng thuột tính font-family như sau
+Để thiết lập font chữ ta sử dụng thuộc tính font-family như sau
 
 {% highlight html linenos %}
 
@@ -95,9 +95,9 @@ Chúng ta có thể thay đổi màu sắc cho chữ bằng cách sử dụng th
 
 {% endhighlight %} 
 
-## **6. Thiết lập kích thướt font chữ**
+## **6. Thiết lập kích thước font chữ**
 
-Chúng ta sử dụng thuột tính font-size như sau
+Chúng ta sử dụng thuộc tính font-size như sau
 
 {% highlight html linenos %}
 
@@ -108,7 +108,7 @@ Chúng ta sử dụng thuột tính font-size như sau
 
 ## **7. Canh giữa cho chữ và đoạn văn bản**
 
-Chúng ta sử dụng thuột tính text-align để canh giữa cho văn bản
+Chúng ta sử dụng thuộc tính text-align để canh giữa cho văn bản
 
 {% highlight html linenos %}
 
@@ -117,18 +117,18 @@ Chúng ta sử dụng thuột tính text-align để canh giữa cho văn bản
 
 {% endhighlight %} 
 
-## **7. Kết luận**
+## **8. Kết luận**
 
-Chúng ta sử dụng <b>thuột tính style trong các thành phân của HTML</b> nhằm trang trí cho website trở nên đẹp hơn. Chúng ta sử dụng background-color để tạo ra màu nền cho website và các phần tử web. Sử dụng color để tạo màu cho các chữ. Sử dụng font-family để thiết lập kiểu font. Sử dụng font-size để thiết lập kích thướt nội dung trong website và text-align để canh giữa các đoạn văn bản.
+Chúng ta sử dụng <b>thuộc tính style trong các thành phần của HTML</b> nhằm trang trí cho website trở nên đẹp hơn. Chúng ta sử dụng background-color để tạo ra màu nền cho website và các phần tử web. Sử dụng color để tạo màu cho các chữ. Sử dụng font-family để thiết lập kiểu font. Sử dụng font-size để thiết lập kích thước nội dung trong website và text-align để canh giữa các đoạn văn bản.
 
-## **8. Video Demo**
+## **9. Video Demo**
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
 {: refdef}
 
 
-## **9. Thực hành online và source code**
+## **10. Thực hành online và source code**
 
 {:refdef: style="text-align: center;"}
 <a href="https://levunguyen.com/hoc-lap-trinh-online-editor-js/" target="_blank"> ![Sourcecode ](/images/icon/tryit.png){:class="img-responsive"} </a>
