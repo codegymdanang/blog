@@ -27,7 +27,7 @@ Trước đây trình duyệt chỉ hỗ trợ chữ (text) thôi, không hiển
 
 ## **2. Định dạng Multimedia**
 
-Chúng ta có rất nhiều định dạnh khác nhau cho Media. Anh ví dụ như video thì mình có các định dạng là avi, mpeg, wmv, mov, mp4.
+Chúng ta có rất nhiều định dạng khác nhau cho Media. Anh ví dụ như video thì mình có các định dạng là avi, mpeg, wmv, mov, mp4.
 
 Nếu nói về âm thanh thì mình có các định dạng như mid, wav, mp3, wma.
 
