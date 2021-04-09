@@ -75,7 +75,7 @@ Chúng ta có bảng mã hex code như sau
    </head>
    
    <body text = "#0000FF" bgcolor = "#00FF00">
-      <p>Use different color hexa for for body and table and see the result.</p>
+      <p>Use different color hex for for body and table and see the result.</p>
       
       <table bgcolor = "#000000">
          <tr>
