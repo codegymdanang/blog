@@ -18,12 +18,12 @@ Nhằm giúp người học <b>lập trình web HTML</b> dễ dàng tìm kiếm 
 Bài chia sẻ dưới đây sẽ trình bày và hướng dẫn cách sử dụng các thuộc tính trong thẻ HTML bao gồm thuộc tính chính (id , title, class và style) và thuộc tính lang.  
 
 <br>
-Hi vọng với những chia sẻ lí thuyết có kèm theo các ví dụ minh hoạ cho mỗi <b>thuộc tính trong thẻ HTML</b> trong bài viết dưới đây. Các bạn học lập trình web HTML có thể nắm bắt và áp dụng được vào quá trình thực hành làm <b>lập trình web HTML</b>.
+Hy vọng với những chia sẻ lý thuyết có kèm theo các ví dụ minh hoạ cho mỗi <b>thuộc tính trong thẻ HTML</b> trong bài viết dưới đây. Các bạn học lập trình web HTML có thể nắm bắt và áp dụng được vào quá trình thực hành làm <b>lập trình web HTML</b>.
 
 
 ## **1. Thuộc tính trong thẻ HTML**
 
-Hầu hết các thẻ HTML đều có <b>thuộc tính</b> để chúng ta có thể thêm một số thành phần cho <b>thẻ HTML</b>. <b>Thuộc tính</b> được khai báo với cú pháp là name và giá trị. Ví dụ như thẻ p sau đây. Chúng ta khai báo thuột tính align (canh chỉnh vị trí văn bản) có giá trị là center (canh giá trị văn bản trong thẻ p là ở giữa)
+Hầu hết các thẻ HTML đều có <b>thuộc tính</b> để chúng ta có thể thêm một số thành phần cho <b>thẻ HTML</b>. <b>Thuộc tính</b> được khai báo với cú pháp là name và giá trị. Ví dụ như thẻ p sau đây. Chúng ta khai báo thuộc tính align (căn chỉnh vị trí văn bản) có giá trị là center (canh giá trị văn bản trong thẻ p là ở giữa)
 
 {% highlight html linenos %}
 
