@@ -79,9 +79,9 @@ Chúng ta có những thẻ inline tương tự như span như : a, button, inpu
 
 ## **4. Thẻ DIV trong HTML**
 
-Thẻ div được sử dụng như một container (chứ nhiều thẻ khác trong nó). Các em tưởng tượng như mình dùng thẻ div để bọc tất cả các phần tử HTML vào trong một nhóm. Thẻ  DIV được sử dụng chung với CSS để thiết lập các thuộc tính cho các phần tử bên trong nó.
+Thẻ div được sử dụng như một container (chứa nhiều thẻ khác trong nó). Các em tưởng tượng như mình dùng thẻ div để bọc tất cả các phần tử HTML vào trong một nhóm. Thẻ  DIV được sử dụng chung với CSS để thiết lập các thuộc tính cho các phần tử bên trong nó.
 
-Ví dụ dưới đây anh tạo một trang web login để người dùng nhập vào username và password. Các em thấy anh có thẻ div bên ngoài cùng để bọc lại (nhóm lại) các thành phần web khác như lable, input, button mà liên quan đến giao diện login. Như vậy anh có thể canh chỉnh các thành phần bên trong div bằng cách thêm các thuộc tính trong thẻ DIV ngoài, các thành phần bên trong sẽ ảnh hưởng theo.
+Ví dụ dưới đây anh tạo một trang web login để người dùng nhập vào username và password. Các em thấy anh có thẻ div bên ngoài cùng để bọc lại (nhóm lại) các thành phần web khác như label, input, button mà liên quan đến giao diện login. Như vậy anh có thể canh chỉnh các thành phần bên trong div bằng cách thêm các thuộc tính trong thẻ DIV ngoài, các thành phần bên trong sẽ ảnh hưởng theo.
 
 {% highlight html linenos %}
 
