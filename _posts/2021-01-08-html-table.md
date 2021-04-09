@@ -16,14 +16,14 @@ youtubeId: lg-_fm6LpMM
 
 Trong quá trình học và làm việc với <b>lập trình web HTML</b>,  chắc hẳn các bạn sẽ cần sử dụng <b>thẻ tạo bảng table</b> rất nhiều. Vì vậy đòi hỏi người học lập trình web HTML như chúng ta phải nắm vững các loại thẻ cũng như cách sử dụng với mỗi loại thẻ và các thuộc tính để thao tác với bảng table trong lập trình web HTML.
 <br>
-Trong phạm vi bài viết này, anh sẽ trình bày và hướng dẫn các bạn các cách sử dụng phổ biến và quan trọng của <b>thẻ tạo bảng table trong lập trình web HTML</b> bao gồm cách làm như thế nào để tạo bảng, tiêu đề bảng, khoảng cách dòng và côt, trộn các dòng, cột cũng như cách thiết lập chiều cao, chiều dài và header, footer cho bảng. Để thao tác với bảng table trong HTML, chúng ta sẽ sử dụng các thẻ và các thuộc tính như thẻ table, thẻ tr, thẻ td, thẻ th, thuộc tính cellpadding, cellspacing, thuộc tính colspan, rowspan, width, height, thuộc tính caption, thead, toddy.
+Trong phạm vi bài viết này, anh sẽ trình bày và hướng dẫn các bạn các cách sử dụng phổ biến và quan trọng của <b>thẻ tạo bảng table trong lập trình web HTML</b> bao gồm cách làm như thế nào để tạo bảng, tiêu đề bảng, khoảng cách dòng và cột, trộn các dòng, cột cũng như cách thiết lập chiều cao, chiều dài và header, footer cho bảng. Để thao tác với bảng table trong HTML, chúng ta sẽ sử dụng các thẻ và các thuộc tính như thẻ table, thẻ tr, thẻ td, thẻ th, thuộc tính cellpadding, cellspacing, thuộc tính colspan, rowspan, width, height, thuộc tính caption, thead, toddy.
 <br>
 Cụ thể cách sử dụng <b>thẻ tạo bảng table</b> và các thuộc tính như thế nào để thao tác với bảng table trong <b>lập trình web HTML</b>? Những chia sẻ dưới đây sẽ giúp bạn giải đáp những thắc mắc trên ngay nhé.
 
 
 ## **1. Tạo table**
 
-Để tạo table trong HTML chúng ta sử dụng thẻ table. Table được cấu tạo bởi các dòng (row) và các cột (colum). Để tạo row chúng ta dùng thẻ tr và để tạo table chúng ta dùng thẻ td.
+Để tạo table trong HTML chúng ta sử dụng thẻ table. Table được cấu tạo bởi các dòng (row) và các cột (column). Để tạo row chúng ta dùng thẻ tr và để tạo table chúng ta dùng thẻ td.
 
 
 {% highlight html linenos %}
@@ -138,7 +138,7 @@ Chúng ta có thể thiết lập khoảng cách giữa các ô trong table bằ
 
 ## **4. Trộn các dòng và cột**
 
-Chúng ta có thể trộn (merge) các dòng và cột bằng cách sử dụng thuột tính colspan và rowspann như sau
+Chúng ta có thể trộn (merge) các dòng và cột bằng cách sử dụng thuộc tính colspan và rowspan như sau
 
 {% highlight html linenos %}
 
@@ -181,7 +181,7 @@ Chúng ta có thể trộn (merge) các dòng và cột bằng cách sử dụng
 
 ## **5. Thiết lập chiều cao và dài cho table**
 
-Chúng ta sử dụng thuộc tính width và height để xát định chiều cao và rộng cho table
+Chúng ta sử dụng thuộc tính width và height để xác định chiều cao và rộng cho table
 
 {% highlight html linenos %}
 
@@ -228,11 +228,11 @@ Chúng ta có thể thêm tiêu đề cho table bằng thuộc tính caption nh�
          <caption>This is the caption</caption>
          
          <tr>
-            <td>row 1, column 1</td><td>row 1, columnn 2</td>
+            <td>row 1, column 1</td><td>row 1, column 2</td>
          </tr>
          
          <tr>
-            <td>row 2, column 1</td><td>row 2, columnn 2</td>
+            <td>row 2, column 1</td><td>row 2, column 2</td>
          </tr>
       </table>
    </body>
