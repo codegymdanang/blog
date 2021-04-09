@@ -18,7 +18,7 @@ Trong quá trình học và làm việc với <b>lập trình web HTML</b>,  ch�
 <br>
 Trong phạm vi bài viết này, anh sẽ trình bày về các cách sử dụng <b>thẻ hình ảnh img quan trọng và phổ biến trong lập trình web HTML</b> bao gồm chèn ảnh vào văn bản, thêm kích thước, tạo border, canh chỉnh cho hình ảnh và cách thêm đường link vào hình ảnh. Để sử dụng thẻ hình ảnh image trong HTML, chúng ta sẽ sử dụng các thẻ và các thuộc tính.
 <br>
-Cụ thể cách thao tác với các thẻ và các thuộc tính như thế nào để sử dụng <b>thẻ hình ảnh trong HTML</b> ? Những chia sẻ dưới đây sẽ sớm giúp bạn giải đáp những thắc mắc trên ngay nhé.
+Cụ thể cách thao tác với các thẻ và các thuộc tính như thế nào để sử dụng <b>thẻ hình ảnh trong HTML</b>? Những chia sẻ dưới đây sẽ sớm giúp bạn giải đáp những thắc mắc trên ngay nhé.
 
 
 ## **1. Chèn ảnh vào văn bản**
