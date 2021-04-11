@@ -51,7 +51,7 @@ Như vậy dữ liệu trong component này có là firstName và lastName. Ta h
 
 {% highlight javascript  linenos %}
 
-Welcome, {{firstName}} {{lastName}}
+Welcome, { { firstName } } { { lastName } }
 
 {% endhighlight %}
 
