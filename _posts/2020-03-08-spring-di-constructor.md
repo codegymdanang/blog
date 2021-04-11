@@ -95,11 +95,11 @@ public class ClientService {
     @Autowired 
     public ClientService(EmailService messageService) {
         super();
-        this.messageService = messageService;
+        this.emailService = emailService;
     }
 
     public void processMsg(String message) {
-        messageService.sendMsg(message);
+        emailService.sendMsg(message);
     }
 
 
