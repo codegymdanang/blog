@@ -17,7 +17,7 @@ youtubeId: pbWop0QDYPE
 Bất kể bạn dùng loại ngôn ngữ gì để <b>lập trình web</b>, thì trang website cũng cần phải bắt mắt và khiến thu hút khách hàng. Vì vậy thuộc tính <b>màu sắc (color)</b> là một trong những thuộc tính không thể thiếu trong quá trình <b>lập trình web</b>. Với thuộc tính <b>màu sắc (color)</b> trong Bootstrap 4, người dùng có thể sử dụng được cả cho văn bản (Text) và nền (background).
 
 <br>
-Trong những chia sẻ dưới đây anh sẽ giới thiệu kĩ hơn mỗi phần cho các bạn như những loại Class được sử dụng để làm màu sắc cho các chữ (text), hay các màu sắc bạn có thể dùng cho background để áp dụng được vào làm các dự án <b>lập trình web</b>, giúp trang website hoàn thiện hơn.
+Trong những chia sẻ dưới đây anh sẽ giới thiệu chi tiết hơn mỗi phần cho các bạn như những loại Class được sử dụng để làm màu sắc cho các chữ (text), hay các màu sắc bạn có thể dùng cho background để áp dụng được vào làm các dự án <b>lập trình web</b>, giúp trang website hoàn thiện hơn.
  
 
 ## **1. Màu sắc cho Text trong Bootstrap 4**
@@ -52,7 +52,7 @@ Ví dụ như ta có các màu sau.
 
 ## **2. Màu sắc cho Background trong Bootstrap 4**
 
-Để tạo màu cho background chúng ta có các màu sắc sau đây : .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light. Cái này chỉ dùng cho màu background không sử dụng cho text được.
+Để tạo màu cho background chúng ta có các màu sắc sau đây: .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light. Cái này chỉ dùng cho màu background không sử dụng cho text được.
 
 <br>
 {% highlight html  linenos %}
