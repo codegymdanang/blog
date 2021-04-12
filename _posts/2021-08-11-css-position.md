@@ -14,7 +14,7 @@ youtubeId: z5Op9lHxrSA
 
 ## **Giới thiệu nội dung bài viết**
 
-Như các bạn biết, khi làm việc với <b>lập trình web</b>, một khi các bạn đã có được các phần tử web. Các bạn sẽ cần thao tác thêm rất nhiều các bước nữa để trang web được hoàn thiện nhất có thể. Và bước làm anh muốn nhắc đến ở đây là đặt các phần tử web vô những vị trí mà chúng ta mong muốn để bố cục trang web rõ ràng hơn, nội dung dễ đọc hơn, trang web hoạt động tối ưu nhất. Trong <b>lập trình web CSS<b> để làm được việc này, chúng ta sẽ sử dụng đến <b>thuộc tính positon</b>.
+Như các bạn biết, khi làm việc với <b>lập trình web</b>, một khi các bạn đã có được các phần tử web. Các bạn sẽ cần thao tác thêm rất nhiều các bước nữa để trang web được hoàn thiện nhất có thể. Và bước làm anh muốn nhắc đến ở đây là đặt các phần tử web vô những vị trí mà chúng ta mong muốn để bố cục trang web rõ ràng hơn, nội dung dễ đọc hơn, trang web hoạt động tối ưu nhất. Trong <b>lập trình web CSS<b> để làm được việc này, chúng ta sẽ sử dụng đến <b>thuộc tính position</b>.
 <br>
 Trong bài viết này, anh sẽ giúp các bạn hiểu được <b>thuộc tính position trong lập trình web</b> là gì? Những vị trí nào chúng ta có thể sắp xếp phần tử web vào? Và cách làm như thế nào để thao tác với những vị trí relative, static, absolute, fix và sticky. Anh sẽ lấy cụ thể các ví dụ minh hoạ cách thao tác để hướng dẫn các bạn thực hiện được những vị trí đó trong <b>lập trình web</b>.
 
@@ -62,7 +62,7 @@ always positioned according to the normal flow of the page:</p>
 
 ## **3. Position relative**
 
-Chúng ta sử dụng posistion là relative khi chúng ta muốn phần tử web được tạo ra cách bên trái, phải, trên, dưới so với vị trí mặc định ban đầu. Ví dụ div sau khi được tạo ra nó sẽ cách lề trái 30 px
+Chúng ta sử dụng position là relative khi chúng ta muốn phần tử web được tạo ra cách bên trái, phải, trên, dưới so với vị trí mặc định ban đầu. Ví dụ div sau khi được tạo ra nó sẽ cách lề trái 30px
 
 
 {% highlight html linenos %}
@@ -139,7 +139,7 @@ This div element has position: fixed;
 
 ## **5. Position absolute**
 
-Chúng ta sử dụng position absolute để canh chỉnh các phầnn tử con bên trong phần tử cha
+Chúng ta sử dụng position absolute để canh chỉnh các phần tử con bên trong phần tử cha
 
 
 {% highlight html linenos %}
@@ -187,7 +187,7 @@ div.absolute {
 
 ## **6. Position sticky**
 
-Chúng ta sử dụng position sticky để cố định phần tử khi người dùng kéo nội dung của trang web thì các phần tử sticky vẫn không di chuyển mà cố định cho người dùng
+Chúng ta sử dụng position sticky để cố định phần tử khi người dùng kéo nội dung của trang web thì các phần tử sticky vẫn không di chuyển mà cố định cho người dùng.
 
 {% highlight html linenos %}
 
@@ -214,7 +214,7 @@ div.sticky {
 
 <div style="padding-bottom:2000px">
   <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
-  <p>Scroll back up to remove the stickyness.</p>
+  <p>Scroll back up to remove the stickiness.</p>
   <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
   <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 </div>
