@@ -49,7 +49,7 @@ Chúng ta sử dụng background-color để làm màu nền.
 
 ## **2. Background là ảnh**
 
-Chúng ta có thể sử dụng ảnh để làm background bằng cách sử dụng thuột tính background-image
+Chúng ta có thể sử dụng ảnh để làm background bằng cách sử dụng thuộc tính background-image
 
 {% highlight html linenos %}
 
@@ -155,7 +155,7 @@ Ví dụ để lặp lại hình ảnh ta sử dụng thuộc tính background-r
 
 ## **4. Canh chỉnh vị trí Background**
 
-Ví dụ như anh muốn canh vị trí background ảnh cách bên lề trái 100 pixels thì anh sử dụng thuộc tính background-position
+Ví dụ như anh muốn căn vị trí background ảnh cách bên lề trái 100 pixels thì anh sử dụng thuộc tính background-position
 
 {% highlight html linenos %}
 
@@ -200,7 +200,7 @@ Ví dụ như anh muốn canh vị trí background ảnh cách bên lề trái 1
 
 ## **5. Fix cứng vị trí Background**
 
-Trong trường hợp trang web có nội dung dài thì sẽ xuất hiện thanh cuộn bên tay phải để mình có thể kéo lên kéo xuống xem nội dung. Nhưng anh mong muốn nội dụng có thể chạy lên chạy xuống nhưng ảnh background vẫn giữa nguyên vị trí. Lúc này anh muốn fix cứng vị ví của ảnh cho dù người dùng có kéo lên hoặc xuống. Anh sẽ sử dụng thuộc tính background-attachment như sau
+Trong trường hợp trang web có nội dung dài thì sẽ xuất hiện thanh cuộn bên tay phải để mình có thể kéo lên kéo xuống xem nội dung. Nhưng anh mong muốn nội dụng có thể chạy lên chạy xuống nhưng ảnh background vẫn giữ nguyên vị trí. Lúc này anh muốn fix cứng vị ví của ảnh cho dù người dùng có kéo lên hoặc xuống. Anh sẽ sử dụng thuộc tính background-attachment như sau
 
 {% highlight html linenos %}
 
