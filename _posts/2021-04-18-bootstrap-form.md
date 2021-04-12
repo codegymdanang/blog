@@ -25,13 +25,13 @@ Vậy cụ thể mỗi loại <b>form</b> trên là gì, cách làm chúng như 
 
 ## **1. Form trong Bootstrap 4**
 
-Trong Boostrap hỗ trợ chúng ta 2 loại form là Staked Form (form tràn màn hình) và inline Form (form trên cùng 1 dòng).
+Trong Bootstrap hỗ trợ chúng ta 2 loại form là Staked Form (form tràn màn hình) và inline Form (form trên cùng 1 dòng).
 
 
 
 ## **2. Staked Form trong Bootstrap 4**
 
-Chúng ta sử dụng class form-group và form-control
+Chúng ta sử dụng class form-group và form-control.
 
 <br>
 {% highlight html  linenos %}
