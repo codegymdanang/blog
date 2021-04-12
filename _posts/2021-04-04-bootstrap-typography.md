@@ -20,13 +20,13 @@ Cũng tương tự như các ngôn ngữ lập trình khác trong <b>lập trìn
 Trong phạm vi bài viết này, anh sẽ chia sẻ với các bạn về thuộc tính <b>Typography</b> được sử dụng trong <b>lập trình web</b> Bootstrap. Bài viết lần lượt giới thiệu về các thẻ Heading, những mặc định có sẵn trong Bootstrap 4, và các thẻ small, mark, abbr, blockquote, dl được sử dụng trong Bootstrap 4. Trong mỗi phần anh có kèm theo hình ảnh minh hoạ cách làm cho mỗi phần để các bạn tham khảo thêm và dễ nắm bắt với những kiến thức anh chia sẻ trong bài.
 
 
-## **1. Mặc định có sẳn trong Bootstrap 4**
+## **1. Mặc định có sẵn trong Bootstrap 4**
 
-Boostrap 4 sử dụng kích thước front-size là 16px và line-height là 1.5. Font mặc định được sử dụng trong bootstrap 4 là Helvetica Neue. Các thẻ <p> đều có margin top là bằng 0 và margin bottom là 16 px.
+Bootstrap 4 sử dụng kích thước font-size là 16px và line-height là 1.5. Font mặc định được sử dụng trong bootstrap 4 là Helvetica Neue. Các thẻ <p> đều có margin top là bằng 0 và margin bottom là 16 px.
 
 ## **2. Các thẻ Heading trong Bootstrap 4**
 
-Các thẻ Heading từ H1 tới H6 có kích thước border và font như sau.
+Các thẻ Heading từ H1 đến H6 có kích thước border và font như sau.
 
 <br>
 {% highlight html  linenos %}
@@ -40,7 +40,7 @@ h6 Bootstrap heading (1rem = 16px)
 
 {% endhighlight %}
 
-Để hiển thị font có kích thước to, chúng ta sử dụng class display sau đó là kích thước. Boostrap cung cấp 4 loại class để hiển thị kích thước font như sau
+Để hiển thị font có kích thước to, chúng ta sử dụng class display sau đó là kích thước. Bootstrap cung cấp 4 loại class để hiển thị kích thước font như sau:
 
 <br>
 {% highlight html  linenos %}
@@ -80,7 +80,7 @@ h6 Bootstrap heading (1rem = 16px)
 
 ## **4. Thẻ mark trong Bootstrap 4**
 
-Dùng để highlight các chữ text lên màu vàng. Nếu chúng ta muốn sử dụng chức năng highlight
+Dùng để highlight các chữ text lên màu vàng. Nếu chúng ta muốn sử dụng chức năng highlight.
 
 <br>
 {% highlight html  linenos %}
