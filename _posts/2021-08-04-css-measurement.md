@@ -23,7 +23,7 @@ Những chia sẻ dưới đây sẽ giúp các bạn hiểu rõ hơn các đơn
 
 Trong css hỗ trợ cho chúng ta các đơn vị đo như inches, centimeters, phần trăm , em hoặc point 
 
-- Ví dụ như ta muốn border của một table có kích thướt là 1px thì ta khai báo như sau.
+- Ví dụ như ta muốn border của một table có kích thước là 1px thì ta khai báo như sau.
 
 {% highlight html linenos %}
 
@@ -63,7 +63,7 @@ p {letter-spacing: 7em;}
 
 ## **5. Đơn vị đo ex**
 
-Ví dụ anh muốn kích thước của fornt chữ cho chiều cao trong một đoạn văn bản
+Ví dụ anh muốn kích thước của font chữ cho chiều cao trong một đoạn văn bản
 
 {% highlight html linenos %}
 
@@ -82,9 +82,9 @@ p {word-spacing: .15in;}
 
 {% endhighlight %}
 
-## **7. Đơn vị đo milimeters**
+## **7. Đơn vị đo millimeters**
 
-Ví dụ anh muốn khoảng cách giữa các từ trong một văn bản cách nhau 15 milimeters
+Ví dụ anh muốn khoảng cách giữa các từ trong một văn bản cách nhau 15 millimeters
 
 
 {% highlight html linenos %}
@@ -95,7 +95,7 @@ p {word-spacing: .15mm;}
 
 ## **8. Đơn vị đo pica**
 
-1 pica sẽ bằng 12 points do đó 6 pica sẽ tương ứng là 1 inch. Ví dụ anh muốn kích thướt font chữ trong đoạn văn bản là 20 pica.
+1 pica sẽ bằng 12 points do đó 6 pica sẽ tương ứng là 1 inch. Ví dụ anh muốn kích thước font chữ trong đoạn văn bản là 20 pica.
 
 {% highlight html linenos %}
 
@@ -105,7 +105,7 @@ p {font-size: 20pc;}
 
 ## **9. Đơn vị đo point**
 
-Một point sẽ tương ứng với 1/72 inch. Ví dụ anh muốn font chữ có kích thướt 18pt 
+Một point sẽ tương ứng với 1/72 inch. Ví dụ anh muốn font chữ có kích thước 18pt 
 
 {% highlight html linenos %}
 
