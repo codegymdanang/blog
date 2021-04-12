@@ -34,7 +34,7 @@ Hi vọng những chia sẻ dưới đây cùng với những ví dụ minh ho�
 
 Như các em thấy thiết kế blog của anh. Ngay tại trang chủ levunguyen.com anh sử dụng container để bao bọc các thành phần website. Các em sẽ thấy có khoảng trống ở bên tay trái và tay phải. Còn nội dung sẽ ở phần ở giữa. Sử dụng container khi chúng ta muốn thiết lập độ dài cố định cho nội dung các phần tử trong website
 
-Còn khi các em vào các bài đọc chi tiết anh sử dụng container-fluid thì nội dung sẽ tràn đầy màn mình không có khoảng trống bên trái và bên phải
+Còn khi các em vào các bài đọc chi tiết anh sử dụng container-fluid thì nội dung sẽ tràn đầy màn hình không có khoảng trống bên trái và bên phải
 
 ## **2. Thiết lập độ dài cố định**
 
@@ -88,9 +88,9 @@ Mặc định các container trong bootstrap có padding left và right là 15px
 <div class="container p-3 my-3 bg-primary text-white"></div> 
 {% endhighlight %}
 
-## **6. Cấu hình Responsive kích thướt cho container**
+## **6. Cấu hình Responsive kích thước cho container**
 
-Chúng ta có thể sử dung container-sm|md|lg|xl để tạo nên chức năng responsive cho website hiển thị trên các thiết bị khác nhau. Ứng với mỗi sm, md, lg, xl tương ứng với độ rộng theo px như sau.
+Chúng ta có thể sử dụng container-sm|md|lg|xl để tạo nên chức năng responsive cho website hiển thị trên các thiết bị khác nhau. Ứng với mỗi sm, md, lg, xl tương ứng với độ rộng theo px như sau.
 
 {:class="table table-bordered"}
 |  class            |  màn hình cực nhỏ (<576px) |  màn hình nhỏ (>=576px) | màn hình vừa (>= 768px) | màn hình lớn (>=992px) | màn hình cực lớn|
