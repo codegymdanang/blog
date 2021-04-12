@@ -68,7 +68,7 @@ Những chia sẻ dưới đây kèm theo những hình ảnh ví dụ minh ho�
 
 ## **3. Kích thước Button trong Bootstrap 4**
 
-Chúng ta sử dụng class .bnt-lg để tạo cho kích thước button to nhất, btn-sm cho button có kích thước nhỏ nhất. Nếu như không dùng 2 class này thì button sẽ lấy kích thước mặc định
+Chúng ta sử dụng class .btn-lg để tạo cho kích thước button to nhất, btn-sm cho button có kích thước nhỏ nhất. Nếu như không dùng 2 class này thì button sẽ lấy kích thước mặc định
 
 
 {:refdef: style="text-align: center;"}
@@ -110,7 +110,7 @@ Chúng ta sử dụng class .active hoặc thuộc tính disable để cho ngư�
 
 ## **6. Nhóm các Button lại với nhau**
 
-Chúng ta có thể nhóm các button lại với nhau trên cùng 1 hàng
+Chúng ta có thể nhóm các button lại với nhau trên cùng 1 hàng.
 
 {:refdef: style="text-align: center;"}
 ![button4](/images/post/boostrap/button4.png){:class="img-responsive"}
@@ -127,7 +127,7 @@ Chúng ta có thể nhóm các button lại với nhau trên cùng 1 hàng
 
 {% endhighlight %}
 
-## **7. Nhóm các Button cùng kích thướt lại với nhau**
+## **7. Nhóm các Button cùng kích thước lại với nhau**
 
 Chúng ta có thể nhóm các button lại với nhau trên cùng kích thước
 
@@ -146,9 +146,9 @@ Chúng ta có thể nhóm các button lại với nhau trên cùng kích thướ
 
 {% endhighlight %}
 
-## **8. Sắp xếp  các Button theo hàng dọc**
+## **8. Sắp xếp các Button theo hàng dọc**
 
-Chúng ta sử dụng class .btn-group-vertical để sắp xếp các button theo chiều dọc
+Chúng ta sử dụng class .btn-group-vertical để sắp xếp các button theo chiều dọc.
 
 <br>
 {% highlight html  linenos %}
@@ -163,7 +163,7 @@ Chúng ta sử dụng class .btn-group-vertical để sắp xếp các button th
 
 ## **9. Button lồng trong một button khác**
 
-Chúng ta có thể nhóm các button lại với nhau trên cùng kích thước
+Chúng ta có thể nhóm các button lại với nhau trên cùng kích thước.
 
 {:refdef: style="text-align: center;"}
 ![button6](/images/post/boostrap/button6.png){:class="img-responsive"}
