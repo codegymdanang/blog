@@ -59,7 +59,7 @@ selector:pseudo-element {property: value}
       <p>
          The first line of this paragraph will be underlined as defined in the 
          CSS rule above. Rest of the lines in this paragraph will remain normal. 
-         This example shows how to use :first-line pseduo element to give effect 
+         This example shows how to use :first-line pseudo element to give effect 
          to the first line of any HTML element.
       </p>
    </body>
@@ -91,7 +91,7 @@ selector:pseudo-element {property: value}
       <p>
          The first character of this paragraph will be 5em big as defined in the 
          CSS rule above. Rest of the characters in this paragraph will remain 
-         normal. This example shows how to use :first-letter pseduo element 
+         normal. This example shows how to use :first-letter pseudo element 
          to give effect to the first characters  of any HTML element.
       </p>
    </body>
