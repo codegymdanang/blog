@@ -86,7 +86,7 @@ div {
 
 ## **2. Thuộc tính max-width trong css**
 
-Chúng ta sử dụng thuộc tính max-width để thiết lập giá trị maxium (giá trị lớn nhất) của chiều dài của một phần tử HTML.
+Chúng ta sử dụng thuộc tính max-width để thiết lập giá trị maximum (giá trị lớn nhất) của chiều dài của một phần tử HTML.
 
 Giá trị max-width có thể là px, cm, hoặc %. Ví dụ nếu ta sử dụng thẻ div nếu chiều dài của thẻ div mà lớn hơn chiều dài của trình duyệt thì nó sẽ xuất hiện một thanh kéo ngang như vậy thì rất bất tiện cho người dùng vì họ phải kéo chuột mới thấy hết những nội dung còn lại.
 
@@ -113,7 +113,7 @@ div {
 
 <div></div>
 
-<p>Nếu ta thay đổi kích thước của trình duyệt nhỏ lại thì tự động thẻ div sẽ tự đều chỉnh cho vừa với trình duyệt.</p>
+<p>Nếu ta thay đổi kích thước của trình duyệt nhỏ lại thì tự động thẻ div sẽ tự điều chỉnh cho vừa với trình duyệt.</p>
 
 </body>
 </html>
@@ -122,11 +122,11 @@ div {
 
 
 
-Nếu ta thay đổi kích thước của trình duyệt nhỏ lại thì tự động thẻ div sẽ tự đều chỉnh cho vừa với trình duyệt và sẽ không xuất hiện thanh kéo ngang
+Nếu ta thay đổi kích thước của trình duyệt nhỏ lại thì tự động thẻ div sẽ tự điều chỉnh cho vừa với trình duyệt và sẽ không xuất hiện thanh kéo ngang.
 
 ## **3. Thuộc tính min-width trong css**
 
-Ngược với thuộc tính max-width thì thuộc tính min-width sử dụng để thiết lập giá trị min (nhỏ nhất) của chiều dài của một phân tử HTML
+Ngược với thuộc tính max-width thì thuộc tính min-width sử dụng để thiết lập giá trị min (nhỏ nhất) của chiều dài của một phần tử HTML.
 
 Nếu nội dung bên trong của phần tử HTML mà nhỏ hơn giá trị min-width thì giá trị min-width sẽ được sử dụng
 
@@ -165,11 +165,11 @@ span.ex1 {
 
 ## **4. Thuộc tính max-height trong css**
 
-Thuộc tính max-heigh để thiết lập giá trị maxium (giá trị lớn nhất) của chiều cao của một phần tử HTML
+Thuộc tính max-height để thiết lập giá trị maximum (giá trị lớn nhất) của chiều cao của một phần tử HTML
 
 Nếu nội dung bên trong phần tử HTML mà cao hơn giá trị max-height thì sẽ xuất hiện thanh cuộn theo chiều dọc 
 
-Nếu nội dung bên trong phần tử HTML mà không cao hơn giá trị max-heigh thì giá trị này không được sử dụng
+Nếu nội dung bên trong phần tử HTML mà không cao hơn giá trị max-height thì giá trị này không được sử dụng
 
 {% highlight html linenos %}
 
@@ -204,7 +204,7 @@ p.ex1 {
 
 ## **5. Thuộc tính min-height trong css**
 
-Sử dụng thuộc tính min-height để thiết lập chiều cao nhỏ nhất (tối thiểu) cho một phần tử HTML. Nó ngược lại với max-heigh.
+Sử dụng thuộc tính min-height để thiết lập chiều cao nhỏ nhất (tối thiểu) cho một phần tử HTML. Nó ngược lại với max-height.
 
 Nếu nội dung bên trong phân tử mà nhỏ hơn giá trị min-height thì giá trị min-height sẽ được sử dụng
 
