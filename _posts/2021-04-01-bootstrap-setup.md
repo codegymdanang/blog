@@ -20,23 +20,23 @@ Các bạn khi học <b>lập trình web</b> thường nghe nhắc đến thuậ
 Trong những chia sẻ ngay dưới đây, anh sẽ giúp các bạn giải đáp những thắc mắc trên và hướng dẫn cài đặt và sử dụng Bootstrap trong <b>lập trình web</b> cụ thể như thế nào thông qua các ví dụ minh hoạ kèm theo.
  
 
-## **1. Boostrap là gì**
+## **1. Bootstrap là gì**
 
-Boostrap là một framework giúp chúng ta xây dựng website một cách nhanh chóng và dễ dàng. Trong framework bootstrap đã xây dựng sẵn các thiết kế và các template cho form, button, tables, navigation, modal bằng HTML và CSS. Chúng ta chỉ việc sử dụng và không cần mất thời gian để thiết kế. Ngoài ra Bootstrap còn cung cấp cho chúng ta những thư viện Javascript hỗ trợ cho việc làm hiệu ứng trên website. Sử dụng Boostrap sẽ giúp website trở nên responsive, có nghĩa là website sẽ được hiển thị trên nhiều nền tảng khác nhau như điện thoại, máy tính, tivi 
+Bootstrap là một framework giúp chúng ta xây dựng website một cách nhanh chóng và dễ dàng. Trong framework bootstrap đã xây dựng sẵn các thiết kế và các template cho form, button, tables, navigation, modal bằng HTML và CSS. Chúng ta chỉ việc sử dụng và không cần mất thời gian để thiết kế. Ngoài ra Bootstrap còn cung cấp cho chúng ta những thư viện Javascript hỗ trợ cho việc làm hiệu ứng trên website. Sử dụng Bootstrap sẽ giúp website trở nên responsive, có nghĩa là website sẽ được hiển thị trên nhiều nền tảng khác nhau như điện thoại, máy tính, tivi 
 
-## **2. Tại sao lại dùng Boostrap**
+## **2. Tại sao lại dùng Bootstrap**
 
-Hầu hết 70% các lập trình viên đều sử dụng Bootstrap để làm web vì nó có các ưu điểm sau
+Hầu hết 70% các lập trình viên đều sử dụng Bootstrap để làm web vì nó có các ưu điểm sau:
 
-- Dễ sử dụng : Chỉ cần có nền tảng HTML và CSS mọi người có thể sử dụng thành thạo Bootstrap
+- Dễ sử dụng: Chỉ cần có nền tảng HTML và CSS mọi người có thể sử dụng thành thạo Bootstrap.
 
-- Responsive : Chúng ta không cần mất thời gian để canh chỉnh các thành phần trên web để chúng hiện thị trên đa nền tảng (web,mobile,table)
+- Responsive: Chúng ta không cần mất thời gian để canh chỉnh các thành phần trên web để chúng hiển thị trên đa nền tảng (web,mobile,table).
 
-- Tương thích các trình duyệt : Boostrap tương thích với hầu hết các trình duyệt Chrome, Firefox, Safari, và Opera.
+- Tương thích các trình duyệt: Bootstrap tương thích với hầu hết các trình duyệt Chrome, Firefox, Safari, và Opera.
 
-## **3. Làm sao nhúng Boostrap vào website**
+## **3. Làm sao nhúng Bootstrap vào website**
 
-Có 2 cách chúng ta có thể nhúng Boostrap vào website và sử dụng
+Có 2 cách chúng ta có thể nhúng Bootstrap vào website và sử dụng
 
 - Chúng ta có thể lấy bootstrap từ CDN
 <br>
@@ -66,7 +66,7 @@ Chúng ta lên website getbootstrap sau đó download nguyên bộ boostrap về
 
 - Bước 1 : tạo trang HTML5 Doctype
 
-Boostrap sử dụng HTML elements và các thuộc tính Css nên yêu cầu HTML5 doctype ở đầu file html
+Bootstrap sử dụng HTML elements và các thuộc tính Css nên yêu cầu HTML5 doctype ở đầu file html
 <br>
 {% highlight html  linenos %}
 
@@ -81,7 +81,7 @@ Boostrap sử dụng HTML elements và các thuộc tính Css nên yêu cầu HT
 
 - Bước 2 : Cấu hình responsive trên điện thoại
 
-Hiện nay số lượng người dùng điện thoại là rất lớn, nên website của mình cũng phải hiển thị được trên điện thoại. Chính vì vậy khi làm một website mình phải ưu tiên nó phải hiện thị được trên điện thoại trước.
+Hiện nay số lượng người dùng điện thoại là rất lớn, nên website của mình cũng phải hiển thị được trên điện thoại. Chính vì vậy khi làm một website mình phải ưu tiên nó phải hiển thị được trên điện thoại trước.
 
 Chúng ta thêm thẻ meta trong thẻ head để cấu hình
 
