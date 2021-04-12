@@ -91,7 +91,7 @@ div {
 
 - Sẽ có nhiều người nghĩ là chiều width của thẻ div là 320px. Vì thấy thuộc tính width: 320px. Điều này là sai vì như ta nói ở phần trên các phần tử HTML được bao bọc trong một cái gọi là box model. Trong Box model là có thêm phần padding, border. Chính vì vậy khi ta tính ra chiều rộng của một thẻ div thì ta phải cộng thêm chiều rộng của padding, border vào nữa.
 
-- Như vậy chiều rộng đúng sẽ là: 320px + 10px (padding trái) + 10 px (padding phải) + 5 px (border trái) + 5px (border phải) = 350 px. 
+- Như vậy chiều rộng đúng sẽ là: 320px + 10px (padding trái) + 10px (padding phải) + 5 px (border trái) + 5px (border phải) = 350px. 
 
 
 ## **3. Demo Video**
