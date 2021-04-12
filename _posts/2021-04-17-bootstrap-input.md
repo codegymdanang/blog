@@ -20,14 +20,14 @@ Như các bạn có thể nhận thấy, hầu hết các trang website sẽ có
 Trong bài viết hôm nay anh sẽ chia sẻ về chủ đề thuộc tính <b>Input trong lập trình web</b> để giúp các bạn hiểu hơn về thuộc tính này. Trước hết chúng ta sẽ cùng tìm hiểu <b>Input</b> trong Bootstrap 4 là gì? Sau đó cùng lần lượt đi qua những hướng dẫn để thao tác với thuộc tính <b>Input</b> gồm textarea, checkbox, radio, select list trong Bootstrap 4. Cũng như hướng dẫn cách làm để tăng kích thước cho input trong form, và cách để tạo input group, cách kết hợp input group với checkbox hay input group với button.
 
 <br>
-Hi vọng với những chia sẻ dưới đây, các bạn sẽ nắm bắt và áp dụng được vào quá trình làm với các dự án <b>lập trình web</b>, và góp phần tạo ra các trang web hoàn thiệt nhất cho người dùng.
+Hi vọng với những chia sẻ dưới đây, các bạn sẽ nắm bắt và áp dụng được vào quá trình làm với các dự án <b>lập trình web</b>, và góp phần tạo ra các trang web hoàn thiện nhất cho người dùng.
 
 
 ## **1. Input trong Bootstrap 4**
 
-Boostrap hỗ trợ các loại Input HTML5 như text, password, datetime, date, month, time, week, number, email, url, tel, và color.
+Bootstrap hỗ trợ các loại Input HTML5 như text, password, datetime, date, month, time, week, number, email, url, tel, và color.
 
-Ví dụ như ta muốn input có type là text (nhập đoạn text vào input) hoặc nhập vào input là dạng password thì ta chỉ định vào trong thuộc tính type của thẻ input như sau
+Ví dụ như ta muốn input có type là text (nhập đoạn text vào input) hoặc nhập vào input là dạng password thì ta chỉ định vào trong thuộc tính type của thẻ input như sau.
 
 
 
@@ -49,7 +49,7 @@ Chúng ta sử dụng .form-control để input có chiều rộng full màn hì
 
 ## **2. Textarea trong Bootstrap 4**
 
-Để tạo Textarea chúng ta sử dụng thẻ textarea như sau
+Để tạo Textarea chúng ta sử dụng thẻ textarea như sau.
 
 
 <br>
@@ -64,7 +64,7 @@ Chúng ta sử dụng .form-control để input có chiều rộng full màn hì
 
 ## **3. Checkbox trong Bootstrap 4**
 
-Chúng ta sử dụng type là checkbox để tạo các checkbox 
+Chúng ta sử dụng type là checkbox để tạo các checkbox.
 
 <br>
 {% highlight html  linenos %}
@@ -87,7 +87,7 @@ Chúng ta sử dụng type là checkbox để tạo các checkbox
 
 {% endhighlight %}
 
-- Nếu chúng ta mong muốn các check box nằm trên cùng 1 hàng. thì chúng ta dùng class .form-check-inline
+- Nếu chúng ta mong muốn các check box nằm trên cùng 1 hàng. thì chúng ta dùng class .form-check-inline.
 
 <br>
 {% highlight html  linenos %}
@@ -112,7 +112,7 @@ Chúng ta sử dụng type là checkbox để tạo các checkbox
 
 ## **4. Radio trong Bootstrap 4**
 
-- Chúng ta sử dụng type là radio để tạo các radio button như sau
+- Chúng ta sử dụng type là radio để tạo các radio button như sau.
 
 <br>
 {% highlight html  linenos %}
@@ -134,7 +134,7 @@ Chúng ta sử dụng type là checkbox để tạo các checkbox
 </div> 
 {% endhighlight %}
 
-- Nếu chúng ta muốn các radio button cùng nằm trên 1 dòng thì sử dụng class .form-check-inline
+- Nếu chúng ta muốn các radio button cùng nằm trên 1 dòng thì sử dụng class .form-check-inline.
 
 <br>
 {% highlight html  linenos %}
@@ -159,7 +159,7 @@ Chúng ta sử dụng type là checkbox để tạo các checkbox
 
 ## **5. Select list trong Bootstrap 4**
 
-Để tạo ra select list chúng ta dùng thẻ select và option như sau
+Để tạo ra select list chúng ta dùng thẻ select và option như sau.
 
 <br>
 {% highlight html  linenos %}
@@ -196,7 +196,7 @@ Chúng ta có thể tạo ra những input to nhỏ và trung bình bằng cách
 
 ## **7. Input Group**
 
-Chúng ta có thể thêm icon text hoặc button trong input bằng cách sử dụng class .input-group-prepend hoặc .input-group-append
+Chúng ta có thể thêm icon text hoặc button trong input bằng cách sử dụng class .input-group-prepend hoặc .input-group-append.
 
 {:refdef: style="text-align: center;"}
 ![input2](/images/post/boostrap/input2.png){:class="img-responsive"}
@@ -226,7 +226,7 @@ Chúng ta có thể thêm icon text hoặc button trong input bằng cách sử 
 
 ## **8. Input Group và Checkbox**
 
-Chúng ta có thể kết hợp Input Group và checkbox
+Chúng ta có thể kết hợp Input Group và checkbox.
 
 {:refdef: style="text-align: center;"}
 ![input3](/images/post/boostrap/input3.png){:class="img-responsive"}
@@ -257,7 +257,7 @@ Chúng ta có thể kết hợp Input Group và checkbox
 
 ## **9. Input Group và Button**
 
-Chúng ta có thể kết hợp Input Group và Button
+Chúng ta có thể kết hợp Input Group và Button.
 
 {:refdef: style="text-align: center;"}
 ![input4](/images/post/boostrap/input4.png){:class="img-responsive"}
