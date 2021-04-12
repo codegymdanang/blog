@@ -20,12 +20,12 @@ Trong quá trình <b>lập trình web</b>, khi thao tác cho một số trang we
 Để giúp bạn hiểu rõ hơn về thuộc tính <b>danh sách (List)</b> trong <b>lập trình web</b> Bootstrap là gì và cách áp dụng nó vào <b>lập trình web</b> như thế nào? Trong bài viết hôm nay anh sẽ chia sẻ cho các bạn về chủ đề sử dụng <b>List</b> trong Bootstrap 4.
 
 <br>
-Như chúng ta cũng đã biết, trước khi sử dụng được bất kỳ cái gì, chúng ta cũng cần hiểu rõ về nó là gì? Vì vậy đầu tiên anh sẽ giới thiệu cho các bạn hiểu được thuộc tính <b>List</b> trong Bootstrap 4 là gì? Sau đó anh sẽ chuyển sang hướng dẫn cho các bạn cách để làm việc với thuộc tính này như cách để highlight list, liên kết và disable các phần tử trong list. Cũng như cách làm sao để xoá border xung quanh các phần tử, cách để hiển thị danh sách list theo chiều ngang và thêm màu sắc, badges cho các phần tử trong List khi các bạn <b>lập trình web</b>.  
+Như chúng ta cũng đã biết, trước khi sử dụng được bất kỳ cái gì, chúng ta cũng cần hiểu rõ về nó là gì? Vì vậy đầu tiên anh sẽ giới thiệu cho các bạn hiểu được thuộc tính <b>List</b> trong Bootstrap 4 là gì? Sau đó anh sẽ chuyển sang hướng dẫn cho các bạn cách để làm việc với thuộc tính này như cách để highlight list, liên kết và disable các phần tử trong list. Cũng như cách làm sao để xóa border xung quanh các phần tử, cách để hiển thị danh sách list theo chiều ngang và thêm màu sắc, badges cho các phần tử trong List khi các bạn <b>lập trình web</b>.  
  
 
 ## **1. List  trong Bootstrap 4**
 
-Để tạo được list trong web thì chúng ta sử dụng thẻ ul và class .list-group như sau
+Để tạo được list trong web thì chúng ta sử dụng thẻ ul và class .list-group như sau.
 
 {:refdef: style="text-align: center;"}
 ![list1](/images/post/boostrap/list1.png){:class="img-responsive"}
@@ -63,7 +63,7 @@ Như chúng ta cũng đã biết, trước khi sử dụng được bất kỳ c
 
 ## **3. Liên kết trong list**
 
-Chúng ta có thể tạo ra một list (danh sách) và mỗi phần tử trong danh sách sẽ link tới một địa chỉ URL. Chúng ta sử dụng thẻ div thay cho thẻ ul
+Chúng ta có thể tạo ra một list (danh sách) và mỗi phần tử trong danh sách sẽ link tới một địa chỉ URL. Chúng ta sử dụng thẻ div thay cho thẻ ul.
 
 <br>
 {% highlight html  linenos %}
@@ -78,7 +78,7 @@ Chúng ta có thể tạo ra một list (danh sách) và mỗi phần tử trong
 
 ## **4. Disable các phần tử trong list**
 
-Chúng ta có thể làm mờ đi các phần tử trong list không cho người dùng bấm vào bằng cách sử dụng thuộc tính disabled
+Chúng ta có thể làm mờ đi các phần tử trong list không cho người dùng bấm vào bằng cách sử dụng thuộc tính disabled.
 
 {:refdef: style="text-align: center;"}
 ![list3](/images/post/boostrap/list3.png){:class="img-responsive"}
@@ -96,9 +96,9 @@ Chúng ta có thể làm mờ đi các phần tử trong list không cho ngườ
 {% endhighlight %}
 
 
-## **5. Xoá border xung quanh các phần tử trong list**
+## **5. Xóa border xung quanh các phần tử trong list**
 
-Để tạo 1 list không có border chúng ta sử dụng class .list-group-flush. Chúng sẽ xoá đi border và góc tròn xung quanh list
+Để tạo 1 list không có border chúng ta sử dụng class .list-group-flush. Chúng sẽ xoá đi border và góc tròn xung quanh list.
 
 <br>
 {% highlight html  linenos %}
@@ -114,7 +114,7 @@ Chúng ta có thể làm mờ đi các phần tử trong list không cho ngườ
 
 ## **6. Hiển thị danh sách list theo chiều ngang**
 
-Nếu chúng ta muốn danh sách hiển thị theo chiều ngang màn hình thì chúng ta sử dụng class .list-group-horizontal trong .list-group như sau
+Nếu chúng ta muốn danh sách hiển thị theo chiều ngang màn hình thì chúng ta sử dụng class .list-group-horizontal trong .list-group như sau.
 
 <br>
 {% highlight html  linenos %}
@@ -130,7 +130,7 @@ Nếu chúng ta muốn danh sách hiển thị theo chiều ngang màn hình th�
 
 ## **7.Thêm màu sắc cho các phần tử**
 
-Chúng ta có thể sử dụng các class sau đây để tạo màu sắc cho các phần tử trong list như : .list-group-item-success, list-group-item-secondary, list-group-item-info, list-group-item-warning, .list-group-item-danger, .list-group-item-primary, list-group-item-dark and list-group-item-light
+Chúng ta có thể sử dụng các class sau đây để tạo màu sắc cho các phần tử trong list như : .list-group-item-success, list-group-item-secondary, list-group-item-info, list-group-item-warning, .list-group-item-danger, .list-group-item-primary, list-group-item-dark and list-group-item-light.
 
 {:refdef: style="text-align: center;"}
 ![list4](/images/post/boostrap/list4.png){:class="img-responsive"}
