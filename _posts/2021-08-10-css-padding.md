@@ -14,19 +14,19 @@ youtubeId: A-xbE1qQ-NU
 
 ## **Giới thiệu nội dung bài viết**
 
-Trong <b>lập trình web CSS</b>, để bố cục một trang web, nội dung cân đối và rõ ràng, giúp người dùng có những trải nghiệm tốt hơn. Bên cạnh thiết lập khoảng cách giữa các phần tử trong HTML, thì các lập trình viên cũng cần thiết lập khoảng cách giữa các nội dung trong một phần tử web. Để thực hiện được thao tác này, CSS cung cấp cho chúng ta <b>thuộc tính padding</b> để áp dụng vào <b>lập trình web</b>. Trong đó có các giá trị bao gồm padding-bottom canh chỉnh dưới, padding-top canh chỉnh trên, padding-left canh chỉnh trái và padding-right canh chỉnh phải.
+Trong <b>lập trình web CSS</b>, để bố cục một trang web, nội dung cân đối và rõ ràng, giúp người dùng có những trải nghiệm tốt hơn. Bên cạnh thiết lập khoảng cách giữa các phần tử trong HTML, thì các lập trình viên cũng cần thiết lập khoảng cách giữa các nội dung trong một phần tử web. Để thực hiện được thao tác này, CSS cung cấp cho chúng ta <b>thuộc tính padding</b> để áp dụng vào <b>lập trình web</b>. Trong đó có các giá trị bao gồm padding-bottom căn chỉnh dưới, padding-top căn chỉnh trên, padding-left căn chỉnh trái và padding-right căn chỉnh phải.
 <br>
 Trong các phần chia sẻ ngay dưới đây, anh sẽ lần lượt giới thiệu để các bạn hiểu được <b>thuộc tính padding trong lập trình web</b> là gì? Các giá trị sử dụng trong thuộc tính này cũng như sẽ đi sâu vào hướng dẫn cụ thể cách làm của mỗi giá trị. Trong mỗi giá trị như vậy anh sẽ kèm theo ví dụ minh hoạ cách thao tác cụ thể để bạn dễ dàng nắm bắt và áp dụng được vào quá trình thực hành, làm việc với các dự án <b>lập trình web</b>.
 
 
 ## **1. Padding là gì**
 
-Chúng ta sử dụng <b>thuộc tính padding</b> để thiết lập khoảng cách giữa các nội dung trong một phần tử web. Các thuộc tính của padding bao gồm padding-bottom canh chỉnh  dưới, padding-top canh chỉnh trên, padding-left canh chỉnh trái, và padding-right canh chỉnh phải.
+Chúng ta sử dụng <b>thuộc tính padding</b> để thiết lập khoảng cách giữa các nội dung trong một phần tử web. Các thuộc tính của padding bao gồm padding-bottom căn chỉnh  dưới, padding-top căn chỉnh trên, padding-left căn chỉnh trái, và padding-right căn chỉnh phải.
 
 
 ## **2. Thuộc tính Padding-bottom**
 
-Dùng để thiết lập canh dưới cho nội dung bên trong của phần tử. Chúng ta sử dụng thuộc tính padding-bottom
+Dùng để thiết lập căn dưới cho nội dung bên trong của phần tử. Chúng ta sử dụng thuộc tính padding-bottom
 
 
 {% highlight html linenos %}
