@@ -14,7 +14,7 @@ youtubeId: 1K8lGmOg4sg
 
 ## **Giới thiệu nội dung bài viết**
 
-Với những người học <b>lập trình web</b> và làm việc với website. Bên cạnh học và sử dụng ngôn ngữ HTM, thì CSS cũng là một trong những ngôn ngữ được sử dụng phổ biến trong làm web. Vì những tiện ích mà ngôn ngữ này mang lại cho người dùng như giúp tiết kiệm thời gian hơn nhờ vào khả năng cung cấp các rule để định dạng một trang web thay vì phải thiết lập riêng lẻ từng thuộc tính cho từng thẻ như trong lập trình web HTML.
+Với những người học <b>lập trình web</b> và làm việc với website. Bên cạnh học và sử dụng ngôn ngữ HTML, thì CSS cũng là một trong những ngôn ngữ được sử dụng phổ biến trong làm web. Vì những tiện ích mà ngôn ngữ này mang lại cho người dùng như giúp tiết kiệm thời gian hơn nhờ vào khả năng cung cấp các rule để định dạng một trang web thay vì phải thiết lập riêng lẻ từng thuộc tính cho từng thẻ như trong lập trình web HTML.
 <br>
 Trong đó, khi mới bắt đầu làm quen với <b>lập trình web CSS</b>, người học trước hết phải nắm được cách <b>khai báo cú pháp trong lập trình web CSS</b>. Vì vậy trong bài viết hôm nay, anh sẽ trình bày về chủ đề <b>Cú pháp</b> trong CSS để giúp các bạn có thể hiểu và áp dụng được vào thực hành một cách hiệu quả nhất. Bài viết sẽ lần lượt giới thiệu thành phần của cú pháp. Cách thao tác với bộ chọn thẻ TML, bộ chọn Class, ID, bộ chọn là thuộc tính. Hướng dẫn cách chọn selector con, làm như thế nào để sử dụng nhiều CSS trong một style, CSS cho một nhóm selector.
 <br>
@@ -154,7 +154,7 @@ input[type = "text"] {
 
 ## **8. Sử dụng nhiều css trong một style**
 
-Ví dụ như chúng ta muốn sử dụng nhiều loại giá trị như màu sắc, kích thướt, khoảng cách cho thẻ H1. Thì chúng ta có thể ghi nhiều dòng thuộc tính như sau
+Ví dụ như chúng ta muốn sử dụng nhiều loại giá trị như màu sắc, kích thước, khoảng cách cho thẻ H1. Thì chúng ta có thể ghi nhiều dòng thuộc tính như sau
 
 {% highlight css linenos %}
 
@@ -169,7 +169,7 @@ h1 {
 
 ## **9. Sử dụng  css cho một nhóm selector**
 
-Ví dụ như ta có các thẻ H1, H2, H3 đều có chung thuộc tính là color #36, kích thướt font là 4m thì ta có thể nhóm chúng lại với nhau như sau.
+Ví dụ như ta có các thẻ H1, H2, H3 đều có chung thuộc tính là color #36, kích thước font là 4m thì ta có thể nhóm chúng lại với nhau như sau.
 
 {% highlight css linenos %}
 
