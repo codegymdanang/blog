@@ -17,12 +17,12 @@ youtubeId: bGMopuDJKYU
 Tiếp nối các bài viết chia sẻ về các thuộc tính sử dụng trong <b>lập trình web</b> Bootstrap. Trong bài viết hôm nay, anh sẽ trình bày cho các bạn về chủ đề sử dụng thuộc tính <b>bảng (table)</b> trong Bootstrap. Khi <b>lập trình web</b>, thao tác với một số các trang website, một số các trang web có dạng dữ liệu cần biểu diễn dưới dạng bảng.
 
 <br>
-Để giúp các bạn có thể nắm được cách thao tác với thuộc tính <b>bảng (table)</b> trong Bootstrap để áp dụng hiệu quả vào quá trình làm các dự án web, hôm nay anh sẽ hướng dẫn cụ thể cách làm với bảng như sử dụng striped Rows, tạo border, tạo hiệu ứng, xoá border, sử dụng màu sắc, header, responpsive.
+Để giúp các bạn có thể nắm được cách thao tác với thuộc tính <b>bảng (table)</b> trong Bootstrap để áp dụng hiệu quả vào quá trình làm các dự án web, hôm nay anh sẽ hướng dẫn cụ thể cách làm với bảng như sử dụng striped Rows, tạo border, tạo hiệu ứng, xóa border, sử dụng màu sắc, header, responsive.
  
 
 ## **1. Table trong Bootstrap 4**
 
-Để sử dụng được table trong bootstrap chúng ta thêm class .table như sau
+Để sử dụng được table trong bootstrap chúng ta thêm class .table như sau:
 
 Ví dụ như ta có các màu sau.
 
@@ -66,7 +66,7 @@ Ví dụ như ta có các màu sau.
 
 ## **2. Sử dụng Striped Rows trong Bootstrap 4**
 
-Nếu chúng ta muốn trang trí các dòng với màu sắc khác nhau. Ví dụ như các dòng lẻ màu trắng và các dòng chẵn màu đà. Thì ta có thể dùng class .table-striped
+Nếu chúng ta muốn trang trí các dòng với màu sắc khác nhau. Ví dụ như các dòng lẻ màu trắng và các dòng chẵn màu đà. Thì ta có thể dùng class .table-striped.
 
 <br>
 {% highlight html  linenos %}
@@ -112,7 +112,7 @@ Nếu chúng ta muốn trang trí các dòng với màu sắc khác nhau. Ví d�
 
 ## **3. Tạo border trong table**
 
-Chúng ta sử dụng class .table-bordered để tạo border cho table như sau
+Chúng ta sử dụng class .table-bordered để tạo border cho table như sau:
 
 <br>
 {% highlight html  linenos %}
@@ -152,7 +152,7 @@ Chúng ta sử dụng class .table-bordered để tạo border cho table như sa
 
 ## **4. Tạo hiệu ứng cho các dòng trong table**
 
-Chúng ta muốn khi con chuột người dùng di chuyển vào các dòng trên table thì mình làm hiệu ứng sáng cái dòng đó lên. Thì ta sử dụng class .table-hover
+Chúng ta muốn khi con chuột người dùng di chuyển vào các dòng trong table thì mình làm hiệu ứng sáng dòng đó lên. Thì ta sử dụng class .table-hover
 
 <br>
 {% highlight html  linenos %}
@@ -190,9 +190,9 @@ Chúng ta muốn khi con chuột người dùng di chuyển vào các dòng trê
 
 {% endhighlight %}
 
-## **5. Xoá border  trong table**
+## **5. Xóa border trong table**
 
-Chúng ta sử dụng class .table-borderless để xoá border trong table
+Chúng ta sử dụng class .table-borderless để xóa border trong table
 
 <br>
 {% highlight html  linenos %}
@@ -308,7 +308,7 @@ Chúng ta sử dụng class .table-borderless để xoá border trong table
 
 ## **7. Header trong table**
 
-Chúng ta sử dụng class .thead-dark để làm cho header của table có màu đen và .thead-light làm cho header của table có màu xám
+Chúng ta sử dụng class .thead-dark để làm cho header của table có màu đen và .thead-light làm cho header của table có màu xám.
 
 
 <br>
@@ -373,9 +373,9 @@ Chúng ta sử dụng class .thead-dark để làm cho header của table có m�
 
 {% endhighlight %}
 
-## **8. Làm resonpsive table**
+## **8. Làm responsive table**
 
-Chúng ta sử dụng class .table-responsive để thêm thanh kéo khi table ở màn hình nhỏ, nếu ở màn hình bình thường thì sẽ không có thanh khéo xuất hiện. Table chúng ta sẽ hiển thị được nội dung trên các thiết bị khác nhau.
+Chúng ta sử dụng class .table-responsive để thêm thanh kéo khi table ở màn hình nhỏ, nếu ở màn hình bình thường thì sẽ không có thanh kéo xuất hiện. Table chúng ta sẽ hiển thị được nội dung trên các thiết bị khác nhau.
 
 <br>
 {% highlight html  linenos %}
