@@ -22,7 +22,7 @@ Trong bài viết này anh sẽ lần lượt đi qua các phần bao gồm gi�
 
 ## **1. Pseudo Class là gì**
 
-Chúng ta sử dụng pseduo class để thêm hiệu ứng cho một số thành phần trong web, ví dụ khi người dùng sử dụng con chuột di chuyển qua các phần tử web mình có thể xây dựng các hiệu ứng cho hành động này hoặc khi người dùng rê chuột vào một đường link mình có thể thêm hiệu ứng thay đổi màu sắc. Mình không cần dùng javascript để làm hiệu ứng mà cái này có sẵn trong css
+Chúng ta sử dụng pseudo class để thêm hiệu ứng cho một số thành phần trong web, ví dụ khi người dùng sử dụng con chuột di chuyển qua các phần tử web mình có thể xây dựng các hiệu ứng cho hành động này hoặc khi người dùng rê chuột vào một đường link mình có thể thêm hiệu ứng thay đổi màu sắc. Mình không cần dùng javascript để làm hiệu ứng mà cái này có sẵn trong css.
 
 - Cú pháp như sau
 
@@ -40,7 +40,7 @@ selector.class:pseudo-class {property: value}
 
 {% endhighlight %}
 
-## **2. Hiệu ứng :link pseudo-class**
+## **2. Hiệu ứng: link pseudo-class**
 
 {% highlight html linenos %}
 
@@ -62,9 +62,9 @@ selector.class:pseudo-class {property: value}
 ![pseudo1](/images/post/css/pseudo1.png){:class="img-responsive"}
 {: refdef}
 
-- Link Backlink sẽ có màu đen
+- Link Backlink sẽ có màu đen.
 
-## **3. Hiệu ứng :visited pseudo-class**
+## **3. Hiệu ứng: visited pseudo-class**
 
 {% highlight html linenos %}
 
@@ -88,9 +88,9 @@ selector.class:pseudo-class {property: value}
 
 - Khi click vào link sẽ có hiệu ứng biến màu của link thành màu xanh lục.
 
-## **4. Hiệu ứng :hover pseudo-class**
+## **4. Hiệu ứng: hover pseudo-class**
 
-Khi di chuyển chuột ngang qua đường link thì sẽ đổi màu
+Khi di chuyển chuột ngang qua đường link thì sẽ đổi màu.
 
 {% highlight html linenos %}
 
@@ -108,7 +108,7 @@ Khi di chuyển chuột ngang qua đường link thì sẽ đổi màu
 
 {% endhighlight %}
 
-## **5. Hiệu ứng :active pseudo-class**
+## **5. Hiệu ứng: active pseudo-class**
 
 {% highlight html linenos %}
 
@@ -127,7 +127,7 @@ Khi di chuyển chuột ngang qua đường link thì sẽ đổi màu
 
 {% endhighlight %}
 
-## **6. Hiệu ứng :focus pseudo-class**
+## **6. Hiệu ứng: focus pseudo-class**
 
 {% highlight html linenos %}
 
