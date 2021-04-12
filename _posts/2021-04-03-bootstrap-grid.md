@@ -30,7 +30,7 @@ Trong <b>lập trình web</b>, các lập trình viên thường rất quan tâm
 
 ## **2. Grid Class**
 
-Trong grid nó hỗ trợ cho chúng ta 5 loại class để hiển thị trên những thiết bị khác nhau tuỳ theo kích thướt. 
+Trong grid nó hỗ trợ cho chúng ta 5 loại class để hiển thị trên những thiết bị khác nhau tùy theo kích thước. 
 
 - .col-  	: sử dụng cho những thiết bị có kích thước chiều rộng nhỏ hơn 576px
 - .col-sm-	: sử dụng cho những thiết bị có kích thước chiều rộng bằng hoặc lớn hơn 576px
@@ -66,7 +66,7 @@ Ví dụ dưới đây ta có 1 dòng gồm có 2 div trong đó, ta chia tỉ l
 
 Đầu tiên chúng ta tạo ra 1 dòng (<div class="row" </div>). Sau đó chúng ta thêm các cột mà chúng ta mong muốn vào và nhớ tổng số cột chúng ta mong muốn là bằng 12.
 
-Tiếp đến ta cấu hình col đầu tiên col-*-* . Dấu * thứ 1 là hiển thị cho kích thước màn hình chúng có thể là sm, md, lg or xl. Đấu * thứ 2 số lượng colume. Bây giờ chúng ta sẽ tạo ra 1 dòng có 12 cột hiển thị cho thiết bị lớn hơn 576px như sau
+Tiếp đến ta cấu hình col đầu tiên col-*-* . Dấu * thứ 1 là hiển thị cho kích thước màn hình chúng có thể là sm, md, lg or xl. Đấu * thứ 2 số lượng column. Bây giờ chúng ta sẽ tạo ra 1 dòng có 12 cột hiển thị cho thiết bị lớn hơn 576px như sau:
 <br>
 {% highlight html  linenos %}
 
@@ -93,9 +93,9 @@ Tiếp đến ta cấu hình col đầu tiên col-*-* . Dấu * thứ 1 là hi�
 
 {% endhighlight %}
 
-Ở ví dụ trên bootstrap sẽ lấy 100% chia cho 3 div. Như vậy mỗi div sẽ có khoảng cách bằng nhau và chiếm 33.33%
+Ở ví dụ trên bootstrap sẽ lấy 100% chia cho 3 div. Như vậy mỗi div sẽ có khoảng cách bằng nhau và chiếm 33.33%.
 
-Nếu như ta chi có 2 div thì bootstrap sẽ lấy 100% chia cho 2 mỗi div sẽ chiếm 50% như sau:
+Nếu như chúng ta chỉ có 2 div thì bootstrap sẽ lấy 100% chia cho 2 mỗi div sẽ chiếm 50% như sau:
 
 <br>
 {% highlight html  linenos %}
