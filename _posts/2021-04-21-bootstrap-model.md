@@ -17,12 +17,12 @@ youtubeId: naJuL7en_VU
 Trong quá trình làm <b>lập trình web</b>, thiết kế các trang website cho người dùng. Các bạn chắc hẳn sẽ cần dùng đến <b>Modal</b> trong Bootstrap, nó được sử dụng để hiển thị một dialog (hộp thoại) hay popup (cửa sổ hiện lên) trên website. Ví dụ như khi khách hàng truy cập vào trang website của bạn, bạn muốn khách hàng nhận được ngay thông báo về sản phẩm mới ra mắt của bạn hay chương trình sale,…Lúc này bạn sẽ sử dụng Modal để những thông báo này đảm bảo xuất hiện ngay khi khách hàng vào website của bạn.
 
 <br>
-Vậy để hiểu được <b>Modal</b> và cách sử dụng nó trong <b>lập trình web</b> như thế nào? Bài viết hôm nay anh sẽ lần lượt chia sẻ về Modal và hướng dẫn cho các bạn về cách tạo Modal trong Bootstrap 4. Sau khi biết được cách tạo Modal, chúng ta sẽ tìm hiểu thêm các thao tác khác với Modal như cách thêm hiệu ứng Modal, tăng kích thước Modal trong Bootstrap 4. Hay cách để bố trí Modal nằm giữa của màn hình và cách tạo Modal có thanh cuộn trong <b>lập trình web</b> để xử lí trường hợp nếu nội dung bên trong quá nhiều.
+Vậy để hiểu được <b>Modal</b> và cách sử dụng nó trong <b>lập trình web</b> như thế nào? Bài viết hôm nay anh sẽ lần lượt chia sẻ về Modal và hướng dẫn cho các bạn về cách tạo Modal trong Bootstrap 4. Sau khi biết được cách tạo Modal, chúng ta sẽ tìm hiểu thêm các thao tác khác với Modal như cách thêm hiệu ứng Modal, tăng kích thước Modal trong Bootstrap 4. Hay cách để bố trí Modal nằm giữa của màn hình và cách tạo Modal có thanh cuộn trong <b>lập trình web</b> để xử lý trường hợp nếu nội dung bên trong quá nhiều.
  
 
 ## **1. Tạo Modal trong Bootstrap 4**
 
-Khi chúng ta muốn hiển thị một dialog hoặc một popup trên website thì sử dụng modal
+Khi chúng ta muốn hiển thị một dialog hoặc một popup trên website thì sử dụng modal.
 
 {:refdef: style="text-align: center;"}
 ![modal1](/images/post/boostrap/modal1.png){:class="img-responsive"}
@@ -65,7 +65,7 @@ Khi chúng ta muốn hiển thị một dialog hoặc một popup trên website 
 
 ## **2. Thêm hiệu ứng Modal trong Bootstrap 4**
 
-Chúng ta sử dụng class .fade để thêm hiệu ứng khi mở và đóng modal
+Chúng ta sử dụng class .fade để thêm hiệu ứng khi mở và đóng modal.
 
 <br>
 {% highlight html  linenos %}
@@ -81,7 +81,7 @@ Chúng ta sử dụng class .fade để thêm hiệu ứng khi mở và đóng m
 
 ## **3. Tăng kích thước Modal trong Bootstrap 4**
 
-Chúng ta có thể thêm kích thước của modal to hay nhỏ bằng cách sử dụng class .modal-sm hoặc modal-lg hoặc .modal-xl
+Chúng ta có thể thêm kích thước của modal to hay nhỏ bằng cách sử dụng class .modal-sm hoặc modal-lg hoặc .modal-xl.
 
 <br>
 {% highlight html  linenos %}
@@ -107,11 +107,11 @@ Chúng ta có thể thêm kích thước của modal to hay nhỏ bằng cách s
 
 {% endhighlight %}
 
-Mặc định modal có kích thướt trung bình.
+Mặc định modal có kích thước trung bình.
 
 ## **4. Modal nằm giữa màn hình trong Bootstrap 4**
 
-Để tạo modal nằm giữa màn hình chúng ta dùng class .modal-dialog-centered 
+Để tạo modal nằm giữa màn hình chúng ta dùng class .modal-dialog-centered.
 
 <br>
 {% highlight html  linenos %}
@@ -123,7 +123,7 @@ Mặc định modal có kích thướt trung bình.
 
 ## **5. Modal có thanh cuộn nếu nội dung bên trong nhiều**
 
-Chúng ta có thể thêm scrollbar vào bằng việc sử dụng class .modal-dialog-scrollable  .modal-dialog
+Chúng ta có thể thêm scrollbar vào bằng việc sử dụng class .modal-dialog-scrollable  .modal-dialog.
 
 <br>
 {% highlight html  linenos %}
