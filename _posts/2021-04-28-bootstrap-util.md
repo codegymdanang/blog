@@ -20,16 +20,16 @@ Khi <b>lập trình web</b> với Bootstrap, trong Bootstrap 4 đã xây dựng 
 <br>
 Trong những chia sẻ dưới đây, trước hết anh sẽ giúp các bạn hiểu được <b>Util</b> trong Bootstrap 4 là gì? Sau đó sẽ hướng dẫn cách thao tác với Util trong Bootstrap 4 bao gồm:
 <br>
-Cách tạo và thêm màu sắc border, tạo border có góc viền tròn cho các thành phần web, cách sử dụng tính năng Float, thao tác để canh giữa trong Bootstrap cũng như cách như thế nào để thiết lập độ rộng, độ cao của các phần tử trong Bootstrap. Cùng với đó là những hướng dẫn cách tạo hiệu ứng bóng đổ, Iframe Responsive, Positive Vị trí, Close Icon và những bước để ẩn hiển thị một thành phần web bất kì nào đó trong quá trình các bạn làm các dự án <b>lập trình web</b>. 
+Cách tạo và thêm màu sắc border, tạo border có góc viền tròn cho các thành phần web, cách sử dụng tính năng Float, thao tác để canh giữa trong Bootstrap cũng như cách như thế nào để thiết lập độ rộng, độ cao của các phần tử trong Bootstrap. Cùng với đó là những hướng dẫn cách tạo hiệu ứng bóng đổ, Iframe Responsive, Positive Vị trí, Close Icon và những bước để ẩn hiển thị một thành phần web bất kỳ nào đó trong quá trình các bạn làm các dự án <b>lập trình web</b>. 
  
 
 ## **1. Util trong Bootstrap 4**
 
-Boostrap 4 đã xây dựng sẳn một số thư viện và tính năng để trang trí web và các thành phần trong web. Sau đây là những tính năng có sẳn
+Bootstrap 4 đã xây dựng sẵn một số thư viện và tính năng để trang trí web và các thành phần trong web. Sau đây là những tính năng có sẵn.
 
 ## **2. Border trong Bootstrap 4**
 
-Sử dụng class border để thêm hoặc xoá một border của một thành phần web
+Sử dụng class border để thêm hoặc xóa một border của một thành phần web.
 
 <br>
 {% highlight html  linenos %}
@@ -110,7 +110,7 @@ Chúng ta sử dụng class .mx-auto để canh giữa cho các phần tử.
 
 ## **7. Thiết lập độ rộng của các phần tử trong Bootstrap 4** 
 
-Chúng ta có thể sử dụng class w-* . Trong đó * là phần trăm độ rộng mà phần tử web sẽ chiếm
+Chúng ta có thể sử dụng class w-*. Trong đó * là phần trăm độ rộng mà phần tử web sẽ chiếm.
 
 <br>
 {% highlight html  linenos %}
@@ -125,7 +125,7 @@ Chúng ta có thể sử dụng class w-* . Trong đó * là phần trăm độ 
 
 ## **8. Thiết lập độ cao của các phần tử trong Bootstrap 4** 
 
-Tương tự như thiết lập độ rộng ta cũng có thể thiết lập độ cao cho các phần tử bằng class h-* . Trong đó * là phần trăm độ rộng sẽ chiếm.
+Tương tự như thiết lập độ rộng ta cũng có thể thiết lập độ cao cho các phần tử bằng class h-*. Trong đó * là phần trăm độ rộng sẽ chiếm.
 
 <br>
 {% highlight html  linenos %}
@@ -154,7 +154,7 @@ Tương tự như thiết lập độ rộng ta cũng có thể thiết lập đ
 
 ## **10. Iframe Responsive** 
 
-Khi ta nhúng video và website ở một nguồn khác vào trang web mình. Mà mình muốn chúng responsive giống như trang web mình thì mình thêm class embed-responsive-item ở div cha và div con nơi chứa iframe mình thêm class .embed-responsive như sau
+Khi ta nhúng video và website ở một nguồn khác vào trang web mình. Mà mình muốn chúng responsive giống như trang web mình thì mình thêm class embed-responsive-item ở div cha và div con nơi chứa iframe mình thêm class .embed-responsive như sau.
 
 <br>
 {% highlight html  linenos %}
@@ -183,7 +183,7 @@ Khi ta nhúng video và website ở một nguồn khác vào trang web mình. M�
 
 ## **11. Ẩn hiện các thành phần web**
 
-Chúng ta có thể ẩn hoặc hiện các thành phần của web bằng cách sử dụng class .visible hoặc .invisible 
+Chúng ta có thể ẩn hoặc hiện các thành phần của web bằng cách sử dụng class .visible hoặc .invisible.
 
 <br>
 {% highlight html  linenos %}
