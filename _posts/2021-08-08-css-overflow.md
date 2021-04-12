@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 ## **Giới thiệu nội dung bài viết**
 
-Chắc hẳn trong quá trình làm các dự án <b>lập trình web</b>,  một số các bạn sẽ gặp phải trường hợp nội dung văn bản bị tràn ra khỏi các phần tử HTML, vì những phần tử trong có kích thước chiểu dài và cao lớn phần tử bên ngoài bao bọc nó.
+Chắc hẳn trong quá trình làm các dự án <b>lập trình web</b>,  một số các bạn sẽ gặp phải trường hợp nội dung văn bản bị tràn ra khỏi các phần tử HTML, vì những phần tử trong có kích thước chiều dài và cao lớn phần tử bên ngoài bao bọc nó.
 <br>
 Trong <b>lập trình web CSS</b>, để khắc phục tình trạng này CSS cung cấp cho người dùng <b>thuộc tính overflow</b>. Trong bài viết hôm nay, anh giúp cho các bạn hiểu thuộc tính overflow là gì? Giới thiệu và hướng dẫn cách sử dụng các giá trị có trong thuộc tính overflow bao gồm giá trị visible, hidden, scroll, auto. Cuối cùng là trình bày về thuộc tính overflow-x và overflow-y trong CSS.
 <br>
@@ -46,7 +46,7 @@ Ví dụ sau đây ta có nội dung bên trong thẻ div lớn hơn kích thư�
 </head>
 <body>
 
-<div id="overflowTest">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</div>
+<div id="overflowTest">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugiat nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</div>
 
 </body>
 </html>
@@ -206,7 +206,7 @@ div {
 
 ## **7. Thuộc tính overflow-x và overflow-y**
 
-Chúng ta sử dụng thuộc tính overflow-x và overflow-y để canh chỉnh nội dung theo chiều dài và cao. Nếu chiều dài hoặc chiều rộng mà cao và rộng hơn thành phần chứa nó ta có thể thêm các thanh trược vào theo chiều rộng và cao mà mình muốn hoặc chỉ thêm thanh trược chiều cao hoặc chỉ thêm thanh trược chiều rộng
+Chúng ta sử dụng thuộc tính overflow-x và overflow-y để canh chỉnh nội dung theo chiều dài và cao. Nếu chiều dài hoặc chiều rộng mà cao và rộng hơn thành phần chứa nó ta có thể thêm các thanh trược vào theo chiều rộng và cao mà mình muốn hoặc chỉ thêm thanh trượt chiều cao hoặc chỉ thêm thanh trượt chiều rộng.
 
 {% highlight html linenos %}
 
