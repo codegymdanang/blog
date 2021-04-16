@@ -101,7 +101,7 @@ console.log(speech); //Output: undefined
 
 ## **4. Never là gì**
 
-TypeScript có một kiểu dữ liệu mới là never có nghĩa giá trị đó sẽ không xảy ra. Nerver được sử dụng khi ta chắc chắn việc gì đó không xảy ra. Ví dụ sau chúng ta viết function nó sẽ không bao giờ trả về lỗi vì while luôn true nên vòng lặp while chạy vô hạn không bao giờ bị lỗi.
+TypeScript có một kiểu dữ liệu mới là never có nghĩa giá trị đó sẽ không xảy ra. Never được sử dụng khi ta chắc chắn việc gì đó không xảy ra. Ví dụ sau chúng ta viết function nó sẽ không bao giờ trả về lỗi vì while luôn true nên vòng lặp while chạy vô hạn không bao giờ bị lỗi.
 
 {% highlight javascript  linenos %}
 
