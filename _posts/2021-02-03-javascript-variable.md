@@ -22,7 +22,7 @@ Trong phạm vi bài viết hôm nay, anh sẽ trình bày cho các bạn hiểu
 
 ## **1. Biến là gì**
 
-Chúng ta sử dụng biến để lưu lại các giá trị. Giá trị này có thể thay đổi bất cứ lúc nào. Trong Javascript chúng ta sử dung từ khoá var để khai báo một biến. Tên biến phải là duy nhất và không được đặt trùng tên với các biến khác. Chúng ta sử dụng dấu = để gán giá trị cho biến.
+Chúng ta sử dụng biến để lưu lại các giá trị. Giá trị này có thể thay đổi bất cứ lúc nào. Trong Javascript chúng ta sử dụng từ khóa var để khai báo một biến. Tên biến phải là duy nhất và không được đặt trùng tên với các biến khác. Chúng ta sử dụng dấu = để gán giá trị cho biến.
 
 ## **2. Khai báo Biến**
 
@@ -49,7 +49,7 @@ var three;
 
 {% endhighlight %}
 
-- Chúng ta có thể khai báo nhiều biến trên cùng 1 dòng
+- Chúng ta có thể khai báo nhiều biến trên cùng 1 dòng.
 
 {% highlight javascript  linenos %}
 
@@ -57,7 +57,7 @@ var one = 1, two = 'two', three;
 
 {% endhighlight %}
 
-- Chúng ta có thể khai báo biến không cần dùng từ khoá var vẫn được. Nhưng anh khuyên nên dùng để code dể đọc và dể hiểu
+- Chúng ta có thể khai báo biến không cần dùng từ khoá var vẫn được. Nhưng anh khuyên nên dùng để code dễ đọc và dễ hiểu.
 
 {% highlight javascript  linenos %}
 
