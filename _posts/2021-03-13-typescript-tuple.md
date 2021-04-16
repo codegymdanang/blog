@@ -18,7 +18,7 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>Tuple<
 
 ## **1. Tuple là gì**
 
-Chúng ta sử dụng Tuple để chứa 2 hoăc nhiều giá trị có kiểu dữ liệu khác nhau, ví dụ như có thể chứa string và number trong ví dụ sau.
+Chúng ta sử dụng Tuple để chứa 2 hoặc nhiều giá trị có kiểu dữ liệu khác nhau, ví dụ như có thể chứa string và number trong ví dụ sau.
 
 {% highlight javascript  linenos %}
 
