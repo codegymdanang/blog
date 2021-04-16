@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>jquery để thao tác với các thành phần của website</b>là như thế nào?
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>jquery để thao tác với các thành phần của website</b> là như thế nào?
 
 
 # **1. Lấy nội dung và giá trị trên website**
@@ -181,9 +181,9 @@ $(document).ready(function(){
 
 {% endhighlight %}
 
-# **5. Thêm thẻ HTML vào thẻ có sẳn**
+# **5. Thêm thẻ HTML vào thẻ có sẵn**
 
-Jquery cung cấp cho chúng ta 4 phương thức để thêm mới một thành phần web vào thành phần được chọn
+Jquery cung cấp cho chúng ta 4 phương thức để thêm mới một thành phần web vào thành phần được chọn.
 
 - append() : thêm nội dung vào cuối thành phần web được chọn
 - prepend(): thêm nội dung vào  phần đầu tiên của thành phần web được chọn
@@ -297,9 +297,9 @@ $(document).ready(function(){
 
 {% endhighlight %}
 
-# **6. Xoá phần tử hoặc nội dung**
+# **6. Xóa phần tử hoặc nội dung**
 
-Để xoá thành phần trên webiste hoặc nội dung của nó thì chúng ta sử dụng 2 phương thức
+Để xóa thành phần trên website hoặc nội dung của nó thì chúng ta sử dụng 2 phương thức.
 
 - remove() : xoá các phần tử được chọn và các phần tử con của nó.
 - empty()  : xoá các phần tử con của phần tử được chọn
@@ -378,12 +378,12 @@ $(document).ready(function(){
 
 # **7. Thao tác với các CSS**
 
-Chúng ta có thể thêm hoặc xoá các CSS class trong một phần tử web với các phương thức
+Chúng ta có thể thêm hoặc xóa các CSS class trong một phần tử web với các phương thức:
 
-- addClass() : thêm một hoặc nhiều CSS cho phần tử được chọn
-- removeClass() : xoá một hoặc nhiều CSS cho phần tử được chọn
-- toggleClass() : toggle (hoán đổi) giữa hành động thêm và xoá một CSS cho một phần tử được chọn.
-- css()         : set hoặc get thuộc tính style 
+- addClass()    : thêm một hoặc nhiều CSS cho phần tử được chọn.
+- removeClass() : xóa một hoặc nhiều CSS cho phần tử được chọn.
+- toggleClass() : toggle (hoán đổi) giữa hành động thêm và xóa một CSS cho một phần tử được chọn.
+- css()         : set hoặc get thuộc tính style.
 
 {% highlight javascript linenos %}
 
