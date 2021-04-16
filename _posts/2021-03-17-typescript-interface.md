@@ -18,7 +18,7 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>Interf
 
 ## **1. Interface là gì**
 
-Chúng ta sử dụng Interface để định nghĩa một cấu trúc mà bất cứ Class nào khi sử dụng nó đều phải tuân thủ các biến và phương thức có trong interface. Chúng ta sử dụng từ khoá interface để tạo.
+Chúng ta sử dụng Interface để định nghĩa một cấu trúc mà bất cứ Class nào khi sử dụng nó đều phải tuân thủ các biến và phương thức có trong interface. Chúng ta sử dụng từ khóa interface để tạo.
 
 Ví dụ như ta tạo một kiểu dữ liệu interface là IPerson như sau. Nó gồm có 2 thuộc tính là firstName, lastName và phương thức sayHi.
 
@@ -141,7 +141,7 @@ let empObj2:IEmployee = {    // OK
 
 ## **5. Tham số chỉ được phép đọc**
 
-Trong Interface sẽ có những thuộc tính mà ta chỉ cho phép class dùng nó được đọc mà không được thay đổi giá trị. Ta sử dụng từ khoá readonly như sau:
+Trong Interface sẽ có những thuộc tính mà ta chỉ cho phép class dùng nó được đọc mà không được thay đổi giá trị. Ta sử dụng từ khóa readonly như sau:
 
 {% highlight javascript  linenos %}
 
