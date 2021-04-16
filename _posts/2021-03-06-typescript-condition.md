@@ -53,7 +53,7 @@ x > y? console.log('x is greater than y.'): console.log('x is less than or equal
 
 ## **2. Câu điều kiện tử switch**
 
-Trong Typescript cũng tương tự cách dùng switch như trong Javascrip hay Java.
+Trong Typescript cũng tương tự cách dùng switch như trong Javascript hay Java.
 
 {% highlight javascript  linenos %}
 
