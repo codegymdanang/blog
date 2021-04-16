@@ -177,9 +177,9 @@ emp.display(); //Compiler Error: Property 'display' does not exist on type 'IEmp
 
 {% endhighlight %}
 
-## **5. Overide Method Trong Class**
+## **5. Override Method Trong Class**
 
-Chúng ta có thể overide lại method của lớp cha giống như trong Java.
+Chúng ta có thể override lại method của lớp cha giống như trong Java.
 
 {% highlight javascript  linenos %}
 
@@ -266,7 +266,7 @@ emp.display(); //James
 let emp2: Person = emp.find('Steve');
 {% endhighlight %}
 
-Class mà extends một abstract class phải bắt buộc sử dụng từ khoá super trong constructor của mình.
+Class mà extends một abstract class phải bắt buộc sử dụng từ khóa super trong constructor của mình.
 
 ## **7. Generic Class**
 
@@ -299,7 +299,7 @@ kvp2.display(); //Output: Key = CEO, Val = Bill
 
 {% endhighlight %}
 
-Chúng ta khai báo Generic trong thẻ < > sau tên của Class
+Chúng ta khai báo Generic trong thẻ < > sau tên của Class.
 
 
 
