@@ -27,7 +27,7 @@ Javascript là ngôn ngữ kịch bản nó được chạy trong trình duyệt
 
 ## **2. Cài đặt môi trường cho Javascript**
 
-Để học và viết được ngôn ngữ Javascript chúng ta cần cài đặt trình duyệt. Có thể dùng Internet Exploer, Chrome, FireFox, Coccoc. Đây là những trình duyệt giúp chúng ta thấy được kết quả khi chạy các dòng code javascript. Anh thì hay dùng Chrome và FireFox để chạy Javascript
+Để học và viết được ngôn ngữ Javascript chúng ta cần cài đặt trình duyệt. Có thể dùng Internet Explorer, Chrome, FireFox, Coccoc. Đây là những trình duyệt giúp chúng ta thấy được kết quả khi chạy các dòng code javascript. Anh thì hay dùng Chrome và FireFox để chạy Javascript
 
 Các công cụ dùng để lập trình Javascript thì chúng ta có thể dụng Webstorm, Visual Studio là nhiều. Anh thì đang dùng Webstorm nhưng bản này là bản trả tiền, mọi người có thể sử dụng Visual Studio, bản này miễn phí
 
@@ -108,7 +108,7 @@ Javascript xây dựng sẵn một số function (chức năng) có sẵn. Trong
 
 {% endhighlight %}
 
-- Ví dụ như Comfirm Box. Popup hiển thị 2 nút Ok và Cancel
+- Ví dụ như Confirm Box. Popup hiển thị 2 nút Ok và Cancel
 
 {% highlight javascript  linenos %}
 
@@ -123,7 +123,7 @@ if (confirm("Do you want to save changes?") == true) {
 
 {% endhighlight %}
 
-- Ví dụ Promt Box, yêu cầu người dùng nhận vào dữ liệu
+- Ví dụ Prompt Box, yêu cầu người dùng nhận vào dữ liệu
 
 {% highlight javascript  linenos %}
 
