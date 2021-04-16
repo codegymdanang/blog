@@ -14,12 +14,12 @@ youtubeId: Ex3glZTCvlY
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>jquery ajax hoạt động</b>là như thế nào?
+Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách sử dụng <b>jquery ajax hoạt động</b> là như thế nào?
 
 
 # **1. Ajax là gì**
 
-Kỷ thuật Ajax được dùng trong lập trình web với mục đích là lấy dữ liệu hoặc sử lý dữ liệu từ server. Sau đó hiển thị nó lên trang web NHƯNG KHÔNG RELOAD lại trang web.
+Kỹ thuật Ajax được dùng trong lập trình web với mục đích là lấy dữ liệu hoặc xử lý dữ liệu từ server. Sau đó hiển thị nó lên trang web NHƯNG KHÔNG RELOAD lại trang web.
 
 Anh lấy ví dụ như anh có một table chứa danh sách người dùng sau trên hệ thống chăm sóc khách hàng của anh.
 
@@ -27,7 +27,7 @@ Anh lấy ví dụ như anh có một table chứa danh sách người dùng sau
 ![position1](/images/post/jquery/ajax.png){:class="img-responsive"}
 {: refdef}
 
-Bây giờ anh muốn xoá một dòng (khách hàng) thì anh click vào dấu ba chấm bên tay phải sau đó chọn nút "Xoá khỏi tài khoản".
+Bây giờ anh muốn xoá một dòng (khách hàng) thì anh click vào dấu ba chấm bên tay phải sau đó chọn nút "Xóa khỏi tài khoản".
 
 - Trường hợp 1 : nếu như anh không dùng AJAX thì khi hành động xoá tài khoản thành công thì trang web sẽ reload lại nguyên cả trang. Nó sẽ vẽ lại (load lại) phần header, phần footer và các menu của trang web.
 
@@ -37,7 +37,7 @@ Như vậy các em có thể thấy Ajax được sử dụng để vẽ lại g
 
 Nhờ có Ajax mà chúng ta có thể tăng Performance (hiệu năng) của website lên rất nhiều. Trước khi có công nghệ VueJS, Angular hay ReactJS thì Jquery Ajax được sử dụng hầu hết trong tất cả dự án web.
 
-Ngoài việc tăng hiệu năng vì không reload lại nguyên trang web. Ajax còn hoạt động theo cơ chế bất đồng bộ có nghĩa là khi anh bấm vô nút "Xoá khỏi tài khoản" thì nó sẽ thực hiện việc gọi lên server. Trong lúc đó anh có thể tiếp tục thực hiện các nhiệm vụ hay tác vụ khác trên website mà không cần phải chờ cho việc xoá tài khoản thành công rồi anh mới được phép thực hiện các nhiệm vụ khác. 
+Ngoài việc tăng hiệu năng vì không reload lại nguyên trang web. Ajax còn hoạt động theo cơ chế bất đồng bộ có nghĩa là khi anh bấm vào nút "Xóa khỏi tài khoản" thì nó sẽ thực hiện việc gọi lên server. Trong lúc đó anh có thể tiếp tục thực hiện các nhiệm vụ hay tác vụ khác trên website mà không cần phải chờ cho việc xoá tài khoản thành công rồi anh mới được phép thực hiện các nhiệm vụ khác. 
 
 # **2. Ajax Load**
 
@@ -103,7 +103,7 @@ $(document).ready(function(){
 
 - $("button").click : mình đăng ký sự kiện click cho nút button
 - load("/examples/html/test.html") : mình nhận vào đường link trên server lên server để lấy kết quả
-- responseTxt : đây là kết quả trả về từ server. Trong trường hợp này là file test.html của mình. Sau khi có kết quả thì mình sẽ xử lý như thế nào là tuỳ thuộc vào bài toán của mình.
+- responseTxt : đây là kết quả trả về từ server. Trong trường hợp này là file test.html của mình. Sau khi có kết quả thì mình sẽ xử lý như thế nào là tùy thuộc vào bài toán của mình.
 - statusTxt : status của request từ client lên server nếu server trả về thành công thì mình nhận HTTP status là 200 hoặc status text là success từ server trả về. Dựa vào dây mà mình có thể 
 
 # **3. Ajax Get Post**
@@ -189,12 +189,12 @@ $("button").click(function(){
 
 # **4. Sử dụng phương thức ajax**
 
-Trong tất cả dự án anh làm thì anh thường dùng Jquery Ajax dưới đây để code
+Trong tất cả dự án anh làm thì anh thường dùng Jquery Ajax dưới đây để code.
 
 {% highlight javascript linenos %}
 
 var search = {}
-search["username"] = $("#username").val(); // lấy dữ liệu trong ô username và truyền lên cho server
+search["username"] = $("#username").val(); // lấy dữ liệu trong ô username và truyền lên cho server.
 
 $.ajax({
         type: "POST",
@@ -228,31 +228,31 @@ $.ajax({
 
 {% endhighlight %}
 
-- Bước 1.  khai báo sử dụng jquery ajax
+- Bước 1 : Khai báo sử dụng jquery ajax.
 
 {% highlight javascript linenos %}
  $.ajax
 {% endhighlight %}
 
-- Bước 2 : khai báo kiểu yêu cầu là POST hoặc GET và tham số truyền vào cho request
+- Bước 2 : Khai báo kiểu yêu cầu là POST hoặc GET và tham số truyền vào cho request.
 
-+ type: "POST" : khai báo phương thức là POST hoặc GET
-+ url: "/api/search" : đường link của server
-+ data: JSON.stringify(search) : dùng thư viện JSON để chuyển đổi dữ liệu thành định dạng JSON và truyền lên cho server
-+ dataType: 'json' : kiểu định dạnh dữ liệu cho server
++ type: "POST" : khai báo phương thức là POST hoặc GET.
++ url: "/api/search" : đường link của server.
++ data: JSON.stringify(search) : dùng thư viện JSON để chuyển đổi dữ liệu thành định dạng JSON và truyền lên cho server.
++ dataType: 'json' : kiểu định dạng dữ liệu cho server.
 
-- Bước 3 : khi server xử lý thành công
+- Bước 3 : Khi server xử lý thành công.
 
-+ success: function (data) : khi server xử lý thành công thì kết quả sẽ được lưu trong biến data. Sau đó chúng ta sẽ sử lý data bằng việc dùng Jquery tìm các phần tử cần thay đổi sau đó gán dữ liệu vào  $('#feedback').html(json). Các em thấy chúng ta chỉ thay đổi 1 phần trên website chứ không reload nguyên cả trang như anh nói ở phần mở bài. Chính vì vậy mà hiệu suất website rất nhanh. Các em có thay đổi gì thì thay đổi và xử lý web trong method success này.
++ success: function (data) : khi server xử lý thành công thì kết quả sẽ được lưu trong biến data. Sau đó chúng ta sẽ xử lý data bằng việc dùng Jquery tìm các phần tử cần thay đổi sau đó gán dữ liệu vào  $('#feedback').html(json). Các em thấy chúng ta chỉ thay đổi 1 phần trên website chứ không reload nguyên cả trang như anh nói ở phần mở bài. Chính vì vậy mà hiệu suất website rất nhanh. Các em có thay đổi gì thì thay đổi và xử lý web trong method success này.
 
-- Bước 4 : khi server xử lý thất bại
+- Bước 4 : khi server xử lý thất bại.
 
-Chúng ta sử dụng method  error: function (e) để xử lý trường hợp server không trả về được kết quả như mình mong muốn
+Chúng ta sử dụng method  error: function (e) để xử lý trường hợp server không trả về được kết quả như mình mong muốn.
 
 
 # **5. Kết luận**
 
-Hầu như các dự án web sau này anh làm đều không dùng JQuery Ajax nữa mà đã sử dụng các công nghệ làm web mới như ReacJS, VueJS hoặc Angular. Từ năm 2009 về trước thì các dự án anh làm đều dùng Jquery Ajax 
+Hầu như các dự án web sau này anh làm đều không dùng JQuery Ajax nữa mà đã sử dụng các công nghệ làm web mới như ReactJS, VueJS hoặc Angular. Từ năm 2009 về trước thì các dự án anh làm đều dùng Jquery Ajax.
 
 
 
