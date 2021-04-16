@@ -25,7 +25,7 @@ Trong những chia sẻ dưới đây anh sẽ giúp các bạn hiểu được 
 
 Trong Javascript, kế thừa được hỗ trợ khi ta dùng Prototype.
 
-Hãy xem ví dụ sau về đối tượng Student kế thừa từ đối tượng Person
+Hãy xem ví dụ sau về đối tượng Student kế thừa từ đối tượng Person.
 
 {% highlight javascript  linenos %}
 
@@ -40,9 +40,9 @@ Person.prototype.getFullName = function () {
 
 {% endhighlight %}
 
-Ở ví dụ trên ta định nghĩa lớp Person có 2 thuộc tính là firstNam và lastName. Đồng thời chúng ta sử dụng prototype tạo thêm phương thức getFullName cho đối tượng Person
+Ở ví dụ trên ta định nghĩa lớp Person có 2 thuộc tính là firstName và lastName. Đồng thời chúng ta sử dụng prototype tạo thêm phương thức getFullName cho đối tượng Person.
 
-Bây giờ chúng ta sẽ tạo đối tượng Student kế thừa đối tượng Person và mặc định nó sẽ kế thừa 2 thuộc tính là firstName, lastName và phương thức getFullName của Person
+Bây giờ chúng ta sẽ tạo đối tượng Student kế thừa đối tượng Person và mặc định nó sẽ kế thừa 2 thuộc tính là firstName, lastName và phương thức getFullName của Person.
 
 {% highlight javascript  linenos %}
 
@@ -59,7 +59,7 @@ Student.prototype.constructor = Student
 
 {% endhighlight %}
 
-Chúng ta sử dụng Student.prototype để tạo ra đối tượng Person
+Chúng ta sử dụng Student.prototype để tạo ra đối tượng Person.
 
 ## **2. Ví dụ hoàn chỉnh về kế thừa**
 
