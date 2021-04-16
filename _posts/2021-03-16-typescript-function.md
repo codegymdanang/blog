@@ -46,7 +46,7 @@ Sum(2,3); // returns 5
 
 {% endhighlight %}
 
-- Anonymos Function
+- Anonymous Function
 
 Function không tên được chứa đựng trong biến.
 
