@@ -30,7 +30,7 @@ Object là những đối tượng mà ta ánh xạ ở ngoài thực tế. Ví 
 
 Javascript Object bao gồm thuộc tính và phương thức. Thông thường Object là danh từ ví dụ như Giảng Viên, thuộc tính là tính chất của danh từ ví dụ ông giảng viên sẽ có tên, tuổi, địa chỉ. Phương thức là những hành động của ông giảng viên như chạy, dạy, chấm thi. Như vậy các em thấy trong lập trình mình mô tả y chang thực tế.
 
-- Có 3 cách để tạo đối tượng trong javascript
+- Có 3 cách để tạo đối tượng trong javascript:
 
 - Tạo đối tượng bằng object literal
 
@@ -53,7 +53,7 @@ Ví dụ chúng ta tạo một nhân viên tên Kumar và mức lương là 4K. 
 
 - Tạo đối tượng bằng new Object
 
-Chúng ta sử dụng từ khoá new để tạo ra một đối tượng
+Chúng ta sử dụng từ khóa new để tạo ra một đối tượng
 
 Cú pháp
 
@@ -95,7 +95,7 @@ emp = new emp(103,"Vimal Jaiswal",30000);
 
 {% endhighlight %}
 
-Chúng ta sử dụng từ khoá this để tham chiếu đến đối tượng hiện tại trong 
+Chúng ta sử dụng từ khóa this để tham chiếu đến đối tượng hiện tại trong 
 trường hợp này this chính là emp.
 
 Các tham số id, name, salary chính là thuộc tính của đối tượng. Thuộc tính sẽ được mô tả thành các biến trong đối tượng
