@@ -20,7 +20,7 @@ Như trong những chia sẻ về Biến trong <b>lập trình web</b> JavaScrip
 Vậy <b>Mảng (Array)</b> trong ngôn ngữ lập trình JavaScript là gì? Các cách thao tác với Mảng như khai báo, lấy các phần tử trong Mảng, kiểm tra xem có bao nhiêu phần từ trong độ dài của Mảng và tìm hiểu các phương thức có sẵn trong Mảng để áp dụng vào khi sử dụng ngôn ngữ JavaScript trong <b>lập trình web</b>.
 
 <br>
-Bài viết hôm nay anh sẽ trình bày về chủ đề <b>Mảng</b> trong JavaScript, hi vọng thông qua những chia sẻ trong bài viết sẽ giúp các bạn giải đáp được những thắc mắc trên cũng như vận dụng được vào thực hành.
+Bài viết hôm nay anh sẽ trình bày về chủ đề <b>Mảng</b> trong JavaScript, hy vọng thông qua những chia sẻ trong bài viết sẽ giúp các bạn giải đáp được những thắc mắc trên cũng như vận dụng được vào thực hành.
 
 
 ## **1. Mảng là gì**
@@ -113,7 +113,7 @@ numericArray[3]; // returns 4
 
 ## **4. Độ dài của mảng Mảng**
 
-Để biết được kích thước và độ dài của mảng có bao nhiêu phần tử, ta sử dụng từ khoá length
+Để biết được kích thước và độ dài của mảng có bao nhiêu phần tử, ta sử dụng từ khoá length.
 
 
 {% highlight javascript  linenos %}
@@ -126,7 +126,7 @@ var len = stringArray.length // kết quả là 4
 
 ## **5. Các phương thức có sẵn trong Mảng**
 
-Array có hỗ trợ sẵn các phương thức để thao tác với các phần tử trong mảng như concat() , filter(), forEach(), join(), map(), pop(), push(), reduce(), reverse(), slice(), sort(), toString(), unship() để thao tác với các phần tử trong mảng. Các phương thức thường sử dụng phổ biến nhất là 
+Array có hỗ trợ sẵn các phương thức để thao tác với các phần tử trong mảng như concat() , filter(), forEach(), join(), map(), pop(), push(), reduce(), reverse(), slice(), sort(), toString(), unship() để thao tác với các phần tử trong mảng. Các phương thức thường sử dụng phổ biến nhất là:
 + pop xoá 1 phần tử khỏi mảng
 + push là thêm 1 phần tử vào mảng 
 + slice cắt mảng      
