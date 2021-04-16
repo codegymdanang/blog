@@ -49,7 +49,7 @@ for (var i = 0; i < 5; i++)
 }
 {% endhighlight %}
 
-Trong vòng lặp loop 3 thành phần có thể không cần thiết khai báo, mình chỉ cần khai báo giá trị initializer trước khi vòng lặp chạy vẫn được. Nhưng cách này anh khuyên không nên dùng vì gây khó hiểu
+Trong vòng lặp loop 3 thành phần có thể không cần thiết khai báo, mình chỉ cần khai báo giá trị initializer trước khi vòng lặp chạy vẫn được. Nhưng cách này anh khuyên không nên dùng vì gây khó hiểu.
 
 {% highlight javascript  linenos %}
 
@@ -69,7 +69,7 @@ for (; ;) {
 
 ## **2. Vòng lặp while là gì**
 
-Vòng lặp While sẽ thực hiện các dòng code ở trong nó cho đến khi điều kiện không thoả mãn. Khác với vòng lặp for ta biết trước số lần vòng lặp sẽ chạy còn vòng lặp while thì không biết trước.
+Vòng lặp While sẽ thực hiện các dòng code ở trong nó cho đến khi điều kiện không thỏa mãn. Khác với vòng lặp for ta biết trước số lần vòng lặp sẽ chạy còn vòng lặp while thì không biết trước.
 
 - Cú pháp
 
