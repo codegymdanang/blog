@@ -65,11 +65,11 @@ try{
 </script>
 {% endhighlight %}
 
-- Chúng ta sử dụng e.message để lấy thông báo lỗi (e là đại diện cho Error)
+- Chúng ta sử dụng e.message để lấy thông báo lỗi (e là đại diện cho Error).
 
 ## **4. Sử dụng Throw ném ngoại lệ**
 
-Sẽ có những trường hợp trong function của mình muốn ném ra một ngoại lệ để các function khác khi gọi nó có thể bắt ngoại lệ và xử lý tiếp. Để function ném ra ngoại lệ thì ta dùng từ khoá Throw
+Sẽ có những trường hợp trong function của mình muốn ném ra một ngoại lệ để các function khác khi gọi nó có thể bắt ngoại lệ và xử lý tiếp. Để function ném ra ngoại lệ thì ta dùng từ khóa Throw.
 
 - Cú pháp
 
