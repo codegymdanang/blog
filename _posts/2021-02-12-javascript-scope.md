@@ -14,7 +14,7 @@ youtubeId: YoXuyu1Ys4g
 
 ## **Giới thiệu nội dung bài viết**
 
-Khi thao tác với các biến, đối tượng và function trong <b>lập trình web</b> với ngôn ngữ JavaScript, không phải khi nào chúng cũng tồn tại và có thể gọi được bất cứ lúc nào để sử dụng. Mà còn tuỳ thuộc vào phạm vi hoạt động của chúng. Trong JavaScript, phạm vi hoạt động đó được gọi là <b>Scope</b>.
+Khi thao tác với các biến, đối tượng và function trong <b>lập trình web</b> với ngôn ngữ JavaScript, không phải khi nào chúng cũng tồn tại và có thể gọi được bất cứ lúc nào để sử dụng. Mà còn tùy thuộc vào phạm vi hoạt động của chúng. Trong JavaScript, phạm vi hoạt động đó được gọi là <b>Scope</b>.
 
 Bài viết này sẽ giúp bạn hiểu rõ hơn về <b>Scope</b> là gì? Tìm hiểu về 2 loại <b>Scope</b> trong JavaScript là Global (phạm vi toàn cục) và Local (phạm vi nhất định). Đồng thời trình bày cho các bạn về Hoisting biến và Hoisting function trong ngôn ngữ <b>lập trình web</b> JavaScript là gì? Trong mỗi loại anh sẽ có các ví dụ minh hoạ kèm theo để hướng dẫn cụ thể cách sử dụng cho các bạn dễ dàng nắm bắt và áp dụng được vào thực hành trong <b>lập trình web</b> hiệu quả hơn.
 
@@ -27,7 +27,7 @@ Có 2 loại scope trong javascript là Global (phạm vi toàn cục) và Local
 
 ## **2. Global scope là gì**
 
-Các biến khai báo ngoài các function được gọi là global. Biến này được dùng chung cho các funcation, các function có thể thấy được biến này và thay đổi giá trị của biến này
+Các biến khai báo ngoài các function được gọi là global. Biến này được dùng chung cho các function, các function có thể thấy được biến này và thay đổi giá trị của biến này
 
 - Ví dụ
 
@@ -113,7 +113,7 @@ Trong ví dụ trên biến userName chỉ được sử dụng trong function c
 
 ## **4. Hoisting biến gì**
 
-Hoising là một khái niệm được đưa vào Javascript, nó khác với các ngôn ngữ lập trình khác. Ý chính của hoisting là các biến và function có thể được dùng trước khi mình khai báo.
+Hoisting là một khái niệm được đưa vào Javascript, nó khác với các ngôn ngữ lập trình khác. Ý chính của hoisting là các biến và function có thể được dùng trước khi mình khai báo.
 
 Thông thường chúng ta code như sau. 
 
@@ -129,7 +129,7 @@ alert('x = ' + x); // display x = 1
 
 Chúng ta khai báo var x, sau đó chúng ta gán giá trị x = 1, cuối cùng là thực hiện function alert.
 
-Hoisting cho phép chúng ta sử dụng biến x trước khi khai báo như sau
+Hoisting cho phép chúng ta sử dụng biến x trước khi khai báo như sau:
 
 {% highlight javascript  linenos %}
 
