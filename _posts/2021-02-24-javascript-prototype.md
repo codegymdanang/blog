@@ -21,7 +21,7 @@ Trong phạm vi bài viết này, anh sẽ chia sẻ về <b>Prototype</b>. Hi v
 
 ## **1. Prototype là gì**
 
-Javascript là ngôn ngữ động chúng ta có thể thêm thuộc tính mới với Object bất cứ lúc nào. Chúng ta hãy xem ví dụ sau
+Javascript là ngôn ngữ động chúng ta có thể thêm thuộc tính mới với Object bất cứ lúc nào. Chúng ta hãy xem ví dụ sau:
 
 {% highlight javascript  linenos %}
 
@@ -52,11 +52,11 @@ Tuy nhiên đối tượng studObj2 không có thuộc tính age, chính vì v�
 
 Như vậy khi muốn thêm một thuộc tính mới và đối tượng có sẵn ta dùng Prototype.
 
-Protype được cài đặt mặt định trong tất cả function và đối tượng của Javascript. Được sử dụng để ta có thể lấy thêm và chỉnh sửa các giá trị trong đối tượng và function. 
+Prototype được cài đặt mặc định trong tất cả function và đối tượng của Javascript. Được sử dụng để ta có thể lấy thêm và chỉnh sửa các giá trị trong đối tượng và function. 
 
  ## **2. Prototype gán giá trị**
 
-Như các em thấy ở ví dụ 1 biến age chỉ có ở đối tượng studObj1, có cách nào để nó có thể có cho tất cả các đối tượng khác được không. Trong trường hợp này là studObj2. Để làm được việc này ta khai báo như sau
+Như các em thấy ở ví dụ 1 biến age chỉ có ở đối tượng studObj1, có cách nào để nó có thể có cho tất cả các đối tượng khác được không. Trong trường hợp này là studObj2. Để làm được việc này ta khai báo như sau.
 
 {% highlight javascript  linenos %}
 
