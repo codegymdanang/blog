@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [typescript]
 summery: Enum   
 image: /images/blog/feature_javascript.png
-description : Giúp hiểu được thuật ngữ Enum trong TypeScript là gì? Tìm hiểu về Enum, Nummeric Enum, Sting Enum, Heterogeneous Enum trong ngôn ngữ lập trình TypeScript. Hướng dẫn cách sử dụng các loại Enum trong TypeScript thông qua những hình ảnh ví dụ minh hoạ các thao tác làm, cú pháp thực hiện để người đọc tham khảo và áp dụng được vào thực hành hiệu quả hơn.
+description : Giúp hiểu được thuật ngữ Enum trong TypeScript là gì? Tìm hiểu về Enum, Numeric Enum, Sting Enum, Heterogeneous Enum trong ngôn ngữ lập trình TypeScript. Hướng dẫn cách sử dụng các loại Enum trong TypeScript thông qua những hình ảnh ví dụ minh hoạ các thao tác làm, cú pháp thực hiện để người đọc tham khảo và áp dụng được vào thực hành hiệu quả hơn.
 youtubeId: Ex3glZTCvlY
 ---
 
@@ -20,12 +20,12 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về <b>Enum</
 
 Typescript cũng hỗ trợ Enum giống như Enum trong Java vậy. Enum cho phép chúng ta tạo một nhóm các giá trị hằng số trong một nơi chung.
 
-Có 3 loại Enum là Nummeric, String, Heterogeneous.
+Có 3 loại Enum là Numeric, String, Heterogeneous.
 
 
-## **2. Nummeric Enum là gì**
+## **2. Numeric Enum là gì**
 
-Chúng ta sử dụng từ khoá enum để tạo Enum.
+Chúng ta sử dụng từ khóa enum để tạo Enum.
 
 {% highlight javascript  linenos %}
 
@@ -66,7 +66,7 @@ enum PrintMedia {
 
 Như vậy giá trị Newspaper là 1, thì giá trị Newsletter là 2, Magazine là 3 và Book là 4. Nếu không gán giá trị thì mặc định là 0.
 
-- Trả về giá trị Nummeric Enum trong function**
+- Trả về giá trị Numeric Enum trong function**
 
 Chúng ta có thể trả về kết quả Enum trong function như sau:
 
@@ -90,7 +90,7 @@ let mediaType: PrintMedia = getMedia('Forbes'); // returns Magazine
 {% endhighlight %}
 
 
-## **3. Sting Enum là gì**
+## **3. String Enum là gì**
 
 Chúng ta có thể sử dụng String trong enum như sau:
 
