@@ -69,7 +69,7 @@ Nguyên lý hoạt động của Jquery là mình chọn thành phần nào trê
 
 + $        : dấu $ là ký hiệu để ta khai báo sử dụng Jquery
 + selector : chính là các thành phần mình chọn trên trang web. Mình có thể chọn theo id, class, hay tên thẻ.
-+ action   : chính la hành động mà ta tính thực hiện trên phần tử web mà ta đã chọn
++ action   : chính là hành động mà ta tính thực hiện trên phần tử web mà ta đã chọn
 
 Jquery selector được sử dụng để tìm các phần tử trên web dựa vào tên, id, class, type, attribute của một phần tử HTML 
 
@@ -81,7 +81,7 @@ $("p")
 
 {% endhighlight %}
 
-- Hoặc ví dụ khi click vô button thì tất cả các thẻ paragraph đều ẩn đi.
+- Hoặc ví dụ khi click vào button thì tất cả các thẻ paragraph đều ẩn đi.
 
 {% highlight javascript linenos %}
 
@@ -92,17 +92,17 @@ $("button").click(function(){
 {% endhighlight %}
 
 
-- Đoạn mã $("button")  : giúp chúng ta tìm ra button trên website. 
-- Đoạn mã $("button").click :  sau khi tìm ra được button thì action là thêm vào sự kiện click cho button.
-- function(){ $("p").hide(); }) : Khi người dùng click vô nút button thì dòng lệnh bên trong function click sẽ được chạy.
+- Đoạn mã $("button"): giúp chúng ta tìm ra button trên website. 
+- Đoạn mã $("button").click: sau khi tìm ra được button thì action là thêm vào sự kiện click cho button.
+- function(){ $("p").hide(); }): Khi người dùng click vào nút button thì dòng lệnh bên trong function click sẽ được chạy.
 Trong trường hợp này $("p").hide();
-- $("p") : giúp chúng ta tìm tất cả thẻ p có trong trang web
-- $("p").hide() : khi đã tìm được thẻ p thì hành động là ẩn tất cả thẻ p đi thông qua action là hide();
+- $("p"): giúp chúng ta tìm tất cả thẻ p có trong trang web.
+- $("p").hide(): khi đã tìm được thẻ p thì hành động là ẩn tất cả thẻ p đi thông qua action là hide();
 
 # **3. Tìm phần tử HTML bằng ID**
 
 Chúng ta có thể tìm được thành phần của web thông qua id. Như ta đã biết mỗi thành phần web đều có thuộc tính id và giá trị của nó.
-Chúng ta sử dụng cú pháp Jquery #id để lấy phần tử web ta muốn
+Chúng ta sử dụng cú pháp Jquery #id để lấy phần tử web ta muốn.
 
 Anh ví dụ như anh có thẻ p và có id là test như sau :
 
@@ -136,7 +136,7 @@ $(document).ready(function(){
 {% endhighlight %}
 
 
-Để lấy được thẻ <p id="test">This is another paragraph.</p> anh sử dụng cú pháp là $("#test"). Trong đó #test chính là id của thẻ p
+Để lấy được thẻ <p id="test">This is another paragraph.</p> anh sử dụng cú pháp là $("#test"). Trong đó #test chính là id của thẻ p:
 
 {% highlight javascript linenos %}
 
@@ -152,7 +152,7 @@ Tất cả các method chạy trong Jquery đều được đặt bên trong hà
 
 Tại sao lại như vậy, vì các em tưởng tượng nếu các thành phần trên website mà chưa load xong. Khi đó các thành phần trên website sẽ không hiện ra, đồng nghĩa với việc các thành phần website không có ID và Class. Nếu không có ID và Class thì Jquery không thể tìm thấy được phần tử này. Trường hợp này các em sẽ nhận được thông báo lỗi ở console. 
 
-Có một số bạn lập trình viên thường viết gọn lại như sau
+Có một số bạn lập trình viên thường viết gọn lại như sau:
 
 {% highlight javascript linenos %}
 $(function(){
@@ -168,9 +168,9 @@ $(function(){
 # **4. Tìm phần tử HTML bằng class**
 
 Chúng ta có thể tìm được thành phần của web thông qua class. Như ta đã biết mỗi thành phần web đều có thuộc tính class và giá trị của nó.
-Chúng ta sử dụng cú pháp Jquery .class để lấy phần tử web ta muốn
+Chúng ta sử dụng cú pháp Jquery .class để lấy phần tử web ta muốn.
 
-Anh ví dụ như anh có thẻ p và có class là test như sau :
+Anh ví dụ như anh có thẻ p và có class là test như sau:
 
 
 {% highlight javascript linenos %}
@@ -201,7 +201,7 @@ $(document).ready(function(){
 
 {% endhighlight %}
 
-Để lấy được thẻ <p class="test">This is another paragraph.</p> anh sử dụng cú pháp là $(".test"). Trong đó .test chính là class của thẻ p
+Để lấy được thẻ <p class="test">This is another paragraph.</p> anh sử dụng cú pháp là $(".test"). Trong đó .test chính là class của thẻ p.
 
 # **5. Lấy hết tất cả phần tử HTML**
 
@@ -304,7 +304,7 @@ $(document).ready(function(){
 
 # **8. Lấy tất  phần tử đầu tiên có class tương ứng**
 
-Ví dụ sau đây anh có rất nhiều thẻ p. Nhưng anh chỉ muốn lấy thẻ p đầu tiên thì anh dùng cú pháp là $("p:first") như sau
+Ví dụ sau đây anh có rất nhiều thẻ p. Nhưng anh chỉ muốn lấy thẻ p đầu tiên thì anh dùng cú pháp là $("p:first") như sau:
 
 {% highlight javascript linenos %}
 
