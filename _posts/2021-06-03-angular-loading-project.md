@@ -63,9 +63,9 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>cơ ch
 
 - Thư mục cha (root) gồm có các thư mục con là e2e, node_module và src. Ngoài ra có thêm một số file cấu hình bên ngoài.
 
-- File .editorcongif : file này dùng để cấu hình nếu trình soạn thảo code chúng ta dùng là Visual Studio. Mình có thể thay đổi cấu hình tại đây.
+- File .editorconfig : file này dùng để cấu hình nếu trình soạn thảo code chúng ta dùng là Visual Studio. Mình có thể thay đổi cấu hình tại đây.
 
-- File .gitignore : dùng để nói file nào được đưa lên github file nào không được đưa lên.
+- File .gitignore : dùng để mô tả file nào được đưa lên github file nào không được đưa lên.
 
 - angular.json : dùng để cấu hình lại Angular Cli.
 
@@ -90,7 +90,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>cơ ch
 + app.component.css : chúng ta định nghĩa các css mà component sẽ dùng.
 + app.component.ts : file này dùng cho việc testing (kiểm thử).
 + app.module.ts        : file dùng để cấu hình cho module app.
-+ app-rounting.module.ts : file này dùng để điều hướng.
++ app-routing.module.ts : file này dùng để điều hướng.
 
 
 ## **2- Cơ chế hoạt động Angular**
@@ -230,13 +230,13 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
 {% endhighlight %}
 
-- Chúng ta thấy mình import platformBrowserDynamic để nói Angular là mình sẽ load ứng dụng Angular bằng trình duyệt trên desktop. Angualr có nhiều cách để load ứng dụng có thể trên mobile hoặc các ứng dụng hybrid.
+- Chúng ta thấy mình import platformBrowserDynamic để nói Angular là mình sẽ load ứng dụng Angular bằng trình duyệt trên desktop. Angular có nhiều cách để load ứng dụng có thể trên mobile hoặc các ứng dụng hybrid.
 
-- Tiếp đến chúng ta thấy Angular import AppModule. AppModule là component cha của cả ứng dụng Angualr. Angular tổ chức code theo modules. Module cha có nhiều module con, module con có nhiều module cháu cứ như vậy mà kéo dài. Như vậy AppModule là module cha của ứng dụng Angular. Tất cả các ứng dụng angular phải có ít nhất 1 module cha để load lên đầu tiên ta gọi nó là root module. Sau dó đến các module con.
+- Tiếp đến chúng ta thấy Angular import AppModule. AppModule là component cha của cả ứng dụng Angular. Angular tổ chức code theo modules. Module cha có nhiều module con, module con có nhiều module cháu cứ như vậy mà kéo dài. Như vậy AppModule là module cha của ứng dụng Angular. Tất cả các ứng dụng Angular phải có ít nhất 1 module cha để load lên đầu tiên ta gọi nó là root module. Sau đó đến các module con.
 
 ## **6- Root Module**
 
-Như vậy angular sẽ load file AppModule đầu tiên. File AppModule mô tả sau đây.
+Như vậy Angular sẽ load file AppModule đầu tiên. File AppModule mô tả sau đây.
 
 {% highlight javascript  linenos %}
 
@@ -260,7 +260,7 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 {% endhighlight %}
 
-- Sau khi root module được gọi lên thì nó cần tối thiều 1 component được load lên. Trong ví dụ này ta sẽ load component đầu tiền là AppComponent. Trong dự án Angular ta sẽ có 1 component cha, trong component cha sẽ có nhiều component con. Dưới đây là khai báo component được load lên.
+- Sau khi root module được gọi lên thì nó cần tối thiểu 1 component được load lên. Trong ví dụ này ta sẽ load component đầu tiền là AppComponent. Trong dự án Angular ta sẽ có 1 component cha, trong component cha sẽ có nhiều component con. Dưới đây là khai báo component được load lên.
 
 {% highlight javascript  linenos %}
 
@@ -287,15 +287,15 @@ export class AppModule { }
 
 {% endhighlight %}
 
-- imports : chúng ta dùng để nhúng các modules bên ngoài các thirdparties sẽ được dùng chung với ứng dụng angular.
+- imports      : chúng ta dùng để nhúng các modules bên ngoài các thirdparties sẽ được dùng chung với ứng dụng Angular.
 
-- declarations : chúng ta khai báo các components như cha, con các directive hoặc service mà ta sử dụng trong dự án angular.
+- declarations : chúng ta khai báo các components như cha, con các directive hoặc service mà ta sử dụng trong dự án Angular.
 
-- boostrap : chỉ ra component nào Angualr sẽ load lên khi Angular Module được load.
+- bootstrap    : chỉ ra component nào Angular sẽ load lên khi Angular Module được load.
 
 ## **7- Component**
 
-Trong Root Module chỗ boostrap : [AppComponent] ta nói cho Angular biết là phải load AppComponent lên. Thì Code Component được hiển thị như sau:
+Trong Root Module chỗ bootstrap : [AppComponent] ta nói cho Angular biết là phải load AppComponent lên. Thì Code Component được hiển thị như sau:
 
 {% highlight javascript  linenos %}
 
@@ -314,7 +314,7 @@ export class AppComponent {
 
 - Để tạo được 1 component cần cho ít nhất 3 files. 1 đó là file Class Component mà ta thấy ở trên. 2 là file html hiển thị view, 3 là file css để trang trí.
 
-- Class Component được đánh dâú với annotation là @Component trong đó có 3 thuộc tính selector, templateURL và styleUrls. Trong đó:
+- Class Component được đánh dấu với annotation là @Component trong đó có 3 thuộc tính selector, templateURL và styleUrls. Trong đó:
 
 - selector dùng để chỉ ra nơi nào sẽ được nhúng component này vào web. Chúng ta thấy selector tên là app-root. Nếu nhìn vào file index.html ta cũng thấy thẻ app-root.
 
@@ -329,7 +329,7 @@ Như vậy thẻ app-root này sẽ chứa đựng giao diện của html của 
 
 - templateUrl : nơi đặt file html ở đâu.
 
-- styleUrls : nơi đặt css ở đâu.
+- styleUrls   : nơi đặt css ở đâu.
 
 Như vậy khi chạy ng -server -o ta sẽ thấy được giao diện HTML được định nghĩa trong templateURL là file app.component.html
 
