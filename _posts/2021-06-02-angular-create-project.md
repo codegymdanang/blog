@@ -118,36 +118,36 @@ ng serve -o
 
 {% endhighlight %}
 
-- Thư mục cha (root) gồm có các thư mục con là e2e, node_module và src. Ngoài ra có thêm một số file cấu hình bên ngoài
+- Thư mục cha (root) gồm có các thư mục con là e2e, node_module và src. Ngoài ra có thêm một số file cấu hình bên ngoài.
 
-- File .editorcongif : file này dùng để cấu hình nếu trình soạn thảo code chúng ta dùng là Visual Studio. Mình có thể thay đổi cấu hình tại đây
+- File .editorconfig : file này dùng để cấu hình nếu trình soạn thảo code chúng ta dùng là Visual Studio. Mình có thể thay đổi cấu hình tại đây.
 
-- File .gitignore : dùng để nói file nào được đưa lên github file nào không được đưa lên
+- File .gitignore : dùng để thể hiện file nào được đưa lên github file nào không được đưa lên.
 
-- angular.json : dùng để cấu hình lại Angular Cli
+- angular.json : dùng để cấu hình lại Angular Cli.
 
-- browserslist : những phiên bản browser sẽ tương thích với dự án angular
+- browserslist : những phiên bản browser sẽ tương thích với dự án angular.
 
-- karma.config.js : file này dùng để chạy các testing (kiểm thử) các chức năng
+- karma.config.js : file này dùng để chạy các testing (kiểm thử) các chức năng.
 
-- package.json : file này chứa các thư viện cần thiết cho dự án angular, ngoài ra nếu ta thêm một thư viện bên thứ 3 vào thì khai báo trong này
+- package.json : file này chứa các thư viện cần thiết cho dự án angular, ngoài ra nếu ta thêm một thư viện bên thứ 3 vào thì khai báo trong này.
 
 - tslint.js : dùng để kiểm tra code có chất lượng hay không, có dễ đọc hay dễ bảo trì không, có theo chuẩn không.
 
 - thư mục e2e : chức các file liên quan đến việc testing. Angular sử dụng thư viện protractor để thực hiện automation test trên các trình duyệt.
 
-- thư mục node_modules : nơi chứa các thư viện và được download về cho dự án angular. Nó được quản lý bằng NPM có nghĩa là ta dùng NPM để xoá , thêm các thư viện
+- thư mục node_modules : nơi chứa các thư viện và được download về cho dự án angular. Nó được quản lý bằng NPM có nghĩa là ta dùng NPM để xoá , thêm các thư viện.
 
-- thư mục src : nơi chứa các source khi chương trình chạy. Đây là nơi tập trung các dòng code của ứng dụng angular
+- thư mục src : nơi chứa các source khi chương trình chạy. Đây là nơi tập trung các dòng code của ứng dụng angular.
 
-- thư mục app : angular cli tạo ra folder này giống như folder cha của ứng dụng. Angular cli tạo ra như một ví dụ mẫu để sau này ta tạo các component khác. Trong thư mục app thường có 
+- thư mục app : angular cli tạo ra folder này giống như folder cha của ứng dụng. Angular cli tạo ra như một ví dụ mẫu để sau này ta tạo các component khác. Trong thư mục app thường có.
 
-+ app.component.html : nơi chúng ta viết các files html. Là tầng view mà người dùng có thể thấy được
-+ app.component.ts (component class) : là file xử lý các nghiệp vụ nó giống như Controller bên Spring Web
-+ app.component.css : chúng ta định nghĩa các css mà component sẽ dùng
-+ app.component.ts : file này dùng cho việc testing (kiểm thử)
-+ app.module.ts        : file dùng để cấu hình cho module app
-+ app-rounting.module.ts : file này dùng để điều hướng.
++ app.component.html    : nơi chúng ta viết các files html. Là tầng view mà người dùng có thể thấy được.
++ app.component.ts (component class) : là file xử lý các nghiệp vụ nó giống như Controller bên Spring Web.
++ app.component.css     : chúng ta định nghĩa các css mà component sẽ dùng.
++ app.component.ts      : file này dùng cho việc testing (kiểm thử).
++ app.module.ts         : file dùng để cấu hình cho module app.
++ app-routing.module.ts : file này dùng để điều hướng.
 
 
 
