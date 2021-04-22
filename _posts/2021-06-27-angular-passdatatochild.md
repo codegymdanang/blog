@@ -18,7 +18,7 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách <b>truy�
 
 ## **1.Truyền dữ liệu từ cha xuống con là gì**
 
-Trong Angular để truyền dữ liệu từ component cha xuống các component con thì ta sử dụng annotaion @Input.
+Trong Angular để truyền dữ liệu từ component cha xuống các component con thì ta sử dụng annotation @Input.
 
 Trong dự án Angular component cha sẽ giao tiếp với component con thông qua thuộc tính properties. Annotation @Input được sử dụng để nhận các giá trị từ properties từ cha xuống con.
 
@@ -201,7 +201,7 @@ export class ChildComponent implements OnChanges {
 }
 {% endhighlight %}
 
-Đầu tiên chúng ta import các thư việc cần vào.
+Đầu tiên chúng ta import các thư viện cần vào.
 
 {% highlight javascript linenos %}
 
