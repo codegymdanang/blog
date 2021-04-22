@@ -18,7 +18,7 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách tạo <b
 
 ## **1. Custom Pipes là gì**
 
-Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiển thị trên webiste. Ngoài các kiểu có sẵn định dạng cho ngày, tiền tệ, số thì ta có thể tự viết một pipe riêng.
+Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiển thị trên website. Ngoài các kiểu có sẵn định dạng cho ngày, tiền tệ, số thì ta có thể tự viết một pipe riêng.
 
 
 ## **2. Tự tạo Pipes hiển thị nhiệt độ**
@@ -51,7 +51,7 @@ export class TempConverterPipe implements PipeTransform {
 
 {% endhighlight %} 
 
-Đầu tiên chúng ta import thư viện Pipe vào 
+Đầu tiên chúng ta import thư viện Pipe vào.
 
 {% highlight javascript linenos %}
 
@@ -59,7 +59,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 
 {% endhighlight %} 
 
-Tiếp theo ta định nghĩa annotation pipe và đặt tên là tempConverter
+Tiếp theo ta định nghĩa annotation pipe và đặt tên là tempConverter.
 
 {% highlight javascript linenos %}
 
@@ -69,7 +69,7 @@ Tiếp theo ta định nghĩa annotation pipe và đặt tên là tempConverter
 
 {% endhighlight %} 
 
-Viết file converter nhiệt độ. File này sẽ implement PipeTransform
+Viết file converter nhiệt độ. File này sẽ implement PipeTransform.
 
 {% highlight javascript linenos %}
 
@@ -82,7 +82,7 @@ export class TempConverterPipe implements PipeTransform {
 }
 {% endhighlight %} 
 
-- Bước 2 : Viết lại nghiệp vụ coverter trong method transform của PipeTransform
+- Bước 2 : Viết lại nghiệp vụ converter trong method transform của PipeTransform.
 
 
 {% highlight javascript linenos %}
@@ -105,7 +105,7 @@ export class TempConverterPipe implements PipeTransform {
 }
 {% endhighlight %} 
 
-- Bước 3 : Khai báo TempConverterPipe trong AppModule
+- Bước 3 : Khai báo TempConverterPipe trong AppModule.
 
 {% highlight javascript linenos %}
 
@@ -148,7 +148,7 @@ export class AppModule { }
       <h3>Celsius to Fahrenheit </h3>
     </div>
     <div class="row">
-      <p> celsius : <input type="text" [(ngModel)]="celcius" /> 
+      <p> celcius : <input type="text" [(ngModel)]="celcius" /> 
        Fahrenheit : { { celcius | tempConverter:'F' } } </p>
     </div>
   </div>
