@@ -26,7 +26,7 @@ Data binding trong Angular có thể chia ra làm 2 nhóm. Đó là one way bind
 
 - One way binding thì dữ liệu được truyền 1 chiều. Có thể từ view sang component hoặc ngược lại từ component sang view.
 
-- Từ component sang view chúng ta sử sụng Interpolation & Property Binding để hiển thị dữ liệu như sau:
+- Từ component sang view chúng ta sử dụng Interpolation & Property Binding để hiển thị dữ liệu như sau:
 + Chúng ta sử dụng {{ }} để hiển thị giá trị từ component sang view.
 
 Ví dụ ta có component là 
@@ -83,7 +83,7 @@ export class AppComponent {
 }
 {% endhighlight %}
 
-- Event Binding chúng ta sử dụng để bind các sự kiện như click chuột, sự kiện bàn phím etc. Chúng ta sử dụng cú pháp sau để thực hiện sự kiện khi chuột click vô nút Save. Sau đó nó sẽ gọi hàm onSave bên class component.
+- Event Binding chúng ta sử dụng để bind các sự kiện như click chuột, sự kiện bàn phím etc. Chúng ta sử dụng cú pháp sau để thực hiện sự kiện khi chuột click vào nút Save. Sau đó nó sẽ gọi hàm onSave bên class component.
 
 {% highlight html  linenos %}
 
