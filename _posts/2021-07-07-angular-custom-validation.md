@@ -18,7 +18,7 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách <b>Custo
 
 ## **1.Custom Validation là gì**
 
-Angular hỗ trợ một số validator như required, min length, max length, pattern và email như ta đã xem ở bài trước. Ngoài những validator có sẵn của Angular ta hoàn toàn có thể tự tạo một validator cho dự án của mình.
+Angular hỗ trợ một số validator như required, minlength, maxlength, pattern và email như ta đã xem ở bài trước. Ngoài những validator có sẵn của Angular ta hoàn toàn có thể tự tạo một validator cho dự án của mình.
 
 
 ## **2.Sử dụng Validator như thế nào**
@@ -50,7 +50,7 @@ Giả sử ta có form trong file template html như sau.
 
 Như các em thấy ta có 1 field trong form là numVal. Chúng ta muốn giá trị trong numVal phải lớn hơn 10.
 
-Bây giờ ta sẽ định nghĩa một Validator riêng cho việc kiểm tra giá trị lớn hơn 10. Ta tạo một file gte.validator.js như sau
+Bây giờ ta sẽ định nghĩa một Validator riêng cho việc kiểm tra giá trị lớn hơn 10. Ta tạo một file gte.validator.js như sau:
 
 {% highlight javascript linenos %}
 
@@ -74,7 +74,7 @@ export function gte(control: AbstractControl): ValidationErrors | null {
 
 {% endhighlight %} 
 
-Đầu tiên chúng ta import thư viện AbstractControl và Validation Error từ Angular Form
+Đầu tiên chúng ta import thư viện AbstractControl và Validation Error từ Angular Form.
 
 {% highlight javascript linenos %}
 
@@ -82,7 +82,7 @@ import { AbstractControl, ValidationErrors } from '@angular/forms'
 
 {% endhighlight %} 
 
-ValidatorError chức cặp key và value. Key là tên của rule chúng ta muốn sử dụng và value có thể làm bất cứ cái gì.
+ValidatorError chứa cặp key và value. Key là tên của rule chúng ta muốn sử dụng và value có thể làm bất cứ cái gì.
 
 Trong ví dụ sau chúng ta kiểm tra giá trị của control có phải là số hay không. Để kiểm tra số ta dùng hàm isNaN. Đồng thời kiểm tra giá trị nhỏ hơn hay bằng 10. Nếu cả 2 điều kiện là đúng thì trả về null.
 
@@ -101,7 +101,7 @@ const v=+control.value;
     return null
 {% endhighlight %} 
 
-Nếu validator bị sai thì trả về Validator Error
+Nếu validator bị sai thì trả về Validator Error.
 
 {% highlight javascript linenos %}
 
@@ -109,7 +109,7 @@ return { 'gte': true, 'requiredValue': 10 }
 
 {% endhighlight %}
 
-Để sử dụng Custom validator chúng ta import vào component class
+Để sử dụng Custom validator chúng ta import vào component class.
 
 {% highlight javascript linenos %}
 
@@ -117,7 +117,7 @@ import { gte } from './gte.validator';
 
 {% endhighlight %}
 
-Thêm validator vào form như sau
+Thêm validator vào form như sau.
 
 
 {% highlight javascript linenos %}
