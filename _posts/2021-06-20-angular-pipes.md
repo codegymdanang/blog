@@ -18,7 +18,7 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách tạo <b
 
 ## **1. Pipes là gì**
 
-Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiển thị trên webiste. Ví dụ như kiểu ngày, tháng chúng ta muốn hiển thị theo kiểu MM-DD-YYYY (01-01-1983) cho người dùng.
+Chúng ta sử dụng Angular Pipes để định dạng lại kiểu hiển thị trên website. Ví dụ như kiểu ngày, tháng chúng ta muốn hiển thị theo kiểu MM-DD-YYYY (01-01-1983) cho người dùng.
 
 
 ## **2. Date Pipes là gì**
@@ -103,12 +103,12 @@ number_expression | number[:digitInfo]
 
 {% endhighlight %} 
 
-- number_expression : số mà mình cần format
-- number tên pipe
+- number_expression : số mà mình cần format.
+- number tên pipe.
 
 ## **6. PercentePipe**
 
-Định dạnh số theo phần trăm
+Định dạng số theo phần trăm.
 
 {% highlight javascript linenos %}
 
@@ -131,7 +131,7 @@ export class AppComponent
 
 ## **7. CurrencyPipe**
 
-Định dạng để sử dụng cho tiền tệ như USD, hay VNĐ
+Định dạng để sử dụng cho tiền tệ như USD, hay VNĐ.
 
 {% highlight javascript linenos %}
 
