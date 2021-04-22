@@ -18,9 +18,9 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách tạo <b>
 
 ## **1. ngIf là gì**
 
-Chúng ta sử dụng ngIf để xoá hoặc thêm một phần tử trên web dựa vào điều kiện có thoả mãn hay không
+Chúng ta sử dụng ngIf để xóa hoặc thêm một phần tử trên web dựa vào điều kiện có thoả mãn hay không.
 
-- Cú pháp ngIf như sau
+- Cú pháp ngIf như sau:
 
 {% highlight html  linenos %}
 
@@ -41,7 +41,7 @@ Chúng ta sử dụng ngIf để xoá hoặc thêm một phần tử trên web d
 
 {% endhighlight %}
 
-Sự khác nhau ở chổ ngIf sẽ xoá hoàn toàn phần tử web ra khỏi DOM. Còn hide thì không xoá hẳn phần tử đó ra khỏi DOM. Mặc dù trên giao diên ta thấy phần tử đó bị mất đi.
+Sự khác nhau ở chỗ ngIf sẽ xóa hoàn toàn phần tử web ra khỏi DOM. Còn hide thì không xoá hẳn phần tử đó ra khỏi DOM. Mặc dù trên giao diện ta thấy phần tử đó bị mất đi.
 
 ## **2. Sử dụng phủ định trong ngIf**
 
@@ -108,7 +108,7 @@ export class AppComponent {
 
 {% endhighlight %}
 
-Tiếp đến ta có file template html như sau
+Tiếp đến ta có file template html như sau:
 
 {% highlight html  linenos %}
 
