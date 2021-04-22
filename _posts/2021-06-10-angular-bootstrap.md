@@ -18,18 +18,18 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách <b>sử 
 
 ## **1 Giới thiệu về Bootstrap**
 
-Boostrap là một framework opensource gồm có <b>html,css và javascript</b>. Chúng ta sử dụng bootstrap để làm trang web trở nên đẹp hơn. Chúng ta kết hợp với <b>angular</b> để tiết kiệm thời gian. Đồng thời Bootstrap đã hỗ trợ sẵn các chức năng hiển thị được trên mobile và các thành phần của web. Nên chúng ta chỉ sử dụng mà thôi.
+Bootstrap là một framework opensource gồm có <b>html,css và javascript</b>. Chúng ta sử dụng bootstrap để làm trang web trở nên đẹp hơn. Chúng ta kết hợp với <b>angular</b> để tiết kiệm thời gian. Đồng thời Bootstrap đã hỗ trợ sẵn các chức năng hiển thị được trên mobile và các thành phần của web. Nên chúng ta chỉ sử dụng mà thôi.
 
 Ngoài Bootstrap thì còn có rất nhiều framework khác hỗ trợ chúng ta trong việc làm giao diện như <b>Polymer, material , ant design</b>. Tuỳ theo dự án mà ta có thể chọn framework tương ứng. Nhưng theo anh thấy 70% dự án web của anh đều dùng Bootstrap.
 
 ## **2 Cài đặt bootstrap cho dự án**
 
-Có 2 cách để mình có thể nhúng Boostrap vào dự án Angular.
+Có 2 cách để mình có thể nhúng Bootstrap vào dự án Angular.
 
 - Chúng ta có thể sử dụng <b>Bootstrap từ CDN</b> [tại đây](https://www.bootstrapcdn.com/)
 - Chúng ta sử dụng npm (node module) để cài bootstrap trực tiếp vào dự án.
 
-Sự khác nhau giữa CDN và npm là nếu chúng ta dùng CDN thì chúng ta sẽ nhúng đường link bootstrap vào dự án. Khi trang web load lên thì nó sẽ lên mạng và nhúng file bootstrap từ CDN vào trang web. Còn nếu dùng npm thì chúng ta sẽ download sourcecode của boostrap vào trong dự án của mình và chúng ta chỉ link tới file bootstrap trong dự án mình thôi.
+Sự khác nhau giữa CDN và npm là nếu chúng ta dùng CDN thì chúng ta sẽ nhúng đường link bootstrap vào dự án. Khi trang web load lên thì nó sẽ lên mạng và nhúng file bootstrap từ CDN vào trang web. Còn nếu dùng npm thì chúng ta sẽ download source code của bootstrap vào trong dự án của mình và chúng ta chỉ link tới file bootstrap trong dự án mình thôi.
 
 ## **3 Tạo ứng dụng Angular và sử dụng Bootstrap từ CDN**
 
@@ -112,7 +112,7 @@ npm install --save bootstrap jquery
 
 ## **Tổng kết**
 
-Hầu hết các ứng dụng ngày nay đều sử dụng Bootstrap để làm <b>frontend</b>, tuy nhiên ngoài Boostrap thì mình còn có nhiều framework làm frontend khác nữa. Ưu điểm mạnh nhất các framework này là dễ sử dụng và tiết kiệm thời gian để phát triển.
+Hầu hết các ứng dụng ngày nay đều sử dụng Bootstrap để làm <b>frontend</b>, tuy nhiên ngoài Bootstrap thì mình còn có nhiều framework làm frontend khác nữa. Ưu điểm mạnh nhất các framework này là dễ sử dụng và tiết kiệm thời gian để phát triển.
 
 
 <br>
