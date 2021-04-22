@@ -14,7 +14,7 @@ youtubeId: SeqzwhmM_P4
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách gọi <b>Truyền tham số cho webservice</b> bên ngoài ở trong dự án <b>Angualar</b> là như thế nào nhé.
+Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách gọi <b>Truyền tham số cho webservice</b> bên ngoài ở trong dự án <b>Angular</b> là như thế nào nhé.
 
 ## **1. Truyền param trên URL**
 
@@ -52,7 +52,7 @@ export class GitHubService {
 
 {% endhighlight %}
 
-- Chúng ta truyền param như sau
+- Chúng ta truyền param như sau:
 
 {% highlight javascript linenos %}
 
@@ -73,7 +73,7 @@ getPeopleWithHeaders(): Observable<Person[]> {
 
 ## **3. Send Cookie**
 
-Chúng ta sử dụng tham số withCredentials=true cho request để gửi cookie
+Chúng ta sử dụng tham số withCredentials=true cho request để gửi cookie.
 
 {% highlight javascript linenos %}
 
@@ -107,7 +107,7 @@ getReposWithCookies(userName: string): Observable<repos[]> {
 
 {% highlight javascript linenos %}
 
-Trong trường hợp gọi webservice sẽ xảy ra tình trạng là webservice bị lỗi. Thì chúng ta có bắt lại lỗi đó
+Trong trường hợp gọi webservice sẽ xảy ra tình trạng là webservice bị lỗi. Thì chúng ta có bắt lại lỗi đó.
 
 public getRepos() {
     this.loading = true;
@@ -137,7 +137,7 @@ hàm subscribe cung cấp cho chúng ta 3 tham số callbacks.
 
 {% endhighlight %}
 
-Trong trường hợp lỗi chúng ta sẽ xử lý trong hàm error
+Trong trường hợp lỗi chúng ta sẽ xử lý trong hàm error.
 
 {% highlight javascript linenos %}
 
