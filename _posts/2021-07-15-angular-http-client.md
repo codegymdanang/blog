@@ -68,13 +68,13 @@ public getData() {
 
 ## **2. Sử dụng Observable**
 
-Chúng ta sử dụng Obserable trong Angular để quản lý các dữ liệu bất đồng bộ. Anh ví dụ như mình gọi một webservice ở bên ngoài, sau khi kết thúc thì nó trả về đối tượng Obserable cho mình.
+Chúng ta sử dụng Observable trong Angular để quản lý các dữ liệu bất đồng bộ. Anh ví dụ như mình gọi một webservice ở bên ngoài, sau khi kết thúc thì nó trả về đối tượng Observable cho mình.
 
-Obserable quản lý các đối tượng subscribes, khi có một sự thay đổi thì Obserable sẽ thông báo đến các subscribers của mình. 
+Observable quản lý các đối tượng subscribes, khi có một sự thay đổi thì Observable sẽ thông báo đến các subscribers của mình. 
 
 Trong Angular chúng ta sử dụng Obserable từ thư viện RxJS. Thư viện này cung cấp cho chúng ta một số phương thức như map , filter, take, merge kết quả của webservice gọi về.
 
-Anh sẽ có ví dụ sau, chức năng của anh sẽ hiển thị thông tin của company ra cho người dùng. Từ Angular anh sẽ gọi ra một webservice bên ngoài. Sau khi nhận được kết quả anh sẽ hiển thị lên cho người dùng. 3 từ khoá quan trọng là Obserable , Subscribe và RxJS sẽ được sử dụng trong ví dụ này.
+Anh sẽ có ví dụ sau, chức năng của anh sẽ hiển thị thông tin của company ra cho người dùng. Từ Angular anh sẽ gọi ra một webservice bên ngoài. Sau khi nhận được kết quả anh sẽ hiển thị lên cho người dùng. 3 từ khóa quan trọng là Observable , Subscribe và RxJS sẽ được sử dụng trong ví dụ này.
 
 Bước 1 : Anh sẽ sử dụng HTTP Client để gọi ra webservice bên ngoài. Anh sẽ có file InfoCompanyService sau.
 
@@ -101,7 +101,7 @@ export class InfoCompanyService {
 }
 {% endhighlight %}
 
-Đầu tiên chúng ta import thư viện Obserable
+Đầu tiên chúng ta import thư viện Observable
 
 {% highlight javascript linenos %}
 
@@ -109,7 +109,7 @@ import { Observable } from 'rxjs';
 
 {% endhighlight %}
 
-Tiếp đến chúng ta gọi webservice bên ngoài tại phương thức getInfoCompany. Phương thức này sau khi gọi xong sẽ trả về kết quả là đối tượng Obserable
+Tiếp đến chúng ta gọi webservice bên ngoài tại phương thức getInfoCompany. Phương thức này sau khi gọi xong sẽ trả về kết quả là đối tượng Observable.
 
 {% highlight javascript linenos %}
 
@@ -121,7 +121,7 @@ Tiếp đến chúng ta gọi webservice bên ngoài tại phương thức getIn
   }
 {% endhighlight %}
 
-Chúng ta gọi webservice bên ngoài bằng câu lệnh 
+Chúng ta gọi webservice bên ngoài bằng câu lệnh.
 
 {% highlight javascript linenos %}
 
@@ -131,11 +131,11 @@ this.http.get('http://localhost:8080/companies/')
 
 Chúng ta sử dụng hàm pipe (giống như Promise) để nhận biết khi nào dữ liệu bị thay đổi, trong trường hợp này chúng ta gọi webservice nó sẽ trả cho ta dữ liệu như vậy các đoạn code trong hàm pipe thực thi khi ta gọi xong webservice, có nghĩa là webservice trả về kết quả lúc đó ta mới chạy tiếp hàm map.
 
-Trong hàm map chúng ta chỉ format lại dữ liệu và trả về kết quả của webservice trả về 
+Trong hàm map chúng ta chỉ format lại dữ liệu và trả về kết quả của webservice trả về.
 
 Bước 2 : Gọi Service từ component
 
-Chúng ta sẽ viết component tên là Company. Trong Component này chúng ta sẽ nhúng CompanyService vào và gọi hàm getInfoCompany
+Chúng ta sẽ viết component tên là Company. Trong Component này chúng ta sẽ nhúng CompanyService vào và gọi hàm getInfoCompany.
 
 {% highlight javascript linenos %}
 
@@ -168,7 +168,7 @@ export class ListCompanyComponent implements OnInit {
 {% endhighlight %}
 
 
-Chúng ta nhúng InfoCompanyService vào component và gọi hàm getInfoAllCompany. Lúc này InfoCompanyService sẽ gọi ra ngoài và lấy kết quả về là một Obserable. Như ta nói ở phía trên Obserable quản lý các đối tượng subscribes, khi có một sự thay đổi thì Obserable sẽ thông báo đến các subscribers của mình.  Chính vì vậy mà chúng ta phải có phương thức subscribe để nhận kết quả trả về từ Obserable
+Chúng ta nhúng InfoCompanyService vào component và gọi hàm getInfoAllCompany. Lúc này InfoCompanyService sẽ gọi ra ngoài và lấy kết quả về là một Observable. Như ta nói ở phía trên Observable quản lý các đối tượng subscribes, khi có một sự thay đổi thì Observable sẽ thông báo đến các subscribers của mình. Chính vì vậy mà chúng ta phải có phương thức subscribe để nhận kết quả trả về từ Observable.
 
 {% highlight javascript linenos %}
 
@@ -176,7 +176,7 @@ this.infoCompanyService.getInfoAllCompany().subscribe(companies => this.companie
 
 {% endhighlight %}
 
-Sau khi nhận được kết quả từ Obserable chúng ta gán biến local   this.companies = companies sau đó ta truyền biến này qua cho template html
+Sau khi nhận được kết quả từ Observable chúng ta gán biến local this.companies = companies sau đó ta truyền biến này qua cho template html.
 
 
 {% highlight javascript linenos %}
