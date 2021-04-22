@@ -106,7 +106,7 @@ Chúng ta sử dụng ngFor để duyệt qua từng bộ phim trong mảng movi
       ]
     },
     {
-      name: "Laxmna", email: "laxman@gmail.com",
+      name: "Laxman", email: "laxman@gmail.com",
       skills: [{ skill: 'HTML', exp: '2' },{ skill: 'CSS', exp: '2' },{ skill: 'Javascript', exp: '1' }
       ]
     }
@@ -163,7 +163,7 @@ Chúng ta sử dụng ngFor để duyệt qua từng bộ phim trong mảng movi
 </tr>
 {% endhighlight %}
 
- ## **5. Format dòng chẳn dòng lẻ trong table**
+ ## **5. Format dòng chẵn dòng lẻ trong table**
 
 {% highlight html  linenos %}
 
