@@ -18,11 +18,11 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách <b>compo
 
 ## **1.Truyền dữ liệu từ component con lên component cha**
 
-Chúng ta có 3 cách để truyền dữ liệu lên component cha từ component con. Chúng ta sẽ lần luợt đi qua các cách.
+Chúng ta có 3 cách để truyền dữ liệu lên component cha từ component con. Chúng ta sẽ lần lượt đi qua các cách.
 
 ## **2.Ví dụ truyền dữ liệu từ con lên cha qua sự kiện**
 
-Trong ví dụ sau ta sẽ truyền giá trị từ component con qua component cha thông qua sự kiện. Trong component con ta sẽ sử dụng EventBinding để lắngg nghe sự thay đổi data từ component con.
+Trong ví dụ sau ta sẽ truyền giá trị từ component con qua component cha thông qua sự kiện. Trong component con ta sẽ sử dụng EventBinding để lắng nghe sự thay đổi data từ component con.
 
 Ta có component con tên child.component.ts như sau:
 
@@ -84,7 +84,7 @@ Trong component con chúng ta định nghĩa sự kiện countChange là loại 
 
 {% endhighlight %}
 
-Cuối cùng component con phát sinh sự kiện lên cho cha thông qua phương thức emit
+Cuối cùng component con phát sinh sự kiện lên cho cha thông qua phương thức emit.
 
 {% highlight javascript linenos %}
 
