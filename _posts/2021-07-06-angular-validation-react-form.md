@@ -31,11 +31,11 @@ firstname: new FormControl('',[Validators.required]),
 
 {% endhighlight %} 
 
-Angular hỗ trợ sẵn một số Validator như require, minlenth, maxlength,pattern,email validator cho chúng ta. Trong ví dụ sau đây chúng ta sẽ sử dụng nó để kiểm tra giá trị người dùng nhập vào.
+Angular hỗ trợ sẵn một số Validator như require, minlength, maxlength, pattern, email validator cho chúng ta. Trong ví dụ sau đây chúng ta sẽ sử dụng nó để kiểm tra giá trị người dùng nhập vào.
 
 ## **3.Ví dụ sử dụng Validator như thế nào**
 
-Chúng ta sẽ viết ví dụ kiểm tra đăng ký của người dùng. Giả sử chúng ta có contacForm model như sau:
+Chúng ta sẽ viết ví dụ kiểm tra đăng ký của người dùng. Giả sử chúng ta có contactForm model như sau:
 
 {% highlight javascript linenos %}
 
@@ -56,7 +56,7 @@ contactForm = new FormGroup({
 {% endhighlight %} 
 - Bước 1 : Tắt chức năng kiểm tra mặc định của trình duyệt.
 
-Chúng ta sử dụng thuộc tính novalidate trong thẻ form để làm việc này
+Chúng ta sử dụng thuộc tính novalidate trong thẻ form để làm việc này.
 
 {% highlight javascript linenos %}
 
@@ -65,7 +65,7 @@ Chúng ta sử dụng thuộc tính novalidate trong thẻ form để làm việ
 {% endhighlight %} 
 - Bước 2 : Thêm các Validator có sẵn trong Angular
 
-Chúng ta muốn người dùng bắt buộc phải điền vào firstname, thì chúng ta sử dụng require
+Chúng ta muốn người dùng bắt buộc phải điền vào firstname, thì chúng ta sử dụng require.
 
 {% highlight javascript linenos %}
 
@@ -89,7 +89,7 @@ lastname: new FormControl('',[Validators.maxLength(15)]),
 
 {% endhighlight %} 
 
-Chúng ta muốn lastname người dùng điền vào phải đúng định dạng (giống như Regular Expression)
+Chúng ta muốn lastname người dùng điền vào phải đúng định dạng (giống như Regular Expression).
 
 {% highlight javascript linenos %}
 
@@ -137,7 +137,7 @@ Nếu người dùng điền không đúng giá trị như ta mong muốn thì n
 
 - Bước 4 : Hiển thị thông báo lỗi
 
-Chúng ta sử dụng contactForm.controls.firstname.valid để kiểm tra xem người dùng điền đúng chưa. Nếu chưa thì ta hiển thị lỗi. Ta sử dụng ngIf để kiểm tra điều kiện
+Chúng ta sử dụng contactForm.controls.firstname.valid để kiểm tra xem người dùng điền đúng chưa. Nếu chưa thì ta hiển thị lỗi. Ta sử dụng ngIf để kiểm tra điều kiện.
 
 {% highlight javascript linenos %}
 
@@ -170,7 +170,7 @@ Sau đó ta sử dụng ở template html như sau
 {% endhighlight %} 
 
 Sử dụng dirty : khi người dùng thay đổi giá trị trong firstname
-Sử dụng touched : khi người dùng click vô ô firstname (blur event)
+Sử dụng touched : khi người dùng click vào ô firstname (blur event)
 
 - Bước 5 : Hiển thị thông báo lỗi.
 
@@ -185,7 +185,7 @@ Chúng ta hiển thị First Name is not Valid
   </div>
 {% endhighlight %} 
 
-Cách này thì nó báo rất chung chung. Nên chúng ta muốn thông báo first name là bắt buộc nhập và min length phải là 10. Chúng ta sử dụng cách thông báo sau:
+Cách này thì nó báo rất chung chung. Nên chúng ta muốn thông báo first name là bắt buộc nhập và minlength phải là 10. Chúng ta sử dụng cách thông báo sau:
 
 {% highlight javascript linenos %}
 
@@ -358,7 +358,7 @@ Chúng ta có file template html app.component.html
  
  
   <p>
-    <label for="gender">Geneder </label>
+    <label for="gender">Gender </label>
     <input type="radio" value="male" id="gender" name="gender" formControlName="gender"> Male
     <input type="radio" value="female" id="gender" name="gender" formControlName="gender"> Female
   </p>
