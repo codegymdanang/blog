@@ -18,7 +18,7 @@ Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người cách tạo <b
 
 ## **1. Directive là gì**
 
-Chúng ta sử dụng Directive để thao tác, cập nhật, thêm, xoá các thành phần giao diện trên web. Hay nói cách khác chúng ta thao tác với các element của DOM. Các nút, ảnh, text box, table mà ta thấy trên website được một đối tượng DOM quản lý. DOM có nhiệm vụ vẽ ra các đối tượng này trên website để ta có thể thấy được.
+Chúng ta sử dụng Directive để thao tác, cập nhật, thêm, xóa các thành phần giao diện trên web. Hay nói cách khác chúng ta thao tác với các element của DOM. Các nút, ảnh, text box, table mà ta thấy trên website được một đối tượng DOM quản lý. DOM có nhiệm vụ vẽ ra các đối tượng này trên website để ta có thể thấy được.
 
 Angular Directive được chia là 3 loại gồm:
 
@@ -32,9 +32,9 @@ Component directive là ví dụ về khách hàng mà ta đã làm trong bài t
 
 ## **3. Structural Directive là gì**
 
-Chúng ta sử dụng Structure Directive để thay đổi layout của trang website bằng cách thêm hoặc xoá các thành phần trên web (DOM Elements).
+Chúng ta sử dụng Structure Directive để thay đổi layout của trang website bằng cách thêm hoặc xóa các thành phần trên web (DOM Elements).
 
-Một số thẻ về Structurall Directive như
+Một số thẻ về Structural Directive như
 
 - ngFor : dùng để lặp lại các phần HTML cho mỗi item. Nó giống như vòng lặp for. Mỗi lần lặp nó sẽ chạy lại các đoạn code trong vòng lặp
 
@@ -50,7 +50,7 @@ Một số thẻ về Structurall Directive như
 
 {% endhighlight %}
 
-- ngSwitch : chúng ta dùng để quyết định thêm hoặc xoá các thành phần của web phụ thuộc vào điều kiện có thoả mãn hay không. Chúng ta thường dùng chung với ngSwitchCase và ngSwitchDefault
+- ngSwitch : chúng ta dùng để quyết định thêm hoặc xóa các thành phần của web phụ thuộc vào điều kiện có thoả mãn hay không. Chúng ta thường dùng chung với ngSwitchCase và ngSwitchDefault
 
 {% highlight html  linenos %}
 
@@ -64,7 +64,7 @@ Một số thẻ về Structurall Directive như
 
 {% endhighlight %}
 
-- ngIf : chúng ta sử dụng ngIf để thêm và xoá các thành phần HTML dựa vào điều kiện có thảo mản không. Điều kiện phải đúng mới thực hiện các câu lệnh bên trong
+- ngIf : chúng ta sử dụng ngIf để thêm và xóa các thành phần HTML dựa vào điều kiện có thoả mãn không. Điều kiện phải đúng mới thực hiện các câu lệnh bên trong.
 
 {% highlight html  linenos %}
 
@@ -76,11 +76,11 @@ Một số thẻ về Structurall Directive như
 
 ## **4. Attribute Directive là gì**
 
-Attribue Directive được dùng để thay đổi sự hiển thị hoặc hành vi của một thành phần trên web.
+Attribute Directive được dùng để thay đổi sự hiển thị hoặc hành vi của một thành phần trên web.
 
-- ngModel : được sử dụng cho việc binding 2 chiều như ta đã học trong bài databinding
+- ngModel : được sử dụng cho việc binding 2 chiều như ta đã học trong bài databinding.
 
-- ngClass : được sử dụng để thêm hoặc xoá một class của một thành phần web
+- ngClass : được sử dụng để thêm hoặc xoá một class của một thành phần web.
 
 {% highlight html  linenos %}
 
@@ -88,7 +88,7 @@ Attribue Directive được dùng để thay đổi sự hiển thị hoặc hà
 
 {% endhighlight %}
 
-- ngStyle : dùng để thêm nhiều thuộc tính css cho một thành phần của web
+- ngStyle : dùng để thêm nhiều thuộc tính css cho một thành phần của web.
 
 {% highlight html  linenos %}
 
