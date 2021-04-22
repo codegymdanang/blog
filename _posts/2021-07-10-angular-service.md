@@ -20,22 +20,22 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Angular
 
 Angular Service là những đoạn code mà ta có thể sử dụng nhiều lần từ các component khác nhau. Nó có chức năng sử dụng lại. Những đoạn code này sẽ thực hiện một nhiệm vụ cụ thể cho một ý định nào đó. 
 
-Chúng ta sử dụng service cho những mục đích
+Chúng ta sử dụng service cho những mục đích:
 
-- Những nhiệm vụ độc lập của component như ghi log, gọi api từ bên ngoài vv
-- Chia sẻ code logic hoặc data để các component có thể dùng chung
+- Những nhiệm vụ độc lập của component như ghi log, gọi api từ bên ngoài vv.
+- Chia sẻ code logic hoặc data để các component có thể dùng chung.
 
-Lợi thế của Service
+Lợi thế của Service:
 
-- Dễ dàng thực hiện các việc test cho component và service
-- Dễ dàng debugs khi có vấn đề
-- Có thể được sử dụng lại ở nhiều module  
+- Dễ dàng thực hiện các việc test cho component và service.
+- Dễ dàng debugs khi có vấn đề.
+- Có thể được sử dụng lại ở nhiều module. 
 
 ## **2. Tạo Service như thế nào**
 
 Trong ví dụ này chúng ta sẽ tạo một Service lấy tất cả các sản phẩm. Component sẽ gọi service để lấy kết quả và hiển thị lên template html.
 
-- Bước 1 : Tạo Model Product
+- Bước 1 : Tạo Model Product.
 
 {% highlight javascript linenos %}
 
@@ -55,7 +55,7 @@ export class Product {
 
 {% endhighlight %} 
 
-- Bước 2 : Tạo Product Service trả về mảng các Product
+- Bước 2 : Tạo Product Service trả về mảng các Product.
 
 {% highlight javascript linenos %}
 
@@ -79,7 +79,7 @@ export class ProductService{
 
 {% endhighlight %} 
 
-- Bước 3 : Nhúng Service vào Component Product
+- Bước 3 : Nhúng Service vào Component Product.
 
 {% highlight javascript linenos %}
 
@@ -113,7 +113,7 @@ export class AppComponent
 
 {% endhighlight %} 
 
-- Bước 4 : Truyền dữ liệu từ Component sang cho template html
+- Bước 4 : Truyền dữ liệu từ Component sang cho template html.
 
 {% highlight javascript linenos %}
 
@@ -144,7 +144,7 @@ export class AppComponent
 </div>
 {% endhighlight %} 
 
-Chúng ta thấy ở ví dụ trên chúng ta nhúng Service vào component bằng cách
+Chúng ta thấy ở ví dụ trên chúng ta nhúng Service vào component bằng cách:
 
 {% highlight javascript linenos %}
 
@@ -152,7 +152,7 @@ this.productService=new ProductService();
 
 {% endhighlight %} 
 
-Trong thực tế thì anh không làm như vậy vì nó có rất nhiều khuyết điểm
+Trong thực tế thì anh không làm như vậy vì nó có rất nhiều khuyết điểm:
 
 - Service product dính chặt vào component. Sau này có thay đổi ProductService chúng ta phải cập nhật code ở nhiều nơi, nhiều components mà đang sử dụng nó. Như vậy tính uyển chuyển sẽ không có.
 
@@ -160,7 +160,7 @@ Trong thực tế thì anh không làm như vậy vì nó có rất nhiều khuy
 
 - Khó khăn trong việc test các chức năng của ProductService.
 
-Những vấn đề này sẽ được giải quyết trong bài Dependency Injection
+Những vấn đề này sẽ được giải quyết trong bài Dependency Injection.
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
