@@ -20,7 +20,7 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người về <b>Vòng �
 
 Vòng đời của một component hay một directive trong Angular tính từ lúc nó được tạo ra, nó bị thay đổi và bị phá huỷ. Hiểu được vòng đời của component ta có thể viết code can thiệp trong quá trình component hay direct được tạo ra, được cập nhật và phá huỷ.
 
-Khi ứng dụng Angular được start lên thì đầu tiên nó sẽ tạo và render component cha (hay còn gọi là root component) sau đó nó sẽ tạo và render các component con. Khi mỗi component được load lên, component sẽ kiểm tra xem có data binding vào nó không, dữ liệu có thay đổi không và cập nhật lại chúng. Khi component bị phá huỷ thì chúng sẽ bị remove (xoá) khỏi giao diện web 
+Khi ứng dụng Angular được start lên thì đầu tiên nó sẽ tạo và render component cha (hay còn gọi là root component) sau đó nó sẽ tạo và render các component con. Khi mỗi component được load lên, component sẽ kiểm tra xem có data binding vào nó không, dữ liệu có thay đổi không và cập nhật lại chúng. Khi component bị phá huỷ thì chúng sẽ bị remove (xoá) khỏi giao diện web.
 
 Angular cung cấp cho chúng ta một số phương thức về vòng đời của một component. Dựa vào đó chúng ta có thể can thiệp vào quá trình tạo ra component, cập nhật giá trị và phá huỷ của component. Sau đây là thứ tự từ trên xuống dưới về các method sẽ được sử dụng trong vòng đời của một component.
 
@@ -35,7 +35,7 @@ Angular cung cấp cho chúng ta một số phương thức về vòng đời c�
 
 ## **2. ngOnChanges**
 
-Phương thức ngOnChanges được gọi khi component phát hiện có giá trị được binding vào component bằng phương pháp Input properties. Để nhận biết được giá trị binding thì ngOnChange quản lý đối tượng SimpleChanege. Chúng ta sử dụng @Input trong bài truyền giá trị từ cha xuống con là một ví dụ.
+Phương thức ngOnChanges được gọi khi component phát hiện có giá trị được binding vào component bằng phương pháp Input properties. Để nhận biết được giá trị binding thì ngOnChange quản lý đối tượng SimpleChange. Chúng ta sử dụng @Input trong bài truyền giá trị từ cha xuống con là một ví dụ.
 
 Ví dụ sau ta có component cha truyền giá trị message xuống cho component con (child-component) thông qua properties sau đó component con sẽ dùng @Input để nhận giá trị và binding vào component.
 
@@ -132,7 +132,7 @@ export class ChildComponent implements OnChanges, OnInit {
     changelog: string[] = [];
 {% endhighlight %} 
 
-Trong hàm ngOnChnages ta lấy tất cả các sự thay đổi giá trị của component thông qua đối tượng SimpleChange
+Trong hàm ngOnChanges ta lấy tất cả các sự thay đổi giá trị của component thông qua đối tượng SimpleChange.
 
 {% highlight javascript linenos %}
 
@@ -173,7 +173,7 @@ export class ChildComponent implements OnInit {
 
 {% endhighlight %} 
 
-Đầu tiên chúng ta import thư viện OnInit từ angular core
+Đầu tiên chúng ta import thư viện OnInit từ angular core.
 
 {% highlight javascript linenos %}
 
@@ -181,7 +181,7 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 
 {% endhighlight %} 
 
-Tiếp đến chúng ta khai báo cài đặt hàm OnInit
+Tiếp đến chúng ta khai báo cài đặt hàm OnInit.
 
 {% highlight javascript linenos %}
 
@@ -189,7 +189,7 @@ export class ChildComponent implements OnInit {
 
 {% endhighlight %} 
 
-Cuối cùng chúng ta viết code trong phương thức ngOnInit để can thiệp vào lúc component được tạo ra
+Cuối cùng chúng ta viết code trong phương thức ngOnInit để can thiệp vào lúc component được tạo ra.
 
 {% highlight javascript linenos %}
 
@@ -257,7 +257,7 @@ export class ChildComponent implements OnChanges, DoCheck, OnInit {
     }
 {% endhighlight %} 
 
-Đầu tiên chúng ta import DoCheck từ thư viện angular core 
+Đầu tiên chúng ta import DoCheck từ thư viện angular core. 
 
 {% highlight javascript linenos %}
 
@@ -265,7 +265,7 @@ import { Component, Input, OnChanges, OnInit, SimpleChanges, SimpleChange, DoChe
 
 {% endhighlight %} 
 
-Chúng ta implement DoCheck interface
+Chúng ta implement DoCheck interface.
 
 {% highlight javascript linenos %}
 
@@ -273,7 +273,7 @@ export class ChildComponent implements OnChanges, DoCheck, OnInit {
 
 {% endhighlight %} 
 
-Cuối cùng chúng ta viết code trong hàm ngDoCheck để kiểm tra sự thay đổi và thêm các dòng code mình muốn
+Cuối cùng chúng ta viết code trong hàm ngDoCheck để kiểm tra sự thay đổi và thêm các dòng code mình muốn.
 
 {% highlight javascript linenos %}
 ngDoCheck() {
@@ -291,7 +291,7 @@ ngDoCheck() {
 
 ## **5. ngAfterContentInit**
 
-Phương thức này được gọi sau khi component được khởi tạo thành công
+Phương thức này được gọi sau khi component được khởi tạo thành công.
 
 {% highlight javascript linenos %}
 
@@ -319,7 +319,7 @@ class MyComponent implements AfterContentChecked {
 
 ## **7. ngAfterViewInit**
 
-Nó tượng tự nhưg ngAfterContentInit but nó được gọi khi component và các component con của nó được khởi tạo thành công. Chỉ được gọi 1 lần sau khi ngAfterContentChecked 
+Nó tượng tự nhưng ngAfterContentInit but nó được gọi khi component và các component con của nó được khởi tạo thành công. Chỉ được gọi 1 lần sau khi ngAfterContentChecked.
 
 {% highlight javascript linenos %}
 
@@ -347,7 +347,7 @@ class MyComponent implements AfterViewChecked {
 
 ## **9. ngOnDestroy**
 
-Phương thức ngOnDestroy được gọi trước khi component hoặc directive bị phá huỷ bởi Angular
+Phương thức ngOnDestroy được gọi trước khi component hoặc directive bị phá huỷ bởi Angular.
 
 {% highlight javascript linenos %}
 
@@ -376,7 +376,7 @@ export class ChildComponent implements OnDestroy {
 
 {% endhighlight %} 
 
-Đầu tiên chúng ta import OnDestroy tử angular core
+Đầu tiên chúng ta import OnDestroy tử angular core.
 
 {% highlight javascript linenos %}
 
