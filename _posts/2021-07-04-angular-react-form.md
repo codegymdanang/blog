@@ -20,9 +20,9 @@ Chào các bạn,hôm nay anh sẽ hướng dẫn mọi người cách <b>React 
 
 Chúng ta sử dụng React Form để xây dựng cấu trúc của 1 form trong component class. Chúng ta sử dụng Form Groups, Form Controls và From Array để xây dựng lên một form.
 
-## **2.Sử dụng Reactive From như thế nào**
+## **2.Sử dụng Reactive Form như thế nào**
 
-Bước 1 : Chúng ta sử dụng import ReactiveFormsModule vào NgModule
+Bước 1 : Chúng ta sử dụng import ReactiveFormsModule vào NgModule.
 
 {% highlight javascript linenos %}
 
@@ -49,7 +49,7 @@ export class AppModule { }
 
 {% endhighlight %} 
 
-Bước 2 : Tạo Model cho From chúng ta sử dụng FormGroup, FormControl và Validator 
+Bước 2 : Tạo Model cho Form chúng ta sử dụng FormGroup, FormControl và Validator.
 
 {% highlight javascript linenos %}
 
@@ -57,7 +57,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms'
 
 {% endhighlight %} 
 
-Chúng ta tạo FromGroup. FromGroup được sử dụng để tạo các form control. Form control là các input, button mà ta thấy trên giao diện form.
+Chúng ta tạo FormGroup. FormGroup được sử dụng để tạo các form control. Form control là các input, button mà ta thấy trên giao diện form.
 
 {% highlight javascript linenos %}
 
@@ -80,7 +80,7 @@ contactForm = new FormGroup({
 
 {% endhighlight %} 
 
-Bước 3 : Chúng ta tạo form bên template html 
+Bước 3 : Chúng ta tạo form bên template html.
 
 
 {% highlight javascript linenos %}
@@ -103,7 +103,7 @@ Bước 3 : Chúng ta tạo form bên template html
   </p>
  
   <p>
-    <label for="gender">Geneder </label>
+    <label for="gender">Gender </label>
     <input type="radio" value="male" id="gender" name="gender"> Male
     <input type="radio" value="female" id="gender" name="gender"> Female
   </p>
@@ -129,7 +129,7 @@ Bước 3 : Chúng ta tạo form bên template html
 </form>
 {% endhighlight %} 
 
-Bước 4 : Binding template html vào model form bên component class
+Bước 4 : Binding template html vào model form bên component class.
 
 {% highlight javascript linenos %}
 
@@ -137,7 +137,7 @@ Bước 4 : Binding template html vào model form bên component class
 
 {% endhighlight %} 
 
-Bước 5 : Binding các trường trong form vào FromControl models
+Bước 5 : Binding các trường trong form vào FormControl models.
 
 {% highlight javascript linenos %}
 
@@ -147,7 +147,7 @@ Bước 5 : Binding các trường trong form vào FromControl models
 {% endhighlight %} 
 
 
-Bước 6 : Submit form, chúng ta sử dụng ngSubmit 
+Bước 6 : Submit form, chúng ta sử dụng ngSubmit.
 
 {% highlight javascript linenos %}
 
