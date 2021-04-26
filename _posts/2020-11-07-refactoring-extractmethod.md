@@ -1,10 +1,10 @@
 ---
 layout: blog
-title: Kỷ thuật Extract Method
+title: Kỹ thuật Extract Method
 slug:  ky-thuat-extract-method
 category: craftmanship
 tags: [refactoring]
-summery: Kỷ thuật Extract Method
+summery: Kỹ thuật Extract Method
 image: /images/blog/design-patterns.png
 description : kỷ thuật Extract Method là gì, hướng dẫn extract method , ví dụ extract method
 ---
@@ -13,8 +13,8 @@ description : kỷ thuật Extract Method là gì, hướng dẫn extract method
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các e, chủ đề hôm nay của anh sẽ bàn về kỷ thuật <b>Extract Method</b> ? Kỷ thuật nằm nhằm làm cho một method dài khó đọc
-trở thành một phương thức nhỏ hơn , dể đọc hơn.
+Chào các em, chủ đề hôm nay của anh sẽ bàn về kỹ thuật <b>Extract Method</b>? Kỹ thuật nằm nhằm làm cho một method dài khó đọc
+trở thành một phương thức nhỏ hơn, dễ đọc hơn.
 
 <br>
 # Vấn đề đang gặp  ?
@@ -30,12 +30,12 @@ void printOwing() {
 }
 {% endhighlight %}
 
-Như vậy , các em sẽ thấy đoạn code ở trên có vấn đề ở chổ . Trong hàm printOwing đầu tiên là mình in printBanner(),
+Như vậy, các em sẽ thấy đoạn code ở trên có vấn đề. Trong hàm printOwing đầu tiên là mình in printBanner(),
 sau đó mình lại tiếp tục viết các dòng code để in chi tiết (Print details) . Như vậy không hợp lý lắm mà thay vào đó mình
 nên nhóm các dòng code in chi tiết (Print details) thành một method để mình gọi thôi.  
 
 <br>
-# Giải quyết vấn đề bằng kỷ thuật Extract Method
+# Giải quyết vấn đề bằng kỹ thuật Extract Method
 
 {% highlight java linenos %}
 void printOwing() {
@@ -49,7 +49,7 @@ void printDetails(double outstanding) {
 }
 {% endhighlight %}
 
-Như các em có thể thấy cách giải quyết ở trên , mình tạo một method mới tên là printDetails() sau đó mình dời hết tất
+Như các em có thể thấy cách giải quyết ở trên, mình tạo một method mới tên là printDetails() sau đó mình di chuyển hết tất
 cả các dòng code liên quan đến print detail lại với nhau và để nó trong method printDetails(). Tiếp đến ta chỉ cần gọi nó
 trong method printOwing() là xong.  
 
@@ -60,4 +60,4 @@ Như các em có thể thấy phương pháp Extract Method giúp mình nhóm c�
 thì các em nên tách thành những method nhỏ hơn. Trong lập trình mỗi method tối đa 15 -> 20 dòng là chuẩn.
 
 Mỗi method chỉ nên làm duy nhất một nhiệm vụ . Anh ví dụ như printDetails thì nhiệm vụ của nó chỉ in chi tiết thôi chứ không làm các công việc khác
-trong method printDetails
+trong method printDetails.
