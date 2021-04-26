@@ -14,12 +14,12 @@ youtubeId: tu0j17CaTAg
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ trình bày chủ đề về đặt tên biến ,hàm như thế nào là đúng. Khi mình viết code cái mình hướng tới là những dòng code của mình người khác đọc vào sẽ hiểu ý định mình là làm gì? Trải qua 10 năm làm code cái anh nhận thấy đa số các lập trình viên viết code chủ yếu là mình hiểu, còn người khác thì đọc chưa chắc đã hiểu. Chính vì vậy thường các lập trình viên khi đọc code người khác mà không hiểu thường sẽ xoá code đó đi và viết lại code mới. Điều này rất nguy hiểm vì nếu mình xoá nhầm một dòng code quan trọng thì chương trình có thể chạy sai. Chính vì vậy hôm nay anh sẽ hướng dẫn mọi người cách đặt tên cho đúng.
+Chào các em, hôm nay anh sẽ trình bày chủ đề về đặt tên biến ,hàm như thế nào là đúng. Khi mình viết code cái mình hướng tới là những dòng code của mình người khác đọc vào sẽ hiểu ý định mình là làm gì? Trải qua 10 năm làm code cái anh nhận thấy đa số các lập trình viên viết code chủ yếu là mình hiểu, còn người khác thì đọc chưa chắc đã hiểu. Chính vì vậy thường các lập trình viên khi đọc code người khác mà không hiểu thường sẽ xoá code đó đi và viết lại code mới. Điều này rất nguy hiểm vì nếu mình xóa nhầm một dòng code quan trọng thì chương trình có thể chạy sai. Chính vì vậy hôm nay anh sẽ hướng dẫn mọi người cách đặt tên cho đúng.
 
 # **1. Chọn một từ cho một khái niệm**
 
 Ví dụ trong ứng dụng của mình. Mình có chức năng là lấy danh sách các nhân viên có trong công ty.
-Mình có thể đặt tên method là getEmployee hoặc retrieveEmployee. Hai từ này điều có nghĩa là lấy danh sách nhân viên. Nhưng trong khi lập trình mình nên thống nhất một từ là get hoặc retrieve cho toàn bộ hệ thống để tránh sự nhầm lẫn. Không nên lúc thì gọi là getEmployee , lúc thì gọi retrieveEmployee. Như vây quy tắc đầu tiên nên chọn một từ duy nhất để mô tả chức năng của hệ thống.
+Mình có thể đặt tên method là getEmployee hoặc retrieveEmployee. Hai từ này điều có nghĩa là lấy danh sách nhân viên. Nhưng trong khi lập trình mình nên thống nhất một từ là get hoặc retrieve cho toàn bộ hệ thống để tránh sự nhầm lẫn. Không nên lúc thì gọi là getEmployee , lúc thì gọi retrieveEmployee. Như vậy quy tắc đầu tiên nên chọn một từ duy nhất để mô tả chức năng của hệ thống.
 
 Đoạn code dưới đây là không tốt. Mình nên chọn một cái tên là get hoặc retrieve mà thôi.
 
@@ -43,7 +43,7 @@ public class Example {
 <br>
 # **2. Đặt tên phải tìm kiếm được**
 
-Đoạn code dưới đây là không tốt vì khi mình khai báo biến String s, lúc này khi mình tìm kiếm cái biến s thì nó sẽ xuất hiện ra cả ngàn file chứ chữ s. Rất khó khăn trong việc tìm kiếm.  
+Đoạn code dưới đây là không tốt vì khi mình khai báo biến String s, lúc này khi mình tìm kiếm cái biến s thì nó sẽ xuất hiện ra cả ngàn file chứa chữ s. Rất khó khăn trong việc tìm kiếm.  
 
 {% highlight java  linenos %}
 public class Example1 {
@@ -60,7 +60,7 @@ public class Example1 {
 }
 {% endhighlight %}
 
-Cũng là đoạn mã trên ta viết lại như sau. Như vậy thay vì khai báo chữ s. Ta sẽ viết rõ ràng tên biến. Ví dụ như realTaskDays , như vậy khi ta tìm kiếm chỉ sẽ xuất hiện 1 file chứa từ khoá realTaskDays.
+Cũng là đoạn mã trên ta viết lại như sau. Như vậy thay vì khai báo chữ s. Ta sẽ viết rõ ràng tên biến. Ví dụ như realTaskDays , như vậy khi ta tìm kiếm chỉ sẽ xuất hiện 1 file chứa từ khóa realTaskDays.
 
 {% highlight java  linenos %}
 
@@ -95,7 +95,7 @@ public List<int[]> getThem() {
 	}
 {% endhighlight %}
 
-Cũng là đoạn mã trên nhưng anh viết lại thì mọi người sẽ dể dàng biết được ý định của anh là gì? Khi nhìn vào biếtn gameBoard mình có thể đoán ngay là doạn code sau đây đang viết về một ván cờ. Từ khoá Cell mình có thể đoán ngay là các ô trên bàn cờ.
+Cũng là đoạn mã trên nhưng anh viết lại thì mọi người sẽ dễ dàng biết được ý định của anh là gì? Khi nhìn vào biến gameBoard mình có thể đoán ngay là đoạn code sau đây đang viết về một ván cờ. Từ khóa Cell mình có thể đoán ngay là các ô trên bàn cờ.
 
 {% highlight java  linenos %}
 // good
@@ -111,7 +111,7 @@ Cũng là đoạn mã trên nhưng anh viết lại thì mọi người sẽ d�
 <br>
 # **4. Đặt tên phải thảo luận được và đọc được**
 
-Trong lập trình khi có một vấn đề gì đó thì chúng thường thảo luận với nhau. Nếu như ta đặt tên biên mà không phát âm được như đoạn code sau thì không cách nào mình có thể thảo luận với đồng nghiệp mà giải quyết được vấn đề. Ví dụ cái biến genymdhms nó không thể phát âm được.
+Trong lập trình khi có một vấn đề gì đó thì chúng ta thường thảo luận với nhau. Nếu như ta đặt tên biến mà không phát âm được như đoạn code sau thì không cách nào mình có thể thảo luận với đồng nghiệp mà giải quyết được vấn đề. Ví dụ cái biến genymdhms nó không thể phát âm được.
 
 {% highlight java  linenos %}
 public class Example1 {
@@ -169,7 +169,7 @@ public class Example1 {
 	//Tên này không tốt vì nó là tên của các hệ thống và ứng dụng
 	private String hp, aix, sco;chrome
 
-	//Tên này không tốt vì từ list là những thứ liên quan đến lập trình như linkedlist, arraylist ///dể gây hiểu nhầm
+	//Tên này không tốt vì từ list là những thứ liên quan đến lập trình như linkedlist, arraylist ///dễ gây hiểu nhầm
 	private List<String> accountList;
 
 	//Đây là cách đặt tên tốt.
@@ -180,7 +180,7 @@ public class Example1 {
 <br>
 # **7. Đặt tên method bắt buộc phải là động từ**
 
-Tên method trong Class luôn luôn phải là động từ. Nếu method dài từ 2 từ trở lên thì mình áp dụng đặt tên theo phương phát camel (con lạc đà ) chữ đầu tiên viết thường chữ sau viết hoa.
+Tên method trong Class luôn luôn phải là động từ. Nếu method dài từ 2 từ trở lên thì mình áp dụng đặt tên theo phương pháp camel (con lạc đà ) chữ đầu tiên viết thường chữ sau viết hoa.
 Ví dụ phương  thức rút tiền withdrawMoney.
 
 {% highlight java  linenos %}
@@ -224,7 +224,7 @@ public class Example1 {
 <br>
 # **10. Thêm bối cảnh để biến có ý nghĩa**
 
-Ví dụ mình có các biến sau trong class Persion  với tên như sau: firstName, lastName, street, houseNumber, city, state và zipcode. Như vậy ta hiểu được các biến sau đang mô tả cho một địa chỉ của một người.
+Ví dụ mình có các biến sau trong class Person với tên như sau: firstName, lastName, street, houseNumber, city, state và zipcode. Như vậy ta hiểu được các biến sau đang mô tả cho một địa chỉ của một người.
 
 {% highlight java  linenos %}
 public class Person {
@@ -255,12 +255,12 @@ public class Person {
 }
 {% endhighlight %}
 
-Như vậy để tăng thêm ý nghĩa cho từ state là nói về địa chỉ, ta thêm tiền tố addressState. Như vậy khi người dùng đọc vào biết là biến state đó đang nói về địa chỉ
+Như vậy để tăng thêm ý nghĩa cho từ state là nói về địa chỉ, ta thêm tiền tố addressState. Như vậy khi người dùng đọc vào biết là biến state đó đang nói về địa chỉ.
 
 <br>
 # **Tóm tắt**
 
-Trên đây là 10 cách đặt tên biết có ý nghĩa. Nếu chúng ta tuân thủ các bước này thì code của chúng ta sẽ sạch sẽ hơn. Người đọc dể hiểu hơn, từ đó dẫn đến việc duy trì ,phát triển sản phẩm dể dàng hơn.
+Trên đây là 10 cách đặt tên biết có ý nghĩa. Nếu chúng ta tuân thủ các bước này thì code của chúng ta sẽ sạch sẽ hơn. Người đọc dễ hiểu hơn, từ đó dẫn đến việc duy trì, phát triển sản phẩm dễ dàng hơn.
 
 {:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
