@@ -24,14 +24,14 @@ Một thói quen phổ biến của lập trình viên là khi nhận được y
 <br>
 # **2. TDD là gì**
 
-TDD là viết tắt của từ <b>Test-Driven-Developement</b> được phát triển bởi <b>Kent Bech</b> (một trong những lập trình viên có tiếng trên thế giới không những về coding và còn về qui trình, đây là một trong số lập trình viên mà anh yêu thích,ngoài ra các em có thể tìm kiếm thêm Uncle Bob là những người đã đem lại những đột phá trong nghề lập trình giúp các lập trình viên ngày nay trở nên giỏi hơn).
+TDD là viết tắt của từ <b>Test-Driven-Development</b> được phát triển bởi <b>Kent Beck</b> (một trong những lập trình viên có tiếng trên thế giới không những về coding và còn về quy trình, đây là một trong số lập trình viên mà anh yêu thích, ngoài ra các em có thể tìm kiếm thêm Uncle Bob là những người đã đem lại những đột phá trong nghề lập trình giúp các lập trình viên ngày nay trở nên giỏi hơn).
 
-Khi ta thực hiện cách viết code kiểu TDD. Nó yêu cầu mình phải suy nghỉ, thiết kế các <b>testcase</b> trước khi nhảy vào viết code. Sau khi viết code test xong thì sau  đó mới viết code thực thi chương trình, chứ không giống như trường hợp anh nói ở trên là lập trình viên bay vào code liền. Chính vì bắt buộc lập trình viên phải suy nghỉ trước khi test nên mình có thể dự đoán được các trường hợp sẽ xảy ra với dòng code của mình. Sau khi viết code thực thi xong thì công đoạn tiếp theo là sẽ tìm cách refactor (chỉnh sửa) code đã có trở nên gọn hơn, dể đọc hơn.
+Khi ta thực hiện cách viết code kiểu TDD. Nó yêu cầu mình phải suy nghĩ, thiết kế các <b>testcase</b> trước khi nhảy vào viết code. Sau khi viết code test xong thì sau  đó mới viết code thực thi chương trình, chứ không giống như trường hợp anh nói ở trên là lập trình viên bay vào code liền. Chính vì bắt buộc lập trình viên phải suy nghĩ trước khi test nên mình có thể dự đoán được các trường hợp sẽ xảy ra với dòng code của mình. Sau khi viết code thực thi xong thì công đoạn tiếp theo là sẽ tìm cách refactor (chỉnh sửa) code đã có trở nên gọn hơn, dễ đọc hơn.
 
 <br>
 # **3. Vòng đời TDD**
 
-Đề bài anh đưa ra như sau. Viết một method tên cal có tham số là number như sau cal(String numbers). Khi người dùng truyền vào tham số là cal("3,5") thì trả về tổng là 8. Vậy chúng ta sẽ áp dung TDD như thế nào. Trước hết mình sẽ nhìn qua vòng đời của TDD.
+Đề bài anh đưa ra như sau. Viết một method tên cal có tham số là number như sau cal(String numbers). Khi người dùng truyền vào tham số là cal("3,5") thì trả về tổng là 8. Vậy chúng ta sẽ áp dụng TDD như thế nào. Trước hết mình sẽ nhìn qua vòng đời của TDD.
 
 {:refdef: style="text-align: center;"}
 ![TDD](/images/post/softwarecraftmanship/tdd.png){:class="img-responsive"}
@@ -73,11 +73,11 @@ class CalculatorTest {
 }
 {% endhighlight %}
 
-Như các em thấy ta tạo ra class CalculatorTest có hàm testPlu2Number thì đây chính là 1 <b>testcase</b>. Mình sẽ suy nghỉ là nếu mình nhập vào số 2,3 thì kết quả mình nhận được là số 5.
+Như các em thấy ta tạo ra class CalculatorTest có hàm testPlus2Number thì đây chính là 1 <b>testcase</b>. Mình sẽ suy nghĩ là nếu mình nhập vào số 2,3 thì kết quả mình nhận được là số 5.
 
 ## Bước 2 - Test Fail.
 
-Như các em thấy nếu mình chạy testcase ở trên chắc chắn sẽ bị fail bởi vì code Productionn (code thực thi) ở bước 1 mình chưa viết gì cả mình chỉ trả về số 0. Như vậy khi mình truyền vào 2,3 ở test case thì mình luôn nhận được số 0.
+Như các em thấy nếu mình chạy testcase ở trên chắc chắn sẽ bị fail bởi vì code Production (code thực thi) ở bước 1 mình chưa viết gì cả mình chỉ trả về số 0. Như vậy khi mình truyền vào 2,3 ở test case thì mình luôn nhận được số 0.
 
 ## Bước 3 - Viết code thực thi
 
@@ -106,12 +106,12 @@ Sau khi viết code thực thi xong. Việc tiếp theo là mình chạy lại c
 
 ## Bước 5 - Refactor code
 
-Sau khi đã pass hết các testcase công việc tiếp theo của mình là xem có thể viết code Production ngắn lại được không. Thay vì 50 dòng code có thể viết thành 20 dòng code không. Có cần chỉnh sửa biến để dể hiểu , dể bảo trì không.
+Sau khi đã pass hết các testcase công việc tiếp theo của mình là xem có thể viết code Production ngắn lại được không. Thay vì 50 dòng code có thể viết thành 20 dòng code không. Có cần chỉnh sửa biến để dễ hiểu, dễ bảo trì không.
 
 # **4. Vòng đời TDD tiếp theo**
 
 Sau khi trả qua 5 giai đoạn của vòng đời 1 TDD. Chúng ta tiếp tục thiết kế các testcase khác có thể xảy ra cho cộng 2 số. Ngoài trường hợp chạy đúng ở trên
-Ví dụ như điều gì xảy ra khi người dùng nhập vào chuổi là 3 số như hàm testPlus3NumberReturnToLastValue() sau.
+Ví dụ như điều gì xảy ra khi người dùng nhập vào chuỗi là 3 số như hàm testPlus3NumberReturnToLastValue() sau.
 
 {% highlight java linenos %}
     @Test
@@ -137,16 +137,16 @@ Ta lại tiếp tục vòng đời mới là viết code thực thi, chạy test
 
 # **5. Ưu điểm**
 
-Theo kinh nghiệm của anh thì <b>ưu điểm của TDD</b> là :
+Theo kinh nghiệm của anh thì <b>ưu điểm của TDD</b> là:
 
-- Nó bắt buộc người lập trình phải suy nghỉ các trường hợp sẽ xảy ra với code của mình trước khi bắt đầu viết code Production. Điều này giúp lập trình viên có thể dự đoán các vấn đề xảy ra trong lúc viết code
+- Nó bắt buộc người lập trình phải suy nghĩ các trường hợp sẽ xảy ra với code của mình trước khi bắt đầu viết code Production. Điều này giúp lập trình viên có thể dự đoán các vấn đề xảy ra trong lúc viết code.
 
 - Khi anh làm TDD thì code mình ít bugs hơn vì các trường hợp xảy ra mình có thể dự đoán trước. Trong thực tế khi anh code một chức năng gì, anh thường chạy qua bên Tester (đội kiểm thử phần mềm của công ty) để hỏi xem trong method anh sắp code có những testcase nào có thể xảy ra. Vì Tester sẽ có nhiều kinh nghiệm dự đoán lỗi hơn mình. Nên việc tham khảo ý kiến tester trước khi code giúp code anh ít lỗi hơn.
 
-- Có thể một tháng , một năm sau code của anh viết ở trên sẽ được bảo trì , và thêm các tính năng mới trong đó. Nếu không có các testcase mà anh viết thì có thể người đi sau sẽ code ra một cái nghiệp mới nhưng sẽ sai về mặt nghiệp vụ củ. Như vậy để tránh tình trạng sửa code mà nó chỉ chạy đúng tính năng mới còn tính năng củ trong method không đúng thì mình có các testcase để kiểm tra lại tổng thể cái code mới viết ra có chạy đúng hay không.
+- Có thể một tháng, một năm sau code của anh viết ở trên sẽ được bảo trì , và thêm các tính năng mới trong đó. Nếu không có các testcase mà anh viết thì có thể người đi sau sẽ code ra một cái nghiệp mới nhưng sẽ sai về mặt nghiệp vụ củ. Như vậy để tránh tình trạng sửa code mà nó chỉ chạy đúng tính năng mới còn tính năng củ trong method không đúng thì mình có các testcase để kiểm tra lại tổng thể cái code mới viết ra có chạy đúng hay không.
 
 <br>
-### Để hiểu rõ hơn các làm TDD các em xem video sau nhé.
+### Để hiểu rõ hơn cách làm TDD các em xem video sau nhé.
 
 
 
