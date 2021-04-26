@@ -232,14 +232,14 @@ Chúng ta nên có 2 phương thức  premiumBooking và regularBooking riêng b
 
 
 <br>
-# **5. Sử dụng Try/Catch**
+# **6. Sử dụng Try/Catch**
 
-Chúng ta nên di chuyển các code trong try catch thành các method bên ngoài và nhóm lại. Như vậy code sẽ dể hiểu hơn và không quá rối cho người đọc
+Chúng ta nên di chuyển các code trong try catch thành các method bên ngoài và nhóm lại. Như vậy code sẽ dễ hiểu hơn và không quá rối cho người đọc.
 
 - Code chưa tốt
 
 
-{% highlight java  linenos %}
+{% highlight java linenos %}
 
 public void delete(Page page)
 {
@@ -291,9 +291,9 @@ private void problem(Exception e) {
 {% endhighlight %}
 
 <br>
-# **6. Method nên làm 1 nhiệm vụ**
+# **7. Method nên làm 1 nhiệm vụ**
 
-Mỗi method chỉ làm một việc duy nhất. Trong ví dụ dưới đây hàm print làm 2 nhiệm vụ là printBaner và lấy tạo độ. Như vậy là sai vì mỗi method chỉ làm một nhiệm vụ của nó. Hàm print nên chỉ làm việc của mình là in ra màn hình còn việc lấy tạo độ để một method khác lo.
+Mỗi method chỉ làm một việc duy nhất. Trong ví dụ dưới đây hàm print làm 2 nhiệm vụ là printBanner và lấy toạ độ. Như vậy là sai vì mỗi method chỉ làm một nhiệm vụ của nó. Hàm print nên chỉ làm việc của mình là in ra màn hình còn việc lấy tạo độ để một method khác lo.
 
 - Code không tốt
 
@@ -323,10 +323,10 @@ void getPosition() {
 {% endhighlight %}
 
 <br>
-# **7. Chuyển tham số thành đối tượng**
+# **8. Chuyển tham số thành đối tượng**
 
-Method nhiều nhất chỉ chứa 2 tham số. Nếu vượt quá 2 tham số thì chúng ta nên gọp các tham số đó lại thành một đối tượng. Trong ví dụ dưới đây
-chúng ta thay thế các tham số x,y,radius thành đối tượng Point
+Method nhiều nhất chỉ chứa 2 tham số. Nếu vượt quá 2 tham số thì chúng ta nên gộp các tham số đó lại thành một đối tượng. Trong ví dụ dưới đây
+chúng ta thay thế các tham số x, y, radius thành đối tượng Point.
 
 - Code không tốt
 
@@ -355,11 +355,11 @@ public class Example {
 
 
 <br>
-# **8. Copy/Paste code**
+# **9. Copy/Paste code**
 
-Copy code và dán lại code vào nhiều chỗ khác nhau trong source code là một thói quen xấu. Trường hợp nếu mình có lỗi xảy ra thì mình không biết tìm lỗi đó ở đâu, vì mình đã copy nó quá nhiều chỗ. Trong một team phát triển phần mềm có rất nhiều lập trình viên làm việc chung với nhau trên 1 source do đó nếu mình copy code và dán vào thì người khác cũng rất khó để tìm lỗi. Đặt biệt trong giai bảo trì , nhiều code copy sẽ dẫn đến trường hợp khó khăn trong fix bug. Chúng ta nên sử dụng tool sonar chi tiết tại [đây](https://levunguyen.com/craftmanship/2020/08/04/su-dung-sonarqube/) để kiểm tra xem code chúng ta đã tốt chưa có bị trùng lập ở đâu không.
+Copy code và dán lại code vào nhiều chỗ khác nhau trong source code là một thói quen xấu. Trường hợp nếu mình có lỗi xảy ra thì mình không biết tìm lỗi đó ở đâu, vì mình đã copy nó quá nhiều chỗ. Trong một team phát triển phần mềm có rất nhiều lập trình viên làm việc chung với nhau trên 1 source do đó nếu mình copy code và dán vào thì người khác cũng rất khó để tìm lỗi. Đặc biệt trong giai bảo trì , nhiều code copy sẽ dẫn đến trường hợp khó khăn trong fix bug. Chúng ta nên sử dụng tool sonar chi tiết tại [đây](https://levunguyen.com/craftmanship/2020/08/04/su-dung-sonarqube/) để kiểm tra xem code chúng ta đã tốt chưa có bị trùng lập ở đâu không.
 
 
 # **Tóm tắt**
 
-Các cách trên đây thường được áp dụng khi mình viết một phương thức đúng chuẩn. Nếu tuân thủ các cách trên anh chắn chắn mọi người sẽ viết ra những dòng code đẹp, dễ đọc và để bảo trì trong tương lai.
+Các cách trên đây thường được áp dụng khi mình viết một phương thức đúng chuẩn. Nếu tuân thủ các cách trên anh chắc chắn mọi người sẽ viết ra những dòng code đẹp, dễ đọc và để bảo trì trong tương lai.
