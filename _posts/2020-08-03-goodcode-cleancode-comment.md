@@ -78,7 +78,7 @@ public class Mumbling {
 <br>
 # **3. Journal Comment**
 
-Mình viết comment trên cái file mô tả từng ngày mình chỉnh sửa cái file, giống như mô tả một cuộc hành trình. Hiện nay các source code như github, gitlab hoặc bitbucket đều có khả năng xem lại history của sự thay đổi mình không nên làm giống cách dưới đây.
+Mình viết comment trên file mô tả từng ngày mình chỉnh sửa file, giống như mô tả một cuộc hành trình. Hiện nay các source code như github, gitlab hoặc bitbucket đều có khả năng xem lại history của sự thay đổi mình không nên làm giống cách dưới đây.
 
 - Code không tốt
 
@@ -118,7 +118,7 @@ public class Journal {
 <br>
 # **4. Comment các code không dùng**
 
-Trong code chúng ta nhiều khi không sử dụng như lại không xoá đi mà chúng ta comment lại. Hiện nay cách source control đều có thể giữ các code chúng ta trên đấy và chúng ta có thể revert lại version củ bất cứ khi nào chúng ta muốn. Nên không cần phải comment lại code mà không dùng. Tốt nhất nên xoá đi.
+Trong code chúng ta nhiều khi không sử dụng nhưng lại không xoá đi mà chúng ta comment lại. Hiện nay các source control đều có thể giữ các code chúng ta trên đấy và chúng ta có thể revert lại version cũ bất cứ khi nào chúng ta muốn. Nên không cần phải comment lại code mà không dùng. Tốt nhất nên xóa đi.
 
 - Code không tốt
 
@@ -146,7 +146,7 @@ public class CommentOutCode {
 {% endhighlight %}
 
 <br>
-# **5. Đặt comment ở thẻ dóng**
+# **5. Đặt comment ở thẻ đóng**
 
 Thỉnh thoảng chúng ta hay thấy các lập trình viên thường ghi chú comment ở các thẻ đóng. Ví dụ dưới đây như khi kết thúc vòng while thì hay dùng comment //while để chú thích là hết vòng while.
 
@@ -188,7 +188,7 @@ public class ClosingBrace {
 <br>
 # **1. Comment mang tính phóng đại**
 
-Khi mình muốn nhấn mạnh sự quan trọng của một dòng code. Nếu không dùng nó có thể ảnh đến hệ thống. Lúc này mình nên comment cho các lập trình viên khác biết để họ không xoá hoặc làm sai.
+Khi mình muốn nhấn mạnh sự quan trọng của một dòng code. Nếu không dùng nó có thể ảnh đến hệ thống. Lúc này mình nên comment cho các lập trình viên khác biết để họ không xóa hoặc làm sai.
 
 - Code tốt
 
