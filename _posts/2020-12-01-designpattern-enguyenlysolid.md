@@ -28,13 +28,13 @@ SOLID đưa ra cho chúng ta 5 nguyên lý (5 phương pháp) mà chúng ta ph�
 
 Nguyên lý đầu tiên là khi chúng ta tạo ra một class thì class đó chỉ có một nhiệm vụ (trách nhiệm) duy nhất hay nói các khác là làm một việc duy nhất.
 
-Lợi ích của sử dụng nguyên lý này giúp chúng ta trong việc
+Lợi ích của sử dụng nguyên lý này giúp chúng ta trong việc:
 
-- Kiểm thử chức năng : Class chỉ có 1 nhiệm vụ nên việc test hoặc làm unit rất đơn giản chỉ cần vài testcase có thể kiểm tra được chất lượng code
+- Kiểm thử chức năng : Class chỉ có 1 nhiệm vụ nên việc test hoặc làm unit rất đơn giản chỉ cần vài testcase có thể kiểm tra được chất lượng code.
 
-- Giảm phụ thuộc : Ít chức năng (method) trong class dẫn đến ít sự phụ thuộc
+- Giảm phụ thuộc : Ít chức năng (method) trong class dẫn đến ít sự phụ thuộc.
 
-- Tổ chức code của dự án : Các file code càng nhỏ thì dể quản lý và tìm kiếm
+- Tổ chức code của dự án : Các file code càng nhỏ thì dễ quản lý và tìm kiếm.
 
 Ví dụ anh có lớp Book gồm có name, author và text.
 
@@ -114,13 +114,13 @@ public class BookPrinter {
 Ta tạo thêm một class tên BookPrinter có nhiệm vụ là in ra màn hình. Như vậy nhiệm vụ in của class Book sẽ do lớp mới là BookPrinter đảm nhận và class BookPrinter này chỉ làm một việc duy nhất là in.
 
 <br>
-# **3- Nguyên lý Open Extenstion và Close for Modification?**
+# **3- Nguyên lý Open Extension và Close for Modification?**
 
-Nguyên lý này nói là một class thì nên thiết kế cho khả năng mở rộng và không nên thay đổi. Trong thực tế khi tạo ra một class mình phải suy nghĩ rằng class này có  khả năng mở rộng trong tương lai hay không. Anh ví dụ mình viết phương thức thanh toán online tại thời điểm mình viết thì chỉ chấp nhập ví MOMO nhưng trong tương lai có thể chấp nhận Master hoặc Visa. Chính vì vậy khi tạo ra một class thì phải có tính năng mở rộng. 
+Nguyên lý này nói là một class thì nên thiết kế cho khả năng mở rộng và không nên thay đổi. Trong thực tế khi tạo ra một class mình phải suy nghĩ rằng class này có  khả năng mở rộng trong tương lai hay không. Anh ví dụ mình viết phương thức thanh toán online tại thời điểm mình viết thì chỉ chấp nhận ví MOMO nhưng trong tương lai có thể chấp nhận Master hoặc Visa. Chính vì vậy khi tạo ra một class thì phải có tính năng mở rộng. 
 
 Close Modification có nghĩa là không nên nhảy vô code đang có mà sửa đổi, đều này cực kỳ nghiêm trọng vì có những lúc code cũ đang chạy ngon. Mình vào sửa vài dòng code lúc này vô tình ảnh hưởng tới các chức năng khác gây nên tình trạng lỗi. Trong lập trình các anh gặp vấn đề này rất nhiều do người đi trước viết code không theo nguyên lý SOLID dẫn đến việc các anh phải nhảy vô code đang có sửa trực tiếp.
 
-Anh ví dụ như mình có class Guita như sau
+Anh ví dụ như mình có class Guitar như sau:
 
 <br>
 {% highlight java  linenos %}
@@ -136,7 +136,7 @@ public class Guitar {
 
 {% endhighlight %}
 
-Sau một khoản thời gian chạy anh mong muốn thêm chức năng mới cho Guitar. Lúc này anh sẽ không vào sửa trực tiếp trong lớp Guita mà sẽ tạo ra một lớp khác kế thừa Guita và thêm chức năng mới.
+Sau một khoảng thời gian chạy anh mong muốn thêm chức năng mới cho Guitar. Lúc này anh sẽ không vào sửa trực tiếp trong lớp Guitar mà sẽ tạo ra một lớp khác kế thừa Guitar và thêm chức năng mới.
 
 <br>
 {% highlight java  linenos %}
@@ -218,7 +218,7 @@ Như vậy là vi phạm nguyên lý Liskov Substitution vì nguyên lý này n�
 Để sửa lại code cho đúng nguyên lý Liskov Substitution thì có khi chúng ta phải đập hết code và sửa lại model của chương trình cho đúng
 
 <br>
-# **5- Nguyên lý Interface Segregration?**
+# **5- Nguyên lý Interface Segregation?**
 
 Nguyên lý này nói chúng ta rằng nếu chúng ta có một interface có quá nhiều phương thức và quá to thì nen chia nhỏ ra thành các interface nhỏ.
 
