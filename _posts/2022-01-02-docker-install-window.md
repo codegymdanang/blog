@@ -42,9 +42,9 @@ Khi chương trình cài đặt xong, chúng ta bấm vào nút finish để ho�
 
 ## **2. Cài đặt Docker Toolbox**
 
-Sau khi download file docker tool box thì mình click double vào để cài đặt docker toolbox.
+Sau khi download file docker toolbox thì mình click double vào để cài đặt docker toolbox.
 
-- Step 1 : Click Next button để bắt đầu 
+- Step 1 : Click Next button để bắt đầu.
 
 {:refdef: style="text-align: center;"}
 ![reactjs ](/images/post/docker/docker_toolbox_next.jpeg){:class="img-responsive"}
@@ -56,19 +56,19 @@ Sau khi download file docker tool box thì mình click double vào để cài đ
 ![reactjs ](/images/post/docker/destination_location.jpeg){:class="img-responsive"}
 {: refdef}
 
-- Step 3 : Chọn chế độ cài mặc đinh.
+- Step 3 : Chọn chế độ cài mặc định.
 
 {:refdef: style="text-align: center;"}
 ![reactjs ](/images/post/docker/select_components.jpeg){:class="img-responsive"}
 {: refdef}
 
-- Step 4 : Thêm một số task vụ cần thiết 
+- Step 4 : Thêm một số task vụ cần thiết.
 
 {:refdef: style="text-align: center;"}
 ![reactjs ](/images/post/docker/additional_tasks.jpeg){:class="img-responsive"}
 {: refdef}
 
-- Step 5 : Sau khi đã chọn các thông số cần thiết thì bấm Install để cài đặt docker toolbox
+- Step 5 : Sau khi đã chọn các thông số cần thiết thì bấm Install để cài đặt docker toolbox.
 
 {:refdef: style="text-align: center;"}
 ![reactjs ](/images/post/docker/install.jpeg){:class="img-responsive"}
@@ -77,7 +77,7 @@ Sau khi download file docker tool box thì mình click double vào để cài đ
 
 ## **3. Làm việc với Docker Toolbox**
 
-Sau khi cài đặt xong docker toolbox thì ta sẽ thấy biểu tượng để chạy như sau :
+Sau khi cài đặt xong docker toolbox thì ta sẽ thấy biểu tượng để chạy như sau:
 
 {:refdef: style="text-align: center;"}
 ![reactjs ](/images/post/docker/quickstart_terminal.jpeg){:class="img-responsive"}
@@ -89,7 +89,7 @@ Tiếp đến chúng ta sẽ thấy một số configure được chạy khi Doc
 ![reactjs ](/images/post/docker/docker_toolbox_launched.jpeg){:class="img-responsive"}
 {: refdef}
 
-Sau khi đã chạy xong thì chúng ta sẽ có giao diện toolbox để làm việc với docker như sau
+Sau khi đã chạy xong thì chúng ta sẽ có giao diện toolbox để làm việc với docker như sau:
 
 {:refdef: style="text-align: center;"}
 ![reactjs ](/images/post/docker/interactive_shell.jpeg){:class="img-responsive"}
@@ -97,7 +97,7 @@ Sau khi đã chạy xong thì chúng ta sẽ có giao diện toolbox để làm 
 
 ## **4. Test Docker Toolbox**
 
-Để test docker đã cài đặt thành công hay không chúng ta sẽ sử dụng lệnh docker run để download và chạy ứng dụng HelloWorld docker container như sau
+Để test docker đã cài đặt thành công hay không chúng ta sẽ sử dụng lệnh docker run để download và chạy ứng dụng HelloWorld docker container như sau:
 
 {% highlight javascript  linenos %}
 
@@ -105,7 +105,7 @@ sudo docker run hello-world
 
 {% endhighlight %}
 
-Sau khi chạy command docker run chúng ta sẽ nhận được kết quả như sau
+Sau khi chạy command docker run chúng ta sẽ nhận được kết quả như sau:
 
 {:refdef: style="text-align: center;"}
 ![reactjs ](/images/post/docker/docker_container.jpeg){:class="img-responsive"}
