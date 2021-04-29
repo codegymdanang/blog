@@ -74,9 +74,9 @@ CALL SelectAllCustomers;
 
 ## **2. Stored Procedure với tham số**
 
-Giống như phương thức (hàm) trong lập trình, phướng thức có tham số thì Stored Procedure cũng có tham số.
+Giống như phương thức (hàm) trong lập trình, phương thức có tham số thì Stored Procedure cũng có tham số.
 
-- Ví dụ tạo một Stored Procedure có tham số city 
+- Ví dụ tạo một Stored Procedure có tham số city.
 
 <br>
 {% highlight sql linenos %}
@@ -87,7 +87,7 @@ SELECT * FROM Customers WHERE City = @City
 END;
 {% endhighlight %}
 
-- Chúng ta thực thi Stored Procedure và truyền tham số city là London vào
+- Chúng ta thực thi Stored Procedure và truyền tham số city là London vào.
 
 
 <br>
