@@ -15,14 +15,14 @@ youtubeId: ZqmIem8Q2Fo
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chủ đề của anh sẽ về các cách <b>tìm việc làm </b>hiệu quả. Cách đây 10 năm việc tìm kiếm một công việc IT rất khó khăn. Lúc đó các đàn anh của anh thường phải mua báo để đọc vì họ thường tuyển dụng trên báo. Hoặc phải đến các trung tâm giới thiệu việc làm xem có công ty nào có tuyển dụng không. Thời gian kiếm việc có khi lên đến cả tháng trời mà không có kết quả cao. Nhưng thật may mắn cho chúng ta đang sống trong thời đại công nghệ. Nên có thể cập nhật bất cứ tin tuyển dụng nào trong vòng 15 phút trên các trang tuyển dụng như vietnamwork, jobgo, hay itviec. Hoặc qua các mạng xã hội như facebook, linkedin. Hầu hết các công ty đều đăng tuyển dụng lên đó cả.
+Chào các em, hôm nay chủ đề của anh sẽ về các cách <b>tìm việc làm </b>hiệu quả. Cách đây 10 năm việc tìm kiếm một công việc IT rất khó khăn. Lúc đó các đàn anh của anh thường phải mua báo để đọc vì họ thường tuyển dụng trên báo. Hoặc phải đến các trung tâm giới thiệu việc làm xem có công ty nào có tuyển dụng không. Thời gian kiếm việc có khi lên đến cả tháng trời mà không có kết quả cao. Nhưng thật may mắn cho chúng ta đang sống trong thời đại công nghệ. Nên có thể cập nhật bất cứ tin tuyển dụng nào trong vòng 15 phút trên các trang tuyển dụng như vietnamwork, jobsgo, hay itviec. Hoặc qua các mạng xã hội như facebook, linkedin. Hầu hết các công ty đều đăng tuyển dụng lên đó cả.
 
 Chính vì vậy chúng ta hãy chủ động trong việc <b>tìm việc làm</b> để có nhiều cơ hội làm việc tại các công ty công nghệ tốt.
 
 <br>
 # **1. Tìm việc qua kênh Facebook**
 
-Hiện nay có rất nhiều group về tuyển <b>việc làm công nghệ thông tin</b>. Đó là nơi tập trung khá nhiều HR của các doanh nghiệp đăng tin tuyển dụng trên đó. Nếu không tham gia vào các group trên thì rất khó để nắm được thông tin tuyển dụng. Chính vì vậy mình nên tham gia vào các nhóm để cập nhật việc làm đều đặn. Các em có thể search từ khoá này trên facebook : việc làm CNTT Đà Nẵng, Cộng đồng Java - IT jobs Việt Nam, hay Việc làm Công Nghệ Thông Tin - CNTT Đà Nẵng. Có rất nhiều nhóm facebook chỉ dành cho Đà Nẵng, nếu các em muốn tìm các công việc ở Hà Nội và Sài Gòn thì có thể search các nhóm có chữ Việt Nam cuối cùng.
+Hiện nay có rất nhiều group về tuyển <b>việc làm công nghệ thông tin</b>. Đó là nơi tập trung khá nhiều HR của các doanh nghiệp đăng tin tuyển dụng trên đó. Nếu không tham gia vào các group trên thì rất khó để nắm được thông tin tuyển dụng. Chính vì vậy mình nên tham gia vào các nhóm để cập nhật việc làm đều đặn. Các em có thể search từ khóa này trên facebook : việc làm CNTT Đà Nẵng, Cộng đồng Java - IT jobs Việt Nam, hay Việc làm Công Nghệ Thông Tin - CNTT Đà Nẵng. Có rất nhiều nhóm facebook chỉ dành cho Đà Nẵng, nếu các em muốn tìm các công việc ở Hà Nội và Sài Gòn thì có thể search các nhóm có chữ Việt Nam cuối cùng.
 
 Khi đã thấy HR(nhà tuyển dụng) nào đăng 1 tin về tuyển dụng mà phù hợp với mình, các em chủ động Inbox nhà tuyển dụng, sau đó gửi CV của mình. Nhà tuyển dụng sẽ chọn lọc nếu CV phù hợp thì họ sẽ gọi đi phỏng vấn.
 
@@ -43,7 +43,7 @@ Khi đã tạo được account trên linkedin thì các em nên kết bạn v�
 <br>
 # **4. Tìm việc qua Website của công ty**
 
-Các công ty IT đều có website riêng của mình. Trên đó ngoài việc giới thiệu về công ty, các sản phẩm và dịch vụ thì họ cũng có 1 trang riêng để đăng các vị trí tuyển dụng. Các em có thể chủ động liên lạc với họ, các công ty thường để email liên hệ trong website của mình. Các em có thể gửi email hoặc lên fanpage của công ty để gửi CV
+Các công ty IT đều có website riêng của mình. Trên đó ngoài việc giới thiệu về công ty, các sản phẩm và dịch vụ thì họ cũng có 1 trang riêng để đăng các vị trí tuyển dụng. Các em có thể chủ động liên lạc với họ, các công ty thường để email liên hệ trong website của mình. Các em có thể gửi email hoặc lên fanpage của công ty để gửi CV.
 
 <br>
 # **5. Tìm việc qua Hội thảo tuyển dụng**
