@@ -18,11 +18,11 @@ Chào các em, chủ đề hôm nay của anh sẽ bàn về <b>Design Pattern</
 <br>
 # **1- Strategy Pattern là gì ?**
 
-Chúng ta dùng <b>Strategy Pattern</b> để quản lý thuật toán , các mối quan hệ giữa các object trong ứng dụng
+Chúng ta dùng <b>Strategy Pattern</b> để quản lý thuật toán , các mối quan hệ giữa các object trong ứng dụng.
 
 # **2- Khi nào nên dùng Abstract Factory**
 
-Chúng ta sử dụng <b>Strategy</b> khi chúng ta muốn chọn một thuật toán cho một đối tượng cụ thể lúc runtime (chương trình đang chạy). Ví dụ như thuật toán thanh toán cho khi mua hàng online trên mạng. Chúng ta có thể thanh toán bằng thẻ visa hay master. Thì khi chương trình mình dang chạy nếu người dùng chọn visa thì mình sẽ dùng thuật toán tính tiền của visa để thanh toán. Như vậy ta wrap các thuật toán , các business thành một đối tượng và sử dụng nó
+Chúng ta sử dụng <b>Strategy</b> khi chúng ta muốn chọn một thuật toán cho một đối tượng cụ thể lúc runtime (chương trình đang chạy). Ví dụ như thuật toán thanh toán cho khi mua hàng online trên mạng. Chúng ta có thể thanh toán bằng thẻ visa hay master. Thì khi chương trình mình đang chạy nếu người dùng chọn visa thì mình sẽ dùng thuật toán tính tiền của visa để thanh toán. Như vậy ta wrap các thuật toán, các business thành một đối tượng và sử dụng nó.
 
 
 # **3- Strategy UML**
@@ -31,7 +31,7 @@ Chúng ta sử dụng <b>Strategy</b> khi chúng ta muốn chọn một thuật 
 ![Method Strategy ](/images/post/designpattern/strategyuml.png){:class="img-responsive"}
 {: refdef}
 
-Ví dụ sau dây ta làm cho thuật toán nén file. Người dùng có thể nén bằng zip hoặc bằng rar
+Ví dụ sau đây ta làm cho thuật toán nén file. Người dùng có thể nén bằng zip hoặc bằng rar.
 
 {% highlight java  linenos %}
 
