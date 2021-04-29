@@ -14,7 +14,7 @@ youtubeId: w7GoXo5PIvI
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay chúng ta sẽ nói về chủ đề các câu lệnh DLL trong Database là gì nhé?
+Chào các em, hôm nay chúng ta sẽ nói về chủ đề các câu lệnh DDL trong Database là gì nhé?
 
 ## **1. Các câu lệnh DDL**
 
@@ -42,9 +42,9 @@ CREATE DATABASE testDB;
 
 {% endhighlight %}
 
-## **3. Xoá Database**
+## **3. Xóa Database**
 
-Chúng ta sử dụng từ khoá DROP DATABASE để xoá cơ sở dữ liệu.
+Chúng ta sử dụng từ khoá DROP DATABASE để xóa cơ sở dữ liệu.
 
 - Cú pháp
 
@@ -55,7 +55,7 @@ DROP DATABASE databasename;
 
 {% endhighlight %}
 
-- Ví dụ xoá Database trên testDB
+- Ví dụ xóa Database trên testDB
 
 <br>
 {% highlight sql linenos %}
@@ -96,9 +96,9 @@ CREATE TABLE Persons (
 );
 {% endhighlight %}
 
-## **5. Xoá bảng**
+## **5. Xóa bảng**
 
-Chúng ta sử dụng từ khoá DROP TABLE để xoá bảng trong cơ sở dữ liệu.
+Chúng ta sử dụng từ khoá DROP TABLE để xóa bảng trong cơ sở dữ liệu.
 
 - Cú pháp
 
@@ -118,9 +118,9 @@ DROP TABLE Shippers;
 
 {% endhighlight %}
 
-## **6. Xoá hết dữ liệu trong Bảng**
+## **6. Xóa hết dữ liệu trong Bảng**
 
-Chúng ta sử dụng từ khoá TRUNCATE TABLE để xoá hết các dữ liệu trong bảng. Khác với Drop table ở chỗ là TRUNCATE chỉ xoá dữ liệu còn cấu trúc bảng vẫn giữ nguyên, còn Drop thì nó xoá hết tất cả mọi thứ về cấu trúc bảng và dữ liệu.
+Chúng ta sử dụng từ khóa TRUNCATE TABLE để xóa hết các dữ liệu trong bảng. Khác với Drop table ở chỗ là TRUNCATE chỉ xóa dữ liệu còn cấu trúc bảng vẫn giữ nguyên, còn Drop thì nó xóa hết tất cả mọi thứ về cấu trúc bảng và dữ liệu.
 
 - Cú pháp
 
@@ -142,9 +142,9 @@ TRUNCATE TABLE Shippers;
 
 ## **7. Chỉnh sửa lại Bảng**
 
-Chúng ta sử dụng ALTER TABLE để chỉnh sửa, xoá, thêm lại các col trong Table đã có sẵn.
+Chúng ta sử dụng ALTER TABLE để chỉnh sửa, xóa, thêm lại các col trong Table đã có sẵn.
 
-- Cú pháp sau đây thêm 1 column vào bảng có sẵn
+- Cú pháp sau đây thêm 1 column vào bảng có sẵn.
 
 <br>
 {% highlight sql linenos %}
@@ -163,7 +163,7 @@ ALTER TABLE Customers
 ADD Email varchar(255);
 {% endhighlight %}
 
-- Cú pháp sau đây xoá 1 column vào bảng có sẵn
+- Cú pháp sau đây xóa 1 column vào bảng có sẵn.
 
 <br>
 {% highlight sql linenos %}
@@ -183,7 +183,7 @@ DROP COLUMN Email;
 
 {% endhighlight %}
 
-- Cú pháp sau đây thay đổi kiểu dữ liệu 1 column vào bảng có sẵn
+- Cú pháp sau đây thay đổi kiểu dữ liệu 1 column vào bảng có sẵn.
 
 <br>
 {% highlight sql linenos %}
