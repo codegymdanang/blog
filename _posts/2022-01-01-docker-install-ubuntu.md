@@ -55,7 +55,7 @@ Từ kết quả trên chúng ta thấy được rằng hệ điều hành linux
 
 ## **2. Bước 2**
 
-Chúng ta cần phải cập nhật OS với phiên bản cuối cùng bằng cách thực hiện comand apt-get. Phương thức này sẽ cài đặt các package từ mạng về hệ thống Linux của chúng ta
+Chúng ta cần phải cập nhật OS với phiên bản cuối cùng bằng cách thực hiện command apt-get. Phương thức này sẽ cài đặt các package từ mạng về hệ thống Linux của chúng ta
 
 Cú pháp 
 
@@ -80,7 +80,7 @@ sudo apt-get update
 ![reactjs ](/images/post/docker/example_output.jpeg){:class="img-responsive"}
 {: refdef}
 
-Command ở trên sẽ download tât cả các thư viện mới nhất về hệ thống linux của chúng ta.
+Command ở trên sẽ download tất cả các thư viện mới nhất về hệ thống linux của chúng ta.
 
 ## **3. Bước 3**
 
@@ -185,7 +185,7 @@ Nó sẽ cài đặt và download docker từ website và cài đặt nó trên 
 
 ## **10. Kiểm tra phiên bản docker**
 
-Chúng ta sứ dụng command docker version để xem phiên bản docker của chúng ta vừa cài đặt là phiên bản bao nhiêu.
+Chúng ta sử dụng command docker version để xem phiên bản docker của chúng ta vừa cài đặt là phiên bản bao nhiêu.
 
 {% highlight javascript  linenos %}
 
