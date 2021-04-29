@@ -14,7 +14,7 @@ youtubeId: Ex3glZTCvlY
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, sau khi đã học xong công nghệ web thì đây là những câu hỏi để đánh giá xem mình có nắm được kiến thức nền không? Đây là bộ <b>câu hỏi HTMl & CSS & Bootstrap khi đi phỏng vấn </b> tại các doanh nghiệp
+Chào các em, sau khi đã học xong công nghệ web thì đây là những câu hỏi để đánh giá xem mình có nắm được kiến thức nền không? Đây là bộ <b>câu hỏi HTMl & CSS & Bootstrap khi đi phỏng vấn </b> tại các doanh nghiệp.
 
 - Nêu các thẻ để tạo danh sách ?
 - Sự khác nhau giữa <ul> và <ol> ?"
