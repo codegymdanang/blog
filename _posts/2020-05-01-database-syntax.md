@@ -47,11 +47,11 @@ SELECT * FROM Customers;
 
 {% endhighlight %}
 
-Mysql không phân biệt chữ hoa và chữ thường, chúng ta viết select thì cũng giống như SELECT. Sau mỗi câu lệnh SQL thì ta sử dụng dấu ; để kết thúc câu lệnh.
+Mysql không phân biệt chữ hoa và chữ thường, chúng ta viết select thì cũng giống như SELECT. Sau mỗi câu lệnh SQL thì ta sử dụng dấu; để kết thúc câu lệnh.
 
 Câu lệnh SQL được chia ra thành 4 loại DDL, DML, DCL và TCL.
 
-- Data Definition Language (DDL): Các câu lệnh định nghĩa cấu trúc để lưu trữ dữ liệu. Chúng ta sử dụng các câu lệnh này để tạo, sửa, xoá các Database hoặc các Table trong Database.
+- Data Definition Language (DDL): Các câu lệnh định nghĩa cấu trúc để lưu trữ dữ liệu. Chúng ta sử dụng các câu lệnh này để tạo, sửa, xóa các Database hoặc các Table trong Database.
 
 + CREATE to create a new table or database.
 + ALTER for alteration.
@@ -65,9 +65,9 @@ Câu lệnh SQL được chia ra thành 4 loại DDL, DML, DCL và TCL.
 + DELETE to delete a row.
 + MERGE for merging two rows or two tables.
 
-- Data Control Language (DCL): Các câu lệnh dùng để quản lý Permission (phân quyền) trong cơ sở dử liệu.
+- Data Control Language (DCL): Các câu lệnh dùng để quản lý Permission (phân quyền) trong cơ sở dữ liệu.
 + Grant : gán quyền cho user.
-+ Revoke : xoá quyền cho user.
++ Revoke : xóa quyền cho user.
 
 - TCL: Các câu lệnh dùng cho việc thao tác với Transaction trong Database.
 
