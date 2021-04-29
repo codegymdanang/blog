@@ -194,7 +194,7 @@ public class MotorCar implements Car {
 
 {% endhighlight %}
 
-Như vậy xem MotorCar đều có chức năng khởi động động cơ và vô số. Nhưng bây giờ anh muốn thay chiếc xe là xem ô tô điện (ElectricCar). Như vậy mọi người thấy ô tô điện thì đâu có phương thức khởi động động cơ và vô số.
+Như vậy xe MotorCar đều có chức năng khởi động động cơ và vô số. Nhưng bây giờ anh muốn thay chiếc xe là xe ô tô điện (ElectricCar). Như vậy mọi người thấy ô tô điện thì đâu có phương thức khởi động động cơ và vô số.
 
 <br>
 {% highlight java  linenos %}
@@ -213,14 +213,14 @@ public class ElectricCar implements Car {
 
 {% endhighlight %}
 
-Như vậy là vi phạm nguyên lý Liskov Substitution vì nguyên lý này nói khi chúng ta thay chiếc xe bằng ElectricCar thì chương trình vẫn phải chạy bình thường. Nhưng trong ví dụ trên của ta khi ta thay chiếc xe bằng ElectricCar thì không hoạt động được, bằng chứng ta phương thức turnOnEngine và accelerate không hoạt động được trong môi trường điện.
+Như vậy là vi phạm nguyên lý Liskov Substitution vì nguyên lý này nói khi chúng ta thay chiếc xe bằng ElectricCar thì chương trình vẫn phải chạy bình thường. Nhưng trong ví dụ trên của ta khi ta thay chiếc xe bằng ElectricCar thì không hoạt động được, bằng chứng là phương thức turnOnEngine và accelerate không hoạt động được trong môi trường điện.
 
 Để sửa lại code cho đúng nguyên lý Liskov Substitution thì có khi chúng ta phải đập hết code và sửa lại model của chương trình cho đúng
 
 <br>
 # **5- Nguyên lý Interface Segregation?**
 
-Nguyên lý này nói chúng ta rằng nếu chúng ta có một interface có quá nhiều phương thức và quá to thì nen chia nhỏ ra thành các interface nhỏ.
+Nguyên lý này nói chúng ta rằng nếu chúng ta có một interface có quá nhiều phương thức và quá to thì nên chia nhỏ ra thành các interface nhỏ.
 
 Ví dụ chúng ta có interface sau là hơi to.
 
@@ -287,7 +287,7 @@ public class BearCarer implements BearCleaner, BearFeeder {
 
 Sử dụng nguyên lý này để giảm sự phụ thuộc giữa các module với nhau. Trong khi làm một phần mềm sẽ có hàng trăm module. Giảm đi sự phụ thuộc giữa các module sẽ giúp cho chương trình mình ít lỗi hơn và ít phức tạp hơn.
 
-Anh có ví dụ về Class là máy tính Windows98 bao gồm có 2 đối tượng là màn hình và bàn phím như sau
+Anh có ví dụ về Class là máy tính Windows98 bao gồm có 2 đối tượng là màn hình và bàn phím như sau:
 
 <br>
 {% highlight java  linenos %}
@@ -342,7 +342,7 @@ public class Windows98Machine{
 
 {% endhighlight %}
 
-Như vậy ta thấy rằng 3 lớp Windows, Monitor và Keyboard đã không còn phụ thuộc vào nhau. Nếu anh muốn có một Monitor khác thì anh chỉ việc kế thừa Interface Monito là xong.
+Như vậy ta thấy rằng 3 lớp Windows, Monitor và Keyboard đã không còn phụ thuộc vào nhau. Nếu anh muốn có một Monitor khác thì anh chỉ việc kế thừa Interface Monitor là xong.
 
 
 <br>
