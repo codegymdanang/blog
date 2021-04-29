@@ -41,8 +41,8 @@ pizza.setBacon(true);
 
 {% endhighlight %}
 
-+ Vấn đề trên có vấn đề ở chổ là Object được tạo ra qua quá nhiều bước setter 
-+ Để giải quyết được vấn đề thì Builder Pattern sẽ là cách tốt nhất 
++ Vấn đề trên có vấn đề ở chỗ là Object được tạo ra qua quá nhiều bước setter.
++ Để giải quyết được vấn đề thì Builder Pattern sẽ là cách tốt nhất.
 
 {% highlight java  linenos %}
 
@@ -95,7 +95,7 @@ public class Pizza {
 {% endhighlight %}
 
 
-+ Bây giờ chúng ta dùng builder để tránh việc setter quá nhiều 
++ Bây giờ chúng ta dùng builder để tránh việc setter quá nhiều.
 
 {% highlight java  linenos %}
 Pizza pizza = new Pizza.Builder(12)
@@ -105,9 +105,9 @@ Pizza pizza = new Pizza.Builder(12)
                        .build();
 {% endhighlight %}
 
-+ Đoạn code ở trên rất dể viết và dể hiểu.
++ Đoạn code ở trên rất dễ viết và dễ hiểu.
 
-- Phương án 2 : Khi chúng ta muốn tạo object được cấu thành từ nhiều phần khác nhau. Khác với abstract factory chúng ta muốn build 1 bộ sản phẩm giống như xe Toyota gồm có lốp Toyota, phanh Toyota. ect Toyota. Thì Builder được sử dụng khi ta muốn build 1 sản phẩm từ nhiều bộ phận khác nhau như xe Toyota, phay Huynhdai , lốp Ferrary
+- Phương án 2 : Khi chúng ta muốn tạo object được cấu thành từ nhiều phần khác nhau. Khác với abstract factory chúng ta muốn build 1 bộ sản phẩm giống như xe Toyota gồm có lốp Toyota, phanh Toyota. ect Toyota. Thì Builder được sử dụng khi ta muốn build 1 sản phẩm từ nhiều bộ phận khác nhau như xe Toyota, phanh Hyundai, lốp Ferrari.
 
 # **Builder UML pattern**
 
