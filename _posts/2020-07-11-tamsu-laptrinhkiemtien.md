@@ -29,7 +29,7 @@ Sau khi ra trường hầu hết các em phải kiếm được một công ty p
 # **2. Nguồn thu nhập 2-Làm freelancer ngoài thời gian ở công ty**
 
 Hiện nay các <b>lập trình viên</b> từ 2 -> 5 năm kinh nghiệm thường sẽ lấy thêm dự án bên ngoài về làm thêm.
-Sau khi kết thúc công việc ở công ty. Họ về nhà nghỉ ngơi tới tầm 8,9 h tối. Sau đó họ sẽ code thêm các dự án mà họ kiếm được trên mạng .Thường thì các dự án freelance các nhà đầu tư thường trả từ 8 USD -> 20 USD trên 1 giờ tuỳ vào năng lực của mình mà số tiền khách hàng sẽ trả khác nhau. Các trang freelancer mà anh biết là Upwork vs Freelancer.com . Đây là 2 trang khá nổi tiếng mà mình có thể xây dựng profile của mình trên đó và kiếm các dự án. Ngoài các trang trên thì mình còn rất nhiều trang freelancer quốc tế và Việt Nam.
+Sau khi kết thúc công việc ở công ty. Họ về nhà nghỉ ngơi tới tầm 8,9h tối. Sau đó họ sẽ code thêm các dự án mà họ kiếm được trên mạng. Thường thì các dự án freelance các nhà đầu tư thường trả từ 8 USD -> 20 USD trên 1 giờ tuỳ vào năng lực của mình mà số tiền khách hàng sẽ trả khác nhau. Các trang freelancer mà anh biết là Upwork vs Freelancer.com . Đây là 2 trang khá nổi tiếng mà mình có thể xây dựng profile của mình trên đó và kiếm các dự án. Ngoài các trang trên thì mình còn rất nhiều trang freelancer quốc tế và Việt Nam.
 {:refdef: style="text-align: center;"}
 ![freelancer](/images/post/softskills/freelancer.jpg){:class="img-responsive"}
 {: refdef}
@@ -45,7 +45,7 @@ Các <b>lập trình viên</b> hiện này có thể xây dựng các ứng dụ
 <br>
 # **4. Nguồn thu nhập 4-Xây dựng blog và đặt quảng cáo**
 
-Cũng tương tự như cách kiếm tiền ở trên, thay vì làm các ứng dụng. Các <b>lập trình viên</b> có thể làm các blog về lập trình. Chia sẽ các kiến thức của mình học đồng thời đặt quảng cáo để có thể kiếm tiền.
+Cũng tương tự như cách kiếm tiền ở trên, thay vì làm các ứng dụng. Các <b>lập trình viên</b> có thể làm các blog về lập trình. Chia sẻ các kiến thức của mình học đồng thời đặt quảng cáo để có thể kiếm tiền.
 
 {:refdef: style="text-align: center;"}
 ![blog](/images/post/softskills/blogadv.png){:class="img-responsive"}
@@ -62,9 +62,9 @@ Sau khi mình đi làm có nhiều kinh nghiệm thường thì phải trải qu
 Các lập trình viên có thể tạo các kênh youtube về các chủ đề như : tutorial về một công nghệ nào đó mà mình có kiến thức chuyên sâu về nó. Hay một chủ đề về cuộc sống của một lập trình viên, hay những mẹo trong học lập trình v.v. Sau đó mình có thể đặt Youtube ads để kiếm tiền. Dựa vào số lượng quảng cáo hiển thị google sẽ trả tiền cho mình.
 
 <br>
-# **7. Nguồn thu nhập 7-Tạo các khoá học online**
+# **7. Nguồn thu nhập 7-Tạo các khóa học online**
 
-Khi mình đã có kinh nghiệm mình có thể xây dựng một khoá học và bán nó trên mạng. Ở thể giới thì có udemy , coursera. Ở Việt Nam mình có unica , edumal . Như vậy mình chỉ cần đầu tư chỉnh chu 1 lần cho khoá học sau đó mình có thể bán . Thường các khoá học udemy hoặc coursera có giá từ $10 trở lên tuỳ theo người dạy có nổi tiếng hay không. Các khoá học mà được dạy bởi người giỏi có khi tới 100 USD. Còn ở Việt Nam mình có thể bán tầm 300.000 tới 500.000 một khoá học online.
+Khi mình đã có kinh nghiệm mình có thể xây dựng một khóa học và bán nó trên mạng. Ở thể giới thì có udemy, coursera. Ở Việt Nam mình có unica, edumall. Như vậy mình chỉ cần đầu tư chỉnh chu 1 lần cho khóa học sau đó mình có thể bán. Thường các khóa học udemy hoặc coursera có giá từ $10 trở lên tuỳ theo người dạy có nổi tiếng hay không. Các khoá học mà được dạy bởi người giỏi có khi tới 100 USD. Còn ở Việt Nam mình có thể bán tầm 300.000 đến 500.000 một khóa học online.
 
 <br>
 # **8. Nguồn thu nhập 8-Code cho những dự án opensource**
