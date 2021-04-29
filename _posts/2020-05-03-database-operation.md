@@ -74,7 +74,7 @@ Chào các em, hôm nay chúng ta sẽ nói về chủ đề toán tử trong Da
 | 	BETWEEN							| TRUE nếu tất cả nằm trong range					|
 | 	EXITS							| TRUE nếu câu query con có trả về kết quả		|
 |	IN 								| TRUE nếu câu query thoả mãn 1 trong những điều kiện|
-|	LIKE							| TRUE nếu thoả mãn pattern đưa ra 				|
+|	LIKE							| TRUE nếu thỏa mãn pattern đưa ra 				|
 |	NOT 							| Hiển thị dữ liệu nếu điều kiện không phải True |
 |	OR 								| TRUE nếu 1 trong 2 điều kiện là TRUE 			|
 |	SOME							| TRUE nếu 1 hoặc nhiều câu query con thoả mãn điều kiện |
