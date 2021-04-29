@@ -16,13 +16,13 @@ youtubeId: se9CcJKhi04
 
 # **Giới thiệu nội dung bài viết**
 
-Chào các em, sau khi đã học xong công nghệ JSP & Servlet thì đây là những câu hỏi để đánh giá xem mình có nắm được kiến thức nền không? Đây là bộ <b>câu hỏi java khi đi phỏng vấn </b> tại các doanh nghiệp
+Chào các em, sau khi đã học xong công nghệ JSP & Servlet thì đây là những câu hỏi để đánh giá xem mình có nắm được kiến thức nền không? Đây là bộ <b>câu hỏi java khi đi phỏng vấn </b> tại các doanh nghiệp.
 
 
 - Phân biệt Static web và Dynamic web?
-- Phân biệt 2 phương thức GET/POST
-- Phân biệt request/response
-- Phân biệt forward/redirect
+- Phân biệt 2 phương thức GET/POST.
+- Phân biệt request/response.
+- Phân biệt forward/redirect.
 - JSP là gì? Nói: “Về bản chất JSP cũng chính là Servlet” đúng hay sai? Giải thích? So sánh giống và khác nhau giữa JSP và Servlet?
 - JSTL là gì? Giới thiệu một số thẻ bạn đã sử dụng JSTL?
 - Trình bày kiến trúc MVC? Vai trò của các thành phần trong kiến trúc MVC?
