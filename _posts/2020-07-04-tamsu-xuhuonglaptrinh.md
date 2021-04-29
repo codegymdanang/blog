@@ -22,7 +22,7 @@ Các bạn sinh viên hiện nay khi ra trường thường phải được đà
 
 Do vậy anh có lời khuyên với các bạn sinh viên, khi mình còn đang đi học trên trường thì cũng phải thường xuyên cập nhật công nghệ mới ngoài kiến thức nhà trường đã trang bị cho các em để trở thành một <b>lập trình viên</b> giỏi đáp ứng nhu cầu nhà tuyển dụng. Sau đây anh sẽ đưa ra một list các trang web mà có thể giúp mình tiến nhanh trên việc <b>tự học lập trình</b>. Ngoài ra các em có thể tham khảo thêm tại [đây](https://levunguyen.com/career/2020/07/03/lo-trinh-tro-thanh-lap-trinh-vien-frontend/) lộ trình phát triển của lập trình viên cần học những gì ở frontend. Hoặc lộ trình học để trở thành backend tại [đây](https://levunguyen.com/career/2020/07/02/lo-trinh-tro-thanh-lap-trinh-vien-java/)
 
-1- Các khoá học online miễn phí
+1- Các khóa học online miễn phí
 + Stackoverflow.com
 + Github.com
 + Codeacademy.com
@@ -51,17 +51,17 @@ Trong năm 2009 chắc các em đã nghe nhiều về đồng tiền BigCoin. Th
 
 2- Devops
 
-Khi mình phát triển xong phần mềm thì mình sẽ triển khai nó lên các con server hoặc các dịch vụ điện toán đám mây để người dùng có thể truy cập. Ngày xưa khi đội <b>lập trình viên</b> viết xong sản phẩm thì sẽ có một đội Deploy sẽ triển khai sản phẩm đó lên server. Tuy nhiên đội Deploy sẽ rất khó khăn trong việc triển khai vì họ chỉ nắm các kỷ thuật về Linux và Server chứ không có kiến thức về ứng dụng và cách hoạt động của ứng dụng. Dẫn đến việc nhiều lúc triển khai sản phẩm không được. Như vậy để triển khai được sản phẩm thì mình phải có kiến thức về ứng dụng và kiến thức về server. Thì người đó được gọi là Devops
+Khi mình phát triển xong phần mềm thì mình sẽ triển khai nó lên các con server hoặc các dịch vụ điện toán đám mây để người dùng có thể truy cập. Ngày xưa khi đội <b>lập trình viên</b> viết xong sản phẩm thì sẽ có một đội Deploy sẽ triển khai sản phẩm đó lên server. Tuy nhiên đội Deploy sẽ rất khó khăn trong việc triển khai vì họ chỉ nắm các kỹ thuật về Linux và Server chứ không có kiến thức về ứng dụng và cách hoạt động của ứng dụng. Dẫn đến việc nhiều lúc triển khai sản phẩm không được. Như vậy để triển khai được sản phẩm thì mình phải có kiến thức về ứng dụng và kiến thức về server. Thì người đó được gọi là Devops
 
 Hiện nay các công ty IT đang rất cần các bạn Devops trong công ty để triển khai sản phẩm một các hiệu quả. Đặt biệt các bạn Devops có kiến thức về lập trình và điện toán đám mây (Cloud) trên các nền tảng AWS và Azure.
 
 3- AI (Machine Learning)
 
-Hiện nay các ứng dụng mới đều sử dụng Trí tuệ nhân tạo vào các chức năng sản phẩm của mình. Anh lấy ví dụ như ứng dụng nhận diện khuôn mặt. Chỉ cần mình dùng camera quyét qua khuôn mặt sẽ biết được mình là ai. Một số ứng dụng ví điện tử khi mình thanh toán mua hàng, mình có thể chụp khuôn mặt mình vào để nhận diện mình là chủ nhân của ví điện tử thì lúc đó giao dịch mới thành công. Nên thời gian sắp tới Python sẽ là ngôn ngữ được sử dụng nhiều nhất trong tương lai để làm AL.
+Hiện nay các ứng dụng mới đều sử dụng Trí tuệ nhân tạo vào các chức năng sản phẩm của mình. Anh lấy ví dụ như ứng dụng nhận diện khuôn mặt. Chỉ cần mình dùng camera quét qua khuôn mặt sẽ biết được mình là ai. Một số ứng dụng ví điện tử khi mình thanh toán mua hàng, mình có thể chụp khuôn mặt mình vào để nhận diện mình là chủ nhân của ví điện tử thì lúc đó giao dịch mới thành công. Nên thời gian sắp tới Python sẽ là ngôn ngữ được sử dụng nhiều nhất trong tương lai để làm AL.
 
 4- Data Science
 
-Data Science là ngành nghiên cứu dữ liệu lớn từ đó cho ra các quyết định cải tiến. Trong 3 năm trở lại đây thì từ Data Science không phải là mới mẻ với các kỹ sư tại Việt Nam. Các tập đoàn lớn FPT, VNG và Vintech đã có những đội nhóm <b>lập trình viên</b> làm các dự án phân tích về dữ liệu lớn. Các ngành như tài chính, bất động sản , y tế và marketing cũng đã có những bước tiến cải thiện vượt bậc nhờ vào việc phân tích các dữ liệu của mình để cho ra các quyết định đúng đắn để phát triển tập đoàn. Để làm được Data Science chúng ta có thể bắt đầu học ngôn ngữ Python hay R  
+Data Science là ngành nghiên cứu dữ liệu lớn từ đó cho ra các quyết định cải tiến. Trong 3 năm trở lại đây thì từ Data Science không phải là mới mẻ với các kỹ sư tại Việt Nam. Các tập đoàn lớn FPT, VNG và Vintech đã có những đội nhóm <b>lập trình viên</b> làm các dự án phân tích về dữ liệu lớn. Các ngành như tài chính, bất động sản, y tế và marketing cũng đã có những bước tiến cải thiện vượt bậc nhờ vào việc phân tích các dữ liệu của mình để cho ra các quyết định đúng đắn để phát triển tập đoàn. Để làm được Data Science chúng ta có thể bắt đầu học ngôn ngữ Python.
 
 # **3. Mức lương theo năm kinh nghiêm**
 
@@ -72,7 +72,7 @@ Data Science là ngành nghiên cứu dữ liệu lớn từ đó cho ra các qu
 
 # **4. Công nghệ lập trình sử dụng trong công việc**
 
-1- Java Script 	: 	69%<br>
+1- JavaScript 	: 	69%<br>
 2- Java 	   	: 	43%<br>
 3- PHP 			:	41%<br>
 4- Python		:	37%<br>
@@ -100,7 +100,7 @@ Data Science là ngành nghiên cứu dữ liệu lớn từ đó cho ra các qu
 2- SQL		:	41%<br>
 3- Postgre 	:	33%<br>
 4- MongoDB	:	26%<br>
-5- SQL Lite	:	20%<br>
+5- SQLite	:	20%<br>
 6- Redis	:	18%<br>
 7- Elasticsearch :	14%<br>
 8- MariaDB	:	13%<br>
