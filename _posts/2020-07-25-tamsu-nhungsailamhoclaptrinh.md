@@ -48,5 +48,5 @@ Một người lập trình có kinh nghiệm gần như ngay lập tức họ c
 
 Trên đây chỉ là  những sai lầm thường gặp đối với những bạn mới bắt đầu học lập trình. Con đường lập trình là một con đường dài và nhiều khó khăn. Hãy kiên trì và cố gắng, bạn sẽ gặt hái được những thành quả ngọt ngào, xứng đáng với công sức mà bạn đã bỏ ra. 
 
-Học lập trình là một lựa chọn đúng trên con đường ổn định sự nghiệp. Các em có thể xem thêm mức lương của nghành IT tại [đây](https://levunguyen.com/career/2020/07/04/xu-huong-nganh-lap-trinh/)
+Học lập trình là một lựa chọn đúng trên con đường ổn định sự nghiệp. Các em có thể xem thêm mức lương của ngành IT tại [đây](https://levunguyen.com/career/2020/07/04/xu-huong-nganh-lap-trinh/)
 
