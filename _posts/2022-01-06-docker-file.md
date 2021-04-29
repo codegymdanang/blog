@@ -20,7 +20,7 @@ Chào các em, hôm nay anh sẽ hướng dẫn mọi người hiểu về <b> D
 
 ## **1. Bước 1**
 
-Chúng ta tạo một file tên là Dockerfile. Trên Ubuntu chúng ta sẽ sử dụng lệnh vim hoặc vi để tạo file như sau
+Chúng ta tạo một file tên là Dockerfile. Trên Ubuntu chúng ta sẽ sử dụng lệnh vim hoặc vi để tạo file như sau:
 
 {% highlight javascript  linenos %}
 
@@ -45,7 +45,7 @@ CMD [“echo”,”Image created”]
 
 - FROM : Nó nói cho docker phải tìm Image là ubuntu. <br/>
 - MAINTAINER :  Tên người sẽ bảo trì Image này. <br/>
-- RUN : dùng để chạy các lệnh trong Image. Trong trường hợp này chúng ta chạy lện apt-get install hoặc update để cài đặt và cập nhật các phần mềm trên ubuntu của chúng ta.
+- RUN : dùng để chạy các lệnh trong Image. Trong trường hợp này chúng ta chạy lệnh apt-get install hoặc update để cài đặt và cập nhật các phần mềm trên ubuntu của chúng ta.
 
 Sau đó chúng ta lưu file lại.
 
@@ -74,9 +74,9 @@ sudo docker build –t myimage:0.1 .
 
 {% endhighlight %}
 
-- myimage : tên ta gán cho Image
-- 0.1     : Tag Number ta gán cho image
-- .       : Chúng ta sử dụng dấu . ở cuối câu để nói  docker file biết ta đang đứng ở thư mục đang làm việc 
+- myimage : tên ta gán cho image.
+- 0.1     : Tag Number ta gán cho image.
+- .       : Chúng ta sử dụng dấu . ở cuối câu để nói  docker file biết ta đang đứng ở thư mục đang làm việc.
 
 Khi chạy docker build chúng ta sẽ thấy kết quả sau. Ubuntu sẽ được download từ Docker Hub nếu như chưa có Image nào trong máy của ta. Nếu có rồi thì nó sẽ không lên Docker Hub pull về nữa. Do lần đầu tiên ta chạy nên máy mình không có Image Ubuntu.
 
@@ -84,7 +84,7 @@ Khi chạy docker build chúng ta sẽ thấy kết quả sau. Ubuntu sẽ đư�
 ![reactjs ](/images/post/docker/no_image.jpeg){:class="img-responsive"}
 {: refdef}
 
-Để kiểm tra image chúng ta vừa tạo thì mình sử dụng docker images để xem các Image trong máy
+Để kiểm tra image chúng ta vừa tạo thì mình sử dụng docker images để xem các Image trong máy.
 
 
 {% highlight javascript  linenos %}
