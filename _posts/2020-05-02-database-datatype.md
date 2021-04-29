@@ -66,7 +66,7 @@ Trong Database có 3 kiểu dữ liệu chính là chuỗi, số và ngày, thá
 |	DATETIME						| Kiểu ngày và giờ với định dạng Format: YYYY-MM-DD hh:mm:ss|
 |	TIMESTAMP 						| Kiểu định dạng YYYY-MM-DD hh:mm:ss cho giờ hiện tại của hệ thống |
 |	TIME 							| Định dạng  hh:mm:ss										|
-|	YEAR							| Đinh dạng 4 chữ số từ năm 1901 to 2155
+|	YEAR							| Định dạng 4 chữ số từ năm 1901 to 2155
 
 
 <br>
