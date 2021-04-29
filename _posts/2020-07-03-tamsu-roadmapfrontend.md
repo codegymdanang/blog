@@ -17,7 +17,7 @@ Chào các bạn, hôm nay anh sẽ giới thiệu cho các bạn để trở th
 <br>
 # **Con đường trở thành lập trình viên frontend**
 
-Trong roadmap hình bên dưới có những hình tròn có dấu tích là tím , đỏ , trắng, màu đà
+Trong roadmap hình bên dưới có những hình tròn có dấu tích là tím, đỏ, trắng, màu đà.
 
 - Những kỹ thuật trong ô hình tròn có dấu tích là tím bắt buộc mọi người phải trang bị.
 
@@ -25,7 +25,7 @@ Trong roadmap hình bên dưới có những hình tròn có dấu tích là tí
 
 - Những kỹ thuật trong ô hình tròn có dấu tích là trắng -  không quan trọng lắm. Nếu có thời gian thì mình trang bị.
 
-- Những kỹ thuật trong ô hình tròn có dấu tích là xám -  không quan trọng lắm. Chưa cần tập trung ngay
+- Những kỹ thuật trong ô hình tròn có dấu tích là xám -  không quan trọng lắm. Chưa cần tập trung ngay.
 
 {:refdef: style="text-align:center"}
 ![javaroadmap](/images/post/softskills/roadmapfrontend.png){:class="img-responsive"}
@@ -34,8 +34,8 @@ Trong roadmap hình bên dưới có những hình tròn có dấu tích là tí
 
 # **Kết luận**
 
-Để trở thành một lập trình viên frontend chuyên nghiệp thì mình sẽ bắt đầu bằng việc học và sử dụng HTML, CSS , Bootstrap, Javascript. Hiểu được cơ chế hoạt động của website.
+Để trở thành một lập trình viên frontend chuyên nghiệp thì mình sẽ bắt đầu bằng việc học và sử dụng HTML, CSS, Bootstrap, Javascript. Hiểu được cơ chế hoạt động của website.
 
 Sau khi đã thành thạo rồi thì chọn 1 trong các công nghệ sau như Angular, ReactJs, VueJs để xây dựng các ứng dụng web theo công nghệ mới.
 
-Học cách viết JavaScript mới như Typescript , ES6. Học các build dự án trên các tool như webpack. Nếu có thời gian rãnh nữa thì tập trung vào các  framework dành cho việc testing.
+Học cách viết JavaScript mới như Typescript, ES6. Học cách build dự án trên các tool như webpack. Nếu có thời gian rảnh nữa thì tập trung vào các framework dành cho việc testing.
