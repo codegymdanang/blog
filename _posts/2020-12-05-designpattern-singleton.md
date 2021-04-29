@@ -1,6 +1,6 @@
 ---
 layout: course-design-pattern
-title: Sử dụng Singletion Design Pattern
+title: Sử dụng Singleton Design Pattern
 slug : singleton-design-pattern
 category: craftmanship
 tags: [designpattern]
@@ -18,7 +18,7 @@ Chào các em, chủ đề hôm nay của anh sẽ bàn về <b>Design Pattern</
 <br>
 # **1- Singleton Là gì ?**
 
-Singleton Pattern giúp chúng ta tạo ra một đối tượng duy nhất trong hệ thống. Ví dụ như anh muốn xây dựng đối tượng cache. Thì trong toàn bộ chương trình anh chỉ có một đối tượng đó chứa các giá trị. Các modules khác trong hệ thống có thể lấy giá trị này ra. Cho dù nhiều module cùng thao tác lấy giá trị từ cache , nhưng giá trị vẫn lấy ra và cập nhật đúng vì trong cả chương trình ta chỉ có 1 đối tượng cache duy nhất. Nó được dùng để chia sẽ với các modules mà gọi nó.
+Singleton Pattern giúp chúng ta tạo ra một đối tượng duy nhất trong hệ thống. Ví dụ như anh muốn xây dựng đối tượng cache. Thì trong toàn bộ chương trình anh chỉ có một đối tượng đó chứa các giá trị. Các modules khác trong hệ thống có thể lấy giá trị này ra. Cho dù nhiều module cùng thao tác lấy giá trị từ cache , nhưng giá trị vẫn lấy ra và cập nhật đúng vì trong cả chương trình ta chỉ có 1 đối tượng cache duy nhất. Nó được dùng để chia sẻ với các modules mà gọi nó.
 
 # **2- Khi nào nên dùng Singleton**
 
@@ -84,9 +84,9 @@ public class DemoSingleThread {
 
 {% endhighlight %}
 
-- Như vậy trong toàn bộ hệ thống của chúng ta chỉ có 1 đối tượng Singleton duy nhất và lấy nó ra bằng phương thức getInstance. Ngoài ra chúng ta có thể định nghĩa một loạt các method trong class Singleton như setValue(), getValue() hoặc bất cứ phương thức nào tuỳ thích.
+- Như vậy trong toàn bộ hệ thống của chúng ta chỉ có 1 đối tượng Singleton duy nhất và lấy nó ra bằng phương thức getInstance. Ngoài ra chúng ta có thể định nghĩa một loạt các method trong class Singleton như setValue(), getValue() hoặc bất cứ phương thức nào tùy thích.
 
-- Có một vấn đề xảy ra ở Singleton ở trên là nếu như anh có nhiều Thread (tiến trình) cùng truy cập vào biến Singletion để lấy dữ liệu thì sẽ xảy ra xung đột. Để tránh tình trạng đó chúng ta sử dụng Threadsafe như sau
+- Có một vấn đề xảy ra ở Singleton ở trên là nếu như anh có nhiều Thread (tiến trình) cùng truy cập vào biến Singleton để lấy dữ liệu thì sẽ xảy ra xung đột. Để tránh tình trạng đó chúng ta sử dụng Threadsafe như sau
 
 # **5-Phương án 2 : Tạo Singleton với threadsafe**
 
@@ -116,7 +116,7 @@ public final class Singleton {
 }
 {% endhighlight %}
 
-- Có một điều khác biệt trong phương thức getInstance là chúng ta thêm vào từ khoá đồng bộ synchronized khi tạo ra đối tượng Singleton. Như vậy khi có 2 hay nhiều tiến trình cùng yêu cầu tạo đối tượng thì nó sẽ chờ cho tiến trình trước đó xong xuôi rồi nó mới làm. Như vậy sẽ tránh tình trạnh xung đột khi nhiều tiến trình nhiều module cùng truy xuất tạo đối tượng cùng một lúc
+- Có một điều khác biệt trong phương thức getInstance là chúng ta thêm vào từ khoá đồng bộ synchronized khi tạo ra đối tượng Singleton. Như vậy khi có 2 hay nhiều tiến trình cùng yêu cầu tạo đối tượng thì nó sẽ chờ cho tiến trình trước đó xong xuôi rồi nó mới làm. Như vậy sẽ tránh tình trạng xung đột khi nhiều tiến trình nhiều module cùng truy xuất tạo đối tượng cùng một lúc.
 
 
 {% highlight java  %}
