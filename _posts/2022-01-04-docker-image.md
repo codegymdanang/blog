@@ -6,7 +6,7 @@ category: devops
 tags: [docker]
 summery: Docker Image
 image: /images/blog/feature_javascript.png
-description : Trình bày về khi nào chúng ta hiểu về Docker Image và cách cài đặt Docker Image .
+description : Trình bày về khi nào chúng ta hiểu về Docker Image và cách cài đặt Docker Image.
 
 youtubeId: ttKo2gO-BCE
 ---
@@ -21,7 +21,7 @@ Nếu các em đã từng ghost win thì các em sẽ thấy chúng ta có 1 ima
 
 ## **1. Hiển thị các images có trong máy**
 
-Chúng ta sử dụng lệnh docker images để hiển thị các image có trong máy tính
+Chúng ta sử dụng lệnh docker images để hiển thị các image có trong máy tính.
 
 {% highlight javascript  linenos %}
 
@@ -29,7 +29,7 @@ sudo docker images
 
 {% endhighlight %}
 
-Chúng ta sẽ thấy các images như sau
+Chúng ta sẽ thấy các images như sau:
 
 {:refdef: style="text-align: center;"}
 ![reactjs ](/images/post/docker/displaying_docker_images.jpeg){:class="img-responsive"}
@@ -39,11 +39,11 @@ Trong đó :
 - Tag : Được sử dụng để đánh dấu phiên bản của image <br>
 - Image Id : Định danh số của Image <br>
 - Created : Ngày mà Image được tạo ra <br>
-- Vỉtual size : kích thướt của image <br>
+- Vỉtual size : Kích thước của image <br>
 
 ## **2. Download Docker Images**
 
-Để download Image từ Docker Hub về máy ta sử dụng cú pháp lệnh docker run image
+Để download Image từ Docker Hub về máy ta sử dụng cú pháp lệnh docker run image.
 
 {% highlight javascript  linenos %}
 
@@ -65,7 +65,7 @@ sudo docker run centos
 
 ## **3. Remove Docker Images**
 
-Để xoá Image có trong máy ta sử dụng lệnh docker rmi với cú pháp như sau
+Để xoá Image có trong máy ta sử dụng lệnh docker rmi với cú pháp như sau:
 
 {% highlight javascript  linenos %}
 
@@ -87,7 +87,7 @@ sudo docker rmi 7a86f8ffcb25
 
 ## **4. Trả về Images ID**
 
-Nếu chúng ta muốn trả về tất cả các Image Id có trong hệ thống thì chúng ta dùng command sau đây
+Nếu chúng ta muốn trả về tất cả các Image Id có trong hệ thống thì chúng ta dùng command sau đây.
 
 {% highlight javascript  linenos %}
 
