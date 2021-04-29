@@ -18,11 +18,11 @@ Chào các em, chủ đề hôm nay của anh sẽ bàn về <b> Design Pattern<
 <br>
 # **1- Iterator Pattern là gì ?**
 
-Đây là pattern giúp chúng ta có thể duyệt qua tất các tập hợp một cách như nhau. Anh lấy ví dụ mình có thể lưu mảng 10 phần tử sinh viên trong mảng array, arraylist hoặc set. Do các mảng lưu trữ dữ liệu khác nhau như Array mình dùng index để lấy gía trị phần tử như student[1] còn ArrayList thì dùng method get(1). Như vậy có cách nào mà mình có thể duyệt qua mảng mà không quan tâm cấu trúc dữ liệu của nó là Array hay ArrayList không? Thì Iterator có thể làm được
+Đây là pattern giúp chúng ta có thể duyệt qua tất các tập hợp một cách như nhau. Anh lấy ví dụ mình có thể lưu mảng 10 phần tử sinh viên trong mảng array, arraylist hoặc set. Do các mảng lưu trữ dữ liệu khác nhau như Array mình dùng index để lấy giá trị phần tử như student[1] còn ArrayList thì dùng method get(1). Như vậy có cách nào mà mình có thể duyệt qua mảng mà không quan tâm cấu trúc dữ liệu của nó là Array hay ArrayList không? Thì Iterator có thể làm được.
 
 # **2- Khi nào nên dùng Iterator**
 
-Chúng ta sử dụng <b>Iterator</b> khi chúng ta muốn duỵệt qua các phần tử trong tập hợp và không quan tâm cấu trúc nó là gì miễn là cài đặt đúng các phương thức của Iterator
+Chúng ta sử dụng <b>Iterator</b> khi chúng ta muốn duyệt qua các phần tử trong tập hợp và không quan tâm cấu trúc nó là gì miễn là cài đặt đúng các phương thức của Iterator.
 
 
 # **3- Iterator UML**
@@ -36,7 +36,7 @@ Chúng ta sử dụng <b>Iterator</b> khi chúng ta muốn duỵệt qua các ph
 
 Trong ví dụ sau đây mình sẽ viết một Iterator lấy các Profile của bạn mình và gửi tin nhắn tới các bạn của mình. Có thể các bạn của mình là dùng Facebook hoặc Twitter. Mình cũng dùng một phương pháp để duyệt qua danh sách. Mình không quan tâm bạn mình là dùng mạng xã hội nào miễn là cài đặt Iterator của mình là được.
 
-- Bước 1 : Tạo Interface Iterator có các phương thức duyệt qua mảng
+- Bước 1 : Tạo Interface Iterator có các phương thức duyệt qua mảng.
 
 {% highlight java linenos %}
 public interface ProfileIterator {
@@ -48,7 +48,7 @@ public interface ProfileIterator {
 }
 {% endhighlight %}
 
-- Bước 2 : Các mạng xã hội facebook,twiter cài đặt chung một interface. Sau này chúng ta muốn có zalo hay bất cứ mạng xã hội nào chỉ cần cài đặt interface Profile Iterator thì mình đều có 1 duyệt phần tử y chang như các phương thức mình đã định nghĩa trong Iterator. Chứ mình không phải đập code hoặc viết thêm code cho phần zalo mà mình sử dụng cái đã có sẳn. Ở đây chú ý cho anh phương thức hasNext. Mỗi tập hợp phải tự cài đặt theo cách của mình. Khi nào anh gọi hasNext thì trả về cho anh phần tử tiếp theo.
+- Bước 2 : Các mạng xã hội facebook, twitter cài đặt chung một interface. Sau này chúng ta muốn có zalo hay bất cứ mạng xã hội nào chỉ cần cài đặt interface Profile Iterator thì mình đều có 1 duyệt phần tử y chang như các phương thức mình đã định nghĩa trong Iterator. Chứ mình không phải đập code hoặc viết thêm code cho phần zalo mà mình sử dụng cái đã có sẵn. Ở đây chú ý cho anh phương thức hasNext. Mỗi tập hợp phải tự cài đặt theo cách của mình. Khi nào anh gọi hasNext thì trả về cho anh phần tử tiếp theo.
 
 Cũng như ví dụ về array và arraylist nếu 2 tập hợp này cùng cài đặt Iterator thì trong phương thức hasNext . Array và ArrayList phải tự viết theo cách của mình. Anh chỉ cần gọi hasNext thì sẽ nhận được phần tử tiếp theo.
 
@@ -208,7 +208,7 @@ public class Profile {
 }
 {% endhighlight %}
 
-- Mình giả lập mạng social network vì dụ như khi gọi lên facebook thì chờ một khoản thời gian, sau đó facebook trả lại kết quả 1 Profie người dùng cho mỉnh.
+- Mình giả lập mạng social network ví dụ như khi gọi lên facebook thì chờ một khoản thời gian, sau đó facebook trả lại kết quả 1 Profile người dùng cho chúng ta.
 
 {% highlight java linenos %}
 public interface SocialNetwork {
