@@ -22,7 +22,7 @@ Chào các em, chủ đề hôm nay của anh sẽ bàn về <b>Design Pattern</
 
 # **2- Khi nào nên dùng Abstract Factory**
 
-- Khi ta muốn tạo ra đối tượng lúc chương trình đang chay (run time) mà ta chưa biết nó sẽ trả về đối tượng gì.
+- Khi ta muốn tạo ra đối tượng lúc chương trình đang chạy (run time) mà ta chưa biết nó sẽ trả về đối tượng gì.
 - Khi các đối tượng được tạo ra có chung đặc điểm của lớp cha.
 - Che dấu đối tượng được tạo ra . Client chỉ dùng nhưng không quan tâm các đối tượng con sẽ tạo ra như thế nào.
 
@@ -34,13 +34,13 @@ Chào các em, chủ đề hôm nay của anh sẽ bàn về <b>Design Pattern</
 ![Method Factory UML ](/images/post/designpattern/methodfactoryuml.gif){:class="img-responsive"}
 {: refdef}
 
-- Trong ví dụ sau chúng ta sẽ sử dụng Factory Method createButton để ra các dialog(Hộp thoại) trên hộp thoại đó sẽ có các button(nút bấm) khác nhau dự vào cái máy đang chạy ứng dụng này.
+- Trong ví dụ sau chúng ta sẽ sử dụng Factory Method createButton để ra các dialog(Hộp thoại) trên hộp thoại đó sẽ có các button(nút bấm) khác nhau tuỳ vào cái máy đang chạy ứng dụng này.
 
 - Nếu máy Windows chạy chương trình này thì nó sẽ tạo ra hộp thoại và có nút theo định dạng của máy Windows.
 
-- Nếu máy chạy chương trình này là Mac hay Ubuntu thì chúng ta sẽ tạo ra dialog có nút bấm tương ứng theo định dạng nút Mac hay Ubuntu
+- Nếu máy chạy chương trình này là Mac hay Ubuntu thì chúng ta sẽ tạo ra dialog có nút bấm tương ứng theo định dạng nút Mac hay Ubuntu.
 
-- Ví dụ máy của mình đang là máy Mac thì khi chạy chương trình nó sẽ sinh ra Dialog (hội thoại) có button (nút bấm) theo định dạng Mac. Ví dụ máy khác đang sử dụng là Windows thì khi chạy chương trình nó sẽ sinh ra Dialog (hội thoại) có button (nút bấm) theo định dạng Windows
+- Ví dụ máy của mình đang là máy Mac thì khi chạy chương trình nó sẽ sinh ra Dialog (hội thoại) có button (nút bấm) theo định dạng Mac. Ví dụ máy khác đang sử dụng là Windows thì khi chạy chương trình nó sẽ sinh ra Dialog (hội thoại) có button (nút bấm) theo định dạng Windows.
 
 # **4- Factory Method tạo ra Dialog (hộp thoại) với các button (nút bấm) khác nhau**
 
@@ -48,13 +48,13 @@ Chào các em, chủ đề hôm nay của anh sẽ bàn về <b>Design Pattern</
 ![Method Factory  ](/images/post/designpattern/factorymethod.png){:class="img-responsive"}
 {: refdef}
 
-- Theo thiết kế ở trên thì HTML Button và Windows Button chính là 2 Concreat Class. Là 2 class sản phẩm được tạo ra từ abstract method createButton của HTML Dialog và Windows Dialog
+- Theo thiết kế ở trên thì HTML Button và Windows Button chính là 2 Concrete Class. Là 2 class sản phẩm được tạo ra từ abstract method createButton của HTML Dialog và Windows Dialog.
 
-- Abstract Dialog chính là Creator chứa method abstract và 1 phương thức để gọi Abstract
+- Abstract Dialog chính là Creator chứa method abstract và 1 phương thức để gọi Abstract.
 
-- HTML Dialog và Windows Dialog chính là 2 Concreat Creator . 2 class này sẽ kế thừa phương thức abstract class của lớp Abstract Dialog. 2 Class HTML Dialog và Windows Dialog kế thừa phương thức abstract createButton. Nhưng mỗi lớp sẽ cài đặt phương thức tạo ra button khác nhau. Kết quả của phương thức abstract sẽ sinh ra 1 đối tượng tương ứng. Ví dụ HTML Dialog thì sẽ tạo ra đối tượng HTML Button , còn Windows Dialog sẽ tạo ra Windows Button .
+- HTML Dialog và Windows Dialog chính là 2 Concrete Creator . 2 class này sẽ kế thừa phương thức abstract class của lớp Abstract Dialog. 2 Class HTML Dialog và Windows Dialog kế thừa phương thức abstract createButton. Nhưng mỗi lớp sẽ cài đặt phương thức tạo ra button khác nhau. Kết quả của phương thức abstract sẽ sinh ra 1 đối tượng tương ứng. Ví dụ HTML Dialog thì sẽ tạo ra đối tượng HTML Button , còn Windows Dialog sẽ tạo ra Windows Button.
 
-- Demo Application sẽ sử dụng Dialog để tuỳ vào hệ điều hành mà cho ra các sản phẩm dialog tương ứng (Win, Mac, Ubuntu). Demo Application chỉ dùng Abstract Dialog và không quan tâm các nút bấm được tạo ra như thế nào. Demo Application chỉ cần gọi dialog.renderWindow() để tạo ra hộp thoại với nút bấm tương ứng với hệ điều hành
+- Demo Application sẽ sử dụng Dialog để tuỳ vào hệ điều hành mà cho ra các sản phẩm dialog tương ứng (Win, Mac, Ubuntu). Demo Application chỉ dùng Abstract Dialog và không quan tâm các nút bấm được tạo ra như thế nào. Demo Application chỉ cần gọi dialog.renderWindow() để tạo ra hộp thoại với nút bấm tương ứng với hệ điều hành.
 
 {% highlight java  linenos %}
 
