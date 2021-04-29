@@ -19,7 +19,7 @@ Chào các em, hôm nay chúng ta sẽ nói về chủ đề ràng buộc dữ l
 
 ## **1. Ràng buộc dữ liệu**
 
-Chúng ta sử dụng ràng buộc dữ liệu khi tạo ra bảng hoặc chỉnh sửa bảng. Anh lấy ví dụ khi mình có trường dữ liệu là số điện thoại và mình muốn trường đó không được phép rỗng thì mình sẽ sử dụng từ khoá Constraint để bắt buộc người dùng phải nhập vào.
+Chúng ta sử dụng ràng buộc dữ liệu khi tạo ra bảng hoặc chỉnh sửa bảng. Anh lấy ví dụ khi mình có trường dữ liệu là số điện thoại và mình muốn trường đó không được phép rỗng thì mình sẽ sử dụng từ khóa Constraint để bắt buộc người dùng phải nhập vào.
 
 - Cú pháp
 
@@ -38,7 +38,7 @@ CREATE TABLE table_name (
 
 ## **2. Constraint NOT NULL**
 
-- Ví dụ dưới đây ta ràng buộc trường ID là không được NULL
+- Ví dụ dưới đây ta ràng buộc trường ID là không được NULL.
 
 <br>
 {% highlight sql linenos %}
@@ -79,9 +79,9 @@ CREATE TABLE Persons (
 
 {% endhighlight %}
 
-## **4. Constraint Khoá chính**
+## **4. Constraint khóa chính**
 
-Ta sử dụng từ khoá PRIMARY KEY để ràng buộc trường ID là khoá chính. Dữ liệu là duy nhất và không được trùng lặp. Trong Table luôn luôn phải có 1 khoá chính.
+Ta sử dụng từ khóa PRIMARY KEY để ràng buộc trường ID là khóa chính. Dữ liệu là duy nhất và không được trùng lặp. Trong Table luôn luôn phải có 1 khóa chính.
 
 <br>
 {% highlight sql linenos %}
@@ -96,9 +96,9 @@ CREATE TABLE Persons (
 
 {% endhighlight %}
 
-## **5. Constraint Khoá phụ**
+## **5. Constraint khóa phụ**
 
-Ta sử dụng từ khoá FOREIGN KEY để khai báo khoá phụ và dùng để tham chiếu tới một bảng khác.
+Ta sử dụng từ khóa FOREIGN KEY để khai báo khoá phụ và dùng để tham chiếu tới một bảng khác.
 
 <br>
 {% highlight sql linenos %}
@@ -180,7 +180,7 @@ DROP INDEX index_name;
 
 ## **9. Constraint Auto Increment**
 
-Chúng ta sử dụng từ khoá Auto Increment để tăng tự động giá trị cho một trường trong bảng. Trường này thường là khoá chính. Tăng tự động có nghĩa là lúc đầu giá trị nó là 1. Khi ta thêm một dòng mới thì tự động trường đó tăng giá trị lên 2. Ta hoàn toàn có thể chỉnh sửa bước nhảy đơn vị tăng tự động.
+Chúng ta sử dụng từ khóa Auto Increment để tăng tự động giá trị cho một trường trong bảng. Trường này thường là khóa chính. Tăng tự động có nghĩa là lúc đầu giá trị nó là 1. Khi ta thêm một dòng mới thì tự động trường đó tăng giá trị lên 2. Ta hoàn toàn có thể chỉnh sửa bước nhảy đơn vị tăng tự động.
 
 {% highlight sql linenos %}
 
