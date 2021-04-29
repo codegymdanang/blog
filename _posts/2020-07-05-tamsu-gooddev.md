@@ -57,19 +57,19 @@ Năm này qua năm nọ , kiến trúc của một hệ thống dần dần thay
 <br>
 # **7. Học Design Pattern và các Best Practice của Coding**
 
-Hầu hết các framework chúng ta dùng đều sử dụng <b>Design Pattern</b>. Nó giúp cho các framework trở nên linh động , khả năng mở rộng cao mà không phải đập code đi viết lại. Nắm được design pattern sẽ giúp chúng ta viết code một cách tối ưu . Khả năng mở rộng cao cho hệ thống sau này.
+Hầu hết các framework chúng ta dùng đều sử dụng <b>Design Pattern</b>. Nó giúp cho các framework trở nên linh động, khả năng mở rộng cao mà không phải đập code đi viết lại. Nắm được design pattern sẽ giúp chúng ta viết code một cách tối ưu. Khả năng mở rộng cao cho hệ thống sau này.
 
 Hiện nay có hơn 25 bản design pattern phục vụ cho việc tạo đối tượng, cấu trúc các đối tượng và hành vi các đối tượng. Mỗi pattern đều có những mục đích riêng giúp mình mở rộng sau này các chức năng mà không phải đập hết các code cũ và viết lại cái mới.
 
 <br>
 # **8. Refactoring**
 
-Sẽ có những lúc mình đọc code của người khác và muốn sửa lại làm cho nó dễ đọc hơn, dễ bảo trì và mở rộng. Thì <b>Refactoring</b> là những kỹ thuật giúp mình làm được điều đó. Reactoring gồm các kỹ thuật tách hàm, biến , class phức tạp , khó hiểu thành những dòng code nhỏ hơn dễ hiểu hơn nhưng vẫn đảm bảo chức năng chạy đúng. Hiện này có hơn 20 kỹ thuật để giúp mình viết lại, chỉnh sửa code có sẵn để nó trở nên nhỏ gọn và dễ hiểu.
+Sẽ có những lúc mình đọc code của người khác và muốn sửa lại làm cho nó dễ đọc hơn, dễ bảo trì và mở rộng. Thì <b>Refactoring</b> là những kỹ thuật giúp mình làm được điều đó. Refactoring gồm các kỹ thuật tách hàm, biến, class phức tạp, khó hiểu thành những dòng code nhỏ hơn dễ hiểu hơn nhưng vẫn đảm bảo chức năng chạy đúng. Hiện nay có hơn 20 kỹ thuật để giúp mình viết lại, chỉnh sửa code có sẵn để nó trở nên nhỏ gọn và dễ hiểu.
 
 <br>
 # **9. Devops**
 
-Đối với một lập trình Java hiện đại. Ngoài việc viết code mình cũng phải trang bị các kiến thức về <b>Devops</b>. Mình phải biết các kỹ thuật và tool để thực hiện các công việc tự động build , tự động tích hợp và tự động deploy (triển khai) sản phẩm. Các công nghệ mà lập trình viên Java cần trang bị  là Docker ,K8s ,Ansible, Jenkins.
+Đối với một lập trình Java hiện đại. Ngoài việc viết code mình cũng phải trang bị các kiến thức về <b>Devops</b>. Mình phải biết các kỹ thuật và tool để thực hiện các công việc tự động build, tự động tích hợp và tự động deploy (triển khai) sản phẩm. Các công nghệ mà lập trình viên Java cần trang bị là Docker, K8s, Ansible, Jenkins.
 
 <br>
 # **10. Unit Test**
