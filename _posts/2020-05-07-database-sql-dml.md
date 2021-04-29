@@ -149,7 +149,7 @@ WHERE Country='Mexico';
 
 ## **4. SQL And**
 
-Chúng ta sử dụng từ khoá And khi muốn kết hợp hai hay nhiều điều kiện. 
+Chúng ta sử dụng từ khóa And khi muốn kết hợp hai hay nhiều điều kiện. 
 
 - Cú pháp
 <br>
@@ -173,7 +173,7 @@ WHERE Country='Germany' AND City='Berlin';
 
 ## **5. SQL OR**
 
-Chúng ta sử dụng OR để kiểm tra một trong hai điều kiện có đúng hay không. Ví dụ ta muốn tìm tất cả dữ liệu của khách hàng nếu City là Berlin hoặc nếu không tìm thấy Berlin thì City là Munchen thì cũng hiển thị kết quả. Chỉ cần một trong hai điều kiện thoả mãn là được.
+Chúng ta sử dụng OR để kiểm tra một trong hai điều kiện có đúng hay không. Ví dụ ta muốn tìm tất cả dữ liệu của khách hàng nếu City là Berlin hoặc nếu không tìm thấy Berlin thì City là Munchen thì cũng hiển thị kết quả. Chỉ cần một trong hai điều kiện thỏa mãn là được.
 
 <br>
 {% highlight sql linenos %}
@@ -239,9 +239,9 @@ ORDER BY Country DESC;
 
 {% endhighlight %}
 
-- Chúng ta sử dụng từ khoá ASC|DESC để chỉ ra sự tăng hoặc giảm. Nếu tăng thì dùng ASC và giảm thì dùng DESC.
+- Chúng ta sử dụng từ khóa ASC|DESC để chỉ ra sự tăng hoặc giảm. Nếu tăng thì dùng ASC và giảm thì dùng DESC.
 
-- Chúng ta có thể sắp xếp cho nhiều Column
+- Chúng ta có thể sắp xếp cho nhiều Column.
 <br>
 {% highlight sql linenos %}
 
@@ -324,7 +324,7 @@ DELETE FROM table_name WHERE condition;
  DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste'; 
 {% endhighlight %}
 
-- Để xoá tất cả các dữ liệu ta làm như sau:
+- Để xóa tất cả các dữ liệu ta làm như sau:
 
 <br>
 {% highlight sql linenos %}
