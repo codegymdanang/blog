@@ -21,13 +21,13 @@ nghiệp hay dùng để làm CICD
 
 # **1. CICD là gì**
 
-CI là viết tắt của từ <b>Countinue Integration</b> nó có nghĩa là tự động tích hợp các modules các classes trong chương trình xem có chạy đúng chức năng hay không. Thông thường khi phát triển một phần mềm thì có rất nhiều modules tương tác với nhau để thực hiện một nhiệm vụ cụ thể. Nếu chạy riêng lẻ các module nó có thể chạy đúng nhưng khi tích hợp các module khác lại với nó thì có thể dẫn đến bugs. Chính vì vậy khi code xong một module mình phải chạy tích hợp để đảm bảo các chức năng chạy ok. Để làm được điều này nếu chạy bằng tay thông thường thì sẽ mất rất nhiều thời gian, chính vì vậy sử dụng tool để nó giúp mình làm đều này. Mỗi lần mình viết xong một đoạn code thì tool đó sẽ tự động chạy CI để tích hợp và mình có thể phát hiện ra bug nhanh và rất hiệu quả.
+CI là viết tắt của từ <b>Continue Integration</b> nó có nghĩa là tự động tích hợp các modules các classes trong chương trình xem có chạy đúng chức năng hay không. Thông thường khi phát triển một phần mềm thì có rất nhiều modules tương tác với nhau để thực hiện một nhiệm vụ cụ thể. Nếu chạy riêng lẻ các module nó có thể chạy đúng nhưng khi tích hợp các module khác lại với nó thì có thể dẫn đến bugs. Chính vì vậy khi code xong một module mình phải chạy tích hợp để đảm bảo các chức năng chạy ok. Để làm được điều này nếu chạy bằng tay thông thường thì sẽ mất rất nhiều thời gian, chính vì vậy sử dụng tool để nó giúp mình làm đều này. Mỗi lần mình viết xong một đoạn code thì tool đó sẽ tự động chạy CI để tích hợp và mình có thể phát hiện ra bug nhanh và rất hiệu quả.
 
-CD là viết tắt của <b>Countinue Deploy</b> nó có nghĩa là tự động triển khai code của mình lên con server được chỉ định. Trong lập trình sau khi viết xong một chức năng mình sẽ deploy (triển khai) nó lên con server để người dùng có thể sử dụng được. Nếu mình deploy bằng tay thì sẽ có những lúc sơ xuất dẫn đến chương trình chạy sai. Để tránh tình trạng deploy sản phẩm bằng tay do con người làm thì tool có thể giúp mình deploy chính xát. Nếu lần đầu đã đúng thì những lần tiếp theo vẫn chạy đúng vì nó được deploy theo cách mình đã lập trình sẳn. Còn nếu là con người thì có những lúc mình sẽ làm thiếu một số bước.
+CD là viết tắt của <b>Continue Deploy</b> nó có nghĩa là tự động triển khai code của mình lên con server được chỉ định. Trong lập trình sau khi viết xong một chức năng mình sẽ deploy (triển khai) nó lên server để người dùng có thể sử dụng được. Nếu mình deploy bằng tay thì sẽ có những lúc sơ xuất dẫn đến chương trình chạy sai. Để tránh tình trạng deploy sản phẩm bằng tay do con người làm thì tool có thể giúp mình deploy chính xác. Nếu lần đầu đã đúng thì những lần tiếp theo vẫn chạy đúng vì nó được deploy theo cách mình đã lập trình sẵn. Còn nếu là con người thì có những lúc mình sẽ làm thiếu một số bước.
 
 # **2. Làm việc không có CICD**
 
-Cách đây 8 năm khi anh làm viêc trong team phát triển sản phẩm cho thị trường siêu thị bên Mỹ. Thì đây là vòng đời từ lúc code tới việc test và triển khai sản phẩm không dùng CICD
+Cách đây 8 năm khi anh làm việc trong team phát triển sản phẩm cho thị trường siêu thị bên Mỹ. Thì đây là vòng đời từ lúc code tới việc test và triển khai sản phẩm không dùng CICD
 
 - Nguyen finished a task
 - Nguyen asked Devop to deploy
@@ -74,12 +74,12 @@ Cái mà anh hay dùng ở công ty là Jenkins.
 ![TDD](/images/post/softwarecraftmanship/cicd.png){:class="img-responsive"}
 {: refdef}
 
-- Bước 1  	: Lập trình viên commit code lên github
-- Bước 2	: Github sẽ trigger (gọi đến jenkins server). Cái này thì mình configure (xem video)
-- Bước 3	: Jenkins sẽ bắt đầu chạy các jobs mà mình định nghĩa sẳn trong Jenkins như tự động tích hợp, tự động build dự án, tự động kiểm tra chất lượng
-- Bước 4	: Sau khi jenkins đã chạy xong các công việc tích hợp thì mình sẽ cấu hình để jenkins đưa code lên server 
+- Bước 1  : Lập trình viên commit code lên github.
+- Bước 2	: Github sẽ trigger (gọi đến jenkins server). Cái này thì mình configure (xem video).
+- Bước 3	: Jenkins sẽ bắt đầu chạy các jobs mà mình định nghĩa sẵn trong Jenkins như tự động tích hợp, tự động build dự án, tự động kiểm tra chất lượng.
+- Bước 4	: Sau khi jenkins đã chạy xong các công việc tích hợp thì mình sẽ cấu hình để jenkins đưa code lên server. 
 
-Vòng đời cứ tiếp tục diển ra mỗi khi có một lập trình viên nào commit code lên github. Như vậy mình tích hợp các module ngay tức thì. Cùng một lúc mình có thể triển khai source code lên nhiều con server khác nhau. Sử dụng jenkins để làm CICD đã giúp nhóm anh tiết kiệm được 30% khối lượng công việc và thời gian phát triển sản phẩm mà lại cho năng suất cao.
+Vòng đời cứ tiếp tục diễn ra mỗi khi có một lập trình viên nào commit code lên github. Như vậy mình tích hợp các module ngay tức thì. Cùng một lúc mình có thể triển khai source code lên nhiều con server khác nhau. Sử dụng jenkins để làm CICD đã giúp nhóm anh tiết kiệm được 30% khối lượng công việc và thời gian phát triển sản phẩm mà lại cho năng suất cao.
 
 Chính vì lợi ích này thì hầu như công ty nào cũng sử dụng tool để làm CICD. Vậy khi nhắc đến CICD thì các em nghĩ ngay đến việc <b>tự động tích hợp và tự động deploy</b>, nó giúp tiết kiệm thời gian và chi phí.
 
