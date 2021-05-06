@@ -275,7 +275,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(App);
 Ở phần render ra kết quả này mọi người có thể thấy nếu đang call API tức là biến load đang là true thì nó sẽ show ra một đoạn text "Data is loading from API...", trong trường hợp call API xong rồi thì biến load sẽ được set thành false và show ra kết quả như bên dưới.
 
 {:refdef: style="text-align: center;"}
-![reactjs ](/images/post/reactjs/saga.png){:class="img-responsive"}
+![reactjs ](/images/post/reactjs/saga2.png){:class="img-responsive"}
 {: refdef}
 
 Source code: https://github.com/Thanhdong0909/redux_saga_training
