@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="reactjs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/demorep.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/docker_hub.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/docker_login_command.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/docker_pull_command.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/docker_push.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/docker_tag.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/my_image.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/tag_name_in_repository.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2022-01-06-docker-public-repository.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/build_command.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/env_command.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/env_docker_build_command.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/env_run_a_container.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/run_a_container.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/workdir_run_command.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2022-01-07-docker-cmd.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="New changelist" />
@@ -112,8 +110,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1692" />
-    <option name="y" value="82" />
+    <option name="x" value="-1374" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
@@ -140,6 +138,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -213,9 +212,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,18 +326,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-01720" summary="html">
-      <created>1614783534253</created>
-      <option name="number" value="01720" />
-      <option name="project" value="LOCAL" />
-      <updated>1614783534253</updated>
-    </task>
-    <task id="LOCAL-01721" summary="reactjs">
-      <created>1614868273124</created>
-      <option name="number" value="01721" />
-      <option name="project" value="LOCAL" />
-      <updated>1614868273124</updated>
     </task>
     <task id="LOCAL-01722" summary="reactjs">
       <created>1614868849077</created>
@@ -609,7 +609,19 @@
       <option name="project" value="LOCAL" />
       <updated>1620893494689</updated>
     </task>
-    <option name="localTasksCounter" value="1769" />
+    <task id="LOCAL-01769" summary="reactjs">
+      <created>1621068983284</created>
+      <option name="number" value="01769" />
+      <option name="project" value="LOCAL" />
+      <updated>1621068983284</updated>
+    </task>
+    <task id="LOCAL-01770" summary="reactjs">
+      <created>1621070270011</created>
+      <option name="number" value="01770" />
+      <option name="project" value="LOCAL" />
+      <updated>1621070270011</updated>
+    </task>
+    <option name="localTasksCounter" value="1771" />
     <servers />
   </component>
   <component name="TodoView">
@@ -622,14 +634,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1692" y="82" width="1680" height="1027" extended-state="0" />
+    <frame x="-1374" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28347406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6073232" sideWeight="0.5324544" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2519252" sideWeight="0.46754563" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25164837" sideWeight="0.46754563" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30896226" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
