@@ -4,7 +4,7 @@ title: Container linking
 slug : container-linking
 category: devops
 tags: [docker]
-summery: Docker Command
+summery: Docker Linking
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về Container linking và cách cài đặt Container linking.
 
