@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="reactjs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/build_command.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/env_command.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/env_docker_build_command.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/env_run_a_container.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/run_a_container.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/post/docker/workdir_run_command.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2022-01-07-docker-cmd.md" />
+    <list default="true" id="0ed47a04-9044-4676-81b8-01875d61eb9a" name="Default" comment="docker">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2022-02-01-vuejs-intro.md" afterPath="$PROJECT_DIR$/_posts/2022-02-01-vuejs-intro.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/course-vuejs.html" afterPath="$PROJECT_DIR$/_layouts/course-vuejs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="a4bd9faf-7a8b-4c47-9050-650984edef1d" name="New changelist" comment="New changelist" />
@@ -31,7 +26,60 @@
     <favorites_list name="nguyenleblog" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="hoc-lap-trinh-vuejs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-vuejs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-vuejs.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/course-vuejs.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.875">
+              <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2022-02-01-vuejs-intro.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2022-02-01-vuejs-intro.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.79831934">
+                <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2021-12-06-reactjs-prop.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-12-06-reactjs-prop.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.10084034">
+                <caret line="4" column="28" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="28" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,13 +96,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2021-06-14-angular-ngFor.md" />
-        <option value="$PROJECT_DIR$/_posts/2021-06-15-angular-ngSwitch.md" />
-        <option value="$PROJECT_DIR$/_includes/youtubePlayer.html" />
-        <option value="$PROJECT_DIR$/_posts/2021-06-03-angular-loading-project.md" />
-        <option value="$PROJECT_DIR$/_posts/2020-01-04-java-operator.md" />
         <option value="$PROJECT_DIR$/_includes/online-editor.html" />
-        <option value="$PROJECT_DIR$/_layouts/author-home.html" />
         <option value="$PROJECT_DIR$/hoc-lap-trinh-online-editor-js.html" />
         <option value="$PROJECT_DIR$/_posts/2021-12-02-reactjs-setup.md" />
         <option value="$PROJECT_DIR$/_posts/3000-01-01-online-editor-js-setup.md" />
@@ -99,6 +141,12 @@
         <option value="$PROJECT_DIR$/_posts/2020-03-08-spring-di-constructor.md" />
         <option value="$PROJECT_DIR$/_posts/2021-06-05-angular-databinding.md" />
         <option value="$PROJECT_DIR$/_posts/2021-12-15-reactjs-saga.md" />
+        <option value="$PROJECT_DIR$/_posts/2022-01-08-docker-linked.md" />
+        <option value="$PROJECT_DIR$/_layouts/author-home.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/hoc-lap-trinh-vuejs.html" />
+        <option value="$PROJECT_DIR$/_layouts/course-vuejs.html" />
+        <option value="$PROJECT_DIR$/_posts/2022-02-01-vuejs-intro.md" />
       </list>
     </option>
   </component>
@@ -110,9 +158,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1374" />
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="x" value="-1309" />
+    <option name="y" value="88" />
+    <option name="width" value="1636" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -138,7 +186,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -189,6 +236,10 @@
               <option name="myItemId" value="post" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vuejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -207,27 +258,10 @@
               <option name="myItemId" value="post" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,17 +293,17 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_layouts" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/_includes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/author" />
       <recent name="$PROJECT_DIR$/images/post/reactjs" />
       <recent name="$PROJECT_DIR$/images/blog" />
       <recent name="$PROJECT_DIR$/images/banner" />
       <recent name="$PROJECT_DIR$/images/icon" />
-      <recent name="$PROJECT_DIR$/images/author" />
     </key>
   </component>
   <component name="RunManager">
@@ -326,66 +360,6 @@
       <created>1579509927195</created>
       <option name="number" value="Default" />
       <updated>1579509927195</updated>
-    </task>
-    <task id="LOCAL-01722" summary="reactjs">
-      <created>1614868849077</created>
-      <option name="number" value="01722" />
-      <option name="project" value="LOCAL" />
-      <updated>1614868849077</updated>
-    </task>
-    <task id="LOCAL-01723" summary="reactjs">
-      <created>1614870886865</created>
-      <option name="number" value="01723" />
-      <option name="project" value="LOCAL" />
-      <updated>1614870886865</updated>
-    </task>
-    <task id="LOCAL-01724" summary="reactjs">
-      <created>1614871202825</created>
-      <option name="number" value="01724" />
-      <option name="project" value="LOCAL" />
-      <updated>1614871202825</updated>
-    </task>
-    <task id="LOCAL-01725" summary="reactjs">
-      <created>1614871806043</created>
-      <option name="number" value="01725" />
-      <option name="project" value="LOCAL" />
-      <updated>1614871806043</updated>
-    </task>
-    <task id="LOCAL-01726" summary="reactjs">
-      <created>1614957062575</created>
-      <option name="number" value="01726" />
-      <option name="project" value="LOCAL" />
-      <updated>1614957062576</updated>
-    </task>
-    <task id="LOCAL-01727" summary="reactjs">
-      <created>1614998292765</created>
-      <option name="number" value="01727" />
-      <option name="project" value="LOCAL" />
-      <updated>1614998292765</updated>
-    </task>
-    <task id="LOCAL-01728" summary="reactjs">
-      <created>1615000257219</created>
-      <option name="number" value="01728" />
-      <option name="project" value="LOCAL" />
-      <updated>1615000257219</updated>
-    </task>
-    <task id="LOCAL-01729" summary="reactjs">
-      <created>1615216916965</created>
-      <option name="number" value="01729" />
-      <option name="project" value="LOCAL" />
-      <updated>1615216916966</updated>
-    </task>
-    <task id="LOCAL-01730" summary="reactjs">
-      <created>1615217984404</created>
-      <option name="number" value="01730" />
-      <option name="project" value="LOCAL" />
-      <updated>1615217984404</updated>
-    </task>
-    <task id="LOCAL-01731" summary="reactjs">
-      <created>1615300716150</created>
-      <option name="number" value="01731" />
-      <option name="project" value="LOCAL" />
-      <updated>1615300716150</updated>
     </task>
     <task id="LOCAL-01732" summary="reactjs">
       <created>1615300788184</created>
@@ -621,7 +595,67 @@
       <option name="project" value="LOCAL" />
       <updated>1621070270011</updated>
     </task>
-    <option name="localTasksCounter" value="1771" />
+    <task id="LOCAL-01771" summary="reactjs">
+      <created>1621094712495</created>
+      <option name="number" value="01771" />
+      <option name="project" value="LOCAL" />
+      <updated>1621094712496</updated>
+    </task>
+    <task id="LOCAL-01772" summary="reactjs">
+      <created>1621135890894</created>
+      <option name="number" value="01772" />
+      <option name="project" value="LOCAL" />
+      <updated>1621135890895</updated>
+    </task>
+    <task id="LOCAL-01773" summary="reactjs">
+      <created>1621140412680</created>
+      <option name="number" value="01773" />
+      <option name="project" value="LOCAL" />
+      <updated>1621140412681</updated>
+    </task>
+    <task id="LOCAL-01774" summary="docker">
+      <created>1621650141999</created>
+      <option name="number" value="01774" />
+      <option name="project" value="LOCAL" />
+      <updated>1621650141999</updated>
+    </task>
+    <task id="LOCAL-01775" summary="docker">
+      <created>1621651376265</created>
+      <option name="number" value="01775" />
+      <option name="project" value="LOCAL" />
+      <updated>1621651376265</updated>
+    </task>
+    <task id="LOCAL-01776" summary="docker">
+      <created>1621652246934</created>
+      <option name="number" value="01776" />
+      <option name="project" value="LOCAL" />
+      <updated>1621652246934</updated>
+    </task>
+    <task id="LOCAL-01777" summary="docker">
+      <created>1621652484873</created>
+      <option name="number" value="01777" />
+      <option name="project" value="LOCAL" />
+      <updated>1621652484873</updated>
+    </task>
+    <task id="LOCAL-01778" summary="docker">
+      <created>1621652550624</created>
+      <option name="number" value="01778" />
+      <option name="project" value="LOCAL" />
+      <updated>1621652550624</updated>
+    </task>
+    <task id="LOCAL-01779" summary="vuejs">
+      <created>1622017369640</created>
+      <option name="number" value="01779" />
+      <option name="project" value="LOCAL" />
+      <updated>1622017369641</updated>
+    </task>
+    <task id="LOCAL-01780" summary="docker">
+      <created>1622017461608</created>
+      <option name="number" value="01780" />
+      <option name="project" value="LOCAL" />
+      <updated>1622017461608</updated>
+    </task>
+    <option name="localTasksCounter" value="1781" />
     <servers />
   </component>
   <component name="TodoView">
@@ -634,19 +668,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1374" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="false" />
+    <frame x="-1309" y="88" width="1636" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28347406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29120198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6073232" sideWeight="0.5324544" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25164837" sideWeight="0.46754563" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2519252" sideWeight="0.46754563" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24969843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30896226" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -670,7 +704,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="oop" />
     <MESSAGE value="casting" />
     <MESSAGE value="H1 seo" />
     <MESSAGE value="title" />
@@ -693,63 +726,16 @@
     <MESSAGE value="final version 1" />
     <MESSAGE value="1.1.2021" />
     <MESSAGE value="html" />
-    <MESSAGE value="docker" />
     <MESSAGE value="reactjs" />
-    <option name="LAST_COMMIT_MESSAGE" value="reactjs" />
+    <MESSAGE value="vuejs" />
+    <MESSAGE value="docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/3000-01-01-online-editor-js-setup.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.36796537">
-            <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.ajaxchimp.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/html-editor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-online-editor-js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.062068965">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.ui.position.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20026702">
-          <caret line="10" column="6421" selection-start-line="10" selection-start-column="6421" selection-end-line="10" selection-end-column="6421" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/contextMenu.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26034713">
-          <caret line="13" column="22217" selection-start-line="13" selection-start-column="22217" selection-end-line="13" selection-end-column="22217" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/cloudEdit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9599466">
@@ -814,6 +800,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2021-01-01-html-introduction.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.58933717">
@@ -822,11 +811,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-12-04-reactjs-component.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-12-04-reactjs-component.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="-3.112554">
@@ -835,28 +824,12 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/le-club.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.625">
           <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-12-06-reactjs-prop.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="-1.2103746">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/course-angular.html">
@@ -993,6 +966,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2021-12-10-reactjs-event.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="-1.943723">
@@ -1001,11 +977,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-java-variable.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-01-java-variable.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -1014,11 +990,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-01-16-java-head-stack.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-01-16-java-head-stack.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.47619048">
@@ -1027,11 +1003,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-12-13-reactjs-router.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-12-13-reactjs-router.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.10909091">
@@ -1039,9 +1015,6 @@
           </first_editor>
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/blog/css.png">
@@ -1071,6 +1044,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2022-01-01-docker-install-ubuntu.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -1079,11 +1055,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-06-05-angular-databinding.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-06-05-angular-databinding.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.15126051">
@@ -1092,11 +1068,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2020-03-08-spring-di-constructor.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2020-03-08-spring-di-constructor.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="1.0436242">
@@ -1105,11 +1081,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2022-01-02-docker-install-window.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2022-01-02-docker-install-window.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
@@ -1118,11 +1094,11 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-12-15-reactjs-saga.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-12-15-reactjs-saga.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.6979866">
@@ -1131,8 +1107,79 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2022-01-08-docker-linked.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/author-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="174" column="169" selection-start-line="174" selection-start-column="169" selection-end-line="174" selection-end-column="169" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="126" selection-start-line="22" selection-start-column="126" selection-end-line="22" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hoc-lap-trinh-vuejs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/course-vuejs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-12-06-reactjs-prop.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.10084034">
+            <caret line="4" column="28" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="28" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2022-02-01-vuejs-intro.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.79831934">
+            <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
       </provider>
     </entry>
   </component>
