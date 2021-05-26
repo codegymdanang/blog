@@ -57,6 +57,13 @@ var app = new Vue({
 
 {% endhighlight %}
 
+Ở đây chúng ta thấy {{ message }} là cú pháp để hiển thị giá trị của biến message thể hiện lên trang web 
+new Vue() chính là một đối tượng Vue của chúng ta, được truyền vào với các tham số cơ bản như: 
+el: là 1 selector để quyết định xem chúng ta sẽ đính khung Vue.js vào block nào của trang web, thông thường chúng ta sẽ tạo một thẻ div có id="app" để chuyển toàn bộ trang web của chúng ta render theo Vue.js 
+data: đây chính là trạng thái của ứng dụng (sẽ nói cụ thể hơn ở bài 2) , ở đây hiển nôm na là ta đang định nghĩa biến và giá trị của nó, ở đây là biến message có giá trị là "Hello Vue!"
+Mở file bai1.html lên Brower và chúng ta sẽ thấy kết quả!
+
+
 {:refdef: style="text-align: center;"}
 ![reactjs ](/images/post/vuejs/introduce.png){:class="img-responsive"}
 {: refdef}
