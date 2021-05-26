@@ -4,7 +4,7 @@ title: Trạng thái và thể hiện trạng thái
 slug : trang-thai-va-hien-thi-trang-thai-trong-vuejs
 category: laptrinhjavascript
 tags: [vuejs]
-summery: Giới thiệu về vuejs
+summery: Trạng thái
 image: /images/blog/feature_javascript.png
 description : Trong Vue.js nói riêng cũng như trong những ứng dụng nói chung thì trạng thái là những biến số những dữ liệu có thể thay đổi một của chương trình.
 
