@@ -1,12 +1,12 @@
 ---
 layout: course-vuejs
-title: Giới thiệu Vuejs
+title: Giới thiệu về vuejs 
 slug : vuejs-la-gi
 category: laptrinhjavascript
 tags: [vuejs]
-summery:  Giới thiệu Vuejs
+summery: Giới thiệu về vuejs
 image: /images/blog/feature_javascript.png
-description : Vue.js là một bộ khung JavaScript nhỏ gọn giúp chúng ta xây dựng giao diện người dùng. Ðược ra đời vào khoảng đầu năm 2014 bởi Evan You, với sự sinh sau đẻ muộn này giúp Vue.js thừa kế và học hỏi ý tưởng từ những người anh em: Reactjs, Angularjs.
+description : Giới thiệu về vuejs, là một bộ khung JavaScript nhỏ gọn giúp chúng ta xây dựng giao diện người dùng. Ðược ra đời vào khoảng đầu năm 2014 bởi Evan You
 
 youtubeId: ttKo2gO-BCE
 ---
