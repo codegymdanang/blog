@@ -1,12 +1,12 @@
 ---
 layout: course-vuejs
-title: Vòng đời component
+title: Vòng đời component trong vuejs
 slug : vong-doi-component-trong-vuejs
 category: laptrinhjavascript
 tags: [vuejs]
 summery: Vòng đời component
 image: /images/blog/feature_javascript.png
-description : Mỗi Vue Component trải qua một loạt các bước khởi tạo khi nó được tạo - Ví dụ: nó cần thiết lập quan sát dữ liệu, biên dịch mẫu, gắn kết cá thể vào DOM và cập nhật DOM khi dữ liệu thay đổi. Ðồng thời, nó cũng chạy các chức năng được gọi là móc vòng đời , cho phép người dùng có cơ hội thêm mã của riêng họ ở các giai đoạn cụ thể
+description : Nghe cái tên cũng biết là em này làm gì . methods là một hook trong Vue.js nó giúp chúng ta định nghĩa các phương thức cho ứng dụng.
 
 youtubeId: ttKo2gO-BCE
 ---
