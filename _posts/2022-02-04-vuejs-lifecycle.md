@@ -29,31 +29,31 @@ Mỗi Vue Component trải qua một loạt các bước khởi tạo khi nó đ
 
 {% highlight javascript  linenos %}
 
- <div id="app"> 
- <div>{{ message }}</div> 
-</div> 
-<script> 
- var app = new Vue({ 
- el: "#app", 
- data() { 
- return { 
- message: "HI!", 
- }; 
- }, 
- beforeCreate() { 
- console.log("Before Create", this.message); 
- }, 
- created() { 
- console.log("Created", this.message); 
- }, 
- mounted() { 
- console.log("Mounted", this.message); 
- }, 
- beforeDestroy() { 
- console.log("beforeDestroy", this.message); 
- }, 
- }); 
-</script>
+    <div id="app"> 
+       <div>{{ message }}</div> 
+    </div> 
+   <script> 
+    var app = new Vue({ 
+    el: "#app", 
+    data() { 
+    return { 
+     message: "HI!", 
+    }; 
+    }, 
+    beforeCreate() { 
+    console.log("Before Create", this.message); 
+    }, 
+    created() { 
+    console.log("Created", this.message); 
+    }, 
+    mounted() { 
+    console.log("Mounted", this.message); 
+    }, 
+    beforeDestroy() { 
+    console.log("beforeDestroy", this.message); 
+    }, 
+    }); 
+   </script>
 
 
 
@@ -85,4 +85,4 @@ Hook này được sử dụng khi bạn muốn hành động gì đó khi một
 
 
 
-
+ 
