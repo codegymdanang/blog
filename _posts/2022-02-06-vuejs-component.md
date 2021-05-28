@@ -6,8 +6,7 @@ category: laptrinhjavascript
 tags: [vuejs]
 summery:  Component
 image: /images/blog/feature_javascript.png
-description : Trong lập trình giao diện, khi mà số lượng code và số lượng chức năng nhiều ta bắt buộc phải phân tách chúng ra thành nhưng thành phẩn nhỏ hơn đảm nhận từng chức năng nhỏ để gộp thành một giao diện, và định nghĩa tìm ra những điểm chung để tối ưu hóa những thành phần nhỏ đó có thể tái sử dụng trong nhưng giao diện khác nhau. Thì những thành phần đó chúng được gọi là Component. 
-Component là một đối tượng rất quan trọng trong Vue.js và trong lập trình xây dựng giao diện người dùng.
+description : Hướng dẫn sử dụng component trong vuejs
 
 youtubeId: ttKo2gO-BCE
 ---
