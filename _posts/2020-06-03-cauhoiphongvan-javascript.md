@@ -16,6 +16,14 @@ youtubeId: Ex3glZTCvlY
 
 Chào các em, sau khi đã học xong công nghệ Javascript thì đây là những câu hỏi để đánh giá xem mình có nắm được kiến thức nền không? Đây là bộ <b>câu hỏi javascript khi đi phỏng vấn </b> tại các doanh nghiệp.
 
+# **1. Các câu hỏi dành cho Fresher Javascript ứng tuyển vào công ty**
+
+- Phân biệt Null và Undefine khác nhau như thế nào?
+- Nêu lên các loại kiểu dữ liệu trong javascript
+- strict mode là gì?
+- Từ khoá let là gì?
+- Polyfill là gì?
+- Phân biệt sự khác nhau giữa throw Error("lỗi") và throw new Error("lỗi")
 - Phân biệt get và post.
 - Mô tả thuật toán tìm kiếm 1 phần tử trong mảng bằng mã giả?
 - Mô tả thuật toán sắp xếp mảng số nguyên bằng mã giả?
@@ -52,7 +60,33 @@ Chào các em, sau khi đã học xong công nghệ Javascript thì đây là nh
 - Cho 1 bài toán liên quan đến ++ trước và ++ sau. Yêu cầu dự đoán kết quả, và tại sao lại có kết quả như vậy?
 - Các loại toán tử trong js? Cho biết độ ưu  tiên của các toán tử trong một biểu thức?
 
+# **2. Các câu hỏi dành cho Middle Javascript ứng tuyển vào công ty**
 
+- Giải thích khái niệm của Closure là gì?
+- Sự khác nhau shim và polyfill là gì
+- Sự khác nhau ES5 và ES6
+- Sự khác nhau undefined và not defined trong JS?
+- Khi nào nên dùng Arrow function?
+- Currying là gì?
+- Sự khác nhau của constructor trong ES5 và ES6
+- Sự khác nhau giữa cách sử dụng hàm foo như thế nào nếu ta khai báo foo() {} và var foo = function(){}?
+- Ưu và nhược điểm của việc sử dụng strict?
+- Sự khác nhau giữa  .call và .apply
+- Tại sao lại sử dụng ES6 Class?
+- Khi nào chúng ta sử dụng Generators trong ES6
+
+# **3. Các câu hỏi dành cho Senior Javascript ứng tuyển vào công ty**
+
+- Hoisting là gì?
+- Từ khoá new để làm gì?
+- Giải thích kế thừa trong JS?
+- Mô tả JS module design pattern?
+- Giải thích Prototype Design Pattern
+- Tool nào được sử dụng để kiểm tra code có tốt hay ko?
+- Khi nào chúng ta không nên sử dụng Arrow function trong ES6
+- Giải thích làm thế nào JsonP hoạt động?
+- Giải thích sự khác nhau giữa : function Person() {} , var person = Person, và var person = new Persion()?
+- Sự khác nhau giữa forEach và .map?
 
 
 
