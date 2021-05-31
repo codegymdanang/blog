@@ -7,7 +7,7 @@ tags: [cauhoiphongvan]
 summery: Java
 image: /images/blog/java.png
 featureImage: /images/post/javacore/feature_exception.png
-description : Các câu hỏi phỏng vấn vị trí lập trình java từ level fresher java đến developer java và tiếp đến là senior java và expert java.
+description : Tổng hợp các câu hỏi lập trình Java. Các câu hỏi phỏng vấn vị trí lập trình java từ level fresher java đến developer java và tiếp đến là senior java và expert java.
 
 youtubeId: se9CcJKhi04
 ---
