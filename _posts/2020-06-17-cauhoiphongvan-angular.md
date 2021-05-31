@@ -79,5 +79,16 @@ Chào các em, sau khi đã học xong công nghệ Angular thì đây là nhữ
 
 # **3. Câu hỏi phỏng vấn cho Senior Angular**
 
+- Vòng đời hook component và directive là như thế nào?
+- Làm thế nào chúng ta phát hiện ra Route thay đổi?
+- Ưu điểm và nhược điểm khi sử dụng local storage để thay thế cookie?
+- Phương thức detechChanges làm gì trong Jasmine test?
+- Thế nào là Reactive Programming? Nó liên quan gì đến Angular
+- Làm thế nào để code bảo mật được trong Angular. Đưa ra một số ví dụ minh hoạ?
+- Incremental Dom khác với Virtual Dom chỗ nào?
+- Giải thích Service Worker trong Angular là làm gì?
+- 
+
+
 
 

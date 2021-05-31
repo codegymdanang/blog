@@ -19,7 +19,7 @@ youtubeId: se9CcJKhi04
 Chào các em, sau khi đã học xong công nghệ Java thì đây là những câu hỏi để đánh giá xem mình có nắm được kiến thức nền không? Đây là bộ <b>câu hỏi java khi đi phỏng vấn </b> tại các doanh nghiệp. Bộ câu hỏi được chia ra các level từ Fresher (mới ra trường) đến Mid đến Senior và Expert.
 
 
-# **1 Các câu hỏi dành cho Fresher Java ứng tuyển vào công ty**
+# **1. c**
 
 - JAVA là gì?
 - JDK, JRE, JVM là gì?
