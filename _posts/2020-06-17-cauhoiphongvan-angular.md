@@ -14,6 +14,9 @@ youtubeId: Ex3glZTCvlY
 
 Chào các em, sau khi đã học xong công nghệ Angular thì đây là những câu hỏi để đánh giá xem mình có nắm được kiến thức nền không? Đây là bộ <b>câu hỏi Angular khi đi phỏng vấn </b> tại các doanh nghiệp.
 
+# **1. Câu hỏi phỏng vấn cho Fresher Angular**
+
+- Sự khác nhau giữa AngularJS và Angular là gì?
 - Trình bày được ý nghĩa và khái niệm Observer.
 - Trình bày được ý nghĩa và khái niệm Observable.
 - Phân biệt sự khác nhau giữa var, let, const.
@@ -43,7 +46,6 @@ Chào các em, sau khi đã học xong công nghệ Angular thì đây là nhữ
 - Phân biệt sự khác nhau giữa Promise và Observable.
 - Biên dịch AOT là gì? Những lợi thế của AOT?
 - Trình bày khái niệm Front-end & backend.
-- Làm sao để cài đặt TypeScript?
 - Để khởi tạo một dự án angular sử dụng câu lệnh nào?
 - Để chạy một dự án angular sử dụng câu lệnh nào?
 - Kể tên các kiểu dữ liệu trong Typescript.
@@ -55,3 +57,27 @@ Chào các em, sau khi đã học xong công nghệ Angular thì đây là nhữ
 - Cách để lấy tham số trên URL trong angular?
 - Làm sao để kiểm tra người dùng có quyền truy cập vào 1 route ?
 - Lazy-loading là gì?
+- Sự khác nhau Angular Component và Module là gì?
+- Service là gì ? Khi nào chúng ta sử dụng nó?
+- So sánh ngShow và ngHide là gì?
+- Sự khác nhau @Component và @Directive là gì?
+- Chạy unit test trong angular làm như thế nào?
+- Mục đích của thẻ base href là gì?
+- Interpolation là gì ?
+
+# **2. Câu hỏi phỏng vấn cho Middle Angular**
+
+- Giải thích sự khác nhau của Promise và Observable
+- Tại sao chúng ta sử dụng ngOnInit trong khi chúng ta đã có constructor
+- Sự khác nhau declarations, providers và import trong NgModule là gì?
+- Mục đích sử dụng Codelyzer là gì?
+- Khi nào chúng ta sử dụng eager module để loading?
+- Mục đích sử dụng wildcard route là gì?
+- Thế nào là component dynamic (component động)?
+- Làm sao để bắt lỗi trong Observable?
+- Multicasting là gì?
+
+# **3. Câu hỏi phỏng vấn cho Senior Angular**
+
+
+
