@@ -16,12 +16,20 @@ youtubeId: WNfuVJptPnQ
 
 Chào các em, sau khi đã học xong công nghệ Spring thì đây là những câu hỏi để đánh giá xem mình có nắm được kiến thức nền không? Đây là bộ <b>câu hỏi spring khi đi phỏng vấn </b> tại các doanh nghiệp.
 
-- Vẽ và trình bày cách Spring MVC xử lý request.
+
+# **1. Các câu hỏi dành cho Fresher Spring ứng tuyển vào công ty**
+
+- Application Context là gì ?
+- Bean Factory là gì?
+- Sự khác nhau giữa Application Context và Bean Factory là gì?
+- Default scope trong Spring là gì?
+- Dispatcher servlet được sử dụng làm gì?
+- Spring Boot là gì?
+- Vẽ và trình bày cách Spring MVC xử lý một request?
 - Trình bày cơ chế Dependency Injection trong Spring.
 - Có bao nhiêu cách để thực hiện Dependency Injection? Trình bày?
 - Framework là gì? Framework khác Library chỗ nào?
-- Spring Framework là gì?
-- Lợi ích của Spring Framework?
+- Spring Framework là gì? Lợi ích của Spring Framework?
 - Nguyên lý đảo ngược quyền điều khiển (Inversion of Control) là gì?
 - Bean là gì?
 - Trong Spring có bao nhiêu Bean Scope?
@@ -34,12 +42,20 @@ Chào các em, sau khi đã học xong công nghệ Spring thì đây là nhữn
 - Phân biệt POST với GET thường sử dụng để làm gì?
 - Phân biệt POST với PUT thường sử dụng để làm gì?
 - @RequestMapping làm gì?
-- Trình bày cơ chế Data Binding trong Spring.
+- Sự khác nhau Request Param và PathVariable là gì?
+- Trình bày cơ chế Data Binding trong Spring.
 - Thuộc tính consumes trong các Request Mapping là gì?
 - Thymeleaf là gì?
 - Sử dụng lặp trong Thymeleaf như thế nào? Sử dụng điều kiện trong Thymeleaf như thế nào?
 - Formatter là gì? 
 - Converter là gì?
+- ORM trong spring hỗ trợ những loại nào?
+- Giải thích vòng đời của Bean?
+
+# **2. Các câu hỏi dành cho Middle Spring ứng tuyển vào công ty**
+
+- Mục đích của session scope là gì?
+- Giải thích sự khác nhau giữa @Controller và @RestControler
 - ORM là gì?
 - JPA là gì? Spring Data JPA là gì?
 - Hibernate là gì ? Hibernate làm gì với database.
@@ -64,7 +80,6 @@ Chào các em, sau khi đã học xong công nghệ Spring thì đây là nhữn
 - Web Service là gì? Lấy ví dụ về web service.
 - Phân biệt Web Service và Web truyền thông.
 - SOAP là gì? RESTful là gì?
-- jQuery là gì? Ajax là gì?
 - Nêu ví dụ về cách bạn triển khai Ajax trong dự án của bạn.
 - @RequestHeader và @ResponseHeader có ý nghĩa gì?
 - I18n và L10n là gì?
@@ -82,3 +97,28 @@ Chào các em, sau khi đã học xong công nghệ Spring thì đây là nhữn
 - Trình bày Spring Boot JPA? Cài đặt?
 - Để sử dụng interface JpaRepository cần cung cấp những thông tin nào?
 - Bạn có biết annotation @ConfigurationProperties? Trình bày?
+- Làm thế nào để nhúng 1 collection vào Spring?
+
+
+# **3. Các câu hỏi dành cho Senior Spring ứng tuyển vào công ty**
+
+- Hãy nêu các bean scope có trong Spring?
+- Inner bean có nghĩa là gì?
+- Hạn chế của Autowire là gì?
+- Lợi thế của Spring MVC hơn Struct MVC là gì?
+- Join point là gì?
+- Lợi ích của việc dùng Spring Transaction là gì?
+- AOP nghĩa là gì?
+- Giải thích Aspect, Advice, Pointcut và joinPoint trong AOP ?
+- Reactive Programming nghĩa là gì?
+- Hạn chế của React Stream là gì ?
+- Có những loại Advises nào trong AOP?
+- Sư khác nhau giữa @component, @controller, @Repository, @Service là gì?
+- Sự khác nhau giữa context:annotation-config và context:component-scan là gì?
+
+
+
+
+
+
+

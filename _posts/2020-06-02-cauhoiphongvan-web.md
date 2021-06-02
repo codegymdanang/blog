@@ -75,6 +75,8 @@ Chào các em, sau khi đã học xong công nghệ web thì đây là những c
 # **6. Các câu hỏi dành cho Middle React ứng tuyển vào công ty**
 
 - Nêu các vòng đời của component trong React? 
+- Sự khác nhau của createElement và cloneElement?
+- Tại sao dùng Fragment là tốt hơn container div?
 
 
 
