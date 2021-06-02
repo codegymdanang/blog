@@ -14,6 +14,8 @@ youtubeId: Thx8bBqIY28
 
 Chào các em, sau khi đã học xong  Database thì đây là những câu hỏi để đánh giá xem mình có nắm được kiến thức nền không? Đây là bộ <b>câu hỏi Database khi đi phỏng vấn </b> tại các doanh nghiệp.
 
+# **1. Câu hỏi phỏng vấn cho Fresher Database**
+
 - Phân biệt các câu lệnh DML & DDL? DML, DDL bao gồm các câu lệnh nào?
 - Cơ sở dữ liệu (database) là gì?
 - Trình bày về mô hình thực thể mối quan hệ (ERD - Entity-Relationship Diagram)? 
@@ -42,4 +44,16 @@ Chào các em, sau khi đã học xong  Database thì đây là những câu h�
 - Phân biệt EXIST và IN?
 - Làm sao để có thể tăng tốc độ truy vấn?
 - Các dạng tham số ở SP?
+
+# **2. Câu hỏi phỏng vấn cho Middle Database**
+
 - Phân biệt SP, Trigger, Function?
+- Normalization nghĩa là gì?
+- Index trong database hoạt động như thế nào?
+- ACID có nghĩa là gì?
+- Sự khác nhau giữa clustered và non clustered là gì?
+- Denormalization nghĩa là gì?
+- Tại sao index dữ liệu lại cải thiện được hiệu suất của ứng dụng?
+- Khi nào sử dụng database quan hệ và khi nào thì không nên sử dụng nó mà sử dụng nosql?
+- Sharding nghĩa là gì ?
+- Sự khác nhau Primary Key và unit key là gì?
