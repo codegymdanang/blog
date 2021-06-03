@@ -108,5 +108,14 @@ Chào các em, sau khi đã học xong công nghệ Javascript thì đây là nh
 
 # **6. Các câu hỏi dành cho Senior Jquery ứng tuyển vào công ty**
 
+- Sự khác nhau giữa event.PreventDefault và return false là gì?
+- Sự khác nhau giữa windown.onload và $(document).ready()
+
+
+
+
+
+
+
 
 

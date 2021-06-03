@@ -18,6 +18,11 @@ Chào các em, sau khi đã học xong  Database thì đây là những câu h�
 
 - Phân biệt các câu lệnh DML & DDL? DML, DDL bao gồm các câu lệnh nào?
 - Cơ sở dữ liệu (database) là gì?
+- Mysql có những loại kiểu dữ liệu số nào?
+- Default contrains trong Mysql có nghĩa là gì?
+- Sự khác nhau giữa Varchar và char là gì?
+- Blob trong Mysql dùng làm gì?
+- Aggregate function trong mysql là gì?
 - Trình bày về mô hình thực thể mối quan hệ (ERD - Entity-Relationship Diagram)? 
 - Trong mô hình thực thể mối quan hệ có những thành phần nào?
 - Các bước chuyển đổi từ ERD -> Table?
@@ -49,7 +54,7 @@ Chào các em, sau khi đã học xong  Database thì đây là những câu h�
 
 - Phân biệt SP, Trigger, Function?
 - Normalization nghĩa là gì?
-- Index trong database hoạt động như thế nào?
+- Index trong database hoạt động như thế nào? Lợi ích của Index là gì?
 - ACID có nghĩa là gì?
 - Sự khác nhau giữa clustered và non clustered là gì?
 - Denormalization nghĩa là gì?
@@ -57,3 +62,13 @@ Chào các em, sau khi đã học xong  Database thì đây là những câu h�
 - Khi nào sử dụng database quan hệ và khi nào thì không nên sử dụng nó mà sử dụng nosql?
 - Sharding nghĩa là gì ?
 - Sự khác nhau Primary Key và unit key là gì?
+- Câu lệnh Grant có nghĩa là gì?
+- Giải thích sự khác nhau Timestamp và datetime trong mysql?
+- Câu lệnh mysqldump làm gì?
+- Giải thích sự khác nhau giữa câu lệnh create database và create schema trong mysql?
+- Trigger là gì ? có những loại trigger nào trong mysql?
+- DELIMETER dùng để làm gì trong mysql?
+- Sự khác nhau Blob và Text là gì ?
+- Mysql Workbench dùng để làm gì?
+
+
