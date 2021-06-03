@@ -88,6 +88,25 @@ Chào các em, sau khi đã học xong công nghệ Javascript thì đây là nh
 - Giải thích sự khác nhau giữa : function Person() {} , var person = Person, và var person = new Persion()?
 - Sự khác nhau giữa forEach và .map?
 
+# **4. Các câu hỏi dành cho Fresher Jquery ứng tuyển vào công ty**
+
+- Tại sao sử dụng Jquery ?
+- Sự khác nhau giữa JavaScript và Jquery là gì?
+- Dấu $ có nghĩa là gì trong Jquery
+- Chúng ta có thể khai báo nhiều document.ready() trên một trang được không?
+- Jquery.noConflict dùng làm gì ?
+- Sự khác nhau giữa .js và min.js là gì?
+- CDN nghĩa là gì ?
+- Cú pháp để lấy phần tử trên web dựa vào id là viết như thế nào?
+- event.PreventDefault có nghĩa là gì?
+
+# **5. Các câu hỏi dành cho Middle Jquery ứng tuyển vào công ty**
+
+- Sự khác nhau giữa onload() và document.ready() là gì?
+- Sự khác nhau $(this) và this trong Jquery là gì?
+- Sự khác nhau jquery.size() và jquery.lengh là gì?
+
+# **6. Các câu hỏi dành cho Senior Jquery ứng tuyển vào công ty**
 
 
 
