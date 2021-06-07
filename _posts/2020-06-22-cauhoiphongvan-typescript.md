@@ -4,7 +4,7 @@ title:  Câu hỏi phỏng vấn về TypeScript
 slug :  cau-hoi-phong-van-ve-typescript
 category: cauhoi
 tags: [cauhoiphongvan]
-summery: Git
+summery: TypeScript
 image: /images/blog/database.png
 description : Tổng hợp các câu hỏi phỏng vấn về typescript
 youtubeId: Thx8bBqIY28
