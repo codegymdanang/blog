@@ -7,7 +7,7 @@ tags: [database]
 summery: Các bước chuẩn hoá dữ liệu    
 image: /images/blog/database.png
 description : Bài viết trình bày về thiết kế Database. Trong đó, tác giả hướng dẫn cụ thể các bước thực hiện để thiết kế một Database chuẩn. Trước đó bài viết sẽ giới thiệu để bạn hiểu được tại sao phải cần chuẩn hoá dữ liệu, và chuẩn hoá dữ liệu trong thiết kế Database là gì. Tìm hiểu thêm về 4 dạng chuẩn hoá dữ liệu. Trong bài giảng tác giả chia sẻ kèm theo ví dụ cụ thể minh hoạ cho từng bước làm. Ngoài ra bài viết đưa ra một số lưu ý và thủ thuật để giúp quá trình thiết kế Database được chuẩn hoá dữ liệu hơn.
-youtubeId: Thx8bBqIY28
+youtubeId: DXcslY8IQ1k
 ---
 
 
