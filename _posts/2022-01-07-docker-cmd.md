@@ -8,7 +8,7 @@ summery: Docker Command
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về Docker Command và cách cài đặt Docker Command.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: 8jxipATUM84
 ---
 
 {% include toc.html %}
@@ -203,6 +203,11 @@ CMD pwd
 ![reactjs ](/images/post/docker/workdir_run_command.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **7. Demo Video**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

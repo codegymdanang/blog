@@ -8,7 +8,7 @@ summery: Cài đặt trên Window
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về docker và cách cài đặt docker trên Window.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: 1ihyWkaJrxc
 ---
 
 {% include toc.html %}
@@ -111,7 +111,11 @@ Sau khi chạy command docker run chúng ta sẽ nhận được kết quả nh�
 ![reactjs ](/images/post/docker/docker_container.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **5. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

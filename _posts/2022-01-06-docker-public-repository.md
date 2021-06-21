@@ -8,7 +8,7 @@ summery: Public Repository
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về Public Repository và cách cài đặt Public Repository.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: a1sbo4oQpZg
 ---
 
 {% include toc.html %}
@@ -100,7 +100,11 @@ Chúng ta vào lại trang Docker Hub và đi đến repository mà ta tạo ở
 ![reactjs ](/images/post/docker/docker_pull_command.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **7. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

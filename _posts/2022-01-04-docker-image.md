@@ -8,7 +8,7 @@ summery: Docker Image
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về Docker Image và cách cài đặt Docker Image.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: VIhs90q9sBE
 ---
 
 {% include toc.html %}
@@ -114,7 +114,11 @@ sudo docker inspect jenkins
 ![reactjs ](/images/post/docker/docker_inspect.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **6. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

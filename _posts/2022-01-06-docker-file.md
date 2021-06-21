@@ -8,7 +8,7 @@ summery: Docker File
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về Docker File và cách cài đặt Docker File .
 
-youtubeId: ttKo2gO-BCE
+youtubeId: queUfhkt6cs
 ---
 
 {% include toc.html %}
@@ -99,7 +99,11 @@ docker images
 {: refdef}
 
 
+## **4. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

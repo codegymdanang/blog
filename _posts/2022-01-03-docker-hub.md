@@ -8,7 +8,7 @@ summery: Docker Hub
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về Docker Hub và cách cài đặt Docker Hub .
 
-youtubeId: ttKo2gO-BCE
+youtubeId: EZgWek-CJlY
 ---
 
 {% include toc.html %}
@@ -92,8 +92,11 @@ Tham số jenkins là tên image jenkins mà ta download về máy <br>
 
 Như vậy là ta đã cài đặt thành công Jenkins từ docker hub 
 
+## **7. Demo Video**
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

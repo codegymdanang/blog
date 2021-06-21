@@ -8,7 +8,7 @@ summery: Docker Container
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về Docker Container và cách cài đặt Docker Container .
 
-youtubeId: ttKo2gO-BCE
+youtubeId: JBmTPnfxKdg
 ---
 
 {% include toc.html %}
@@ -248,7 +248,11 @@ docker exec -i -t 64d5f93bc97c /bin/bash
 ![reactjs ](/images/post/docker/container_lifecycle.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **16. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

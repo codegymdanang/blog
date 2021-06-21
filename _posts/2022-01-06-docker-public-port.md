@@ -8,7 +8,7 @@ summery: Quản lý Port
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về Quản lý Port và cách cài đặt Quản lý Port.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: BJUJgebCM94
 ---
 
 {% include toc.html %}
@@ -85,7 +85,11 @@ Chúng ta chạy ứng dụng jenkins ở trên trình duyệt qua cổng 8080 n
 {: refdef}
 
 
+## **5. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
