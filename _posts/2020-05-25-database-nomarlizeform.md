@@ -45,8 +45,9 @@ Là quá trình phân tích chia bảng thành những bảng nhỏ hơn dựa v
 
 ## **1. Demo Video**
 
+{:refdef: style="text-align: center;"}
 {% include youtubePlayer.html id=page.youtubeId %}
-
+{: refdef}
 
 ## **2. Source Code**
 

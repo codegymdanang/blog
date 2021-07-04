@@ -8,7 +8,7 @@ summery:  Docker Compose
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về  Docker Composeg và cách cài đặt  Docker Compose.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: 65IDC49odgM
 ---
 
 {% include toc.html %}

@@ -8,7 +8,7 @@ summery:  Docker log
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về  Docker log và cách cài đặt  Docker log.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: P_zAc0OBbIY
 ---
 
 {% include toc.html %}

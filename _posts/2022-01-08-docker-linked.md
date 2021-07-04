@@ -8,7 +8,7 @@ summery: Docker Linking
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta hiểu về Container linking và cách cài đặt Container linking.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: NHYCPeRKnoI
 ---
 
 {% include toc.html %}
