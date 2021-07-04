@@ -86,7 +86,11 @@ Chúng ta sẽ nhận được thông tin log như sau
 ![reactjs ](/images/post/docker/container_logging_output.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **3. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

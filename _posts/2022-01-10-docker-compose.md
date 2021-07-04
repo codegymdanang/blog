@@ -94,7 +94,11 @@ Comand này sẽ đọc file docker-compose.yml mà ta tạo ở bước trên v
 {: refdef}
 
 
+## **3. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
