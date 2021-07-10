@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Enum   
 image: /images/blog/feature_javascript.png
 description : Giúp hiểu được thuật ngữ Enum trong TypeScript là gì? Tìm hiểu về Enum, Numeric Enum, Sting Enum, Heterogeneous Enum trong ngôn ngữ lập trình TypeScript. Hướng dẫn cách sử dụng các loại Enum trong TypeScript thông qua những hình ảnh ví dụ minh hoạ các thao tác làm, cú pháp thực hiện để người đọc tham khảo và áp dụng được vào thực hành hiệu quả hơn.
-youtubeId: Ex3glZTCvlY
+youtubeId: HWdUcbV011g
 ---
 
 {% include toc.html %}
@@ -122,6 +122,12 @@ enum Status {
 
 {% endhighlight %}
 
+
+## **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

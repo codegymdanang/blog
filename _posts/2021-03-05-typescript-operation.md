@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Toán tử   
 image: /images/blog/feature_javascript.png
 description : Bài viết giúp hiểu được toán tử trong ngôn ngữ lập trình web TypeScript là gì? Hướng dẫn cách sử dụng các phép toán tử trong TypeScript. Bao gồm toán tử số số học, toán gán, toán tử so sánh, toán tử logic, toán tử tam phân và toán tử type trong TypeScript như thế nào cho hiệu quả khi lập trình web với ngôn ngữ TypeScript. Trong mỗi phép toán tử, bài viết có những ví dụ minh hoạ cụ thể cú pháp thực hiện sẽ giúp được người đọc dễ dàng tham khảo và áp dụng được vào thực hành.
-youtubeId: Ex3glZTCvlY
+youtubeId: GxgKxp1G5lc
 ---
 
 {% include toc.html %}
@@ -171,7 +171,11 @@ console.log( arr instanceof String ); // false
 {% endhighlight %}
 
 
+## **8. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

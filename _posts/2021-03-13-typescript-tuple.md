@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Tuple   
 image: /images/blog/feature_javascript.png
 description : Tuple trong TypeScript là gì? Cách sử dụng Tuple trong TypeScript như thế nào? Những thắc mắc trên sẽ được giải đáp trong bài viết này. Những chia sẻ dưới đây cũng sẽ giúp bạn nắm được thêm về Tuple chứa nhiều giá trị và Tuple Array trong TypeScript. Đồng thời, bài viết cũng hướng dẫn cách làm để thêm được phần tử vào Tuple và tìm hiểu về các phương thức hỗ trợ trong Tuple của ngôn ngữ lập trình TypeScript. Những ví dụ minh hoạ cụ thể trong mỗi phần sẽ giúp làm rõ hơn các chia sẻ lí thuyết và giúp người đọc nhanh chóng áp dụng được vào thực hành.
-youtubeId: Ex3glZTCvlY
+youtubeId: wB5F9Qoh6v8
 ---
 
 {% include toc.html %}
@@ -93,6 +93,11 @@ console.log(employee); //Output: [1, 'Steve Jobs']
 {% endhighlight %}
 
 
+## **6. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

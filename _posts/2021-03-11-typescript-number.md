@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Number   
 image: /images/blog/feature_javascript.png
 description : Tìm hiểu về Number trong ngôn ngữ lập trình TypeScript. Trước hết, bài viết giới thiệu khái niệm thuộc tính Number trong TyperScript là gì? Sau đó lần lượt trình bày về Methoad toExponential, Method toFixed, Method toLocaleString, Method toPrecision, Method toString, Method toString, Method ValueOf trong TypeScript. Ở mỗi phần trên, bài viết chia sẻ những hình ảnh minh hoạ cho cú pháp thực hiện sẽ giúp người đọc hiểu được các khái niệm và biết được cách sử dụng thuộc tính Number vào lập trình đạt được tối ưu nhất.
-youtubeId: Ex3glZTCvlY
+youtubeId: jtf66-bxeVQ
 ---
 
 {% include toc.html %}
@@ -116,6 +116,11 @@ console.log(typeof num2) //Output: number
 {% endhighlight %}
 
 
+## **8. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

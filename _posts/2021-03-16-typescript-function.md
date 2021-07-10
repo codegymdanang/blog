@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Function   
 image: /images/blog/feature_javascript.png
 description : Trình bày về thuộc tính Function trong TypeScript, giúp hiểu được thuật ngữ Function trong TypeScript là gì? Tìm hiểu về 2 dạng Function trong TypeScript bao gồm name, tên và anonymous, không tên. Giới thiệu thêm về Arrow Function hay còn gọi là Lambda trong TypeScript. Ngoài ra hướng dẫn cách sử dụng tham số Rest trong TypeScript và cách thức hoạt động của Function trong TypeScript thông qua những ví dụ minh hoạ cho cú pháp thực hiện.  
-youtubeId: Ex3glZTCvlY
+youtubeId: q01VKuEb5Io
 ---
 
 {% include toc.html %}
@@ -214,6 +214,11 @@ function Greet(...names: string[], greeting: string) {  // Compiler Error
 
 
 
+## **4. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

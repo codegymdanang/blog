@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Interface   
 image: /images/blog/feature_javascript.png
 description : Bài viết giới thiệu về Interface trong TypeScript. Trước hết những chia sẻ dưới đây sẽ giúp bạn hiểu được thuật ngữ Interface trong ngôn ngữ lập trình TypoScript là gì? Tiếp theo sẽ lần lượt trình bày về Interface định nghĩa cấu trúc cho Function và Interface định nghĩa cấu trúc cho Array. Ngoài ra bài viết cũng giới thiệu các tham số tuỳ chọn, tham số chỉ được phép đọc và tính kế thừa Interface trong TypeScript. Bên cạnh đó ở những chia sẻ cuối bài sẽ tìm hiểu về Implement Interface và Generic trong Interface của ngôn ngữ lập trình TypeSccript. Mỗi phần của bài viết có kèm theo các ví dụ minh hoạ cụ thể.
-youtubeId: Ex3glZTCvlY
+youtubeId: pvHE3qhDaL0
 ---
 
 {% include toc.html %}
@@ -252,6 +252,11 @@ strKVProcessor(1, "Bill"); //Output: processStringKeyPairs: key = 1, value = Bil
 {% endhighlight %}
 
 
+## **9. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

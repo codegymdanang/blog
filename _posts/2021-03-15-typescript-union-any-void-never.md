@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Union Any Void Never   
 image: /images/blog/feature_javascript.png
 description : Những thuật ngữ Union, Any, Void, Never được sử dụng trong ngôn ngữ lập trình TypeScript sẽ được giải thích và làm rõ trong bài viết. Bên cạnh đó, bài viết cũng sẽ giúp người đọc nắm được mục đích sử dụng và biết khi nào nên sử dụng loại nào cho phù hợp. Ngoài ra với những ví dụ minh hoạ cụ thể cho từng bước làm, cú pháp thực hiện mỗi loại trong bài viết, sẽ hướng dẫn cho người đọc sử dụng được Union Any Void Never trong TypeScript đạt được hiệu quả nhất.
-youtubeId: Ex3glZTCvlY
+youtubeId: x9sMpHjzo_I
 ---
 
 {% include toc.html %}
@@ -118,7 +118,11 @@ function keepProcessing(): never {
 {% endhighlight %}
 
 
+## **5. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
