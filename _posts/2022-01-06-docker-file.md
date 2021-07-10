@@ -1,7 +1,7 @@
 ---
 layout: course-docker
 title: Docker File
-slug : cai-dat-docker-container
+slug : cai-dat-docker-file
 category: devops
 tags: [docker]
 summery: Docker File
