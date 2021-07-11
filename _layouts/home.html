@@ -60,15 +60,13 @@
 								{% for post in site.posts limit:1 %}
 
 
-									<div class="col-lg-8 col-sm-6">
-										{:refdef: style="text-align: center;"}
+									<div class="col-lg-9 col-sm-6" style="text-align: left">
 											{% include youtubePlayer.html id=post.youtubeId %}
-										{: refdef}
 									</div>
 
-									<div class="col-lg-4 col-sm-6">
+									<div class="col-lg-3 col-sm-6">
 										<li>
-											<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
+											<a style="color:black" href='{{post.url}}'>{{post.description}} </a>
 										</li>
 									</div>
 
