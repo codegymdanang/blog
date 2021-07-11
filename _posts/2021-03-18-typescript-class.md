@@ -7,7 +7,7 @@ tags: [typescript]
 summery: Class   
 image: /images/blog/feature_javascript.png
 description : Bài viết nhằm hướng dẫn để người đọc sử dụng được thuộc tính Class trong TypeScript. Trong đó, những chia sẻ dưới đây sẽ lần lượt giúp bạn hiểu được thuật ngữ Class trong TypeScript là gì? Constructor là gì? Kế thừa là gì? Tìm hiểu các thành phần của một Class gồm những gì? Đồng thời hướng dẫn cách để cài đặt được Interface và sử dụng Overide Method trong Class, Abstract Class cũng như Generic Class trong TypeScript. Trong mỗi phần, bài viết chia sẻ kèm theo các ví dụ minh hoạ cách làm giúp người đọc hiểu được cách thức hoạt động của Class trong TypeScript và dễ dàng áp dụng được thuộc tính này vào thực hành.
-youtubeId: Ex3glZTCvlY
+youtubeId: 38jj9qSDZPQ
 ---
 
 {% include toc.html %}
@@ -302,4 +302,9 @@ kvp2.display(); //Output: Key = CEO, Val = Bill
 Chúng ta khai báo Generic trong thẻ < > sau tên của Class.
 
 
+## **7. Và bây giờ, hãy cùng xem code demo ở bên dưới để hiểu rõ hơn nhé**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 

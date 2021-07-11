@@ -45,6 +45,43 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8">
+
+				<!-- News Feed -->
+				<div class="row">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="col-lg-12">
+								<div class='relatedposts'>
+									<h4> Bản tin công nghệ </h4>
+								</div>
+							</div>
+							<div class="row">
+
+								{% for post in site.posts limit:1 %}
+
+
+									<div class="col-lg-8 col-sm-6">
+										{:refdef: style="text-align: center;"}
+											{% include youtubePlayer.html id=post.youtubeId %}
+										{: refdef}
+									</div>
+
+									<div class="col-lg-4 col-sm-6">
+										<li>
+											<a style="color:black" href='{{post.url}}'>{{post.summery}} </a>
+										</li>
+									</div>
+
+
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+				<!-- End News Feed -->
+
+
 				<!-- Công nghệ Java -->
 				<div class="row">
 					<div class="row">
