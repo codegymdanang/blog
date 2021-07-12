@@ -8,7 +8,7 @@ summery: Props
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  dùng  Props. Lần lượt giới thiệu và và đi qua các ví dụ về Props  được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: mNg71ajWRSY
 ---
 
 {% include toc.html %}
@@ -236,7 +236,12 @@ ReactDOM.render(<App/>, document.getElementById('app'));
 
 {% endhighlight %}
 
+## **5. Video Demo**
 
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

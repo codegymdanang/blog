@@ -8,7 +8,7 @@ summery: Event
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  hiểu về Event trong react. Lần lượt giới thiệu và và đi qua các ví dụ về Event được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: cEoQ9t6jP_8
 ---
 
 {% include toc.html %}
@@ -130,6 +130,12 @@ ReactDOM.render(<App/>, document.getElementById('app'));
 ![reactjs ](/images/post/reactjs/react-events-child-data.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **3. Video Demo**
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

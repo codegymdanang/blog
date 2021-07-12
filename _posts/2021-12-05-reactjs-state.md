@@ -8,7 +8,7 @@ summery: State
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  dùng  State. Lần lượt giới thiệu và và đi qua các ví dụ về State  được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: Zp1zRL695kw
 ---
 
 {% include toc.html %}
@@ -82,6 +82,12 @@ ReactDOM.render(<App />, document.getElementById('app'));
 ![reactjs ](/images/post/reactjs/react_state_simple.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **2. Video Demo**
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

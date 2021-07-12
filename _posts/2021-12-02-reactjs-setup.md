@@ -8,7 +8,7 @@ summery: Tạo ứng dụng
 image: /images/blog/feature_javascript.png
 description : Trình bày cách tạo ứng dụng web với reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: ryZHQNHjA8I
 ---
 
 {% include toc.html %}
@@ -88,7 +88,12 @@ npm start
 {: refdef}
 
 
+## **3. Video Demo**
 
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

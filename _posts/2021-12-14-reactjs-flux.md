@@ -8,7 +8,7 @@ summery: Flux
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  hiểu về flux trong react. Lần lượt giới thiệu và và đi qua các ví dụ về flux được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: UrGlphE1jyM
 ---
 
 {% include toc.html %}
@@ -269,6 +269,11 @@ Khi ứng dụng chạy ta có kết quả như sau:
 ![reactjs ](/images/post/reactjs/react-redux-example.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **8. Video Demo**
 
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 

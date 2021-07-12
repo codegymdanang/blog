@@ -8,7 +8,7 @@ summery: Component API
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  dùng  Component API. Lần lượt giới thiệu và và đi qua các ví dụ về Component API  được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: e9R_obn6ZVY
 ---
 
 {% include toc.html %}
@@ -136,6 +136,12 @@ Màu sắc của thẻ myDiv sẽ chuyển sang màu xanh mỗi lần chúng ta 
 ![reactjs ](/images/post/reactjs/react-component-api-find-dom-node.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **4. Video Demo**
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

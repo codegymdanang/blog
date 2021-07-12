@@ -8,7 +8,7 @@ summery: Vòng đời component
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  hiểu về vòng đời của  Component trong react. Lần lượt giới thiệu và và đi qua các ví dụ về vòng đời của Component được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: UZ21GRZ22Fk
 ---
 
 {% include toc.html %}
@@ -128,6 +128,12 @@ setTimeout(() => {
 ![reactjs ](/images/post/reactjs/react-component-lifecycle-initial-screen.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **8. Video Demo**
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

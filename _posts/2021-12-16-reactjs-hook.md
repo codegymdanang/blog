@@ -8,7 +8,7 @@ summery: React Hook
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  hiểu về Redux Hook trong react. Lần lượt giới thiệu và và đi qua các ví dụ về Redux Hook được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: kzPo9p44M1E
 ---
 
 {% include toc.html %}
@@ -186,6 +186,12 @@ return () => clearInteval(id)
 
 Các function react hook còn khá là nhiều, tuy nhiên trong phạm vi của bài viết này mình đi qua 2 cái hook cơ bản và phổ biến, hẹn gặp lại các bạn trong các bài viết tiếp theo! 
 
+## **6. Video Demo**
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

@@ -8,7 +8,7 @@ summery: Redux Saga
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  hiểu về Redux Saga trong react. Lần lượt giới thiệu và và đi qua các ví dụ về Redux Saga được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: m4Y9NbUB13w
 ---
 
 {% include toc.html %}
@@ -280,6 +280,12 @@ export default connect(mapStateToProps, mapDispatchToProps)(App);
 
 Source code: https://github.com/Thanhdong0909/redux_saga_training
 
+## **4. Video Demo**
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

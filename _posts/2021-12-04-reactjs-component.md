@@ -8,7 +8,7 @@ summery: Component
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  dùng  Component. Lần lượt giới thiệu và và đi qua các ví dụ về Component  được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: jrbTsvLgjSk
 ---
 
 {% include toc.html %}
@@ -182,6 +182,13 @@ ReactDOM.render(<App/>, document.getElementById('app'));
 ![reactjs ](/images/post/reactjs/react_components_statefull.jpeg){:class="img-responsive"}
 {: refdef}
 
+
+## **3. Video Demo**
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

@@ -8,7 +8,7 @@ summery: JSX
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  dùng  JSX. Lần lượt giới thiệu và và đi qua các ví dụ về JSX  được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: rseKoI18qPI
 ---
 
 {% include toc.html %}
@@ -188,7 +188,12 @@ export default App;
 - Chúng ta sử sử dụng className hoặc classFor trong XML thay vì viết chữ thường là class không thôi. Nhớ thêm className chứ ko phải class như trong HTML mình hay viết.
  
 
+## **4. Video Demo**
 
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

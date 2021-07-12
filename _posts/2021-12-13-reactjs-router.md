@@ -8,7 +8,7 @@ summery: Router
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  hiểu về router trong react. Lần lượt giới thiệu và và đi qua các ví dụ về router được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: XNb2eF32ZJY
 ---
 
 {% include toc.html %}
@@ -122,6 +122,12 @@ Khi ứng dụng web chạy chúng ta sẽ thấy được 3 cái link như sau.
 ![reactjs ](/images/post/reactjs/router.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **4. Video Demo**
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

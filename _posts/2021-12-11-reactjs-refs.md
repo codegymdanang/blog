@@ -8,7 +8,7 @@ summery: Refs
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  hiểu về refs trong react. Lần lượt giới thiệu và và đi qua các ví dụ về refs được sử dụng trong reactjs.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: qAhTinrr6hQ
 ---
 
 {% include toc.html %}
@@ -84,6 +84,12 @@ Khi button được click chúng ta xoá giá trị trong textbox đồng thời
 ![reactjs ](/images/post/reactjs/react-refs-example.jpeg){:class="img-responsive"}
 {: refdef}
 
+## **3. Video Demo**
+
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
