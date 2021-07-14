@@ -57,22 +57,14 @@
 							</div>
 							<div class="row">
 
-								{% assign sorted = site.categories.craftmanship | reverse %}
-								{% for post in sorted  %}
-									{% if post.tags contains 'news' %}	
-
-										{% for post in site.posts limit:1 %}
-
-
-											<div class="col-lg-12 col-sm-12" style="text-align: left">
-													{% include youtubePlayerHome.html id=post.youtubeId %}
-											</div>
+								
+								{% assign post = site.posts.first %}
+									<div class="col-lg-12 col-sm-12" style="text-align: left">
+											{% include youtubePlayerHome.html id=post.youtubeId %}
+									</div>
 
 
 
-										{% endfor %}
-									{% endif %}	
-								{% endfor %}
 								
 							</div>
 						</div>
