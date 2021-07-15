@@ -8,7 +8,7 @@ summery:  Tham số rest
 image: /images/blog/feature_javascript.png
 description : Trình bày về cách cách sử dụng rest param của ES6. Lần lượt giới thiệu và giải thích khái niệm rest param trong phương thức của ES6 là gì? 
 
-youtubeId: ttKo2gO-BCE
+youtubeId: HZjpCbC4QS0
 ---
 
 {% include toc.html %}
@@ -98,6 +98,11 @@ function sum(...args) {
 {% endhighlight %}
 
 
+## **3. Demo Video**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

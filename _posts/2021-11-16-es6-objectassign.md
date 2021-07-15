@@ -8,7 +8,7 @@ summery: Object assign
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  dùng  Object assign của ES6. Lần lượt giới thiệu và và đi qua các ví dụ về Object assign được sử dụng trong ES6.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: xw-VF7Fyx4o
 ---
 
 {% include toc.html %}
@@ -114,6 +114,11 @@ Kết quả
 
 Như ta thấy 2 đối tượng box và style đều có giá trị color. Tuy nhiên khi merge 2 đối tượng thì giá trị color được lấy theo đối tượng sau cùng. Trong trường hợp này chúng ta sẽ lấy giá trị là color = Blue chứ không phải lấy giá trị color = Red.
 
+## **3. Demo Video**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

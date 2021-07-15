@@ -8,7 +8,7 @@ summery:  Giá trị mặc định cho tham số
 image: /images/blog/feature_javascript.png
 description : Trình bày về cách khai báo giá trị mặc định cho tham số trong phương thức của ES6. Lần lượt giới thiệu và giải thích khái niệm giá trị mặc định trong phương thức của ES6 là gì? 
 
-youtubeId: ttKo2gO-BCE
+youtubeId: A21g71RGr5Y
 ---
 
 {% include toc.html %}
@@ -127,7 +127,11 @@ console.log(fullPrice); // 110
 
 Tham số tax trong phương thức là bằng price nhân với phương thức taxRate. Như vậy chúng ta có thể khai báo giá trị mặc định trong phương thức bằng cách gọi một phương thức khác.
 
+## **5. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

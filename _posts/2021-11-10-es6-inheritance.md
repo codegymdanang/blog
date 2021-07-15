@@ -8,7 +8,7 @@ summery:  Kế thừa
 image: /images/blog/feature_javascript.png
 description : Trình bày về cách cách sử dụng Kế thừa của ES6. Lần lượt giới thiệu và giải thích khái niệm Kế thừa trong của ES6 là gì? 
 
-youtubeId: ttKo2gO-BCE
+youtubeId: fdfUC3gM9y8
 ---
 
 {% include toc.html %}
@@ -124,7 +124,11 @@ bingo.walk();
 
 {% endhighlight %}
 
+## **4. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

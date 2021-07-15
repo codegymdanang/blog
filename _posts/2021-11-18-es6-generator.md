@@ -8,7 +8,7 @@ summery: Generator
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  dùng  Generator của ES6. Lần lượt giới thiệu và và đi qua các ví dụ về Generator  được sử dụng trong ES6.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: Rm5nopIut6Y
 ---
 
 {% include toc.html %}
@@ -125,6 +125,11 @@ invoked 2nd time
 
 {% endhighlight %}
 
+## **3. Demo Video**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

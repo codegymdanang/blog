@@ -8,7 +8,7 @@ summery:  Destructuring
 image: /images/blog/feature_javascript.png
 description : Trình bày về cách cách sử dụng Destructuring của ES6. Lần lượt giới thiệu và giải thích khái niệm Destructuring trong của ES6 là gì? 
 
-youtubeId: ttKo2gO-BCE
+youtubeId: dvsfFzzA0_c
 ---
 
 {% include toc.html %}
@@ -122,7 +122,11 @@ console.log(args); // [90, 100]
 
 {% endhighlight %}
 
+## **3. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

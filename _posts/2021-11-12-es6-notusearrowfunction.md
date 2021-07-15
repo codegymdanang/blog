@@ -8,7 +8,7 @@ summery: Khi nào nên dùng Arrow
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta không nên dùng  Arrow function của ES6. Lần lượt giới thiệu và và đi qua các ví dụ về các trường hợp không nên dùng nó.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: cJFX2r0Z2hs
 ---
 
 {% include toc.html %}
@@ -209,7 +209,11 @@ function concat(separator) {
 
 {% endhighlight %}
 
+## **6. Demo Video**
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

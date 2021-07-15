@@ -8,7 +8,7 @@ summery:  Toán tử spread
 image: /images/blog/feature_javascript.png
 description : Trình bày về cách cách sử dụng toán tử spread của ES6. Lần lượt giới thiệu và giải thích khái niệm toán tử spread trong của ES6 là gì? 
 
-youtubeId: ttKo2gO-BCE
+youtubeId: vq-e125CuDM
 ---
 
 {% include toc.html %}
@@ -65,6 +65,11 @@ console.log(combined);
 {% endhighlight %}
 
 
+## **3. Demo Video**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

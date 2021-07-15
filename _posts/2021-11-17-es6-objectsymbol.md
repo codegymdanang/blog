@@ -8,7 +8,7 @@ summery: Symbol
 image: /images/blog/feature_javascript.png
 description : Trình bày về khi nào chúng ta  dùng  symbol của ES6. Lần lượt giới thiệu và và đi qua các ví dụ về symbol  được sử dụng trong ES6.
 
-youtubeId: ttKo2gO-BCE
+youtubeId: BBVixQlnMjc
 ---
 
 {% include toc.html %}
@@ -100,6 +100,12 @@ console.log(task);
 
 {% endhighlight %}
 
+
+## **3. Demo Video**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

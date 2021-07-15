@@ -8,7 +8,7 @@ summery:  Arrow function
 image: /images/blog/feature_javascript.png
 description : Trình bày về cách cách sử dụng Arrow function của ES6. Lần lượt giới thiệu và giải thích khái niệm Arrow function trong của ES6 là gì? 
 
-youtubeId: ttKo2gO-BCE
+youtubeId: FNi7ywGpe68
 ---
 
 {% include toc.html %}
@@ -199,6 +199,11 @@ car.speedUp(50); // 50;
 {% endhighlight %}
 
 
+## **6. Demo Video**
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
