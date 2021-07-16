@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: course-goodcode
 title: Sử dụng Jenkins trong dự án
 slug : jenkins
 category: craftmanship
