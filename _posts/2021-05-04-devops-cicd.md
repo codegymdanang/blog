@@ -2,8 +2,8 @@
 layout: blog
 title: Sử dụng Jenkins trong dự án
 slug : jenkins
-category: devops
-tags: [cicd]
+category: craftmanship
+tags: [goodcode]
 summery: Jenkins tự động CI-CD   
 image: /images/blog/cicd.png
 description : Sử dụng Jenkins trong dự án java. Hiểu CI CD là gì ?. Những khó khăn khi không áp dụng ci cd trong các dự án. Hướng dẫn triển khai dự án java kết hợp ci cd trên công cụ Jenkins.
