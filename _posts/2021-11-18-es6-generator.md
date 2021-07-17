@@ -1,7 +1,7 @@
 ---
 layout: course-es6
 title: Sử dụng Generator trong ES6 
-slug : su-dung-symbol-assign-trong-es6
+slug : su-dung-generator-trong-es6
 category: laptrinhjavascript
 tags: [es6]
 summery: Generator
