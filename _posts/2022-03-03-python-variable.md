@@ -1,12 +1,12 @@
 ---
 layout: course-python
-title: Sử dụng biến trong python
-slug : su-dung-bien-trong-python
+title: khai báo biến trong python
+slug : khai-bao-bien-trong-python
 category: laptrinhpython
 tags: [python]
-summery: Sử dụng biến trong python
+summery: Khai báo biến
 image: /images/blog/feature_javascript.png
-description : Sử dụng biến trong python
+description : Hôm nay anh sẽ hướng dẫn mọi người cách sử khai báo biến trong Python. Biến được sử dụng để lưu trữ các giá trị. Python thì khác java và các ngôn ngữ khác khi mình khai báo biến. Ví dụ trong java mình khai báo biến number có giá trị bằng 5 thì ta làm như sau int number = 5, trong javascript thì mình khai báo var number = 5. Còn trong Python ta chỉ cần viết number = 5.
 
 youtubeId: ttKo2gO-BCE
 ---
@@ -15,133 +15,210 @@ youtubeId: ttKo2gO-BCE
 
 ## **Giới thiệu nội dung bài viết**
 
-Props là một đối tượng để lưu trữ các giá trị thuộc tính cho một thẻ một component, hiểu nôm na nó như config cho một thẻ vậy, những props này được truyền vào thẻ như cách bạn truyền attributes html element vậy.
+Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách <b> sử khai báo biến trong Python <b>. Biến được sử dụng để lưu trữ các giá trị. Python thì khác java và các ngôn ngữ khác khi mình khai báo biến. Ví dụ trong java mình khai báo biến number có giá trị bằng 5 thì ta làm như sau int number = 5, trong javascript thì mình khai báo var number = 5. Còn trong Python ta chỉ cần viết number = 5.
 
-## **1. Tạo và sử dụng Props**
 
-2.1 Truyền vào dạng mảng gồm tên các prop mà không bắt buộc kiểu hay giá trị dữ liệu 
+{% highlight python  linenos %}
 
-{% highlight javascript  linenos %}
-
-<div id="app"> 
- <button-counter message="Vue.js"></button-counter> 
-</div> 
-<script> 
- Vue.component("button-counter", { 
- props: ["message"], 
- data: function () { 
- return { 
- count: 0, 
- }; 
- }, 
- template: '<button v-on:click="count++">{{message}} {{ count }}. </button>', 
- }); 
- var app = new Vue({ 
- el: "#app", 
- }); 
-</script> 
-
+x = 5
+y = "John"
+print(x)
+print(y)
 
 {% endhighlight %}
 
-Như trên chúng ta định nghĩa prop có tên là message, ở thẻ component được gọi ra chúng ta gán message="Vue.js" giống như ta đang sử dụng một html attributes vậy. 
-Ở trên thay vì chúng ta tuyền cho message một chuỗi thì chúng ta cũng có thể gán cho nó một biến số từ component cha, với v-bind: 
+## **1. Casting hay còn gọi Ép Kiểu**
 
-{% highlight javascript  linenos %}
+Ví dụ như ta muốn ép kiểu giá trị của biến qua String ta dùng hàm str. Nếu muốn ép kiểu số ta dùng int, còn nếu ép kiểu float ta dùng hàm float như sau
 
-<div id="app"> 
- <button-counter v-bind:message="framework"></button-counter>
-</div>
-<script> 
- Vue.component("button-counter", { 
- props: ["message"], 
- data: function () { 
- return { 
- count: 0, 
- }; 
- }, 
- template: '<button v-on:click="count++">{{message}} {{ count }}. </button>', 
- }); 
- var app = new Vue({ 
- el: "#app", 
- data() { 
- return { 
- framework: "Vue.js", 
- }; 
- }, 
- }); 
-</script> 
+{% highlight python  linenos %}
 
-
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
 
 {% endhighlight %}
 
-Như trên ta sử dụng v-bind: + tên props. 
-Và v-bind này chúng ta cũng có thể viết ngắn gọn hơn (shorthand) bằng cách bỏ v-bind chỉ cần dấu : ở trước tên thuộc tính. 
+## **2. Lấy kiểu dữ liệu của biến**
 
-2.2 Ðịnh nghĩa kiểu dữ liệu và các options cho một props 
-Thông thường chúng ta sẽ định nghĩa kiểu dữ liệu, giá trị mặc định hay validate cho một prop để hạn chế lỗi cũng như tăng tính minh bạch cho từng thuộc tính. 
-Sau đâu là một số kiểu định nghĩa props trong Vue.js 
+Để lấy được kiểu dữ liệu là kiểu gì ví dụ như chuổi, số hay kiểu số thực ta dùng hàm type() như sau
 
+{% highlight python  linenos %}
 
-{% highlight javascript  linenos %}
-
-Vue.component("button-counter", { 
- props: { 
- // Basic type check (`null` and `undefined` values will pass any type validation) 
- propA: Number, 
- // Multiple possible types 
- propB: [String, Number], 
- // Required string 
- propC: { 
- type: String, 
- required: true, 
- }, 
- // Number with a default value 
- propD: { 
- type: Number,
- default: 100, 
- }, 
- // Object with a default value 
- propE: { 
- type: Object, 
- // Object or array defaults must be returned from 
- // a factory function 
- default: function () { 
- return { message: "hello" }; 
- }, 
- }, 
- // Custom validator function 
- propF: { 
- validator: function (value) { 
- // The value must match one of these strings 
- return ["success", "warning", "danger"].indexOf(value) !== -1;  }, 
- }, 
- }, 
-}); 
-
-
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
 
 {% endhighlight %}
 
-Một prop có thể được định nghĩa theo một loại kiểu dữ liệu nhất định, nếu chúng ta muốn nhận vào nhiều kiểu dữ liệu hơn thì gán type thành một mảng các kiểu dữ liệu vd như propB 
-Và những kiểu dữ liệu phải nằm trong các kiểu dữ liệu sau :  
-String <br>
-Number <br>
-Boolean <br>
-Array <br>
-Object <br>
-Date <br>
-Function <br>
-Symbol <br>
+## **3. Biến chứa giá trị chuỗi**
 
-Một số bạn có hỏi khi định nghĩa Prop thì ta ghi tên theo kiểu lowercase cho từ đâu + capitalize cho những từ sau VD: propA vậy khi gọi ra ở thẻ thì ta gọi như nào, vâng chúng ta thêm dấu "-" trước mỗi từ in hoa và đồng thời chuyển từ đó về chữ thường : propA -> prop-a 
+Chúng ta có thể sử dụng dấu ' giá trị ' hoặc dấu "" giá trị "" để khởi tạo giá trị chuỗi như sau
 
-{% highlight javascript  linenos %}
+{% highlight python  linenos %}
 
-<button-counter :prop-a="2" prop-b="Vue.js"></button-counter> 
+x = "John" # is the same as
+x = 'John'
+
+{% endhighlight %}
+
+## **4. CaseSensitive trong Python**
+
+Trong Python tên biến là phân biệt chữ Hoa và chữ Thường. Ví dụ biến a = 4 và biến A = "Sally" là 2 biến hoàn toàn khác nhau.
+
+{% highlight python  linenos %}
+
+a = 4
+A = "Sally" #A will not overwrite a
 
 {% endhighlight %}
 
 
-Trong component chúng ta có thể gọi prop ra để sử dụng bình thường như một data. Nhưng hãy chú ý là component không được phép chỉnh sửa props của nó.
+## **5. Tên biến**
+
+Cũng giống như các ngôn ngữ lập trình khác. Biến trong Python phải được đặt đúng theo quy định
+
+- Biến bắt đầu bằng một từ or dấu gạch dưới
+- Biến không được bắt đầu là một số
+- Biến chỉ có thể chứa các chữ trong bảng chữ và số alpha (A-z, 0 - 9)
+- Biến phân biệt chữ hoa và chữ thường
+
+Ví dụ sau đây là khai báo đúng chuẩn theo Python
+
+{% highlight python  linenos %}
+
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+{% endhighlight %}
+
+Ví dụ sau đây là khai báo không đúng chuẩn theo Python
+
+{% highlight python  linenos %}
+
+2myvar = "John"
+my-var = "John"
+my var = "John"
+
+{% endhighlight %}
+
+## **6. Tên biến nhiều từ**
+
+Ví dụ nếu tên biến nhiều hơn 2 chữ thì ta có thể sử dụng Cammel giống java. Chữ đầu tiên viết thường. Ký tự thứ 2 của chữ thứ hai viết hoa như sau.
+
+{% highlight python  linenos %}
+
+myVariableName = "John" # chữ my viết thường, chữ cái đầu tiên Name viết hoa
+
+{% endhighlight %}
+
+Hoặc ta có thể viết Hoa ở mỗi ký tự đầu tiên
+
+{% highlight python  linenos %}
+
+MyVariableName = "John"
+
+{% endhighlight %}
+
+Hoặc ta có thể dùng dấu _ giữa các chữ như sau
+
+{% highlight python  linenos %}
+
+my_variable_name = "John"
+
+{% endhighlight %}
+
+## **7. Gán nhiều giá trị cho nhiều biến**
+
+Python cho phép chúng ta gán nhiều giá trị cho nhiều biến như sau.
+
+{% highlight python  linenos %}
+
+x, y, z = "Orange", "Banana", "Cherry"
+
+{% endhighlight %}
+
+Biến x = Orange, biến y = Banana và biến z = Cherry.
+
+## **8. Gán nhiều biến cùng một giá trị**
+
+Chúng ta có thể gán nhiều biến cho một giá trị như sau.
+
+{% highlight python  linenos %}
+
+x = y = z = "Orange"
+
+{% endhighlight %}
+
+## **9. In giá trị ra màn hình**
+
+Chúng ta sử dụng method print của Python để in các giá trị của biến ra màn hình nó giống như hàm System.out.print của java.
+
+{% highlight python  linenos %}
+
+x = "awesome"
+print("Python is " + x)
+
+{% endhighlight %}
+
+## **10. Biến toàn cục**
+
+Biến toàn cục là biến được tạo ra ngoài method. Có thể truy xuất bất cứ đâu.
+
+{% highlight python  linenos %}
+
+x = "awesome" //đây là biến toàn cục
+
+def myfunc():
+  print("Python is " + x) // trong function ta có thể gọi nó
+
+myfunc()
+
+{% endhighlight %}
+
+## **11. Từ khóa global**
+
+Khi chúng ta khai báo một biến trong một function thì phạm vi biến đó chỉ được sử dụng trong function đó , các function khác không thể gọi được. Cái này ta gọi là biến local chỉ tồn tại trong function. 
+
+Nếu như ta muốn biến local trong function đó trở thành biến Global (toàn cục) thì ta sử dụng từ khóa global như sau
+
+{% highlight python  linenos %}
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
