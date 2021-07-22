@@ -15,15 +15,15 @@ youtubeId: ttKo2gO-BCE
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách <b> sử khai báo biến trong Python <b>. Biến được sử dụng để lưu trữ các giá trị. Python thì khác java và các ngôn ngữ khác khi mình khai báo biến. Ví dụ trong java mình khai báo biến number có giá trị bằng 5 thì ta làm như sau int number = 5, trong javascript thì mình khai báo var number = 5. Còn trong Python ta chỉ cần viết number = 5.
+Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách <b> sử khai báo biến trong Python </b>. Biến được sử dụng để lưu trữ các giá trị. Python thì khác java và các ngôn ngữ khác khi mình khai báo biến. Ví dụ trong java mình khai báo biến number có giá trị bằng 5 thì ta làm như sau int number = 5, trong javascript thì mình khai báo var number = 5. Còn trong Python ta chỉ cần viết number = 5.
 
 
 {% highlight python  linenos %}
 
-x = 5
-y = "John"
-print(x)
-print(y)
+      x = 5
+      y = "John"
+      print(x)
+      print(y)
 
 {% endhighlight %}
 
@@ -33,9 +33,9 @@ Ví dụ như ta muốn ép kiểu giá trị của biến qua String ta dùng h
 
 {% highlight python  linenos %}
 
-x = str(3)    # x will be '3'
-y = int(3)    # y will be 3
-z = float(3)  # z will be 3.0
+      x = str(3)    # x will be '3'
+      y = int(3)    # y will be 3
+      z = float(3)  # z will be 3.0
 
 {% endhighlight %}
 
@@ -45,10 +45,10 @@ z = float(3)  # z will be 3.0
 
 {% highlight python  linenos %}
 
-x = 5
-y = "John"
-print(type(x))
-print(type(y))
+      x = 5
+      y = "John"
+      print(type(x))
+      print(type(y))
 
 {% endhighlight %}
 
@@ -58,8 +58,8 @@ Chúng ta có thể sử dụng dấu ' giá trị ' hoặc dấu "" giá trị 
 
 {% highlight python  linenos %}
 
-x = "John" # is the same as
-x = 'John'
+      x = "John" # is the same as
+      x = 'John'
 
 {% endhighlight %}
 
@@ -69,8 +69,8 @@ Trong Python tên biến là phân biệt chữ Hoa và chữ Thường. Ví d�
 
 {% highlight python  linenos %}
 
-a = 4
-A = "Sally" #A will not overwrite a
+      a = 4
+      A = "Sally" #A will not overwrite a
 
 {% endhighlight %}
 
@@ -88,12 +88,12 @@ Ví dụ sau đây là khai báo đúng chuẩn theo Python
 
 {% highlight python  linenos %}
 
-myvar = "John"
-my_var = "John"
-_my_var = "John"
-myVar = "John"
-MYVAR = "John"
-myvar2 = "John"
+      myvar = "John"
+      my_var = "John"
+      _my_var = "John"
+      myVar = "John"
+      MYVAR = "John"
+      myvar2 = "John"
 
 {% endhighlight %}
 
@@ -101,9 +101,9 @@ Ví dụ sau đây là khai báo không đúng chuẩn theo Python
 
 {% highlight python  linenos %}
 
-2myvar = "John"
-my-var = "John"
-my var = "John"
+      2myvar = "John"
+      my-var = "John"
+      my var = "John"
 
 {% endhighlight %}
 
@@ -113,7 +113,7 @@ Ví dụ nếu tên biến nhiều hơn 2 chữ thì ta có thể sử dụng Ca
 
 {% highlight python  linenos %}
 
-myVariableName = "John" # chữ my viết thường, chữ cái đầu tiên Name viết hoa
+      myVariableName = "John" # chữ my viết thường, chữ cái đầu tiên Name viết hoa
 
 {% endhighlight %}
 
@@ -121,7 +121,7 @@ Hoặc ta có thể viết Hoa ở mỗi ký tự đầu tiên
 
 {% highlight python  linenos %}
 
-MyVariableName = "John"
+      MyVariableName = "John"
 
 {% endhighlight %}
 
@@ -129,7 +129,7 @@ Hoặc ta có thể dùng dấu _ giữa các chữ như sau
 
 {% highlight python  linenos %}
 
-my_variable_name = "John"
+      my_variable_name = "John"
 
 {% endhighlight %}
 
@@ -139,7 +139,7 @@ Python cho phép chúng ta gán nhiều giá trị cho nhiều biến như sau.
 
 {% highlight python  linenos %}
 
-x, y, z = "Orange", "Banana", "Cherry"
+      x, y, z = "Orange", "Banana", "Cherry"
 
 {% endhighlight %}
 
@@ -151,7 +151,7 @@ Chúng ta có thể gán nhiều biến cho một giá trị như sau.
 
 {% highlight python  linenos %}
 
-x = y = z = "Orange"
+      x = y = z = "Orange"
 
 {% endhighlight %}
 
@@ -161,8 +161,8 @@ Chúng ta sử dụng method print của Python để in các giá trị của b
 
 {% highlight python  linenos %}
 
-x = "awesome"
-print("Python is " + x)
+      x = "awesome"
+      print("Python is " + x)
 
 {% endhighlight %}
 
@@ -172,12 +172,12 @@ Biến toàn cục là biến được tạo ra ngoài method. Có thể truy xu
 
 {% highlight python  linenos %}
 
-x = "awesome" //đây là biến toàn cục
+      x = "awesome" //đây là biến toàn cục
 
-def myfunc():
-  print("Python is " + x) // trong function ta có thể gọi nó
-
-myfunc()
+      def myfunc():
+        print("Python is " + x) // trong function ta có thể gọi nó
+      
+      myfunc()
 
 {% endhighlight %}
 
@@ -189,13 +189,13 @@ Nếu như ta muốn biến local trong function đó trở thành biến Global
 
 {% highlight python  linenos %}
 
-def myfunc():
-  global x
-  x = "fantastic"
-
-myfunc()
-
-print("Python is " + x)
+      def myfunc():
+        global x
+        x = "fantastic"
+      
+      myfunc()
+      
+      print("Python is " + x)
 
 {% endhighlight %}
 
