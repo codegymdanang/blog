@@ -107,6 +107,37 @@ Ngược lại với việc kiểm tra có từ khóa trong chuỗi, thì để 
 
 {% endhighlight %}
 
+## **7. Cắt chuỗi**
+
+Chúng ta có thể lấy một nhóm ký tự trong chuỗi bằng hàm slice. Ví dụ như chữ Hello, World chúng ta có thể lấy ra chuỗi llo từ Hello World  như sau.
+
+{% highlight python  linenos %}
+
+      b = "Hello, World!"
+      print(b[2:5])
+
+{% endhighlight %}
+
+Chúng ta có thể lấy một nhóm ký tự dự vào index cho vào. Ví dụ như chữ Hello, World chúng ta muốn lấy bắt đầu từ 0 cho đến vị trí thứ 5 để lấy được chữ Hello như sau
+
+{% highlight python  linenos %}
+
+      b = "Hello, World!"
+      print(b[:5])
+
+{% endhighlight %}
+
+Nếu chúng ta muốn lấy nhóm ký từ từ vị trí bắt đầu tới vị trí cuối cùng của chuỗi thì ta làm như sau.
+
+{% highlight python  linenos %}
+
+      b = "Hello, World!"
+      print(b[2:])
+
+{% endhighlight %}
+
+
+
 
 
 
