@@ -118,6 +118,8 @@ Chúng ta có thể lấy một nhóm ký tự trong chuỗi bằng hàm slice. 
 
 {% endhighlight %}
 
+Kết quả : llo.
+
 Chúng ta có thể lấy một nhóm ký tự dự vào index cho vào. Ví dụ như chữ Hello, World chúng ta muốn lấy bắt đầu từ 0 cho đến vị trí thứ 5 để lấy được chữ Hello như sau
 
 {% highlight python  linenos %}
@@ -127,6 +129,8 @@ Chúng ta có thể lấy một nhóm ký tự dự vào index cho vào. Ví d�
 
 {% endhighlight %}
 
+Kết quả : Hello.
+
 Nếu chúng ta muốn lấy nhóm ký từ từ vị trí bắt đầu tới vị trí cuối cùng của chuỗi thì ta làm như sau.
 
 {% highlight python  linenos %}
@@ -135,6 +139,169 @@ Nếu chúng ta muốn lấy nhóm ký từ từ vị trí bắt đầu tới v�
       print(b[2:])
 
 {% endhighlight %}
+
+Kết quả : llo, World!.
+
+## **8. In chữ hoa**
+
+Để in hoa các ký tự ta dùng hàm upper() như sau.
+
+{% highlight python  linenos %}
+
+      b = "Hello, World!"
+      print(b[2:])
+
+{% endhighlight %}
+
+Kết quả là : HELLO, WORLD!.
+
+## **9. In chữ thường**
+
+Để in chữ thường ta dùng hàm lower() như sau
+
+{% highlight python  linenos %}
+
+      a = "Hello, World!"
+      print(a.lower())
+
+{% endhighlight %}
+
+Kết quả là : hello, world!.
+
+## **10. Xóa ký tự trắng**
+
+Để xóa ký tự trắng ở 2 đầu của chuỗi,ta dùng hàm strip() như sau.
+
+{% highlight python  linenos %}
+
+      a = " Hello, World! "
+      print(a.strip())
+
+{% endhighlight %}
+
+kết quả : Hello, World!.
+
+## **11. Thay thế các ký tự trong chuỗi**
+
+Ta dùng hàm replace để thay thế ký tự trong chuỗi như sau.
+
+{% highlight python  linenos %}
+
+      a = "Hello, World!"
+      print(a.replace("H", "J"))
+
+{% endhighlight %}
+
+kết quả : Jello, World!.
+
+## **12. Split các ký tự dựa vào các separator**
+
+Chúng ta sử dụng hàm split để lấy ra các ký tự dựa vào các separator như sau:
+
+{% highlight python  linenos %}
+
+      a = "Hello, World!"
+      print(a.split(","))
+
+{% endhighlight %}
+
+kết quả : ['Hello', ' World!'].
+
+## **13. Cộng các chuỗi**
+
+Chúng ta sử dụng dấu + để ghép 2 chuỗi lại với nhau.
+
+{% highlight python  linenos %}
+
+      a = "Hello"
+      b = "World"
+      c = a + b
+      print(c)
+
+{% endhighlight %}
+
+kết quả : HelloWorld.
+
+Hoặc chúng ta có thể sử dụng space và dấu "" để cộng chuỗi như sau.
+
+{% highlight python  linenos %}
+
+      a = "Hello"
+      b = "World"
+      c = a + " " + b
+      print(c)
+
+{% endhighlight %}
+
+kết quả : Hello World.
+
+## **14. Định dạng chuỗi**
+
+Chúng ta có thể kết hợp chuỗi và số theo một định dạng nhất định bằng cách sử dụng hàm format() như sau.
+
+{% highlight python  linenos %}
+
+      age = 36
+      txt = "My name is Le Academy, and I am {}"
+      print(txt.format(age))
+
+{% endhighlight %}
+
+kết quả : My name is Le Academy, and I am 36.
+
+Chúng ta có thể sử dụng bao nhiêu {} tùy thích như sau.
+
+{% highlight python  linenos %}
+
+      quantity = 4
+      itemno = 567
+      price = 89
+      myorder = "I want {} pieces of item {} for {} dollars."
+      print(myorder.format(quantity, itemno, price))
+
+{% endhighlight %}
+
+kết quả : I want 4 pieces of item 567 for 89 dollars..
+
+
+## **14. Thêm ký tự đặt biệt trong chuỗi**
+
+Chúng ta sử dụng \" chèn trước ký tự đặt biệt trong chuỗi như sau.
+
+{% highlight python  linenos %}
+
+      txt = "We are the so-called \"Le academy\" from the levunguyen.com"
+
+{% endhighlight %}
+
+kết quả : We are the so-called "Le academy" from the levunguyen.com.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
