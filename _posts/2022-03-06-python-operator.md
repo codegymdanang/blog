@@ -16,6 +16,7 @@ youtubeId: ttKo2gO-BCE
 ## **Giới thiệu nội dung bài viết**
 
 Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách <b>  sử dụng toán tử trong Python </b>. 
+Chúng ta sẽ đi qua các loại toán tử khác nhau của python
 
 ## **1. Toán học**
 
