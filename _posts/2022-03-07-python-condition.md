@@ -6,7 +6,7 @@ category: laptrinhpython
 tags: [python]
 summery: Câu điều kiện
 image: /images/blog/feature_javascript.png
-description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng toán tử trong python là gì
+description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng câu điều kiện trong python là gì
 
 youtubeId: ttKo2gO-BCE
 ---
