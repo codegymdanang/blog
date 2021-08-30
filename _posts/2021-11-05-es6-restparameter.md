@@ -6,7 +6,7 @@ category: laptrinhjavascript
 tags: [es6]
 summery:  Tham số rest
 image: /images/blog/feature_javascript.png
-description : Trình bày về cách cách sử dụng rest param của ES6. Lần lượt giới thiệu và giải thích khái niệm rest param trong phương thức của ES6 là gì? 
+description : Trình bày về cách sử dụng rest param của ES6. Lần lượt giới thiệu và giải thích khái niệm rest param trong phương thức của ES6 là gì? Đưa ra các ví dụ về Rest parameter trong ES6 và hướng dẫn cụ thể cách dùng như thế nào để bạn có thể thực hành được dễ dàng hơn. 
 
 youtubeId: HZjpCbC4QS0
 ---
@@ -15,9 +15,9 @@ youtubeId: HZjpCbC4QS0
 
 ## **Giới thiệu nội dung bài viết**
 
-Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về  cách khai báo và sử dụng <b>rest param </b> của ES6. Lần lượt giới thiệu và giải thích khái niệm và ví dụ về rest param của ES6 là gì? 
+Chào các bạn, hôm nay anh sẽ hướng dẫn mọi người về cách khai báo và sử dụng <b>rest param của ES6</b>. Lần lượt giới thiệu và giải thích khái niệm và ví dụ về rest param của ES6 là gì? 
 
-## **1. Giới thiệu về rest param**
+## **1. Giới thiệu về rest param trong ES6**
 
 ES6 cung cấp cho chúng ta một loại tham số mới truyền trong phương thức được gọi là rest param. Có nghĩa là chúng ta có thể truyền một mảng các tham số vào phương thức. Để truyền được mảng các tham số của một phương thức chúng ta dùng dấu 3 chấm như sau.
 
@@ -63,9 +63,9 @@ function foo(a,...rest, b) {
 
 Chúng ta phải đặt lại là foo(a,b,...rest)
 
-## **2. Ví dụ rest param**
+## **2. Ví dụ rest parameter trong ES6**
 
-Anh có phương thức sum như sau
+Anh có phương thức sum như sau:
 
 
 {% highlight javascript  linenos %}
