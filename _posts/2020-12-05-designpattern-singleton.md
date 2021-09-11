@@ -7,6 +7,7 @@ tags: [designpattern]
 summery: Singleton
 image: /images/blog/design-patterns.png
 description : Sử dụng Singleton design pattern trong lập trình java. Hướng dẫn sử dụng Singleton design pattern trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng Singleton design pattern trong lập trình.
+youtubeId: QWPCGYS7XiM
 ---
 
 {% include toc.html %}
@@ -149,3 +150,7 @@ public class DemoMultiThread {
 }
 
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

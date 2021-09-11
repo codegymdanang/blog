@@ -7,6 +7,7 @@ tags: [designpattern]
 summery: Factory Method
 image: /images/blog/design-patterns.png
 description : Sử dụng  Factory Method trong lập trình java. Hướng dẫn sử dụng  Factory Method trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng  Factory Method trong lập trình.
+youtubeId: j7PRfXSBloc
 ---
 
 {% include toc.html %}
@@ -181,3 +182,7 @@ public class WindowsButton implements Button {
 }
 
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

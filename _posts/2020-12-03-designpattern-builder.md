@@ -7,6 +7,7 @@ tags: [designpattern]
 summery: Builder
 image: /images/blog/design-patterns.png
 description : Sử dụng Builder design pattern trong lập trình java. Hướng dẫn sử dụng builder design pattern trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng builder design pattern trong lập trình.
+youtubeId: Pcl8M2tW6f4
 ---
 
 {% include toc.html %}
@@ -405,3 +406,7 @@ public class Manual {
 }
 
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}

@@ -7,6 +7,7 @@ tags: [designpattern]
 summery: Abstract Factory
 image: /images/blog/design-patterns.png
 description : Sử dụng Abstract Factory trong lập trình java. Hướng dẫn sử dụng abstract factory trong học lập trình java thông qua các ví dụ. Hiểu nguyên lý  khi nào sử dụng abstract factory trong lập trình.
+youtubeId: TaaZk1OKwNs
 ---
 
 {% include toc.html %}
@@ -264,3 +265,7 @@ public class Demo {
     }
 }
 {% endhighlight %}
+
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
