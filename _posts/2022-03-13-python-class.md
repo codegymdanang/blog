@@ -43,7 +43,7 @@ Chúng ta sử dụng từ khóa class để tạo một Class trong Python như
 
 ## **2. Hàm khởi tạo**
 
-Để tạo một hàm khởi tạo của một đối tượng ta sử dụng hàm __int__(). Ví dụ như khi tạo ra đối tượng Person có các giá trị được khởi tạo là tên và tuổi ta làm như sau.
+Để tạo một hàm khởi tạo của một đối tượng ta sử dụng hàm __ init __(). Ví dụ như khi tạo ra đối tượng Person có các giá trị được khởi tạo là tên và tuổi ta làm như sau.
 
 {% highlight python  linenos %}
 
