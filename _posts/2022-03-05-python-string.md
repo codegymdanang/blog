@@ -74,7 +74,7 @@ String là một mảng nên chúng ta có thể sử dụng vòng lặp để d
 
 {% endhighlight %}
 
-## **4. Lấy kích thướt của chuỗi**
+## **4. Lấy kích thước của chuỗi**
 
 Chúng ta sử dụng phương thức len() để lấy độ dài của chuỗi.
 
