@@ -8,7 +8,7 @@ summery: String
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng String trong Python. Để tạo ra kiểu dữ liệu string chúng ta có thể sử dụng một dấu một nháy hoặc hai dấu hai nháy như sau. 
 
-youtubeId: ttKo2gO-BCE
+youtubeId: t26YoNM_tvw
 ---
 
 {% include toc.html %}
@@ -276,7 +276,9 @@ Chúng ta sử dụng \" chèn trước ký tự đặt biệt trong chuỗi nh�
 
 kết quả : We are the so-called "Le academy" from the levunguyen.com.
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
