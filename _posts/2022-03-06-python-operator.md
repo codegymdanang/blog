@@ -8,7 +8,7 @@ summery: Toán tử
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng toán tử trong python là gì
 
-youtubeId: ttKo2gO-BCE
+youtubeId: Kf8P3bME0Yg
 ---
 
 {% include toc.html %}
@@ -126,7 +126,9 @@ Kết quả là 7.
 | <<				|Zero 	| 
 | >>				|Signed |
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
