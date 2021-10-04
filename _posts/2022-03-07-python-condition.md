@@ -8,7 +8,7 @@ summery: Câu điều kiện
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng câu điều kiện trong python là gì
 
-youtubeId: ttKo2gO-BCE
+youtubeId: mu6os3WvYHE
 ---
 
 {% include toc.html %}
@@ -153,6 +153,9 @@ Nếu mệnh đề if  bỏ trống thì sẽ gặp lỗi, để giải quyết 
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
