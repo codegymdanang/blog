@@ -8,7 +8,7 @@ summery: Vòng lặp
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng vòng lặp trong python là gì
 
-youtubeId: ttKo2gO-BCE
+youtubeId: _gqfYQG5Mak
 ---
 
 {% include toc.html %}
@@ -164,7 +164,9 @@ Vòng lặp for không được phép bỏ trống, nếu bỏ trống sẽ bị
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
