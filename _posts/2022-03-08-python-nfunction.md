@@ -8,7 +8,7 @@ summery: Hàm
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng hàm trong python là gì
 
-youtubeId: ttKo2gO-BCE
+youtubeId: QfK_qQJnswQ
 ---
 
 {% include toc.html %}
@@ -111,7 +111,9 @@ Hàm được tạo ra không được phép trống, nếu không sẽ gây ra 
 {% endhighlight %}
 
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
