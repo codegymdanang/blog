@@ -8,7 +8,7 @@ summery: Class
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng Class trong python là gì
 
-youtubeId: ttKo2gO-BCE
+youtubeId: pvaI7bRfwB8
 ---
 
 {% include toc.html %}
@@ -153,7 +153,9 @@ Khi tạo Class thì Python bắt buộc chúng ta phải khai báo giá trị b
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

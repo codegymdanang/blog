@@ -8,7 +8,7 @@ summery: Dictionary
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng dictionary trong python là gì
 
-youtubeId: ttKo2gO-BCE
+youtubeId: cGaGMOwzl6Q
 ---
 
 {% include toc.html %}
@@ -373,6 +373,9 @@ Chúng ta có thể tạo một hoặc nhiều dictionary trong một dictionary
 {% endhighlight %}
 
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

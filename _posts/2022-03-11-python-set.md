@@ -8,8 +8,8 @@ summery: Set
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng set trong python là gì
 
-youtubeId: ttKo2gO-BCE
----
+youtubeId: imVN7-o60LE
+----------------------
 
 {% include toc.html %}
 
@@ -216,6 +216,9 @@ Ngoài ra nếu như ta muốn xóa luôn Set thì ta có thể dùng từ khóa
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

@@ -8,7 +8,7 @@ summery: List
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng List trong python là gì
 
-youtubeId: ttKo2gO-BCE
+youtubeId: dTSp1PcvpbU
 ---
 
 {% include toc.html %}
@@ -333,6 +333,9 @@ Ngoài ra chúng ta có thể sử dụng hàm list()
 
 {% endhighlight %}
 
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

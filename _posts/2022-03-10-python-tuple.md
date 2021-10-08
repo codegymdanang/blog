@@ -8,7 +8,7 @@ summery: Tuple
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng Tuple trong python là gì
 
-youtubeId: ttKo2gO-BCE
+youtubeId: fLetzMIhZTs
 ---
 
 {% include toc.html %}
@@ -172,7 +172,9 @@ Chúng ta có thể duyệt qua các phần tử bằng cách khác như sử d�
 
 {% endhighlight %}
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 

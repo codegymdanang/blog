@@ -8,7 +8,7 @@ summery: Kế thừa
 image: /images/blog/feature_javascript.png
 description : Chào các em, hôm nay anh sẽ hướng dẫn mọi người cách sử dụng kế thừa trong python là gì
 
-youtubeId: ttKo2gO-BCE
+youtubeId: z0yEn1itf0M
 ---
 
 {% include toc.html %}
@@ -56,7 +56,9 @@ Chúng ta sử dụng ( ) để khai báo Class Student kế thừa Class Person
 
 Như vậy đối tượng Student sẽ được thừa hưởng các giá trị firstname, lastname và phương thức printname() từ đối tượng Person.
 
-
+{:refdef: style="text-align: center;"}
+{% include youtubePlayer.html id=page.youtubeId %}
+{: refdef}
 
 
 
