@@ -1,10 +1,10 @@
 ---
 layout: course-design-pattern
-title: Iterator Design Pattern
-slug: iterator-design-pattern
+title: State Design Pattern
+slug: state-design-pattern
 category: craftmanship
 tags: [designpattern]
-summery: Iterator
+summery: State
 image: /images/blog/design-patterns.png
 description : Hiểu State design pattern là gì ? vì sao sử dụng Iterator design pattern. Hướng dẫn các mẫu State design pattern trong học lập trình java.
 youtubeId: A5E8ei50LF8
