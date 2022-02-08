@@ -1,13 +1,14 @@
 ---
 layout: course-python
-title: khai báo biến trong python
+title: Khai báo biến trong python
 slug : khai-bao-bien-trong-python
-category: laptrinhpython
+category: devops
 tags: [python]
-summery: Khai báo biến
+summery:  Khai báo biến
 image: /images/blog/feature_javascript.png
-description : Hôm nay anh sẽ hướng dẫn mọi người cách sử khai báo biến trong Python. Biến được sử dụng để lưu trữ các giá trị. Python thì khác java và các ngôn ngữ khác khi mình khai báo biến. Ví dụ trong java mình khai báo biến number có giá trị bằng 5 thì ta làm như sau int number = 5, trong javascript thì mình khai báo var number = 5. Còn trong Python ta chỉ cần viết number = 5.
+description : Trình bày về khi nào chúng ta hiểu về khai báo biến trong python
 
+youtubeId: P_zAc0OBbIY
 ---
 
 {% include toc.html %}
