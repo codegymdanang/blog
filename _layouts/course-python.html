@@ -45,7 +45,7 @@
 					<div >
 									<div class="relatedpost">
 										<ul style="list-style-type:decimal;">
-											{% assign sorted = site.categories.laptrinhpython | reverse %}
+											{% assign sorted = site.category.laptrinhpython | reverse %}
 											{% for post in sorted  %}
 												{% if post.tags contains 'python' %}
 													<li>
