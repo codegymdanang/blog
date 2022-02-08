@@ -8,7 +8,6 @@ summery: Khai báo biến
 image: /images/blog/feature_javascript.png
 description : Hôm nay anh sẽ hướng dẫn mọi người cách sử khai báo biến trong Python. Biến được sử dụng để lưu trữ các giá trị. Python thì khác java và các ngôn ngữ khác khi mình khai báo biến. Ví dụ trong java mình khai báo biến number có giá trị bằng 5 thì ta làm như sau int number = 5, trong javascript thì mình khai báo var number = 5. Còn trong Python ta chỉ cần viết number = 5.
 
-youtubeId: PARpiMLjNsc
 ---
 
 {% include toc.html %}
