@@ -2,7 +2,7 @@
 layout: course-python
 title: Khai báo biến trong python
 slug : khai-bao-bien-trong-python
-category: devops
+category: laptrinhpython
 tags: [python]
 summery:  Khai báo biến
 image: /images/blog/feature_javascript.png
